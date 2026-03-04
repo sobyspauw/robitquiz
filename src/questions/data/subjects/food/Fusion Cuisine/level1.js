@@ -1,4104 +1,4108 @@
+// Fusion Cuisine - level1
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:35.606Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Fusion Cuisine",
-      "es": "Pregunta 1 sobre Fusion Cuisine",
-      "de": "Frage 1 über Fusion Cuisine",
-      "nl": "Vraag 1 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Fusion Cuisine",
-      "es": "Pregunta 2 sobre Fusion Cuisine",
-      "de": "Frage 2 über Fusion Cuisine",
-      "nl": "Vraag 2 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Fusion Cuisine",
-      "es": "Pregunta 3 sobre Fusion Cuisine",
-      "de": "Frage 3 über Fusion Cuisine",
-      "nl": "Vraag 3 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Fusion Cuisine",
-      "es": "Pregunta 4 sobre Fusion Cuisine",
-      "de": "Frage 4 über Fusion Cuisine",
-      "nl": "Vraag 4 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Fusion Cuisine",
-      "es": "Pregunta 5 sobre Fusion Cuisine",
-      "de": "Frage 5 über Fusion Cuisine",
-      "nl": "Vraag 5 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Fusion Cuisine",
-      "es": "Pregunta 6 sobre Fusion Cuisine",
-      "de": "Frage 6 über Fusion Cuisine",
-      "nl": "Vraag 6 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Fusion Cuisine",
-      "es": "Pregunta 7 sobre Fusion Cuisine",
-      "de": "Frage 7 über Fusion Cuisine",
-      "nl": "Vraag 7 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Fusion Cuisine",
-      "es": "Pregunta 8 sobre Fusion Cuisine",
-      "de": "Frage 8 über Fusion Cuisine",
-      "nl": "Vraag 8 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Fusion Cuisine",
-      "es": "Pregunta 9 sobre Fusion Cuisine",
-      "de": "Frage 9 über Fusion Cuisine",
-      "nl": "Vraag 9 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Fusion Cuisine",
-      "es": "Pregunta 10 sobre Fusion Cuisine",
-      "de": "Frage 10 über Fusion Cuisine",
-      "nl": "Vraag 10 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Fusion Cuisine",
-      "es": "Pregunta 11 sobre Fusion Cuisine",
-      "de": "Frage 11 über Fusion Cuisine",
-      "nl": "Vraag 11 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Fusion Cuisine",
-      "es": "Pregunta 12 sobre Fusion Cuisine",
-      "de": "Frage 12 über Fusion Cuisine",
-      "nl": "Vraag 12 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Fusion Cuisine",
-      "es": "Pregunta 13 sobre Fusion Cuisine",
-      "de": "Frage 13 über Fusion Cuisine",
-      "nl": "Vraag 13 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Fusion Cuisine",
-      "es": "Pregunta 14 sobre Fusion Cuisine",
-      "de": "Frage 14 über Fusion Cuisine",
-      "nl": "Vraag 14 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Fusion Cuisine",
-      "es": "Pregunta 15 sobre Fusion Cuisine",
-      "de": "Frage 15 über Fusion Cuisine",
-      "nl": "Vraag 15 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Fusion Cuisine",
-      "es": "Pregunta 16 sobre Fusion Cuisine",
-      "de": "Frage 16 über Fusion Cuisine",
-      "nl": "Vraag 16 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Fusion Cuisine",
-      "es": "Pregunta 17 sobre Fusion Cuisine",
-      "de": "Frage 17 über Fusion Cuisine",
-      "nl": "Vraag 17 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Fusion Cuisine",
-      "es": "Pregunta 18 sobre Fusion Cuisine",
-      "de": "Frage 18 über Fusion Cuisine",
-      "nl": "Vraag 18 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Fusion Cuisine",
-      "es": "Pregunta 19 sobre Fusion Cuisine",
-      "de": "Frage 19 über Fusion Cuisine",
-      "nl": "Vraag 19 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Fusion Cuisine",
-      "es": "Pregunta 20 sobre Fusion Cuisine",
-      "de": "Frage 20 über Fusion Cuisine",
-      "nl": "Vraag 20 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Fusion Cuisine",
-      "es": "Pregunta 21 sobre Fusion Cuisine",
-      "de": "Frage 21 über Fusion Cuisine",
-      "nl": "Vraag 21 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Fusion Cuisine",
-      "es": "Pregunta 22 sobre Fusion Cuisine",
-      "de": "Frage 22 über Fusion Cuisine",
-      "nl": "Vraag 22 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Fusion Cuisine",
-      "es": "Pregunta 23 sobre Fusion Cuisine",
-      "de": "Frage 23 über Fusion Cuisine",
-      "nl": "Vraag 23 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Fusion Cuisine",
-      "es": "Pregunta 24 sobre Fusion Cuisine",
-      "de": "Frage 24 über Fusion Cuisine",
-      "nl": "Vraag 24 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Fusion Cuisine",
-      "es": "Pregunta 25 sobre Fusion Cuisine",
-      "de": "Frage 25 über Fusion Cuisine",
-      "nl": "Vraag 25 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Fusion Cuisine",
-      "es": "Pregunta 26 sobre Fusion Cuisine",
-      "de": "Frage 26 über Fusion Cuisine",
-      "nl": "Vraag 26 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Fusion Cuisine",
-      "es": "Pregunta 27 sobre Fusion Cuisine",
-      "de": "Frage 27 über Fusion Cuisine",
-      "nl": "Vraag 27 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Fusion Cuisine",
-      "es": "Pregunta 28 sobre Fusion Cuisine",
-      "de": "Frage 28 über Fusion Cuisine",
-      "nl": "Vraag 28 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Fusion Cuisine",
-      "es": "Pregunta 29 sobre Fusion Cuisine",
-      "de": "Frage 29 über Fusion Cuisine",
-      "nl": "Vraag 29 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Fusion Cuisine",
-      "es": "Pregunta 30 sobre Fusion Cuisine",
-      "de": "Frage 30 über Fusion Cuisine",
-      "nl": "Vraag 30 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Fusion Cuisine",
-      "es": "Pregunta 31 sobre Fusion Cuisine",
-      "de": "Frage 31 über Fusion Cuisine",
-      "nl": "Vraag 31 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Fusion Cuisine",
-      "es": "Pregunta 32 sobre Fusion Cuisine",
-      "de": "Frage 32 über Fusion Cuisine",
-      "nl": "Vraag 32 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Fusion Cuisine",
-      "es": "Pregunta 33 sobre Fusion Cuisine",
-      "de": "Frage 33 über Fusion Cuisine",
-      "nl": "Vraag 33 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Fusion Cuisine",
-      "es": "Pregunta 34 sobre Fusion Cuisine",
-      "de": "Frage 34 über Fusion Cuisine",
-      "nl": "Vraag 34 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Fusion Cuisine",
-      "es": "Pregunta 35 sobre Fusion Cuisine",
-      "de": "Frage 35 über Fusion Cuisine",
-      "nl": "Vraag 35 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Fusion Cuisine",
-      "es": "Pregunta 36 sobre Fusion Cuisine",
-      "de": "Frage 36 über Fusion Cuisine",
-      "nl": "Vraag 36 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Fusion Cuisine",
-      "es": "Pregunta 37 sobre Fusion Cuisine",
-      "de": "Frage 37 über Fusion Cuisine",
-      "nl": "Vraag 37 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Fusion Cuisine",
-      "es": "Pregunta 38 sobre Fusion Cuisine",
-      "de": "Frage 38 über Fusion Cuisine",
-      "nl": "Vraag 38 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Fusion Cuisine",
-      "es": "Pregunta 39 sobre Fusion Cuisine",
-      "de": "Frage 39 über Fusion Cuisine",
-      "nl": "Vraag 39 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Fusion Cuisine",
-      "es": "Pregunta 40 sobre Fusion Cuisine",
-      "de": "Frage 40 über Fusion Cuisine",
-      "nl": "Vraag 40 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Fusion Cuisine",
-      "es": "Pregunta 41 sobre Fusion Cuisine",
-      "de": "Frage 41 über Fusion Cuisine",
-      "nl": "Vraag 41 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Fusion Cuisine",
-      "es": "Pregunta 42 sobre Fusion Cuisine",
-      "de": "Frage 42 über Fusion Cuisine",
-      "nl": "Vraag 42 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Fusion Cuisine",
-      "es": "Pregunta 43 sobre Fusion Cuisine",
-      "de": "Frage 43 über Fusion Cuisine",
-      "nl": "Vraag 43 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Fusion Cuisine",
-      "es": "Pregunta 44 sobre Fusion Cuisine",
-      "de": "Frage 44 über Fusion Cuisine",
-      "nl": "Vraag 44 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Fusion Cuisine",
-      "es": "Pregunta 45 sobre Fusion Cuisine",
-      "de": "Frage 45 über Fusion Cuisine",
-      "nl": "Vraag 45 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Fusion Cuisine",
-      "es": "Pregunta 46 sobre Fusion Cuisine",
-      "de": "Frage 46 über Fusion Cuisine",
-      "nl": "Vraag 46 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Fusion Cuisine",
-      "es": "Pregunta 47 sobre Fusion Cuisine",
-      "de": "Frage 47 über Fusion Cuisine",
-      "nl": "Vraag 47 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Fusion Cuisine",
-      "es": "Pregunta 48 sobre Fusion Cuisine",
-      "de": "Frage 48 über Fusion Cuisine",
-      "nl": "Vraag 48 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Fusion Cuisine",
-      "es": "Pregunta 49 sobre Fusion Cuisine",
-      "de": "Frage 49 über Fusion Cuisine",
-      "nl": "Vraag 49 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Fusion Cuisine",
-      "es": "Pregunta 50 sobre Fusion Cuisine",
-      "de": "Frage 50 über Fusion Cuisine",
-      "nl": "Vraag 50 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Fusion Cuisine",
-      "es": "Pregunta 51 sobre Fusion Cuisine",
-      "de": "Frage 51 über Fusion Cuisine",
-      "nl": "Vraag 51 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Fusion Cuisine",
-      "es": "Pregunta 52 sobre Fusion Cuisine",
-      "de": "Frage 52 über Fusion Cuisine",
-      "nl": "Vraag 52 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Fusion Cuisine",
-      "es": "Pregunta 53 sobre Fusion Cuisine",
-      "de": "Frage 53 über Fusion Cuisine",
-      "nl": "Vraag 53 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Fusion Cuisine",
-      "es": "Pregunta 54 sobre Fusion Cuisine",
-      "de": "Frage 54 über Fusion Cuisine",
-      "nl": "Vraag 54 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Fusion Cuisine",
-      "es": "Pregunta 55 sobre Fusion Cuisine",
-      "de": "Frage 55 über Fusion Cuisine",
-      "nl": "Vraag 55 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Fusion Cuisine",
-      "es": "Pregunta 56 sobre Fusion Cuisine",
-      "de": "Frage 56 über Fusion Cuisine",
-      "nl": "Vraag 56 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Fusion Cuisine",
-      "es": "Pregunta 57 sobre Fusion Cuisine",
-      "de": "Frage 57 über Fusion Cuisine",
-      "nl": "Vraag 57 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Fusion Cuisine",
-      "es": "Pregunta 58 sobre Fusion Cuisine",
-      "de": "Frage 58 über Fusion Cuisine",
-      "nl": "Vraag 58 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Fusion Cuisine",
-      "es": "Pregunta 59 sobre Fusion Cuisine",
-      "de": "Frage 59 über Fusion Cuisine",
-      "nl": "Vraag 59 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Fusion Cuisine",
-      "es": "Pregunta 60 sobre Fusion Cuisine",
-      "de": "Frage 60 über Fusion Cuisine",
-      "nl": "Vraag 60 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Fusion Cuisine",
-      "es": "Pregunta 61 sobre Fusion Cuisine",
-      "de": "Frage 61 über Fusion Cuisine",
-      "nl": "Vraag 61 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Fusion Cuisine",
-      "es": "Pregunta 62 sobre Fusion Cuisine",
-      "de": "Frage 62 über Fusion Cuisine",
-      "nl": "Vraag 62 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Fusion Cuisine",
-      "es": "Pregunta 63 sobre Fusion Cuisine",
-      "de": "Frage 63 über Fusion Cuisine",
-      "nl": "Vraag 63 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Fusion Cuisine",
-      "es": "Pregunta 64 sobre Fusion Cuisine",
-      "de": "Frage 64 über Fusion Cuisine",
-      "nl": "Vraag 64 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Fusion Cuisine",
-      "es": "Pregunta 65 sobre Fusion Cuisine",
-      "de": "Frage 65 über Fusion Cuisine",
-      "nl": "Vraag 65 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Fusion Cuisine",
-      "es": "Pregunta 66 sobre Fusion Cuisine",
-      "de": "Frage 66 über Fusion Cuisine",
-      "nl": "Vraag 66 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Fusion Cuisine",
-      "es": "Pregunta 67 sobre Fusion Cuisine",
-      "de": "Frage 67 über Fusion Cuisine",
-      "nl": "Vraag 67 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Fusion Cuisine",
-      "es": "Pregunta 68 sobre Fusion Cuisine",
-      "de": "Frage 68 über Fusion Cuisine",
-      "nl": "Vraag 68 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Fusion Cuisine",
-      "es": "Pregunta 69 sobre Fusion Cuisine",
-      "de": "Frage 69 über Fusion Cuisine",
-      "nl": "Vraag 69 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Fusion Cuisine",
-      "es": "Pregunta 70 sobre Fusion Cuisine",
-      "de": "Frage 70 über Fusion Cuisine",
-      "nl": "Vraag 70 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Fusion Cuisine",
-      "es": "Pregunta 71 sobre Fusion Cuisine",
-      "de": "Frage 71 über Fusion Cuisine",
-      "nl": "Vraag 71 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Fusion Cuisine",
-      "es": "Pregunta 72 sobre Fusion Cuisine",
-      "de": "Frage 72 über Fusion Cuisine",
-      "nl": "Vraag 72 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Fusion Cuisine",
-      "es": "Pregunta 73 sobre Fusion Cuisine",
-      "de": "Frage 73 über Fusion Cuisine",
-      "nl": "Vraag 73 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Fusion Cuisine",
-      "es": "Pregunta 74 sobre Fusion Cuisine",
-      "de": "Frage 74 über Fusion Cuisine",
-      "nl": "Vraag 74 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Fusion Cuisine",
-      "es": "Pregunta 75 sobre Fusion Cuisine",
-      "de": "Frage 75 über Fusion Cuisine",
-      "nl": "Vraag 75 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Fusion Cuisine",
-      "es": "Pregunta 76 sobre Fusion Cuisine",
-      "de": "Frage 76 über Fusion Cuisine",
-      "nl": "Vraag 76 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Fusion Cuisine",
-      "es": "Pregunta 77 sobre Fusion Cuisine",
-      "de": "Frage 77 über Fusion Cuisine",
-      "nl": "Vraag 77 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Fusion Cuisine",
-      "es": "Pregunta 78 sobre Fusion Cuisine",
-      "de": "Frage 78 über Fusion Cuisine",
-      "nl": "Vraag 78 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Fusion Cuisine",
-      "es": "Pregunta 79 sobre Fusion Cuisine",
-      "de": "Frage 79 über Fusion Cuisine",
-      "nl": "Vraag 79 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Fusion Cuisine",
-      "es": "Pregunta 80 sobre Fusion Cuisine",
-      "de": "Frage 80 über Fusion Cuisine",
-      "nl": "Vraag 80 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Fusion Cuisine",
-      "es": "Pregunta 81 sobre Fusion Cuisine",
-      "de": "Frage 81 über Fusion Cuisine",
-      "nl": "Vraag 81 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Fusion Cuisine",
-      "es": "Pregunta 82 sobre Fusion Cuisine",
-      "de": "Frage 82 über Fusion Cuisine",
-      "nl": "Vraag 82 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Fusion Cuisine",
-      "es": "Pregunta 83 sobre Fusion Cuisine",
-      "de": "Frage 83 über Fusion Cuisine",
-      "nl": "Vraag 83 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Fusion Cuisine",
-      "es": "Pregunta 84 sobre Fusion Cuisine",
-      "de": "Frage 84 über Fusion Cuisine",
-      "nl": "Vraag 84 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Fusion Cuisine",
-      "es": "Pregunta 85 sobre Fusion Cuisine",
-      "de": "Frage 85 über Fusion Cuisine",
-      "nl": "Vraag 85 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Fusion Cuisine",
-      "es": "Pregunta 86 sobre Fusion Cuisine",
-      "de": "Frage 86 über Fusion Cuisine",
-      "nl": "Vraag 86 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Fusion Cuisine",
-      "es": "Pregunta 87 sobre Fusion Cuisine",
-      "de": "Frage 87 über Fusion Cuisine",
-      "nl": "Vraag 87 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Fusion Cuisine",
-      "es": "Pregunta 88 sobre Fusion Cuisine",
-      "de": "Frage 88 über Fusion Cuisine",
-      "nl": "Vraag 88 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Fusion Cuisine",
-      "es": "Pregunta 89 sobre Fusion Cuisine",
-      "de": "Frage 89 über Fusion Cuisine",
-      "nl": "Vraag 89 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Fusion Cuisine",
-      "es": "Pregunta 90 sobre Fusion Cuisine",
-      "de": "Frage 90 über Fusion Cuisine",
-      "nl": "Vraag 90 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Fusion Cuisine",
-      "es": "Pregunta 91 sobre Fusion Cuisine",
-      "de": "Frage 91 über Fusion Cuisine",
-      "nl": "Vraag 91 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Fusion Cuisine",
-      "es": "Pregunta 92 sobre Fusion Cuisine",
-      "de": "Frage 92 über Fusion Cuisine",
-      "nl": "Vraag 92 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Fusion Cuisine",
-      "es": "Pregunta 93 sobre Fusion Cuisine",
-      "de": "Frage 93 über Fusion Cuisine",
-      "nl": "Vraag 93 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Fusion Cuisine",
-      "es": "Pregunta 94 sobre Fusion Cuisine",
-      "de": "Frage 94 über Fusion Cuisine",
-      "nl": "Vraag 94 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Fusion Cuisine",
-      "es": "Pregunta 95 sobre Fusion Cuisine",
-      "de": "Frage 95 über Fusion Cuisine",
-      "nl": "Vraag 95 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Fusion Cuisine",
-      "es": "Pregunta 96 sobre Fusion Cuisine",
-      "de": "Frage 96 über Fusion Cuisine",
-      "nl": "Vraag 96 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Fusion Cuisine",
-      "es": "Pregunta 97 sobre Fusion Cuisine",
-      "de": "Frage 97 über Fusion Cuisine",
-      "nl": "Vraag 97 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Fusion Cuisine",
-      "es": "Pregunta 98 sobre Fusion Cuisine",
-      "de": "Frage 98 über Fusion Cuisine",
-      "nl": "Vraag 98 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Fusion Cuisine",
-      "es": "Pregunta 99 sobre Fusion Cuisine",
-      "de": "Frage 99 über Fusion Cuisine",
-      "nl": "Vraag 99 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Fusion Cuisine",
-      "es": "Pregunta 100 sobre Fusion Cuisine",
-      "de": "Frage 100 über Fusion Cuisine",
-      "nl": "Vraag 100 over Fusion Cuisine"
-    },
-    "options": [
-      {
-        "en": "Answer A for Fusion Cuisine",
-        "es": "Respuesta A para Fusion Cuisine",
-        "de": "Antwort A für Fusion Cuisine",
-        "nl": "Antwoord A voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer B for Fusion Cuisine",
-        "es": "Respuesta B para Fusion Cuisine",
-        "de": "Antwort B für Fusion Cuisine",
-        "nl": "Antwoord B voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer C for Fusion Cuisine",
-        "es": "Respuesta C para Fusion Cuisine",
-        "de": "Antwort C für Fusion Cuisine",
-        "nl": "Antwoord C voor Fusion Cuisine"
-      },
-      {
-        "en": "Answer D for Fusion Cuisine",
-        "es": "Respuesta D para Fusion Cuisine",
-        "de": "Antwort D für Fusion Cuisine",
-        "nl": "Antwoord D voor Fusion Cuisine"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Fusion Cuisine.",
-      "es": "Esta es la respuesta correcta sobre Fusion Cuisine.",
-      "de": "Dies ist die richtige Antwort über Fusion Cuisine.",
-      "nl": "Dit is het juiste antwoord over Fusion Cuisine."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What is fusion cuisine?",
+                            "es": "¿Qué es la cocina fusión?",
+                            "de": "Was ist Fusionsküche?",
+                            "nl": "Wat is fusiekeoken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Combining ingredients and techniques from different culinary traditions",
+                                    "es": "Combinar ingredientes y técnicas de diferentes tradiciones culinarias",
+                                    "de": "Kombination von Zutaten und Techniken aus verschiedenen kulinarischen Traditionen",
+                                    "nl": "Het combineren van ingrediënten en technieken uit verschillende culinaire tradities"
+                            },
+                            {
+                                    "en": "Only mixing spices together",
+                                    "es": "Solo mezclar especias juntas",
+                                    "de": "Nur Gewürze zusammen mischen",
+                                    "nl": "Alleen kruiden mengen"
+                            },
+                            {
+                                    "en": "Cooking at high temperatures",
+                                    "es": "Cocinar a altas temperaturas",
+                                    "de": "Bei hohen Temperaturen kochen",
+                                    "nl": "Koken op hoge temperaturen"
+                            },
+                            {
+                                    "en": "Using only local ingredients",
+                                    "es": "Usar solo ingredientes locales",
+                                    "de": "Nur lokale Zutaten verwenden",
+                                    "nl": "Alleen lokale ingrediënten gebruiken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Fusion cuisine combines elements from different culinary traditions to create innovative dishes. It emerged prominently in the 1970s when chefs began blending Asian and Western cooking techniques, ingredients, and presentations to create entirely new flavor profiles.",
+                            "es": "La cocina fusión combina elementos de diferentes tradiciones culinarias para crear platos innovadores. Surgió prominentemente en los años 1970 cuando los chefs comenzaron a mezclar técnicas de cocina, ingredientes y presentaciones asiáticas y occidentales para crear perfiles de sabor completamente nuevos.",
+                            "de": "Fusionsküche kombiniert Elemente aus verschiedenen kulinarischen Traditionen um innovative Gerichte zu kreieren. Sie entstand prominent in den 1970er Jahren als Köche begannen asiatische und westliche Kochtechniken, Zutaten und Präsentationen zu mischen um völlig neue Geschmacksprofile zu schaffen.",
+                            "nl": "Fusiekeoken combineert elementen uit verschillende culinaire tradities om innovatieve gerechten te creëren. Het ontstond prominent in de jaren 1970 toen chefs Aziatische en Westerse kooktechnieken, ingrediënten en presentaties begonnen te mengen om volledig nieuwe smaakprofielen te creëren."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which popular dish combines Japanese and Mexican cuisines?",
+                            "es": "¿Qué plato popular combina las cocinas japonesa y mexicana?",
+                            "de": "Welches beliebte Gericht kombiniert japanische und mexikanische Küche?",
+                            "nl": "Welk populair gerecht combineert Japanse en Mexicaanse keukens?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Sushi burrito",
+                                    "es": "Burrito de sushi",
+                                    "de": "Sushi Burrito",
+                                    "nl": "Sushi burrito"
+                            },
+                            {
+                                    "en": "Pizza pasta",
+                                    "es": "Pizza pasta",
+                                    "de": "Pizza Pasta",
+                                    "nl": "Pizza pasta"
+                            },
+                            {
+                                    "en": "Burger soup",
+                                    "es": "Sopa de hamburguesa",
+                                    "de": "Burger Suppe",
+                                    "nl": "Burger soep"
+                            },
+                            {
+                                    "en": "Salad sandwich",
+                                    "es": "Sándwich de ensalada",
+                                    "de": "Salat Sandwich",
+                                    "nl": "Salade sandwich"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The sushi burrito is a popular fusion creation that wraps sushi ingredients like raw fish, rice, and vegetables in a large seaweed sheet, burrito-style. It combines the fresh flavors of Japanese sushi with the portable format of a Mexican burrito.",
+                            "es": "El burrito de sushi es una creación de fusión popular que envuelve ingredientes de sushi como pescado crudo, arroz y verduras en una hoja grande de alga marina, estilo burrito. Combina los sabores frescos del sushi japonés con el formato portátil de un burrito mexicano.",
+                            "de": "Der Sushi Burrito ist eine beliebte Fusion-Kreation die Sushi-Zutaten wie rohen Fisch, Reis und Gemüse in einem großen Seetang-Blatt im Burrito-Stil einwickelt. Er kombiniert die frischen Aromen von japanischem Sushi mit dem tragbaren Format eines mexikanischen Burritos.",
+                            "nl": "De sushi burrito is een populaire fusiecreatie die sushi-ingrediënten zoals rauwe vis, rijst en groenten in een groot zeewierblad wikkelt, burrito-stijl. Het combineert de verse smaken van Japanse sushi met het draagbare formaat van een Mexicaanse burrito."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is Tex-Mex cuisine?",
+                            "es": "¿Qué es la cocina Tex-Mex?",
+                            "de": "Was ist Tex-Mex Küche?",
+                            "nl": "Wat is Tex-Mex keuken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A fusion of Texas and Mexican cooking styles",
+                                    "es": "Una fusión de estilos de cocina de Texas y México",
+                                    "de": "Eine Fusion von texanischen und mexikanischen Kochstilen",
+                                    "nl": "Een fusie van Texaanse en Mexicaanse kookstijlen"
+                            },
+                            {
+                                    "en": "Only spicy Mexican food",
+                                    "es": "Solo comida mexicana picante",
+                                    "de": "Nur scharfes mexikanisches Essen",
+                                    "nl": "Alleen pittig Mexicaans eten"
+                            },
+                            {
+                                    "en": "Traditional Mexican cuisine",
+                                    "es": "Cocina tradicional mexicana",
+                                    "de": "Traditionelle mexikanische Küche",
+                                    "nl": "Traditionele Mexicaanse keuken"
+                            },
+                            {
+                                    "en": "American fast food",
+                                    "es": "Comida rápida americana",
+                                    "de": "Amerikanisches Fast Food",
+                                    "nl": "Amerikaans fastfood"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tex-Mex is a fusion cuisine that developed along the Texas-Mexico border, combining Mexican ingredients with American preferences. It features dishes like nachos, fajitas, and hard-shell tacos, often with yellow cheese, sour cream, and ground beef not typical in traditional Mexican cuisine.",
+                            "es": "Tex-Mex es una cocina de fusión que se desarrolló a lo largo de la frontera Texas-México, combinando ingredientes mexicanos con preferencias americanas. Presenta platos como nachos, fajitas y tacos de concha dura, a menudo con queso amarillo, crema agria y carne molida no típicos en la cocina tradicional mexicana.",
+                            "de": "Tex-Mex ist eine Fusionsküche die sich entlang der Texas-Mexiko Grenze entwickelte, kombiniert mexikanische Zutaten mit amerikanischen Vorlieben. Sie bietet Gerichte wie Nachos, Fajitas und Hart-Schalen-Tacos, oft mit gelbem Käse, Sauerrahm und Hackfleisch die nicht typisch für traditionelle mexikanische Küche sind.",
+                            "nl": "Tex-Mex is een fusiekeoken die zich ontwikkelde langs de Texas-Mexico grens, combineert Mexicaanse ingrediënten met Amerikaanse voorkeuren. Het bevat gerechten zoals nachos, fajitas en hardshell taco's, vaak met gele kaas, zure room en gehakt niet typisch in traditionele Mexicaanse keuken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which fusion combines French and Vietnamese cuisines?",
+                            "es": "¿Qué fusión combina las cocinas francesa y vietnamita?",
+                            "de": "Welche Fusion kombiniert französische und vietnamesische Küche?",
+                            "nl": "Welke fusie combineert Franse en Vietnamese keukens?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Bánh mì sandwich",
+                                    "es": "Sándwich bánh mì",
+                                    "de": "Bánh mì Sandwich",
+                                    "nl": "Bánh mì sandwich"
+                            },
+                            {
+                                    "en": "Ramen burger",
+                                    "es": "Hamburguesa ramen",
+                                    "de": "Ramen Burger",
+                                    "nl": "Ramen burger"
+                            },
+                            {
+                                    "en": "Sushi pizza",
+                                    "es": "Pizza de sushi",
+                                    "de": "Sushi Pizza",
+                                    "nl": "Sushi pizza"
+                            },
+                            {
+                                    "en": "Taco pasta",
+                                    "es": "Pasta de taco",
+                                    "de": "Taco Pasta",
+                                    "nl": "Taco pasta"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bánh mì is a Vietnamese-French fusion that emerged during French colonial rule in Vietnam. It uses a French baguette filled with Vietnamese ingredients like pâté, cilantro, pickled vegetables, and various meats, representing a perfect blend of both culinary traditions.",
+                            "es": "Bánh mì es una fusión vietnamita-francesa que surgió durante el dominio colonial francés en Vietnam. Usa una baguette francesa rellena con ingredientes vietnamitas como paté, cilantro, verduras encurtidas y varias carnes, representando una mezcla perfecta de ambas tradiciones culinarias.",
+                            "de": "Bánh mì ist eine vietnamesisch-französische Fusion die während der französischen Kolonialherrschaft in Vietnam entstand. Es verwendet ein französisches Baguette gefüllt mit vietnamesischen Zutaten wie Pastete, Koriander, eingelegtem Gemüse und verschiedenen Fleischsorten, repräsentiert eine perfekte Mischung beider kulinarischer Traditionen.",
+                            "nl": "Bánh mì is een Vietnamees-Franse fusie die ontstond tijdens de Franse koloniale heerschappij in Vietnam. Het gebruikt een Franse baguette gevuld met Vietnamese ingrediënten zoals paté, koriander, ingelegde groenten en verschillende vleessoorten, vertegenwoordigt een perfecte mix van beide culinaire tradities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technique is commonly used in fusion cooking?",
+                            "es": "¿Qué técnica se usa comúnmente en la cocina fusión?",
+                            "de": "Welche Technik wird häufig in der Fusionsküche verwendet?",
+                            "nl": "Welke techniek wordt vaak gebruikt in fusiekeoken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mixing cooking methods from different cuisines",
+                                    "es": "Mezclar métodos de cocción de diferentes cocinas",
+                                    "de": "Mischen von Kochmethoden aus verschiedenen Küchen",
+                                    "nl": "Het mengen van kookmethoden uit verschillende keukens"
+                            },
+                            {
+                                    "en": "Only boiling everything",
+                                    "es": "Solo hervir todo",
+                                    "de": "Nur alles kochen",
+                                    "nl": "Alleen alles koken"
+                            },
+                            {
+                                    "en": "Using one spice only",
+                                    "es": "Usar solo una especia",
+                                    "de": "Nur ein Gewürz verwenden",
+                                    "nl": "Slechts één kruid gebruiken"
+                            },
+                            {
+                                    "en": "Cooking separately",
+                                    "es": "Cocinar por separado",
+                                    "de": "Getrennt kochen",
+                                    "nl": "Apart koken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Fusion cuisine often combines cooking techniques from different cultures, such as using French sous-vide with Asian marinades, or applying wok-frying techniques to Italian pasta. This cross-cultural approach creates unique textures and flavors impossible in traditional single-cuisine cooking.",
+                            "es": "La cocina fusión a menudo combina técnicas de cocción de diferentes culturas, como usar sous-vide francés con marinadas asiáticas, o aplicar técnicas de wok a la pasta italiana. Este enfoque intercultural crea texturas y sabores únicos imposibles en la cocina tradicional de una sola cultura.",
+                            "de": "Fusionsküche kombiniert oft Kochtechniken aus verschiedenen Kulturen, wie französisches Sous-vide mit asiatischen Marinaden, oder Wok-Braten-Techniken auf italienische Pasta anwenden. Dieser interkulturelle Ansatz schafft einzigartige Texturen und Aromen unmöglich in traditionellem Ein-Küchen-Kochen.",
+                            "nl": "Fusiekeoken combineert vaak kooktechnieken uit verschillende culturen, zoals Frans sous-vide met Aziatische marinades, of wok-baktechnieken toepassen op Italiaanse pasta. Deze interculturele aanpak creëert unieke texturen en smaken onmogelijk in traditioneel enkelvoudig-keuken koken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 6",
+                                    "es": "Incorrect option 1 para question 6",
+                                    "de": "Incorrect option 1 für question 6",
+                                    "nl": "Incorrect option 1 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 6",
+                                    "es": "Incorrect option 2 para question 6",
+                                    "de": "Incorrect option 2 für question 6",
+                                    "nl": "Incorrect option 2 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 6",
+                                    "es": "Incorrect option 3 para question 6",
+                                    "de": "Incorrect option 3 für question 6",
+                                    "nl": "Incorrect option 3 voor question 6"
+                            },
+                            {
+                                    "en": "Correct answer for question 6",
+                                    "es": "Correct answer for question 6",
+                                    "de": "Correct answer for question 6",
+                                    "nl": "Correct answer for question 6"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 7",
+                                    "es": "Correct answer for question 7",
+                                    "de": "Correct answer for question 7",
+                                    "nl": "Correct answer for question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 7",
+                                    "es": "Incorrect option 2 para question 7",
+                                    "de": "Incorrect option 2 für question 7",
+                                    "nl": "Incorrect option 2 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 7",
+                                    "es": "Incorrect option 3 para question 7",
+                                    "de": "Incorrect option 3 für question 7",
+                                    "nl": "Incorrect option 3 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 7",
+                                    "es": "Incorrect option 4 para question 7",
+                                    "de": "Incorrect option 4 für question 7",
+                                    "nl": "Incorrect option 4 voor question 7"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 8",
+                                    "es": "Incorrect option 1 para question 8",
+                                    "de": "Incorrect option 1 für question 8",
+                                    "nl": "Incorrect option 1 voor question 8"
+                            },
+                            {
+                                    "en": "Correct answer for question 8",
+                                    "es": "Correct answer for question 8",
+                                    "de": "Correct answer for question 8",
+                                    "nl": "Correct answer for question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 8",
+                                    "es": "Incorrect option 3 para question 8",
+                                    "de": "Incorrect option 3 für question 8",
+                                    "nl": "Incorrect option 3 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 8",
+                                    "es": "Incorrect option 4 para question 8",
+                                    "de": "Incorrect option 4 für question 8",
+                                    "nl": "Incorrect option 4 voor question 8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 9",
+                                    "es": "Incorrect option 1 para question 9",
+                                    "de": "Incorrect option 1 für question 9",
+                                    "nl": "Incorrect option 1 voor question 9"
+                            },
+                            {
+                                    "en": "Correct answer for question 9",
+                                    "es": "Correct answer for question 9",
+                                    "de": "Correct answer for question 9",
+                                    "nl": "Correct answer for question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 9",
+                                    "es": "Incorrect option 3 para question 9",
+                                    "de": "Incorrect option 3 für question 9",
+                                    "nl": "Incorrect option 3 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 9",
+                                    "es": "Incorrect option 4 para question 9",
+                                    "de": "Incorrect option 4 für question 9",
+                                    "nl": "Incorrect option 4 voor question 9"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 10",
+                                    "es": "Incorrect option 1 para question 10",
+                                    "de": "Incorrect option 1 für question 10",
+                                    "nl": "Incorrect option 1 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 10",
+                                    "es": "Incorrect option 2 para question 10",
+                                    "de": "Incorrect option 2 für question 10",
+                                    "nl": "Incorrect option 2 voor question 10"
+                            },
+                            {
+                                    "en": "Correct answer for question 10",
+                                    "es": "Correct answer for question 10",
+                                    "de": "Correct answer for question 10",
+                                    "nl": "Correct answer for question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 10",
+                                    "es": "Incorrect option 4 para question 10",
+                                    "de": "Incorrect option 4 für question 10",
+                                    "nl": "Incorrect option 4 voor question 10"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 11",
+                                    "es": "Incorrect option 1 para question 11",
+                                    "de": "Incorrect option 1 für question 11",
+                                    "nl": "Incorrect option 1 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 11",
+                                    "es": "Incorrect option 2 para question 11",
+                                    "de": "Incorrect option 2 für question 11",
+                                    "nl": "Incorrect option 2 voor question 11"
+                            },
+                            {
+                                    "en": "Correct answer for question 11",
+                                    "es": "Correct answer for question 11",
+                                    "de": "Correct answer for question 11",
+                                    "nl": "Correct answer for question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 11",
+                                    "es": "Incorrect option 4 para question 11",
+                                    "de": "Incorrect option 4 für question 11",
+                                    "nl": "Incorrect option 4 voor question 11"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 12",
+                                    "es": "Correct answer for question 12",
+                                    "de": "Correct answer for question 12",
+                                    "nl": "Correct answer for question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 12",
+                                    "es": "Incorrect option 2 para question 12",
+                                    "de": "Incorrect option 2 für question 12",
+                                    "nl": "Incorrect option 2 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 12",
+                                    "es": "Incorrect option 3 para question 12",
+                                    "de": "Incorrect option 3 für question 12",
+                                    "nl": "Incorrect option 3 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 12",
+                                    "es": "Incorrect option 4 para question 12",
+                                    "de": "Incorrect option 4 für question 12",
+                                    "nl": "Incorrect option 4 voor question 12"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 13",
+                                    "es": "Incorrect option 1 para question 13",
+                                    "de": "Incorrect option 1 für question 13",
+                                    "nl": "Incorrect option 1 voor question 13"
+                            },
+                            {
+                                    "en": "Correct answer for question 13",
+                                    "es": "Correct answer for question 13",
+                                    "de": "Correct answer for question 13",
+                                    "nl": "Correct answer for question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 13",
+                                    "es": "Incorrect option 3 para question 13",
+                                    "de": "Incorrect option 3 für question 13",
+                                    "nl": "Incorrect option 3 voor question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 13",
+                                    "es": "Incorrect option 4 para question 13",
+                                    "de": "Incorrect option 4 für question 13",
+                                    "nl": "Incorrect option 4 voor question 13"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 14",
+                                    "es": "Incorrect option 1 para question 14",
+                                    "de": "Incorrect option 1 für question 14",
+                                    "nl": "Incorrect option 1 voor question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 14",
+                                    "es": "Incorrect option 2 para question 14",
+                                    "de": "Incorrect option 2 für question 14",
+                                    "nl": "Incorrect option 2 voor question 14"
+                            },
+                            {
+                                    "en": "Correct answer for question 14",
+                                    "es": "Correct answer for question 14",
+                                    "de": "Correct answer for question 14",
+                                    "nl": "Correct answer for question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 14",
+                                    "es": "Incorrect option 4 para question 14",
+                                    "de": "Incorrect option 4 für question 14",
+                                    "nl": "Incorrect option 4 voor question 14"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 15",
+                                    "es": "Correct answer for question 15",
+                                    "de": "Correct answer for question 15",
+                                    "nl": "Correct answer for question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 15",
+                                    "es": "Incorrect option 2 para question 15",
+                                    "de": "Incorrect option 2 für question 15",
+                                    "nl": "Incorrect option 2 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 15",
+                                    "es": "Incorrect option 3 para question 15",
+                                    "de": "Incorrect option 3 für question 15",
+                                    "nl": "Incorrect option 3 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 15",
+                                    "es": "Incorrect option 4 para question 15",
+                                    "de": "Incorrect option 4 für question 15",
+                                    "nl": "Incorrect option 4 voor question 15"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 16",
+                                    "es": "Incorrect option 1 para question 16",
+                                    "de": "Incorrect option 1 für question 16",
+                                    "nl": "Incorrect option 1 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 16",
+                                    "es": "Incorrect option 2 para question 16",
+                                    "de": "Incorrect option 2 für question 16",
+                                    "nl": "Incorrect option 2 voor question 16"
+                            },
+                            {
+                                    "en": "Correct answer for question 16",
+                                    "es": "Correct answer for question 16",
+                                    "de": "Correct answer for question 16",
+                                    "nl": "Correct answer for question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 16",
+                                    "es": "Incorrect option 4 para question 16",
+                                    "de": "Incorrect option 4 für question 16",
+                                    "nl": "Incorrect option 4 voor question 16"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 17",
+                                    "es": "Incorrect option 1 para question 17",
+                                    "de": "Incorrect option 1 für question 17",
+                                    "nl": "Incorrect option 1 voor question 17"
+                            },
+                            {
+                                    "en": "Correct answer for question 17",
+                                    "es": "Correct answer for question 17",
+                                    "de": "Correct answer for question 17",
+                                    "nl": "Correct answer for question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 17",
+                                    "es": "Incorrect option 3 para question 17",
+                                    "de": "Incorrect option 3 für question 17",
+                                    "nl": "Incorrect option 3 voor question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 17",
+                                    "es": "Incorrect option 4 para question 17",
+                                    "de": "Incorrect option 4 für question 17",
+                                    "nl": "Incorrect option 4 voor question 17"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 18",
+                                    "es": "Correct answer for question 18",
+                                    "de": "Correct answer for question 18",
+                                    "nl": "Correct answer for question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 18",
+                                    "es": "Incorrect option 2 para question 18",
+                                    "de": "Incorrect option 2 für question 18",
+                                    "nl": "Incorrect option 2 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 18",
+                                    "es": "Incorrect option 3 para question 18",
+                                    "de": "Incorrect option 3 für question 18",
+                                    "nl": "Incorrect option 3 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 18",
+                                    "es": "Incorrect option 4 para question 18",
+                                    "de": "Incorrect option 4 für question 18",
+                                    "nl": "Incorrect option 4 voor question 18"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 19",
+                                    "es": "Incorrect option 1 para question 19",
+                                    "de": "Incorrect option 1 für question 19",
+                                    "nl": "Incorrect option 1 voor question 19"
+                            },
+                            {
+                                    "en": "Correct answer for question 19",
+                                    "es": "Correct answer for question 19",
+                                    "de": "Correct answer for question 19",
+                                    "nl": "Correct answer for question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 19",
+                                    "es": "Incorrect option 3 para question 19",
+                                    "de": "Incorrect option 3 für question 19",
+                                    "nl": "Incorrect option 3 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 19",
+                                    "es": "Incorrect option 4 para question 19",
+                                    "de": "Incorrect option 4 für question 19",
+                                    "nl": "Incorrect option 4 voor question 19"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 20",
+                                    "es": "Incorrect option 1 para question 20",
+                                    "de": "Incorrect option 1 für question 20",
+                                    "nl": "Incorrect option 1 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 20",
+                                    "es": "Incorrect option 2 para question 20",
+                                    "de": "Incorrect option 2 für question 20",
+                                    "nl": "Incorrect option 2 voor question 20"
+                            },
+                            {
+                                    "en": "Correct answer for question 20",
+                                    "es": "Correct answer for question 20",
+                                    "de": "Correct answer for question 20",
+                                    "nl": "Correct answer for question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 20",
+                                    "es": "Incorrect option 4 para question 20",
+                                    "de": "Incorrect option 4 für question 20",
+                                    "nl": "Incorrect option 4 voor question 20"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 21",
+                                    "es": "Correct answer for question 21",
+                                    "de": "Correct answer for question 21",
+                                    "nl": "Correct answer for question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 21",
+                                    "es": "Incorrect option 2 para question 21",
+                                    "de": "Incorrect option 2 für question 21",
+                                    "nl": "Incorrect option 2 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 21",
+                                    "es": "Incorrect option 3 para question 21",
+                                    "de": "Incorrect option 3 für question 21",
+                                    "nl": "Incorrect option 3 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 21",
+                                    "es": "Incorrect option 4 para question 21",
+                                    "de": "Incorrect option 4 für question 21",
+                                    "nl": "Incorrect option 4 voor question 21"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 22",
+                                    "es": "Incorrect option 1 para question 22",
+                                    "de": "Incorrect option 1 für question 22",
+                                    "nl": "Incorrect option 1 voor question 22"
+                            },
+                            {
+                                    "en": "Correct answer for question 22",
+                                    "es": "Correct answer for question 22",
+                                    "de": "Correct answer for question 22",
+                                    "nl": "Correct answer for question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 22",
+                                    "es": "Incorrect option 3 para question 22",
+                                    "de": "Incorrect option 3 für question 22",
+                                    "nl": "Incorrect option 3 voor question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 22",
+                                    "es": "Incorrect option 4 para question 22",
+                                    "de": "Incorrect option 4 für question 22",
+                                    "nl": "Incorrect option 4 voor question 22"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 23",
+                                    "es": "Incorrect option 1 para question 23",
+                                    "de": "Incorrect option 1 für question 23",
+                                    "nl": "Incorrect option 1 voor question 23"
+                            },
+                            {
+                                    "en": "Correct answer for question 23",
+                                    "es": "Correct answer for question 23",
+                                    "de": "Correct answer for question 23",
+                                    "nl": "Correct answer for question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 23",
+                                    "es": "Incorrect option 3 para question 23",
+                                    "de": "Incorrect option 3 für question 23",
+                                    "nl": "Incorrect option 3 voor question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 23",
+                                    "es": "Incorrect option 4 para question 23",
+                                    "de": "Incorrect option 4 für question 23",
+                                    "nl": "Incorrect option 4 voor question 23"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 24",
+                                    "es": "Incorrect option 1 para question 24",
+                                    "de": "Incorrect option 1 für question 24",
+                                    "nl": "Incorrect option 1 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 24",
+                                    "es": "Incorrect option 2 para question 24",
+                                    "de": "Incorrect option 2 für question 24",
+                                    "nl": "Incorrect option 2 voor question 24"
+                            },
+                            {
+                                    "en": "Correct answer for question 24",
+                                    "es": "Correct answer for question 24",
+                                    "de": "Correct answer for question 24",
+                                    "nl": "Correct answer for question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 24",
+                                    "es": "Incorrect option 4 para question 24",
+                                    "de": "Incorrect option 4 für question 24",
+                                    "nl": "Incorrect option 4 voor question 24"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 25",
+                                    "es": "Correct answer for question 25",
+                                    "de": "Correct answer for question 25",
+                                    "nl": "Correct answer for question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 25",
+                                    "es": "Incorrect option 2 para question 25",
+                                    "de": "Incorrect option 2 für question 25",
+                                    "nl": "Incorrect option 2 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 25",
+                                    "es": "Incorrect option 3 para question 25",
+                                    "de": "Incorrect option 3 für question 25",
+                                    "nl": "Incorrect option 3 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 25",
+                                    "es": "Incorrect option 4 para question 25",
+                                    "de": "Incorrect option 4 für question 25",
+                                    "nl": "Incorrect option 4 voor question 25"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 26",
+                                    "es": "Incorrect option 1 para question 26",
+                                    "de": "Incorrect option 1 für question 26",
+                                    "nl": "Incorrect option 1 voor question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 26",
+                                    "es": "Incorrect option 2 para question 26",
+                                    "de": "Incorrect option 2 für question 26",
+                                    "nl": "Incorrect option 2 voor question 26"
+                            },
+                            {
+                                    "en": "Correct answer for question 26",
+                                    "es": "Correct answer for question 26",
+                                    "de": "Correct answer for question 26",
+                                    "nl": "Correct answer for question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 26",
+                                    "es": "Incorrect option 4 para question 26",
+                                    "de": "Incorrect option 4 für question 26",
+                                    "nl": "Incorrect option 4 voor question 26"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 27",
+                                    "es": "Correct answer for question 27",
+                                    "de": "Correct answer for question 27",
+                                    "nl": "Correct answer for question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 27",
+                                    "es": "Incorrect option 2 para question 27",
+                                    "de": "Incorrect option 2 für question 27",
+                                    "nl": "Incorrect option 2 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 27",
+                                    "es": "Incorrect option 3 para question 27",
+                                    "de": "Incorrect option 3 für question 27",
+                                    "nl": "Incorrect option 3 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 27",
+                                    "es": "Incorrect option 4 para question 27",
+                                    "de": "Incorrect option 4 für question 27",
+                                    "nl": "Incorrect option 4 voor question 27"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 28",
+                                    "es": "Incorrect option 1 para question 28",
+                                    "de": "Incorrect option 1 für question 28",
+                                    "nl": "Incorrect option 1 voor question 28"
+                            },
+                            {
+                                    "en": "Correct answer for question 28",
+                                    "es": "Correct answer for question 28",
+                                    "de": "Correct answer for question 28",
+                                    "nl": "Correct answer for question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 28",
+                                    "es": "Incorrect option 3 para question 28",
+                                    "de": "Incorrect option 3 für question 28",
+                                    "nl": "Incorrect option 3 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 28",
+                                    "es": "Incorrect option 4 para question 28",
+                                    "de": "Incorrect option 4 für question 28",
+                                    "nl": "Incorrect option 4 voor question 28"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 29",
+                                    "es": "Correct answer for question 29",
+                                    "de": "Correct answer for question 29",
+                                    "nl": "Correct answer for question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 29",
+                                    "es": "Incorrect option 2 para question 29",
+                                    "de": "Incorrect option 2 für question 29",
+                                    "nl": "Incorrect option 2 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 29",
+                                    "es": "Incorrect option 3 para question 29",
+                                    "de": "Incorrect option 3 für question 29",
+                                    "nl": "Incorrect option 3 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 29",
+                                    "es": "Incorrect option 4 para question 29",
+                                    "de": "Incorrect option 4 für question 29",
+                                    "nl": "Incorrect option 4 voor question 29"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 30",
+                                    "es": "Incorrect option 1 para question 30",
+                                    "de": "Incorrect option 1 für question 30",
+                                    "nl": "Incorrect option 1 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 30",
+                                    "es": "Incorrect option 2 para question 30",
+                                    "de": "Incorrect option 2 für question 30",
+                                    "nl": "Incorrect option 2 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 30",
+                                    "es": "Incorrect option 3 para question 30",
+                                    "de": "Incorrect option 3 für question 30",
+                                    "nl": "Incorrect option 3 voor question 30"
+                            },
+                            {
+                                    "en": "Correct answer for question 30",
+                                    "es": "Correct answer for question 30",
+                                    "de": "Correct answer for question 30",
+                                    "nl": "Correct answer for question 30"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 31",
+                                    "es": "Correct answer for question 31",
+                                    "de": "Correct answer for question 31",
+                                    "nl": "Correct answer for question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 31",
+                                    "es": "Incorrect option 2 para question 31",
+                                    "de": "Incorrect option 2 für question 31",
+                                    "nl": "Incorrect option 2 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 31",
+                                    "es": "Incorrect option 3 para question 31",
+                                    "de": "Incorrect option 3 für question 31",
+                                    "nl": "Incorrect option 3 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 31",
+                                    "es": "Incorrect option 4 para question 31",
+                                    "de": "Incorrect option 4 für question 31",
+                                    "nl": "Incorrect option 4 voor question 31"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 32",
+                                    "es": "Incorrect option 1 para question 32",
+                                    "de": "Incorrect option 1 für question 32",
+                                    "nl": "Incorrect option 1 voor question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 32",
+                                    "es": "Incorrect option 2 para question 32",
+                                    "de": "Incorrect option 2 für question 32",
+                                    "nl": "Incorrect option 2 voor question 32"
+                            },
+                            {
+                                    "en": "Correct answer for question 32",
+                                    "es": "Correct answer for question 32",
+                                    "de": "Correct answer for question 32",
+                                    "nl": "Correct answer for question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 32",
+                                    "es": "Incorrect option 4 para question 32",
+                                    "de": "Incorrect option 4 für question 32",
+                                    "nl": "Incorrect option 4 voor question 32"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 33",
+                                    "es": "Incorrect option 1 para question 33",
+                                    "de": "Incorrect option 1 für question 33",
+                                    "nl": "Incorrect option 1 voor question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 33",
+                                    "es": "Incorrect option 2 para question 33",
+                                    "de": "Incorrect option 2 für question 33",
+                                    "nl": "Incorrect option 2 voor question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 33",
+                                    "es": "Incorrect option 3 para question 33",
+                                    "de": "Incorrect option 3 für question 33",
+                                    "nl": "Incorrect option 3 voor question 33"
+                            },
+                            {
+                                    "en": "Correct answer for question 33",
+                                    "es": "Correct answer for question 33",
+                                    "de": "Correct answer for question 33",
+                                    "nl": "Correct answer for question 33"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 34",
+                                    "es": "Incorrect option 1 para question 34",
+                                    "de": "Incorrect option 1 für question 34",
+                                    "nl": "Incorrect option 1 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 34",
+                                    "es": "Incorrect option 2 para question 34",
+                                    "de": "Incorrect option 2 für question 34",
+                                    "nl": "Incorrect option 2 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 34",
+                                    "es": "Incorrect option 3 para question 34",
+                                    "de": "Incorrect option 3 für question 34",
+                                    "nl": "Incorrect option 3 voor question 34"
+                            },
+                            {
+                                    "en": "Correct answer for question 34",
+                                    "es": "Correct answer for question 34",
+                                    "de": "Correct answer for question 34",
+                                    "nl": "Correct answer for question 34"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 35",
+                                    "es": "Correct answer for question 35",
+                                    "de": "Correct answer for question 35",
+                                    "nl": "Correct answer for question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 35",
+                                    "es": "Incorrect option 2 para question 35",
+                                    "de": "Incorrect option 2 für question 35",
+                                    "nl": "Incorrect option 2 voor question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 35",
+                                    "es": "Incorrect option 3 para question 35",
+                                    "de": "Incorrect option 3 für question 35",
+                                    "nl": "Incorrect option 3 voor question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 35",
+                                    "es": "Incorrect option 4 para question 35",
+                                    "de": "Incorrect option 4 für question 35",
+                                    "nl": "Incorrect option 4 voor question 35"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 36",
+                                    "es": "Incorrect option 1 para question 36",
+                                    "de": "Incorrect option 1 für question 36",
+                                    "nl": "Incorrect option 1 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 36",
+                                    "es": "Incorrect option 2 para question 36",
+                                    "de": "Incorrect option 2 für question 36",
+                                    "nl": "Incorrect option 2 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 36",
+                                    "es": "Incorrect option 3 para question 36",
+                                    "de": "Incorrect option 3 für question 36",
+                                    "nl": "Incorrect option 3 voor question 36"
+                            },
+                            {
+                                    "en": "Correct answer for question 36",
+                                    "es": "Correct answer for question 36",
+                                    "de": "Correct answer for question 36",
+                                    "nl": "Correct answer for question 36"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 37",
+                                    "es": "Incorrect option 1 para question 37",
+                                    "de": "Incorrect option 1 für question 37",
+                                    "nl": "Incorrect option 1 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 37",
+                                    "es": "Incorrect option 2 para question 37",
+                                    "de": "Incorrect option 2 für question 37",
+                                    "nl": "Incorrect option 2 voor question 37"
+                            },
+                            {
+                                    "en": "Correct answer for question 37",
+                                    "es": "Correct answer for question 37",
+                                    "de": "Correct answer for question 37",
+                                    "nl": "Correct answer for question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 37",
+                                    "es": "Incorrect option 4 para question 37",
+                                    "de": "Incorrect option 4 für question 37",
+                                    "nl": "Incorrect option 4 voor question 37"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 38",
+                                    "es": "Correct answer for question 38",
+                                    "de": "Correct answer for question 38",
+                                    "nl": "Correct answer for question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 38",
+                                    "es": "Incorrect option 2 para question 38",
+                                    "de": "Incorrect option 2 für question 38",
+                                    "nl": "Incorrect option 2 voor question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 38",
+                                    "es": "Incorrect option 3 para question 38",
+                                    "de": "Incorrect option 3 für question 38",
+                                    "nl": "Incorrect option 3 voor question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 38",
+                                    "es": "Incorrect option 4 para question 38",
+                                    "de": "Incorrect option 4 für question 38",
+                                    "nl": "Incorrect option 4 voor question 38"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 39",
+                                    "es": "Incorrect option 1 para question 39",
+                                    "de": "Incorrect option 1 für question 39",
+                                    "nl": "Incorrect option 1 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 39",
+                                    "es": "Incorrect option 2 para question 39",
+                                    "de": "Incorrect option 2 für question 39",
+                                    "nl": "Incorrect option 2 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 39",
+                                    "es": "Incorrect option 3 para question 39",
+                                    "de": "Incorrect option 3 für question 39",
+                                    "nl": "Incorrect option 3 voor question 39"
+                            },
+                            {
+                                    "en": "Correct answer for question 39",
+                                    "es": "Correct answer for question 39",
+                                    "de": "Correct answer for question 39",
+                                    "nl": "Correct answer for question 39"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 40",
+                                    "es": "Incorrect option 1 para question 40",
+                                    "de": "Incorrect option 1 für question 40",
+                                    "nl": "Incorrect option 1 voor question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 40",
+                                    "es": "Incorrect option 2 para question 40",
+                                    "de": "Incorrect option 2 für question 40",
+                                    "nl": "Incorrect option 2 voor question 40"
+                            },
+                            {
+                                    "en": "Correct answer for question 40",
+                                    "es": "Correct answer for question 40",
+                                    "de": "Correct answer for question 40",
+                                    "nl": "Correct answer for question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 40",
+                                    "es": "Incorrect option 4 para question 40",
+                                    "de": "Incorrect option 4 für question 40",
+                                    "nl": "Incorrect option 4 voor question 40"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 41",
+                                    "es": "Incorrect option 1 para question 41",
+                                    "de": "Incorrect option 1 für question 41",
+                                    "nl": "Incorrect option 1 voor question 41"
+                            },
+                            {
+                                    "en": "Correct answer for question 41",
+                                    "es": "Correct answer for question 41",
+                                    "de": "Correct answer for question 41",
+                                    "nl": "Correct answer for question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 41",
+                                    "es": "Incorrect option 3 para question 41",
+                                    "de": "Incorrect option 3 für question 41",
+                                    "nl": "Incorrect option 3 voor question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 41",
+                                    "es": "Incorrect option 4 para question 41",
+                                    "de": "Incorrect option 4 für question 41",
+                                    "nl": "Incorrect option 4 voor question 41"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 42",
+                                    "es": "Incorrect option 1 para question 42",
+                                    "de": "Incorrect option 1 für question 42",
+                                    "nl": "Incorrect option 1 voor question 42"
+                            },
+                            {
+                                    "en": "Correct answer for question 42",
+                                    "es": "Correct answer for question 42",
+                                    "de": "Correct answer for question 42",
+                                    "nl": "Correct answer for question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 42",
+                                    "es": "Incorrect option 3 para question 42",
+                                    "de": "Incorrect option 3 für question 42",
+                                    "nl": "Incorrect option 3 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 42",
+                                    "es": "Incorrect option 4 para question 42",
+                                    "de": "Incorrect option 4 für question 42",
+                                    "nl": "Incorrect option 4 voor question 42"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 43",
+                                    "es": "Correct answer for question 43",
+                                    "de": "Correct answer for question 43",
+                                    "nl": "Correct answer for question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 43",
+                                    "es": "Incorrect option 2 para question 43",
+                                    "de": "Incorrect option 2 für question 43",
+                                    "nl": "Incorrect option 2 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 43",
+                                    "es": "Incorrect option 3 para question 43",
+                                    "de": "Incorrect option 3 für question 43",
+                                    "nl": "Incorrect option 3 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 43",
+                                    "es": "Incorrect option 4 para question 43",
+                                    "de": "Incorrect option 4 für question 43",
+                                    "nl": "Incorrect option 4 voor question 43"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 44",
+                                    "es": "Incorrect option 1 para question 44",
+                                    "de": "Incorrect option 1 für question 44",
+                                    "nl": "Incorrect option 1 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 44",
+                                    "es": "Incorrect option 2 para question 44",
+                                    "de": "Incorrect option 2 für question 44",
+                                    "nl": "Incorrect option 2 voor question 44"
+                            },
+                            {
+                                    "en": "Correct answer for question 44",
+                                    "es": "Correct answer for question 44",
+                                    "de": "Correct answer for question 44",
+                                    "nl": "Correct answer for question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 44",
+                                    "es": "Incorrect option 4 para question 44",
+                                    "de": "Incorrect option 4 für question 44",
+                                    "nl": "Incorrect option 4 voor question 44"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 45",
+                                    "es": "Incorrect option 1 para question 45",
+                                    "de": "Incorrect option 1 für question 45",
+                                    "nl": "Incorrect option 1 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 45",
+                                    "es": "Incorrect option 2 para question 45",
+                                    "de": "Incorrect option 2 für question 45",
+                                    "nl": "Incorrect option 2 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 45",
+                                    "es": "Incorrect option 3 para question 45",
+                                    "de": "Incorrect option 3 für question 45",
+                                    "nl": "Incorrect option 3 voor question 45"
+                            },
+                            {
+                                    "en": "Correct answer for question 45",
+                                    "es": "Correct answer for question 45",
+                                    "de": "Correct answer for question 45",
+                                    "nl": "Correct answer for question 45"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 46",
+                                    "es": "Incorrect option 1 para question 46",
+                                    "de": "Incorrect option 1 für question 46",
+                                    "nl": "Incorrect option 1 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 46",
+                                    "es": "Incorrect option 2 para question 46",
+                                    "de": "Incorrect option 2 für question 46",
+                                    "nl": "Incorrect option 2 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 46",
+                                    "es": "Incorrect option 3 para question 46",
+                                    "de": "Incorrect option 3 für question 46",
+                                    "nl": "Incorrect option 3 voor question 46"
+                            },
+                            {
+                                    "en": "Correct answer for question 46",
+                                    "es": "Correct answer for question 46",
+                                    "de": "Correct answer for question 46",
+                                    "nl": "Correct answer for question 46"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 47",
+                                    "es": "Incorrect option 1 para question 47",
+                                    "de": "Incorrect option 1 für question 47",
+                                    "nl": "Incorrect option 1 voor question 47"
+                            },
+                            {
+                                    "en": "Correct answer for question 47",
+                                    "es": "Correct answer for question 47",
+                                    "de": "Correct answer for question 47",
+                                    "nl": "Correct answer for question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 47",
+                                    "es": "Incorrect option 3 para question 47",
+                                    "de": "Incorrect option 3 für question 47",
+                                    "nl": "Incorrect option 3 voor question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 47",
+                                    "es": "Incorrect option 4 para question 47",
+                                    "de": "Incorrect option 4 für question 47",
+                                    "nl": "Incorrect option 4 voor question 47"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 48",
+                                    "es": "Incorrect option 1 para question 48",
+                                    "de": "Incorrect option 1 für question 48",
+                                    "nl": "Incorrect option 1 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 48",
+                                    "es": "Incorrect option 2 para question 48",
+                                    "de": "Incorrect option 2 für question 48",
+                                    "nl": "Incorrect option 2 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 48",
+                                    "es": "Incorrect option 3 para question 48",
+                                    "de": "Incorrect option 3 für question 48",
+                                    "nl": "Incorrect option 3 voor question 48"
+                            },
+                            {
+                                    "en": "Correct answer for question 48",
+                                    "es": "Correct answer for question 48",
+                                    "de": "Correct answer for question 48",
+                                    "nl": "Correct answer for question 48"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 49",
+                                    "es": "Correct answer for question 49",
+                                    "de": "Correct answer for question 49",
+                                    "nl": "Correct answer for question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 49",
+                                    "es": "Incorrect option 2 para question 49",
+                                    "de": "Incorrect option 2 für question 49",
+                                    "nl": "Incorrect option 2 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 49",
+                                    "es": "Incorrect option 3 para question 49",
+                                    "de": "Incorrect option 3 für question 49",
+                                    "nl": "Incorrect option 3 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 49",
+                                    "es": "Incorrect option 4 para question 49",
+                                    "de": "Incorrect option 4 für question 49",
+                                    "nl": "Incorrect option 4 voor question 49"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 50",
+                                    "es": "Incorrect option 1 para question 50",
+                                    "de": "Incorrect option 1 für question 50",
+                                    "nl": "Incorrect option 1 voor question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 50",
+                                    "es": "Incorrect option 2 para question 50",
+                                    "de": "Incorrect option 2 für question 50",
+                                    "nl": "Incorrect option 2 voor question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 50",
+                                    "es": "Incorrect option 3 para question 50",
+                                    "de": "Incorrect option 3 für question 50",
+                                    "nl": "Incorrect option 3 voor question 50"
+                            },
+                            {
+                                    "en": "Correct answer for question 50",
+                                    "es": "Correct answer for question 50",
+                                    "de": "Correct answer for question 50",
+                                    "nl": "Correct answer for question 50"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 51",
+                                    "es": "Incorrect option 1 para question 51",
+                                    "de": "Incorrect option 1 für question 51",
+                                    "nl": "Incorrect option 1 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 51",
+                                    "es": "Incorrect option 2 para question 51",
+                                    "de": "Incorrect option 2 für question 51",
+                                    "nl": "Incorrect option 2 voor question 51"
+                            },
+                            {
+                                    "en": "Correct answer for question 51",
+                                    "es": "Correct answer for question 51",
+                                    "de": "Correct answer for question 51",
+                                    "nl": "Correct answer for question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 51",
+                                    "es": "Incorrect option 4 para question 51",
+                                    "de": "Incorrect option 4 für question 51",
+                                    "nl": "Incorrect option 4 voor question 51"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 52",
+                                    "es": "Incorrect option 2 para question 52",
+                                    "de": "Incorrect option 2 für question 52",
+                                    "nl": "Incorrect option 2 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 52",
+                                    "es": "Incorrect option 3 para question 52",
+                                    "de": "Incorrect option 3 für question 52",
+                                    "nl": "Incorrect option 3 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 52",
+                                    "es": "Incorrect option 4 para question 52",
+                                    "de": "Incorrect option 4 für question 52",
+                                    "nl": "Incorrect option 4 voor question 52"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 53",
+                                    "es": "Incorrect option 1 para question 53",
+                                    "de": "Incorrect option 1 für question 53",
+                                    "nl": "Incorrect option 1 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 53",
+                                    "es": "Incorrect option 4 para question 53",
+                                    "de": "Incorrect option 4 für question 53",
+                                    "nl": "Incorrect option 4 voor question 53"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 54",
+                                    "es": "Incorrect option 2 para question 54",
+                                    "de": "Incorrect option 2 für question 54",
+                                    "nl": "Incorrect option 2 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 54",
+                                    "es": "Incorrect option 3 para question 54",
+                                    "de": "Incorrect option 3 für question 54",
+                                    "nl": "Incorrect option 3 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 55",
+                                    "es": "Incorrect option 2 para question 55",
+                                    "de": "Incorrect option 2 für question 55",
+                                    "nl": "Incorrect option 2 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 55",
+                                    "es": "Incorrect option 3 para question 55",
+                                    "de": "Incorrect option 3 für question 55",
+                                    "nl": "Incorrect option 3 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 55",
+                                    "es": "Incorrect option 4 para question 55",
+                                    "de": "Incorrect option 4 für question 55",
+                                    "nl": "Incorrect option 4 voor question 55"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 56",
+                                    "es": "Incorrect option 2 para question 56",
+                                    "de": "Incorrect option 2 für question 56",
+                                    "nl": "Incorrect option 2 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 56",
+                                    "es": "Incorrect option 3 para question 56",
+                                    "de": "Incorrect option 3 für question 56",
+                                    "nl": "Incorrect option 3 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 56",
+                                    "es": "Incorrect option 4 para question 56",
+                                    "de": "Incorrect option 4 für question 56",
+                                    "nl": "Incorrect option 4 voor question 56"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 57",
+                                    "es": "Incorrect option 2 para question 57",
+                                    "de": "Incorrect option 2 für question 57",
+                                    "nl": "Incorrect option 2 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 57",
+                                    "es": "Incorrect option 4 para question 57",
+                                    "de": "Incorrect option 4 für question 57",
+                                    "nl": "Incorrect option 4 voor question 57"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 58",
+                                    "es": "Incorrect option 1 para question 58",
+                                    "de": "Incorrect option 1 für question 58",
+                                    "nl": "Incorrect option 1 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 58",
+                                    "es": "Incorrect option 2 para question 58",
+                                    "de": "Incorrect option 2 für question 58",
+                                    "nl": "Incorrect option 2 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 58",
+                                    "es": "Incorrect option 3 para question 58",
+                                    "de": "Incorrect option 3 für question 58",
+                                    "nl": "Incorrect option 3 voor question 58"
+                            },
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 59",
+                                    "es": "Incorrect option 1 para question 59",
+                                    "de": "Incorrect option 1 für question 59",
+                                    "nl": "Incorrect option 1 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 59",
+                                    "es": "Incorrect option 2 para question 59",
+                                    "de": "Incorrect option 2 für question 59",
+                                    "nl": "Incorrect option 2 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 59",
+                                    "es": "Incorrect option 3 para question 59",
+                                    "de": "Incorrect option 3 für question 59",
+                                    "nl": "Incorrect option 3 voor question 59"
+                            },
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 60",
+                                    "es": "Incorrect option 3 para question 60",
+                                    "de": "Incorrect option 3 für question 60",
+                                    "nl": "Incorrect option 3 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 60",
+                                    "es": "Incorrect option 4 para question 60",
+                                    "de": "Incorrect option 4 für question 60",
+                                    "nl": "Incorrect option 4 voor question 60"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 61",
+                                    "es": "Incorrect option 1 para question 61",
+                                    "de": "Incorrect option 1 für question 61",
+                                    "nl": "Incorrect option 1 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 61",
+                                    "es": "Incorrect option 2 para question 61",
+                                    "de": "Incorrect option 2 für question 61",
+                                    "nl": "Incorrect option 2 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 61",
+                                    "es": "Incorrect option 3 para question 61",
+                                    "de": "Incorrect option 3 für question 61",
+                                    "nl": "Incorrect option 3 voor question 61"
+                            },
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 62",
+                                    "es": "Incorrect option 1 para question 62",
+                                    "de": "Incorrect option 1 für question 62",
+                                    "nl": "Incorrect option 1 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 62",
+                                    "es": "Incorrect option 3 para question 62",
+                                    "de": "Incorrect option 3 für question 62",
+                                    "nl": "Incorrect option 3 voor question 62"
+                            },
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 63",
+                                    "es": "Incorrect option 1 para question 63",
+                                    "de": "Incorrect option 1 für question 63",
+                                    "nl": "Incorrect option 1 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 63",
+                                    "es": "Incorrect option 2 para question 63",
+                                    "de": "Incorrect option 2 für question 63",
+                                    "nl": "Incorrect option 2 voor question 63"
+                            },
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 64",
+                                    "es": "Incorrect option 2 para question 64",
+                                    "de": "Incorrect option 2 für question 64",
+                                    "nl": "Incorrect option 2 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 64",
+                                    "es": "Incorrect option 4 para question 64",
+                                    "de": "Incorrect option 4 für question 64",
+                                    "nl": "Incorrect option 4 voor question 64"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 65",
+                                    "es": "Incorrect option 1 para question 65",
+                                    "de": "Incorrect option 1 für question 65",
+                                    "nl": "Incorrect option 1 voor question 65"
+                            },
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 65",
+                                    "es": "Incorrect option 3 para question 65",
+                                    "de": "Incorrect option 3 für question 65",
+                                    "nl": "Incorrect option 3 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 65",
+                                    "es": "Incorrect option 4 para question 65",
+                                    "de": "Incorrect option 4 für question 65",
+                                    "nl": "Incorrect option 4 voor question 65"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 66",
+                                    "es": "Incorrect option 1 para question 66",
+                                    "de": "Incorrect option 1 für question 66",
+                                    "nl": "Incorrect option 1 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 66",
+                                    "es": "Incorrect option 2 para question 66",
+                                    "de": "Incorrect option 2 für question 66",
+                                    "nl": "Incorrect option 2 voor question 66"
+                            },
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 67",
+                                    "es": "Incorrect option 1 para question 67",
+                                    "de": "Incorrect option 1 für question 67",
+                                    "nl": "Incorrect option 1 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 67",
+                                    "es": "Incorrect option 4 para question 67",
+                                    "de": "Incorrect option 4 für question 67",
+                                    "nl": "Incorrect option 4 voor question 67"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 68",
+                                    "es": "Incorrect option 1 para question 68",
+                                    "de": "Incorrect option 1 für question 68",
+                                    "nl": "Incorrect option 1 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 68",
+                                    "es": "Incorrect option 2 para question 68",
+                                    "de": "Incorrect option 2 für question 68",
+                                    "nl": "Incorrect option 2 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 69",
+                                    "es": "Incorrect option 2 para question 69",
+                                    "de": "Incorrect option 2 für question 69",
+                                    "nl": "Incorrect option 2 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 69",
+                                    "es": "Incorrect option 3 para question 69",
+                                    "de": "Incorrect option 3 für question 69",
+                                    "nl": "Incorrect option 3 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 70",
+                                    "es": "Incorrect option 2 para question 70",
+                                    "de": "Incorrect option 2 für question 70",
+                                    "nl": "Incorrect option 2 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 70",
+                                    "es": "Incorrect option 3 para question 70",
+                                    "de": "Incorrect option 3 für question 70",
+                                    "nl": "Incorrect option 3 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 70",
+                                    "es": "Incorrect option 4 para question 70",
+                                    "de": "Incorrect option 4 für question 70",
+                                    "nl": "Incorrect option 4 voor question 70"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 71",
+                                    "es": "Incorrect option 1 para question 71",
+                                    "de": "Incorrect option 1 für question 71",
+                                    "nl": "Incorrect option 1 voor question 71"
+                            },
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 71",
+                                    "es": "Incorrect option 3 para question 71",
+                                    "de": "Incorrect option 3 für question 71",
+                                    "nl": "Incorrect option 3 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 71",
+                                    "es": "Incorrect option 4 para question 71",
+                                    "de": "Incorrect option 4 für question 71",
+                                    "nl": "Incorrect option 4 voor question 71"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 72",
+                                    "es": "Incorrect option 1 para question 72",
+                                    "de": "Incorrect option 1 für question 72",
+                                    "nl": "Incorrect option 1 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 73",
+                                    "es": "Incorrect option 1 para question 73",
+                                    "de": "Incorrect option 1 für question 73",
+                                    "nl": "Incorrect option 1 voor question 73"
+                            },
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 73",
+                                    "es": "Incorrect option 4 para question 73",
+                                    "de": "Incorrect option 4 für question 73",
+                                    "nl": "Incorrect option 4 voor question 73"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 74",
+                                    "es": "Incorrect option 2 para question 74",
+                                    "de": "Incorrect option 2 für question 74",
+                                    "nl": "Incorrect option 2 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 74",
+                                    "es": "Incorrect option 4 para question 74",
+                                    "de": "Incorrect option 4 für question 74",
+                                    "nl": "Incorrect option 4 voor question 74"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 76",
+                                    "es": "Incorrect option 4 para question 76",
+                                    "de": "Incorrect option 4 für question 76",
+                                    "nl": "Incorrect option 4 voor question 76"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 77",
+                                    "es": "Incorrect option 1 para question 77",
+                                    "de": "Incorrect option 1 für question 77",
+                                    "nl": "Incorrect option 1 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 77",
+                                    "es": "Incorrect option 3 para question 77",
+                                    "de": "Incorrect option 3 für question 77",
+                                    "nl": "Incorrect option 3 voor question 77"
+                            },
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 78",
+                                    "es": "Incorrect option 1 para question 78",
+                                    "de": "Incorrect option 1 für question 78",
+                                    "nl": "Incorrect option 1 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 78",
+                                    "es": "Incorrect option 4 para question 78",
+                                    "de": "Incorrect option 4 für question 78",
+                                    "nl": "Incorrect option 4 voor question 78"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 79",
+                                    "es": "Incorrect option 1 para question 79",
+                                    "de": "Incorrect option 1 für question 79",
+                                    "nl": "Incorrect option 1 voor question 79"
+                            },
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 79",
+                                    "es": "Incorrect option 4 para question 79",
+                                    "de": "Incorrect option 4 für question 79",
+                                    "nl": "Incorrect option 4 voor question 79"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 80",
+                                    "es": "Incorrect option 1 para question 80",
+                                    "de": "Incorrect option 1 für question 80",
+                                    "nl": "Incorrect option 1 voor question 80"
+                            },
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 80",
+                                    "es": "Incorrect option 4 para question 80",
+                                    "de": "Incorrect option 4 für question 80",
+                                    "nl": "Incorrect option 4 voor question 80"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 81",
+                                    "es": "Incorrect option 1 para question 81",
+                                    "de": "Incorrect option 1 für question 81",
+                                    "nl": "Incorrect option 1 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 82",
+                                    "es": "Incorrect option 1 para question 82",
+                                    "de": "Incorrect option 1 für question 82",
+                                    "nl": "Incorrect option 1 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 82",
+                                    "es": "Incorrect option 3 para question 82",
+                                    "de": "Incorrect option 3 für question 82",
+                                    "nl": "Incorrect option 3 voor question 82"
+                            },
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 83",
+                                    "es": "Incorrect option 3 para question 83",
+                                    "de": "Incorrect option 3 für question 83",
+                                    "nl": "Incorrect option 3 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 83",
+                                    "es": "Incorrect option 4 para question 83",
+                                    "de": "Incorrect option 4 für question 83",
+                                    "nl": "Incorrect option 4 voor question 83"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 84",
+                                    "es": "Incorrect option 4 para question 84",
+                                    "de": "Incorrect option 4 für question 84",
+                                    "nl": "Incorrect option 4 voor question 84"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 85",
+                                    "es": "Incorrect option 1 para question 85",
+                                    "de": "Incorrect option 1 für question 85",
+                                    "nl": "Incorrect option 1 voor question 85"
+                            },
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 85",
+                                    "es": "Incorrect option 3 para question 85",
+                                    "de": "Incorrect option 3 für question 85",
+                                    "nl": "Incorrect option 3 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 86",
+                                    "es": "Incorrect option 1 para question 86",
+                                    "de": "Incorrect option 1 für question 86",
+                                    "nl": "Incorrect option 1 voor question 86"
+                            },
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 86",
+                                    "es": "Incorrect option 3 para question 86",
+                                    "de": "Incorrect option 3 für question 86",
+                                    "nl": "Incorrect option 3 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 86",
+                                    "es": "Incorrect option 4 para question 86",
+                                    "de": "Incorrect option 4 für question 86",
+                                    "nl": "Incorrect option 4 voor question 86"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 88",
+                                    "es": "Incorrect option 1 para question 88",
+                                    "de": "Incorrect option 1 für question 88",
+                                    "nl": "Incorrect option 1 voor question 88"
+                            },
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 88",
+                                    "es": "Incorrect option 3 para question 88",
+                                    "de": "Incorrect option 3 für question 88",
+                                    "nl": "Incorrect option 3 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 89",
+                                    "es": "Incorrect option 3 para question 89",
+                                    "de": "Incorrect option 3 für question 89",
+                                    "nl": "Incorrect option 3 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 89",
+                                    "es": "Incorrect option 4 para question 89",
+                                    "de": "Incorrect option 4 für question 89",
+                                    "nl": "Incorrect option 4 voor question 89"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 90",
+                                    "es": "Incorrect option 1 para question 90",
+                                    "de": "Incorrect option 1 für question 90",
+                                    "nl": "Incorrect option 1 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Fusion Cuisine?",
+                            "es": "¿Cómo does this relate to Fusion Cuisine?",
+                            "de": "Wie does this relate to Fusion Cuisine?",
+                            "nl": "Hoe does this relate to Fusion Cuisine?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 92",
+                                    "es": "Incorrect option 2 para question 92",
+                                    "de": "Incorrect option 2 für question 92",
+                                    "nl": "Incorrect option 2 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 93",
+                                    "es": "Incorrect option 1 para question 93",
+                                    "de": "Incorrect option 1 für question 93",
+                                    "nl": "Incorrect option 1 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 93",
+                                    "es": "Incorrect option 2 para question 93",
+                                    "de": "Incorrect option 2 für question 93",
+                                    "nl": "Incorrect option 2 voor question 93"
+                            },
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 93",
+                                    "es": "Incorrect option 4 para question 93",
+                                    "de": "Incorrect option 4 für question 93",
+                                    "nl": "Incorrect option 4 voor question 93"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 94",
+                                    "es": "Incorrect option 2 para question 94",
+                                    "de": "Incorrect option 2 für question 94",
+                                    "nl": "Incorrect option 2 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 94",
+                                    "es": "Incorrect option 3 para question 94",
+                                    "de": "Incorrect option 3 für question 94",
+                                    "nl": "Incorrect option 3 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 95",
+                                    "es": "Incorrect option 3 para question 95",
+                                    "de": "Incorrect option 3 für question 95",
+                                    "nl": "Incorrect option 3 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 96",
+                                    "es": "Incorrect option 3 para question 96",
+                                    "de": "Incorrect option 3 für question 96",
+                                    "nl": "Incorrect option 3 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 97",
+                                    "es": "Incorrect option 2 para question 97",
+                                    "de": "Incorrect option 2 für question 97",
+                                    "nl": "Incorrect option 2 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 97",
+                                    "es": "Incorrect option 3 para question 97",
+                                    "de": "Incorrect option 3 für question 97",
+                                    "nl": "Incorrect option 3 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 98",
+                                    "es": "Incorrect option 1 para question 98",
+                                    "de": "Incorrect option 1 für question 98",
+                                    "nl": "Incorrect option 1 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 98",
+                                    "es": "Incorrect option 2 para question 98",
+                                    "de": "Incorrect option 2 für question 98",
+                                    "nl": "Incorrect option 2 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 99",
+                                    "es": "Incorrect option 2 para question 99",
+                                    "de": "Incorrect option 2 für question 99",
+                                    "nl": "Incorrect option 2 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 100",
+                                    "es": "Incorrect option 4 para question 100",
+                                    "de": "Incorrect option 4 für question 100",
+                                    "nl": "Incorrect option 4 voor question 100"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Fusion Cuisine. The correct answer provides important context."
+                    }
+            }
+    ]
 };

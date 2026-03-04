@@ -1,4104 +1,4108 @@
+// Asian Currencies - level1
+// Total questions: 100
+// Labels cleaned: 2026-03-03T10:21:44.867Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Asian Currencies",
-      "es": "Pregunta 1 sobre Asian Currencies",
-      "de": "Frage 1 über Asian Currencies",
-      "nl": "Vraag 1 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Asian Currencies",
-      "es": "Pregunta 2 sobre Asian Currencies",
-      "de": "Frage 2 über Asian Currencies",
-      "nl": "Vraag 2 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Asian Currencies",
-      "es": "Pregunta 3 sobre Asian Currencies",
-      "de": "Frage 3 über Asian Currencies",
-      "nl": "Vraag 3 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Asian Currencies",
-      "es": "Pregunta 4 sobre Asian Currencies",
-      "de": "Frage 4 über Asian Currencies",
-      "nl": "Vraag 4 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Asian Currencies",
-      "es": "Pregunta 5 sobre Asian Currencies",
-      "de": "Frage 5 über Asian Currencies",
-      "nl": "Vraag 5 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Asian Currencies",
-      "es": "Pregunta 6 sobre Asian Currencies",
-      "de": "Frage 6 über Asian Currencies",
-      "nl": "Vraag 6 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Asian Currencies",
-      "es": "Pregunta 7 sobre Asian Currencies",
-      "de": "Frage 7 über Asian Currencies",
-      "nl": "Vraag 7 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Asian Currencies",
-      "es": "Pregunta 8 sobre Asian Currencies",
-      "de": "Frage 8 über Asian Currencies",
-      "nl": "Vraag 8 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Asian Currencies",
-      "es": "Pregunta 9 sobre Asian Currencies",
-      "de": "Frage 9 über Asian Currencies",
-      "nl": "Vraag 9 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Asian Currencies",
-      "es": "Pregunta 10 sobre Asian Currencies",
-      "de": "Frage 10 über Asian Currencies",
-      "nl": "Vraag 10 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Asian Currencies",
-      "es": "Pregunta 11 sobre Asian Currencies",
-      "de": "Frage 11 über Asian Currencies",
-      "nl": "Vraag 11 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Asian Currencies",
-      "es": "Pregunta 12 sobre Asian Currencies",
-      "de": "Frage 12 über Asian Currencies",
-      "nl": "Vraag 12 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Asian Currencies",
-      "es": "Pregunta 13 sobre Asian Currencies",
-      "de": "Frage 13 über Asian Currencies",
-      "nl": "Vraag 13 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Asian Currencies",
-      "es": "Pregunta 14 sobre Asian Currencies",
-      "de": "Frage 14 über Asian Currencies",
-      "nl": "Vraag 14 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Asian Currencies",
-      "es": "Pregunta 15 sobre Asian Currencies",
-      "de": "Frage 15 über Asian Currencies",
-      "nl": "Vraag 15 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Asian Currencies",
-      "es": "Pregunta 16 sobre Asian Currencies",
-      "de": "Frage 16 über Asian Currencies",
-      "nl": "Vraag 16 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Asian Currencies",
-      "es": "Pregunta 17 sobre Asian Currencies",
-      "de": "Frage 17 über Asian Currencies",
-      "nl": "Vraag 17 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Asian Currencies",
-      "es": "Pregunta 18 sobre Asian Currencies",
-      "de": "Frage 18 über Asian Currencies",
-      "nl": "Vraag 18 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Asian Currencies",
-      "es": "Pregunta 19 sobre Asian Currencies",
-      "de": "Frage 19 über Asian Currencies",
-      "nl": "Vraag 19 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Asian Currencies",
-      "es": "Pregunta 20 sobre Asian Currencies",
-      "de": "Frage 20 über Asian Currencies",
-      "nl": "Vraag 20 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Asian Currencies",
-      "es": "Pregunta 21 sobre Asian Currencies",
-      "de": "Frage 21 über Asian Currencies",
-      "nl": "Vraag 21 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Asian Currencies",
-      "es": "Pregunta 22 sobre Asian Currencies",
-      "de": "Frage 22 über Asian Currencies",
-      "nl": "Vraag 22 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Asian Currencies",
-      "es": "Pregunta 23 sobre Asian Currencies",
-      "de": "Frage 23 über Asian Currencies",
-      "nl": "Vraag 23 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Asian Currencies",
-      "es": "Pregunta 24 sobre Asian Currencies",
-      "de": "Frage 24 über Asian Currencies",
-      "nl": "Vraag 24 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Asian Currencies",
-      "es": "Pregunta 25 sobre Asian Currencies",
-      "de": "Frage 25 über Asian Currencies",
-      "nl": "Vraag 25 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Asian Currencies",
-      "es": "Pregunta 26 sobre Asian Currencies",
-      "de": "Frage 26 über Asian Currencies",
-      "nl": "Vraag 26 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Asian Currencies",
-      "es": "Pregunta 27 sobre Asian Currencies",
-      "de": "Frage 27 über Asian Currencies",
-      "nl": "Vraag 27 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Asian Currencies",
-      "es": "Pregunta 28 sobre Asian Currencies",
-      "de": "Frage 28 über Asian Currencies",
-      "nl": "Vraag 28 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Asian Currencies",
-      "es": "Pregunta 29 sobre Asian Currencies",
-      "de": "Frage 29 über Asian Currencies",
-      "nl": "Vraag 29 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Asian Currencies",
-      "es": "Pregunta 30 sobre Asian Currencies",
-      "de": "Frage 30 über Asian Currencies",
-      "nl": "Vraag 30 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Asian Currencies",
-      "es": "Pregunta 31 sobre Asian Currencies",
-      "de": "Frage 31 über Asian Currencies",
-      "nl": "Vraag 31 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Asian Currencies",
-      "es": "Pregunta 32 sobre Asian Currencies",
-      "de": "Frage 32 über Asian Currencies",
-      "nl": "Vraag 32 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Asian Currencies",
-      "es": "Pregunta 33 sobre Asian Currencies",
-      "de": "Frage 33 über Asian Currencies",
-      "nl": "Vraag 33 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Asian Currencies",
-      "es": "Pregunta 34 sobre Asian Currencies",
-      "de": "Frage 34 über Asian Currencies",
-      "nl": "Vraag 34 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Asian Currencies",
-      "es": "Pregunta 35 sobre Asian Currencies",
-      "de": "Frage 35 über Asian Currencies",
-      "nl": "Vraag 35 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Asian Currencies",
-      "es": "Pregunta 36 sobre Asian Currencies",
-      "de": "Frage 36 über Asian Currencies",
-      "nl": "Vraag 36 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Asian Currencies",
-      "es": "Pregunta 37 sobre Asian Currencies",
-      "de": "Frage 37 über Asian Currencies",
-      "nl": "Vraag 37 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Asian Currencies",
-      "es": "Pregunta 38 sobre Asian Currencies",
-      "de": "Frage 38 über Asian Currencies",
-      "nl": "Vraag 38 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Asian Currencies",
-      "es": "Pregunta 39 sobre Asian Currencies",
-      "de": "Frage 39 über Asian Currencies",
-      "nl": "Vraag 39 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Asian Currencies",
-      "es": "Pregunta 40 sobre Asian Currencies",
-      "de": "Frage 40 über Asian Currencies",
-      "nl": "Vraag 40 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Asian Currencies",
-      "es": "Pregunta 41 sobre Asian Currencies",
-      "de": "Frage 41 über Asian Currencies",
-      "nl": "Vraag 41 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Asian Currencies",
-      "es": "Pregunta 42 sobre Asian Currencies",
-      "de": "Frage 42 über Asian Currencies",
-      "nl": "Vraag 42 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Asian Currencies",
-      "es": "Pregunta 43 sobre Asian Currencies",
-      "de": "Frage 43 über Asian Currencies",
-      "nl": "Vraag 43 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Asian Currencies",
-      "es": "Pregunta 44 sobre Asian Currencies",
-      "de": "Frage 44 über Asian Currencies",
-      "nl": "Vraag 44 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Asian Currencies",
-      "es": "Pregunta 45 sobre Asian Currencies",
-      "de": "Frage 45 über Asian Currencies",
-      "nl": "Vraag 45 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Asian Currencies",
-      "es": "Pregunta 46 sobre Asian Currencies",
-      "de": "Frage 46 über Asian Currencies",
-      "nl": "Vraag 46 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Asian Currencies",
-      "es": "Pregunta 47 sobre Asian Currencies",
-      "de": "Frage 47 über Asian Currencies",
-      "nl": "Vraag 47 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Asian Currencies",
-      "es": "Pregunta 48 sobre Asian Currencies",
-      "de": "Frage 48 über Asian Currencies",
-      "nl": "Vraag 48 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Asian Currencies",
-      "es": "Pregunta 49 sobre Asian Currencies",
-      "de": "Frage 49 über Asian Currencies",
-      "nl": "Vraag 49 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Asian Currencies",
-      "es": "Pregunta 50 sobre Asian Currencies",
-      "de": "Frage 50 über Asian Currencies",
-      "nl": "Vraag 50 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Asian Currencies",
-      "es": "Pregunta 51 sobre Asian Currencies",
-      "de": "Frage 51 über Asian Currencies",
-      "nl": "Vraag 51 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Asian Currencies",
-      "es": "Pregunta 52 sobre Asian Currencies",
-      "de": "Frage 52 über Asian Currencies",
-      "nl": "Vraag 52 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Asian Currencies",
-      "es": "Pregunta 53 sobre Asian Currencies",
-      "de": "Frage 53 über Asian Currencies",
-      "nl": "Vraag 53 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Asian Currencies",
-      "es": "Pregunta 54 sobre Asian Currencies",
-      "de": "Frage 54 über Asian Currencies",
-      "nl": "Vraag 54 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Asian Currencies",
-      "es": "Pregunta 55 sobre Asian Currencies",
-      "de": "Frage 55 über Asian Currencies",
-      "nl": "Vraag 55 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Asian Currencies",
-      "es": "Pregunta 56 sobre Asian Currencies",
-      "de": "Frage 56 über Asian Currencies",
-      "nl": "Vraag 56 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Asian Currencies",
-      "es": "Pregunta 57 sobre Asian Currencies",
-      "de": "Frage 57 über Asian Currencies",
-      "nl": "Vraag 57 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Asian Currencies",
-      "es": "Pregunta 58 sobre Asian Currencies",
-      "de": "Frage 58 über Asian Currencies",
-      "nl": "Vraag 58 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Asian Currencies",
-      "es": "Pregunta 59 sobre Asian Currencies",
-      "de": "Frage 59 über Asian Currencies",
-      "nl": "Vraag 59 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Asian Currencies",
-      "es": "Pregunta 60 sobre Asian Currencies",
-      "de": "Frage 60 über Asian Currencies",
-      "nl": "Vraag 60 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Asian Currencies",
-      "es": "Pregunta 61 sobre Asian Currencies",
-      "de": "Frage 61 über Asian Currencies",
-      "nl": "Vraag 61 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Asian Currencies",
-      "es": "Pregunta 62 sobre Asian Currencies",
-      "de": "Frage 62 über Asian Currencies",
-      "nl": "Vraag 62 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Asian Currencies",
-      "es": "Pregunta 63 sobre Asian Currencies",
-      "de": "Frage 63 über Asian Currencies",
-      "nl": "Vraag 63 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Asian Currencies",
-      "es": "Pregunta 64 sobre Asian Currencies",
-      "de": "Frage 64 über Asian Currencies",
-      "nl": "Vraag 64 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Asian Currencies",
-      "es": "Pregunta 65 sobre Asian Currencies",
-      "de": "Frage 65 über Asian Currencies",
-      "nl": "Vraag 65 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Asian Currencies",
-      "es": "Pregunta 66 sobre Asian Currencies",
-      "de": "Frage 66 über Asian Currencies",
-      "nl": "Vraag 66 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Asian Currencies",
-      "es": "Pregunta 67 sobre Asian Currencies",
-      "de": "Frage 67 über Asian Currencies",
-      "nl": "Vraag 67 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Asian Currencies",
-      "es": "Pregunta 68 sobre Asian Currencies",
-      "de": "Frage 68 über Asian Currencies",
-      "nl": "Vraag 68 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Asian Currencies",
-      "es": "Pregunta 69 sobre Asian Currencies",
-      "de": "Frage 69 über Asian Currencies",
-      "nl": "Vraag 69 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Asian Currencies",
-      "es": "Pregunta 70 sobre Asian Currencies",
-      "de": "Frage 70 über Asian Currencies",
-      "nl": "Vraag 70 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Asian Currencies",
-      "es": "Pregunta 71 sobre Asian Currencies",
-      "de": "Frage 71 über Asian Currencies",
-      "nl": "Vraag 71 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Asian Currencies",
-      "es": "Pregunta 72 sobre Asian Currencies",
-      "de": "Frage 72 über Asian Currencies",
-      "nl": "Vraag 72 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Asian Currencies",
-      "es": "Pregunta 73 sobre Asian Currencies",
-      "de": "Frage 73 über Asian Currencies",
-      "nl": "Vraag 73 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Asian Currencies",
-      "es": "Pregunta 74 sobre Asian Currencies",
-      "de": "Frage 74 über Asian Currencies",
-      "nl": "Vraag 74 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Asian Currencies",
-      "es": "Pregunta 75 sobre Asian Currencies",
-      "de": "Frage 75 über Asian Currencies",
-      "nl": "Vraag 75 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Asian Currencies",
-      "es": "Pregunta 76 sobre Asian Currencies",
-      "de": "Frage 76 über Asian Currencies",
-      "nl": "Vraag 76 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Asian Currencies",
-      "es": "Pregunta 77 sobre Asian Currencies",
-      "de": "Frage 77 über Asian Currencies",
-      "nl": "Vraag 77 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Asian Currencies",
-      "es": "Pregunta 78 sobre Asian Currencies",
-      "de": "Frage 78 über Asian Currencies",
-      "nl": "Vraag 78 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Asian Currencies",
-      "es": "Pregunta 79 sobre Asian Currencies",
-      "de": "Frage 79 über Asian Currencies",
-      "nl": "Vraag 79 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Asian Currencies",
-      "es": "Pregunta 80 sobre Asian Currencies",
-      "de": "Frage 80 über Asian Currencies",
-      "nl": "Vraag 80 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Asian Currencies",
-      "es": "Pregunta 81 sobre Asian Currencies",
-      "de": "Frage 81 über Asian Currencies",
-      "nl": "Vraag 81 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Asian Currencies",
-      "es": "Pregunta 82 sobre Asian Currencies",
-      "de": "Frage 82 über Asian Currencies",
-      "nl": "Vraag 82 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Asian Currencies",
-      "es": "Pregunta 83 sobre Asian Currencies",
-      "de": "Frage 83 über Asian Currencies",
-      "nl": "Vraag 83 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Asian Currencies",
-      "es": "Pregunta 84 sobre Asian Currencies",
-      "de": "Frage 84 über Asian Currencies",
-      "nl": "Vraag 84 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Asian Currencies",
-      "es": "Pregunta 85 sobre Asian Currencies",
-      "de": "Frage 85 über Asian Currencies",
-      "nl": "Vraag 85 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Asian Currencies",
-      "es": "Pregunta 86 sobre Asian Currencies",
-      "de": "Frage 86 über Asian Currencies",
-      "nl": "Vraag 86 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Asian Currencies",
-      "es": "Pregunta 87 sobre Asian Currencies",
-      "de": "Frage 87 über Asian Currencies",
-      "nl": "Vraag 87 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Asian Currencies",
-      "es": "Pregunta 88 sobre Asian Currencies",
-      "de": "Frage 88 über Asian Currencies",
-      "nl": "Vraag 88 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Asian Currencies",
-      "es": "Pregunta 89 sobre Asian Currencies",
-      "de": "Frage 89 über Asian Currencies",
-      "nl": "Vraag 89 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Asian Currencies",
-      "es": "Pregunta 90 sobre Asian Currencies",
-      "de": "Frage 90 über Asian Currencies",
-      "nl": "Vraag 90 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Asian Currencies",
-      "es": "Pregunta 91 sobre Asian Currencies",
-      "de": "Frage 91 über Asian Currencies",
-      "nl": "Vraag 91 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Asian Currencies",
-      "es": "Pregunta 92 sobre Asian Currencies",
-      "de": "Frage 92 über Asian Currencies",
-      "nl": "Vraag 92 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Asian Currencies",
-      "es": "Pregunta 93 sobre Asian Currencies",
-      "de": "Frage 93 über Asian Currencies",
-      "nl": "Vraag 93 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Asian Currencies",
-      "es": "Pregunta 94 sobre Asian Currencies",
-      "de": "Frage 94 über Asian Currencies",
-      "nl": "Vraag 94 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Asian Currencies",
-      "es": "Pregunta 95 sobre Asian Currencies",
-      "de": "Frage 95 über Asian Currencies",
-      "nl": "Vraag 95 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Asian Currencies",
-      "es": "Pregunta 96 sobre Asian Currencies",
-      "de": "Frage 96 über Asian Currencies",
-      "nl": "Vraag 96 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Asian Currencies",
-      "es": "Pregunta 97 sobre Asian Currencies",
-      "de": "Frage 97 über Asian Currencies",
-      "nl": "Vraag 97 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Asian Currencies",
-      "es": "Pregunta 98 sobre Asian Currencies",
-      "de": "Frage 98 über Asian Currencies",
-      "nl": "Vraag 98 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Asian Currencies",
-      "es": "Pregunta 99 sobre Asian Currencies",
-      "de": "Frage 99 über Asian Currencies",
-      "nl": "Vraag 99 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Asian Currencies",
-      "es": "Pregunta 100 sobre Asian Currencies",
-      "de": "Frage 100 über Asian Currencies",
-      "nl": "Vraag 100 over Asian Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for Asian Currencies",
-        "es": "Respuesta A para Asian Currencies",
-        "de": "Antwort A für Asian Currencies",
-        "nl": "Antwoord A voor Asian Currencies"
-      },
-      {
-        "en": "Answer B for Asian Currencies",
-        "es": "Respuesta B para Asian Currencies",
-        "de": "Antwort B für Asian Currencies",
-        "nl": "Antwoord B voor Asian Currencies"
-      },
-      {
-        "en": "Answer C for Asian Currencies",
-        "es": "Respuesta C para Asian Currencies",
-        "de": "Antwort C für Asian Currencies",
-        "nl": "Antwoord C voor Asian Currencies"
-      },
-      {
-        "en": "Answer D for Asian Currencies",
-        "es": "Respuesta D para Asian Currencies",
-        "de": "Antwort D für Asian Currencies",
-        "nl": "Antwoord D voor Asian Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Asian Currencies.",
-      "es": "Esta es la respuesta correcta sobre Asian Currencies.",
-      "de": "Dies ist die richtige Antwort über Asian Currencies.",
-      "nl": "Dit is het juiste antwoord over Asian Currencies."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "How does Japanese Yen relate to Major Asian currencies?",
+                            "es": "¿Cómo does Japanese Yen relate to Major Asian currencies?",
+                            "de": "Wie does Japanese Yen relate to Major Asian currencies?",
+                            "nl": "Hoe does Japanese Yen relate to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Japanese Yen and Currency codes is correct?",
+                            "es": "¿Cuál statement about Japanese Yen and Currency codes is correct?",
+                            "de": "Welche statement about Japanese Yen and Currency codes is correct?",
+                            "nl": "Welke statement about Japanese Yen and Currency codes is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Japanese Yen play?",
+                            "es": "¿In the context of Asian Currencies, what role does Japanese Yen play?",
+                            "de": "in der context von Asian Currencies, what role does Japanese Yen play?",
+                            "nl": "in de context van Asian Currencies, what role does Japanese Yen play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Japanese Yen and Major Asian currencies?",
+                            "es": "¿Qué is the relationship between Japanese Yen and Major Asian currencies?",
+                            "de": "Was is the relationship between Japanese Yen and Major Asian currencies?",
+                            "nl": "Wat is the relationship between Japanese Yen and Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Japanese Yen?",
+                            "es": "¿Cuál of the following best describes Japanese Yen?",
+                            "de": "Welche of the following best describes Japanese Yen?",
+                            "nl": "Welke of the following best describes Japanese Yen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Japanese Yen evolved in relation to Basic facts?",
+                            "es": "¿Cómo has Japanese Yen evolved in relation to Basic facts?",
+                            "de": "Wie has Japanese Yen evolved in relation to Basic facts?",
+                            "nl": "Hoe has Japanese Yen evolved in relation to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Japanese Yen on modern asian currencies?",
+                            "es": "¿Qué is the impact of Japanese Yen on modern asian currencies?",
+                            "de": "Was is the impact of Japanese Yen on modern asian currencies?",
+                            "nl": "Wat is the impact of Japanese Yen on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Japanese Yen is most relevant to Currency codes?",
+                            "es": "¿Cuál principle of Japanese Yen is most relevant to Currency codes?",
+                            "de": "Welche principle of Japanese Yen is most relevant to Currency codes?",
+                            "nl": "Welke principle of Japanese Yen is most relevant to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Japanese Yen in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Japanese Yen in the field of Asian Currencies?",
+                            "de": "Was distinguishes Japanese Yen in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Japanese Yen in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Japanese Yen in Major Asian currencies?",
+                            "es": "¿Qué is the significance of Japanese Yen in Major Asian currencies?",
+                            "de": "Was is the significance of Japanese Yen in Major Asian currencies?",
+                            "nl": "Wat is the significance of Japanese Yen in Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Japanese Yen",
+                                    "es": "This shows Japanese Yen",
+                                    "de": "This shows Japanese Yen",
+                                    "nl": "This shows Japanese Yen"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Japanese Yen is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Chinese Yuan relate to Currency codes?",
+                            "es": "¿Cómo does Chinese Yuan relate to Currency codes?",
+                            "de": "Wie does Chinese Yuan relate to Currency codes?",
+                            "nl": "Hoe does Chinese Yuan relate to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Chinese Yuan and Basic facts is correct?",
+                            "es": "¿Cuál statement about Chinese Yuan and Basic facts is correct?",
+                            "de": "Welche statement about Chinese Yuan and Basic facts is correct?",
+                            "nl": "Welke statement about Chinese Yuan and Basic facts is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Chinese Yuan play?",
+                            "es": "¿In the context of Asian Currencies, what role does Chinese Yuan play?",
+                            "de": "in der context von Asian Currencies, what role does Chinese Yuan play?",
+                            "nl": "in de context van Asian Currencies, what role does Chinese Yuan play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Chinese Yuan and Currency codes?",
+                            "es": "¿Qué is the relationship between Chinese Yuan and Currency codes?",
+                            "de": "Was is the relationship between Chinese Yuan and Currency codes?",
+                            "nl": "Wat is the relationship between Chinese Yuan and Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Chinese Yuan?",
+                            "es": "¿Cuál of the following best describes Chinese Yuan?",
+                            "de": "Welche of the following best describes Chinese Yuan?",
+                            "nl": "Welke of the following best describes Chinese Yuan?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Chinese Yuan evolved in relation to Major Asian currencies?",
+                            "es": "¿Cómo has Chinese Yuan evolved in relation to Major Asian currencies?",
+                            "de": "Wie has Chinese Yuan evolved in relation to Major Asian currencies?",
+                            "nl": "Hoe has Chinese Yuan evolved in relation to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Chinese Yuan on modern asian currencies?",
+                            "es": "¿Qué is the impact of Chinese Yuan on modern asian currencies?",
+                            "de": "Was is the impact of Chinese Yuan on modern asian currencies?",
+                            "nl": "Wat is the impact of Chinese Yuan on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Chinese Yuan is most relevant to Basic facts?",
+                            "es": "¿Cuál principle of Chinese Yuan is most relevant to Basic facts?",
+                            "de": "Welche principle of Chinese Yuan is most relevant to Basic facts?",
+                            "nl": "Welke principle of Chinese Yuan is most relevant to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Chinese Yuan in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Chinese Yuan in the field of Asian Currencies?",
+                            "de": "Was distinguishes Chinese Yuan in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Chinese Yuan in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Chinese Yuan in Currency codes?",
+                            "es": "¿Qué is the significance of Chinese Yuan in Currency codes?",
+                            "de": "Was is the significance of Chinese Yuan in Currency codes?",
+                            "nl": "Wat is the significance of Chinese Yuan in Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Chinese Yuan",
+                                    "es": "This shows Chinese Yuan",
+                                    "de": "This shows Chinese Yuan",
+                                    "nl": "This shows Chinese Yuan"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Chinese Yuan is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Indian Rupee relate to Basic facts?",
+                            "es": "¿Cómo does Indian Rupee relate to Basic facts?",
+                            "de": "Wie does Indian Rupee relate to Basic facts?",
+                            "nl": "Hoe does Indian Rupee relate to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Indian Rupee and Major Asian currencies is correct?",
+                            "es": "¿Cuál statement about Indian Rupee and Major Asian currencies is correct?",
+                            "de": "Welche statement about Indian Rupee and Major Asian currencies is correct?",
+                            "nl": "Welke statement about Indian Rupee and Major Asian currencies is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Indian Rupee play?",
+                            "es": "¿In the context of Asian Currencies, what role does Indian Rupee play?",
+                            "de": "in der context von Asian Currencies, what role does Indian Rupee play?",
+                            "nl": "in de context van Asian Currencies, what role does Indian Rupee play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Currency codes. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Currency codes. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Currency codes. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Indian Rupee and Basic facts?",
+                            "es": "¿Qué is the relationship between Indian Rupee and Basic facts?",
+                            "de": "Was is the relationship between Indian Rupee and Basic facts?",
+                            "nl": "Wat is the relationship between Indian Rupee and Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Indian Rupee?",
+                            "es": "¿Cuál of the following best describes Indian Rupee?",
+                            "de": "Welche of the following best describes Indian Rupee?",
+                            "nl": "Welke of the following best describes Indian Rupee?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Indian Rupee evolved in relation to Currency codes?",
+                            "es": "¿Cómo has Indian Rupee evolved in relation to Currency codes?",
+                            "de": "Wie has Indian Rupee evolved in relation to Currency codes?",
+                            "nl": "Hoe has Indian Rupee evolved in relation to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Currency codes. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Currency codes. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Currency codes. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Indian Rupee on modern asian currencies?",
+                            "es": "¿Qué is the impact of Indian Rupee on modern asian currencies?",
+                            "de": "Was is the impact of Indian Rupee on modern asian currencies?",
+                            "nl": "Wat is the impact of Indian Rupee on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Indian Rupee is most relevant to Major Asian currencies?",
+                            "es": "¿Cuál principle of Indian Rupee is most relevant to Major Asian currencies?",
+                            "de": "Welche principle of Indian Rupee is most relevant to Major Asian currencies?",
+                            "nl": "Welke principle of Indian Rupee is most relevant to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Indian Rupee in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Indian Rupee in the field of Asian Currencies?",
+                            "de": "Was distinguishes Indian Rupee in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Indian Rupee in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Currency codes. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Currency codes. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Currency codes. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Indian Rupee in Basic facts?",
+                            "es": "¿Qué is the significance of Indian Rupee in Basic facts?",
+                            "de": "Was is the significance of Indian Rupee in Basic facts?",
+                            "nl": "Wat is the significance of Indian Rupee in Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indian Rupee",
+                                    "es": "This shows Indian Rupee",
+                                    "de": "This shows Indian Rupee",
+                                    "nl": "This shows Indian Rupee"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indian Rupee es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indian Rupee ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indian Rupee is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Korean Won relate to Major Asian currencies?",
+                            "es": "¿Cómo does Korean Won relate to Major Asian currencies?",
+                            "de": "Wie does Korean Won relate to Major Asian currencies?",
+                            "nl": "Hoe does Korean Won relate to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Korean Won and Currency codes is correct?",
+                            "es": "¿Cuál statement about Korean Won and Currency codes is correct?",
+                            "de": "Welche statement about Korean Won and Currency codes is correct?",
+                            "nl": "Welke statement about Korean Won and Currency codes is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Korean Won play?",
+                            "es": "¿In the context of Asian Currencies, what role does Korean Won play?",
+                            "de": "in der context von Asian Currencies, what role does Korean Won play?",
+                            "nl": "in de context van Asian Currencies, what role does Korean Won play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Korean Won and Major Asian currencies?",
+                            "es": "¿Qué is the relationship between Korean Won and Major Asian currencies?",
+                            "de": "Was is the relationship between Korean Won and Major Asian currencies?",
+                            "nl": "Wat is the relationship between Korean Won and Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Korean Won?",
+                            "es": "¿Cuál of the following best describes Korean Won?",
+                            "de": "Welche of the following best describes Korean Won?",
+                            "nl": "Welke of the following best describes Korean Won?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Korean Won evolved in relation to Basic facts?",
+                            "es": "¿Cómo has Korean Won evolved in relation to Basic facts?",
+                            "de": "Wie has Korean Won evolved in relation to Basic facts?",
+                            "nl": "Hoe has Korean Won evolved in relation to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Korean Won on modern asian currencies?",
+                            "es": "¿Qué is the impact of Korean Won on modern asian currencies?",
+                            "de": "Was is the impact of Korean Won on modern asian currencies?",
+                            "nl": "Wat is the impact of Korean Won on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Korean Won is most relevant to Currency codes?",
+                            "es": "¿Cuál principle of Korean Won is most relevant to Currency codes?",
+                            "de": "Welche principle of Korean Won is most relevant to Currency codes?",
+                            "nl": "Welke principle of Korean Won is most relevant to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Korean Won in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Korean Won in the field of Asian Currencies?",
+                            "de": "Was distinguishes Korean Won in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Korean Won in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Korean Won in Major Asian currencies?",
+                            "es": "¿Qué is the significance of Korean Won in Major Asian currencies?",
+                            "de": "Was is the significance of Korean Won in Major Asian currencies?",
+                            "nl": "Wat is the significance of Korean Won in Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Korean Won",
+                                    "es": "This shows Korean Won",
+                                    "de": "This shows Korean Won",
+                                    "nl": "This shows Korean Won"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Korean Won is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Singapore Dollar relate to Currency codes?",
+                            "es": "¿Cómo does Singapore Dollar relate to Currency codes?",
+                            "de": "Wie does Singapore Dollar relate to Currency codes?",
+                            "nl": "Hoe does Singapore Dollar relate to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Singapore Dollar and Basic facts is correct?",
+                            "es": "¿Cuál statement about Singapore Dollar and Basic facts is correct?",
+                            "de": "Welche statement about Singapore Dollar and Basic facts is correct?",
+                            "nl": "Welke statement about Singapore Dollar and Basic facts is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Singapore Dollar play?",
+                            "es": "¿In the context of Asian Currencies, what role does Singapore Dollar play?",
+                            "de": "in der context von Asian Currencies, what role does Singapore Dollar play?",
+                            "nl": "in de context van Asian Currencies, what role does Singapore Dollar play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Singapore Dollar and Currency codes?",
+                            "es": "¿Qué is the relationship between Singapore Dollar and Currency codes?",
+                            "de": "Was is the relationship between Singapore Dollar and Currency codes?",
+                            "nl": "Wat is the relationship between Singapore Dollar and Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Singapore Dollar?",
+                            "es": "¿Cuál of the following best describes Singapore Dollar?",
+                            "de": "Welche of the following best describes Singapore Dollar?",
+                            "nl": "Welke of the following best describes Singapore Dollar?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Singapore Dollar evolved in relation to Major Asian currencies?",
+                            "es": "¿Cómo has Singapore Dollar evolved in relation to Major Asian currencies?",
+                            "de": "Wie has Singapore Dollar evolved in relation to Major Asian currencies?",
+                            "nl": "Hoe has Singapore Dollar evolved in relation to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Singapore Dollar on modern asian currencies?",
+                            "es": "¿Qué is the impact of Singapore Dollar on modern asian currencies?",
+                            "de": "Was is the impact of Singapore Dollar on modern asian currencies?",
+                            "nl": "Wat is the impact of Singapore Dollar on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Singapore Dollar is most relevant to Basic facts?",
+                            "es": "¿Cuál principle of Singapore Dollar is most relevant to Basic facts?",
+                            "de": "Welche principle of Singapore Dollar is most relevant to Basic facts?",
+                            "nl": "Welke principle of Singapore Dollar is most relevant to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Singapore Dollar in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Singapore Dollar in the field of Asian Currencies?",
+                            "de": "Was distinguishes Singapore Dollar in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Singapore Dollar in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Singapore Dollar in Currency codes?",
+                            "es": "¿Qué is the significance of Singapore Dollar in Currency codes?",
+                            "de": "Was is the significance of Singapore Dollar in Currency codes?",
+                            "nl": "Wat is the significance of Singapore Dollar in Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Singapore Dollar",
+                                    "es": "This shows Singapore Dollar",
+                                    "de": "This shows Singapore Dollar",
+                                    "nl": "This shows Singapore Dollar"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Singapore Dollar is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Thai Baht relate to Basic facts?",
+                            "es": "¿Cómo does Thai Baht relate to Basic facts?",
+                            "de": "Wie does Thai Baht relate to Basic facts?",
+                            "nl": "Hoe does Thai Baht relate to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Thai Baht and Major Asian currencies is correct?",
+                            "es": "¿Cuál statement about Thai Baht and Major Asian currencies is correct?",
+                            "de": "Welche statement about Thai Baht and Major Asian currencies is correct?",
+                            "nl": "Welke statement about Thai Baht and Major Asian currencies is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Thai Baht play?",
+                            "es": "¿In the context of Asian Currencies, what role does Thai Baht play?",
+                            "de": "in der context von Asian Currencies, what role does Thai Baht play?",
+                            "nl": "in de context van Asian Currencies, what role does Thai Baht play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Thai Baht and Basic facts?",
+                            "es": "¿Qué is the relationship between Thai Baht and Basic facts?",
+                            "de": "Was is the relationship between Thai Baht and Basic facts?",
+                            "nl": "Wat is the relationship between Thai Baht and Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Thai Baht?",
+                            "es": "¿Cuál of the following best describes Thai Baht?",
+                            "de": "Welche of the following best describes Thai Baht?",
+                            "nl": "Welke of the following best describes Thai Baht?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Thai Baht evolved in relation to Currency codes?",
+                            "es": "¿Cómo has Thai Baht evolved in relation to Currency codes?",
+                            "de": "Wie has Thai Baht evolved in relation to Currency codes?",
+                            "nl": "Hoe has Thai Baht evolved in relation to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Thai Baht on modern asian currencies?",
+                            "es": "¿Qué is the impact of Thai Baht on modern asian currencies?",
+                            "de": "Was is the impact of Thai Baht on modern asian currencies?",
+                            "nl": "Wat is the impact of Thai Baht on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Thai Baht is most relevant to Major Asian currencies?",
+                            "es": "¿Cuál principle of Thai Baht is most relevant to Major Asian currencies?",
+                            "de": "Welche principle of Thai Baht is most relevant to Major Asian currencies?",
+                            "nl": "Welke principle of Thai Baht is most relevant to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Thai Baht in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Thai Baht in the field of Asian Currencies?",
+                            "de": "Was distinguishes Thai Baht in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Thai Baht in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Thai Baht in Basic facts?",
+                            "es": "¿Qué is the significance of Thai Baht in Basic facts?",
+                            "de": "Was is the significance of Thai Baht in Basic facts?",
+                            "nl": "Wat is the significance of Thai Baht in Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Thai Baht",
+                                    "es": "This shows Thai Baht",
+                                    "de": "This shows Thai Baht",
+                                    "nl": "This shows Thai Baht"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Thai Baht is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Indonesian Rupiah relate to Major Asian currencies?",
+                            "es": "¿Cómo does Indonesian Rupiah relate to Major Asian currencies?",
+                            "de": "Wie does Indonesian Rupiah relate to Major Asian currencies?",
+                            "nl": "Hoe does Indonesian Rupiah relate to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Indonesian Rupiah and Currency codes is correct?",
+                            "es": "¿Cuál statement about Indonesian Rupiah and Currency codes is correct?",
+                            "de": "Welche statement about Indonesian Rupiah and Currency codes is correct?",
+                            "nl": "Welke statement about Indonesian Rupiah and Currency codes is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Currency codes. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Currency codes. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Currency codes. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Indonesian Rupiah play?",
+                            "es": "¿In the context of Asian Currencies, what role does Indonesian Rupiah play?",
+                            "de": "in der context von Asian Currencies, what role does Indonesian Rupiah play?",
+                            "nl": "in de context van Asian Currencies, what role does Indonesian Rupiah play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Indonesian Rupiah and Major Asian currencies?",
+                            "es": "¿Qué is the relationship between Indonesian Rupiah and Major Asian currencies?",
+                            "de": "Was is the relationship between Indonesian Rupiah and Major Asian currencies?",
+                            "nl": "Wat is the relationship between Indonesian Rupiah and Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Indonesian Rupiah?",
+                            "es": "¿Cuál of the following best describes Indonesian Rupiah?",
+                            "de": "Welche of the following best describes Indonesian Rupiah?",
+                            "nl": "Welke of the following best describes Indonesian Rupiah?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Currency codes. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Currency codes. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Currency codes. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Indonesian Rupiah evolved in relation to Basic facts?",
+                            "es": "¿Cómo has Indonesian Rupiah evolved in relation to Basic facts?",
+                            "de": "Wie has Indonesian Rupiah evolved in relation to Basic facts?",
+                            "nl": "Hoe has Indonesian Rupiah evolved in relation to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Indonesian Rupiah on modern asian currencies?",
+                            "es": "¿Qué is the impact of Indonesian Rupiah on modern asian currencies?",
+                            "de": "Was is the impact of Indonesian Rupiah on modern asian currencies?",
+                            "nl": "Wat is the impact of Indonesian Rupiah on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Indonesian Rupiah is most relevant to Currency codes?",
+                            "es": "¿Cuál principle of Indonesian Rupiah is most relevant to Currency codes?",
+                            "de": "Welche principle of Indonesian Rupiah is most relevant to Currency codes?",
+                            "nl": "Welke principle of Indonesian Rupiah is most relevant to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Currency codes. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Currency codes. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Currency codes. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Indonesian Rupiah in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Indonesian Rupiah in the field of Asian Currencies?",
+                            "de": "Was distinguishes Indonesian Rupiah in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Indonesian Rupiah in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Basic facts. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Basic facts. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Basic facts. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Indonesian Rupiah in Major Asian currencies?",
+                            "es": "¿Qué is the significance of Indonesian Rupiah in Major Asian currencies?",
+                            "de": "Was is the significance of Indonesian Rupiah in Major Asian currencies?",
+                            "nl": "Wat is the significance of Indonesian Rupiah in Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Indonesian Rupiah",
+                                    "es": "This shows Indonesian Rupiah",
+                                    "de": "This shows Indonesian Rupiah",
+                                    "nl": "This shows Indonesian Rupiah"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Indonesian Rupiah es important en Asian Currencies because it relates to Major Asian currencies. This concept es fundamental para understanding el subject.",
+                            "de": "Indonesian Rupiah ist important in Asian Currencies because it relates to Major Asian currencies. This concept ist fundamental für understanding der subject.",
+                            "nl": "Indonesian Rupiah is important in Asian Currencies because it relates to Major Asian currencies. This concept is fundamental voor understanding de subject."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Malaysian Ringgit relate to Currency codes?",
+                            "es": "¿Cómo does Malaysian Ringgit relate to Currency codes?",
+                            "de": "Wie does Malaysian Ringgit relate to Currency codes?",
+                            "nl": "Hoe does Malaysian Ringgit relate to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Malaysian Ringgit and Basic facts is correct?",
+                            "es": "¿Cuál statement about Malaysian Ringgit and Basic facts is correct?",
+                            "de": "Welche statement about Malaysian Ringgit and Basic facts is correct?",
+                            "nl": "Welke statement about Malaysian Ringgit and Basic facts is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Malaysian Ringgit play?",
+                            "es": "¿In the context of Asian Currencies, what role does Malaysian Ringgit play?",
+                            "de": "in der context von Asian Currencies, what role does Malaysian Ringgit play?",
+                            "nl": "in de context van Asian Currencies, what role does Malaysian Ringgit play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Malaysian Ringgit and Currency codes?",
+                            "es": "¿Qué is the relationship between Malaysian Ringgit and Currency codes?",
+                            "de": "Was is the relationship between Malaysian Ringgit and Currency codes?",
+                            "nl": "Wat is the relationship between Malaysian Ringgit and Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Malaysian Ringgit?",
+                            "es": "¿Cuál of the following best describes Malaysian Ringgit?",
+                            "de": "Welche of the following best describes Malaysian Ringgit?",
+                            "nl": "Welke of the following best describes Malaysian Ringgit?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Malaysian Ringgit evolved in relation to Major Asian currencies?",
+                            "es": "¿Cómo has Malaysian Ringgit evolved in relation to Major Asian currencies?",
+                            "de": "Wie has Malaysian Ringgit evolved in relation to Major Asian currencies?",
+                            "nl": "Hoe has Malaysian Ringgit evolved in relation to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Malaysian Ringgit on modern asian currencies?",
+                            "es": "¿Qué is the impact of Malaysian Ringgit on modern asian currencies?",
+                            "de": "Was is the impact of Malaysian Ringgit on modern asian currencies?",
+                            "nl": "Wat is the impact of Malaysian Ringgit on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Malaysian Ringgit is most relevant to Basic facts?",
+                            "es": "¿Cuál principle of Malaysian Ringgit is most relevant to Basic facts?",
+                            "de": "Welche principle of Malaysian Ringgit is most relevant to Basic facts?",
+                            "nl": "Welke principle of Malaysian Ringgit is most relevant to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Malaysian Ringgit in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Malaysian Ringgit in the field of Asian Currencies?",
+                            "de": "Was distinguishes Malaysian Ringgit in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Malaysian Ringgit in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Malaysian Ringgit in Currency codes?",
+                            "es": "¿Qué is the significance of Malaysian Ringgit in Currency codes?",
+                            "de": "Was is the significance of Malaysian Ringgit in Currency codes?",
+                            "nl": "Wat is the significance of Malaysian Ringgit in Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Malaysian Ringgit",
+                                    "es": "This shows Malaysian Ringgit",
+                                    "de": "This shows Malaysian Ringgit",
+                                    "nl": "This shows Malaysian Ringgit"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Malaysian Ringgit is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Philippine Peso relate to Basic facts?",
+                            "es": "¿Cómo does Philippine Peso relate to Basic facts?",
+                            "de": "Wie does Philippine Peso relate to Basic facts?",
+                            "nl": "Hoe does Philippine Peso relate to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Philippine Peso and Major Asian currencies is correct?",
+                            "es": "¿Cuál statement about Philippine Peso and Major Asian currencies is correct?",
+                            "de": "Welche statement about Philippine Peso and Major Asian currencies is correct?",
+                            "nl": "Welke statement about Philippine Peso and Major Asian currencies is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Philippine Peso play?",
+                            "es": "¿In the context of Asian Currencies, what role does Philippine Peso play?",
+                            "de": "in der context von Asian Currencies, what role does Philippine Peso play?",
+                            "nl": "in de context van Asian Currencies, what role does Philippine Peso play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Philippine Peso and Basic facts?",
+                            "es": "¿Qué is the relationship between Philippine Peso and Basic facts?",
+                            "de": "Was is the relationship between Philippine Peso and Basic facts?",
+                            "nl": "Wat is the relationship between Philippine Peso and Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Philippine Peso?",
+                            "es": "¿Cuál of the following best describes Philippine Peso?",
+                            "de": "Welche of the following best describes Philippine Peso?",
+                            "nl": "Welke of the following best describes Philippine Peso?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Philippine Peso evolved in relation to Currency codes?",
+                            "es": "¿Cómo has Philippine Peso evolved in relation to Currency codes?",
+                            "de": "Wie has Philippine Peso evolved in relation to Currency codes?",
+                            "nl": "Hoe has Philippine Peso evolved in relation to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Philippine Peso on modern asian currencies?",
+                            "es": "¿Qué is the impact of Philippine Peso on modern asian currencies?",
+                            "de": "Was is the impact of Philippine Peso on modern asian currencies?",
+                            "nl": "Wat is the impact of Philippine Peso on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Philippine Peso is most relevant to Major Asian currencies?",
+                            "es": "¿Cuál principle of Philippine Peso is most relevant to Major Asian currencies?",
+                            "de": "Welche principle of Philippine Peso is most relevant to Major Asian currencies?",
+                            "nl": "Welke principle of Philippine Peso is most relevant to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Philippine Peso in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Philippine Peso in the field of Asian Currencies?",
+                            "de": "Was distinguishes Philippine Peso in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Philippine Peso in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Philippine Peso in Basic facts?",
+                            "es": "¿Qué is the significance of Philippine Peso in Basic facts?",
+                            "de": "Was is the significance of Philippine Peso in Basic facts?",
+                            "nl": "Wat is the significance of Philippine Peso in Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Philippine Peso",
+                                    "es": "This shows Philippine Peso",
+                                    "de": "This shows Philippine Peso",
+                                    "nl": "This shows Philippine Peso"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Philippine Peso is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Vietnamese Dong relate to Major Asian currencies?",
+                            "es": "¿Cómo does Vietnamese Dong relate to Major Asian currencies?",
+                            "de": "Wie does Vietnamese Dong relate to Major Asian currencies?",
+                            "nl": "Hoe does Vietnamese Dong relate to Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Vietnamese Dong and Currency codes is correct?",
+                            "es": "¿Cuál statement about Vietnamese Dong and Currency codes is correct?",
+                            "de": "Welche statement about Vietnamese Dong and Currency codes is correct?",
+                            "nl": "Welke statement about Vietnamese Dong and Currency codes is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Asian Currencies, what role does Vietnamese Dong play?",
+                            "es": "¿In the context of Asian Currencies, what role does Vietnamese Dong play?",
+                            "de": "in der context von Asian Currencies, what role does Vietnamese Dong play?",
+                            "nl": "in de context van Asian Currencies, what role does Vietnamese Dong play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Vietnamese Dong and Major Asian currencies?",
+                            "es": "¿Qué is the relationship between Vietnamese Dong and Major Asian currencies?",
+                            "de": "Was is the relationship between Vietnamese Dong and Major Asian currencies?",
+                            "nl": "Wat is the relationship between Vietnamese Dong and Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Vietnamese Dong?",
+                            "es": "¿Cuál of the following best describes Vietnamese Dong?",
+                            "de": "Welche of the following best describes Vietnamese Dong?",
+                            "nl": "Welke of the following best describes Vietnamese Dong?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Vietnamese Dong evolved in relation to Basic facts?",
+                            "es": "¿Cómo has Vietnamese Dong evolved in relation to Basic facts?",
+                            "de": "Wie has Vietnamese Dong evolved in relation to Basic facts?",
+                            "nl": "Hoe has Vietnamese Dong evolved in relation to Basic facts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Vietnamese Dong on modern asian currencies?",
+                            "es": "¿Qué is the impact of Vietnamese Dong on modern asian currencies?",
+                            "de": "Was is the impact of Vietnamese Dong on modern asian currencies?",
+                            "nl": "Wat is the impact of Vietnamese Dong on modern asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Vietnamese Dong is most relevant to Currency codes?",
+                            "es": "¿Cuál principle of Vietnamese Dong is most relevant to Currency codes?",
+                            "de": "Welche principle of Vietnamese Dong is most relevant to Currency codes?",
+                            "nl": "Welke principle of Vietnamese Dong is most relevant to Currency codes?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Currency codes",
+                                    "es": "This affects Currency codes",
+                                    "de": "This affects Currency codes",
+                                    "nl": "This affects Currency codes"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Currency codes. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Vietnamese Dong in the field of Asian Currencies?",
+                            "es": "¿Qué distinguishes Vietnamese Dong in the field of Asian Currencies?",
+                            "de": "Was distinguishes Vietnamese Dong in the field of Asian Currencies?",
+                            "nl": "Wat distinguishes Vietnamese Dong in the field of Asian Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Basic facts",
+                                    "es": "This affects Basic facts",
+                                    "de": "This affects Basic facts",
+                                    "nl": "This affects Basic facts"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Basic facts. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Vietnamese Dong in Major Asian currencies?",
+                            "es": "¿Qué is the significance of Vietnamese Dong in Major Asian currencies?",
+                            "de": "Was is the significance of Vietnamese Dong in Major Asian currencies?",
+                            "nl": "Wat is the significance of Vietnamese Dong in Major Asian currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Vietnamese Dong",
+                                    "es": "This shows Vietnamese Dong",
+                                    "de": "This shows Vietnamese Dong",
+                                    "nl": "This shows Vietnamese Dong"
+                            },
+                            {
+                                    "en": "This affects Major Asian currencies",
+                                    "es": "This affects Major Asian currencies",
+                                    "de": "This affects Major Asian currencies",
+                                    "nl": "This affects Major Asian currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "es": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "de": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field.",
+                            "nl": "Vietnamese Dong is important in Asian Currencies because it relates to Major Asian currencies. This is a key concept in this field."
+                    }
+            }
+    ]
 };

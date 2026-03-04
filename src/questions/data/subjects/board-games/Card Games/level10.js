@@ -1,4104 +1,4108 @@
+// Card Games - level10
+// Total questions: 100
+// Labels cleaned: 2026-03-03T10:21:26.300Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Card Games",
-      "es": "Pregunta 1 sobre Card Games",
-      "de": "Frage 1 über Card Games",
-      "nl": "Vraag 1 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Card Games",
-      "es": "Pregunta 2 sobre Card Games",
-      "de": "Frage 2 über Card Games",
-      "nl": "Vraag 2 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Card Games",
-      "es": "Pregunta 3 sobre Card Games",
-      "de": "Frage 3 über Card Games",
-      "nl": "Vraag 3 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Card Games",
-      "es": "Pregunta 4 sobre Card Games",
-      "de": "Frage 4 über Card Games",
-      "nl": "Vraag 4 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Card Games",
-      "es": "Pregunta 5 sobre Card Games",
-      "de": "Frage 5 über Card Games",
-      "nl": "Vraag 5 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Card Games",
-      "es": "Pregunta 6 sobre Card Games",
-      "de": "Frage 6 über Card Games",
-      "nl": "Vraag 6 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Card Games",
-      "es": "Pregunta 7 sobre Card Games",
-      "de": "Frage 7 über Card Games",
-      "nl": "Vraag 7 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Card Games",
-      "es": "Pregunta 8 sobre Card Games",
-      "de": "Frage 8 über Card Games",
-      "nl": "Vraag 8 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Card Games",
-      "es": "Pregunta 9 sobre Card Games",
-      "de": "Frage 9 über Card Games",
-      "nl": "Vraag 9 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Card Games",
-      "es": "Pregunta 10 sobre Card Games",
-      "de": "Frage 10 über Card Games",
-      "nl": "Vraag 10 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Card Games",
-      "es": "Pregunta 11 sobre Card Games",
-      "de": "Frage 11 über Card Games",
-      "nl": "Vraag 11 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Card Games",
-      "es": "Pregunta 12 sobre Card Games",
-      "de": "Frage 12 über Card Games",
-      "nl": "Vraag 12 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Card Games",
-      "es": "Pregunta 13 sobre Card Games",
-      "de": "Frage 13 über Card Games",
-      "nl": "Vraag 13 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Card Games",
-      "es": "Pregunta 14 sobre Card Games",
-      "de": "Frage 14 über Card Games",
-      "nl": "Vraag 14 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Card Games",
-      "es": "Pregunta 15 sobre Card Games",
-      "de": "Frage 15 über Card Games",
-      "nl": "Vraag 15 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Card Games",
-      "es": "Pregunta 16 sobre Card Games",
-      "de": "Frage 16 über Card Games",
-      "nl": "Vraag 16 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Card Games",
-      "es": "Pregunta 17 sobre Card Games",
-      "de": "Frage 17 über Card Games",
-      "nl": "Vraag 17 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Card Games",
-      "es": "Pregunta 18 sobre Card Games",
-      "de": "Frage 18 über Card Games",
-      "nl": "Vraag 18 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Card Games",
-      "es": "Pregunta 19 sobre Card Games",
-      "de": "Frage 19 über Card Games",
-      "nl": "Vraag 19 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Card Games",
-      "es": "Pregunta 20 sobre Card Games",
-      "de": "Frage 20 über Card Games",
-      "nl": "Vraag 20 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Card Games",
-      "es": "Pregunta 21 sobre Card Games",
-      "de": "Frage 21 über Card Games",
-      "nl": "Vraag 21 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Card Games",
-      "es": "Pregunta 22 sobre Card Games",
-      "de": "Frage 22 über Card Games",
-      "nl": "Vraag 22 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Card Games",
-      "es": "Pregunta 23 sobre Card Games",
-      "de": "Frage 23 über Card Games",
-      "nl": "Vraag 23 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Card Games",
-      "es": "Pregunta 24 sobre Card Games",
-      "de": "Frage 24 über Card Games",
-      "nl": "Vraag 24 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Card Games",
-      "es": "Pregunta 25 sobre Card Games",
-      "de": "Frage 25 über Card Games",
-      "nl": "Vraag 25 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Card Games",
-      "es": "Pregunta 26 sobre Card Games",
-      "de": "Frage 26 über Card Games",
-      "nl": "Vraag 26 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Card Games",
-      "es": "Pregunta 27 sobre Card Games",
-      "de": "Frage 27 über Card Games",
-      "nl": "Vraag 27 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Card Games",
-      "es": "Pregunta 28 sobre Card Games",
-      "de": "Frage 28 über Card Games",
-      "nl": "Vraag 28 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Card Games",
-      "es": "Pregunta 29 sobre Card Games",
-      "de": "Frage 29 über Card Games",
-      "nl": "Vraag 29 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Card Games",
-      "es": "Pregunta 30 sobre Card Games",
-      "de": "Frage 30 über Card Games",
-      "nl": "Vraag 30 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Card Games",
-      "es": "Pregunta 31 sobre Card Games",
-      "de": "Frage 31 über Card Games",
-      "nl": "Vraag 31 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Card Games",
-      "es": "Pregunta 32 sobre Card Games",
-      "de": "Frage 32 über Card Games",
-      "nl": "Vraag 32 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Card Games",
-      "es": "Pregunta 33 sobre Card Games",
-      "de": "Frage 33 über Card Games",
-      "nl": "Vraag 33 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Card Games",
-      "es": "Pregunta 34 sobre Card Games",
-      "de": "Frage 34 über Card Games",
-      "nl": "Vraag 34 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Card Games",
-      "es": "Pregunta 35 sobre Card Games",
-      "de": "Frage 35 über Card Games",
-      "nl": "Vraag 35 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Card Games",
-      "es": "Pregunta 36 sobre Card Games",
-      "de": "Frage 36 über Card Games",
-      "nl": "Vraag 36 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Card Games",
-      "es": "Pregunta 37 sobre Card Games",
-      "de": "Frage 37 über Card Games",
-      "nl": "Vraag 37 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Card Games",
-      "es": "Pregunta 38 sobre Card Games",
-      "de": "Frage 38 über Card Games",
-      "nl": "Vraag 38 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Card Games",
-      "es": "Pregunta 39 sobre Card Games",
-      "de": "Frage 39 über Card Games",
-      "nl": "Vraag 39 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Card Games",
-      "es": "Pregunta 40 sobre Card Games",
-      "de": "Frage 40 über Card Games",
-      "nl": "Vraag 40 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Card Games",
-      "es": "Pregunta 41 sobre Card Games",
-      "de": "Frage 41 über Card Games",
-      "nl": "Vraag 41 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Card Games",
-      "es": "Pregunta 42 sobre Card Games",
-      "de": "Frage 42 über Card Games",
-      "nl": "Vraag 42 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Card Games",
-      "es": "Pregunta 43 sobre Card Games",
-      "de": "Frage 43 über Card Games",
-      "nl": "Vraag 43 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Card Games",
-      "es": "Pregunta 44 sobre Card Games",
-      "de": "Frage 44 über Card Games",
-      "nl": "Vraag 44 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Card Games",
-      "es": "Pregunta 45 sobre Card Games",
-      "de": "Frage 45 über Card Games",
-      "nl": "Vraag 45 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Card Games",
-      "es": "Pregunta 46 sobre Card Games",
-      "de": "Frage 46 über Card Games",
-      "nl": "Vraag 46 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Card Games",
-      "es": "Pregunta 47 sobre Card Games",
-      "de": "Frage 47 über Card Games",
-      "nl": "Vraag 47 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Card Games",
-      "es": "Pregunta 48 sobre Card Games",
-      "de": "Frage 48 über Card Games",
-      "nl": "Vraag 48 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Card Games",
-      "es": "Pregunta 49 sobre Card Games",
-      "de": "Frage 49 über Card Games",
-      "nl": "Vraag 49 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Card Games",
-      "es": "Pregunta 50 sobre Card Games",
-      "de": "Frage 50 über Card Games",
-      "nl": "Vraag 50 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Card Games",
-      "es": "Pregunta 51 sobre Card Games",
-      "de": "Frage 51 über Card Games",
-      "nl": "Vraag 51 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Card Games",
-      "es": "Pregunta 52 sobre Card Games",
-      "de": "Frage 52 über Card Games",
-      "nl": "Vraag 52 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Card Games",
-      "es": "Pregunta 53 sobre Card Games",
-      "de": "Frage 53 über Card Games",
-      "nl": "Vraag 53 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Card Games",
-      "es": "Pregunta 54 sobre Card Games",
-      "de": "Frage 54 über Card Games",
-      "nl": "Vraag 54 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Card Games",
-      "es": "Pregunta 55 sobre Card Games",
-      "de": "Frage 55 über Card Games",
-      "nl": "Vraag 55 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Card Games",
-      "es": "Pregunta 56 sobre Card Games",
-      "de": "Frage 56 über Card Games",
-      "nl": "Vraag 56 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Card Games",
-      "es": "Pregunta 57 sobre Card Games",
-      "de": "Frage 57 über Card Games",
-      "nl": "Vraag 57 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Card Games",
-      "es": "Pregunta 58 sobre Card Games",
-      "de": "Frage 58 über Card Games",
-      "nl": "Vraag 58 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Card Games",
-      "es": "Pregunta 59 sobre Card Games",
-      "de": "Frage 59 über Card Games",
-      "nl": "Vraag 59 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Card Games",
-      "es": "Pregunta 60 sobre Card Games",
-      "de": "Frage 60 über Card Games",
-      "nl": "Vraag 60 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Card Games",
-      "es": "Pregunta 61 sobre Card Games",
-      "de": "Frage 61 über Card Games",
-      "nl": "Vraag 61 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Card Games",
-      "es": "Pregunta 62 sobre Card Games",
-      "de": "Frage 62 über Card Games",
-      "nl": "Vraag 62 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Card Games",
-      "es": "Pregunta 63 sobre Card Games",
-      "de": "Frage 63 über Card Games",
-      "nl": "Vraag 63 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Card Games",
-      "es": "Pregunta 64 sobre Card Games",
-      "de": "Frage 64 über Card Games",
-      "nl": "Vraag 64 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Card Games",
-      "es": "Pregunta 65 sobre Card Games",
-      "de": "Frage 65 über Card Games",
-      "nl": "Vraag 65 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Card Games",
-      "es": "Pregunta 66 sobre Card Games",
-      "de": "Frage 66 über Card Games",
-      "nl": "Vraag 66 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Card Games",
-      "es": "Pregunta 67 sobre Card Games",
-      "de": "Frage 67 über Card Games",
-      "nl": "Vraag 67 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Card Games",
-      "es": "Pregunta 68 sobre Card Games",
-      "de": "Frage 68 über Card Games",
-      "nl": "Vraag 68 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Card Games",
-      "es": "Pregunta 69 sobre Card Games",
-      "de": "Frage 69 über Card Games",
-      "nl": "Vraag 69 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Card Games",
-      "es": "Pregunta 70 sobre Card Games",
-      "de": "Frage 70 über Card Games",
-      "nl": "Vraag 70 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Card Games",
-      "es": "Pregunta 71 sobre Card Games",
-      "de": "Frage 71 über Card Games",
-      "nl": "Vraag 71 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Card Games",
-      "es": "Pregunta 72 sobre Card Games",
-      "de": "Frage 72 über Card Games",
-      "nl": "Vraag 72 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Card Games",
-      "es": "Pregunta 73 sobre Card Games",
-      "de": "Frage 73 über Card Games",
-      "nl": "Vraag 73 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Card Games",
-      "es": "Pregunta 74 sobre Card Games",
-      "de": "Frage 74 über Card Games",
-      "nl": "Vraag 74 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Card Games",
-      "es": "Pregunta 75 sobre Card Games",
-      "de": "Frage 75 über Card Games",
-      "nl": "Vraag 75 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Card Games",
-      "es": "Pregunta 76 sobre Card Games",
-      "de": "Frage 76 über Card Games",
-      "nl": "Vraag 76 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Card Games",
-      "es": "Pregunta 77 sobre Card Games",
-      "de": "Frage 77 über Card Games",
-      "nl": "Vraag 77 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Card Games",
-      "es": "Pregunta 78 sobre Card Games",
-      "de": "Frage 78 über Card Games",
-      "nl": "Vraag 78 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Card Games",
-      "es": "Pregunta 79 sobre Card Games",
-      "de": "Frage 79 über Card Games",
-      "nl": "Vraag 79 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Card Games",
-      "es": "Pregunta 80 sobre Card Games",
-      "de": "Frage 80 über Card Games",
-      "nl": "Vraag 80 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Card Games",
-      "es": "Pregunta 81 sobre Card Games",
-      "de": "Frage 81 über Card Games",
-      "nl": "Vraag 81 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Card Games",
-      "es": "Pregunta 82 sobre Card Games",
-      "de": "Frage 82 über Card Games",
-      "nl": "Vraag 82 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Card Games",
-      "es": "Pregunta 83 sobre Card Games",
-      "de": "Frage 83 über Card Games",
-      "nl": "Vraag 83 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Card Games",
-      "es": "Pregunta 84 sobre Card Games",
-      "de": "Frage 84 über Card Games",
-      "nl": "Vraag 84 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Card Games",
-      "es": "Pregunta 85 sobre Card Games",
-      "de": "Frage 85 über Card Games",
-      "nl": "Vraag 85 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Card Games",
-      "es": "Pregunta 86 sobre Card Games",
-      "de": "Frage 86 über Card Games",
-      "nl": "Vraag 86 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Card Games",
-      "es": "Pregunta 87 sobre Card Games",
-      "de": "Frage 87 über Card Games",
-      "nl": "Vraag 87 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Card Games",
-      "es": "Pregunta 88 sobre Card Games",
-      "de": "Frage 88 über Card Games",
-      "nl": "Vraag 88 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Card Games",
-      "es": "Pregunta 89 sobre Card Games",
-      "de": "Frage 89 über Card Games",
-      "nl": "Vraag 89 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Card Games",
-      "es": "Pregunta 90 sobre Card Games",
-      "de": "Frage 90 über Card Games",
-      "nl": "Vraag 90 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Card Games",
-      "es": "Pregunta 91 sobre Card Games",
-      "de": "Frage 91 über Card Games",
-      "nl": "Vraag 91 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Card Games",
-      "es": "Pregunta 92 sobre Card Games",
-      "de": "Frage 92 über Card Games",
-      "nl": "Vraag 92 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Card Games",
-      "es": "Pregunta 93 sobre Card Games",
-      "de": "Frage 93 über Card Games",
-      "nl": "Vraag 93 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Card Games",
-      "es": "Pregunta 94 sobre Card Games",
-      "de": "Frage 94 über Card Games",
-      "nl": "Vraag 94 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Card Games",
-      "es": "Pregunta 95 sobre Card Games",
-      "de": "Frage 95 über Card Games",
-      "nl": "Vraag 95 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Card Games",
-      "es": "Pregunta 96 sobre Card Games",
-      "de": "Frage 96 über Card Games",
-      "nl": "Vraag 96 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Card Games",
-      "es": "Pregunta 97 sobre Card Games",
-      "de": "Frage 97 über Card Games",
-      "nl": "Vraag 97 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Card Games",
-      "es": "Pregunta 98 sobre Card Games",
-      "de": "Frage 98 über Card Games",
-      "nl": "Vraag 98 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Card Games",
-      "es": "Pregunta 99 sobre Card Games",
-      "de": "Frage 99 über Card Games",
-      "nl": "Vraag 99 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Card Games",
-      "es": "Pregunta 100 sobre Card Games",
-      "de": "Frage 100 über Card Games",
-      "nl": "Vraag 100 over Card Games"
-    },
-    "options": [
-      {
-        "en": "Answer A for Card Games",
-        "es": "Respuesta A para Card Games",
-        "de": "Antwort A für Card Games",
-        "nl": "Antwoord A voor Card Games"
-      },
-      {
-        "en": "Answer B for Card Games",
-        "es": "Respuesta B para Card Games",
-        "de": "Antwort B für Card Games",
-        "nl": "Antwoord B voor Card Games"
-      },
-      {
-        "en": "Answer C for Card Games",
-        "es": "Respuesta C para Card Games",
-        "de": "Antwort C für Card Games",
-        "nl": "Antwoord C voor Card Games"
-      },
-      {
-        "en": "Answer D for Card Games",
-        "es": "Respuesta D para Card Games",
-        "de": "Antwort D für Card Games",
-        "nl": "Antwoord D voor Card Games"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Card Games.",
-      "es": "Esta es la respuesta correcta sobre Card Games.",
-      "de": "Dies ist die richtige Antwort über Card Games.",
-      "nl": "Dit is het juiste antwoord over Card Games."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "How does Poker variants relate to Master techniques?",
+                            "es": "¿Cómo does Poker variants relate to Master techniques?",
+                            "de": "Wie does Poker variants relate to Master techniques?",
+                            "nl": "Hoe does Poker variants relate to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Poker variants and Expert analysis is correct?",
+                            "es": "¿Cuál statement about Poker variants and Expert analysis is correct?",
+                            "de": "Welche statement about Poker variants and Expert analysis is correct?",
+                            "nl": "Welke statement about Poker variants and Expert analysis is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Poker variants play?",
+                            "es": "¿In the context of Card Games, what role does Poker variants play?",
+                            "de": "in der context von Card Games, what role does Poker variants play?",
+                            "nl": "in de context van Card Games, what role does Poker variants play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Poker variants and Master techniques?",
+                            "es": "¿Qué is the relationship between Poker variants and Master techniques?",
+                            "de": "Was is the relationship between Poker variants and Master techniques?",
+                            "nl": "Wat is the relationship between Poker variants and Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Poker variants?",
+                            "es": "¿Cuál of the following best describes Poker variants?",
+                            "de": "Welche of the following best describes Poker variants?",
+                            "nl": "Welke of the following best describes Poker variants?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Poker variants evolved in relation to Historical games?",
+                            "es": "¿Cómo has Poker variants evolved in relation to Historical games?",
+                            "de": "Wie has Poker variants evolved in relation to Historical games?",
+                            "nl": "Hoe has Poker variants evolved in relation to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Poker variants on modern card games?",
+                            "es": "¿Qué is the impact of Poker variants on modern card games?",
+                            "de": "Was is the impact of Poker variants on modern card games?",
+                            "nl": "Wat is the impact of Poker variants on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Poker variants is most relevant to Expert analysis?",
+                            "es": "¿Cuál principle of Poker variants is most relevant to Expert analysis?",
+                            "de": "Welche principle of Poker variants is most relevant to Expert analysis?",
+                            "nl": "Welke principle of Poker variants is most relevant to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Poker variants in the field of Card Games?",
+                            "es": "¿Qué distinguishes Poker variants in the field of Card Games?",
+                            "de": "Was distinguishes Poker variants in the field of Card Games?",
+                            "nl": "Wat distinguishes Poker variants in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Poker variants in Master techniques?",
+                            "es": "¿Qué is the significance of Poker variants in Master techniques?",
+                            "de": "Was is the significance of Poker variants in Master techniques?",
+                            "nl": "Wat is the significance of Poker variants in Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Poker variants",
+                                    "es": "This shows Poker variants",
+                                    "de": "This shows Poker variants",
+                                    "nl": "This shows Poker variants"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Poker variants is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Bridge strategies relate to Expert analysis?",
+                            "es": "¿Cómo does Bridge strategies relate to Expert analysis?",
+                            "de": "Wie does Bridge strategies relate to Expert analysis?",
+                            "nl": "Hoe does Bridge strategies relate to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Bridge strategies and Historical games is correct?",
+                            "es": "¿Cuál statement about Bridge strategies and Historical games is correct?",
+                            "de": "Welche statement about Bridge strategies and Historical games is correct?",
+                            "nl": "Welke statement about Bridge strategies and Historical games is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Bridge strategies play?",
+                            "es": "¿In the context of Card Games, what role does Bridge strategies play?",
+                            "de": "in der context von Card Games, what role does Bridge strategies play?",
+                            "nl": "in de context van Card Games, what role does Bridge strategies play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Bridge strategies and Expert analysis?",
+                            "es": "¿Qué is the relationship between Bridge strategies and Expert analysis?",
+                            "de": "Was is the relationship between Bridge strategies and Expert analysis?",
+                            "nl": "Wat is the relationship between Bridge strategies and Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Bridge strategies?",
+                            "es": "¿Cuál of the following best describes Bridge strategies?",
+                            "de": "Welche of the following best describes Bridge strategies?",
+                            "nl": "Welke of the following best describes Bridge strategies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Bridge strategies evolved in relation to Master techniques?",
+                            "es": "¿Cómo has Bridge strategies evolved in relation to Master techniques?",
+                            "de": "Wie has Bridge strategies evolved in relation to Master techniques?",
+                            "nl": "Hoe has Bridge strategies evolved in relation to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Bridge strategies on modern card games?",
+                            "es": "¿Qué is the impact of Bridge strategies on modern card games?",
+                            "de": "Was is the impact of Bridge strategies on modern card games?",
+                            "nl": "Wat is the impact of Bridge strategies on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Bridge strategies is most relevant to Historical games?",
+                            "es": "¿Cuál principle of Bridge strategies is most relevant to Historical games?",
+                            "de": "Welche principle of Bridge strategies is most relevant to Historical games?",
+                            "nl": "Welke principle of Bridge strategies is most relevant to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Bridge strategies in the field of Card Games?",
+                            "es": "¿Qué distinguishes Bridge strategies in the field of Card Games?",
+                            "de": "Was distinguishes Bridge strategies in the field of Card Games?",
+                            "nl": "Wat distinguishes Bridge strategies in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Bridge strategies in Expert analysis?",
+                            "es": "¿Qué is the significance of Bridge strategies in Expert analysis?",
+                            "de": "Was is the significance of Bridge strategies in Expert analysis?",
+                            "nl": "Wat is the significance of Bridge strategies in Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Bridge strategies",
+                                    "es": "This shows Bridge strategies",
+                                    "de": "This shows Bridge strategies",
+                                    "nl": "This shows Bridge strategies"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Bridge strategies is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Blackjack rules relate to Historical games?",
+                            "es": "¿Cómo does Blackjack rules relate to Historical games?",
+                            "de": "Wie does Blackjack rules relate to Historical games?",
+                            "nl": "Hoe does Blackjack rules relate to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Blackjack rules and Master techniques is correct?",
+                            "es": "¿Cuál statement about Blackjack rules and Master techniques is correct?",
+                            "de": "Welche statement about Blackjack rules and Master techniques is correct?",
+                            "nl": "Welke statement about Blackjack rules and Master techniques is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Blackjack rules play?",
+                            "es": "¿In the context of Card Games, what role does Blackjack rules play?",
+                            "de": "in der context von Card Games, what role does Blackjack rules play?",
+                            "nl": "in de context van Card Games, what role does Blackjack rules play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Blackjack rules and Historical games?",
+                            "es": "¿Qué is the relationship between Blackjack rules and Historical games?",
+                            "de": "Was is the relationship between Blackjack rules and Historical games?",
+                            "nl": "Wat is the relationship between Blackjack rules and Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Blackjack rules?",
+                            "es": "¿Cuál of the following best describes Blackjack rules?",
+                            "de": "Welche of the following best describes Blackjack rules?",
+                            "nl": "Welke of the following best describes Blackjack rules?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Blackjack rules evolved in relation to Expert analysis?",
+                            "es": "¿Cómo has Blackjack rules evolved in relation to Expert analysis?",
+                            "de": "Wie has Blackjack rules evolved in relation to Expert analysis?",
+                            "nl": "Hoe has Blackjack rules evolved in relation to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Blackjack rules on modern card games?",
+                            "es": "¿Qué is the impact of Blackjack rules on modern card games?",
+                            "de": "Was is the impact of Blackjack rules on modern card games?",
+                            "nl": "Wat is the impact of Blackjack rules on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Blackjack rules is most relevant to Master techniques?",
+                            "es": "¿Cuál principle of Blackjack rules is most relevant to Master techniques?",
+                            "de": "Welche principle of Blackjack rules is most relevant to Master techniques?",
+                            "nl": "Welke principle of Blackjack rules is most relevant to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Blackjack rules in the field of Card Games?",
+                            "es": "¿Qué distinguishes Blackjack rules in the field of Card Games?",
+                            "de": "Was distinguishes Blackjack rules in the field of Card Games?",
+                            "nl": "Wat distinguishes Blackjack rules in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Blackjack rules in Historical games?",
+                            "es": "¿Qué is the significance of Blackjack rules in Historical games?",
+                            "de": "Was is the significance of Blackjack rules in Historical games?",
+                            "nl": "Wat is the significance of Blackjack rules in Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Blackjack rules",
+                                    "es": "This shows Blackjack rules",
+                                    "de": "This shows Blackjack rules",
+                                    "nl": "This shows Blackjack rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Blackjack rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Solitaire types relate to Master techniques?",
+                            "es": "¿Cómo does Solitaire types relate to Master techniques?",
+                            "de": "Wie does Solitaire types relate to Master techniques?",
+                            "nl": "Hoe does Solitaire types relate to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Solitaire types and Expert analysis is correct?",
+                            "es": "¿Cuál statement about Solitaire types and Expert analysis is correct?",
+                            "de": "Welche statement about Solitaire types and Expert analysis is correct?",
+                            "nl": "Welke statement about Solitaire types and Expert analysis is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Solitaire types play?",
+                            "es": "¿In the context of Card Games, what role does Solitaire types play?",
+                            "de": "in der context von Card Games, what role does Solitaire types play?",
+                            "nl": "in de context van Card Games, what role does Solitaire types play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Solitaire types and Master techniques?",
+                            "es": "¿Qué is the relationship between Solitaire types and Master techniques?",
+                            "de": "Was is the relationship between Solitaire types and Master techniques?",
+                            "nl": "Wat is the relationship between Solitaire types and Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Solitaire types?",
+                            "es": "¿Cuál of the following best describes Solitaire types?",
+                            "de": "Welche of the following best describes Solitaire types?",
+                            "nl": "Welke of the following best describes Solitaire types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Solitaire types evolved in relation to Historical games?",
+                            "es": "¿Cómo has Solitaire types evolved in relation to Historical games?",
+                            "de": "Wie has Solitaire types evolved in relation to Historical games?",
+                            "nl": "Hoe has Solitaire types evolved in relation to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Solitaire types on modern card games?",
+                            "es": "¿Qué is the impact of Solitaire types on modern card games?",
+                            "de": "Was is the impact of Solitaire types on modern card games?",
+                            "nl": "Wat is the impact of Solitaire types on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Solitaire types is most relevant to Expert analysis?",
+                            "es": "¿Cuál principle of Solitaire types is most relevant to Expert analysis?",
+                            "de": "Welche principle of Solitaire types is most relevant to Expert analysis?",
+                            "nl": "Welke principle of Solitaire types is most relevant to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Solitaire types in the field of Card Games?",
+                            "es": "¿Qué distinguishes Solitaire types in the field of Card Games?",
+                            "de": "Was distinguishes Solitaire types in the field of Card Games?",
+                            "nl": "Wat distinguishes Solitaire types in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Solitaire types in Master techniques?",
+                            "es": "¿Qué is the significance of Solitaire types in Master techniques?",
+                            "de": "Was is the significance of Solitaire types in Master techniques?",
+                            "nl": "Wat is the significance of Solitaire types in Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Solitaire types",
+                                    "es": "This shows Solitaire types",
+                                    "de": "This shows Solitaire types",
+                                    "nl": "This shows Solitaire types"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Solitaire types is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Rummy variations relate to Expert analysis?",
+                            "es": "¿Cómo does Rummy variations relate to Expert analysis?",
+                            "de": "Wie does Rummy variations relate to Expert analysis?",
+                            "nl": "Hoe does Rummy variations relate to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Rummy variations and Historical games is correct?",
+                            "es": "¿Cuál statement about Rummy variations and Historical games is correct?",
+                            "de": "Welche statement about Rummy variations and Historical games is correct?",
+                            "nl": "Welke statement about Rummy variations and Historical games is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Rummy variations play?",
+                            "es": "¿In the context of Card Games, what role does Rummy variations play?",
+                            "de": "in der context von Card Games, what role does Rummy variations play?",
+                            "nl": "in de context van Card Games, what role does Rummy variations play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Rummy variations and Expert analysis?",
+                            "es": "¿Qué is the relationship between Rummy variations and Expert analysis?",
+                            "de": "Was is the relationship between Rummy variations and Expert analysis?",
+                            "nl": "Wat is the relationship between Rummy variations and Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Rummy variations?",
+                            "es": "¿Cuál of the following best describes Rummy variations?",
+                            "de": "Welche of the following best describes Rummy variations?",
+                            "nl": "Welke of the following best describes Rummy variations?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Rummy variations evolved in relation to Master techniques?",
+                            "es": "¿Cómo has Rummy variations evolved in relation to Master techniques?",
+                            "de": "Wie has Rummy variations evolved in relation to Master techniques?",
+                            "nl": "Hoe has Rummy variations evolved in relation to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Rummy variations on modern card games?",
+                            "es": "¿Qué is the impact of Rummy variations on modern card games?",
+                            "de": "Was is the impact of Rummy variations on modern card games?",
+                            "nl": "Wat is the impact of Rummy variations on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Rummy variations is most relevant to Historical games?",
+                            "es": "¿Cuál principle of Rummy variations is most relevant to Historical games?",
+                            "de": "Welche principle of Rummy variations is most relevant to Historical games?",
+                            "nl": "Welke principle of Rummy variations is most relevant to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Rummy variations in the field of Card Games?",
+                            "es": "¿Qué distinguishes Rummy variations in the field of Card Games?",
+                            "de": "Was distinguishes Rummy variations in the field of Card Games?",
+                            "nl": "Wat distinguishes Rummy variations in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Rummy variations in Expert analysis?",
+                            "es": "¿Qué is the significance of Rummy variations in Expert analysis?",
+                            "de": "Was is the significance of Rummy variations in Expert analysis?",
+                            "nl": "Wat is the significance of Rummy variations in Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Rummy variations",
+                                    "es": "This shows Rummy variations",
+                                    "de": "This shows Rummy variations",
+                                    "nl": "This shows Rummy variations"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Rummy variations is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Hearts gameplay relate to Historical games?",
+                            "es": "¿Cómo does Hearts gameplay relate to Historical games?",
+                            "de": "Wie does Hearts gameplay relate to Historical games?",
+                            "nl": "Hoe does Hearts gameplay relate to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Hearts gameplay and Master techniques is correct?",
+                            "es": "¿Cuál statement about Hearts gameplay and Master techniques is correct?",
+                            "de": "Welche statement about Hearts gameplay and Master techniques is correct?",
+                            "nl": "Welke statement about Hearts gameplay and Master techniques is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Hearts gameplay play?",
+                            "es": "¿In the context of Card Games, what role does Hearts gameplay play?",
+                            "de": "in der context von Card Games, what role does Hearts gameplay play?",
+                            "nl": "in de context van Card Games, what role does Hearts gameplay play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Hearts gameplay and Historical games?",
+                            "es": "¿Qué is the relationship between Hearts gameplay and Historical games?",
+                            "de": "Was is the relationship between Hearts gameplay and Historical games?",
+                            "nl": "Wat is the relationship between Hearts gameplay and Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Hearts gameplay?",
+                            "es": "¿Cuál of the following best describes Hearts gameplay?",
+                            "de": "Welche of the following best describes Hearts gameplay?",
+                            "nl": "Welke of the following best describes Hearts gameplay?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Hearts gameplay evolved in relation to Expert analysis?",
+                            "es": "¿Cómo has Hearts gameplay evolved in relation to Expert analysis?",
+                            "de": "Wie has Hearts gameplay evolved in relation to Expert analysis?",
+                            "nl": "Hoe has Hearts gameplay evolved in relation to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Hearts gameplay on modern card games?",
+                            "es": "¿Qué is the impact of Hearts gameplay on modern card games?",
+                            "de": "Was is the impact of Hearts gameplay on modern card games?",
+                            "nl": "Wat is the impact of Hearts gameplay on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Hearts gameplay is most relevant to Master techniques?",
+                            "es": "¿Cuál principle of Hearts gameplay is most relevant to Master techniques?",
+                            "de": "Welche principle of Hearts gameplay is most relevant to Master techniques?",
+                            "nl": "Welke principle of Hearts gameplay is most relevant to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Hearts gameplay in the field of Card Games?",
+                            "es": "¿Qué distinguishes Hearts gameplay in the field of Card Games?",
+                            "de": "Was distinguishes Hearts gameplay in the field of Card Games?",
+                            "nl": "Wat distinguishes Hearts gameplay in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Hearts gameplay in Historical games?",
+                            "es": "¿Qué is the significance of Hearts gameplay in Historical games?",
+                            "de": "Was is the significance of Hearts gameplay in Historical games?",
+                            "nl": "Wat is the significance of Hearts gameplay in Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Hearts gameplay",
+                                    "es": "This shows Hearts gameplay",
+                                    "de": "This shows Hearts gameplay",
+                                    "nl": "This shows Hearts gameplay"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Hearts gameplay is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Spades tactics relate to Master techniques?",
+                            "es": "¿Cómo does Spades tactics relate to Master techniques?",
+                            "de": "Wie does Spades tactics relate to Master techniques?",
+                            "nl": "Hoe does Spades tactics relate to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Spades tactics and Expert analysis is correct?",
+                            "es": "¿Cuál statement about Spades tactics and Expert analysis is correct?",
+                            "de": "Welche statement about Spades tactics and Expert analysis is correct?",
+                            "nl": "Welke statement about Spades tactics and Expert analysis is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Spades tactics play?",
+                            "es": "¿In the context of Card Games, what role does Spades tactics play?",
+                            "de": "in der context von Card Games, what role does Spades tactics play?",
+                            "nl": "in de context van Card Games, what role does Spades tactics play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Spades tactics and Master techniques?",
+                            "es": "¿Qué is the relationship between Spades tactics and Master techniques?",
+                            "de": "Was is the relationship between Spades tactics and Master techniques?",
+                            "nl": "Wat is the relationship between Spades tactics and Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Spades tactics?",
+                            "es": "¿Cuál of the following best describes Spades tactics?",
+                            "de": "Welche of the following best describes Spades tactics?",
+                            "nl": "Welke of the following best describes Spades tactics?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Spades tactics evolved in relation to Historical games?",
+                            "es": "¿Cómo has Spades tactics evolved in relation to Historical games?",
+                            "de": "Wie has Spades tactics evolved in relation to Historical games?",
+                            "nl": "Hoe has Spades tactics evolved in relation to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Spades tactics on modern card games?",
+                            "es": "¿Qué is the impact of Spades tactics on modern card games?",
+                            "de": "Was is the impact of Spades tactics on modern card games?",
+                            "nl": "Wat is the impact of Spades tactics on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Spades tactics is most relevant to Expert analysis?",
+                            "es": "¿Cuál principle of Spades tactics is most relevant to Expert analysis?",
+                            "de": "Welche principle of Spades tactics is most relevant to Expert analysis?",
+                            "nl": "Welke principle of Spades tactics is most relevant to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Spades tactics in the field of Card Games?",
+                            "es": "¿Qué distinguishes Spades tactics in the field of Card Games?",
+                            "de": "Was distinguishes Spades tactics in the field of Card Games?",
+                            "nl": "Wat distinguishes Spades tactics in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Spades tactics in Master techniques?",
+                            "es": "¿Qué is the significance of Spades tactics in Master techniques?",
+                            "de": "Was is the significance of Spades tactics in Master techniques?",
+                            "nl": "Wat is the significance of Spades tactics in Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Spades tactics",
+                                    "es": "This shows Spades tactics",
+                                    "de": "This shows Spades tactics",
+                                    "nl": "This shows Spades tactics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Spades tactics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Gin Rummy relate to Expert analysis?",
+                            "es": "¿Cómo does Gin Rummy relate to Expert analysis?",
+                            "de": "Wie does Gin Rummy relate to Expert analysis?",
+                            "nl": "Hoe does Gin Rummy relate to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Gin Rummy and Historical games is correct?",
+                            "es": "¿Cuál statement about Gin Rummy and Historical games is correct?",
+                            "de": "Welche statement about Gin Rummy and Historical games is correct?",
+                            "nl": "Welke statement about Gin Rummy and Historical games is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Gin Rummy play?",
+                            "es": "¿In the context of Card Games, what role does Gin Rummy play?",
+                            "de": "in der context von Card Games, what role does Gin Rummy play?",
+                            "nl": "in de context van Card Games, what role does Gin Rummy play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Gin Rummy and Expert analysis?",
+                            "es": "¿Qué is the relationship between Gin Rummy and Expert analysis?",
+                            "de": "Was is the relationship between Gin Rummy and Expert analysis?",
+                            "nl": "Wat is the relationship between Gin Rummy and Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Gin Rummy?",
+                            "es": "¿Cuál of the following best describes Gin Rummy?",
+                            "de": "Welche of the following best describes Gin Rummy?",
+                            "nl": "Welke of the following best describes Gin Rummy?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Gin Rummy evolved in relation to Master techniques?",
+                            "es": "¿Cómo has Gin Rummy evolved in relation to Master techniques?",
+                            "de": "Wie has Gin Rummy evolved in relation to Master techniques?",
+                            "nl": "Hoe has Gin Rummy evolved in relation to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Gin Rummy on modern card games?",
+                            "es": "¿Qué is the impact of Gin Rummy on modern card games?",
+                            "de": "Was is the impact of Gin Rummy on modern card games?",
+                            "nl": "Wat is the impact of Gin Rummy on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Gin Rummy is most relevant to Historical games?",
+                            "es": "¿Cuál principle of Gin Rummy is most relevant to Historical games?",
+                            "de": "Welche principle of Gin Rummy is most relevant to Historical games?",
+                            "nl": "Welke principle of Gin Rummy is most relevant to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Gin Rummy in the field of Card Games?",
+                            "es": "¿Qué distinguishes Gin Rummy in the field of Card Games?",
+                            "de": "Was distinguishes Gin Rummy in the field of Card Games?",
+                            "nl": "Wat distinguishes Gin Rummy in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Gin Rummy in Expert analysis?",
+                            "es": "¿Qué is the significance of Gin Rummy in Expert analysis?",
+                            "de": "Was is the significance of Gin Rummy in Expert analysis?",
+                            "nl": "Wat is the significance of Gin Rummy in Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Gin Rummy",
+                                    "es": "This shows Gin Rummy",
+                                    "de": "This shows Gin Rummy",
+                                    "nl": "This shows Gin Rummy"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Gin Rummy is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Canasta rules relate to Historical games?",
+                            "es": "¿Cómo does Canasta rules relate to Historical games?",
+                            "de": "Wie does Canasta rules relate to Historical games?",
+                            "nl": "Hoe does Canasta rules relate to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Canasta rules and Master techniques is correct?",
+                            "es": "¿Cuál statement about Canasta rules and Master techniques is correct?",
+                            "de": "Welche statement about Canasta rules and Master techniques is correct?",
+                            "nl": "Welke statement about Canasta rules and Master techniques is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Canasta rules play?",
+                            "es": "¿In the context of Card Games, what role does Canasta rules play?",
+                            "de": "in der context von Card Games, what role does Canasta rules play?",
+                            "nl": "in de context van Card Games, what role does Canasta rules play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Canasta rules and Historical games?",
+                            "es": "¿Qué is the relationship between Canasta rules and Historical games?",
+                            "de": "Was is the relationship between Canasta rules and Historical games?",
+                            "nl": "Wat is the relationship between Canasta rules and Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Canasta rules?",
+                            "es": "¿Cuál of the following best describes Canasta rules?",
+                            "de": "Welche of the following best describes Canasta rules?",
+                            "nl": "Welke of the following best describes Canasta rules?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Canasta rules evolved in relation to Expert analysis?",
+                            "es": "¿Cómo has Canasta rules evolved in relation to Expert analysis?",
+                            "de": "Wie has Canasta rules evolved in relation to Expert analysis?",
+                            "nl": "Hoe has Canasta rules evolved in relation to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Canasta rules on modern card games?",
+                            "es": "¿Qué is the impact of Canasta rules on modern card games?",
+                            "de": "Was is the impact of Canasta rules on modern card games?",
+                            "nl": "Wat is the impact of Canasta rules on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Canasta rules is most relevant to Master techniques?",
+                            "es": "¿Cuál principle of Canasta rules is most relevant to Master techniques?",
+                            "de": "Welche principle of Canasta rules is most relevant to Master techniques?",
+                            "nl": "Welke principle of Canasta rules is most relevant to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Canasta rules in the field of Card Games?",
+                            "es": "¿Qué distinguishes Canasta rules in the field of Card Games?",
+                            "de": "Was distinguishes Canasta rules in the field of Card Games?",
+                            "nl": "Wat distinguishes Canasta rules in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Canasta rules in Historical games?",
+                            "es": "¿Qué is the significance of Canasta rules in Historical games?",
+                            "de": "Was is the significance of Canasta rules in Historical games?",
+                            "nl": "Wat is the significance of Canasta rules in Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Canasta rules",
+                                    "es": "This shows Canasta rules",
+                                    "de": "This shows Canasta rules",
+                                    "nl": "This shows Canasta rules"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Canasta rules is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Euchre basics relate to Master techniques?",
+                            "es": "¿Cómo does Euchre basics relate to Master techniques?",
+                            "de": "Wie does Euchre basics relate to Master techniques?",
+                            "nl": "Hoe does Euchre basics relate to Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Euchre basics and Expert analysis is correct?",
+                            "es": "¿Cuál statement about Euchre basics and Expert analysis is correct?",
+                            "de": "Welche statement about Euchre basics and Expert analysis is correct?",
+                            "nl": "Welke statement about Euchre basics and Expert analysis is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of Card Games, what role does Euchre basics play?",
+                            "es": "¿In the context of Card Games, what role does Euchre basics play?",
+                            "de": "in der context von Card Games, what role does Euchre basics play?",
+                            "nl": "in de context van Card Games, what role does Euchre basics play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Euchre basics and Master techniques?",
+                            "es": "¿Qué is the relationship between Euchre basics and Master techniques?",
+                            "de": "Was is the relationship between Euchre basics and Master techniques?",
+                            "nl": "Wat is the relationship between Euchre basics and Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Euchre basics?",
+                            "es": "¿Cuál of the following best describes Euchre basics?",
+                            "de": "Welche of the following best describes Euchre basics?",
+                            "nl": "Welke of the following best describes Euchre basics?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Euchre basics evolved in relation to Historical games?",
+                            "es": "¿Cómo has Euchre basics evolved in relation to Historical games?",
+                            "de": "Wie has Euchre basics evolved in relation to Historical games?",
+                            "nl": "Hoe has Euchre basics evolved in relation to Historical games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Euchre basics on modern card games?",
+                            "es": "¿Qué is the impact of Euchre basics on modern card games?",
+                            "de": "Was is the impact of Euchre basics on modern card games?",
+                            "nl": "Wat is the impact of Euchre basics on modern card games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Euchre basics is most relevant to Expert analysis?",
+                            "es": "¿Cuál principle of Euchre basics is most relevant to Expert analysis?",
+                            "de": "Welche principle of Euchre basics is most relevant to Expert analysis?",
+                            "nl": "Welke principle of Euchre basics is most relevant to Expert analysis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Expert analysis",
+                                    "es": "This affects Expert analysis",
+                                    "de": "This affects Expert analysis",
+                                    "nl": "This affects Expert analysis"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Expert analysis. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Euchre basics in the field of Card Games?",
+                            "es": "¿Qué distinguishes Euchre basics in the field of Card Games?",
+                            "de": "Was distinguishes Euchre basics in the field of Card Games?",
+                            "nl": "Wat distinguishes Euchre basics in the field of Card Games?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Historical games",
+                                    "es": "This affects Historical games",
+                                    "de": "This affects Historical games",
+                                    "nl": "This affects Historical games"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Historical games. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Euchre basics in Master techniques?",
+                            "es": "¿Qué is the significance of Euchre basics in Master techniques?",
+                            "de": "Was is the significance of Euchre basics in Master techniques?",
+                            "nl": "Wat is the significance of Euchre basics in Master techniques?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Euchre basics",
+                                    "es": "This shows Euchre basics",
+                                    "de": "This shows Euchre basics",
+                                    "nl": "This shows Euchre basics"
+                            },
+                            {
+                                    "en": "This affects Master techniques",
+                                    "es": "This affects Master techniques",
+                                    "de": "This affects Master techniques",
+                                    "nl": "This affects Master techniques"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "es": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "de": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field.",
+                            "nl": "Euchre basics is important in Card Games because it relates to Master techniques. This is a key concept in this field."
+                    }
+            }
+    ]
 };

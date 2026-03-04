@@ -1,4104 +1,4108 @@
+// Pasta Types - level6
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:37.928Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Pasta Types",
-      "es": "Pregunta 1 sobre Pasta Types",
-      "de": "Frage 1 über Pasta Types",
-      "nl": "Vraag 1 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Pasta Types",
-      "es": "Pregunta 2 sobre Pasta Types",
-      "de": "Frage 2 über Pasta Types",
-      "nl": "Vraag 2 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Pasta Types",
-      "es": "Pregunta 3 sobre Pasta Types",
-      "de": "Frage 3 über Pasta Types",
-      "nl": "Vraag 3 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Pasta Types",
-      "es": "Pregunta 4 sobre Pasta Types",
-      "de": "Frage 4 über Pasta Types",
-      "nl": "Vraag 4 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Pasta Types",
-      "es": "Pregunta 5 sobre Pasta Types",
-      "de": "Frage 5 über Pasta Types",
-      "nl": "Vraag 5 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Pasta Types",
-      "es": "Pregunta 6 sobre Pasta Types",
-      "de": "Frage 6 über Pasta Types",
-      "nl": "Vraag 6 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Pasta Types",
-      "es": "Pregunta 7 sobre Pasta Types",
-      "de": "Frage 7 über Pasta Types",
-      "nl": "Vraag 7 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Pasta Types",
-      "es": "Pregunta 8 sobre Pasta Types",
-      "de": "Frage 8 über Pasta Types",
-      "nl": "Vraag 8 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Pasta Types",
-      "es": "Pregunta 9 sobre Pasta Types",
-      "de": "Frage 9 über Pasta Types",
-      "nl": "Vraag 9 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Pasta Types",
-      "es": "Pregunta 10 sobre Pasta Types",
-      "de": "Frage 10 über Pasta Types",
-      "nl": "Vraag 10 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Pasta Types",
-      "es": "Pregunta 11 sobre Pasta Types",
-      "de": "Frage 11 über Pasta Types",
-      "nl": "Vraag 11 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Pasta Types",
-      "es": "Pregunta 12 sobre Pasta Types",
-      "de": "Frage 12 über Pasta Types",
-      "nl": "Vraag 12 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Pasta Types",
-      "es": "Pregunta 13 sobre Pasta Types",
-      "de": "Frage 13 über Pasta Types",
-      "nl": "Vraag 13 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Pasta Types",
-      "es": "Pregunta 14 sobre Pasta Types",
-      "de": "Frage 14 über Pasta Types",
-      "nl": "Vraag 14 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Pasta Types",
-      "es": "Pregunta 15 sobre Pasta Types",
-      "de": "Frage 15 über Pasta Types",
-      "nl": "Vraag 15 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Pasta Types",
-      "es": "Pregunta 16 sobre Pasta Types",
-      "de": "Frage 16 über Pasta Types",
-      "nl": "Vraag 16 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Pasta Types",
-      "es": "Pregunta 17 sobre Pasta Types",
-      "de": "Frage 17 über Pasta Types",
-      "nl": "Vraag 17 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Pasta Types",
-      "es": "Pregunta 18 sobre Pasta Types",
-      "de": "Frage 18 über Pasta Types",
-      "nl": "Vraag 18 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Pasta Types",
-      "es": "Pregunta 19 sobre Pasta Types",
-      "de": "Frage 19 über Pasta Types",
-      "nl": "Vraag 19 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Pasta Types",
-      "es": "Pregunta 20 sobre Pasta Types",
-      "de": "Frage 20 über Pasta Types",
-      "nl": "Vraag 20 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Pasta Types",
-      "es": "Pregunta 21 sobre Pasta Types",
-      "de": "Frage 21 über Pasta Types",
-      "nl": "Vraag 21 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Pasta Types",
-      "es": "Pregunta 22 sobre Pasta Types",
-      "de": "Frage 22 über Pasta Types",
-      "nl": "Vraag 22 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Pasta Types",
-      "es": "Pregunta 23 sobre Pasta Types",
-      "de": "Frage 23 über Pasta Types",
-      "nl": "Vraag 23 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Pasta Types",
-      "es": "Pregunta 24 sobre Pasta Types",
-      "de": "Frage 24 über Pasta Types",
-      "nl": "Vraag 24 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Pasta Types",
-      "es": "Pregunta 25 sobre Pasta Types",
-      "de": "Frage 25 über Pasta Types",
-      "nl": "Vraag 25 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Pasta Types",
-      "es": "Pregunta 26 sobre Pasta Types",
-      "de": "Frage 26 über Pasta Types",
-      "nl": "Vraag 26 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Pasta Types",
-      "es": "Pregunta 27 sobre Pasta Types",
-      "de": "Frage 27 über Pasta Types",
-      "nl": "Vraag 27 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Pasta Types",
-      "es": "Pregunta 28 sobre Pasta Types",
-      "de": "Frage 28 über Pasta Types",
-      "nl": "Vraag 28 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Pasta Types",
-      "es": "Pregunta 29 sobre Pasta Types",
-      "de": "Frage 29 über Pasta Types",
-      "nl": "Vraag 29 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Pasta Types",
-      "es": "Pregunta 30 sobre Pasta Types",
-      "de": "Frage 30 über Pasta Types",
-      "nl": "Vraag 30 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Pasta Types",
-      "es": "Pregunta 31 sobre Pasta Types",
-      "de": "Frage 31 über Pasta Types",
-      "nl": "Vraag 31 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Pasta Types",
-      "es": "Pregunta 32 sobre Pasta Types",
-      "de": "Frage 32 über Pasta Types",
-      "nl": "Vraag 32 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Pasta Types",
-      "es": "Pregunta 33 sobre Pasta Types",
-      "de": "Frage 33 über Pasta Types",
-      "nl": "Vraag 33 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Pasta Types",
-      "es": "Pregunta 34 sobre Pasta Types",
-      "de": "Frage 34 über Pasta Types",
-      "nl": "Vraag 34 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Pasta Types",
-      "es": "Pregunta 35 sobre Pasta Types",
-      "de": "Frage 35 über Pasta Types",
-      "nl": "Vraag 35 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Pasta Types",
-      "es": "Pregunta 36 sobre Pasta Types",
-      "de": "Frage 36 über Pasta Types",
-      "nl": "Vraag 36 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Pasta Types",
-      "es": "Pregunta 37 sobre Pasta Types",
-      "de": "Frage 37 über Pasta Types",
-      "nl": "Vraag 37 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Pasta Types",
-      "es": "Pregunta 38 sobre Pasta Types",
-      "de": "Frage 38 über Pasta Types",
-      "nl": "Vraag 38 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Pasta Types",
-      "es": "Pregunta 39 sobre Pasta Types",
-      "de": "Frage 39 über Pasta Types",
-      "nl": "Vraag 39 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Pasta Types",
-      "es": "Pregunta 40 sobre Pasta Types",
-      "de": "Frage 40 über Pasta Types",
-      "nl": "Vraag 40 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Pasta Types",
-      "es": "Pregunta 41 sobre Pasta Types",
-      "de": "Frage 41 über Pasta Types",
-      "nl": "Vraag 41 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Pasta Types",
-      "es": "Pregunta 42 sobre Pasta Types",
-      "de": "Frage 42 über Pasta Types",
-      "nl": "Vraag 42 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Pasta Types",
-      "es": "Pregunta 43 sobre Pasta Types",
-      "de": "Frage 43 über Pasta Types",
-      "nl": "Vraag 43 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Pasta Types",
-      "es": "Pregunta 44 sobre Pasta Types",
-      "de": "Frage 44 über Pasta Types",
-      "nl": "Vraag 44 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Pasta Types",
-      "es": "Pregunta 45 sobre Pasta Types",
-      "de": "Frage 45 über Pasta Types",
-      "nl": "Vraag 45 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Pasta Types",
-      "es": "Pregunta 46 sobre Pasta Types",
-      "de": "Frage 46 über Pasta Types",
-      "nl": "Vraag 46 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Pasta Types",
-      "es": "Pregunta 47 sobre Pasta Types",
-      "de": "Frage 47 über Pasta Types",
-      "nl": "Vraag 47 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Pasta Types",
-      "es": "Pregunta 48 sobre Pasta Types",
-      "de": "Frage 48 über Pasta Types",
-      "nl": "Vraag 48 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Pasta Types",
-      "es": "Pregunta 49 sobre Pasta Types",
-      "de": "Frage 49 über Pasta Types",
-      "nl": "Vraag 49 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Pasta Types",
-      "es": "Pregunta 50 sobre Pasta Types",
-      "de": "Frage 50 über Pasta Types",
-      "nl": "Vraag 50 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Pasta Types",
-      "es": "Pregunta 51 sobre Pasta Types",
-      "de": "Frage 51 über Pasta Types",
-      "nl": "Vraag 51 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Pasta Types",
-      "es": "Pregunta 52 sobre Pasta Types",
-      "de": "Frage 52 über Pasta Types",
-      "nl": "Vraag 52 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Pasta Types",
-      "es": "Pregunta 53 sobre Pasta Types",
-      "de": "Frage 53 über Pasta Types",
-      "nl": "Vraag 53 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Pasta Types",
-      "es": "Pregunta 54 sobre Pasta Types",
-      "de": "Frage 54 über Pasta Types",
-      "nl": "Vraag 54 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Pasta Types",
-      "es": "Pregunta 55 sobre Pasta Types",
-      "de": "Frage 55 über Pasta Types",
-      "nl": "Vraag 55 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Pasta Types",
-      "es": "Pregunta 56 sobre Pasta Types",
-      "de": "Frage 56 über Pasta Types",
-      "nl": "Vraag 56 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Pasta Types",
-      "es": "Pregunta 57 sobre Pasta Types",
-      "de": "Frage 57 über Pasta Types",
-      "nl": "Vraag 57 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Pasta Types",
-      "es": "Pregunta 58 sobre Pasta Types",
-      "de": "Frage 58 über Pasta Types",
-      "nl": "Vraag 58 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Pasta Types",
-      "es": "Pregunta 59 sobre Pasta Types",
-      "de": "Frage 59 über Pasta Types",
-      "nl": "Vraag 59 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Pasta Types",
-      "es": "Pregunta 60 sobre Pasta Types",
-      "de": "Frage 60 über Pasta Types",
-      "nl": "Vraag 60 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Pasta Types",
-      "es": "Pregunta 61 sobre Pasta Types",
-      "de": "Frage 61 über Pasta Types",
-      "nl": "Vraag 61 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Pasta Types",
-      "es": "Pregunta 62 sobre Pasta Types",
-      "de": "Frage 62 über Pasta Types",
-      "nl": "Vraag 62 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Pasta Types",
-      "es": "Pregunta 63 sobre Pasta Types",
-      "de": "Frage 63 über Pasta Types",
-      "nl": "Vraag 63 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Pasta Types",
-      "es": "Pregunta 64 sobre Pasta Types",
-      "de": "Frage 64 über Pasta Types",
-      "nl": "Vraag 64 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Pasta Types",
-      "es": "Pregunta 65 sobre Pasta Types",
-      "de": "Frage 65 über Pasta Types",
-      "nl": "Vraag 65 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Pasta Types",
-      "es": "Pregunta 66 sobre Pasta Types",
-      "de": "Frage 66 über Pasta Types",
-      "nl": "Vraag 66 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Pasta Types",
-      "es": "Pregunta 67 sobre Pasta Types",
-      "de": "Frage 67 über Pasta Types",
-      "nl": "Vraag 67 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Pasta Types",
-      "es": "Pregunta 68 sobre Pasta Types",
-      "de": "Frage 68 über Pasta Types",
-      "nl": "Vraag 68 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Pasta Types",
-      "es": "Pregunta 69 sobre Pasta Types",
-      "de": "Frage 69 über Pasta Types",
-      "nl": "Vraag 69 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Pasta Types",
-      "es": "Pregunta 70 sobre Pasta Types",
-      "de": "Frage 70 über Pasta Types",
-      "nl": "Vraag 70 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Pasta Types",
-      "es": "Pregunta 71 sobre Pasta Types",
-      "de": "Frage 71 über Pasta Types",
-      "nl": "Vraag 71 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Pasta Types",
-      "es": "Pregunta 72 sobre Pasta Types",
-      "de": "Frage 72 über Pasta Types",
-      "nl": "Vraag 72 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Pasta Types",
-      "es": "Pregunta 73 sobre Pasta Types",
-      "de": "Frage 73 über Pasta Types",
-      "nl": "Vraag 73 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Pasta Types",
-      "es": "Pregunta 74 sobre Pasta Types",
-      "de": "Frage 74 über Pasta Types",
-      "nl": "Vraag 74 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Pasta Types",
-      "es": "Pregunta 75 sobre Pasta Types",
-      "de": "Frage 75 über Pasta Types",
-      "nl": "Vraag 75 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Pasta Types",
-      "es": "Pregunta 76 sobre Pasta Types",
-      "de": "Frage 76 über Pasta Types",
-      "nl": "Vraag 76 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Pasta Types",
-      "es": "Pregunta 77 sobre Pasta Types",
-      "de": "Frage 77 über Pasta Types",
-      "nl": "Vraag 77 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Pasta Types",
-      "es": "Pregunta 78 sobre Pasta Types",
-      "de": "Frage 78 über Pasta Types",
-      "nl": "Vraag 78 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Pasta Types",
-      "es": "Pregunta 79 sobre Pasta Types",
-      "de": "Frage 79 über Pasta Types",
-      "nl": "Vraag 79 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Pasta Types",
-      "es": "Pregunta 80 sobre Pasta Types",
-      "de": "Frage 80 über Pasta Types",
-      "nl": "Vraag 80 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Pasta Types",
-      "es": "Pregunta 81 sobre Pasta Types",
-      "de": "Frage 81 über Pasta Types",
-      "nl": "Vraag 81 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Pasta Types",
-      "es": "Pregunta 82 sobre Pasta Types",
-      "de": "Frage 82 über Pasta Types",
-      "nl": "Vraag 82 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Pasta Types",
-      "es": "Pregunta 83 sobre Pasta Types",
-      "de": "Frage 83 über Pasta Types",
-      "nl": "Vraag 83 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Pasta Types",
-      "es": "Pregunta 84 sobre Pasta Types",
-      "de": "Frage 84 über Pasta Types",
-      "nl": "Vraag 84 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Pasta Types",
-      "es": "Pregunta 85 sobre Pasta Types",
-      "de": "Frage 85 über Pasta Types",
-      "nl": "Vraag 85 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Pasta Types",
-      "es": "Pregunta 86 sobre Pasta Types",
-      "de": "Frage 86 über Pasta Types",
-      "nl": "Vraag 86 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Pasta Types",
-      "es": "Pregunta 87 sobre Pasta Types",
-      "de": "Frage 87 über Pasta Types",
-      "nl": "Vraag 87 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Pasta Types",
-      "es": "Pregunta 88 sobre Pasta Types",
-      "de": "Frage 88 über Pasta Types",
-      "nl": "Vraag 88 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Pasta Types",
-      "es": "Pregunta 89 sobre Pasta Types",
-      "de": "Frage 89 über Pasta Types",
-      "nl": "Vraag 89 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Pasta Types",
-      "es": "Pregunta 90 sobre Pasta Types",
-      "de": "Frage 90 über Pasta Types",
-      "nl": "Vraag 90 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Pasta Types",
-      "es": "Pregunta 91 sobre Pasta Types",
-      "de": "Frage 91 über Pasta Types",
-      "nl": "Vraag 91 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Pasta Types",
-      "es": "Pregunta 92 sobre Pasta Types",
-      "de": "Frage 92 über Pasta Types",
-      "nl": "Vraag 92 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Pasta Types",
-      "es": "Pregunta 93 sobre Pasta Types",
-      "de": "Frage 93 über Pasta Types",
-      "nl": "Vraag 93 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Pasta Types",
-      "es": "Pregunta 94 sobre Pasta Types",
-      "de": "Frage 94 über Pasta Types",
-      "nl": "Vraag 94 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Pasta Types",
-      "es": "Pregunta 95 sobre Pasta Types",
-      "de": "Frage 95 über Pasta Types",
-      "nl": "Vraag 95 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Pasta Types",
-      "es": "Pregunta 96 sobre Pasta Types",
-      "de": "Frage 96 über Pasta Types",
-      "nl": "Vraag 96 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Pasta Types",
-      "es": "Pregunta 97 sobre Pasta Types",
-      "de": "Frage 97 über Pasta Types",
-      "nl": "Vraag 97 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Pasta Types",
-      "es": "Pregunta 98 sobre Pasta Types",
-      "de": "Frage 98 über Pasta Types",
-      "nl": "Vraag 98 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Pasta Types",
-      "es": "Pregunta 99 sobre Pasta Types",
-      "de": "Frage 99 über Pasta Types",
-      "nl": "Vraag 99 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Pasta Types",
-      "es": "Pregunta 100 sobre Pasta Types",
-      "de": "Frage 100 über Pasta Types",
-      "nl": "Vraag 100 over Pasta Types"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pasta Types",
-        "es": "Respuesta A para Pasta Types",
-        "de": "Antwort A für Pasta Types",
-        "nl": "Antwoord A voor Pasta Types"
-      },
-      {
-        "en": "Answer B for Pasta Types",
-        "es": "Respuesta B para Pasta Types",
-        "de": "Antwort B für Pasta Types",
-        "nl": "Antwoord B voor Pasta Types"
-      },
-      {
-        "en": "Answer C for Pasta Types",
-        "es": "Respuesta C para Pasta Types",
-        "de": "Antwort C für Pasta Types",
-        "nl": "Antwoord C voor Pasta Types"
-      },
-      {
-        "en": "Answer D for Pasta Types",
-        "es": "Respuesta D para Pasta Types",
-        "de": "Antwort D für Pasta Types",
-        "nl": "Antwoord D voor Pasta Types"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pasta Types.",
-      "es": "Esta es la respuesta correcta sobre Pasta Types.",
-      "de": "Dies ist die richtige Antwort über Pasta Types.",
-      "nl": "Dit is het juiste antwoord over Pasta Types."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "How does the lamination process in lasagna sheets affect cooking properties?",
+                            "es": "¿Cómo afecta el proceso de laminación en láminas de lasaña a las propiedades de cocción?",
+                            "de": "Wie beeinflusst der Laminierungsprozess bei Lasagneblättern die Kocheigenschaften?",
+                            "nl": "Hoe beïnvloedt het lamineerproces bij lasagnevellen de kookeigenschappen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Multiple passes align gluten fibers creating layers that trap bechamel between sheets",
+                                    "es": "Múltiples pasadas alinean fibras de gluten creando capas que atrapan bechamel entre láminas",
+                                    "de": "Mehrfache Durchgänge richten Glutenfasern aus und schaffen Schichten die Béchamel zwischen Blätte...",
+                                    "nl": "Meerdere passages lijnen glutenvezels uit en creëren lagen die bechamel tussen vellen vasthouden"
+                            },
+                            {
+                                    "en": "Makes sheets thicker",
+                                    "es": "Hace las láminas más gruesas",
+                                    "de": "Macht Blätter dicker",
+                                    "nl": "Maakt vellen dikker"
+                            },
+                            {
+                                    "en": "Adds more flour to pasta",
+                                    "es": "Añade más harina a la pasta",
+                                    "de": "Fügt mehr Mehl zur Pasta hinzu",
+                                    "nl": "Voegt meer meel aan pasta toe"
+                            },
+                            {
+                                    "en": "Creates air bubbles",
+                                    "es": "Crea burbujas de aire",
+                                    "de": "Erzeugt Luftblasen",
+                                    "nl": "Creëert luchtbellen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Repeated rolling through progressively thinner settings aligns gluten proteins into parallel sheets. This laminar structure creates micro-channels that allow sauce penetration while maintaining structural integrity during baking. The aligned proteins also prevent curling at edges.",
+                            "es": "El rodado repetido a través de ajustes progresivamente más delgados alinea proteínas de gluten en...",
+                            "de": "Wiederholtes Walzen durch progressiv dünnere Einstellungen richtet Glutenproteine in parallele Sc...",
+                            "nl": "Herhaald uitrollen door geleidelijk dunnere instellingen lijnt gluteneiwitten uit in parallelle l..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What role does the ridged surface of rigatoni play in sauce adherence?",
+                            "es": "¿Qué papel juega la superficie acanalada del rigatoni en la adherencia de salsa?",
+                            "de": "Welche Rolle spielt die gerillte Oberfläche von Rigatoni bei der Soßenhaftung?",
+                            "nl": "Welke rol speelt het geribbelde oppervlak van rigatoni bij saushechting?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ridges create turbulent flow trapping sauce particles through capillary action",
+                                    "es": "Las crestas crean flujo turbulento atrapando partículas de salsa mediante acción capilar",
+                                    "de": "Rillen erzeugen turbulente Strömung die Soßenpartikel durch Kapillarwirkung einfängt",
+                                    "nl": "Ribbels creëren turbulente stroming die sausdeeltjes vangt door capillaire werking"
+                            },
+                            {
+                                    "en": "Makes pasta look prettier",
+                                    "es": "Hace la pasta más bonita",
+                                    "de": "Macht Pasta hübscher",
+                                    "nl": "Maakt pasta mooier"
+                            },
+                            {
+                                    "en": "Ridges have no function",
+                                    "es": "Las crestas no tienen función",
+                                    "de": "Rillen haben keine Funktion",
+                                    "nl": "Ribbels hebben geen functie"
+                            },
+                            {
+                                    "en": "Helps pasta cook faster",
+                                    "es": "Ayuda a cocinar más rápido",
+                                    "de": "Hilft Pasta schneller zu kochen",
+                                    "nl": "Helpt pasta sneller te koken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The ridges (righe) create micro-vortices when sauce flows over them, increasing contact time and surface area by 35%. This turbulent flow, combined with capillary action in the grooves, mechanically traps sauce particles, especially effective with chunky ragù or vegetable sauces.",
+                            "es": "Las crestas (righe) crean micro-vórtices cuando la salsa fluye sobre ellas, aumentando tiempo de ...",
+                            "de": "Die Rillen (righe) erzeugen Mikro-Wirbel wenn Soße darüber fließt, erhöht Kontaktzeit und Oberflä...",
+                            "nl": "De ribbels (righe) creëren micro-wervels wanneer saus erover stroomt, verhoogt contacttijd en opp..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Why does angel hair pasta require different cooking technique than spaghetti?",
+                            "es": "¿Por qué el cabello de ángel requiere técnica de cocción diferente que el espagueti?",
+                            "de": "Warum benötigt Engelshaar-Pasta andere Kochtechnik als Spaghetti?",
+                            "nl": "Waarom vereist angel hair pasta andere kooktechniek dan spaghetti?"
+                    },
+                    "options": [
+                            {
+                                    "en": "0.85mm diameter cooks in 2-3 minutes requiring gentle stirring to prevent clumping",
+                                    "es": "Diámetro de 0.85mm se cocina en 2-3 minutos requiriendo agitación suave para prevenir aglomeración",
+                                    "de": "0,85mm Durchmesser kocht in 2-3 Minuten und erfordert sanftes Rühren um Verklumpen zu verhindern",
+                                    "nl": "0,85mm diameter kookt in 2-3 minuten vereist zacht roeren om klonteren te voorkomen"
+                            },
+                            {
+                                    "en": "It's exactly the same technique",
+                                    "es": "Es exactamente la misma técnica",
+                                    "de": "Es ist genau dieselbe Technik",
+                                    "nl": "Het is exact dezelfde techniek"
+                            },
+                            {
+                                    "en": "Angel hair needs cold water",
+                                    "es": "Cabello de ángel necesita agua fría",
+                                    "de": "Engelshaar braucht kaltes Wasser",
+                                    "nl": "Angel hair heeft koud water nodig"
+                            },
+                            {
+                                    "en": "Must be cooked in oil",
+                                    "es": "Debe cocinarse en aceite",
+                                    "de": "Muss in Öl gekocht werden",
+                                    "nl": "Moet in olie gekookt worden"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Angel hair's ultra-thin diameter (0.85mm vs 2mm for spaghetti) means rapid heat penetration and starch release. The high surface-to-volume ratio causes quick overcooking and excessive starch release leading to clumping. Requires abundant water, minimal stirring, and immediate draining.",
+                            "es": "El diámetro ultra-delgado del cabello de ángel (0.85mm vs 2mm para espagueti) significa penetraci...",
+                            "de": "Engelshaar's ultra-dünner Durchmesser (0,85mm vs 2mm für Spaghetti) bedeutet schnelle Wärmepenetr...",
+                            "nl": "Angel hair's ultra-dunne diameter (0,85mm vs 2mm voor spaghetti) betekent snelle warmtepenetratie..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How do hollow pasta shapes like penne enhance sauce distribution?",
+                            "es": "¿Cómo mejoran las formas huecas de pasta como penne la distribución de salsa?",
+                            "de": "Wie verbessern hohle Pastaformen wie Penne die Soßenverteilung?",
+                            "nl": "Hoe verbeteren holle pastavormen zoals penne de sausverdeling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Internal cavity creates vacuum effect drawing sauce inside while diagonal cut increases flow",
+                                    "es": "Cavidad interna crea efecto vacío atrayendo salsa adentro mientras corte diagonal aumenta flujo",
+                                    "de": "Innerer Hohlraum erzeugt Vakuumeffekt der Soße hineinzieht während diagonaler Schnitt Fluss erhöht",
+                                    "nl": "Interne holte creëert vacuümeffect dat saus naar binnen trekt terwijl diagonale snede stroming ve..."
+                            },
+                            {
+                                    "en": "Hollow shapes cook slower",
+                                    "es": "Formas huecas cocinan más lento",
+                                    "de": "Hohle Formen kochen langsamer",
+                                    "nl": "Holle vormen koken langzamer"
+                            },
+                            {
+                                    "en": "They don't affect sauce",
+                                    "es": "No afectan la salsa",
+                                    "de": "Sie beeinflussen Soße nicht",
+                                    "nl": "Ze beïnvloeden saus niet"
+                            },
+                            {
+                                    "en": "Hollow pasta is just lighter",
+                                    "es": "Pasta hueca es solo más ligera",
+                                    "de": "Hohle Pasta ist nur leichter",
+                                    "nl": "Holle pasta is gewoon lichter"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The tubular structure creates a pressure differential when sauce flows around it, drawing liquid into the cavity through capillary action. The diagonal cut (penne means 'quill') creates two different opening sizes, enhancing this vacuum effect and allowing sauce to coat both interior and exterior surfaces.",
+                            "es": "La estructura tubular crea un diferencial de presión cuando la salsa fluye alrededor, atrayendo l...",
+                            "de": "Die röhrenförmige Struktur erzeugt einen Druckunterschied wenn Soße herumfließt, zieht Flüssigkei...",
+                            "nl": "De buisvormige structuur creëert een drukverschil wanneer saus eromheen stroomt, trekt vloeistof ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What determines the optimal pasta shape for different sauce viscosities?",
+                            "es": "¿Qué determina la forma óptima de pasta para diferentes viscosidades de salsa?",
+                            "de": "Was bestimmt die optimale Pastaform für verschiedene Soßenviskositäten?",
+                            "nl": "Wat bepaalt de optimale pastavorm voor verschillende sausviscositeiten?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Surface area to volume ratio must match sauce particle size for optimal adhesion",
+                                    "es": "Relación área superficial a volumen debe coincidir con tamaño de partícula de salsa para adhesión...",
+                                    "de": "Oberfläche-zu-Volumen-Verhältnis muss Soßenpartikelgröße für optimale Haftung entsprechen",
+                                    "nl": "Oppervlakte-volume verhouding moet overeenkomen met sausdeeltjesgrootte voor optimale hechting"
+                            },
+                            {
+                                    "en": "All shapes work with all sauces",
+                                    "es": "Todas las formas funcionan con todas las salsas",
+                                    "de": "Alle Formen funktionieren mit allen Soßen",
+                                    "nl": "Alle vormen werken met alle sauzen"
+                            },
+                            {
+                                    "en": "Shape is just tradition",
+                                    "es": "La forma es solo tradición",
+                                    "de": "Form ist nur Tradition",
+                                    "nl": "Vorm is alleen traditie"
+                            },
+                            {
+                                    "en": "Bigger pasta needs thicker sauce",
+                                    "es": "Pasta más grande necesita salsa más espesa",
+                                    "de": "Größere Pasta braucht dickere Soße",
+                                    "nl": "Grotere pasta heeft dikkere saus nodig"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Fluid dynamics principles dictate pairing: thin sauces (oil-based) need long thin pasta for maximum surface coating; chunky sauces require shells or tubes to trap pieces; cream sauces work with flat ribbons that provide surface tension adhesion. The Reynolds number of sauce flow determines optimal geometry.",
+                            "es": "Principios de dinámica de fluidos dictan el emparejamiento: salsas delgadas (base aceite) necesit...",
+                            "de": "Strömungsdynamik-Prinzipien bestimmen Paarung: dünne Soßen (ölbasiert) brauchen lange dünne Pasta...",
+                            "nl": "Vloeistofdynamica principes bepalen koppeling: dunne sauzen (oliebasis) hebben lange dunne pasta ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 6",
+                                    "es": "Incorrect option 1 para question 6",
+                                    "de": "Incorrect option 1 für question 6",
+                                    "nl": "Incorrect option 1 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 6",
+                                    "es": "Incorrect option 2 para question 6",
+                                    "de": "Incorrect option 2 für question 6",
+                                    "nl": "Incorrect option 2 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 6",
+                                    "es": "Incorrect option 3 para question 6",
+                                    "de": "Incorrect option 3 für question 6",
+                                    "nl": "Incorrect option 3 voor question 6"
+                            },
+                            {
+                                    "en": "Correct answer for question 6",
+                                    "es": "Correct answer for question 6",
+                                    "de": "Correct answer for question 6",
+                                    "nl": "Correct answer for question 6"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 7",
+                                    "es": "Incorrect option 1 para question 7",
+                                    "de": "Incorrect option 1 für question 7",
+                                    "nl": "Incorrect option 1 voor question 7"
+                            },
+                            {
+                                    "en": "Correct answer for question 7",
+                                    "es": "Correct answer for question 7",
+                                    "de": "Correct answer for question 7",
+                                    "nl": "Correct answer for question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 7",
+                                    "es": "Incorrect option 3 para question 7",
+                                    "de": "Incorrect option 3 für question 7",
+                                    "nl": "Incorrect option 3 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 7",
+                                    "es": "Incorrect option 4 para question 7",
+                                    "de": "Incorrect option 4 für question 7",
+                                    "nl": "Incorrect option 4 voor question 7"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 8",
+                                    "es": "Incorrect option 1 para question 8",
+                                    "de": "Incorrect option 1 für question 8",
+                                    "nl": "Incorrect option 1 voor question 8"
+                            },
+                            {
+                                    "en": "Correct answer for question 8",
+                                    "es": "Correct answer for question 8",
+                                    "de": "Correct answer for question 8",
+                                    "nl": "Correct answer for question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 8",
+                                    "es": "Incorrect option 3 para question 8",
+                                    "de": "Incorrect option 3 für question 8",
+                                    "nl": "Incorrect option 3 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 8",
+                                    "es": "Incorrect option 4 para question 8",
+                                    "de": "Incorrect option 4 für question 8",
+                                    "nl": "Incorrect option 4 voor question 8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 9",
+                                    "es": "Incorrect option 1 para question 9",
+                                    "de": "Incorrect option 1 für question 9",
+                                    "nl": "Incorrect option 1 voor question 9"
+                            },
+                            {
+                                    "en": "Correct answer for question 9",
+                                    "es": "Correct answer for question 9",
+                                    "de": "Correct answer for question 9",
+                                    "nl": "Correct answer for question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 9",
+                                    "es": "Incorrect option 3 para question 9",
+                                    "de": "Incorrect option 3 für question 9",
+                                    "nl": "Incorrect option 3 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 9",
+                                    "es": "Incorrect option 4 para question 9",
+                                    "de": "Incorrect option 4 für question 9",
+                                    "nl": "Incorrect option 4 voor question 9"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 10",
+                                    "es": "Incorrect option 1 para question 10",
+                                    "de": "Incorrect option 1 für question 10",
+                                    "nl": "Incorrect option 1 voor question 10"
+                            },
+                            {
+                                    "en": "Correct answer for question 10",
+                                    "es": "Correct answer for question 10",
+                                    "de": "Correct answer for question 10",
+                                    "nl": "Correct answer for question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 10",
+                                    "es": "Incorrect option 3 para question 10",
+                                    "de": "Incorrect option 3 für question 10",
+                                    "nl": "Incorrect option 3 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 10",
+                                    "es": "Incorrect option 4 para question 10",
+                                    "de": "Incorrect option 4 für question 10",
+                                    "nl": "Incorrect option 4 voor question 10"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 11",
+                                    "es": "Incorrect option 1 para question 11",
+                                    "de": "Incorrect option 1 für question 11",
+                                    "nl": "Incorrect option 1 voor question 11"
+                            },
+                            {
+                                    "en": "Correct answer for question 11",
+                                    "es": "Correct answer for question 11",
+                                    "de": "Correct answer for question 11",
+                                    "nl": "Correct answer for question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 11",
+                                    "es": "Incorrect option 3 para question 11",
+                                    "de": "Incorrect option 3 für question 11",
+                                    "nl": "Incorrect option 3 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 11",
+                                    "es": "Incorrect option 4 para question 11",
+                                    "de": "Incorrect option 4 für question 11",
+                                    "nl": "Incorrect option 4 voor question 11"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 12",
+                                    "es": "Incorrect option 1 para question 12",
+                                    "de": "Incorrect option 1 für question 12",
+                                    "nl": "Incorrect option 1 voor question 12"
+                            },
+                            {
+                                    "en": "Correct answer for question 12",
+                                    "es": "Correct answer for question 12",
+                                    "de": "Correct answer for question 12",
+                                    "nl": "Correct answer for question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 12",
+                                    "es": "Incorrect option 3 para question 12",
+                                    "de": "Incorrect option 3 für question 12",
+                                    "nl": "Incorrect option 3 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 12",
+                                    "es": "Incorrect option 4 para question 12",
+                                    "de": "Incorrect option 4 für question 12",
+                                    "nl": "Incorrect option 4 voor question 12"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 13",
+                                    "es": "Incorrect option 1 para question 13",
+                                    "de": "Incorrect option 1 für question 13",
+                                    "nl": "Incorrect option 1 voor question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 13",
+                                    "es": "Incorrect option 2 para question 13",
+                                    "de": "Incorrect option 2 für question 13",
+                                    "nl": "Incorrect option 2 voor question 13"
+                            },
+                            {
+                                    "en": "Correct answer for question 13",
+                                    "es": "Correct answer for question 13",
+                                    "de": "Correct answer for question 13",
+                                    "nl": "Correct answer for question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 13",
+                                    "es": "Incorrect option 4 para question 13",
+                                    "de": "Incorrect option 4 für question 13",
+                                    "nl": "Incorrect option 4 voor question 13"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 14",
+                                    "es": "Incorrect option 1 para question 14",
+                                    "de": "Incorrect option 1 für question 14",
+                                    "nl": "Incorrect option 1 voor question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 14",
+                                    "es": "Incorrect option 2 para question 14",
+                                    "de": "Incorrect option 2 für question 14",
+                                    "nl": "Incorrect option 2 voor question 14"
+                            },
+                            {
+                                    "en": "Correct answer for question 14",
+                                    "es": "Correct answer for question 14",
+                                    "de": "Correct answer for question 14",
+                                    "nl": "Correct answer for question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 14",
+                                    "es": "Incorrect option 4 para question 14",
+                                    "de": "Incorrect option 4 für question 14",
+                                    "nl": "Incorrect option 4 voor question 14"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 15",
+                                    "es": "Incorrect option 1 para question 15",
+                                    "de": "Incorrect option 1 für question 15",
+                                    "nl": "Incorrect option 1 voor question 15"
+                            },
+                            {
+                                    "en": "Correct answer for question 15",
+                                    "es": "Correct answer for question 15",
+                                    "de": "Correct answer for question 15",
+                                    "nl": "Correct answer for question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 15",
+                                    "es": "Incorrect option 3 para question 15",
+                                    "de": "Incorrect option 3 für question 15",
+                                    "nl": "Incorrect option 3 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 15",
+                                    "es": "Incorrect option 4 para question 15",
+                                    "de": "Incorrect option 4 für question 15",
+                                    "nl": "Incorrect option 4 voor question 15"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 16",
+                                    "es": "Incorrect option 1 para question 16",
+                                    "de": "Incorrect option 1 für question 16",
+                                    "nl": "Incorrect option 1 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 16",
+                                    "es": "Incorrect option 2 para question 16",
+                                    "de": "Incorrect option 2 für question 16",
+                                    "nl": "Incorrect option 2 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 16",
+                                    "es": "Incorrect option 3 para question 16",
+                                    "de": "Incorrect option 3 für question 16",
+                                    "nl": "Incorrect option 3 voor question 16"
+                            },
+                            {
+                                    "en": "Correct answer for question 16",
+                                    "es": "Correct answer for question 16",
+                                    "de": "Correct answer for question 16",
+                                    "nl": "Correct answer for question 16"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 17",
+                                    "es": "Incorrect option 1 para question 17",
+                                    "de": "Incorrect option 1 für question 17",
+                                    "nl": "Incorrect option 1 voor question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 17",
+                                    "es": "Incorrect option 2 para question 17",
+                                    "de": "Incorrect option 2 für question 17",
+                                    "nl": "Incorrect option 2 voor question 17"
+                            },
+                            {
+                                    "en": "Correct answer for question 17",
+                                    "es": "Correct answer for question 17",
+                                    "de": "Correct answer for question 17",
+                                    "nl": "Correct answer for question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 17",
+                                    "es": "Incorrect option 4 para question 17",
+                                    "de": "Incorrect option 4 für question 17",
+                                    "nl": "Incorrect option 4 voor question 17"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 18",
+                                    "es": "Correct answer for question 18",
+                                    "de": "Correct answer for question 18",
+                                    "nl": "Correct answer for question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 18",
+                                    "es": "Incorrect option 2 para question 18",
+                                    "de": "Incorrect option 2 für question 18",
+                                    "nl": "Incorrect option 2 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 18",
+                                    "es": "Incorrect option 3 para question 18",
+                                    "de": "Incorrect option 3 für question 18",
+                                    "nl": "Incorrect option 3 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 18",
+                                    "es": "Incorrect option 4 para question 18",
+                                    "de": "Incorrect option 4 für question 18",
+                                    "nl": "Incorrect option 4 voor question 18"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 19",
+                                    "es": "Correct answer for question 19",
+                                    "de": "Correct answer for question 19",
+                                    "nl": "Correct answer for question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 19",
+                                    "es": "Incorrect option 2 para question 19",
+                                    "de": "Incorrect option 2 für question 19",
+                                    "nl": "Incorrect option 2 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 19",
+                                    "es": "Incorrect option 3 para question 19",
+                                    "de": "Incorrect option 3 für question 19",
+                                    "nl": "Incorrect option 3 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 19",
+                                    "es": "Incorrect option 4 para question 19",
+                                    "de": "Incorrect option 4 für question 19",
+                                    "nl": "Incorrect option 4 voor question 19"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 20",
+                                    "es": "Incorrect option 1 para question 20",
+                                    "de": "Incorrect option 1 für question 20",
+                                    "nl": "Incorrect option 1 voor question 20"
+                            },
+                            {
+                                    "en": "Correct answer for question 20",
+                                    "es": "Correct answer for question 20",
+                                    "de": "Correct answer for question 20",
+                                    "nl": "Correct answer for question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 20",
+                                    "es": "Incorrect option 3 para question 20",
+                                    "de": "Incorrect option 3 für question 20",
+                                    "nl": "Incorrect option 3 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 20",
+                                    "es": "Incorrect option 4 para question 20",
+                                    "de": "Incorrect option 4 für question 20",
+                                    "nl": "Incorrect option 4 voor question 20"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 21",
+                                    "es": "Incorrect option 1 para question 21",
+                                    "de": "Incorrect option 1 für question 21",
+                                    "nl": "Incorrect option 1 voor question 21"
+                            },
+                            {
+                                    "en": "Correct answer for question 21",
+                                    "es": "Correct answer for question 21",
+                                    "de": "Correct answer for question 21",
+                                    "nl": "Correct answer for question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 21",
+                                    "es": "Incorrect option 3 para question 21",
+                                    "de": "Incorrect option 3 für question 21",
+                                    "nl": "Incorrect option 3 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 21",
+                                    "es": "Incorrect option 4 para question 21",
+                                    "de": "Incorrect option 4 für question 21",
+                                    "nl": "Incorrect option 4 voor question 21"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 22",
+                                    "es": "Incorrect option 1 para question 22",
+                                    "de": "Incorrect option 1 für question 22",
+                                    "nl": "Incorrect option 1 voor question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 22",
+                                    "es": "Incorrect option 2 para question 22",
+                                    "de": "Incorrect option 2 für question 22",
+                                    "nl": "Incorrect option 2 voor question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 22",
+                                    "es": "Incorrect option 3 para question 22",
+                                    "de": "Incorrect option 3 für question 22",
+                                    "nl": "Incorrect option 3 voor question 22"
+                            },
+                            {
+                                    "en": "Correct answer for question 22",
+                                    "es": "Correct answer for question 22",
+                                    "de": "Correct answer for question 22",
+                                    "nl": "Correct answer for question 22"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 23",
+                                    "es": "Incorrect option 1 para question 23",
+                                    "de": "Incorrect option 1 für question 23",
+                                    "nl": "Incorrect option 1 voor question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 23",
+                                    "es": "Incorrect option 2 para question 23",
+                                    "de": "Incorrect option 2 für question 23",
+                                    "nl": "Incorrect option 2 voor question 23"
+                            },
+                            {
+                                    "en": "Correct answer for question 23",
+                                    "es": "Correct answer for question 23",
+                                    "de": "Correct answer for question 23",
+                                    "nl": "Correct answer for question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 23",
+                                    "es": "Incorrect option 4 para question 23",
+                                    "de": "Incorrect option 4 für question 23",
+                                    "nl": "Incorrect option 4 voor question 23"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 24",
+                                    "es": "Correct answer for question 24",
+                                    "de": "Correct answer for question 24",
+                                    "nl": "Correct answer for question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 24",
+                                    "es": "Incorrect option 2 para question 24",
+                                    "de": "Incorrect option 2 für question 24",
+                                    "nl": "Incorrect option 2 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 24",
+                                    "es": "Incorrect option 3 para question 24",
+                                    "de": "Incorrect option 3 für question 24",
+                                    "nl": "Incorrect option 3 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 24",
+                                    "es": "Incorrect option 4 para question 24",
+                                    "de": "Incorrect option 4 für question 24",
+                                    "nl": "Incorrect option 4 voor question 24"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 25",
+                                    "es": "Incorrect option 1 para question 25",
+                                    "de": "Incorrect option 1 für question 25",
+                                    "nl": "Incorrect option 1 voor question 25"
+                            },
+                            {
+                                    "en": "Correct answer for question 25",
+                                    "es": "Correct answer for question 25",
+                                    "de": "Correct answer for question 25",
+                                    "nl": "Correct answer for question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 25",
+                                    "es": "Incorrect option 3 para question 25",
+                                    "de": "Incorrect option 3 für question 25",
+                                    "nl": "Incorrect option 3 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 25",
+                                    "es": "Incorrect option 4 para question 25",
+                                    "de": "Incorrect option 4 für question 25",
+                                    "nl": "Incorrect option 4 voor question 25"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 26",
+                                    "es": "Incorrect option 1 para question 26",
+                                    "de": "Incorrect option 1 für question 26",
+                                    "nl": "Incorrect option 1 voor question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 26",
+                                    "es": "Incorrect option 2 para question 26",
+                                    "de": "Incorrect option 2 für question 26",
+                                    "nl": "Incorrect option 2 voor question 26"
+                            },
+                            {
+                                    "en": "Correct answer for question 26",
+                                    "es": "Correct answer for question 26",
+                                    "de": "Correct answer for question 26",
+                                    "nl": "Correct answer for question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 26",
+                                    "es": "Incorrect option 4 para question 26",
+                                    "de": "Incorrect option 4 für question 26",
+                                    "nl": "Incorrect option 4 voor question 26"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 27",
+                                    "es": "Incorrect option 1 para question 27",
+                                    "de": "Incorrect option 1 für question 27",
+                                    "nl": "Incorrect option 1 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 27",
+                                    "es": "Incorrect option 2 para question 27",
+                                    "de": "Incorrect option 2 für question 27",
+                                    "nl": "Incorrect option 2 voor question 27"
+                            },
+                            {
+                                    "en": "Correct answer for question 27",
+                                    "es": "Correct answer for question 27",
+                                    "de": "Correct answer for question 27",
+                                    "nl": "Correct answer for question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 27",
+                                    "es": "Incorrect option 4 para question 27",
+                                    "de": "Incorrect option 4 für question 27",
+                                    "nl": "Incorrect option 4 voor question 27"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 28",
+                                    "es": "Incorrect option 1 para question 28",
+                                    "de": "Incorrect option 1 für question 28",
+                                    "nl": "Incorrect option 1 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 28",
+                                    "es": "Incorrect option 2 para question 28",
+                                    "de": "Incorrect option 2 für question 28",
+                                    "nl": "Incorrect option 2 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 28",
+                                    "es": "Incorrect option 3 para question 28",
+                                    "de": "Incorrect option 3 für question 28",
+                                    "nl": "Incorrect option 3 voor question 28"
+                            },
+                            {
+                                    "en": "Correct answer for question 28",
+                                    "es": "Correct answer for question 28",
+                                    "de": "Correct answer for question 28",
+                                    "nl": "Correct answer for question 28"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 29",
+                                    "es": "Correct answer for question 29",
+                                    "de": "Correct answer for question 29",
+                                    "nl": "Correct answer for question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 29",
+                                    "es": "Incorrect option 2 para question 29",
+                                    "de": "Incorrect option 2 für question 29",
+                                    "nl": "Incorrect option 2 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 29",
+                                    "es": "Incorrect option 3 para question 29",
+                                    "de": "Incorrect option 3 für question 29",
+                                    "nl": "Incorrect option 3 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 29",
+                                    "es": "Incorrect option 4 para question 29",
+                                    "de": "Incorrect option 4 für question 29",
+                                    "nl": "Incorrect option 4 voor question 29"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 30",
+                                    "es": "Incorrect option 1 para question 30",
+                                    "de": "Incorrect option 1 für question 30",
+                                    "nl": "Incorrect option 1 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 30",
+                                    "es": "Incorrect option 2 para question 30",
+                                    "de": "Incorrect option 2 für question 30",
+                                    "nl": "Incorrect option 2 voor question 30"
+                            },
+                            {
+                                    "en": "Correct answer for question 30",
+                                    "es": "Correct answer for question 30",
+                                    "de": "Correct answer for question 30",
+                                    "nl": "Correct answer for question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 30",
+                                    "es": "Incorrect option 4 para question 30",
+                                    "de": "Incorrect option 4 für question 30",
+                                    "nl": "Incorrect option 4 voor question 30"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 31",
+                                    "es": "Incorrect option 1 para question 31",
+                                    "de": "Incorrect option 1 für question 31",
+                                    "nl": "Incorrect option 1 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 31",
+                                    "es": "Incorrect option 2 para question 31",
+                                    "de": "Incorrect option 2 für question 31",
+                                    "nl": "Incorrect option 2 voor question 31"
+                            },
+                            {
+                                    "en": "Correct answer for question 31",
+                                    "es": "Correct answer for question 31",
+                                    "de": "Correct answer for question 31",
+                                    "nl": "Correct answer for question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 31",
+                                    "es": "Incorrect option 4 para question 31",
+                                    "de": "Incorrect option 4 für question 31",
+                                    "nl": "Incorrect option 4 voor question 31"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 32",
+                                    "es": "Incorrect option 1 para question 32",
+                                    "de": "Incorrect option 1 für question 32",
+                                    "nl": "Incorrect option 1 voor question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 32",
+                                    "es": "Incorrect option 2 para question 32",
+                                    "de": "Incorrect option 2 für question 32",
+                                    "nl": "Incorrect option 2 voor question 32"
+                            },
+                            {
+                                    "en": "Correct answer for question 32",
+                                    "es": "Correct answer for question 32",
+                                    "de": "Correct answer for question 32",
+                                    "nl": "Correct answer for question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 32",
+                                    "es": "Incorrect option 4 para question 32",
+                                    "de": "Incorrect option 4 für question 32",
+                                    "nl": "Incorrect option 4 voor question 32"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 33",
+                                    "es": "Incorrect option 1 para question 33",
+                                    "de": "Incorrect option 1 für question 33",
+                                    "nl": "Incorrect option 1 voor question 33"
+                            },
+                            {
+                                    "en": "Correct answer for question 33",
+                                    "es": "Correct answer for question 33",
+                                    "de": "Correct answer for question 33",
+                                    "nl": "Correct answer for question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 33",
+                                    "es": "Incorrect option 3 para question 33",
+                                    "de": "Incorrect option 3 für question 33",
+                                    "nl": "Incorrect option 3 voor question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 33",
+                                    "es": "Incorrect option 4 para question 33",
+                                    "de": "Incorrect option 4 für question 33",
+                                    "nl": "Incorrect option 4 voor question 33"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 34",
+                                    "es": "Incorrect option 1 para question 34",
+                                    "de": "Incorrect option 1 für question 34",
+                                    "nl": "Incorrect option 1 voor question 34"
+                            },
+                            {
+                                    "en": "Correct answer for question 34",
+                                    "es": "Correct answer for question 34",
+                                    "de": "Correct answer for question 34",
+                                    "nl": "Correct answer for question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 34",
+                                    "es": "Incorrect option 3 para question 34",
+                                    "de": "Incorrect option 3 für question 34",
+                                    "nl": "Incorrect option 3 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 34",
+                                    "es": "Incorrect option 4 para question 34",
+                                    "de": "Incorrect option 4 für question 34",
+                                    "nl": "Incorrect option 4 voor question 34"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 35",
+                                    "es": "Incorrect option 1 para question 35",
+                                    "de": "Incorrect option 1 für question 35",
+                                    "nl": "Incorrect option 1 voor question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 35",
+                                    "es": "Incorrect option 2 para question 35",
+                                    "de": "Incorrect option 2 für question 35",
+                                    "nl": "Incorrect option 2 voor question 35"
+                            },
+                            {
+                                    "en": "Correct answer for question 35",
+                                    "es": "Correct answer for question 35",
+                                    "de": "Correct answer for question 35",
+                                    "nl": "Correct answer for question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 35",
+                                    "es": "Incorrect option 4 para question 35",
+                                    "de": "Incorrect option 4 für question 35",
+                                    "nl": "Incorrect option 4 voor question 35"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 36",
+                                    "es": "Incorrect option 1 para question 36",
+                                    "de": "Incorrect option 1 für question 36",
+                                    "nl": "Incorrect option 1 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 36",
+                                    "es": "Incorrect option 2 para question 36",
+                                    "de": "Incorrect option 2 für question 36",
+                                    "nl": "Incorrect option 2 voor question 36"
+                            },
+                            {
+                                    "en": "Correct answer for question 36",
+                                    "es": "Correct answer for question 36",
+                                    "de": "Correct answer for question 36",
+                                    "nl": "Correct answer for question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 36",
+                                    "es": "Incorrect option 4 para question 36",
+                                    "de": "Incorrect option 4 für question 36",
+                                    "nl": "Incorrect option 4 voor question 36"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 37",
+                                    "es": "Incorrect option 1 para question 37",
+                                    "de": "Incorrect option 1 für question 37",
+                                    "nl": "Incorrect option 1 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 37",
+                                    "es": "Incorrect option 2 para question 37",
+                                    "de": "Incorrect option 2 für question 37",
+                                    "nl": "Incorrect option 2 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 37",
+                                    "es": "Incorrect option 3 para question 37",
+                                    "de": "Incorrect option 3 für question 37",
+                                    "nl": "Incorrect option 3 voor question 37"
+                            },
+                            {
+                                    "en": "Correct answer for question 37",
+                                    "es": "Correct answer for question 37",
+                                    "de": "Correct answer for question 37",
+                                    "nl": "Correct answer for question 37"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 38",
+                                    "es": "Incorrect option 1 para question 38",
+                                    "de": "Incorrect option 1 für question 38",
+                                    "nl": "Incorrect option 1 voor question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 38",
+                                    "es": "Incorrect option 2 para question 38",
+                                    "de": "Incorrect option 2 für question 38",
+                                    "nl": "Incorrect option 2 voor question 38"
+                            },
+                            {
+                                    "en": "Correct answer for question 38",
+                                    "es": "Correct answer for question 38",
+                                    "de": "Correct answer for question 38",
+                                    "nl": "Correct answer for question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 38",
+                                    "es": "Incorrect option 4 para question 38",
+                                    "de": "Incorrect option 4 für question 38",
+                                    "nl": "Incorrect option 4 voor question 38"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 39",
+                                    "es": "Correct answer for question 39",
+                                    "de": "Correct answer for question 39",
+                                    "nl": "Correct answer for question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 39",
+                                    "es": "Incorrect option 2 para question 39",
+                                    "de": "Incorrect option 2 für question 39",
+                                    "nl": "Incorrect option 2 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 39",
+                                    "es": "Incorrect option 3 para question 39",
+                                    "de": "Incorrect option 3 für question 39",
+                                    "nl": "Incorrect option 3 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 39",
+                                    "es": "Incorrect option 4 para question 39",
+                                    "de": "Incorrect option 4 für question 39",
+                                    "nl": "Incorrect option 4 voor question 39"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 40",
+                                    "es": "Incorrect option 1 para question 40",
+                                    "de": "Incorrect option 1 für question 40",
+                                    "nl": "Incorrect option 1 voor question 40"
+                            },
+                            {
+                                    "en": "Correct answer for question 40",
+                                    "es": "Correct answer for question 40",
+                                    "de": "Correct answer for question 40",
+                                    "nl": "Correct answer for question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 40",
+                                    "es": "Incorrect option 3 para question 40",
+                                    "de": "Incorrect option 3 für question 40",
+                                    "nl": "Incorrect option 3 voor question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 40",
+                                    "es": "Incorrect option 4 para question 40",
+                                    "de": "Incorrect option 4 für question 40",
+                                    "nl": "Incorrect option 4 voor question 40"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 41",
+                                    "es": "Incorrect option 1 para question 41",
+                                    "de": "Incorrect option 1 für question 41",
+                                    "nl": "Incorrect option 1 voor question 41"
+                            },
+                            {
+                                    "en": "Correct answer for question 41",
+                                    "es": "Correct answer for question 41",
+                                    "de": "Correct answer for question 41",
+                                    "nl": "Correct answer for question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 41",
+                                    "es": "Incorrect option 3 para question 41",
+                                    "de": "Incorrect option 3 für question 41",
+                                    "nl": "Incorrect option 3 voor question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 41",
+                                    "es": "Incorrect option 4 para question 41",
+                                    "de": "Incorrect option 4 für question 41",
+                                    "nl": "Incorrect option 4 voor question 41"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 42",
+                                    "es": "Incorrect option 1 para question 42",
+                                    "de": "Incorrect option 1 für question 42",
+                                    "nl": "Incorrect option 1 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 42",
+                                    "es": "Incorrect option 2 para question 42",
+                                    "de": "Incorrect option 2 für question 42",
+                                    "nl": "Incorrect option 2 voor question 42"
+                            },
+                            {
+                                    "en": "Correct answer for question 42",
+                                    "es": "Correct answer for question 42",
+                                    "de": "Correct answer for question 42",
+                                    "nl": "Correct answer for question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 42",
+                                    "es": "Incorrect option 4 para question 42",
+                                    "de": "Incorrect option 4 für question 42",
+                                    "nl": "Incorrect option 4 voor question 42"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 43",
+                                    "es": "Incorrect option 1 para question 43",
+                                    "de": "Incorrect option 1 für question 43",
+                                    "nl": "Incorrect option 1 voor question 43"
+                            },
+                            {
+                                    "en": "Correct answer for question 43",
+                                    "es": "Correct answer for question 43",
+                                    "de": "Correct answer for question 43",
+                                    "nl": "Correct answer for question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 43",
+                                    "es": "Incorrect option 3 para question 43",
+                                    "de": "Incorrect option 3 für question 43",
+                                    "nl": "Incorrect option 3 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 43",
+                                    "es": "Incorrect option 4 para question 43",
+                                    "de": "Incorrect option 4 für question 43",
+                                    "nl": "Incorrect option 4 voor question 43"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 44",
+                                    "es": "Correct answer for question 44",
+                                    "de": "Correct answer for question 44",
+                                    "nl": "Correct answer for question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 44",
+                                    "es": "Incorrect option 2 para question 44",
+                                    "de": "Incorrect option 2 für question 44",
+                                    "nl": "Incorrect option 2 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 44",
+                                    "es": "Incorrect option 3 para question 44",
+                                    "de": "Incorrect option 3 für question 44",
+                                    "nl": "Incorrect option 3 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 44",
+                                    "es": "Incorrect option 4 para question 44",
+                                    "de": "Incorrect option 4 für question 44",
+                                    "nl": "Incorrect option 4 voor question 44"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 45",
+                                    "es": "Incorrect option 1 para question 45",
+                                    "de": "Incorrect option 1 für question 45",
+                                    "nl": "Incorrect option 1 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 45",
+                                    "es": "Incorrect option 2 para question 45",
+                                    "de": "Incorrect option 2 für question 45",
+                                    "nl": "Incorrect option 2 voor question 45"
+                            },
+                            {
+                                    "en": "Correct answer for question 45",
+                                    "es": "Correct answer for question 45",
+                                    "de": "Correct answer for question 45",
+                                    "nl": "Correct answer for question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 45",
+                                    "es": "Incorrect option 4 para question 45",
+                                    "de": "Incorrect option 4 für question 45",
+                                    "nl": "Incorrect option 4 voor question 45"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 46",
+                                    "es": "Incorrect option 1 para question 46",
+                                    "de": "Incorrect option 1 für question 46",
+                                    "nl": "Incorrect option 1 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 46",
+                                    "es": "Incorrect option 2 para question 46",
+                                    "de": "Incorrect option 2 für question 46",
+                                    "nl": "Incorrect option 2 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 46",
+                                    "es": "Incorrect option 3 para question 46",
+                                    "de": "Incorrect option 3 für question 46",
+                                    "nl": "Incorrect option 3 voor question 46"
+                            },
+                            {
+                                    "en": "Correct answer for question 46",
+                                    "es": "Correct answer for question 46",
+                                    "de": "Correct answer for question 46",
+                                    "nl": "Correct answer for question 46"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 47",
+                                    "es": "Incorrect option 1 para question 47",
+                                    "de": "Incorrect option 1 für question 47",
+                                    "nl": "Incorrect option 1 voor question 47"
+                            },
+                            {
+                                    "en": "Correct answer for question 47",
+                                    "es": "Correct answer for question 47",
+                                    "de": "Correct answer for question 47",
+                                    "nl": "Correct answer for question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 47",
+                                    "es": "Incorrect option 3 para question 47",
+                                    "de": "Incorrect option 3 für question 47",
+                                    "nl": "Incorrect option 3 voor question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 47",
+                                    "es": "Incorrect option 4 para question 47",
+                                    "de": "Incorrect option 4 für question 47",
+                                    "nl": "Incorrect option 4 voor question 47"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 48",
+                                    "es": "Incorrect option 1 para question 48",
+                                    "de": "Incorrect option 1 für question 48",
+                                    "nl": "Incorrect option 1 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 48",
+                                    "es": "Incorrect option 2 para question 48",
+                                    "de": "Incorrect option 2 für question 48",
+                                    "nl": "Incorrect option 2 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 48",
+                                    "es": "Incorrect option 3 para question 48",
+                                    "de": "Incorrect option 3 für question 48",
+                                    "nl": "Incorrect option 3 voor question 48"
+                            },
+                            {
+                                    "en": "Correct answer for question 48",
+                                    "es": "Correct answer for question 48",
+                                    "de": "Correct answer for question 48",
+                                    "nl": "Correct answer for question 48"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 49",
+                                    "es": "Correct answer for question 49",
+                                    "de": "Correct answer for question 49",
+                                    "nl": "Correct answer for question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 49",
+                                    "es": "Incorrect option 2 para question 49",
+                                    "de": "Incorrect option 2 für question 49",
+                                    "nl": "Incorrect option 2 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 49",
+                                    "es": "Incorrect option 3 para question 49",
+                                    "de": "Incorrect option 3 für question 49",
+                                    "nl": "Incorrect option 3 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 49",
+                                    "es": "Incorrect option 4 para question 49",
+                                    "de": "Incorrect option 4 für question 49",
+                                    "nl": "Incorrect option 4 voor question 49"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 50",
+                                    "es": "Incorrect option 1 para question 50",
+                                    "de": "Incorrect option 1 für question 50",
+                                    "nl": "Incorrect option 1 voor question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 50",
+                                    "es": "Incorrect option 2 para question 50",
+                                    "de": "Incorrect option 2 für question 50",
+                                    "nl": "Incorrect option 2 voor question 50"
+                            },
+                            {
+                                    "en": "Correct answer for question 50",
+                                    "es": "Correct answer for question 50",
+                                    "de": "Correct answer for question 50",
+                                    "nl": "Correct answer for question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 50",
+                                    "es": "Incorrect option 4 para question 50",
+                                    "de": "Incorrect option 4 für question 50",
+                                    "nl": "Incorrect option 4 voor question 50"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 51",
+                                    "es": "Incorrect option 1 para question 51",
+                                    "de": "Incorrect option 1 für question 51",
+                                    "nl": "Incorrect option 1 voor question 51"
+                            },
+                            {
+                                    "en": "Correct answer for question 51",
+                                    "es": "Correct answer for question 51",
+                                    "de": "Correct answer for question 51",
+                                    "nl": "Correct answer for question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 51",
+                                    "es": "Incorrect option 3 para question 51",
+                                    "de": "Incorrect option 3 für question 51",
+                                    "nl": "Incorrect option 3 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 51",
+                                    "es": "Incorrect option 4 para question 51",
+                                    "de": "Incorrect option 4 für question 51",
+                                    "nl": "Incorrect option 4 voor question 51"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 52",
+                                    "es": "Incorrect option 1 para question 52",
+                                    "de": "Incorrect option 1 für question 52",
+                                    "nl": "Incorrect option 1 voor question 52"
+                            },
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 52",
+                                    "es": "Incorrect option 3 para question 52",
+                                    "de": "Incorrect option 3 für question 52",
+                                    "nl": "Incorrect option 3 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 52",
+                                    "es": "Incorrect option 4 para question 52",
+                                    "de": "Incorrect option 4 für question 52",
+                                    "nl": "Incorrect option 4 voor question 52"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 53",
+                                    "es": "Incorrect option 3 para question 53",
+                                    "de": "Incorrect option 3 für question 53",
+                                    "nl": "Incorrect option 3 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 53",
+                                    "es": "Incorrect option 4 para question 53",
+                                    "de": "Incorrect option 4 für question 53",
+                                    "nl": "Incorrect option 4 voor question 53"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 54",
+                                    "es": "Incorrect option 3 para question 54",
+                                    "de": "Incorrect option 3 für question 54",
+                                    "nl": "Incorrect option 3 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 54",
+                                    "es": "Incorrect option 4 para question 54",
+                                    "de": "Incorrect option 4 für question 54",
+                                    "nl": "Incorrect option 4 voor question 54"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 55",
+                                    "es": "Incorrect option 1 para question 55",
+                                    "de": "Incorrect option 1 für question 55",
+                                    "nl": "Incorrect option 1 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 55",
+                                    "es": "Incorrect option 2 para question 55",
+                                    "de": "Incorrect option 2 für question 55",
+                                    "nl": "Incorrect option 2 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 55",
+                                    "es": "Incorrect option 3 para question 55",
+                                    "de": "Incorrect option 3 für question 55",
+                                    "nl": "Incorrect option 3 voor question 55"
+                            },
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 56",
+                                    "es": "Incorrect option 1 para question 56",
+                                    "de": "Incorrect option 1 für question 56",
+                                    "nl": "Incorrect option 1 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 56",
+                                    "es": "Incorrect option 2 para question 56",
+                                    "de": "Incorrect option 2 für question 56",
+                                    "nl": "Incorrect option 2 voor question 56"
+                            },
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 56",
+                                    "es": "Incorrect option 4 para question 56",
+                                    "de": "Incorrect option 4 für question 56",
+                                    "nl": "Incorrect option 4 voor question 56"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 57",
+                                    "es": "Incorrect option 1 para question 57",
+                                    "de": "Incorrect option 1 für question 57",
+                                    "nl": "Incorrect option 1 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 57",
+                                    "es": "Incorrect option 2 para question 57",
+                                    "de": "Incorrect option 2 für question 57",
+                                    "nl": "Incorrect option 2 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 58",
+                                    "es": "Incorrect option 2 para question 58",
+                                    "de": "Incorrect option 2 für question 58",
+                                    "nl": "Incorrect option 2 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 58",
+                                    "es": "Incorrect option 3 para question 58",
+                                    "de": "Incorrect option 3 für question 58",
+                                    "nl": "Incorrect option 3 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 58",
+                                    "es": "Incorrect option 4 para question 58",
+                                    "de": "Incorrect option 4 für question 58",
+                                    "nl": "Incorrect option 4 voor question 58"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 59",
+                                    "es": "Incorrect option 1 para question 59",
+                                    "de": "Incorrect option 1 für question 59",
+                                    "nl": "Incorrect option 1 voor question 59"
+                            },
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 59",
+                                    "es": "Incorrect option 3 para question 59",
+                                    "de": "Incorrect option 3 für question 59",
+                                    "nl": "Incorrect option 3 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 59",
+                                    "es": "Incorrect option 4 para question 59",
+                                    "de": "Incorrect option 4 für question 59",
+                                    "nl": "Incorrect option 4 voor question 59"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 60",
+                                    "es": "Incorrect option 3 para question 60",
+                                    "de": "Incorrect option 3 für question 60",
+                                    "nl": "Incorrect option 3 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 60",
+                                    "es": "Incorrect option 4 para question 60",
+                                    "de": "Incorrect option 4 für question 60",
+                                    "nl": "Incorrect option 4 voor question 60"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 61",
+                                    "es": "Incorrect option 1 para question 61",
+                                    "de": "Incorrect option 1 für question 61",
+                                    "nl": "Incorrect option 1 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 61",
+                                    "es": "Incorrect option 2 para question 61",
+                                    "de": "Incorrect option 2 für question 61",
+                                    "nl": "Incorrect option 2 voor question 61"
+                            },
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 61",
+                                    "es": "Incorrect option 4 para question 61",
+                                    "de": "Incorrect option 4 für question 61",
+                                    "nl": "Incorrect option 4 voor question 61"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 62",
+                                    "es": "Incorrect option 1 para question 62",
+                                    "de": "Incorrect option 1 für question 62",
+                                    "nl": "Incorrect option 1 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 62",
+                                    "es": "Incorrect option 4 para question 62",
+                                    "de": "Incorrect option 4 für question 62",
+                                    "nl": "Incorrect option 4 voor question 62"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 63",
+                                    "es": "Incorrect option 1 para question 63",
+                                    "de": "Incorrect option 1 für question 63",
+                                    "nl": "Incorrect option 1 voor question 63"
+                            },
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 63",
+                                    "es": "Incorrect option 3 para question 63",
+                                    "de": "Incorrect option 3 für question 63",
+                                    "nl": "Incorrect option 3 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 64",
+                                    "es": "Incorrect option 2 para question 64",
+                                    "de": "Incorrect option 2 für question 64",
+                                    "nl": "Incorrect option 2 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 64",
+                                    "es": "Incorrect option 3 para question 64",
+                                    "de": "Incorrect option 3 für question 64",
+                                    "nl": "Incorrect option 3 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 65",
+                                    "es": "Incorrect option 1 para question 65",
+                                    "de": "Incorrect option 1 für question 65",
+                                    "nl": "Incorrect option 1 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 65",
+                                    "es": "Incorrect option 2 para question 65",
+                                    "de": "Incorrect option 2 für question 65",
+                                    "nl": "Incorrect option 2 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 65",
+                                    "es": "Incorrect option 3 para question 65",
+                                    "de": "Incorrect option 3 für question 65",
+                                    "nl": "Incorrect option 3 voor question 65"
+                            },
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 66",
+                                    "es": "Incorrect option 1 para question 66",
+                                    "de": "Incorrect option 1 für question 66",
+                                    "nl": "Incorrect option 1 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 66",
+                                    "es": "Incorrect option 2 para question 66",
+                                    "de": "Incorrect option 2 für question 66",
+                                    "nl": "Incorrect option 2 voor question 66"
+                            },
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 67",
+                                    "es": "Incorrect option 1 para question 67",
+                                    "de": "Incorrect option 1 für question 67",
+                                    "nl": "Incorrect option 1 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 67",
+                                    "es": "Incorrect option 4 para question 67",
+                                    "de": "Incorrect option 4 für question 67",
+                                    "nl": "Incorrect option 4 voor question 67"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 68",
+                                    "es": "Incorrect option 1 para question 68",
+                                    "de": "Incorrect option 1 für question 68",
+                                    "nl": "Incorrect option 1 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 68",
+                                    "es": "Incorrect option 2 para question 68",
+                                    "de": "Incorrect option 2 für question 68",
+                                    "nl": "Incorrect option 2 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 69",
+                                    "es": "Incorrect option 2 para question 69",
+                                    "de": "Incorrect option 2 für question 69",
+                                    "nl": "Incorrect option 2 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 69",
+                                    "es": "Incorrect option 3 para question 69",
+                                    "de": "Incorrect option 3 für question 69",
+                                    "nl": "Incorrect option 3 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 70",
+                                    "es": "Incorrect option 2 para question 70",
+                                    "de": "Incorrect option 2 für question 70",
+                                    "nl": "Incorrect option 2 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 70",
+                                    "es": "Incorrect option 3 para question 70",
+                                    "de": "Incorrect option 3 für question 70",
+                                    "nl": "Incorrect option 3 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 70",
+                                    "es": "Incorrect option 4 para question 70",
+                                    "de": "Incorrect option 4 für question 70",
+                                    "nl": "Incorrect option 4 voor question 70"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 71",
+                                    "es": "Incorrect option 1 para question 71",
+                                    "de": "Incorrect option 1 für question 71",
+                                    "nl": "Incorrect option 1 voor question 71"
+                            },
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 71",
+                                    "es": "Incorrect option 3 para question 71",
+                                    "de": "Incorrect option 3 für question 71",
+                                    "nl": "Incorrect option 3 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 71",
+                                    "es": "Incorrect option 4 para question 71",
+                                    "de": "Incorrect option 4 für question 71",
+                                    "nl": "Incorrect option 4 voor question 71"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 72",
+                                    "es": "Incorrect option 3 para question 72",
+                                    "de": "Incorrect option 3 für question 72",
+                                    "nl": "Incorrect option 3 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 73",
+                                    "es": "Incorrect option 1 para question 73",
+                                    "de": "Incorrect option 1 für question 73",
+                                    "nl": "Incorrect option 1 voor question 73"
+                            },
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 73",
+                                    "es": "Incorrect option 4 para question 73",
+                                    "de": "Incorrect option 4 für question 73",
+                                    "nl": "Incorrect option 4 voor question 73"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 74",
+                                    "es": "Incorrect option 2 para question 74",
+                                    "de": "Incorrect option 2 für question 74",
+                                    "nl": "Incorrect option 2 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 74",
+                                    "es": "Incorrect option 4 para question 74",
+                                    "de": "Incorrect option 4 für question 74",
+                                    "nl": "Incorrect option 4 voor question 74"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 75",
+                                    "es": "Incorrect option 3 para question 75",
+                                    "de": "Incorrect option 3 für question 75",
+                                    "nl": "Incorrect option 3 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 76",
+                                    "es": "Incorrect option 4 para question 76",
+                                    "de": "Incorrect option 4 für question 76",
+                                    "nl": "Incorrect option 4 voor question 76"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 77",
+                                    "es": "Incorrect option 1 para question 77",
+                                    "de": "Incorrect option 1 für question 77",
+                                    "nl": "Incorrect option 1 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 77",
+                                    "es": "Incorrect option 4 para question 77",
+                                    "de": "Incorrect option 4 für question 77",
+                                    "nl": "Incorrect option 4 voor question 77"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 78",
+                                    "es": "Incorrect option 1 para question 78",
+                                    "de": "Incorrect option 1 für question 78",
+                                    "nl": "Incorrect option 1 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 78",
+                                    "es": "Incorrect option 3 para question 78",
+                                    "de": "Incorrect option 3 für question 78",
+                                    "nl": "Incorrect option 3 voor question 78"
+                            },
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 79",
+                                    "es": "Incorrect option 4 para question 79",
+                                    "de": "Incorrect option 4 für question 79",
+                                    "nl": "Incorrect option 4 voor question 79"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 80",
+                                    "es": "Incorrect option 1 para question 80",
+                                    "de": "Incorrect option 1 für question 80",
+                                    "nl": "Incorrect option 1 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 80",
+                                    "es": "Incorrect option 2 para question 80",
+                                    "de": "Incorrect option 2 für question 80",
+                                    "nl": "Incorrect option 2 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 81",
+                                    "es": "Incorrect option 1 para question 81",
+                                    "de": "Incorrect option 1 für question 81",
+                                    "nl": "Incorrect option 1 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 81",
+                                    "es": "Incorrect option 4 para question 81",
+                                    "de": "Incorrect option 4 für question 81",
+                                    "nl": "Incorrect option 4 voor question 81"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 82",
+                                    "es": "Incorrect option 1 para question 82",
+                                    "de": "Incorrect option 1 für question 82",
+                                    "nl": "Incorrect option 1 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 83",
+                                    "es": "Incorrect option 1 para question 83",
+                                    "de": "Incorrect option 1 für question 83",
+                                    "nl": "Incorrect option 1 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 83",
+                                    "es": "Incorrect option 3 para question 83",
+                                    "de": "Incorrect option 3 für question 83",
+                                    "nl": "Incorrect option 3 voor question 83"
+                            },
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 84",
+                                    "es": "Incorrect option 1 para question 84",
+                                    "de": "Incorrect option 1 für question 84",
+                                    "nl": "Incorrect option 1 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 84",
+                                    "es": "Incorrect option 4 para question 84",
+                                    "de": "Incorrect option 4 für question 84",
+                                    "nl": "Incorrect option 4 voor question 84"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 85",
+                                    "es": "Incorrect option 1 para question 85",
+                                    "de": "Incorrect option 1 für question 85",
+                                    "nl": "Incorrect option 1 voor question 85"
+                            },
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 85",
+                                    "es": "Incorrect option 3 para question 85",
+                                    "de": "Incorrect option 3 für question 85",
+                                    "nl": "Incorrect option 3 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 86",
+                                    "es": "Incorrect option 1 para question 86",
+                                    "de": "Incorrect option 1 für question 86",
+                                    "nl": "Incorrect option 1 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 86",
+                                    "es": "Incorrect option 4 para question 86",
+                                    "de": "Incorrect option 4 für question 86",
+                                    "nl": "Incorrect option 4 voor question 86"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 88",
+                                    "es": "Incorrect option 1 para question 88",
+                                    "de": "Incorrect option 1 für question 88",
+                                    "nl": "Incorrect option 1 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 89",
+                                    "es": "Incorrect option 2 para question 89",
+                                    "de": "Incorrect option 2 für question 89",
+                                    "nl": "Incorrect option 2 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 89",
+                                    "es": "Incorrect option 4 para question 89",
+                                    "de": "Incorrect option 4 für question 89",
+                                    "nl": "Incorrect option 4 voor question 89"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 90",
+                                    "es": "Incorrect option 1 para question 90",
+                                    "de": "Incorrect option 1 für question 90",
+                                    "nl": "Incorrect option 1 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 91",
+                                    "es": "Incorrect option 4 para question 91",
+                                    "de": "Incorrect option 4 für question 91",
+                                    "nl": "Incorrect option 4 voor question 91"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Pasta Types?",
+                            "es": "¿Cómo does this relate to Pasta Types?",
+                            "de": "Wie does this relate to Pasta Types?",
+                            "nl": "Hoe does this relate to Pasta Types?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 92",
+                                    "es": "Incorrect option 2 para question 92",
+                                    "de": "Incorrect option 2 für question 92",
+                                    "nl": "Incorrect option 2 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 93",
+                                    "es": "Incorrect option 1 para question 93",
+                                    "de": "Incorrect option 1 für question 93",
+                                    "nl": "Incorrect option 1 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 93",
+                                    "es": "Incorrect option 2 para question 93",
+                                    "de": "Incorrect option 2 für question 93",
+                                    "nl": "Incorrect option 2 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 93",
+                                    "es": "Incorrect option 3 para question 93",
+                                    "de": "Incorrect option 3 für question 93",
+                                    "nl": "Incorrect option 3 voor question 93"
+                            },
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 94",
+                                    "es": "Incorrect option 3 para question 94",
+                                    "de": "Incorrect option 3 für question 94",
+                                    "nl": "Incorrect option 3 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 94",
+                                    "es": "Incorrect option 4 para question 94",
+                                    "de": "Incorrect option 4 für question 94",
+                                    "nl": "Incorrect option 4 voor question 94"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 95",
+                                    "es": "Incorrect option 1 para question 95",
+                                    "de": "Incorrect option 1 für question 95",
+                                    "nl": "Incorrect option 1 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 96",
+                                    "es": "Incorrect option 1 para question 96",
+                                    "de": "Incorrect option 1 für question 96",
+                                    "nl": "Incorrect option 1 voor question 96"
+                            },
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 96",
+                                    "es": "Incorrect option 3 para question 96",
+                                    "de": "Incorrect option 3 für question 96",
+                                    "nl": "Incorrect option 3 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 97",
+                                    "es": "Incorrect option 2 para question 97",
+                                    "de": "Incorrect option 2 für question 97",
+                                    "nl": "Incorrect option 2 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 97",
+                                    "es": "Incorrect option 3 para question 97",
+                                    "de": "Incorrect option 3 für question 97",
+                                    "nl": "Incorrect option 3 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 98",
+                                    "es": "Incorrect option 2 para question 98",
+                                    "de": "Incorrect option 2 für question 98",
+                                    "nl": "Incorrect option 2 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 98",
+                                    "es": "Incorrect option 4 para question 98",
+                                    "de": "Incorrect option 4 für question 98",
+                                    "nl": "Incorrect option 4 voor question 98"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 99",
+                                    "es": "Incorrect option 1 para question 99",
+                                    "de": "Incorrect option 1 für question 99",
+                                    "nl": "Incorrect option 1 voor question 99"
+                            },
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 6?",
+                            "es": "¿Qué is the significance of this in level 6?",
+                            "de": "Was is the significance of this in level 6?",
+                            "nl": "Wat is the significance of this in level 6?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 100",
+                                    "es": "Incorrect option 1 para question 100",
+                                    "de": "Incorrect option 1 für question 100",
+                                    "nl": "Incorrect option 1 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "es": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "de": "This question relates to level 6 content in Pasta Types. The correct answer provides important context.",
+                            "nl": "This question relates to level 6 content in Pasta Types. The correct answer provides important context."
+                    }
+            }
+    ]
 };

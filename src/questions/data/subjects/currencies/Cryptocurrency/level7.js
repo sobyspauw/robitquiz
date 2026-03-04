@@ -1,4104 +1,4108 @@
+// Cryptocurrency - level7
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:28.117Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Cryptocurrency",
-      "es": "Pregunta 1 sobre Cryptocurrency",
-      "de": "Frage 1 über Cryptocurrency",
-      "nl": "Vraag 1 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Cryptocurrency",
-      "es": "Pregunta 2 sobre Cryptocurrency",
-      "de": "Frage 2 über Cryptocurrency",
-      "nl": "Vraag 2 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Cryptocurrency",
-      "es": "Pregunta 3 sobre Cryptocurrency",
-      "de": "Frage 3 über Cryptocurrency",
-      "nl": "Vraag 3 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Cryptocurrency",
-      "es": "Pregunta 4 sobre Cryptocurrency",
-      "de": "Frage 4 über Cryptocurrency",
-      "nl": "Vraag 4 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Cryptocurrency",
-      "es": "Pregunta 5 sobre Cryptocurrency",
-      "de": "Frage 5 über Cryptocurrency",
-      "nl": "Vraag 5 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Cryptocurrency",
-      "es": "Pregunta 6 sobre Cryptocurrency",
-      "de": "Frage 6 über Cryptocurrency",
-      "nl": "Vraag 6 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Cryptocurrency",
-      "es": "Pregunta 7 sobre Cryptocurrency",
-      "de": "Frage 7 über Cryptocurrency",
-      "nl": "Vraag 7 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Cryptocurrency",
-      "es": "Pregunta 8 sobre Cryptocurrency",
-      "de": "Frage 8 über Cryptocurrency",
-      "nl": "Vraag 8 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Cryptocurrency",
-      "es": "Pregunta 9 sobre Cryptocurrency",
-      "de": "Frage 9 über Cryptocurrency",
-      "nl": "Vraag 9 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Cryptocurrency",
-      "es": "Pregunta 10 sobre Cryptocurrency",
-      "de": "Frage 10 über Cryptocurrency",
-      "nl": "Vraag 10 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Cryptocurrency",
-      "es": "Pregunta 11 sobre Cryptocurrency",
-      "de": "Frage 11 über Cryptocurrency",
-      "nl": "Vraag 11 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Cryptocurrency",
-      "es": "Pregunta 12 sobre Cryptocurrency",
-      "de": "Frage 12 über Cryptocurrency",
-      "nl": "Vraag 12 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Cryptocurrency",
-      "es": "Pregunta 13 sobre Cryptocurrency",
-      "de": "Frage 13 über Cryptocurrency",
-      "nl": "Vraag 13 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Cryptocurrency",
-      "es": "Pregunta 14 sobre Cryptocurrency",
-      "de": "Frage 14 über Cryptocurrency",
-      "nl": "Vraag 14 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Cryptocurrency",
-      "es": "Pregunta 15 sobre Cryptocurrency",
-      "de": "Frage 15 über Cryptocurrency",
-      "nl": "Vraag 15 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Cryptocurrency",
-      "es": "Pregunta 16 sobre Cryptocurrency",
-      "de": "Frage 16 über Cryptocurrency",
-      "nl": "Vraag 16 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Cryptocurrency",
-      "es": "Pregunta 17 sobre Cryptocurrency",
-      "de": "Frage 17 über Cryptocurrency",
-      "nl": "Vraag 17 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Cryptocurrency",
-      "es": "Pregunta 18 sobre Cryptocurrency",
-      "de": "Frage 18 über Cryptocurrency",
-      "nl": "Vraag 18 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Cryptocurrency",
-      "es": "Pregunta 19 sobre Cryptocurrency",
-      "de": "Frage 19 über Cryptocurrency",
-      "nl": "Vraag 19 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Cryptocurrency",
-      "es": "Pregunta 20 sobre Cryptocurrency",
-      "de": "Frage 20 über Cryptocurrency",
-      "nl": "Vraag 20 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Cryptocurrency",
-      "es": "Pregunta 21 sobre Cryptocurrency",
-      "de": "Frage 21 über Cryptocurrency",
-      "nl": "Vraag 21 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Cryptocurrency",
-      "es": "Pregunta 22 sobre Cryptocurrency",
-      "de": "Frage 22 über Cryptocurrency",
-      "nl": "Vraag 22 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Cryptocurrency",
-      "es": "Pregunta 23 sobre Cryptocurrency",
-      "de": "Frage 23 über Cryptocurrency",
-      "nl": "Vraag 23 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Cryptocurrency",
-      "es": "Pregunta 24 sobre Cryptocurrency",
-      "de": "Frage 24 über Cryptocurrency",
-      "nl": "Vraag 24 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Cryptocurrency",
-      "es": "Pregunta 25 sobre Cryptocurrency",
-      "de": "Frage 25 über Cryptocurrency",
-      "nl": "Vraag 25 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Cryptocurrency",
-      "es": "Pregunta 26 sobre Cryptocurrency",
-      "de": "Frage 26 über Cryptocurrency",
-      "nl": "Vraag 26 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Cryptocurrency",
-      "es": "Pregunta 27 sobre Cryptocurrency",
-      "de": "Frage 27 über Cryptocurrency",
-      "nl": "Vraag 27 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Cryptocurrency",
-      "es": "Pregunta 28 sobre Cryptocurrency",
-      "de": "Frage 28 über Cryptocurrency",
-      "nl": "Vraag 28 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Cryptocurrency",
-      "es": "Pregunta 29 sobre Cryptocurrency",
-      "de": "Frage 29 über Cryptocurrency",
-      "nl": "Vraag 29 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Cryptocurrency",
-      "es": "Pregunta 30 sobre Cryptocurrency",
-      "de": "Frage 30 über Cryptocurrency",
-      "nl": "Vraag 30 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Cryptocurrency",
-      "es": "Pregunta 31 sobre Cryptocurrency",
-      "de": "Frage 31 über Cryptocurrency",
-      "nl": "Vraag 31 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Cryptocurrency",
-      "es": "Pregunta 32 sobre Cryptocurrency",
-      "de": "Frage 32 über Cryptocurrency",
-      "nl": "Vraag 32 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Cryptocurrency",
-      "es": "Pregunta 33 sobre Cryptocurrency",
-      "de": "Frage 33 über Cryptocurrency",
-      "nl": "Vraag 33 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Cryptocurrency",
-      "es": "Pregunta 34 sobre Cryptocurrency",
-      "de": "Frage 34 über Cryptocurrency",
-      "nl": "Vraag 34 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Cryptocurrency",
-      "es": "Pregunta 35 sobre Cryptocurrency",
-      "de": "Frage 35 über Cryptocurrency",
-      "nl": "Vraag 35 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Cryptocurrency",
-      "es": "Pregunta 36 sobre Cryptocurrency",
-      "de": "Frage 36 über Cryptocurrency",
-      "nl": "Vraag 36 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Cryptocurrency",
-      "es": "Pregunta 37 sobre Cryptocurrency",
-      "de": "Frage 37 über Cryptocurrency",
-      "nl": "Vraag 37 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Cryptocurrency",
-      "es": "Pregunta 38 sobre Cryptocurrency",
-      "de": "Frage 38 über Cryptocurrency",
-      "nl": "Vraag 38 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Cryptocurrency",
-      "es": "Pregunta 39 sobre Cryptocurrency",
-      "de": "Frage 39 über Cryptocurrency",
-      "nl": "Vraag 39 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Cryptocurrency",
-      "es": "Pregunta 40 sobre Cryptocurrency",
-      "de": "Frage 40 über Cryptocurrency",
-      "nl": "Vraag 40 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Cryptocurrency",
-      "es": "Pregunta 41 sobre Cryptocurrency",
-      "de": "Frage 41 über Cryptocurrency",
-      "nl": "Vraag 41 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Cryptocurrency",
-      "es": "Pregunta 42 sobre Cryptocurrency",
-      "de": "Frage 42 über Cryptocurrency",
-      "nl": "Vraag 42 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Cryptocurrency",
-      "es": "Pregunta 43 sobre Cryptocurrency",
-      "de": "Frage 43 über Cryptocurrency",
-      "nl": "Vraag 43 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Cryptocurrency",
-      "es": "Pregunta 44 sobre Cryptocurrency",
-      "de": "Frage 44 über Cryptocurrency",
-      "nl": "Vraag 44 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Cryptocurrency",
-      "es": "Pregunta 45 sobre Cryptocurrency",
-      "de": "Frage 45 über Cryptocurrency",
-      "nl": "Vraag 45 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Cryptocurrency",
-      "es": "Pregunta 46 sobre Cryptocurrency",
-      "de": "Frage 46 über Cryptocurrency",
-      "nl": "Vraag 46 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Cryptocurrency",
-      "es": "Pregunta 47 sobre Cryptocurrency",
-      "de": "Frage 47 über Cryptocurrency",
-      "nl": "Vraag 47 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Cryptocurrency",
-      "es": "Pregunta 48 sobre Cryptocurrency",
-      "de": "Frage 48 über Cryptocurrency",
-      "nl": "Vraag 48 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Cryptocurrency",
-      "es": "Pregunta 49 sobre Cryptocurrency",
-      "de": "Frage 49 über Cryptocurrency",
-      "nl": "Vraag 49 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Cryptocurrency",
-      "es": "Pregunta 50 sobre Cryptocurrency",
-      "de": "Frage 50 über Cryptocurrency",
-      "nl": "Vraag 50 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Cryptocurrency",
-      "es": "Pregunta 51 sobre Cryptocurrency",
-      "de": "Frage 51 über Cryptocurrency",
-      "nl": "Vraag 51 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Cryptocurrency",
-      "es": "Pregunta 52 sobre Cryptocurrency",
-      "de": "Frage 52 über Cryptocurrency",
-      "nl": "Vraag 52 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Cryptocurrency",
-      "es": "Pregunta 53 sobre Cryptocurrency",
-      "de": "Frage 53 über Cryptocurrency",
-      "nl": "Vraag 53 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Cryptocurrency",
-      "es": "Pregunta 54 sobre Cryptocurrency",
-      "de": "Frage 54 über Cryptocurrency",
-      "nl": "Vraag 54 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Cryptocurrency",
-      "es": "Pregunta 55 sobre Cryptocurrency",
-      "de": "Frage 55 über Cryptocurrency",
-      "nl": "Vraag 55 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Cryptocurrency",
-      "es": "Pregunta 56 sobre Cryptocurrency",
-      "de": "Frage 56 über Cryptocurrency",
-      "nl": "Vraag 56 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Cryptocurrency",
-      "es": "Pregunta 57 sobre Cryptocurrency",
-      "de": "Frage 57 über Cryptocurrency",
-      "nl": "Vraag 57 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Cryptocurrency",
-      "es": "Pregunta 58 sobre Cryptocurrency",
-      "de": "Frage 58 über Cryptocurrency",
-      "nl": "Vraag 58 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Cryptocurrency",
-      "es": "Pregunta 59 sobre Cryptocurrency",
-      "de": "Frage 59 über Cryptocurrency",
-      "nl": "Vraag 59 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Cryptocurrency",
-      "es": "Pregunta 60 sobre Cryptocurrency",
-      "de": "Frage 60 über Cryptocurrency",
-      "nl": "Vraag 60 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Cryptocurrency",
-      "es": "Pregunta 61 sobre Cryptocurrency",
-      "de": "Frage 61 über Cryptocurrency",
-      "nl": "Vraag 61 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Cryptocurrency",
-      "es": "Pregunta 62 sobre Cryptocurrency",
-      "de": "Frage 62 über Cryptocurrency",
-      "nl": "Vraag 62 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Cryptocurrency",
-      "es": "Pregunta 63 sobre Cryptocurrency",
-      "de": "Frage 63 über Cryptocurrency",
-      "nl": "Vraag 63 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Cryptocurrency",
-      "es": "Pregunta 64 sobre Cryptocurrency",
-      "de": "Frage 64 über Cryptocurrency",
-      "nl": "Vraag 64 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Cryptocurrency",
-      "es": "Pregunta 65 sobre Cryptocurrency",
-      "de": "Frage 65 über Cryptocurrency",
-      "nl": "Vraag 65 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Cryptocurrency",
-      "es": "Pregunta 66 sobre Cryptocurrency",
-      "de": "Frage 66 über Cryptocurrency",
-      "nl": "Vraag 66 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Cryptocurrency",
-      "es": "Pregunta 67 sobre Cryptocurrency",
-      "de": "Frage 67 über Cryptocurrency",
-      "nl": "Vraag 67 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Cryptocurrency",
-      "es": "Pregunta 68 sobre Cryptocurrency",
-      "de": "Frage 68 über Cryptocurrency",
-      "nl": "Vraag 68 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Cryptocurrency",
-      "es": "Pregunta 69 sobre Cryptocurrency",
-      "de": "Frage 69 über Cryptocurrency",
-      "nl": "Vraag 69 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Cryptocurrency",
-      "es": "Pregunta 70 sobre Cryptocurrency",
-      "de": "Frage 70 über Cryptocurrency",
-      "nl": "Vraag 70 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Cryptocurrency",
-      "es": "Pregunta 71 sobre Cryptocurrency",
-      "de": "Frage 71 über Cryptocurrency",
-      "nl": "Vraag 71 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Cryptocurrency",
-      "es": "Pregunta 72 sobre Cryptocurrency",
-      "de": "Frage 72 über Cryptocurrency",
-      "nl": "Vraag 72 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Cryptocurrency",
-      "es": "Pregunta 73 sobre Cryptocurrency",
-      "de": "Frage 73 über Cryptocurrency",
-      "nl": "Vraag 73 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Cryptocurrency",
-      "es": "Pregunta 74 sobre Cryptocurrency",
-      "de": "Frage 74 über Cryptocurrency",
-      "nl": "Vraag 74 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Cryptocurrency",
-      "es": "Pregunta 75 sobre Cryptocurrency",
-      "de": "Frage 75 über Cryptocurrency",
-      "nl": "Vraag 75 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Cryptocurrency",
-      "es": "Pregunta 76 sobre Cryptocurrency",
-      "de": "Frage 76 über Cryptocurrency",
-      "nl": "Vraag 76 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Cryptocurrency",
-      "es": "Pregunta 77 sobre Cryptocurrency",
-      "de": "Frage 77 über Cryptocurrency",
-      "nl": "Vraag 77 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Cryptocurrency",
-      "es": "Pregunta 78 sobre Cryptocurrency",
-      "de": "Frage 78 über Cryptocurrency",
-      "nl": "Vraag 78 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Cryptocurrency",
-      "es": "Pregunta 79 sobre Cryptocurrency",
-      "de": "Frage 79 über Cryptocurrency",
-      "nl": "Vraag 79 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Cryptocurrency",
-      "es": "Pregunta 80 sobre Cryptocurrency",
-      "de": "Frage 80 über Cryptocurrency",
-      "nl": "Vraag 80 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Cryptocurrency",
-      "es": "Pregunta 81 sobre Cryptocurrency",
-      "de": "Frage 81 über Cryptocurrency",
-      "nl": "Vraag 81 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Cryptocurrency",
-      "es": "Pregunta 82 sobre Cryptocurrency",
-      "de": "Frage 82 über Cryptocurrency",
-      "nl": "Vraag 82 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Cryptocurrency",
-      "es": "Pregunta 83 sobre Cryptocurrency",
-      "de": "Frage 83 über Cryptocurrency",
-      "nl": "Vraag 83 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Cryptocurrency",
-      "es": "Pregunta 84 sobre Cryptocurrency",
-      "de": "Frage 84 über Cryptocurrency",
-      "nl": "Vraag 84 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Cryptocurrency",
-      "es": "Pregunta 85 sobre Cryptocurrency",
-      "de": "Frage 85 über Cryptocurrency",
-      "nl": "Vraag 85 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Cryptocurrency",
-      "es": "Pregunta 86 sobre Cryptocurrency",
-      "de": "Frage 86 über Cryptocurrency",
-      "nl": "Vraag 86 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Cryptocurrency",
-      "es": "Pregunta 87 sobre Cryptocurrency",
-      "de": "Frage 87 über Cryptocurrency",
-      "nl": "Vraag 87 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Cryptocurrency",
-      "es": "Pregunta 88 sobre Cryptocurrency",
-      "de": "Frage 88 über Cryptocurrency",
-      "nl": "Vraag 88 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Cryptocurrency",
-      "es": "Pregunta 89 sobre Cryptocurrency",
-      "de": "Frage 89 über Cryptocurrency",
-      "nl": "Vraag 89 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Cryptocurrency",
-      "es": "Pregunta 90 sobre Cryptocurrency",
-      "de": "Frage 90 über Cryptocurrency",
-      "nl": "Vraag 90 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Cryptocurrency",
-      "es": "Pregunta 91 sobre Cryptocurrency",
-      "de": "Frage 91 über Cryptocurrency",
-      "nl": "Vraag 91 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Cryptocurrency",
-      "es": "Pregunta 92 sobre Cryptocurrency",
-      "de": "Frage 92 über Cryptocurrency",
-      "nl": "Vraag 92 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Cryptocurrency",
-      "es": "Pregunta 93 sobre Cryptocurrency",
-      "de": "Frage 93 über Cryptocurrency",
-      "nl": "Vraag 93 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Cryptocurrency",
-      "es": "Pregunta 94 sobre Cryptocurrency",
-      "de": "Frage 94 über Cryptocurrency",
-      "nl": "Vraag 94 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Cryptocurrency",
-      "es": "Pregunta 95 sobre Cryptocurrency",
-      "de": "Frage 95 über Cryptocurrency",
-      "nl": "Vraag 95 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Cryptocurrency",
-      "es": "Pregunta 96 sobre Cryptocurrency",
-      "de": "Frage 96 über Cryptocurrency",
-      "nl": "Vraag 96 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Cryptocurrency",
-      "es": "Pregunta 97 sobre Cryptocurrency",
-      "de": "Frage 97 über Cryptocurrency",
-      "nl": "Vraag 97 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Cryptocurrency",
-      "es": "Pregunta 98 sobre Cryptocurrency",
-      "de": "Frage 98 über Cryptocurrency",
-      "nl": "Vraag 98 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Cryptocurrency",
-      "es": "Pregunta 99 sobre Cryptocurrency",
-      "de": "Frage 99 über Cryptocurrency",
-      "nl": "Vraag 99 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Cryptocurrency",
-      "es": "Pregunta 100 sobre Cryptocurrency",
-      "de": "Frage 100 über Cryptocurrency",
-      "nl": "Vraag 100 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What defines Lightning Network technically?",
+                            "es": "Qué defines Lightning Network technically?",
+                            "de": "Was defines Lightning Network technically?",
+                            "nl": "Wat defines Lightning Network technically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "low fees",
+                                    "es": "low fees",
+                                    "de": "low fees",
+                                    "nl": "low fees"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Lightning Network is an important concept in cryptocurrency. Bitcoin Layer 2. Additionally, instant payments. low fees. Technically, payment channels.",
+                            "es": "Lightning Network es un concepto importante en criptomonedas. Bitcoin Layer 2.",
+                            "de": "Lightning Network ist ein wichtiges Konzept bei Kryptowährungen. Bitcoin Layer 2.",
+                            "nl": "Lightning Network is een belangrijk concept in cryptocurrency. Bitcoin Layer 2."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the historical timeline of Layer 2 scaling?",
+                            "es": "Qué is the historical timeline of Layer 2 scaling?",
+                            "de": "Was is the historical timeline of Layer 2 scaling?",
+                            "nl": "Wat is the historical timeline of Layer 2 scaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "reduces main chain load",
+                                    "es": "reduces main chain load",
+                                    "de": "reduces main chain load",
+                                    "nl": "reduces main chain load"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Layer 2 scaling is an important concept in cryptocurrency. off-chain solutions. Additionally, reduces main chain load. faster and cheaper. Technically, various approaches.",
+                            "es": "Layer 2 scaling es un concepto importante en criptomonedas. off-chain solutions.",
+                            "de": "Layer 2 scaling ist ein wichtiges Konzept bei Kryptowährungen. off-chain solutions.",
+                            "nl": "Layer 2 scaling is een belangrijk concept in cryptocurrency. off-chain solutions."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What precise technical detail defines Sidechains?",
+                            "es": "Qué precise technical detail defines Sidechains?",
+                            "de": "Was precise technical detail defines Sidechains?",
+                            "nl": "Wat precise technical detail defines Sidechains?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Liquid Network",
+                                    "es": "Liquid Network",
+                                    "de": "Liquid Network",
+                                    "nl": "Liquid Network"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Sidechains is an important concept in cryptocurrency. parallel blockchains. Additionally, pegged to main chain. experimental features. Technically, Liquid Network.",
+                            "es": "Sidechains es un concepto importante en criptomonedas. parallel blockchains.",
+                            "de": "Sidechains ist ein wichtiges Konzept bei Kryptowährungen. parallel blockchains.",
+                            "nl": "Sidechains is een belangrijk concept in cryptocurrency. parallel blockchains."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What entity or person created Atomic swap?",
+                            "es": "Qué entity or person created Atomic swap?",
+                            "de": "Was entity or person created Atomic swap?",
+                            "nl": "Wat entity or person created Atomic swap?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "decentralized trading",
+                                    "es": "decentralized trading",
+                                    "de": "decentralized trading",
+                                    "nl": "decentralized trading"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Atomic swap is an important concept in cryptocurrency. cross-chain exchange. Additionally, no intermediary. hash time-locked. Technically, decentralized trading.",
+                            "es": "Atomic swap es un concepto importante en criptomonedas. cross-chain exchange.",
+                            "de": "Atomic swap ist ein wichtiges Konzept bei Kryptowährungen. cross-chain exchange.",
+                            "nl": "Atomic swap is een belangrijk concept in cryptocurrency. cross-chain exchange."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Wrapped Bitcoin?",
+                            "es": "Qué distinguishes Wrapped Bitcoin?",
+                            "de": "Was distinguishes Wrapped Bitcoin?",
+                            "nl": "Wat distinguishes Wrapped Bitcoin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "DeFi integration",
+                                    "es": "DeFi integration",
+                                    "de": "DeFi integration",
+                                    "nl": "DeFi integration"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Wrapped Bitcoin is an important concept in cryptocurrency. wBTC on Ethereum. Additionally, ERC-20 token. backed 1:1. Technically, DeFi integration.",
+                            "es": "Wrapped Bitcoin es un concepto importante en criptomonedas. wBTC on Ethereum.",
+                            "de": "Wrapped Bitcoin ist ein wichtiges Konzept bei Kryptowährungen. wBTC on Ethereum.",
+                            "nl": "Wrapped Bitcoin is een belangrijk concept in cryptocurrency. wBTC on Ethereum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What function does Tokenomics serve?",
+                            "es": "Qué function does Tokenomics serve?",
+                            "de": "Was function does Tokenomics serve?",
+                            "nl": "Wat function does Tokenomics serve?"
+                    },
+                    "options": [
+                            {
+                                    "en": "inflation/deflation",
+                                    "es": "inflation/deflation",
+                                    "de": "inflation/deflation",
+                                    "nl": "inflation/deflation"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tokenomics is an important concept in cryptocurrency. token economics. Additionally, supply and demand. inflation/deflation. Technically, utility and value.",
+                            "es": "Tokenomics es un concepto importante en criptomonedas. token economics.",
+                            "de": "Tokenomics ist ein wichtiges Konzept bei Kryptowährungen. token economics.",
+                            "nl": "Tokenomics is een belangrijk concept in cryptocurrency. token economics."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Cryptocurrency burn relate to cryptocurrency?",
+                            "es": "Cómo does Cryptocurrency burn relate to cryptocurrency?",
+                            "de": "Wie does Cryptocurrency burn relate to cryptocurrency?",
+                            "nl": "Hoe does Cryptocurrency burn relate to cryptocurrency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "deflationary mechanism",
+                                    "es": "deflationary mechanism",
+                                    "de": "deflationary mechanism",
+                                    "nl": "deflationary mechanism"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Cryptocurrency burn is an important concept in cryptocurrency. permanently destroy. Additionally, reduce supply. increase scarcity. Technically, deflationary mechanism.",
+                            "es": "Cryptocurrency burn es un concepto importante en criptomonedas. permanently destroy.",
+                            "de": "Cryptocurrency burn ist ein wichtiges Konzept bei Kryptowährungen. permanently destroy.",
+                            "nl": "Cryptocurrency burn is een belangrijk concept in cryptocurrency. permanently destroy."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact does Governance token have?",
+                            "es": "Qué impact does Governance token have?",
+                            "de": "Was impact does Governance token have?",
+                            "nl": "Wat impact does Governance token have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "DAO participation",
+                                    "es": "DAO participation",
+                                    "de": "DAO participation",
+                                    "nl": "DAO participation"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Governance token is an important concept in cryptocurrency. voting rights. Additionally, protocol decisions. DAO participation. Technically, Uniswap UNI.",
+                            "es": "Governance token es un concepto importante en criptomonedas. voting rights.",
+                            "de": "Governance token ist ein wichtiges Konzept bei Kryptowährungen. voting rights.",
+                            "nl": "Governance token is een belangrijk concept in cryptocurrency. voting rights."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the modern relevance of DAO?",
+                            "es": "Qué is the modern relevance of DAO?",
+                            "de": "Was is the modern relevance of DAO?",
+                            "nl": "Wat is the modern relevance of DAO?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            },
+                            {
+                                    "en": "The DAO hack 2016",
+                                    "es": "el DAO hack 2016",
+                                    "de": "der DAO hack 2016",
+                                    "nl": "de DAO hack 2016"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "DAO is an important concept in cryptocurrency. Decentralized Autonomous Organization. Additionally, smart contract governed. token holder voting. Technically, The DAO hack 2016.",
+                            "es": "DAO es un concepto importante en criptomonedas. Decentralized Autonomous Organization.",
+                            "de": "DAO ist ein wichtiges Konzept bei Kryptowährungen. Decentralized Autonomous Organization.",
+                            "nl": "DAO is een belangrijk concept in cryptocurrency. Decentralized Autonomous Organization."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What technical aspect defines Regulatory frameworks?",
+                            "es": "Qué technical aspect defines Regulatory frameworks?",
+                            "de": "Was technical aspect defines Regulatory frameworks?",
+                            "nl": "Wat technical aspect defines Regulatory frameworks?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Unrelated technology",
+                                    "es": "Unrelated technology",
+                                    "de": "Unrelated technology",
+                                    "nl": "Unrelated technology"
+                            },
+                            {
+                                    "en": "Alternative system",
+                                    "es": "Alternative system",
+                                    "de": "Alternative system",
+                                    "nl": "Alternative system"
+                            },
+                            {
+                                    "en": "evolving landscape",
+                                    "es": "evolving landscape",
+                                    "de": "evolving landscape",
+                                    "nl": "evolving landscape"
+                            },
+                            {
+                                    "en": "Different protocol",
+                                    "es": "Different protocol",
+                                    "de": "Different protocol",
+                                    "nl": "Different protocol"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Regulatory frameworks is an important concept in cryptocurrency. SEC Howey test. Additionally, security classification. varies globally. Technically, evolving landscape.",
+                            "es": "Regulatory frameworks es un concepto importante en criptomonedas. SEC Howey test.",
+                            "de": "Regulatory frameworks ist ein wichtiges Konzept bei Kryptowährungen. SEC Howey test.",
+                            "nl": "Regulatory frameworks is een belangrijk concept in cryptocurrency. SEC Howey test."
+                    }
+            }
+    ]
 };

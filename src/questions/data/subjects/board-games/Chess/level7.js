@@ -1,4104 +1,4108 @@
+// Chess - level7
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:05.490Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Chess (Level 7)",
-      "es": "Pregunta 1 sobre Chess (Nivel 7)",
-      "de": "Frage 1 über Chess (Stufe 7)",
-      "nl": "Vraag 1 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 1.",
-      "es": "Esta es la explicación para la pregunta 1.",
-      "de": "Dies ist die Erklärung für Frage 1.",
-      "nl": "Dit is de uitleg voor vraag 1."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Chess (Level 7)",
-      "es": "Pregunta 2 sobre Chess (Nivel 7)",
-      "de": "Frage 2 über Chess (Stufe 7)",
-      "nl": "Vraag 2 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 2.",
-      "es": "Esta es la explicación para la pregunta 2.",
-      "de": "Dies ist die Erklärung für Frage 2.",
-      "nl": "Dit is de uitleg voor vraag 2."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Chess (Level 7)",
-      "es": "Pregunta 3 sobre Chess (Nivel 7)",
-      "de": "Frage 3 über Chess (Stufe 7)",
-      "nl": "Vraag 3 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 3.",
-      "es": "Esta es la explicación para la pregunta 3.",
-      "de": "Dies ist die Erklärung für Frage 3.",
-      "nl": "Dit is de uitleg voor vraag 3."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Chess (Level 7)",
-      "es": "Pregunta 4 sobre Chess (Nivel 7)",
-      "de": "Frage 4 über Chess (Stufe 7)",
-      "nl": "Vraag 4 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 4.",
-      "es": "Esta es la explicación para la pregunta 4.",
-      "de": "Dies ist die Erklärung für Frage 4.",
-      "nl": "Dit is de uitleg voor vraag 4."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Chess (Level 7)",
-      "es": "Pregunta 5 sobre Chess (Nivel 7)",
-      "de": "Frage 5 über Chess (Stufe 7)",
-      "nl": "Vraag 5 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 5.",
-      "es": "Esta es la explicación para la pregunta 5.",
-      "de": "Dies ist die Erklärung für Frage 5.",
-      "nl": "Dit is de uitleg voor vraag 5."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Chess (Level 7)",
-      "es": "Pregunta 6 sobre Chess (Nivel 7)",
-      "de": "Frage 6 über Chess (Stufe 7)",
-      "nl": "Vraag 6 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 6.",
-      "es": "Esta es la explicación para la pregunta 6.",
-      "de": "Dies ist die Erklärung für Frage 6.",
-      "nl": "Dit is de uitleg voor vraag 6."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Chess (Level 7)",
-      "es": "Pregunta 7 sobre Chess (Nivel 7)",
-      "de": "Frage 7 über Chess (Stufe 7)",
-      "nl": "Vraag 7 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 7.",
-      "es": "Esta es la explicación para la pregunta 7.",
-      "de": "Dies ist die Erklärung für Frage 7.",
-      "nl": "Dit is de uitleg voor vraag 7."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Chess (Level 7)",
-      "es": "Pregunta 8 sobre Chess (Nivel 7)",
-      "de": "Frage 8 über Chess (Stufe 7)",
-      "nl": "Vraag 8 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 8.",
-      "es": "Esta es la explicación para la pregunta 8.",
-      "de": "Dies ist die Erklärung für Frage 8.",
-      "nl": "Dit is de uitleg voor vraag 8."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Chess (Level 7)",
-      "es": "Pregunta 9 sobre Chess (Nivel 7)",
-      "de": "Frage 9 über Chess (Stufe 7)",
-      "nl": "Vraag 9 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 9.",
-      "es": "Esta es la explicación para la pregunta 9.",
-      "de": "Dies ist die Erklärung für Frage 9.",
-      "nl": "Dit is de uitleg voor vraag 9."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Chess (Level 7)",
-      "es": "Pregunta 10 sobre Chess (Nivel 7)",
-      "de": "Frage 10 über Chess (Stufe 7)",
-      "nl": "Vraag 10 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 10.",
-      "es": "Esta es la explicación para la pregunta 10.",
-      "de": "Dies ist die Erklärung für Frage 10.",
-      "nl": "Dit is de uitleg voor vraag 10."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Chess (Level 7)",
-      "es": "Pregunta 11 sobre Chess (Nivel 7)",
-      "de": "Frage 11 über Chess (Stufe 7)",
-      "nl": "Vraag 11 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 11.",
-      "es": "Esta es la explicación para la pregunta 11.",
-      "de": "Dies ist die Erklärung für Frage 11.",
-      "nl": "Dit is de uitleg voor vraag 11."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Chess (Level 7)",
-      "es": "Pregunta 12 sobre Chess (Nivel 7)",
-      "de": "Frage 12 über Chess (Stufe 7)",
-      "nl": "Vraag 12 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 12.",
-      "es": "Esta es la explicación para la pregunta 12.",
-      "de": "Dies ist die Erklärung für Frage 12.",
-      "nl": "Dit is de uitleg voor vraag 12."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Chess (Level 7)",
-      "es": "Pregunta 13 sobre Chess (Nivel 7)",
-      "de": "Frage 13 über Chess (Stufe 7)",
-      "nl": "Vraag 13 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 13.",
-      "es": "Esta es la explicación para la pregunta 13.",
-      "de": "Dies ist die Erklärung für Frage 13.",
-      "nl": "Dit is de uitleg voor vraag 13."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Chess (Level 7)",
-      "es": "Pregunta 14 sobre Chess (Nivel 7)",
-      "de": "Frage 14 über Chess (Stufe 7)",
-      "nl": "Vraag 14 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 14.",
-      "es": "Esta es la explicación para la pregunta 14.",
-      "de": "Dies ist die Erklärung für Frage 14.",
-      "nl": "Dit is de uitleg voor vraag 14."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Chess (Level 7)",
-      "es": "Pregunta 15 sobre Chess (Nivel 7)",
-      "de": "Frage 15 über Chess (Stufe 7)",
-      "nl": "Vraag 15 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 15.",
-      "es": "Esta es la explicación para la pregunta 15.",
-      "de": "Dies ist die Erklärung für Frage 15.",
-      "nl": "Dit is de uitleg voor vraag 15."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Chess (Level 7)",
-      "es": "Pregunta 16 sobre Chess (Nivel 7)",
-      "de": "Frage 16 über Chess (Stufe 7)",
-      "nl": "Vraag 16 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 16.",
-      "es": "Esta es la explicación para la pregunta 16.",
-      "de": "Dies ist die Erklärung für Frage 16.",
-      "nl": "Dit is de uitleg voor vraag 16."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Chess (Level 7)",
-      "es": "Pregunta 17 sobre Chess (Nivel 7)",
-      "de": "Frage 17 über Chess (Stufe 7)",
-      "nl": "Vraag 17 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 17.",
-      "es": "Esta es la explicación para la pregunta 17.",
-      "de": "Dies ist die Erklärung für Frage 17.",
-      "nl": "Dit is de uitleg voor vraag 17."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Chess (Level 7)",
-      "es": "Pregunta 18 sobre Chess (Nivel 7)",
-      "de": "Frage 18 über Chess (Stufe 7)",
-      "nl": "Vraag 18 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 18.",
-      "es": "Esta es la explicación para la pregunta 18.",
-      "de": "Dies ist die Erklärung für Frage 18.",
-      "nl": "Dit is de uitleg voor vraag 18."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Chess (Level 7)",
-      "es": "Pregunta 19 sobre Chess (Nivel 7)",
-      "de": "Frage 19 über Chess (Stufe 7)",
-      "nl": "Vraag 19 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 19.",
-      "es": "Esta es la explicación para la pregunta 19.",
-      "de": "Dies ist die Erklärung für Frage 19.",
-      "nl": "Dit is de uitleg voor vraag 19."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Chess (Level 7)",
-      "es": "Pregunta 20 sobre Chess (Nivel 7)",
-      "de": "Frage 20 über Chess (Stufe 7)",
-      "nl": "Vraag 20 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 20.",
-      "es": "Esta es la explicación para la pregunta 20.",
-      "de": "Dies ist die Erklärung für Frage 20.",
-      "nl": "Dit is de uitleg voor vraag 20."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Chess (Level 7)",
-      "es": "Pregunta 21 sobre Chess (Nivel 7)",
-      "de": "Frage 21 über Chess (Stufe 7)",
-      "nl": "Vraag 21 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 21.",
-      "es": "Esta es la explicación para la pregunta 21.",
-      "de": "Dies ist die Erklärung für Frage 21.",
-      "nl": "Dit is de uitleg voor vraag 21."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Chess (Level 7)",
-      "es": "Pregunta 22 sobre Chess (Nivel 7)",
-      "de": "Frage 22 über Chess (Stufe 7)",
-      "nl": "Vraag 22 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 22.",
-      "es": "Esta es la explicación para la pregunta 22.",
-      "de": "Dies ist die Erklärung für Frage 22.",
-      "nl": "Dit is de uitleg voor vraag 22."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Chess (Level 7)",
-      "es": "Pregunta 23 sobre Chess (Nivel 7)",
-      "de": "Frage 23 über Chess (Stufe 7)",
-      "nl": "Vraag 23 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 23.",
-      "es": "Esta es la explicación para la pregunta 23.",
-      "de": "Dies ist die Erklärung für Frage 23.",
-      "nl": "Dit is de uitleg voor vraag 23."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Chess (Level 7)",
-      "es": "Pregunta 24 sobre Chess (Nivel 7)",
-      "de": "Frage 24 über Chess (Stufe 7)",
-      "nl": "Vraag 24 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 24.",
-      "es": "Esta es la explicación para la pregunta 24.",
-      "de": "Dies ist die Erklärung für Frage 24.",
-      "nl": "Dit is de uitleg voor vraag 24."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Chess (Level 7)",
-      "es": "Pregunta 25 sobre Chess (Nivel 7)",
-      "de": "Frage 25 über Chess (Stufe 7)",
-      "nl": "Vraag 25 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 25.",
-      "es": "Esta es la explicación para la pregunta 25.",
-      "de": "Dies ist die Erklärung für Frage 25.",
-      "nl": "Dit is de uitleg voor vraag 25."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Chess (Level 7)",
-      "es": "Pregunta 26 sobre Chess (Nivel 7)",
-      "de": "Frage 26 über Chess (Stufe 7)",
-      "nl": "Vraag 26 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 26.",
-      "es": "Esta es la explicación para la pregunta 26.",
-      "de": "Dies ist die Erklärung für Frage 26.",
-      "nl": "Dit is de uitleg voor vraag 26."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Chess (Level 7)",
-      "es": "Pregunta 27 sobre Chess (Nivel 7)",
-      "de": "Frage 27 über Chess (Stufe 7)",
-      "nl": "Vraag 27 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 27.",
-      "es": "Esta es la explicación para la pregunta 27.",
-      "de": "Dies ist die Erklärung für Frage 27.",
-      "nl": "Dit is de uitleg voor vraag 27."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Chess (Level 7)",
-      "es": "Pregunta 28 sobre Chess (Nivel 7)",
-      "de": "Frage 28 über Chess (Stufe 7)",
-      "nl": "Vraag 28 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 28.",
-      "es": "Esta es la explicación para la pregunta 28.",
-      "de": "Dies ist die Erklärung für Frage 28.",
-      "nl": "Dit is de uitleg voor vraag 28."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Chess (Level 7)",
-      "es": "Pregunta 29 sobre Chess (Nivel 7)",
-      "de": "Frage 29 über Chess (Stufe 7)",
-      "nl": "Vraag 29 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 29.",
-      "es": "Esta es la explicación para la pregunta 29.",
-      "de": "Dies ist die Erklärung für Frage 29.",
-      "nl": "Dit is de uitleg voor vraag 29."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Chess (Level 7)",
-      "es": "Pregunta 30 sobre Chess (Nivel 7)",
-      "de": "Frage 30 über Chess (Stufe 7)",
-      "nl": "Vraag 30 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 30.",
-      "es": "Esta es la explicación para la pregunta 30.",
-      "de": "Dies ist die Erklärung für Frage 30.",
-      "nl": "Dit is de uitleg voor vraag 30."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Chess (Level 7)",
-      "es": "Pregunta 31 sobre Chess (Nivel 7)",
-      "de": "Frage 31 über Chess (Stufe 7)",
-      "nl": "Vraag 31 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 31.",
-      "es": "Esta es la explicación para la pregunta 31.",
-      "de": "Dies ist die Erklärung für Frage 31.",
-      "nl": "Dit is de uitleg voor vraag 31."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Chess (Level 7)",
-      "es": "Pregunta 32 sobre Chess (Nivel 7)",
-      "de": "Frage 32 über Chess (Stufe 7)",
-      "nl": "Vraag 32 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 32.",
-      "es": "Esta es la explicación para la pregunta 32.",
-      "de": "Dies ist die Erklärung für Frage 32.",
-      "nl": "Dit is de uitleg voor vraag 32."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Chess (Level 7)",
-      "es": "Pregunta 33 sobre Chess (Nivel 7)",
-      "de": "Frage 33 über Chess (Stufe 7)",
-      "nl": "Vraag 33 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 33.",
-      "es": "Esta es la explicación para la pregunta 33.",
-      "de": "Dies ist die Erklärung für Frage 33.",
-      "nl": "Dit is de uitleg voor vraag 33."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Chess (Level 7)",
-      "es": "Pregunta 34 sobre Chess (Nivel 7)",
-      "de": "Frage 34 über Chess (Stufe 7)",
-      "nl": "Vraag 34 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 34.",
-      "es": "Esta es la explicación para la pregunta 34.",
-      "de": "Dies ist die Erklärung für Frage 34.",
-      "nl": "Dit is de uitleg voor vraag 34."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Chess (Level 7)",
-      "es": "Pregunta 35 sobre Chess (Nivel 7)",
-      "de": "Frage 35 über Chess (Stufe 7)",
-      "nl": "Vraag 35 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 35.",
-      "es": "Esta es la explicación para la pregunta 35.",
-      "de": "Dies ist die Erklärung für Frage 35.",
-      "nl": "Dit is de uitleg voor vraag 35."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Chess (Level 7)",
-      "es": "Pregunta 36 sobre Chess (Nivel 7)",
-      "de": "Frage 36 über Chess (Stufe 7)",
-      "nl": "Vraag 36 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 36.",
-      "es": "Esta es la explicación para la pregunta 36.",
-      "de": "Dies ist die Erklärung für Frage 36.",
-      "nl": "Dit is de uitleg voor vraag 36."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Chess (Level 7)",
-      "es": "Pregunta 37 sobre Chess (Nivel 7)",
-      "de": "Frage 37 über Chess (Stufe 7)",
-      "nl": "Vraag 37 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 37.",
-      "es": "Esta es la explicación para la pregunta 37.",
-      "de": "Dies ist die Erklärung für Frage 37.",
-      "nl": "Dit is de uitleg voor vraag 37."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Chess (Level 7)",
-      "es": "Pregunta 38 sobre Chess (Nivel 7)",
-      "de": "Frage 38 über Chess (Stufe 7)",
-      "nl": "Vraag 38 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 38.",
-      "es": "Esta es la explicación para la pregunta 38.",
-      "de": "Dies ist die Erklärung für Frage 38.",
-      "nl": "Dit is de uitleg voor vraag 38."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Chess (Level 7)",
-      "es": "Pregunta 39 sobre Chess (Nivel 7)",
-      "de": "Frage 39 über Chess (Stufe 7)",
-      "nl": "Vraag 39 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 39.",
-      "es": "Esta es la explicación para la pregunta 39.",
-      "de": "Dies ist die Erklärung für Frage 39.",
-      "nl": "Dit is de uitleg voor vraag 39."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Chess (Level 7)",
-      "es": "Pregunta 40 sobre Chess (Nivel 7)",
-      "de": "Frage 40 über Chess (Stufe 7)",
-      "nl": "Vraag 40 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 40.",
-      "es": "Esta es la explicación para la pregunta 40.",
-      "de": "Dies ist die Erklärung für Frage 40.",
-      "nl": "Dit is de uitleg voor vraag 40."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Chess (Level 7)",
-      "es": "Pregunta 41 sobre Chess (Nivel 7)",
-      "de": "Frage 41 über Chess (Stufe 7)",
-      "nl": "Vraag 41 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 41.",
-      "es": "Esta es la explicación para la pregunta 41.",
-      "de": "Dies ist die Erklärung für Frage 41.",
-      "nl": "Dit is de uitleg voor vraag 41."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Chess (Level 7)",
-      "es": "Pregunta 42 sobre Chess (Nivel 7)",
-      "de": "Frage 42 über Chess (Stufe 7)",
-      "nl": "Vraag 42 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 42.",
-      "es": "Esta es la explicación para la pregunta 42.",
-      "de": "Dies ist die Erklärung für Frage 42.",
-      "nl": "Dit is de uitleg voor vraag 42."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Chess (Level 7)",
-      "es": "Pregunta 43 sobre Chess (Nivel 7)",
-      "de": "Frage 43 über Chess (Stufe 7)",
-      "nl": "Vraag 43 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 43.",
-      "es": "Esta es la explicación para la pregunta 43.",
-      "de": "Dies ist die Erklärung für Frage 43.",
-      "nl": "Dit is de uitleg voor vraag 43."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Chess (Level 7)",
-      "es": "Pregunta 44 sobre Chess (Nivel 7)",
-      "de": "Frage 44 über Chess (Stufe 7)",
-      "nl": "Vraag 44 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 44.",
-      "es": "Esta es la explicación para la pregunta 44.",
-      "de": "Dies ist die Erklärung für Frage 44.",
-      "nl": "Dit is de uitleg voor vraag 44."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Chess (Level 7)",
-      "es": "Pregunta 45 sobre Chess (Nivel 7)",
-      "de": "Frage 45 über Chess (Stufe 7)",
-      "nl": "Vraag 45 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 45.",
-      "es": "Esta es la explicación para la pregunta 45.",
-      "de": "Dies ist die Erklärung für Frage 45.",
-      "nl": "Dit is de uitleg voor vraag 45."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Chess (Level 7)",
-      "es": "Pregunta 46 sobre Chess (Nivel 7)",
-      "de": "Frage 46 über Chess (Stufe 7)",
-      "nl": "Vraag 46 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 46.",
-      "es": "Esta es la explicación para la pregunta 46.",
-      "de": "Dies ist die Erklärung für Frage 46.",
-      "nl": "Dit is de uitleg voor vraag 46."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Chess (Level 7)",
-      "es": "Pregunta 47 sobre Chess (Nivel 7)",
-      "de": "Frage 47 über Chess (Stufe 7)",
-      "nl": "Vraag 47 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 47.",
-      "es": "Esta es la explicación para la pregunta 47.",
-      "de": "Dies ist die Erklärung für Frage 47.",
-      "nl": "Dit is de uitleg voor vraag 47."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Chess (Level 7)",
-      "es": "Pregunta 48 sobre Chess (Nivel 7)",
-      "de": "Frage 48 über Chess (Stufe 7)",
-      "nl": "Vraag 48 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 48.",
-      "es": "Esta es la explicación para la pregunta 48.",
-      "de": "Dies ist die Erklärung für Frage 48.",
-      "nl": "Dit is de uitleg voor vraag 48."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Chess (Level 7)",
-      "es": "Pregunta 49 sobre Chess (Nivel 7)",
-      "de": "Frage 49 über Chess (Stufe 7)",
-      "nl": "Vraag 49 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 49.",
-      "es": "Esta es la explicación para la pregunta 49.",
-      "de": "Dies ist die Erklärung für Frage 49.",
-      "nl": "Dit is de uitleg voor vraag 49."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Chess (Level 7)",
-      "es": "Pregunta 50 sobre Chess (Nivel 7)",
-      "de": "Frage 50 über Chess (Stufe 7)",
-      "nl": "Vraag 50 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 50.",
-      "es": "Esta es la explicación para la pregunta 50.",
-      "de": "Dies ist die Erklärung für Frage 50.",
-      "nl": "Dit is de uitleg voor vraag 50."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Chess (Level 7)",
-      "es": "Pregunta 51 sobre Chess (Nivel 7)",
-      "de": "Frage 51 über Chess (Stufe 7)",
-      "nl": "Vraag 51 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 51.",
-      "es": "Esta es la explicación para la pregunta 51.",
-      "de": "Dies ist die Erklärung für Frage 51.",
-      "nl": "Dit is de uitleg voor vraag 51."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Chess (Level 7)",
-      "es": "Pregunta 52 sobre Chess (Nivel 7)",
-      "de": "Frage 52 über Chess (Stufe 7)",
-      "nl": "Vraag 52 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 52.",
-      "es": "Esta es la explicación para la pregunta 52.",
-      "de": "Dies ist die Erklärung für Frage 52.",
-      "nl": "Dit is de uitleg voor vraag 52."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Chess (Level 7)",
-      "es": "Pregunta 53 sobre Chess (Nivel 7)",
-      "de": "Frage 53 über Chess (Stufe 7)",
-      "nl": "Vraag 53 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 53.",
-      "es": "Esta es la explicación para la pregunta 53.",
-      "de": "Dies ist die Erklärung für Frage 53.",
-      "nl": "Dit is de uitleg voor vraag 53."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Chess (Level 7)",
-      "es": "Pregunta 54 sobre Chess (Nivel 7)",
-      "de": "Frage 54 über Chess (Stufe 7)",
-      "nl": "Vraag 54 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 54.",
-      "es": "Esta es la explicación para la pregunta 54.",
-      "de": "Dies ist die Erklärung für Frage 54.",
-      "nl": "Dit is de uitleg voor vraag 54."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Chess (Level 7)",
-      "es": "Pregunta 55 sobre Chess (Nivel 7)",
-      "de": "Frage 55 über Chess (Stufe 7)",
-      "nl": "Vraag 55 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 55.",
-      "es": "Esta es la explicación para la pregunta 55.",
-      "de": "Dies ist die Erklärung für Frage 55.",
-      "nl": "Dit is de uitleg voor vraag 55."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Chess (Level 7)",
-      "es": "Pregunta 56 sobre Chess (Nivel 7)",
-      "de": "Frage 56 über Chess (Stufe 7)",
-      "nl": "Vraag 56 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 56.",
-      "es": "Esta es la explicación para la pregunta 56.",
-      "de": "Dies ist die Erklärung für Frage 56.",
-      "nl": "Dit is de uitleg voor vraag 56."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Chess (Level 7)",
-      "es": "Pregunta 57 sobre Chess (Nivel 7)",
-      "de": "Frage 57 über Chess (Stufe 7)",
-      "nl": "Vraag 57 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 57.",
-      "es": "Esta es la explicación para la pregunta 57.",
-      "de": "Dies ist die Erklärung für Frage 57.",
-      "nl": "Dit is de uitleg voor vraag 57."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Chess (Level 7)",
-      "es": "Pregunta 58 sobre Chess (Nivel 7)",
-      "de": "Frage 58 über Chess (Stufe 7)",
-      "nl": "Vraag 58 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 58.",
-      "es": "Esta es la explicación para la pregunta 58.",
-      "de": "Dies ist die Erklärung für Frage 58.",
-      "nl": "Dit is de uitleg voor vraag 58."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Chess (Level 7)",
-      "es": "Pregunta 59 sobre Chess (Nivel 7)",
-      "de": "Frage 59 über Chess (Stufe 7)",
-      "nl": "Vraag 59 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 59.",
-      "es": "Esta es la explicación para la pregunta 59.",
-      "de": "Dies ist die Erklärung für Frage 59.",
-      "nl": "Dit is de uitleg voor vraag 59."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Chess (Level 7)",
-      "es": "Pregunta 60 sobre Chess (Nivel 7)",
-      "de": "Frage 60 über Chess (Stufe 7)",
-      "nl": "Vraag 60 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 60.",
-      "es": "Esta es la explicación para la pregunta 60.",
-      "de": "Dies ist die Erklärung für Frage 60.",
-      "nl": "Dit is de uitleg voor vraag 60."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Chess (Level 7)",
-      "es": "Pregunta 61 sobre Chess (Nivel 7)",
-      "de": "Frage 61 über Chess (Stufe 7)",
-      "nl": "Vraag 61 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 61.",
-      "es": "Esta es la explicación para la pregunta 61.",
-      "de": "Dies ist die Erklärung für Frage 61.",
-      "nl": "Dit is de uitleg voor vraag 61."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Chess (Level 7)",
-      "es": "Pregunta 62 sobre Chess (Nivel 7)",
-      "de": "Frage 62 über Chess (Stufe 7)",
-      "nl": "Vraag 62 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 62.",
-      "es": "Esta es la explicación para la pregunta 62.",
-      "de": "Dies ist die Erklärung für Frage 62.",
-      "nl": "Dit is de uitleg voor vraag 62."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Chess (Level 7)",
-      "es": "Pregunta 63 sobre Chess (Nivel 7)",
-      "de": "Frage 63 über Chess (Stufe 7)",
-      "nl": "Vraag 63 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 63.",
-      "es": "Esta es la explicación para la pregunta 63.",
-      "de": "Dies ist die Erklärung für Frage 63.",
-      "nl": "Dit is de uitleg voor vraag 63."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Chess (Level 7)",
-      "es": "Pregunta 64 sobre Chess (Nivel 7)",
-      "de": "Frage 64 über Chess (Stufe 7)",
-      "nl": "Vraag 64 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 64.",
-      "es": "Esta es la explicación para la pregunta 64.",
-      "de": "Dies ist die Erklärung für Frage 64.",
-      "nl": "Dit is de uitleg voor vraag 64."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Chess (Level 7)",
-      "es": "Pregunta 65 sobre Chess (Nivel 7)",
-      "de": "Frage 65 über Chess (Stufe 7)",
-      "nl": "Vraag 65 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 65.",
-      "es": "Esta es la explicación para la pregunta 65.",
-      "de": "Dies ist die Erklärung für Frage 65.",
-      "nl": "Dit is de uitleg voor vraag 65."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Chess (Level 7)",
-      "es": "Pregunta 66 sobre Chess (Nivel 7)",
-      "de": "Frage 66 über Chess (Stufe 7)",
-      "nl": "Vraag 66 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 66.",
-      "es": "Esta es la explicación para la pregunta 66.",
-      "de": "Dies ist die Erklärung für Frage 66.",
-      "nl": "Dit is de uitleg voor vraag 66."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Chess (Level 7)",
-      "es": "Pregunta 67 sobre Chess (Nivel 7)",
-      "de": "Frage 67 über Chess (Stufe 7)",
-      "nl": "Vraag 67 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 67.",
-      "es": "Esta es la explicación para la pregunta 67.",
-      "de": "Dies ist die Erklärung für Frage 67.",
-      "nl": "Dit is de uitleg voor vraag 67."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Chess (Level 7)",
-      "es": "Pregunta 68 sobre Chess (Nivel 7)",
-      "de": "Frage 68 über Chess (Stufe 7)",
-      "nl": "Vraag 68 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 68.",
-      "es": "Esta es la explicación para la pregunta 68.",
-      "de": "Dies ist die Erklärung für Frage 68.",
-      "nl": "Dit is de uitleg voor vraag 68."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Chess (Level 7)",
-      "es": "Pregunta 69 sobre Chess (Nivel 7)",
-      "de": "Frage 69 über Chess (Stufe 7)",
-      "nl": "Vraag 69 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 69.",
-      "es": "Esta es la explicación para la pregunta 69.",
-      "de": "Dies ist die Erklärung für Frage 69.",
-      "nl": "Dit is de uitleg voor vraag 69."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Chess (Level 7)",
-      "es": "Pregunta 70 sobre Chess (Nivel 7)",
-      "de": "Frage 70 über Chess (Stufe 7)",
-      "nl": "Vraag 70 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 70.",
-      "es": "Esta es la explicación para la pregunta 70.",
-      "de": "Dies ist die Erklärung für Frage 70.",
-      "nl": "Dit is de uitleg voor vraag 70."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Chess (Level 7)",
-      "es": "Pregunta 71 sobre Chess (Nivel 7)",
-      "de": "Frage 71 über Chess (Stufe 7)",
-      "nl": "Vraag 71 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 71.",
-      "es": "Esta es la explicación para la pregunta 71.",
-      "de": "Dies ist die Erklärung für Frage 71.",
-      "nl": "Dit is de uitleg voor vraag 71."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Chess (Level 7)",
-      "es": "Pregunta 72 sobre Chess (Nivel 7)",
-      "de": "Frage 72 über Chess (Stufe 7)",
-      "nl": "Vraag 72 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 72.",
-      "es": "Esta es la explicación para la pregunta 72.",
-      "de": "Dies ist die Erklärung für Frage 72.",
-      "nl": "Dit is de uitleg voor vraag 72."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Chess (Level 7)",
-      "es": "Pregunta 73 sobre Chess (Nivel 7)",
-      "de": "Frage 73 über Chess (Stufe 7)",
-      "nl": "Vraag 73 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 73.",
-      "es": "Esta es la explicación para la pregunta 73.",
-      "de": "Dies ist die Erklärung für Frage 73.",
-      "nl": "Dit is de uitleg voor vraag 73."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Chess (Level 7)",
-      "es": "Pregunta 74 sobre Chess (Nivel 7)",
-      "de": "Frage 74 über Chess (Stufe 7)",
-      "nl": "Vraag 74 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 74.",
-      "es": "Esta es la explicación para la pregunta 74.",
-      "de": "Dies ist die Erklärung für Frage 74.",
-      "nl": "Dit is de uitleg voor vraag 74."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Chess (Level 7)",
-      "es": "Pregunta 75 sobre Chess (Nivel 7)",
-      "de": "Frage 75 über Chess (Stufe 7)",
-      "nl": "Vraag 75 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 75.",
-      "es": "Esta es la explicación para la pregunta 75.",
-      "de": "Dies ist die Erklärung für Frage 75.",
-      "nl": "Dit is de uitleg voor vraag 75."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Chess (Level 7)",
-      "es": "Pregunta 76 sobre Chess (Nivel 7)",
-      "de": "Frage 76 über Chess (Stufe 7)",
-      "nl": "Vraag 76 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 76.",
-      "es": "Esta es la explicación para la pregunta 76.",
-      "de": "Dies ist die Erklärung für Frage 76.",
-      "nl": "Dit is de uitleg voor vraag 76."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Chess (Level 7)",
-      "es": "Pregunta 77 sobre Chess (Nivel 7)",
-      "de": "Frage 77 über Chess (Stufe 7)",
-      "nl": "Vraag 77 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 77.",
-      "es": "Esta es la explicación para la pregunta 77.",
-      "de": "Dies ist die Erklärung für Frage 77.",
-      "nl": "Dit is de uitleg voor vraag 77."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Chess (Level 7)",
-      "es": "Pregunta 78 sobre Chess (Nivel 7)",
-      "de": "Frage 78 über Chess (Stufe 7)",
-      "nl": "Vraag 78 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 78.",
-      "es": "Esta es la explicación para la pregunta 78.",
-      "de": "Dies ist die Erklärung für Frage 78.",
-      "nl": "Dit is de uitleg voor vraag 78."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Chess (Level 7)",
-      "es": "Pregunta 79 sobre Chess (Nivel 7)",
-      "de": "Frage 79 über Chess (Stufe 7)",
-      "nl": "Vraag 79 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 79.",
-      "es": "Esta es la explicación para la pregunta 79.",
-      "de": "Dies ist die Erklärung für Frage 79.",
-      "nl": "Dit is de uitleg voor vraag 79."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Chess (Level 7)",
-      "es": "Pregunta 80 sobre Chess (Nivel 7)",
-      "de": "Frage 80 über Chess (Stufe 7)",
-      "nl": "Vraag 80 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 80.",
-      "es": "Esta es la explicación para la pregunta 80.",
-      "de": "Dies ist die Erklärung für Frage 80.",
-      "nl": "Dit is de uitleg voor vraag 80."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Chess (Level 7)",
-      "es": "Pregunta 81 sobre Chess (Nivel 7)",
-      "de": "Frage 81 über Chess (Stufe 7)",
-      "nl": "Vraag 81 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 81.",
-      "es": "Esta es la explicación para la pregunta 81.",
-      "de": "Dies ist die Erklärung für Frage 81.",
-      "nl": "Dit is de uitleg voor vraag 81."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Chess (Level 7)",
-      "es": "Pregunta 82 sobre Chess (Nivel 7)",
-      "de": "Frage 82 über Chess (Stufe 7)",
-      "nl": "Vraag 82 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 82.",
-      "es": "Esta es la explicación para la pregunta 82.",
-      "de": "Dies ist die Erklärung für Frage 82.",
-      "nl": "Dit is de uitleg voor vraag 82."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Chess (Level 7)",
-      "es": "Pregunta 83 sobre Chess (Nivel 7)",
-      "de": "Frage 83 über Chess (Stufe 7)",
-      "nl": "Vraag 83 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 83.",
-      "es": "Esta es la explicación para la pregunta 83.",
-      "de": "Dies ist die Erklärung für Frage 83.",
-      "nl": "Dit is de uitleg voor vraag 83."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Chess (Level 7)",
-      "es": "Pregunta 84 sobre Chess (Nivel 7)",
-      "de": "Frage 84 über Chess (Stufe 7)",
-      "nl": "Vraag 84 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 84.",
-      "es": "Esta es la explicación para la pregunta 84.",
-      "de": "Dies ist die Erklärung für Frage 84.",
-      "nl": "Dit is de uitleg voor vraag 84."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Chess (Level 7)",
-      "es": "Pregunta 85 sobre Chess (Nivel 7)",
-      "de": "Frage 85 über Chess (Stufe 7)",
-      "nl": "Vraag 85 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 85.",
-      "es": "Esta es la explicación para la pregunta 85.",
-      "de": "Dies ist die Erklärung für Frage 85.",
-      "nl": "Dit is de uitleg voor vraag 85."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Chess (Level 7)",
-      "es": "Pregunta 86 sobre Chess (Nivel 7)",
-      "de": "Frage 86 über Chess (Stufe 7)",
-      "nl": "Vraag 86 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 86.",
-      "es": "Esta es la explicación para la pregunta 86.",
-      "de": "Dies ist die Erklärung für Frage 86.",
-      "nl": "Dit is de uitleg voor vraag 86."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Chess (Level 7)",
-      "es": "Pregunta 87 sobre Chess (Nivel 7)",
-      "de": "Frage 87 über Chess (Stufe 7)",
-      "nl": "Vraag 87 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 87.",
-      "es": "Esta es la explicación para la pregunta 87.",
-      "de": "Dies ist die Erklärung für Frage 87.",
-      "nl": "Dit is de uitleg voor vraag 87."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Chess (Level 7)",
-      "es": "Pregunta 88 sobre Chess (Nivel 7)",
-      "de": "Frage 88 über Chess (Stufe 7)",
-      "nl": "Vraag 88 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 88.",
-      "es": "Esta es la explicación para la pregunta 88.",
-      "de": "Dies ist die Erklärung für Frage 88.",
-      "nl": "Dit is de uitleg voor vraag 88."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Chess (Level 7)",
-      "es": "Pregunta 89 sobre Chess (Nivel 7)",
-      "de": "Frage 89 über Chess (Stufe 7)",
-      "nl": "Vraag 89 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 89.",
-      "es": "Esta es la explicación para la pregunta 89.",
-      "de": "Dies ist die Erklärung für Frage 89.",
-      "nl": "Dit is de uitleg voor vraag 89."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Chess (Level 7)",
-      "es": "Pregunta 90 sobre Chess (Nivel 7)",
-      "de": "Frage 90 über Chess (Stufe 7)",
-      "nl": "Vraag 90 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 90.",
-      "es": "Esta es la explicación para la pregunta 90.",
-      "de": "Dies ist die Erklärung für Frage 90.",
-      "nl": "Dit is de uitleg voor vraag 90."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Chess (Level 7)",
-      "es": "Pregunta 91 sobre Chess (Nivel 7)",
-      "de": "Frage 91 über Chess (Stufe 7)",
-      "nl": "Vraag 91 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 91.",
-      "es": "Esta es la explicación para la pregunta 91.",
-      "de": "Dies ist die Erklärung für Frage 91.",
-      "nl": "Dit is de uitleg voor vraag 91."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Chess (Level 7)",
-      "es": "Pregunta 92 sobre Chess (Nivel 7)",
-      "de": "Frage 92 über Chess (Stufe 7)",
-      "nl": "Vraag 92 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 92.",
-      "es": "Esta es la explicación para la pregunta 92.",
-      "de": "Dies ist die Erklärung für Frage 92.",
-      "nl": "Dit is de uitleg voor vraag 92."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Chess (Level 7)",
-      "es": "Pregunta 93 sobre Chess (Nivel 7)",
-      "de": "Frage 93 über Chess (Stufe 7)",
-      "nl": "Vraag 93 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 93.",
-      "es": "Esta es la explicación para la pregunta 93.",
-      "de": "Dies ist die Erklärung für Frage 93.",
-      "nl": "Dit is de uitleg voor vraag 93."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Chess (Level 7)",
-      "es": "Pregunta 94 sobre Chess (Nivel 7)",
-      "de": "Frage 94 über Chess (Stufe 7)",
-      "nl": "Vraag 94 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 94.",
-      "es": "Esta es la explicación para la pregunta 94.",
-      "de": "Dies ist die Erklärung für Frage 94.",
-      "nl": "Dit is de uitleg voor vraag 94."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Chess (Level 7)",
-      "es": "Pregunta 95 sobre Chess (Nivel 7)",
-      "de": "Frage 95 über Chess (Stufe 7)",
-      "nl": "Vraag 95 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 95.",
-      "es": "Esta es la explicación para la pregunta 95.",
-      "de": "Dies ist die Erklärung für Frage 95.",
-      "nl": "Dit is de uitleg voor vraag 95."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Chess (Level 7)",
-      "es": "Pregunta 96 sobre Chess (Nivel 7)",
-      "de": "Frage 96 über Chess (Stufe 7)",
-      "nl": "Vraag 96 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 96.",
-      "es": "Esta es la explicación para la pregunta 96.",
-      "de": "Dies ist die Erklärung für Frage 96.",
-      "nl": "Dit is de uitleg voor vraag 96."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Chess (Level 7)",
-      "es": "Pregunta 97 sobre Chess (Nivel 7)",
-      "de": "Frage 97 über Chess (Stufe 7)",
-      "nl": "Vraag 97 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 97.",
-      "es": "Esta es la explicación para la pregunta 97.",
-      "de": "Dies ist die Erklärung für Frage 97.",
-      "nl": "Dit is de uitleg voor vraag 97."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Chess (Level 7)",
-      "es": "Pregunta 98 sobre Chess (Nivel 7)",
-      "de": "Frage 98 über Chess (Stufe 7)",
-      "nl": "Vraag 98 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 98.",
-      "es": "Esta es la explicación para la pregunta 98.",
-      "de": "Dies ist die Erklärung für Frage 98.",
-      "nl": "Dit is de uitleg voor vraag 98."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Chess (Level 7)",
-      "es": "Pregunta 99 sobre Chess (Nivel 7)",
-      "de": "Frage 99 über Chess (Stufe 7)",
-      "nl": "Vraag 99 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 99.",
-      "es": "Esta es la explicación para la pregunta 99.",
-      "de": "Dies ist die Erklärung für Frage 99.",
-      "nl": "Dit is de uitleg voor vraag 99."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Chess (Level 7)",
-      "es": "Pregunta 100 sobre Chess (Nivel 7)",
-      "de": "Frage 100 über Chess (Stufe 7)",
-      "nl": "Vraag 100 over Chess (Niveau 7)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 100.",
-      "es": "Esta es la explicación para la pregunta 100.",
-      "de": "Dies ist die Erklärung für Frage 100.",
-      "nl": "Dit is de uitleg voor vraag 100."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Defense Najdorf?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Siciliana Najdorf?",
+                            "de": "Was sind die charakteristischen Züge von Sizilianisch Najdorf?",
+                            "nl": "Wat zijn de karakteristieke zetten van Siciliaans Najdorf?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6",
+                                    "es": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6",
+                                    "de": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6",
+                                    "nl": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Defense Najdorf begins with 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 and leads to complex strategic positions.",
+                            "es": "Defensa Siciliana Najdorf comienza con 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Sizilianisch Najdorf beginnt mit 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Siciliaans Najdorf begint met 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Dragon?",
+                            "es": "¿Cuáles son los movimientos característicos de Siciliana Dragón?",
+                            "de": "Was sind die charakteristischen Züge von Sizilianisch Drache?",
+                            "nl": "Wat zijn de karakteristieke zetten van Siciliaans Draak?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6",
+                                    "es": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6",
+                                    "de": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6",
+                                    "nl": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Dragon begins with 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 and leads to complex strategic positions.",
+                            "es": "Siciliana Dragón comienza con 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Sizilianisch Drache beginnt mit 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Siciliaans Draak begint met 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Sveshnikov?",
+                            "es": "¿Cuáles son los movimientos característicos de Siciliana Sveshnikov?",
+                            "de": "Was sind die charakteristischen Züge von Sizilianisch Sweschnikow?",
+                            "nl": "Wat zijn de karakteristieke zetten van Siciliaans Sveshnikov?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5",
+                                    "es": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5",
+                                    "de": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5",
+                                    "nl": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Sveshnikov begins with 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 and leads to complex strategic positions.",
+                            "es": "Siciliana Sveshnikov comienza con 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Sizilianisch Sweschnikow beginnt mit 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Siciliaans Sveshnikov begint met 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Accelerated Dragon?",
+                            "es": "¿Cuáles son los movimientos característicos de Dragón Acelerado?",
+                            "de": "Was sind die charakteristischen Züge von Beschleunigter Drache?",
+                            "nl": "Wat zijn de karakteristieke zetten van Versnelde Draak?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6",
+                                    "es": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6",
+                                    "de": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6",
+                                    "nl": "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Accelerated Dragon begins with 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 and leads to complex strategic positions.",
+                            "es": "Dragón Acelerado comienza con 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Beschleunigter Drache beginnt mit 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Versnelde Draak begint met 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Kan?",
+                            "es": "¿Cuáles son los movimientos característicos de Siciliana Kan?",
+                            "de": "Was sind die charakteristischen Züge von Sizilianisch Kan?",
+                            "nl": "Wat zijn de karakteristieke zetten van Siciliaans Kan?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6",
+                                    "es": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6",
+                                    "de": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6",
+                                    "nl": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Kan begins with 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 and leads to complex strategic positions.",
+                            "es": "Siciliana Kan comienza con 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Sizilianisch Kan beginnt mit 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Siciliaans Kan begint met 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Taimanov?",
+                            "es": "¿Cuáles son los movimientos característicos de Siciliana Taimanov?",
+                            "de": "Was sind die charakteristischen Züge von Sizilianisch Taimanov?",
+                            "nl": "Wat zijn de karakteristieke zetten van Siciliaans Taimanov?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6",
+                                    "es": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6",
+                                    "de": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6",
+                                    "nl": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Taimanov begins with 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 and leads to complex strategic positions.",
+                            "es": "Siciliana Taimanov comienza con 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Sizilianisch Taimanov beginnt mit 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Siciliaans Taimanov begint met 1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Sicilian Scheveningen?",
+                            "es": "¿Cuáles son los movimientos característicos de Siciliana Scheveningen?",
+                            "de": "Was sind die charakteristischen Züge von Sizilianisch Scheveningen?",
+                            "nl": "Wat zijn de karakteristieke zetten van Siciliaans Scheveningen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6",
+                                    "es": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6",
+                                    "de": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6",
+                                    "nl": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sicilian Scheveningen begins with 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 and leads to complex strategic positions.",
+                            "es": "Siciliana Scheveningen comienza con 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Sizilianisch Scheveningen beginnt mit 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Siciliaans Scheveningen begint met 1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Ruy Lopez Marshall?",
+                            "es": "¿Cuáles son los movimientos característicos de Ruy López Marshall?",
+                            "de": "Was sind die charakteristischen Züge von Spanisch Marshall?",
+                            "nl": "Wat zijn de karakteristieke zetten van Spaans Marshall?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ruy Lopez Marshall begins with 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5 and leads to complex strategic positions.",
+                            "es": "Ruy López Marshall comienza con 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Spanisch Marshall beginnt mit 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Spaans Marshall begint met 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Ruy Lopez Breyer?",
+                            "es": "¿Cuáles son los movimientos característicos de Ruy López Breyer?",
+                            "de": "Was sind die charakteristischen Züge von Spanisch Breyer?",
+                            "nl": "Wat zijn de karakteristieke zetten van Spaans Breyer?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ruy Lopez Breyer begins with 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 and leads to complex strategic positions.",
+                            "es": "Ruy López Breyer comienza con 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 y lleva a posiciones estratégicas complejas.",
+                            "de": "Spanisch Breyer beginnt mit 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Spaans Breyer begint met 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Ruy Lopez Zaitsev?",
+                            "es": "¿Cuáles son los movimientos característicos de Ruy López Zaitsev?",
+                            "de": "Was sind die charakteristischen Züge von Spanisch Zaitsev?",
+                            "nl": "Wat zijn de karakteristieke zetten van Spaans Zaitsev?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ruy Lopez Zaitsev begins with 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 and leads to complex strategic positions.",
+                            "es": "Ruy López Zaitsev comienza con 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 y lleva a posiciones estratégicas complejas.",
+                            "de": "Spanisch Zaitsev beginnt mit 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Spaans Zaitsev begint met 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Ruy Lopez Closed?",
+                            "es": "¿Cuáles son los movimientos característicos de Ruy López Cerrada?",
+                            "de": "Was sind die charakteristischen Züge von Spanisch Geschlossen?",
+                            "nl": "Wat zijn de karakteristieke zetten van Spaans Gesloten?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ruy Lopez Closed begins with 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O and leads to complex strategic positions.",
+                            "es": "Ruy López Cerrada comienza con 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O y lleva a posiciones estratégicas complejas.",
+                            "de": "Spanisch Geschlossen beginnt mit 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Spaans Gesloten begint met 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of French Defense Winawer?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Francesa Winawer?",
+                            "de": "Was sind die charakteristischen Züge von Französisch Winawer?",
+                            "nl": "Wat zijn de karakteristieke zetten van Frans Winawer?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e6 2.d4 d5 3.Nc3 Bb4",
+                                    "es": "1.e4 e6 2.d4 d5 3.Nc3 Bb4",
+                                    "de": "1.e4 e6 2.d4 d5 3.Nc3 Bb4",
+                                    "nl": "1.e4 e6 2.d4 d5 3.Nc3 Bb4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "French Defense Winawer begins with 1.e4 e6 2.d4 d5 3.Nc3 Bb4 and leads to complex strategic positions.",
+                            "es": "Defensa Francesa Winawer comienza con 1.e4 e6 2.d4 d5 3.Nc3 Bb4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Französisch Winawer beginnt mit 1.e4 e6 2.d4 d5 3.Nc3 Bb4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Frans Winawer begint met 1.e4 e6 2.d4 d5 3.Nc3 Bb4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of French Tarrasch?",
+                            "es": "¿Cuáles son los movimientos característicos de Francesa Tarrasch?",
+                            "de": "Was sind die charakteristischen Züge von Französisch Tarrasch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Frans Tarrasch?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e6 2.d4 d5 3.Nd2",
+                                    "es": "1.e4 e6 2.d4 d5 3.Nd2",
+                                    "de": "1.e4 e6 2.d4 d5 3.Nd2",
+                                    "nl": "1.e4 e6 2.d4 d5 3.Nd2"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "French Tarrasch begins with 1.e4 e6 2.d4 d5 3.Nd2 and leads to complex strategic positions.",
+                            "es": "Francesa Tarrasch comienza con 1.e4 e6 2.d4 d5 3.Nd2 y lleva a posiciones estratégicas complejas.",
+                            "de": "Französisch Tarrasch beginnt mit 1.e4 e6 2.d4 d5 3.Nd2 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Frans Tarrasch begint met 1.e4 e6 2.d4 d5 3.Nd2 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of French Classical?",
+                            "es": "¿Cuáles son los movimientos característicos de Francesa Clásica?",
+                            "de": "Was sind die charakteristischen Züge von Französisch Klassisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Frans Klassiek?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e6 2.d4 d5 3.Nc3 Nf6",
+                                    "es": "1.e4 e6 2.d4 d5 3.Nc3 Nf6",
+                                    "de": "1.e4 e6 2.d4 d5 3.Nc3 Nf6",
+                                    "nl": "1.e4 e6 2.d4 d5 3.Nc3 Nf6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "French Classical begins with 1.e4 e6 2.d4 d5 3.Nc3 Nf6 and leads to complex strategic positions.",
+                            "es": "Francesa Clásica comienza con 1.e4 e6 2.d4 d5 3.Nc3 Nf6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Französisch Klassisch beginnt mit 1.e4 e6 2.d4 d5 3.Nc3 Nf6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Frans Klassiek begint met 1.e4 e6 2.d4 d5 3.Nc3 Nf6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Caro-Kann Classical?",
+                            "es": "¿Cuáles son los movimientos característicos de Caro-Kann Clásica?",
+                            "de": "Was sind die charakteristischen Züge von Caro-Kann Klassisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Caro-Kann Klassiek?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5",
+                                    "es": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5",
+                                    "de": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5",
+                                    "nl": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Caro-Kann Classical begins with 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 and leads to complex strategic positions.",
+                            "es": "Caro-Kann Clásica comienza con 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Caro-Kann Klassisch beginnt mit 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Caro-Kann Klassiek begint met 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Caro-Kann Advance?",
+                            "es": "¿Cuáles son los movimientos característicos de Caro-Kann Avanzada?",
+                            "de": "Was sind die charakteristischen Züge von Caro-Kann Vorstoß?",
+                            "nl": "Wat zijn de karakteristieke zetten van Caro-Kann Vooruitgeschoven?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c6 2.d4 d5 3.e5",
+                                    "es": "1.e4 c6 2.d4 d5 3.e5",
+                                    "de": "1.e4 c6 2.d4 d5 3.e5",
+                                    "nl": "1.e4 c6 2.d4 d5 3.e5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Caro-Kann Advance begins with 1.e4 c6 2.d4 d5 3.e5 and leads to complex strategic positions.",
+                            "es": "Caro-Kann Avanzada comienza con 1.e4 c6 2.d4 d5 3.e5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Caro-Kann Vorstoß beginnt mit 1.e4 c6 2.d4 d5 3.e5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Caro-Kann Vooruitgeschoven begint met 1.e4 c6 2.d4 d5 3.e5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Caro-Kann Panov?",
+                            "es": "¿Cuáles son los movimientos característicos de Caro-Kann Panov?",
+                            "de": "Was sind die charakteristischen Züge von Caro-Kann Panov?",
+                            "nl": "Wat zijn de karakteristieke zetten van Caro-Kann Panov?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4",
+                                    "es": "1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4",
+                                    "de": "1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4",
+                                    "nl": "1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Caro-Kann Panov begins with 1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 and leads to complex strategic positions.",
+                            "es": "Caro-Kann Panov comienza con 1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Caro-Kann Panov beginnt mit 1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Caro-Kann Panov begint met 1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Italian Game Giuoco Piano?",
+                            "es": "¿Cuáles son los movimientos característicos de Italiana Giuoco Piano?",
+                            "de": "Was sind die charakteristischen Züge von Italienisch Giuoco Piano?",
+                            "nl": "Wat zijn de karakteristieke zetten van Italiaans Giuoco Piano?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Italian Game Giuoco Piano begins with 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 and leads to complex strategic positions.",
+                            "es": "Italiana Giuoco Piano comienza con 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Italienisch Giuoco Piano beginnt mit 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Italiaans Giuoco Piano begint met 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Italian Two Knights?",
+                            "es": "¿Cuáles son los movimientos característicos de Italiana Dos Caballos?",
+                            "de": "Was sind die charakteristischen Züge von Italienisch Zweispringerspiel?",
+                            "nl": "Wat zijn de karakteristieke zetten van Italiaans Twee Paarden?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Italian Two Knights begins with 1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 and leads to complex strategic positions.",
+                            "es": "Italiana Dos Caballos comienza con 1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Italienisch Zweispringerspiel beginnt mit 1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Italiaans Twee Paarden begint met 1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Scotch Game?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Escocesa?",
+                            "de": "Was sind die charakteristischen Züge von Schottisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Schots?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.d4",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.d4",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.d4",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.d4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Scotch Game begins with 1.e4 e5 2.Nf3 Nc6 3.d4 and leads to complex strategic positions.",
+                            "es": "Apertura Escocesa comienza con 1.e4 e5 2.Nf3 Nc6 3.d4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Schottisch beginnt mit 1.e4 e5 2.Nf3 Nc6 3.d4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Schots begint met 1.e4 e5 2.Nf3 Nc6 3.d4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Petroff Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Petrov?",
+                            "de": "Was sind die charakteristischen Züge von Russisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Petroff?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nf6",
+                                    "es": "1.e4 e5 2.Nf3 Nf6",
+                                    "de": "1.e4 e5 2.Nf3 Nf6",
+                                    "nl": "1.e4 e5 2.Nf3 Nf6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Petroff Defense begins with 1.e4 e5 2.Nf3 Nf6 and leads to complex strategic positions.",
+                            "es": "Defensa Petrov comienza con 1.e4 e5 2.Nf3 Nf6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Russisch beginnt mit 1.e4 e5 2.Nf3 Nf6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Petroff begint met 1.e4 e5 2.Nf3 Nf6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Philidor Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Philidor?",
+                            "de": "Was sind die charakteristischen Züge von Philidor-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Philidor Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 d6",
+                                    "es": "1.e4 e5 2.Nf3 d6",
+                                    "de": "1.e4 e5 2.Nf3 d6",
+                                    "nl": "1.e4 e5 2.Nf3 d6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Philidor Defense begins with 1.e4 e5 2.Nf3 d6 and leads to complex strategic positions.",
+                            "es": "Defensa Philidor comienza con 1.e4 e5 2.Nf3 d6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Philidor-Verteidigung beginnt mit 1.e4 e5 2.Nf3 d6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Philidor Verdediging begint met 1.e4 e5 2.Nf3 d6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Alekhine Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Alekhine?",
+                            "de": "Was sind die charakteristischen Züge von Aljechin-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Alekhine Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 Nf6",
+                                    "es": "1.e4 Nf6",
+                                    "de": "1.e4 Nf6",
+                                    "nl": "1.e4 Nf6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alekhine Defense begins with 1.e4 Nf6 and leads to complex strategic positions.",
+                            "es": "Defensa Alekhine comienza con 1.e4 Nf6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Aljechin-Verteidigung beginnt mit 1.e4 Nf6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Alekhine Verdediging begint met 1.e4 Nf6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Pirc Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Pirc?",
+                            "de": "Was sind die charakteristischen Züge von Pirc-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Pirc Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 d6 2.d4 Nf6 3.Nc3 g6",
+                                    "es": "1.e4 d6 2.d4 Nf6 3.Nc3 g6",
+                                    "de": "1.e4 d6 2.d4 Nf6 3.Nc3 g6",
+                                    "nl": "1.e4 d6 2.d4 Nf6 3.Nc3 g6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pirc Defense begins with 1.e4 d6 2.d4 Nf6 3.Nc3 g6 and leads to complex strategic positions.",
+                            "es": "Defensa Pirc comienza con 1.e4 d6 2.d4 Nf6 3.Nc3 g6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Pirc-Verteidigung beginnt mit 1.e4 d6 2.d4 Nf6 3.Nc3 g6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Pirc Verdediging begint met 1.e4 d6 2.d4 Nf6 3.Nc3 g6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Modern Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Moderna?",
+                            "de": "Was sind die charakteristischen Züge von Moderne Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Moderne Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 g6 2.d4 Bg7",
+                                    "es": "1.e4 g6 2.d4 Bg7",
+                                    "de": "1.e4 g6 2.d4 Bg7",
+                                    "nl": "1.e4 g6 2.d4 Bg7"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Modern Defense begins with 1.e4 g6 2.d4 Bg7 and leads to complex strategic positions.",
+                            "es": "Defensa Moderna comienza con 1.e4 g6 2.d4 Bg7 y lleva a posiciones estratégicas complejas.",
+                            "de": "Moderne Verteidigung beginnt mit 1.e4 g6 2.d4 Bg7 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Moderne Verdediging begint met 1.e4 g6 2.d4 Bg7 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Scandinavian Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Escandinava?",
+                            "de": "Was sind die charakteristischen Züge von Skandinavisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Scandinavisch?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 d5",
+                                    "es": "1.e4 d5",
+                                    "de": "1.e4 d5",
+                                    "nl": "1.e4 d5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Scandinavian Defense begins with 1.e4 d5 and leads to complex strategic positions.",
+                            "es": "Defensa Escandinava comienza con 1.e4 d5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Skandinavisch beginnt mit 1.e4 d5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Scandinavisch begint met 1.e4 d5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of King's Gambit?",
+                            "es": "¿Cuáles son los movimientos característicos de Gambito de Rey?",
+                            "de": "Was sind die charakteristischen Züge von Königsgambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Koningsgambiet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.f4",
+                                    "es": "1.e4 e5 2.f4",
+                                    "de": "1.e4 e5 2.f4",
+                                    "nl": "1.e4 e5 2.f4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "King's Gambit begins with 1.e4 e5 2.f4 and leads to complex strategic positions.",
+                            "es": "Gambito de Rey comienza con 1.e4 e5 2.f4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Königsgambit beginnt mit 1.e4 e5 2.f4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Koningsgambiet begint met 1.e4 e5 2.f4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Vienna Game?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Vienesa?",
+                            "de": "Was sind die charakteristischen Züge von Wiener Partie?",
+                            "nl": "Wat zijn de karakteristieke zetten van Weense Partij?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nc3",
+                                    "es": "1.e4 e5 2.Nc3",
+                                    "de": "1.e4 e5 2.Nc3",
+                                    "nl": "1.e4 e5 2.Nc3"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vienna Game begins with 1.e4 e5 2.Nc3 and leads to complex strategic positions.",
+                            "es": "Apertura Vienesa comienza con 1.e4 e5 2.Nc3 y lleva a posiciones estratégicas complejas.",
+                            "de": "Wiener Partie beginnt mit 1.e4 e5 2.Nc3 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Weense Partij begint met 1.e4 e5 2.Nc3 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Bishop's Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura de Alfil?",
+                            "de": "Was sind die charakteristischen Züge von Läufereröffnung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Loper Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Bc4",
+                                    "es": "1.e4 e5 2.Bc4",
+                                    "de": "1.e4 e5 2.Bc4",
+                                    "nl": "1.e4 e5 2.Bc4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bishop's Opening begins with 1.e4 e5 2.Bc4 and leads to complex strategic positions.",
+                            "es": "Apertura de Alfil comienza con 1.e4 e5 2.Bc4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Läufereröffnung beginnt mit 1.e4 e5 2.Bc4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Loper Opening begint met 1.e4 e5 2.Bc4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Center Game?",
+                            "es": "¿Cuáles son los movimientos característicos de Juego del Centro?",
+                            "de": "Was sind die charakteristischen Züge von Mittelgambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Centrum Spel?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.d4",
+                                    "es": "1.e4 e5 2.d4",
+                                    "de": "1.e4 e5 2.d4",
+                                    "nl": "1.e4 e5 2.d4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Center Game begins with 1.e4 e5 2.d4 and leads to complex strategic positions.",
+                            "es": "Juego del Centro comienza con 1.e4 e5 2.d4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Mittelgambit beginnt mit 1.e4 e5 2.d4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Centrum Spel begint met 1.e4 e5 2.d4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Danish Gambit?",
+                            "es": "¿Cuáles son los movimientos característicos de Gambito Danés?",
+                            "de": "Was sind die charakteristischen Züge von Dänisches Gambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Deens Gambiet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.d4 exd4 3.c3",
+                                    "es": "1.e4 e5 2.d4 exd4 3.c3",
+                                    "de": "1.e4 e5 2.d4 exd4 3.c3",
+                                    "nl": "1.e4 e5 2.d4 exd4 3.c3"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Danish Gambit begins with 1.e4 e5 2.d4 exd4 3.c3 and leads to complex strategic positions.",
+                            "es": "Gambito Danés comienza con 1.e4 e5 2.d4 exd4 3.c3 y lleva a posiciones estratégicas complejas.",
+                            "de": "Dänisches Gambit beginnt mit 1.e4 e5 2.d4 exd4 3.c3 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Deens Gambiet begint met 1.e4 e5 2.d4 exd4 3.c3 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Ponziani Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Ponziani?",
+                            "de": "Was sind die charakteristischen Züge von Ponziani-Eröffnung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Ponziani Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.c3",
+                                    "es": "1.e4 e5 2.Nf3 Nc6 3.c3",
+                                    "de": "1.e4 e5 2.Nf3 Nc6 3.c3",
+                                    "nl": "1.e4 e5 2.Nf3 Nc6 3.c3"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ponziani Opening begins with 1.e4 e5 2.Nf3 Nc6 3.c3 and leads to complex strategic positions.",
+                            "es": "Apertura Ponziani comienza con 1.e4 e5 2.Nf3 Nc6 3.c3 y lleva a posiciones estratégicas complejas.",
+                            "de": "Ponziani-Eröffnung beginnt mit 1.e4 e5 2.Nf3 Nc6 3.c3 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Ponziani Opening begint met 1.e4 e5 2.Nf3 Nc6 3.c3 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Latvian Gambit?",
+                            "es": "¿Cuáles son los movimientos característicos de Gambito Letón?",
+                            "de": "Was sind die charakteristischen Züge von Lettisches Gambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Lets Gambiet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 f5",
+                                    "es": "1.e4 e5 2.Nf3 f5",
+                                    "de": "1.e4 e5 2.Nf3 f5",
+                                    "nl": "1.e4 e5 2.Nf3 f5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Latvian Gambit begins with 1.e4 e5 2.Nf3 f5 and leads to complex strategic positions.",
+                            "es": "Gambito Letón comienza con 1.e4 e5 2.Nf3 f5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Lettisches Gambit beginnt mit 1.e4 e5 2.Nf3 f5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Lets Gambiet begint met 1.e4 e5 2.Nf3 f5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Elephant Gambit?",
+                            "es": "¿Cuáles son los movimientos característicos de Gambito Elefante?",
+                            "de": "Was sind die charakteristischen Züge von Elefantengambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Olifant Gambiet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 d5",
+                                    "es": "1.e4 e5 2.Nf3 d5",
+                                    "de": "1.e4 e5 2.Nf3 d5",
+                                    "nl": "1.e4 e5 2.Nf3 d5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Elephant Gambit begins with 1.e4 e5 2.Nf3 d5 and leads to complex strategic positions.",
+                            "es": "Gambito Elefante comienza con 1.e4 e5 2.Nf3 d5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Elefantengambit beginnt mit 1.e4 e5 2.Nf3 d5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Olifant Gambiet begint met 1.e4 e5 2.Nf3 d5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Nimzowitsch Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Nimzowitsch?",
+                            "de": "Was sind die charakteristischen Züge von Nimzowitsch-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Nimzowitsch Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 Nc6",
+                                    "es": "1.e4 Nc6",
+                                    "de": "1.e4 Nc6",
+                                    "nl": "1.e4 Nc6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nimzowitsch Defense begins with 1.e4 Nc6 and leads to complex strategic positions.",
+                            "es": "Defensa Nimzowitsch comienza con 1.e4 Nc6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Nimzowitsch-Verteidigung beginnt mit 1.e4 Nc6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Nimzowitsch Verdediging begint met 1.e4 Nc6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Owen Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Owen?",
+                            "de": "Was sind die charakteristischen Züge von Owen-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Owen Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 b6",
+                                    "es": "1.e4 b6",
+                                    "de": "1.e4 b6",
+                                    "nl": "1.e4 b6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Owen Defense begins with 1.e4 b6 and leads to complex strategic positions.",
+                            "es": "Defensa Owen comienza con 1.e4 b6 y lleva a posiciones estratégicas complejas.",
+                            "de": "Owen-Verteidigung beginnt mit 1.e4 b6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Owen Verdediging begint met 1.e4 b6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of St. George Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa San Jorge?",
+                            "de": "Was sind die charakteristischen Züge von St.-Georg-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van St. George Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 a6",
+                                    "es": "1.e4 a6",
+                                    "de": "1.e4 a6",
+                                    "nl": "1.e4 a6"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "St. George Defense begins with 1.e4 a6 and leads to complex strategic positions.",
+                            "es": "Defensa San Jorge comienza con 1.e4 a6 y lleva a posiciones estratégicas complejas.",
+                            "de": "St.-Georg-Verteidigung beginnt mit 1.e4 a6 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "St. George Verdediging begint met 1.e4 a6 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Grob Attack?",
+                            "es": "¿Cuáles son los movimientos característicos de Ataque Grob?",
+                            "de": "Was sind die charakteristischen Züge von Grob-Angriff?",
+                            "nl": "Wat zijn de karakteristieke zetten van Grob Aanval?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.g4",
+                                    "es": "1.g4",
+                                    "de": "1.g4",
+                                    "nl": "1.g4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Grob Attack begins with 1.g4 and leads to complex strategic positions.",
+                            "es": "Ataque Grob comienza con 1.g4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Grob-Angriff beginnt mit 1.g4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Grob Aanval begint met 1.g4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Polish Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Polaca?",
+                            "de": "Was sind die charakteristischen Züge von Polnische Eröffnung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Poolse Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.b4",
+                                    "es": "1.b4",
+                                    "de": "1.b4",
+                                    "nl": "1.b4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Polish Opening begins with 1.b4 and leads to complex strategic positions.",
+                            "es": "Apertura Polaca comienza con 1.b4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Polnische Eröffnung beginnt mit 1.b4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Poolse Opening begint met 1.b4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Bird Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Bird?",
+                            "de": "Was sind die charakteristischen Züge von Bird-Eröffnung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Bird Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.f4",
+                                    "es": "1.f4",
+                                    "de": "1.f4",
+                                    "nl": "1.f4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bird Opening begins with 1.f4 and leads to complex strategic positions.",
+                            "es": "Apertura Bird comienza con 1.f4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Bird-Eröffnung beginnt mit 1.f4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Bird Opening begint met 1.f4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Larsen Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Larsen?",
+                            "de": "Was sind die charakteristischen Züge von Larsen-Eröffnung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Larsen Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.b3",
+                                    "es": "1.b3",
+                                    "de": "1.b3",
+                                    "nl": "1.b3"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Larsen Opening begins with 1.b3 and leads to complex strategic positions.",
+                            "es": "Apertura Larsen comienza con 1.b3 y lleva a posiciones estratégicas complejas.",
+                            "de": "Larsen-Eröffnung beginnt mit 1.b3 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Larsen Opening begint met 1.b3 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Reti Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Réti?",
+                            "de": "Was sind die charakteristischen Züge von Réti-Eröffnung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Réti Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.Nf3",
+                                    "es": "1.Nf3",
+                                    "de": "1.Nf3",
+                                    "nl": "1.Nf3"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Reti Opening begins with 1.Nf3 and leads to complex strategic positions.",
+                            "es": "Apertura Réti comienza con 1.Nf3 y lleva a posiciones estratégicas complejas.",
+                            "de": "Réti-Eröffnung beginnt mit 1.Nf3 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Réti Opening begint met 1.Nf3 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of English Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Inglesa?",
+                            "de": "Was sind die charakteristischen Züge von Englisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Engels?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.c4",
+                                    "es": "1.c4",
+                                    "de": "1.c4",
+                                    "nl": "1.c4"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "English Opening begins with 1.c4 and leads to complex strategic positions.",
+                            "es": "Apertura Inglesa comienza con 1.c4 y lleva a posiciones estratégicas complejas.",
+                            "de": "Englisch beginnt mit 1.c4 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Engels begint met 1.c4 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Catalan Opening?",
+                            "es": "¿Cuáles son los movimientos característicos de Apertura Catalana?",
+                            "de": "Was sind die charakteristischen Züge von Katalanisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Catalaanse Opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.c4 e6 3.g3",
+                                    "es": "1.d4 Nf6 2.c4 e6 3.g3",
+                                    "de": "1.d4 Nf6 2.c4 e6 3.g3",
+                                    "nl": "1.d4 Nf6 2.c4 e6 3.g3"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Catalan Opening begins with 1.d4 Nf6 2.c4 e6 3.g3 and leads to complex strategic positions.",
+                            "es": "Apertura Catalana comienza con 1.d4 Nf6 2.c4 e6 3.g3 y lleva a posiciones estratégicas complejas.",
+                            "de": "Katalanisch beginnt mit 1.d4 Nf6 2.c4 e6 3.g3 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Catalaanse Opening begint met 1.d4 Nf6 2.c4 e6 3.g3 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Benko Gambit?",
+                            "es": "¿Cuáles son los movimientos característicos de Gambito Benko?",
+                            "de": "Was sind die charakteristischen Züge von Wolga-Gambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Benko Gambiet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.c4 c5 3.d5 b5",
+                                    "es": "1.d4 Nf6 2.c4 c5 3.d5 b5",
+                                    "de": "1.d4 Nf6 2.c4 c5 3.d5 b5",
+                                    "nl": "1.d4 Nf6 2.c4 c5 3.d5 b5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benko Gambit begins with 1.d4 Nf6 2.c4 c5 3.d5 b5 and leads to complex strategic positions.",
+                            "es": "Gambito Benko comienza con 1.d4 Nf6 2.c4 c5 3.d5 b5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Wolga-Gambit beginnt mit 1.d4 Nf6 2.c4 c5 3.d5 b5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Benko Gambiet begint met 1.d4 Nf6 2.c4 c5 3.d5 b5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Budapest Gambit?",
+                            "es": "¿Cuáles son los movimientos característicos de Gambito Budapest?",
+                            "de": "Was sind die charakteristischen Züge von Budapester Gambit?",
+                            "nl": "Wat zijn de karakteristieke zetten van Boedapest Gambiet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.c4 e5",
+                                    "es": "1.d4 Nf6 2.c4 e5",
+                                    "de": "1.d4 Nf6 2.c4 e5",
+                                    "nl": "1.d4 Nf6 2.c4 e5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Budapest Gambit begins with 1.d4 Nf6 2.c4 e5 and leads to complex strategic positions.",
+                            "es": "Gambito Budapest comienza con 1.d4 Nf6 2.c4 e5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Budapester Gambit beginnt mit 1.d4 Nf6 2.c4 e5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Boedapest Gambiet begint met 1.d4 Nf6 2.c4 e5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Benoni Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Benoni?",
+                            "de": "Was sind die charakteristischen Züge von Benoni-Verteidigung?",
+                            "nl": "Wat zijn de karakteristieke zetten van Benoni Verdediging?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.c4 c5",
+                                    "es": "1.d4 Nf6 2.c4 c5",
+                                    "de": "1.d4 Nf6 2.c4 c5",
+                                    "nl": "1.d4 Nf6 2.c4 c5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benoni Defense begins with 1.d4 Nf6 2.c4 c5 and leads to complex strategic positions.",
+                            "es": "Defensa Benoni comienza con 1.d4 Nf6 2.c4 c5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Benoni-Verteidigung beginnt mit 1.d4 Nf6 2.c4 c5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Benoni Verdediging begint met 1.d4 Nf6 2.c4 c5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Dutch Defense?",
+                            "es": "¿Cuáles son los movimientos característicos de Defensa Holandesa?",
+                            "de": "Was sind die charakteristischen Züge von Holländisch?",
+                            "nl": "Wat zijn de karakteristieke zetten van Hollands?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 f5",
+                                    "es": "1.d4 f5",
+                                    "de": "1.d4 f5",
+                                    "nl": "1.d4 f5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Dutch Defense begins with 1.d4 f5 and leads to complex strategic positions.",
+                            "es": "Defensa Holandesa comienza con 1.d4 f5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Holländisch beginnt mit 1.d4 f5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Hollands begint met 1.d4 f5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Trompowsky Attack?",
+                            "es": "¿Cuáles son los movimientos característicos de Ataque Trompowsky?",
+                            "de": "Was sind die charakteristischen Züge von Trompowsky-Angriff?",
+                            "nl": "Wat zijn de karakteristieke zetten van Trompowsky Aanval?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.Bg5",
+                                    "es": "1.d4 Nf6 2.Bg5",
+                                    "de": "1.d4 Nf6 2.Bg5",
+                                    "nl": "1.d4 Nf6 2.Bg5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Trompowsky Attack begins with 1.d4 Nf6 2.Bg5 and leads to complex strategic positions.",
+                            "es": "Ataque Trompowsky comienza con 1.d4 Nf6 2.Bg5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Trompowsky-Angriff beginnt mit 1.d4 Nf6 2.Bg5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Trompowsky Aanval begint met 1.d4 Nf6 2.Bg5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What are the characteristic moves of Torre Attack?",
+                            "es": "¿Cuáles son los movimientos característicos de Ataque Torre?",
+                            "de": "Was sind die charakteristischen Züge von Torre-Angriff?",
+                            "nl": "Wat zijn de karakteristieke zetten van Torre Aanval?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.Nf3 e6 3.Bg5",
+                                    "es": "1.d4 Nf6 2.Nf3 e6 3.Bg5",
+                                    "de": "1.d4 Nf6 2.Nf3 e6 3.Bg5",
+                                    "nl": "1.d4 Nf6 2.Nf3 e6 3.Bg5"
+                            },
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6",
+                                    "es": "1.e4 e5 2.Cf3 Cc6",
+                                    "de": "1.e4 e5 2.Sf3 Sc6",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6"
+                            },
+                            {
+                                    "en": "1.d4 d5 2.c4",
+                                    "es": "1.d4 d5 2.c4",
+                                    "de": "1.d4 d5 2.c4",
+                                    "nl": "1.d4 d5 2.c4"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6 2.c4",
+                                    "es": "1.Cf3 Cf6 2.c4",
+                                    "de": "1.Sf3 Sf6 2.c4",
+                                    "nl": "1.Pf3 Pf6 2.c4"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Torre Attack begins with 1.d4 Nf6 2.Nf3 e6 3.Bg5 and leads to complex strategic positions.",
+                            "es": "Ataque Torre comienza con 1.d4 Nf6 2.Nf3 e6 3.Bg5 y lleva a posiciones estratégicas complejas.",
+                            "de": "Torre-Angriff beginnt mit 1.d4 Nf6 2.Nf3 e6 3.Bg5 und führt zu komplexen strategischen Stellungen.",
+                            "nl": "Torre Aanval begint met 1.d4 Nf6 2.Nf3 e6 3.Bg5 en leidt tot complexe strategische posities."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 51",
+                                    "es": "Incorrect option 1 para question 51",
+                                    "de": "Incorrect option 1 für question 51",
+                                    "nl": "Incorrect option 1 voor question 51"
+                            },
+                            {
+                                    "en": "Correct answer for question 51",
+                                    "es": "Correct answer for question 51",
+                                    "de": "Correct answer for question 51",
+                                    "nl": "Correct answer for question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 51",
+                                    "es": "Incorrect option 3 para question 51",
+                                    "de": "Incorrect option 3 für question 51",
+                                    "nl": "Incorrect option 3 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 51",
+                                    "es": "Incorrect option 4 para question 51",
+                                    "de": "Incorrect option 4 für question 51",
+                                    "nl": "Incorrect option 4 voor question 51"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 52",
+                                    "es": "Incorrect option 1 para question 52",
+                                    "de": "Incorrect option 1 für question 52",
+                                    "nl": "Incorrect option 1 voor question 52"
+                            },
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 52",
+                                    "es": "Incorrect option 3 para question 52",
+                                    "de": "Incorrect option 3 für question 52",
+                                    "nl": "Incorrect option 3 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 52",
+                                    "es": "Incorrect option 4 para question 52",
+                                    "de": "Incorrect option 4 für question 52",
+                                    "nl": "Incorrect option 4 voor question 52"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 53",
+                                    "es": "Incorrect option 1 para question 53",
+                                    "de": "Incorrect option 1 für question 53",
+                                    "nl": "Incorrect option 1 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 53",
+                                    "es": "Incorrect option 4 para question 53",
+                                    "de": "Incorrect option 4 für question 53",
+                                    "nl": "Incorrect option 4 voor question 53"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 54",
+                                    "es": "Incorrect option 2 para question 54",
+                                    "de": "Incorrect option 2 für question 54",
+                                    "nl": "Incorrect option 2 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 54",
+                                    "es": "Incorrect option 4 para question 54",
+                                    "de": "Incorrect option 4 für question 54",
+                                    "nl": "Incorrect option 4 voor question 54"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 55",
+                                    "es": "Incorrect option 1 para question 55",
+                                    "de": "Incorrect option 1 für question 55",
+                                    "nl": "Incorrect option 1 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 55",
+                                    "es": "Incorrect option 2 para question 55",
+                                    "de": "Incorrect option 2 für question 55",
+                                    "nl": "Incorrect option 2 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 55",
+                                    "es": "Incorrect option 3 para question 55",
+                                    "de": "Incorrect option 3 für question 55",
+                                    "nl": "Incorrect option 3 voor question 55"
+                            },
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 56",
+                                    "es": "Incorrect option 1 para question 56",
+                                    "de": "Incorrect option 1 für question 56",
+                                    "nl": "Incorrect option 1 voor question 56"
+                            },
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 56",
+                                    "es": "Incorrect option 3 para question 56",
+                                    "de": "Incorrect option 3 für question 56",
+                                    "nl": "Incorrect option 3 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 56",
+                                    "es": "Incorrect option 4 para question 56",
+                                    "de": "Incorrect option 4 für question 56",
+                                    "nl": "Incorrect option 4 voor question 56"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 57",
+                                    "es": "Incorrect option 1 para question 57",
+                                    "de": "Incorrect option 1 für question 57",
+                                    "nl": "Incorrect option 1 voor question 57"
+                            },
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 57",
+                                    "es": "Incorrect option 4 para question 57",
+                                    "de": "Incorrect option 4 für question 57",
+                                    "nl": "Incorrect option 4 voor question 57"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 58",
+                                    "es": "Incorrect option 1 para question 58",
+                                    "de": "Incorrect option 1 für question 58",
+                                    "nl": "Incorrect option 1 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 58",
+                                    "es": "Incorrect option 2 para question 58",
+                                    "de": "Incorrect option 2 für question 58",
+                                    "nl": "Incorrect option 2 voor question 58"
+                            },
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 58",
+                                    "es": "Incorrect option 4 para question 58",
+                                    "de": "Incorrect option 4 für question 58",
+                                    "nl": "Incorrect option 4 voor question 58"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 59",
+                                    "es": "Incorrect option 1 para question 59",
+                                    "de": "Incorrect option 1 für question 59",
+                                    "nl": "Incorrect option 1 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 59",
+                                    "es": "Incorrect option 2 para question 59",
+                                    "de": "Incorrect option 2 für question 59",
+                                    "nl": "Incorrect option 2 voor question 59"
+                            },
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 59",
+                                    "es": "Incorrect option 4 para question 59",
+                                    "de": "Incorrect option 4 für question 59",
+                                    "nl": "Incorrect option 4 voor question 59"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 60",
+                                    "es": "Incorrect option 2 para question 60",
+                                    "de": "Incorrect option 2 für question 60",
+                                    "nl": "Incorrect option 2 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 60",
+                                    "es": "Incorrect option 3 para question 60",
+                                    "de": "Incorrect option 3 für question 60",
+                                    "nl": "Incorrect option 3 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 61",
+                                    "es": "Incorrect option 1 para question 61",
+                                    "de": "Incorrect option 1 für question 61",
+                                    "nl": "Incorrect option 1 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 61",
+                                    "es": "Incorrect option 2 para question 61",
+                                    "de": "Incorrect option 2 für question 61",
+                                    "nl": "Incorrect option 2 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 61",
+                                    "es": "Incorrect option 3 para question 61",
+                                    "de": "Incorrect option 3 für question 61",
+                                    "nl": "Incorrect option 3 voor question 61"
+                            },
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 62",
+                                    "es": "Incorrect option 1 para question 62",
+                                    "de": "Incorrect option 1 für question 62",
+                                    "nl": "Incorrect option 1 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 62",
+                                    "es": "Incorrect option 3 para question 62",
+                                    "de": "Incorrect option 3 für question 62",
+                                    "nl": "Incorrect option 3 voor question 62"
+                            },
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 63",
+                                    "es": "Incorrect option 1 para question 63",
+                                    "de": "Incorrect option 1 für question 63",
+                                    "nl": "Incorrect option 1 voor question 63"
+                            },
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 63",
+                                    "es": "Incorrect option 3 para question 63",
+                                    "de": "Incorrect option 3 für question 63",
+                                    "nl": "Incorrect option 3 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 64",
+                                    "es": "Incorrect option 3 para question 64",
+                                    "de": "Incorrect option 3 für question 64",
+                                    "nl": "Incorrect option 3 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 64",
+                                    "es": "Incorrect option 4 para question 64",
+                                    "de": "Incorrect option 4 für question 64",
+                                    "nl": "Incorrect option 4 voor question 64"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 65",
+                                    "es": "Incorrect option 2 para question 65",
+                                    "de": "Incorrect option 2 für question 65",
+                                    "nl": "Incorrect option 2 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 65",
+                                    "es": "Incorrect option 3 para question 65",
+                                    "de": "Incorrect option 3 für question 65",
+                                    "nl": "Incorrect option 3 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 65",
+                                    "es": "Incorrect option 4 para question 65",
+                                    "de": "Incorrect option 4 für question 65",
+                                    "nl": "Incorrect option 4 voor question 65"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 66",
+                                    "es": "Incorrect option 1 para question 66",
+                                    "de": "Incorrect option 1 für question 66",
+                                    "nl": "Incorrect option 1 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 66",
+                                    "es": "Incorrect option 2 para question 66",
+                                    "de": "Incorrect option 2 für question 66",
+                                    "nl": "Incorrect option 2 voor question 66"
+                            },
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 67",
+                                    "es": "Incorrect option 1 para question 67",
+                                    "de": "Incorrect option 1 für question 67",
+                                    "nl": "Incorrect option 1 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 67",
+                                    "es": "Incorrect option 3 para question 67",
+                                    "de": "Incorrect option 3 für question 67",
+                                    "nl": "Incorrect option 3 voor question 67"
+                            },
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 68",
+                                    "es": "Incorrect option 1 para question 68",
+                                    "de": "Incorrect option 1 für question 68",
+                                    "nl": "Incorrect option 1 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 68",
+                                    "es": "Incorrect option 2 para question 68",
+                                    "de": "Incorrect option 2 für question 68",
+                                    "nl": "Incorrect option 2 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 69",
+                                    "es": "Incorrect option 1 para question 69",
+                                    "de": "Incorrect option 1 für question 69",
+                                    "nl": "Incorrect option 1 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 69",
+                                    "es": "Incorrect option 2 para question 69",
+                                    "de": "Incorrect option 2 für question 69",
+                                    "nl": "Incorrect option 2 voor question 69"
+                            },
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 70",
+                                    "es": "Incorrect option 1 para question 70",
+                                    "de": "Incorrect option 1 für question 70",
+                                    "nl": "Incorrect option 1 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 70",
+                                    "es": "Incorrect option 2 para question 70",
+                                    "de": "Incorrect option 2 für question 70",
+                                    "nl": "Incorrect option 2 voor question 70"
+                            },
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 70",
+                                    "es": "Incorrect option 4 para question 70",
+                                    "de": "Incorrect option 4 für question 70",
+                                    "nl": "Incorrect option 4 voor question 70"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 71",
+                                    "es": "Incorrect option 1 para question 71",
+                                    "de": "Incorrect option 1 für question 71",
+                                    "nl": "Incorrect option 1 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 71",
+                                    "es": "Incorrect option 2 para question 71",
+                                    "de": "Incorrect option 2 für question 71",
+                                    "nl": "Incorrect option 2 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 71",
+                                    "es": "Incorrect option 3 para question 71",
+                                    "de": "Incorrect option 3 für question 71",
+                                    "nl": "Incorrect option 3 voor question 71"
+                            },
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 72",
+                                    "es": "Incorrect option 1 para question 72",
+                                    "de": "Incorrect option 1 für question 72",
+                                    "nl": "Incorrect option 1 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 73",
+                                    "es": "Incorrect option 1 para question 73",
+                                    "de": "Incorrect option 1 für question 73",
+                                    "nl": "Incorrect option 1 voor question 73"
+                            },
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 73",
+                                    "es": "Incorrect option 4 para question 73",
+                                    "de": "Incorrect option 4 für question 73",
+                                    "nl": "Incorrect option 4 voor question 73"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 74",
+                                    "es": "Incorrect option 2 para question 74",
+                                    "de": "Incorrect option 2 für question 74",
+                                    "nl": "Incorrect option 2 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 76",
+                                    "es": "Incorrect option 4 para question 76",
+                                    "de": "Incorrect option 4 für question 76",
+                                    "nl": "Incorrect option 4 voor question 76"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 77",
+                                    "es": "Incorrect option 1 para question 77",
+                                    "de": "Incorrect option 1 für question 77",
+                                    "nl": "Incorrect option 1 voor question 77"
+                            },
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 77",
+                                    "es": "Incorrect option 3 para question 77",
+                                    "de": "Incorrect option 3 für question 77",
+                                    "nl": "Incorrect option 3 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 77",
+                                    "es": "Incorrect option 4 para question 77",
+                                    "de": "Incorrect option 4 für question 77",
+                                    "nl": "Incorrect option 4 voor question 77"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 78",
+                                    "es": "Incorrect option 1 para question 78",
+                                    "de": "Incorrect option 1 für question 78",
+                                    "nl": "Incorrect option 1 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 78",
+                                    "es": "Incorrect option 4 para question 78",
+                                    "de": "Incorrect option 4 für question 78",
+                                    "nl": "Incorrect option 4 voor question 78"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 79",
+                                    "es": "Incorrect option 1 para question 79",
+                                    "de": "Incorrect option 1 für question 79",
+                                    "nl": "Incorrect option 1 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 80",
+                                    "es": "Incorrect option 2 para question 80",
+                                    "de": "Incorrect option 2 für question 80",
+                                    "nl": "Incorrect option 2 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 80",
+                                    "es": "Incorrect option 4 para question 80",
+                                    "de": "Incorrect option 4 für question 80",
+                                    "nl": "Incorrect option 4 voor question 80"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 81",
+                                    "es": "Incorrect option 1 para question 81",
+                                    "de": "Incorrect option 1 für question 81",
+                                    "nl": "Incorrect option 1 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 82",
+                                    "es": "Incorrect option 1 para question 82",
+                                    "de": "Incorrect option 1 für question 82",
+                                    "nl": "Incorrect option 1 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 83",
+                                    "es": "Incorrect option 3 para question 83",
+                                    "de": "Incorrect option 3 für question 83",
+                                    "nl": "Incorrect option 3 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 83",
+                                    "es": "Incorrect option 4 para question 83",
+                                    "de": "Incorrect option 4 für question 83",
+                                    "nl": "Incorrect option 4 voor question 83"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 84",
+                                    "es": "Incorrect option 4 para question 84",
+                                    "de": "Incorrect option 4 für question 84",
+                                    "nl": "Incorrect option 4 voor question 84"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 85",
+                                    "es": "Incorrect option 2 para question 85",
+                                    "de": "Incorrect option 2 für question 85",
+                                    "nl": "Incorrect option 2 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 85",
+                                    "es": "Incorrect option 3 para question 85",
+                                    "de": "Incorrect option 3 für question 85",
+                                    "nl": "Incorrect option 3 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 86",
+                                    "es": "Incorrect option 3 para question 86",
+                                    "de": "Incorrect option 3 für question 86",
+                                    "nl": "Incorrect option 3 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 86",
+                                    "es": "Incorrect option 4 para question 86",
+                                    "de": "Incorrect option 4 für question 86",
+                                    "nl": "Incorrect option 4 voor question 86"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 87",
+                                    "es": "Incorrect option 3 para question 87",
+                                    "de": "Incorrect option 3 für question 87",
+                                    "nl": "Incorrect option 3 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 88",
+                                    "es": "Incorrect option 1 para question 88",
+                                    "de": "Incorrect option 1 für question 88",
+                                    "nl": "Incorrect option 1 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 89",
+                                    "es": "Incorrect option 3 para question 89",
+                                    "de": "Incorrect option 3 für question 89",
+                                    "nl": "Incorrect option 3 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 89",
+                                    "es": "Incorrect option 4 para question 89",
+                                    "de": "Incorrect option 4 für question 89",
+                                    "nl": "Incorrect option 4 voor question 89"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 90",
+                                    "es": "Incorrect option 4 para question 90",
+                                    "de": "Incorrect option 4 für question 90",
+                                    "nl": "Incorrect option 4 voor question 90"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 92",
+                                    "es": "Incorrect option 1 para question 92",
+                                    "de": "Incorrect option 1 für question 92",
+                                    "nl": "Incorrect option 1 voor question 92"
+                            },
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 93",
+                                    "es": "Incorrect option 1 para question 93",
+                                    "de": "Incorrect option 1 für question 93",
+                                    "nl": "Incorrect option 1 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 93",
+                                    "es": "Incorrect option 2 para question 93",
+                                    "de": "Incorrect option 2 für question 93",
+                                    "nl": "Incorrect option 2 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 93",
+                                    "es": "Incorrect option 3 para question 93",
+                                    "de": "Incorrect option 3 für question 93",
+                                    "nl": "Incorrect option 3 voor question 93"
+                            },
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 94",
+                                    "es": "Incorrect option 2 para question 94",
+                                    "de": "Incorrect option 2 für question 94",
+                                    "nl": "Incorrect option 2 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 94",
+                                    "es": "Incorrect option 4 para question 94",
+                                    "de": "Incorrect option 4 für question 94",
+                                    "nl": "Incorrect option 4 voor question 94"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 95",
+                                    "es": "Incorrect option 1 para question 95",
+                                    "de": "Incorrect option 1 für question 95",
+                                    "nl": "Incorrect option 1 voor question 95"
+                            },
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 95",
+                                    "es": "Incorrect option 3 para question 95",
+                                    "de": "Incorrect option 3 für question 95",
+                                    "nl": "Incorrect option 3 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 96",
+                                    "es": "Incorrect option 1 para question 96",
+                                    "de": "Incorrect option 1 für question 96",
+                                    "nl": "Incorrect option 1 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 97",
+                                    "es": "Incorrect option 1 para question 97",
+                                    "de": "Incorrect option 1 für question 97",
+                                    "nl": "Incorrect option 1 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 97",
+                                    "es": "Incorrect option 2 para question 97",
+                                    "de": "Incorrect option 2 für question 97",
+                                    "nl": "Incorrect option 2 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 97",
+                                    "es": "Incorrect option 3 para question 97",
+                                    "de": "Incorrect option 3 für question 97",
+                                    "nl": "Incorrect option 3 voor question 97"
+                            },
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 98",
+                                    "es": "Incorrect option 1 para question 98",
+                                    "de": "Incorrect option 1 für question 98",
+                                    "nl": "Incorrect option 1 voor question 98"
+                            },
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 98",
+                                    "es": "Incorrect option 4 para question 98",
+                                    "de": "Incorrect option 4 für question 98",
+                                    "nl": "Incorrect option 4 voor question 98"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 99",
+                                    "es": "Incorrect option 2 para question 99",
+                                    "de": "Incorrect option 2 für question 99",
+                                    "nl": "Incorrect option 2 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 100",
+                                    "es": "Incorrect option 1 para question 100",
+                                    "de": "Incorrect option 1 für question 100",
+                                    "nl": "Incorrect option 1 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Chess. The correct answer provides important context."
+                    }
+            }
+    ]
 };

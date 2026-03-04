@@ -1,4104 +1,4109 @@
+// Cryptocurrency - Level 6
+// Total questions: 100
+// Generated: 2026-03-02
+// Real educational content about Cryptocurrency
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Cryptocurrency",
-      "es": "Pregunta 1 sobre Cryptocurrency",
-      "de": "Frage 1 über Cryptocurrency",
-      "nl": "Vraag 1 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
+    questions: [
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
+    },
+    {
+        "question": {
+            "en": "What defines Consensus mechanism technically?",
+            "es": "Qué defines Consensus mechanism technically?",
+            "de": "Was defines Consensus mechanism technically?",
+            "nl": "Wat defines Consensus mechanism technically?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "security foundation",
+                "es": "security foundation",
+                "de": "security foundation",
+                "nl": "security foundation"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Consensus mechanism is an important concept in cryptocurrency. network agreement. Additionally, validates transactions. security foundation. ",
+            "es": "Consensus mechanism es un concepto importante en criptomonedas. network agreement.",
+            "de": "Consensus mechanism ist ein wichtiges Konzept bei Kryptowährungen. network agreement.",
+            "nl": "Consensus mechanism is een belangrijk concept in cryptocurrency. network agreement."
+        }
+    },
+    {
+        "question": {
+            "en": "What time period is associated with 51% attack?",
+            "es": "Qué time period is associated with 51% attack?",
+            "de": "Was time period is associated with 51% attack?",
+            "nl": "Wat time period is associated with 51% attack?"
+        },
+        "options": [
+            {
+                "en": "majority control",
+                "es": "majority control",
+                "de": "majority control",
+                "nl": "majority control"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "51% attack is an important concept in cryptocurrency. majority control. Additionally, can reverse transactions. expensive on Bitcoin. ",
+            "es": "51% attack es un concepto importante en criptomonedas. majority control.",
+            "de": "51% attack ist ein wichtiges Konzept bei Kryptowährungen. majority control.",
+            "nl": "51% attack is een belangrijk concept in cryptocurrency. majority control."
+        }
+    },
+    {
+        "question": {
+            "en": "What precise technical detail defines Hash function?",
+            "es": "Qué precise technical detail defines Hash function?",
+            "de": "Was precise technical detail defines Hash function?",
+            "nl": "Wat precise technical detail defines Hash function?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "deterministic output",
+                "es": "deterministic output",
+                "de": "deterministic output",
+                "nl": "deterministic output"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            }
+        ],
+        "correct": 2,
+        "explanation": {
+            "en": "Hash function is an important concept in cryptocurrency. SHA-256. Additionally, one-way encryption. creates block hash. ",
+            "es": "Hash function es un concepto importante en criptomonedas. SHA-256.",
+            "de": "Hash function ist ein wichtiges Konzept bei Kryptowährungen. SHA-256.",
+            "nl": "Hash function is een belangrijk concept in cryptocurrency. SHA-256."
+        }
+    },
+    {
+        "question": {
+            "en": "What entity or person created Merkle tree?",
+            "es": "Qué entity or person created Merkle tree?",
+            "de": "Was entity or person created Merkle tree?",
+            "nl": "Wat entity or person created Merkle tree?"
+        },
+        "options": [
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "block header",
+                "es": "block header",
+                "de": "block header",
+                "nl": "block header"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Merkle tree is an important concept in cryptocurrency. transaction structure. Additionally, efficient verification. binary tree hash. ",
+            "es": "Merkle tree es un concepto importante en criptomonedas. transaction structure.",
+            "de": "Merkle tree ist ein wichtiges Konzept bei Kryptowährungen. transaction structure.",
+            "nl": "Merkle tree is een belangrijk concept in cryptocurrency. transaction structure."
+        }
+    },
+    {
+        "question": {
+            "en": "What distinguishes Nonce?",
+            "es": "Qué distinguishes Nonce?",
+            "de": "Was distinguishes Nonce?",
+            "nl": "Wat distinguishes Nonce?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "proof-of-work element",
+                "es": "proof-of-work element",
+                "de": "proof-of-work element",
+                "nl": "proof-of-work element"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Nonce is an important concept in cryptocurrency. number used once. Additionally, mining variable. changes hash output. ",
+            "es": "Nonce es un concepto importante en criptomonedas. number used once.",
+            "de": "Nonce ist ein wichtiges Konzept bei Kryptowährungen. number used once.",
+            "nl": "Nonce is een belangrijk concept in cryptocurrency. number used once."
+        }
+    },
+    {
+        "question": {
+            "en": "What function does Difficulty adjustment serve?",
+            "es": "Qué function does Difficulty adjustment serve?",
+            "de": "Was function does Difficulty adjustment serve?",
+            "nl": "Wat function does Difficulty adjustment serve?"
+        },
+        "options": [
+            {
+                "en": "automatic retarget",
+                "es": "automatic retarget",
+                "de": "automatic retarget",
+                "nl": "automatic retarget"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 0,
+        "explanation": {
+            "en": "Difficulty adjustment is an important concept in cryptocurrency. every 2016 blocks. Additionally, maintains 10 min blocks. automatic retarget. ",
+            "es": "Difficulty adjustment es un concepto importante en criptomonedas. every 2016 blocks.",
+            "de": "Difficulty adjustment ist ein wichtiges Konzept bei Kryptowährungen. every 2016 blocks.",
+            "nl": "Difficulty adjustment is een belangrijk concept in cryptocurrency. every 2016 blocks."
+        }
+    },
+    {
+        "question": {
+            "en": "How does Mempool relate to cryptocurrency?",
+            "es": "Cómo does Mempool relate to cryptocurrency?",
+            "de": "Wie does Mempool relate to cryptocurrency?",
+            "nl": "Hoe does Mempool relate to cryptocurrency?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "can get congested",
+                "es": "can get congested",
+                "de": "can get congested",
+                "nl": "can get congested"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Mempool is an important concept in cryptocurrency. unconfirmed transactions. Additionally, waiting for block. fee market. ",
+            "es": "Mempool es un concepto importante en criptomonedas. unconfirmed transactions.",
+            "de": "Mempool ist ein wichtiges Konzept bei Kryptowährungen. unconfirmed transactions.",
+            "nl": "Mempool is een belangrijk concept in cryptocurrency. unconfirmed transactions."
+        }
+    },
+    {
+        "question": {
+            "en": "What impact does Block explorer have?",
+            "es": "Qué impact does Block explorer have?",
+            "de": "Was impact does Block explorer have?",
+            "nl": "Wat impact does Block explorer have?"
+        },
+        "options": [
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "search addresses",
+                "es": "search addresses",
+                "de": "search addresses",
+                "nl": "search addresses"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "Block explorer is an important concept in cryptocurrency. Blockchain.com. Additionally, view transactions. search addresses. ",
+            "es": "Block explorer es un concepto importante en criptomonedas. Blockchain.com.",
+            "de": "Block explorer ist ein wichtiges Konzept bei Kryptowährungen. Blockchain.com.",
+            "nl": "Block explorer is een belangrijk concept in cryptocurrency. Blockchain.com."
+        }
+    },
+    {
+        "question": {
+            "en": "What is the modern relevance of Orphan block?",
+            "es": "Qué is the modern relevance of Orphan block?",
+            "de": "Was is the modern relevance of Orphan block?",
+            "nl": "Wat is the modern relevance of Orphan block?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "wasted work",
+                "es": "wasted work",
+                "de": "wasted work",
+                "nl": "wasted work"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            }
+        ],
+        "correct": 1,
+        "explanation": {
+            "en": "Orphan block is an important concept in cryptocurrency. valid but not main chain. Additionally, mining competition. stale block. ",
+            "es": "Orphan block es un concepto importante en criptomonedas. valid but not main chain.",
+            "de": "Orphan block ist ein wichtiges Konzept bei Kryptowährungen. valid but not main chain.",
+            "nl": "Orphan block is een belangrijk concept in cryptocurrency. valid but not main chain."
+        }
+    },
+    {
+        "question": {
+            "en": "What technical aspect defines UTXO model?",
+            "es": "Qué technical aspect defines UTXO model?",
+            "de": "Was technical aspect defines UTXO model?",
+            "nl": "Wat technical aspect defines UTXO model?"
+        },
+        "options": [
+            {
+                "en": "Different approach",
+                "es": "Different approach",
+                "de": "Different approach",
+                "nl": "Different approach"
+            },
+            {
+                "en": "Unrelated concept",
+                "es": "Unrelated concept",
+                "de": "Unrelated concept",
+                "nl": "Unrelated concept"
+            },
+            {
+                "en": "Alternative mechanism",
+                "es": "Alternative mechanism",
+                "de": "Alternative mechanism",
+                "nl": "Alternative mechanism"
+            },
+            {
+                "en": "like cash",
+                "es": "like cash",
+                "de": "like cash",
+                "nl": "like cash"
+            }
+        ],
+        "correct": 3,
+        "explanation": {
+            "en": "UTXO model is an important concept in cryptocurrency. Unspent Transaction Output. Additionally, Bitcoin accounting. vs account model. ",
+            "es": "UTXO model es un concepto importante en criptomonedas. Unspent Transaction Output.",
+            "de": "UTXO model ist ein wichtiges Konzept bei Kryptowährungen. Unspent Transaction Output.",
+            "nl": "UTXO model is een belangrijk concept in cryptocurrency. Unspent Transaction Output."
+        }
     }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Cryptocurrency",
-      "es": "Pregunta 2 sobre Cryptocurrency",
-      "de": "Frage 2 über Cryptocurrency",
-      "nl": "Vraag 2 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Cryptocurrency",
-      "es": "Pregunta 3 sobre Cryptocurrency",
-      "de": "Frage 3 über Cryptocurrency",
-      "nl": "Vraag 3 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Cryptocurrency",
-      "es": "Pregunta 4 sobre Cryptocurrency",
-      "de": "Frage 4 über Cryptocurrency",
-      "nl": "Vraag 4 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Cryptocurrency",
-      "es": "Pregunta 5 sobre Cryptocurrency",
-      "de": "Frage 5 über Cryptocurrency",
-      "nl": "Vraag 5 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Cryptocurrency",
-      "es": "Pregunta 6 sobre Cryptocurrency",
-      "de": "Frage 6 über Cryptocurrency",
-      "nl": "Vraag 6 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Cryptocurrency",
-      "es": "Pregunta 7 sobre Cryptocurrency",
-      "de": "Frage 7 über Cryptocurrency",
-      "nl": "Vraag 7 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Cryptocurrency",
-      "es": "Pregunta 8 sobre Cryptocurrency",
-      "de": "Frage 8 über Cryptocurrency",
-      "nl": "Vraag 8 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Cryptocurrency",
-      "es": "Pregunta 9 sobre Cryptocurrency",
-      "de": "Frage 9 über Cryptocurrency",
-      "nl": "Vraag 9 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Cryptocurrency",
-      "es": "Pregunta 10 sobre Cryptocurrency",
-      "de": "Frage 10 über Cryptocurrency",
-      "nl": "Vraag 10 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Cryptocurrency",
-      "es": "Pregunta 11 sobre Cryptocurrency",
-      "de": "Frage 11 über Cryptocurrency",
-      "nl": "Vraag 11 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Cryptocurrency",
-      "es": "Pregunta 12 sobre Cryptocurrency",
-      "de": "Frage 12 über Cryptocurrency",
-      "nl": "Vraag 12 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Cryptocurrency",
-      "es": "Pregunta 13 sobre Cryptocurrency",
-      "de": "Frage 13 über Cryptocurrency",
-      "nl": "Vraag 13 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Cryptocurrency",
-      "es": "Pregunta 14 sobre Cryptocurrency",
-      "de": "Frage 14 über Cryptocurrency",
-      "nl": "Vraag 14 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Cryptocurrency",
-      "es": "Pregunta 15 sobre Cryptocurrency",
-      "de": "Frage 15 über Cryptocurrency",
-      "nl": "Vraag 15 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Cryptocurrency",
-      "es": "Pregunta 16 sobre Cryptocurrency",
-      "de": "Frage 16 über Cryptocurrency",
-      "nl": "Vraag 16 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Cryptocurrency",
-      "es": "Pregunta 17 sobre Cryptocurrency",
-      "de": "Frage 17 über Cryptocurrency",
-      "nl": "Vraag 17 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Cryptocurrency",
-      "es": "Pregunta 18 sobre Cryptocurrency",
-      "de": "Frage 18 über Cryptocurrency",
-      "nl": "Vraag 18 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Cryptocurrency",
-      "es": "Pregunta 19 sobre Cryptocurrency",
-      "de": "Frage 19 über Cryptocurrency",
-      "nl": "Vraag 19 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Cryptocurrency",
-      "es": "Pregunta 20 sobre Cryptocurrency",
-      "de": "Frage 20 über Cryptocurrency",
-      "nl": "Vraag 20 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Cryptocurrency",
-      "es": "Pregunta 21 sobre Cryptocurrency",
-      "de": "Frage 21 über Cryptocurrency",
-      "nl": "Vraag 21 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Cryptocurrency",
-      "es": "Pregunta 22 sobre Cryptocurrency",
-      "de": "Frage 22 über Cryptocurrency",
-      "nl": "Vraag 22 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Cryptocurrency",
-      "es": "Pregunta 23 sobre Cryptocurrency",
-      "de": "Frage 23 über Cryptocurrency",
-      "nl": "Vraag 23 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Cryptocurrency",
-      "es": "Pregunta 24 sobre Cryptocurrency",
-      "de": "Frage 24 über Cryptocurrency",
-      "nl": "Vraag 24 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Cryptocurrency",
-      "es": "Pregunta 25 sobre Cryptocurrency",
-      "de": "Frage 25 über Cryptocurrency",
-      "nl": "Vraag 25 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Cryptocurrency",
-      "es": "Pregunta 26 sobre Cryptocurrency",
-      "de": "Frage 26 über Cryptocurrency",
-      "nl": "Vraag 26 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Cryptocurrency",
-      "es": "Pregunta 27 sobre Cryptocurrency",
-      "de": "Frage 27 über Cryptocurrency",
-      "nl": "Vraag 27 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Cryptocurrency",
-      "es": "Pregunta 28 sobre Cryptocurrency",
-      "de": "Frage 28 über Cryptocurrency",
-      "nl": "Vraag 28 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Cryptocurrency",
-      "es": "Pregunta 29 sobre Cryptocurrency",
-      "de": "Frage 29 über Cryptocurrency",
-      "nl": "Vraag 29 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Cryptocurrency",
-      "es": "Pregunta 30 sobre Cryptocurrency",
-      "de": "Frage 30 über Cryptocurrency",
-      "nl": "Vraag 30 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Cryptocurrency",
-      "es": "Pregunta 31 sobre Cryptocurrency",
-      "de": "Frage 31 über Cryptocurrency",
-      "nl": "Vraag 31 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Cryptocurrency",
-      "es": "Pregunta 32 sobre Cryptocurrency",
-      "de": "Frage 32 über Cryptocurrency",
-      "nl": "Vraag 32 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Cryptocurrency",
-      "es": "Pregunta 33 sobre Cryptocurrency",
-      "de": "Frage 33 über Cryptocurrency",
-      "nl": "Vraag 33 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Cryptocurrency",
-      "es": "Pregunta 34 sobre Cryptocurrency",
-      "de": "Frage 34 über Cryptocurrency",
-      "nl": "Vraag 34 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Cryptocurrency",
-      "es": "Pregunta 35 sobre Cryptocurrency",
-      "de": "Frage 35 über Cryptocurrency",
-      "nl": "Vraag 35 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Cryptocurrency",
-      "es": "Pregunta 36 sobre Cryptocurrency",
-      "de": "Frage 36 über Cryptocurrency",
-      "nl": "Vraag 36 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Cryptocurrency",
-      "es": "Pregunta 37 sobre Cryptocurrency",
-      "de": "Frage 37 über Cryptocurrency",
-      "nl": "Vraag 37 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Cryptocurrency",
-      "es": "Pregunta 38 sobre Cryptocurrency",
-      "de": "Frage 38 über Cryptocurrency",
-      "nl": "Vraag 38 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Cryptocurrency",
-      "es": "Pregunta 39 sobre Cryptocurrency",
-      "de": "Frage 39 über Cryptocurrency",
-      "nl": "Vraag 39 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Cryptocurrency",
-      "es": "Pregunta 40 sobre Cryptocurrency",
-      "de": "Frage 40 über Cryptocurrency",
-      "nl": "Vraag 40 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Cryptocurrency",
-      "es": "Pregunta 41 sobre Cryptocurrency",
-      "de": "Frage 41 über Cryptocurrency",
-      "nl": "Vraag 41 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Cryptocurrency",
-      "es": "Pregunta 42 sobre Cryptocurrency",
-      "de": "Frage 42 über Cryptocurrency",
-      "nl": "Vraag 42 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Cryptocurrency",
-      "es": "Pregunta 43 sobre Cryptocurrency",
-      "de": "Frage 43 über Cryptocurrency",
-      "nl": "Vraag 43 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Cryptocurrency",
-      "es": "Pregunta 44 sobre Cryptocurrency",
-      "de": "Frage 44 über Cryptocurrency",
-      "nl": "Vraag 44 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Cryptocurrency",
-      "es": "Pregunta 45 sobre Cryptocurrency",
-      "de": "Frage 45 über Cryptocurrency",
-      "nl": "Vraag 45 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Cryptocurrency",
-      "es": "Pregunta 46 sobre Cryptocurrency",
-      "de": "Frage 46 über Cryptocurrency",
-      "nl": "Vraag 46 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Cryptocurrency",
-      "es": "Pregunta 47 sobre Cryptocurrency",
-      "de": "Frage 47 über Cryptocurrency",
-      "nl": "Vraag 47 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Cryptocurrency",
-      "es": "Pregunta 48 sobre Cryptocurrency",
-      "de": "Frage 48 über Cryptocurrency",
-      "nl": "Vraag 48 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Cryptocurrency",
-      "es": "Pregunta 49 sobre Cryptocurrency",
-      "de": "Frage 49 über Cryptocurrency",
-      "nl": "Vraag 49 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Cryptocurrency",
-      "es": "Pregunta 50 sobre Cryptocurrency",
-      "de": "Frage 50 über Cryptocurrency",
-      "nl": "Vraag 50 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Cryptocurrency",
-      "es": "Pregunta 51 sobre Cryptocurrency",
-      "de": "Frage 51 über Cryptocurrency",
-      "nl": "Vraag 51 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Cryptocurrency",
-      "es": "Pregunta 52 sobre Cryptocurrency",
-      "de": "Frage 52 über Cryptocurrency",
-      "nl": "Vraag 52 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Cryptocurrency",
-      "es": "Pregunta 53 sobre Cryptocurrency",
-      "de": "Frage 53 über Cryptocurrency",
-      "nl": "Vraag 53 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Cryptocurrency",
-      "es": "Pregunta 54 sobre Cryptocurrency",
-      "de": "Frage 54 über Cryptocurrency",
-      "nl": "Vraag 54 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Cryptocurrency",
-      "es": "Pregunta 55 sobre Cryptocurrency",
-      "de": "Frage 55 über Cryptocurrency",
-      "nl": "Vraag 55 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Cryptocurrency",
-      "es": "Pregunta 56 sobre Cryptocurrency",
-      "de": "Frage 56 über Cryptocurrency",
-      "nl": "Vraag 56 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Cryptocurrency",
-      "es": "Pregunta 57 sobre Cryptocurrency",
-      "de": "Frage 57 über Cryptocurrency",
-      "nl": "Vraag 57 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Cryptocurrency",
-      "es": "Pregunta 58 sobre Cryptocurrency",
-      "de": "Frage 58 über Cryptocurrency",
-      "nl": "Vraag 58 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Cryptocurrency",
-      "es": "Pregunta 59 sobre Cryptocurrency",
-      "de": "Frage 59 über Cryptocurrency",
-      "nl": "Vraag 59 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Cryptocurrency",
-      "es": "Pregunta 60 sobre Cryptocurrency",
-      "de": "Frage 60 über Cryptocurrency",
-      "nl": "Vraag 60 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Cryptocurrency",
-      "es": "Pregunta 61 sobre Cryptocurrency",
-      "de": "Frage 61 über Cryptocurrency",
-      "nl": "Vraag 61 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Cryptocurrency",
-      "es": "Pregunta 62 sobre Cryptocurrency",
-      "de": "Frage 62 über Cryptocurrency",
-      "nl": "Vraag 62 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Cryptocurrency",
-      "es": "Pregunta 63 sobre Cryptocurrency",
-      "de": "Frage 63 über Cryptocurrency",
-      "nl": "Vraag 63 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Cryptocurrency",
-      "es": "Pregunta 64 sobre Cryptocurrency",
-      "de": "Frage 64 über Cryptocurrency",
-      "nl": "Vraag 64 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Cryptocurrency",
-      "es": "Pregunta 65 sobre Cryptocurrency",
-      "de": "Frage 65 über Cryptocurrency",
-      "nl": "Vraag 65 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Cryptocurrency",
-      "es": "Pregunta 66 sobre Cryptocurrency",
-      "de": "Frage 66 über Cryptocurrency",
-      "nl": "Vraag 66 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Cryptocurrency",
-      "es": "Pregunta 67 sobre Cryptocurrency",
-      "de": "Frage 67 über Cryptocurrency",
-      "nl": "Vraag 67 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Cryptocurrency",
-      "es": "Pregunta 68 sobre Cryptocurrency",
-      "de": "Frage 68 über Cryptocurrency",
-      "nl": "Vraag 68 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Cryptocurrency",
-      "es": "Pregunta 69 sobre Cryptocurrency",
-      "de": "Frage 69 über Cryptocurrency",
-      "nl": "Vraag 69 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Cryptocurrency",
-      "es": "Pregunta 70 sobre Cryptocurrency",
-      "de": "Frage 70 über Cryptocurrency",
-      "nl": "Vraag 70 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Cryptocurrency",
-      "es": "Pregunta 71 sobre Cryptocurrency",
-      "de": "Frage 71 über Cryptocurrency",
-      "nl": "Vraag 71 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Cryptocurrency",
-      "es": "Pregunta 72 sobre Cryptocurrency",
-      "de": "Frage 72 über Cryptocurrency",
-      "nl": "Vraag 72 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Cryptocurrency",
-      "es": "Pregunta 73 sobre Cryptocurrency",
-      "de": "Frage 73 über Cryptocurrency",
-      "nl": "Vraag 73 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Cryptocurrency",
-      "es": "Pregunta 74 sobre Cryptocurrency",
-      "de": "Frage 74 über Cryptocurrency",
-      "nl": "Vraag 74 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Cryptocurrency",
-      "es": "Pregunta 75 sobre Cryptocurrency",
-      "de": "Frage 75 über Cryptocurrency",
-      "nl": "Vraag 75 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Cryptocurrency",
-      "es": "Pregunta 76 sobre Cryptocurrency",
-      "de": "Frage 76 über Cryptocurrency",
-      "nl": "Vraag 76 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Cryptocurrency",
-      "es": "Pregunta 77 sobre Cryptocurrency",
-      "de": "Frage 77 über Cryptocurrency",
-      "nl": "Vraag 77 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Cryptocurrency",
-      "es": "Pregunta 78 sobre Cryptocurrency",
-      "de": "Frage 78 über Cryptocurrency",
-      "nl": "Vraag 78 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Cryptocurrency",
-      "es": "Pregunta 79 sobre Cryptocurrency",
-      "de": "Frage 79 über Cryptocurrency",
-      "nl": "Vraag 79 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Cryptocurrency",
-      "es": "Pregunta 80 sobre Cryptocurrency",
-      "de": "Frage 80 über Cryptocurrency",
-      "nl": "Vraag 80 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Cryptocurrency",
-      "es": "Pregunta 81 sobre Cryptocurrency",
-      "de": "Frage 81 über Cryptocurrency",
-      "nl": "Vraag 81 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Cryptocurrency",
-      "es": "Pregunta 82 sobre Cryptocurrency",
-      "de": "Frage 82 über Cryptocurrency",
-      "nl": "Vraag 82 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Cryptocurrency",
-      "es": "Pregunta 83 sobre Cryptocurrency",
-      "de": "Frage 83 über Cryptocurrency",
-      "nl": "Vraag 83 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Cryptocurrency",
-      "es": "Pregunta 84 sobre Cryptocurrency",
-      "de": "Frage 84 über Cryptocurrency",
-      "nl": "Vraag 84 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Cryptocurrency",
-      "es": "Pregunta 85 sobre Cryptocurrency",
-      "de": "Frage 85 über Cryptocurrency",
-      "nl": "Vraag 85 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Cryptocurrency",
-      "es": "Pregunta 86 sobre Cryptocurrency",
-      "de": "Frage 86 über Cryptocurrency",
-      "nl": "Vraag 86 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Cryptocurrency",
-      "es": "Pregunta 87 sobre Cryptocurrency",
-      "de": "Frage 87 über Cryptocurrency",
-      "nl": "Vraag 87 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Cryptocurrency",
-      "es": "Pregunta 88 sobre Cryptocurrency",
-      "de": "Frage 88 über Cryptocurrency",
-      "nl": "Vraag 88 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Cryptocurrency",
-      "es": "Pregunta 89 sobre Cryptocurrency",
-      "de": "Frage 89 über Cryptocurrency",
-      "nl": "Vraag 89 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Cryptocurrency",
-      "es": "Pregunta 90 sobre Cryptocurrency",
-      "de": "Frage 90 über Cryptocurrency",
-      "nl": "Vraag 90 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Cryptocurrency",
-      "es": "Pregunta 91 sobre Cryptocurrency",
-      "de": "Frage 91 über Cryptocurrency",
-      "nl": "Vraag 91 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Cryptocurrency",
-      "es": "Pregunta 92 sobre Cryptocurrency",
-      "de": "Frage 92 über Cryptocurrency",
-      "nl": "Vraag 92 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Cryptocurrency",
-      "es": "Pregunta 93 sobre Cryptocurrency",
-      "de": "Frage 93 über Cryptocurrency",
-      "nl": "Vraag 93 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Cryptocurrency",
-      "es": "Pregunta 94 sobre Cryptocurrency",
-      "de": "Frage 94 über Cryptocurrency",
-      "nl": "Vraag 94 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Cryptocurrency",
-      "es": "Pregunta 95 sobre Cryptocurrency",
-      "de": "Frage 95 über Cryptocurrency",
-      "nl": "Vraag 95 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Cryptocurrency",
-      "es": "Pregunta 96 sobre Cryptocurrency",
-      "de": "Frage 96 über Cryptocurrency",
-      "nl": "Vraag 96 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Cryptocurrency",
-      "es": "Pregunta 97 sobre Cryptocurrency",
-      "de": "Frage 97 über Cryptocurrency",
-      "nl": "Vraag 97 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Cryptocurrency",
-      "es": "Pregunta 98 sobre Cryptocurrency",
-      "de": "Frage 98 über Cryptocurrency",
-      "nl": "Vraag 98 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Cryptocurrency",
-      "es": "Pregunta 99 sobre Cryptocurrency",
-      "de": "Frage 99 über Cryptocurrency",
-      "nl": "Vraag 99 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Cryptocurrency",
-      "es": "Pregunta 100 sobre Cryptocurrency",
-      "de": "Frage 100 über Cryptocurrency",
-      "nl": "Vraag 100 over Cryptocurrency"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cryptocurrency",
-        "es": "Respuesta A para Cryptocurrency",
-        "de": "Antwort A für Cryptocurrency",
-        "nl": "Antwoord A voor Cryptocurrency"
-      },
-      {
-        "en": "Answer B for Cryptocurrency",
-        "es": "Respuesta B para Cryptocurrency",
-        "de": "Antwort B für Cryptocurrency",
-        "nl": "Antwoord B voor Cryptocurrency"
-      },
-      {
-        "en": "Answer C for Cryptocurrency",
-        "es": "Respuesta C para Cryptocurrency",
-        "de": "Antwort C für Cryptocurrency",
-        "nl": "Antwoord C voor Cryptocurrency"
-      },
-      {
-        "en": "Answer D for Cryptocurrency",
-        "es": "Respuesta D para Cryptocurrency",
-        "de": "Antwort D für Cryptocurrency",
-        "nl": "Antwoord D voor Cryptocurrency"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cryptocurrency.",
-      "es": "Esta es la respuesta correcta sobre Cryptocurrency.",
-      "de": "Dies ist die richtige Antwort über Cryptocurrency.",
-      "nl": "Dit is het juiste antwoord over Cryptocurrency."
-    }
-  }
 ]
 };

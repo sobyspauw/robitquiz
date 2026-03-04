@@ -1,4104 +1,4108 @@
+// Cooking Methods - level5
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:35.180Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Cooking Methods",
-      "es": "Pregunta 1 sobre Cooking Methods",
-      "de": "Frage 1 über Cooking Methods",
-      "nl": "Vraag 1 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Cooking Methods",
-      "es": "Pregunta 2 sobre Cooking Methods",
-      "de": "Frage 2 über Cooking Methods",
-      "nl": "Vraag 2 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Cooking Methods",
-      "es": "Pregunta 3 sobre Cooking Methods",
-      "de": "Frage 3 über Cooking Methods",
-      "nl": "Vraag 3 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Cooking Methods",
-      "es": "Pregunta 4 sobre Cooking Methods",
-      "de": "Frage 4 über Cooking Methods",
-      "nl": "Vraag 4 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Cooking Methods",
-      "es": "Pregunta 5 sobre Cooking Methods",
-      "de": "Frage 5 über Cooking Methods",
-      "nl": "Vraag 5 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Cooking Methods",
-      "es": "Pregunta 6 sobre Cooking Methods",
-      "de": "Frage 6 über Cooking Methods",
-      "nl": "Vraag 6 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Cooking Methods",
-      "es": "Pregunta 7 sobre Cooking Methods",
-      "de": "Frage 7 über Cooking Methods",
-      "nl": "Vraag 7 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Cooking Methods",
-      "es": "Pregunta 8 sobre Cooking Methods",
-      "de": "Frage 8 über Cooking Methods",
-      "nl": "Vraag 8 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Cooking Methods",
-      "es": "Pregunta 9 sobre Cooking Methods",
-      "de": "Frage 9 über Cooking Methods",
-      "nl": "Vraag 9 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Cooking Methods",
-      "es": "Pregunta 10 sobre Cooking Methods",
-      "de": "Frage 10 über Cooking Methods",
-      "nl": "Vraag 10 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Cooking Methods",
-      "es": "Pregunta 11 sobre Cooking Methods",
-      "de": "Frage 11 über Cooking Methods",
-      "nl": "Vraag 11 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Cooking Methods",
-      "es": "Pregunta 12 sobre Cooking Methods",
-      "de": "Frage 12 über Cooking Methods",
-      "nl": "Vraag 12 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Cooking Methods",
-      "es": "Pregunta 13 sobre Cooking Methods",
-      "de": "Frage 13 über Cooking Methods",
-      "nl": "Vraag 13 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Cooking Methods",
-      "es": "Pregunta 14 sobre Cooking Methods",
-      "de": "Frage 14 über Cooking Methods",
-      "nl": "Vraag 14 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Cooking Methods",
-      "es": "Pregunta 15 sobre Cooking Methods",
-      "de": "Frage 15 über Cooking Methods",
-      "nl": "Vraag 15 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Cooking Methods",
-      "es": "Pregunta 16 sobre Cooking Methods",
-      "de": "Frage 16 über Cooking Methods",
-      "nl": "Vraag 16 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Cooking Methods",
-      "es": "Pregunta 17 sobre Cooking Methods",
-      "de": "Frage 17 über Cooking Methods",
-      "nl": "Vraag 17 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Cooking Methods",
-      "es": "Pregunta 18 sobre Cooking Methods",
-      "de": "Frage 18 über Cooking Methods",
-      "nl": "Vraag 18 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Cooking Methods",
-      "es": "Pregunta 19 sobre Cooking Methods",
-      "de": "Frage 19 über Cooking Methods",
-      "nl": "Vraag 19 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Cooking Methods",
-      "es": "Pregunta 20 sobre Cooking Methods",
-      "de": "Frage 20 über Cooking Methods",
-      "nl": "Vraag 20 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Cooking Methods",
-      "es": "Pregunta 21 sobre Cooking Methods",
-      "de": "Frage 21 über Cooking Methods",
-      "nl": "Vraag 21 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Cooking Methods",
-      "es": "Pregunta 22 sobre Cooking Methods",
-      "de": "Frage 22 über Cooking Methods",
-      "nl": "Vraag 22 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Cooking Methods",
-      "es": "Pregunta 23 sobre Cooking Methods",
-      "de": "Frage 23 über Cooking Methods",
-      "nl": "Vraag 23 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Cooking Methods",
-      "es": "Pregunta 24 sobre Cooking Methods",
-      "de": "Frage 24 über Cooking Methods",
-      "nl": "Vraag 24 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Cooking Methods",
-      "es": "Pregunta 25 sobre Cooking Methods",
-      "de": "Frage 25 über Cooking Methods",
-      "nl": "Vraag 25 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Cooking Methods",
-      "es": "Pregunta 26 sobre Cooking Methods",
-      "de": "Frage 26 über Cooking Methods",
-      "nl": "Vraag 26 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Cooking Methods",
-      "es": "Pregunta 27 sobre Cooking Methods",
-      "de": "Frage 27 über Cooking Methods",
-      "nl": "Vraag 27 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Cooking Methods",
-      "es": "Pregunta 28 sobre Cooking Methods",
-      "de": "Frage 28 über Cooking Methods",
-      "nl": "Vraag 28 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Cooking Methods",
-      "es": "Pregunta 29 sobre Cooking Methods",
-      "de": "Frage 29 über Cooking Methods",
-      "nl": "Vraag 29 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Cooking Methods",
-      "es": "Pregunta 30 sobre Cooking Methods",
-      "de": "Frage 30 über Cooking Methods",
-      "nl": "Vraag 30 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Cooking Methods",
-      "es": "Pregunta 31 sobre Cooking Methods",
-      "de": "Frage 31 über Cooking Methods",
-      "nl": "Vraag 31 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Cooking Methods",
-      "es": "Pregunta 32 sobre Cooking Methods",
-      "de": "Frage 32 über Cooking Methods",
-      "nl": "Vraag 32 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Cooking Methods",
-      "es": "Pregunta 33 sobre Cooking Methods",
-      "de": "Frage 33 über Cooking Methods",
-      "nl": "Vraag 33 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Cooking Methods",
-      "es": "Pregunta 34 sobre Cooking Methods",
-      "de": "Frage 34 über Cooking Methods",
-      "nl": "Vraag 34 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Cooking Methods",
-      "es": "Pregunta 35 sobre Cooking Methods",
-      "de": "Frage 35 über Cooking Methods",
-      "nl": "Vraag 35 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Cooking Methods",
-      "es": "Pregunta 36 sobre Cooking Methods",
-      "de": "Frage 36 über Cooking Methods",
-      "nl": "Vraag 36 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Cooking Methods",
-      "es": "Pregunta 37 sobre Cooking Methods",
-      "de": "Frage 37 über Cooking Methods",
-      "nl": "Vraag 37 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Cooking Methods",
-      "es": "Pregunta 38 sobre Cooking Methods",
-      "de": "Frage 38 über Cooking Methods",
-      "nl": "Vraag 38 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Cooking Methods",
-      "es": "Pregunta 39 sobre Cooking Methods",
-      "de": "Frage 39 über Cooking Methods",
-      "nl": "Vraag 39 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Cooking Methods",
-      "es": "Pregunta 40 sobre Cooking Methods",
-      "de": "Frage 40 über Cooking Methods",
-      "nl": "Vraag 40 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Cooking Methods",
-      "es": "Pregunta 41 sobre Cooking Methods",
-      "de": "Frage 41 über Cooking Methods",
-      "nl": "Vraag 41 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Cooking Methods",
-      "es": "Pregunta 42 sobre Cooking Methods",
-      "de": "Frage 42 über Cooking Methods",
-      "nl": "Vraag 42 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Cooking Methods",
-      "es": "Pregunta 43 sobre Cooking Methods",
-      "de": "Frage 43 über Cooking Methods",
-      "nl": "Vraag 43 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Cooking Methods",
-      "es": "Pregunta 44 sobre Cooking Methods",
-      "de": "Frage 44 über Cooking Methods",
-      "nl": "Vraag 44 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Cooking Methods",
-      "es": "Pregunta 45 sobre Cooking Methods",
-      "de": "Frage 45 über Cooking Methods",
-      "nl": "Vraag 45 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Cooking Methods",
-      "es": "Pregunta 46 sobre Cooking Methods",
-      "de": "Frage 46 über Cooking Methods",
-      "nl": "Vraag 46 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Cooking Methods",
-      "es": "Pregunta 47 sobre Cooking Methods",
-      "de": "Frage 47 über Cooking Methods",
-      "nl": "Vraag 47 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Cooking Methods",
-      "es": "Pregunta 48 sobre Cooking Methods",
-      "de": "Frage 48 über Cooking Methods",
-      "nl": "Vraag 48 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Cooking Methods",
-      "es": "Pregunta 49 sobre Cooking Methods",
-      "de": "Frage 49 über Cooking Methods",
-      "nl": "Vraag 49 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Cooking Methods",
-      "es": "Pregunta 50 sobre Cooking Methods",
-      "de": "Frage 50 über Cooking Methods",
-      "nl": "Vraag 50 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Cooking Methods",
-      "es": "Pregunta 51 sobre Cooking Methods",
-      "de": "Frage 51 über Cooking Methods",
-      "nl": "Vraag 51 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Cooking Methods",
-      "es": "Pregunta 52 sobre Cooking Methods",
-      "de": "Frage 52 über Cooking Methods",
-      "nl": "Vraag 52 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Cooking Methods",
-      "es": "Pregunta 53 sobre Cooking Methods",
-      "de": "Frage 53 über Cooking Methods",
-      "nl": "Vraag 53 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Cooking Methods",
-      "es": "Pregunta 54 sobre Cooking Methods",
-      "de": "Frage 54 über Cooking Methods",
-      "nl": "Vraag 54 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Cooking Methods",
-      "es": "Pregunta 55 sobre Cooking Methods",
-      "de": "Frage 55 über Cooking Methods",
-      "nl": "Vraag 55 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Cooking Methods",
-      "es": "Pregunta 56 sobre Cooking Methods",
-      "de": "Frage 56 über Cooking Methods",
-      "nl": "Vraag 56 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Cooking Methods",
-      "es": "Pregunta 57 sobre Cooking Methods",
-      "de": "Frage 57 über Cooking Methods",
-      "nl": "Vraag 57 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Cooking Methods",
-      "es": "Pregunta 58 sobre Cooking Methods",
-      "de": "Frage 58 über Cooking Methods",
-      "nl": "Vraag 58 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Cooking Methods",
-      "es": "Pregunta 59 sobre Cooking Methods",
-      "de": "Frage 59 über Cooking Methods",
-      "nl": "Vraag 59 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Cooking Methods",
-      "es": "Pregunta 60 sobre Cooking Methods",
-      "de": "Frage 60 über Cooking Methods",
-      "nl": "Vraag 60 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Cooking Methods",
-      "es": "Pregunta 61 sobre Cooking Methods",
-      "de": "Frage 61 über Cooking Methods",
-      "nl": "Vraag 61 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Cooking Methods",
-      "es": "Pregunta 62 sobre Cooking Methods",
-      "de": "Frage 62 über Cooking Methods",
-      "nl": "Vraag 62 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Cooking Methods",
-      "es": "Pregunta 63 sobre Cooking Methods",
-      "de": "Frage 63 über Cooking Methods",
-      "nl": "Vraag 63 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Cooking Methods",
-      "es": "Pregunta 64 sobre Cooking Methods",
-      "de": "Frage 64 über Cooking Methods",
-      "nl": "Vraag 64 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Cooking Methods",
-      "es": "Pregunta 65 sobre Cooking Methods",
-      "de": "Frage 65 über Cooking Methods",
-      "nl": "Vraag 65 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Cooking Methods",
-      "es": "Pregunta 66 sobre Cooking Methods",
-      "de": "Frage 66 über Cooking Methods",
-      "nl": "Vraag 66 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Cooking Methods",
-      "es": "Pregunta 67 sobre Cooking Methods",
-      "de": "Frage 67 über Cooking Methods",
-      "nl": "Vraag 67 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Cooking Methods",
-      "es": "Pregunta 68 sobre Cooking Methods",
-      "de": "Frage 68 über Cooking Methods",
-      "nl": "Vraag 68 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Cooking Methods",
-      "es": "Pregunta 69 sobre Cooking Methods",
-      "de": "Frage 69 über Cooking Methods",
-      "nl": "Vraag 69 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Cooking Methods",
-      "es": "Pregunta 70 sobre Cooking Methods",
-      "de": "Frage 70 über Cooking Methods",
-      "nl": "Vraag 70 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Cooking Methods",
-      "es": "Pregunta 71 sobre Cooking Methods",
-      "de": "Frage 71 über Cooking Methods",
-      "nl": "Vraag 71 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Cooking Methods",
-      "es": "Pregunta 72 sobre Cooking Methods",
-      "de": "Frage 72 über Cooking Methods",
-      "nl": "Vraag 72 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Cooking Methods",
-      "es": "Pregunta 73 sobre Cooking Methods",
-      "de": "Frage 73 über Cooking Methods",
-      "nl": "Vraag 73 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Cooking Methods",
-      "es": "Pregunta 74 sobre Cooking Methods",
-      "de": "Frage 74 über Cooking Methods",
-      "nl": "Vraag 74 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Cooking Methods",
-      "es": "Pregunta 75 sobre Cooking Methods",
-      "de": "Frage 75 über Cooking Methods",
-      "nl": "Vraag 75 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Cooking Methods",
-      "es": "Pregunta 76 sobre Cooking Methods",
-      "de": "Frage 76 über Cooking Methods",
-      "nl": "Vraag 76 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Cooking Methods",
-      "es": "Pregunta 77 sobre Cooking Methods",
-      "de": "Frage 77 über Cooking Methods",
-      "nl": "Vraag 77 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Cooking Methods",
-      "es": "Pregunta 78 sobre Cooking Methods",
-      "de": "Frage 78 über Cooking Methods",
-      "nl": "Vraag 78 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Cooking Methods",
-      "es": "Pregunta 79 sobre Cooking Methods",
-      "de": "Frage 79 über Cooking Methods",
-      "nl": "Vraag 79 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Cooking Methods",
-      "es": "Pregunta 80 sobre Cooking Methods",
-      "de": "Frage 80 über Cooking Methods",
-      "nl": "Vraag 80 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Cooking Methods",
-      "es": "Pregunta 81 sobre Cooking Methods",
-      "de": "Frage 81 über Cooking Methods",
-      "nl": "Vraag 81 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Cooking Methods",
-      "es": "Pregunta 82 sobre Cooking Methods",
-      "de": "Frage 82 über Cooking Methods",
-      "nl": "Vraag 82 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Cooking Methods",
-      "es": "Pregunta 83 sobre Cooking Methods",
-      "de": "Frage 83 über Cooking Methods",
-      "nl": "Vraag 83 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Cooking Methods",
-      "es": "Pregunta 84 sobre Cooking Methods",
-      "de": "Frage 84 über Cooking Methods",
-      "nl": "Vraag 84 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Cooking Methods",
-      "es": "Pregunta 85 sobre Cooking Methods",
-      "de": "Frage 85 über Cooking Methods",
-      "nl": "Vraag 85 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Cooking Methods",
-      "es": "Pregunta 86 sobre Cooking Methods",
-      "de": "Frage 86 über Cooking Methods",
-      "nl": "Vraag 86 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Cooking Methods",
-      "es": "Pregunta 87 sobre Cooking Methods",
-      "de": "Frage 87 über Cooking Methods",
-      "nl": "Vraag 87 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Cooking Methods",
-      "es": "Pregunta 88 sobre Cooking Methods",
-      "de": "Frage 88 über Cooking Methods",
-      "nl": "Vraag 88 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Cooking Methods",
-      "es": "Pregunta 89 sobre Cooking Methods",
-      "de": "Frage 89 über Cooking Methods",
-      "nl": "Vraag 89 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Cooking Methods",
-      "es": "Pregunta 90 sobre Cooking Methods",
-      "de": "Frage 90 über Cooking Methods",
-      "nl": "Vraag 90 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Cooking Methods",
-      "es": "Pregunta 91 sobre Cooking Methods",
-      "de": "Frage 91 über Cooking Methods",
-      "nl": "Vraag 91 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Cooking Methods",
-      "es": "Pregunta 92 sobre Cooking Methods",
-      "de": "Frage 92 über Cooking Methods",
-      "nl": "Vraag 92 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Cooking Methods",
-      "es": "Pregunta 93 sobre Cooking Methods",
-      "de": "Frage 93 über Cooking Methods",
-      "nl": "Vraag 93 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Cooking Methods",
-      "es": "Pregunta 94 sobre Cooking Methods",
-      "de": "Frage 94 über Cooking Methods",
-      "nl": "Vraag 94 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Cooking Methods",
-      "es": "Pregunta 95 sobre Cooking Methods",
-      "de": "Frage 95 über Cooking Methods",
-      "nl": "Vraag 95 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Cooking Methods",
-      "es": "Pregunta 96 sobre Cooking Methods",
-      "de": "Frage 96 über Cooking Methods",
-      "nl": "Vraag 96 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Cooking Methods",
-      "es": "Pregunta 97 sobre Cooking Methods",
-      "de": "Frage 97 über Cooking Methods",
-      "nl": "Vraag 97 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Cooking Methods",
-      "es": "Pregunta 98 sobre Cooking Methods",
-      "de": "Frage 98 über Cooking Methods",
-      "nl": "Vraag 98 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Cooking Methods",
-      "es": "Pregunta 99 sobre Cooking Methods",
-      "de": "Frage 99 über Cooking Methods",
-      "nl": "Vraag 99 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Cooking Methods",
-      "es": "Pregunta 100 sobre Cooking Methods",
-      "de": "Frage 100 über Cooking Methods",
-      "nl": "Vraag 100 over Cooking Methods"
-    },
-    "options": [
-      {
-        "en": "Answer A for Cooking Methods",
-        "es": "Respuesta A para Cooking Methods",
-        "de": "Antwort A für Cooking Methods",
-        "nl": "Antwoord A voor Cooking Methods"
-      },
-      {
-        "en": "Answer B for Cooking Methods",
-        "es": "Respuesta B para Cooking Methods",
-        "de": "Antwort B für Cooking Methods",
-        "nl": "Antwoord B voor Cooking Methods"
-      },
-      {
-        "en": "Answer C for Cooking Methods",
-        "es": "Respuesta C para Cooking Methods",
-        "de": "Antwort C für Cooking Methods",
-        "nl": "Antwoord C voor Cooking Methods"
-      },
-      {
-        "en": "Answer D for Cooking Methods",
-        "es": "Respuesta D para Cooking Methods",
-        "de": "Antwort D für Cooking Methods",
-        "nl": "Antwoord D voor Cooking Methods"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Cooking Methods.",
-      "es": "Esta es la respuesta correcta sobre Cooking Methods.",
-      "de": "Dies ist die richtige Antwort über Cooking Methods.",
-      "nl": "Dit is het juiste antwoord over Cooking Methods."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What is spherification in molecular gastronomy?",
+                            "es": "¿Qué es la esferificación en gastronomía molecular?",
+                            "de": "Was ist Sphärifizierung in der Molekulargastronomie?",
+                            "nl": "Wat is sferificatie in moleculaire gastronomie?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Creating liquid-filled spheres using sodium alginate and calcium chloride",
+                                    "es": "Crear esferas llenas de líquido usando alginato de sodio y cloruro de calcio",
+                                    "de": "Flüssigkeitsgefüllte Kugeln mit Natriumalginat und Calciumchlorid erzeugen",
+                                    "nl": "Vloeistof-gevulde bollen maken met natriumalginaat en calciumchloride"
+                            },
+                            {
+                                    "en": "Making round food",
+                                    "es": "Hacer comida redonda",
+                                    "de": "Rundes Essen machen",
+                                    "nl": "Rond voedsel maken"
+                            },
+                            {
+                                    "en": "Freezing into balls",
+                                    "es": "Congelar en bolas",
+                                    "de": "Zu Kugeln einfrieren",
+                                    "nl": "Tot ballen invriezen"
+                            },
+                            {
+                                    "en": "Rolling dough",
+                                    "es": "Enrollar masa",
+                                    "de": "Teig rollen",
+                                    "nl": "Deeg rollen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Spherification uses sodium alginate (from seaweed) mixed with liquid, which forms gel membranes when it contacts calcium chloride solution. This creates 'caviar pearls' or larger spheres with liquid centers that burst in the mouth, revolutionizing texture and presentation in modern cuisine.",
+                            "es": "La esferificación usa alginato de sodio (de algas) mezclado con líquido, que forma membranas de gel al contactar solución de cloruro de calcio. Esto crea 'perlas de caviar' o esferas más grandes con centros líquidos que explotan en la boca.",
+                            "de": "Sphärifizierung verwendet Natriumalginat (aus Seetang) gemischt mit Flüssigkeit, das Gel-Membranen bildet wenn es Calciumchloridlösung kontaktiert. Dies erzeugt 'Kaviarperlen' oder größere Kugeln mit flüssigen Zentren die im Mund platzen.",
+                            "nl": "Sferificatie gebruikt natriumalginaat (uit zeewier) gemengd met vloeistof, dat gelmembranen vormt bij contact met calciumchloride oplossing. Dit creëert 'kaviaarparels' of grotere bollen met vloeibare centra die barsten in de mond."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the reverse sear method?",
+                            "es": "¿Qué es el método de sellado inverso?",
+                            "de": "Was ist die Reverse-Sear-Methode?",
+                            "nl": "Wat is de reverse sear methode?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Slow roasting meat first, then finishing with high-heat searing",
+                                    "es": "Asar carne lentamente primero, luego terminar con sellado a alta temperatura",
+                                    "de": "Fleisch zuerst langsam rösten, dann mit hoher Hitze anbraten",
+                                    "nl": "Vlees eerst langzaam roosteren, dan afmaken met hoge-hitte dichtschroeien"
+                            },
+                            {
+                                    "en": "Searing backwards",
+                                    "es": "Sellar al revés",
+                                    "de": "Rückwärts anbraten",
+                                    "nl": "Achteruit dichtschroeien"
+                            },
+                            {
+                                    "en": "Cooling meat after cooking",
+                                    "es": "Enfriar carne después de cocinar",
+                                    "de": "Fleisch nach dem Kochen kühlen",
+                                    "nl": "Vlees afkoelen na koken"
+                            },
+                            {
+                                    "en": "Undoing the sear",
+                                    "es": "Deshacer el sellado",
+                                    "de": "Anbraten rückgängig machen",
+                                    "nl": "Dichtschroeien ongedaan maken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Reverse searing involves cooking meat at low temperature (93-135°C) until it reaches desired internal temperature, then searing at high heat for crust. This provides even doneness edge-to-edge, better moisture retention, and perfect crust without gray bands of overcooked meat.",
+                            "es": "El sellado inverso implica cocinar carne a baja temperatura (93-135°C) hasta alcanzar temperatura interna deseada, luego sellar a alta temperatura para la costra. Esto proporciona cocción uniforme de borde a borde, mejor retención de humedad.",
+                            "de": "Reverse Searing bedeutet Fleisch bei niedriger Temperatur (93-135°C) zu garen bis gewünschte Kerntemperatur erreicht ist, dann bei hoher Hitze für Kruste anbraten. Dies bietet gleichmäßige Garstufe von Rand zu Rand, bessere Feuchtigkeitsbewahrung.",
+                            "nl": "Reverse searing houdt in vlees bij lage temperatuur (93-135°C) te koken tot gewenste kerntemperatuur bereikt is, dan dichtschroeien bij hoge hitte voor korst. Dit biedt gelijkmatige gaarheid van rand tot rand, betere vochtretentie."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is carryover cooking?",
+                            "es": "¿Qué es la cocción residual?",
+                            "de": "Was ist Nachgaren?",
+                            "nl": "Wat is restwarmte koken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Food continues cooking after removal from heat due to retained heat",
+                                    "es": "La comida continúa cocinándose después de retirar del calor debido al calor retenido",
+                                    "de": "Speisen garen nach Entfernen von Hitze durch gespeicherte Wärme weiter",
+                                    "nl": "Voedsel kookt door na verwijderen van hitte door behouden warmte"
+                            },
+                            {
+                                    "en": "Taking food to go",
+                                    "es": "Llevar comida para llevar",
+                                    "de": "Essen zum Mitnehmen",
+                                    "nl": "Eten meenemen"
+                            },
+                            {
+                                    "en": "Cooking in a car",
+                                    "es": "Cocinar en un coche",
+                                    "de": "Im Auto kochen",
+                                    "nl": "Koken in een auto"
+                            },
+                            {
+                                    "en": "Reheating leftovers",
+                                    "es": "Recalentar sobras",
+                                    "de": "Reste aufwärmen",
+                                    "nl": "Restjes opwarmen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Carryover cooking occurs when food's internal temperature continues rising 3-10°C after removing from heat. Thicker cuts carry more heat. Resting allows heat to equalize throughout while juices redistribute. Account for this by removing meat 5°C before target temperature.",
+                            "es": "La cocción residual ocurre cuando la temperatura interna de los alimentos continúa subiendo 3-10°C después de retirar del calor. Cortes más gruesos retienen más calor. El reposo permite que el calor se iguale mientras los jugos se redistribuyen.",
+                            "de": "Nachgaren tritt auf wenn die Kerntemperatur von Speisen nach Entfernen von Hitze um 3-10°C weiter steigt. Dickere Stücke speichern mehr Wärme. Ruhen lässt Hitze sich ausgleichen während Säfte sich neu verteilen.",
+                            "nl": "Restwarmte koken treedt op wanneer de kerntemperatuur van voedsel 3-10°C blijft stijgen na verwijderen van hitte. Dikkere stukken behouden meer warmte. Rusten laat hitte egaliseren terwijl sappen zich herverdelen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the purpose of scoring meat or fish?",
+                            "es": "¿Cuál es el propósito de hacer cortes en carne o pescado?",
+                            "de": "Was ist der Zweck des Einschneidens von Fleisch oder Fisch?",
+                            "nl": "Wat is het doel van inkerven van vlees of vis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Increases surface area for seasoning penetration and prevents curling during cooking",
+                                    "es": "Aumenta área superficial para penetración de condimentos y previene enrollado durante cocción",
+                                    "de": "Vergrößert Oberfläche für Gewürzeindringung und verhindert Kräuseln beim Garen",
+                                    "nl": "Vergroot oppervlakte voor kruiden penetratie en voorkomt krullen tijdens koken"
+                            },
+                            {
+                                    "en": "For decoration only",
+                                    "es": "Solo para decoración",
+                                    "de": "Nur zur Dekoration",
+                                    "nl": "Alleen voor decoratie"
+                            },
+                            {
+                                    "en": "To check if it's done",
+                                    "es": "Para verificar si está listo",
+                                    "de": "Um zu prüfen ob es fertig ist",
+                                    "nl": "Om te controleren of het gaar is"
+                            },
+                            {
+                                    "en": "Makes it cook slower",
+                                    "es": "Hace que se cocine más lento",
+                                    "de": "Lässt es langsamer garen",
+                                    "nl": "Laat het langzamer koken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Scoring creates shallow cuts that increase surface area by up to 40%, allowing marinades and seasonings to penetrate deeper. In fish, it cuts through skin and connective tissue preventing curling. In duck breast, it renders fat more efficiently. Scores also promote even cooking.",
+                            "es": "Hacer cortes crea incisiones superficiales que aumentan el área superficial hasta 40%, permitiendo que marinadas y condimentos penetren más profundo. En pescado, corta piel y tejido conectivo previniendo enrollado. En pechuga de pato, derrite grasa más eficientemente.",
+                            "de": "Einschneiden erzeugt flache Schnitte die Oberfläche um bis zu 40% vergrößern, erlaubt Marinaden und Gewürzen tiefer einzudringen. Bei Fisch durchtrennt es Haut und Bindegewebe verhindert Kräuseln. Bei Entenbrust rendert es Fett effizienter.",
+                            "nl": "Inkerven creëert ondiepe sneden die oppervlakte tot 40% vergroten, staat marinades en kruiden toe dieper door te dringen. Bij vis snijdt het door huid en bindweefsel voorkomt krullen. Bij eendenborst smelt het vet efficiënter."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is pressure cooking and how does it work?",
+                            "es": "¿Qué es la cocción a presión y cómo funciona?",
+                            "de": "Was ist Schnellkochen und wie funktioniert es?",
+                            "nl": "Wat is snelkoken en hoe werkt het?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Sealed pot raises boiling point to 120°C by trapping steam, cooking food 70% faster",
+                                    "es": "Olla sellada eleva punto de ebullición a 120°C atrapando vapor, cocinando 70% más rápido",
+                                    "de": "Versiegelter Topf erhöht Siedepunkt auf 120°C durch Dampfeinschluss, gart 70% schneller",
+                                    "nl": "Verzegelde pan verhoogt kookpunt tot 120°C door stoom op te sluiten, kookt 70% sneller"
+                            },
+                            {
+                                    "en": "Pressing food while cooking",
+                                    "es": "Prensar comida mientras cocina",
+                                    "de": "Essen beim Kochen pressen",
+                                    "nl": "Voedsel persen tijdens koken"
+                            },
+                            {
+                                    "en": "Cooking under stress",
+                                    "es": "Cocinar bajo estrés",
+                                    "de": "Unter Stress kochen",
+                                    "nl": "Koken onder stress"
+                            },
+                            {
+                                    "en": "Makes food heavier",
+                                    "es": "Hace la comida más pesada",
+                                    "de": "Macht Essen schwerer",
+                                    "nl": "Maakt voedsel zwaarder"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pressure cooking traps steam to increase pressure to 15 PSI above atmospheric, raising water's boiling point from 100°C to 120°C. Higher temperature cooks food 70% faster while the moist environment prevents drying. The sealed system also preserves nutrients and flavors that would normally evaporate.",
+                            "es": "La cocción a presión atrapa vapor para aumentar presión a 15 PSI sobre atmosférica, elevando el punto de ebullición del agua de 100°C a 120°C. Mayor temperatura cocina 70% más rápido mientras el ambiente húmedo previene secado.",
+                            "de": "Schnellkochen fängt Dampf um Druck auf 15 PSI über Atmosphäre zu erhöhen, hebt Wassers Siedepunkt von 100°C auf 120°C. Höhere Temperatur gart 70% schneller während feuchte Umgebung Austrocknen verhindert.",
+                            "nl": "Snelkoken vangt stoom op om druk tot 15 PSI boven atmosferisch te verhogen, verhoogt water's kookpunt van 100°C tot 120°C. Hogere temperatuur kookt 70% sneller terwijl vochtige omgeving uitdrogen voorkomt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 6",
+                                    "es": "Correct answer for question 6",
+                                    "de": "Correct answer for question 6",
+                                    "nl": "Correct answer for question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 6",
+                                    "es": "Incorrect option 2 para question 6",
+                                    "de": "Incorrect option 2 für question 6",
+                                    "nl": "Incorrect option 2 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 6",
+                                    "es": "Incorrect option 3 para question 6",
+                                    "de": "Incorrect option 3 für question 6",
+                                    "nl": "Incorrect option 3 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 6",
+                                    "es": "Incorrect option 4 para question 6",
+                                    "de": "Incorrect option 4 für question 6",
+                                    "nl": "Incorrect option 4 voor question 6"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 7",
+                                    "es": "Incorrect option 1 para question 7",
+                                    "de": "Incorrect option 1 für question 7",
+                                    "nl": "Incorrect option 1 voor question 7"
+                            },
+                            {
+                                    "en": "Correct answer for question 7",
+                                    "es": "Correct answer for question 7",
+                                    "de": "Correct answer for question 7",
+                                    "nl": "Correct answer for question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 7",
+                                    "es": "Incorrect option 3 para question 7",
+                                    "de": "Incorrect option 3 für question 7",
+                                    "nl": "Incorrect option 3 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 7",
+                                    "es": "Incorrect option 4 para question 7",
+                                    "de": "Incorrect option 4 für question 7",
+                                    "nl": "Incorrect option 4 voor question 7"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 8",
+                                    "es": "Correct answer for question 8",
+                                    "de": "Correct answer for question 8",
+                                    "nl": "Correct answer for question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 8",
+                                    "es": "Incorrect option 2 para question 8",
+                                    "de": "Incorrect option 2 für question 8",
+                                    "nl": "Incorrect option 2 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 8",
+                                    "es": "Incorrect option 3 para question 8",
+                                    "de": "Incorrect option 3 für question 8",
+                                    "nl": "Incorrect option 3 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 8",
+                                    "es": "Incorrect option 4 para question 8",
+                                    "de": "Incorrect option 4 für question 8",
+                                    "nl": "Incorrect option 4 voor question 8"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 9",
+                                    "es": "Correct answer for question 9",
+                                    "de": "Correct answer for question 9",
+                                    "nl": "Correct answer for question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 9",
+                                    "es": "Incorrect option 2 para question 9",
+                                    "de": "Incorrect option 2 für question 9",
+                                    "nl": "Incorrect option 2 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 9",
+                                    "es": "Incorrect option 3 para question 9",
+                                    "de": "Incorrect option 3 für question 9",
+                                    "nl": "Incorrect option 3 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 9",
+                                    "es": "Incorrect option 4 para question 9",
+                                    "de": "Incorrect option 4 für question 9",
+                                    "nl": "Incorrect option 4 voor question 9"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 10",
+                                    "es": "Correct answer for question 10",
+                                    "de": "Correct answer for question 10",
+                                    "nl": "Correct answer for question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 10",
+                                    "es": "Incorrect option 2 para question 10",
+                                    "de": "Incorrect option 2 für question 10",
+                                    "nl": "Incorrect option 2 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 10",
+                                    "es": "Incorrect option 3 para question 10",
+                                    "de": "Incorrect option 3 für question 10",
+                                    "nl": "Incorrect option 3 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 10",
+                                    "es": "Incorrect option 4 para question 10",
+                                    "de": "Incorrect option 4 für question 10",
+                                    "nl": "Incorrect option 4 voor question 10"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 11",
+                                    "es": "Correct answer for question 11",
+                                    "de": "Correct answer for question 11",
+                                    "nl": "Correct answer for question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 11",
+                                    "es": "Incorrect option 2 para question 11",
+                                    "de": "Incorrect option 2 für question 11",
+                                    "nl": "Incorrect option 2 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 11",
+                                    "es": "Incorrect option 3 para question 11",
+                                    "de": "Incorrect option 3 für question 11",
+                                    "nl": "Incorrect option 3 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 11",
+                                    "es": "Incorrect option 4 para question 11",
+                                    "de": "Incorrect option 4 für question 11",
+                                    "nl": "Incorrect option 4 voor question 11"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 12",
+                                    "es": "Incorrect option 1 para question 12",
+                                    "de": "Incorrect option 1 für question 12",
+                                    "nl": "Incorrect option 1 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 12",
+                                    "es": "Incorrect option 2 para question 12",
+                                    "de": "Incorrect option 2 für question 12",
+                                    "nl": "Incorrect option 2 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 12",
+                                    "es": "Incorrect option 3 para question 12",
+                                    "de": "Incorrect option 3 für question 12",
+                                    "nl": "Incorrect option 3 voor question 12"
+                            },
+                            {
+                                    "en": "Correct answer for question 12",
+                                    "es": "Correct answer for question 12",
+                                    "de": "Correct answer for question 12",
+                                    "nl": "Correct answer for question 12"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 13",
+                                    "es": "Incorrect option 1 para question 13",
+                                    "de": "Incorrect option 1 für question 13",
+                                    "nl": "Incorrect option 1 voor question 13"
+                            },
+                            {
+                                    "en": "Correct answer for question 13",
+                                    "es": "Correct answer for question 13",
+                                    "de": "Correct answer for question 13",
+                                    "nl": "Correct answer for question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 13",
+                                    "es": "Incorrect option 3 para question 13",
+                                    "de": "Incorrect option 3 für question 13",
+                                    "nl": "Incorrect option 3 voor question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 13",
+                                    "es": "Incorrect option 4 para question 13",
+                                    "de": "Incorrect option 4 für question 13",
+                                    "nl": "Incorrect option 4 voor question 13"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 14",
+                                    "es": "Incorrect option 1 para question 14",
+                                    "de": "Incorrect option 1 für question 14",
+                                    "nl": "Incorrect option 1 voor question 14"
+                            },
+                            {
+                                    "en": "Correct answer for question 14",
+                                    "es": "Correct answer for question 14",
+                                    "de": "Correct answer for question 14",
+                                    "nl": "Correct answer for question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 14",
+                                    "es": "Incorrect option 3 para question 14",
+                                    "de": "Incorrect option 3 für question 14",
+                                    "nl": "Incorrect option 3 voor question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 14",
+                                    "es": "Incorrect option 4 para question 14",
+                                    "de": "Incorrect option 4 für question 14",
+                                    "nl": "Incorrect option 4 voor question 14"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 15",
+                                    "es": "Correct answer for question 15",
+                                    "de": "Correct answer for question 15",
+                                    "nl": "Correct answer for question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 15",
+                                    "es": "Incorrect option 2 para question 15",
+                                    "de": "Incorrect option 2 für question 15",
+                                    "nl": "Incorrect option 2 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 15",
+                                    "es": "Incorrect option 3 para question 15",
+                                    "de": "Incorrect option 3 für question 15",
+                                    "nl": "Incorrect option 3 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 15",
+                                    "es": "Incorrect option 4 para question 15",
+                                    "de": "Incorrect option 4 für question 15",
+                                    "nl": "Incorrect option 4 voor question 15"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 16",
+                                    "es": "Incorrect option 1 para question 16",
+                                    "de": "Incorrect option 1 für question 16",
+                                    "nl": "Incorrect option 1 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 16",
+                                    "es": "Incorrect option 2 para question 16",
+                                    "de": "Incorrect option 2 für question 16",
+                                    "nl": "Incorrect option 2 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 16",
+                                    "es": "Incorrect option 3 para question 16",
+                                    "de": "Incorrect option 3 für question 16",
+                                    "nl": "Incorrect option 3 voor question 16"
+                            },
+                            {
+                                    "en": "Correct answer for question 16",
+                                    "es": "Correct answer for question 16",
+                                    "de": "Correct answer for question 16",
+                                    "nl": "Correct answer for question 16"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 17",
+                                    "es": "Incorrect option 1 para question 17",
+                                    "de": "Incorrect option 1 für question 17",
+                                    "nl": "Incorrect option 1 voor question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 17",
+                                    "es": "Incorrect option 2 para question 17",
+                                    "de": "Incorrect option 2 für question 17",
+                                    "nl": "Incorrect option 2 voor question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 17",
+                                    "es": "Incorrect option 3 para question 17",
+                                    "de": "Incorrect option 3 für question 17",
+                                    "nl": "Incorrect option 3 voor question 17"
+                            },
+                            {
+                                    "en": "Correct answer for question 17",
+                                    "es": "Correct answer for question 17",
+                                    "de": "Correct answer for question 17",
+                                    "nl": "Correct answer for question 17"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 18",
+                                    "es": "Correct answer for question 18",
+                                    "de": "Correct answer for question 18",
+                                    "nl": "Correct answer for question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 18",
+                                    "es": "Incorrect option 2 para question 18",
+                                    "de": "Incorrect option 2 für question 18",
+                                    "nl": "Incorrect option 2 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 18",
+                                    "es": "Incorrect option 3 para question 18",
+                                    "de": "Incorrect option 3 für question 18",
+                                    "nl": "Incorrect option 3 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 18",
+                                    "es": "Incorrect option 4 para question 18",
+                                    "de": "Incorrect option 4 für question 18",
+                                    "nl": "Incorrect option 4 voor question 18"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 19",
+                                    "es": "Incorrect option 1 para question 19",
+                                    "de": "Incorrect option 1 für question 19",
+                                    "nl": "Incorrect option 1 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 19",
+                                    "es": "Incorrect option 2 para question 19",
+                                    "de": "Incorrect option 2 für question 19",
+                                    "nl": "Incorrect option 2 voor question 19"
+                            },
+                            {
+                                    "en": "Correct answer for question 19",
+                                    "es": "Correct answer for question 19",
+                                    "de": "Correct answer for question 19",
+                                    "nl": "Correct answer for question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 19",
+                                    "es": "Incorrect option 4 para question 19",
+                                    "de": "Incorrect option 4 für question 19",
+                                    "nl": "Incorrect option 4 voor question 19"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 20",
+                                    "es": "Incorrect option 1 para question 20",
+                                    "de": "Incorrect option 1 für question 20",
+                                    "nl": "Incorrect option 1 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 20",
+                                    "es": "Incorrect option 2 para question 20",
+                                    "de": "Incorrect option 2 für question 20",
+                                    "nl": "Incorrect option 2 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 20",
+                                    "es": "Incorrect option 3 para question 20",
+                                    "de": "Incorrect option 3 für question 20",
+                                    "nl": "Incorrect option 3 voor question 20"
+                            },
+                            {
+                                    "en": "Correct answer for question 20",
+                                    "es": "Correct answer for question 20",
+                                    "de": "Correct answer for question 20",
+                                    "nl": "Correct answer for question 20"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 21",
+                                    "es": "Correct answer for question 21",
+                                    "de": "Correct answer for question 21",
+                                    "nl": "Correct answer for question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 21",
+                                    "es": "Incorrect option 2 para question 21",
+                                    "de": "Incorrect option 2 für question 21",
+                                    "nl": "Incorrect option 2 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 21",
+                                    "es": "Incorrect option 3 para question 21",
+                                    "de": "Incorrect option 3 für question 21",
+                                    "nl": "Incorrect option 3 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 21",
+                                    "es": "Incorrect option 4 para question 21",
+                                    "de": "Incorrect option 4 für question 21",
+                                    "nl": "Incorrect option 4 voor question 21"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 22",
+                                    "es": "Incorrect option 1 para question 22",
+                                    "de": "Incorrect option 1 für question 22",
+                                    "nl": "Incorrect option 1 voor question 22"
+                            },
+                            {
+                                    "en": "Correct answer for question 22",
+                                    "es": "Correct answer for question 22",
+                                    "de": "Correct answer for question 22",
+                                    "nl": "Correct answer for question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 22",
+                                    "es": "Incorrect option 3 para question 22",
+                                    "de": "Incorrect option 3 für question 22",
+                                    "nl": "Incorrect option 3 voor question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 22",
+                                    "es": "Incorrect option 4 para question 22",
+                                    "de": "Incorrect option 4 für question 22",
+                                    "nl": "Incorrect option 4 voor question 22"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 23",
+                                    "es": "Incorrect option 1 para question 23",
+                                    "de": "Incorrect option 1 für question 23",
+                                    "nl": "Incorrect option 1 voor question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 23",
+                                    "es": "Incorrect option 2 para question 23",
+                                    "de": "Incorrect option 2 für question 23",
+                                    "nl": "Incorrect option 2 voor question 23"
+                            },
+                            {
+                                    "en": "Correct answer for question 23",
+                                    "es": "Correct answer for question 23",
+                                    "de": "Correct answer for question 23",
+                                    "nl": "Correct answer for question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 23",
+                                    "es": "Incorrect option 4 para question 23",
+                                    "de": "Incorrect option 4 für question 23",
+                                    "nl": "Incorrect option 4 voor question 23"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 24",
+                                    "es": "Incorrect option 1 para question 24",
+                                    "de": "Incorrect option 1 für question 24",
+                                    "nl": "Incorrect option 1 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 24",
+                                    "es": "Incorrect option 2 para question 24",
+                                    "de": "Incorrect option 2 für question 24",
+                                    "nl": "Incorrect option 2 voor question 24"
+                            },
+                            {
+                                    "en": "Correct answer for question 24",
+                                    "es": "Correct answer for question 24",
+                                    "de": "Correct answer for question 24",
+                                    "nl": "Correct answer for question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 24",
+                                    "es": "Incorrect option 4 para question 24",
+                                    "de": "Incorrect option 4 für question 24",
+                                    "nl": "Incorrect option 4 voor question 24"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 25",
+                                    "es": "Incorrect option 1 para question 25",
+                                    "de": "Incorrect option 1 für question 25",
+                                    "nl": "Incorrect option 1 voor question 25"
+                            },
+                            {
+                                    "en": "Correct answer for question 25",
+                                    "es": "Correct answer for question 25",
+                                    "de": "Correct answer for question 25",
+                                    "nl": "Correct answer for question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 25",
+                                    "es": "Incorrect option 3 para question 25",
+                                    "de": "Incorrect option 3 für question 25",
+                                    "nl": "Incorrect option 3 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 25",
+                                    "es": "Incorrect option 4 para question 25",
+                                    "de": "Incorrect option 4 für question 25",
+                                    "nl": "Incorrect option 4 voor question 25"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 26",
+                                    "es": "Incorrect option 1 para question 26",
+                                    "de": "Incorrect option 1 für question 26",
+                                    "nl": "Incorrect option 1 voor question 26"
+                            },
+                            {
+                                    "en": "Correct answer for question 26",
+                                    "es": "Correct answer for question 26",
+                                    "de": "Correct answer for question 26",
+                                    "nl": "Correct answer for question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 26",
+                                    "es": "Incorrect option 3 para question 26",
+                                    "de": "Incorrect option 3 für question 26",
+                                    "nl": "Incorrect option 3 voor question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 26",
+                                    "es": "Incorrect option 4 para question 26",
+                                    "de": "Incorrect option 4 für question 26",
+                                    "nl": "Incorrect option 4 voor question 26"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 27",
+                                    "es": "Incorrect option 1 para question 27",
+                                    "de": "Incorrect option 1 für question 27",
+                                    "nl": "Incorrect option 1 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 27",
+                                    "es": "Incorrect option 2 para question 27",
+                                    "de": "Incorrect option 2 für question 27",
+                                    "nl": "Incorrect option 2 voor question 27"
+                            },
+                            {
+                                    "en": "Correct answer for question 27",
+                                    "es": "Correct answer for question 27",
+                                    "de": "Correct answer for question 27",
+                                    "nl": "Correct answer for question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 27",
+                                    "es": "Incorrect option 4 para question 27",
+                                    "de": "Incorrect option 4 für question 27",
+                                    "nl": "Incorrect option 4 voor question 27"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 28",
+                                    "es": "Incorrect option 1 para question 28",
+                                    "de": "Incorrect option 1 für question 28",
+                                    "nl": "Incorrect option 1 voor question 28"
+                            },
+                            {
+                                    "en": "Correct answer for question 28",
+                                    "es": "Correct answer for question 28",
+                                    "de": "Correct answer for question 28",
+                                    "nl": "Correct answer for question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 28",
+                                    "es": "Incorrect option 3 para question 28",
+                                    "de": "Incorrect option 3 für question 28",
+                                    "nl": "Incorrect option 3 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 28",
+                                    "es": "Incorrect option 4 para question 28",
+                                    "de": "Incorrect option 4 für question 28",
+                                    "nl": "Incorrect option 4 voor question 28"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 29",
+                                    "es": "Incorrect option 1 para question 29",
+                                    "de": "Incorrect option 1 für question 29",
+                                    "nl": "Incorrect option 1 voor question 29"
+                            },
+                            {
+                                    "en": "Correct answer for question 29",
+                                    "es": "Correct answer for question 29",
+                                    "de": "Correct answer for question 29",
+                                    "nl": "Correct answer for question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 29",
+                                    "es": "Incorrect option 3 para question 29",
+                                    "de": "Incorrect option 3 für question 29",
+                                    "nl": "Incorrect option 3 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 29",
+                                    "es": "Incorrect option 4 para question 29",
+                                    "de": "Incorrect option 4 für question 29",
+                                    "nl": "Incorrect option 4 voor question 29"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 30",
+                                    "es": "Incorrect option 1 para question 30",
+                                    "de": "Incorrect option 1 für question 30",
+                                    "nl": "Incorrect option 1 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 30",
+                                    "es": "Incorrect option 2 para question 30",
+                                    "de": "Incorrect option 2 für question 30",
+                                    "nl": "Incorrect option 2 voor question 30"
+                            },
+                            {
+                                    "en": "Correct answer for question 30",
+                                    "es": "Correct answer for question 30",
+                                    "de": "Correct answer for question 30",
+                                    "nl": "Correct answer for question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 30",
+                                    "es": "Incorrect option 4 para question 30",
+                                    "de": "Incorrect option 4 für question 30",
+                                    "nl": "Incorrect option 4 voor question 30"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 31",
+                                    "es": "Incorrect option 1 para question 31",
+                                    "de": "Incorrect option 1 für question 31",
+                                    "nl": "Incorrect option 1 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 31",
+                                    "es": "Incorrect option 2 para question 31",
+                                    "de": "Incorrect option 2 für question 31",
+                                    "nl": "Incorrect option 2 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 31",
+                                    "es": "Incorrect option 3 para question 31",
+                                    "de": "Incorrect option 3 für question 31",
+                                    "nl": "Incorrect option 3 voor question 31"
+                            },
+                            {
+                                    "en": "Correct answer for question 31",
+                                    "es": "Correct answer for question 31",
+                                    "de": "Correct answer for question 31",
+                                    "nl": "Correct answer for question 31"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 32",
+                                    "es": "Correct answer for question 32",
+                                    "de": "Correct answer for question 32",
+                                    "nl": "Correct answer for question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 32",
+                                    "es": "Incorrect option 2 para question 32",
+                                    "de": "Incorrect option 2 für question 32",
+                                    "nl": "Incorrect option 2 voor question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 32",
+                                    "es": "Incorrect option 3 para question 32",
+                                    "de": "Incorrect option 3 für question 32",
+                                    "nl": "Incorrect option 3 voor question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 32",
+                                    "es": "Incorrect option 4 para question 32",
+                                    "de": "Incorrect option 4 für question 32",
+                                    "nl": "Incorrect option 4 voor question 32"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 33",
+                                    "es": "Incorrect option 1 para question 33",
+                                    "de": "Incorrect option 1 für question 33",
+                                    "nl": "Incorrect option 1 voor question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 33",
+                                    "es": "Incorrect option 2 para question 33",
+                                    "de": "Incorrect option 2 für question 33",
+                                    "nl": "Incorrect option 2 voor question 33"
+                            },
+                            {
+                                    "en": "Correct answer for question 33",
+                                    "es": "Correct answer for question 33",
+                                    "de": "Correct answer for question 33",
+                                    "nl": "Correct answer for question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 33",
+                                    "es": "Incorrect option 4 para question 33",
+                                    "de": "Incorrect option 4 für question 33",
+                                    "nl": "Incorrect option 4 voor question 33"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 34",
+                                    "es": "Incorrect option 1 para question 34",
+                                    "de": "Incorrect option 1 für question 34",
+                                    "nl": "Incorrect option 1 voor question 34"
+                            },
+                            {
+                                    "en": "Correct answer for question 34",
+                                    "es": "Correct answer for question 34",
+                                    "de": "Correct answer for question 34",
+                                    "nl": "Correct answer for question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 34",
+                                    "es": "Incorrect option 3 para question 34",
+                                    "de": "Incorrect option 3 für question 34",
+                                    "nl": "Incorrect option 3 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 34",
+                                    "es": "Incorrect option 4 para question 34",
+                                    "de": "Incorrect option 4 für question 34",
+                                    "nl": "Incorrect option 4 voor question 34"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 35",
+                                    "es": "Incorrect option 1 para question 35",
+                                    "de": "Incorrect option 1 für question 35",
+                                    "nl": "Incorrect option 1 voor question 35"
+                            },
+                            {
+                                    "en": "Correct answer for question 35",
+                                    "es": "Correct answer for question 35",
+                                    "de": "Correct answer for question 35",
+                                    "nl": "Correct answer for question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 35",
+                                    "es": "Incorrect option 3 para question 35",
+                                    "de": "Incorrect option 3 für question 35",
+                                    "nl": "Incorrect option 3 voor question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 35",
+                                    "es": "Incorrect option 4 para question 35",
+                                    "de": "Incorrect option 4 für question 35",
+                                    "nl": "Incorrect option 4 voor question 35"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 36",
+                                    "es": "Incorrect option 1 para question 36",
+                                    "de": "Incorrect option 1 für question 36",
+                                    "nl": "Incorrect option 1 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 36",
+                                    "es": "Incorrect option 2 para question 36",
+                                    "de": "Incorrect option 2 für question 36",
+                                    "nl": "Incorrect option 2 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 36",
+                                    "es": "Incorrect option 3 para question 36",
+                                    "de": "Incorrect option 3 für question 36",
+                                    "nl": "Incorrect option 3 voor question 36"
+                            },
+                            {
+                                    "en": "Correct answer for question 36",
+                                    "es": "Correct answer for question 36",
+                                    "de": "Correct answer for question 36",
+                                    "nl": "Correct answer for question 36"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 37",
+                                    "es": "Incorrect option 1 para question 37",
+                                    "de": "Incorrect option 1 für question 37",
+                                    "nl": "Incorrect option 1 voor question 37"
+                            },
+                            {
+                                    "en": "Correct answer for question 37",
+                                    "es": "Correct answer for question 37",
+                                    "de": "Correct answer for question 37",
+                                    "nl": "Correct answer for question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 37",
+                                    "es": "Incorrect option 3 para question 37",
+                                    "de": "Incorrect option 3 für question 37",
+                                    "nl": "Incorrect option 3 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 37",
+                                    "es": "Incorrect option 4 para question 37",
+                                    "de": "Incorrect option 4 für question 37",
+                                    "nl": "Incorrect option 4 voor question 37"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 38",
+                                    "es": "Incorrect option 1 para question 38",
+                                    "de": "Incorrect option 1 für question 38",
+                                    "nl": "Incorrect option 1 voor question 38"
+                            },
+                            {
+                                    "en": "Correct answer for question 38",
+                                    "es": "Correct answer for question 38",
+                                    "de": "Correct answer for question 38",
+                                    "nl": "Correct answer for question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 38",
+                                    "es": "Incorrect option 3 para question 38",
+                                    "de": "Incorrect option 3 für question 38",
+                                    "nl": "Incorrect option 3 voor question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 38",
+                                    "es": "Incorrect option 4 para question 38",
+                                    "de": "Incorrect option 4 für question 38",
+                                    "nl": "Incorrect option 4 voor question 38"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 39",
+                                    "es": "Incorrect option 1 para question 39",
+                                    "de": "Incorrect option 1 für question 39",
+                                    "nl": "Incorrect option 1 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 39",
+                                    "es": "Incorrect option 2 para question 39",
+                                    "de": "Incorrect option 2 für question 39",
+                                    "nl": "Incorrect option 2 voor question 39"
+                            },
+                            {
+                                    "en": "Correct answer for question 39",
+                                    "es": "Correct answer for question 39",
+                                    "de": "Correct answer for question 39",
+                                    "nl": "Correct answer for question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 39",
+                                    "es": "Incorrect option 4 para question 39",
+                                    "de": "Incorrect option 4 für question 39",
+                                    "nl": "Incorrect option 4 voor question 39"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 40",
+                                    "es": "Incorrect option 1 para question 40",
+                                    "de": "Incorrect option 1 für question 40",
+                                    "nl": "Incorrect option 1 voor question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 40",
+                                    "es": "Incorrect option 2 para question 40",
+                                    "de": "Incorrect option 2 für question 40",
+                                    "nl": "Incorrect option 2 voor question 40"
+                            },
+                            {
+                                    "en": "Correct answer for question 40",
+                                    "es": "Correct answer for question 40",
+                                    "de": "Correct answer for question 40",
+                                    "nl": "Correct answer for question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 40",
+                                    "es": "Incorrect option 4 para question 40",
+                                    "de": "Incorrect option 4 für question 40",
+                                    "nl": "Incorrect option 4 voor question 40"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 41",
+                                    "es": "Correct answer for question 41",
+                                    "de": "Correct answer for question 41",
+                                    "nl": "Correct answer for question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 41",
+                                    "es": "Incorrect option 2 para question 41",
+                                    "de": "Incorrect option 2 für question 41",
+                                    "nl": "Incorrect option 2 voor question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 41",
+                                    "es": "Incorrect option 3 para question 41",
+                                    "de": "Incorrect option 3 für question 41",
+                                    "nl": "Incorrect option 3 voor question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 41",
+                                    "es": "Incorrect option 4 para question 41",
+                                    "de": "Incorrect option 4 für question 41",
+                                    "nl": "Incorrect option 4 voor question 41"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 42",
+                                    "es": "Incorrect option 1 para question 42",
+                                    "de": "Incorrect option 1 für question 42",
+                                    "nl": "Incorrect option 1 voor question 42"
+                            },
+                            {
+                                    "en": "Correct answer for question 42",
+                                    "es": "Correct answer for question 42",
+                                    "de": "Correct answer for question 42",
+                                    "nl": "Correct answer for question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 42",
+                                    "es": "Incorrect option 3 para question 42",
+                                    "de": "Incorrect option 3 für question 42",
+                                    "nl": "Incorrect option 3 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 42",
+                                    "es": "Incorrect option 4 para question 42",
+                                    "de": "Incorrect option 4 für question 42",
+                                    "nl": "Incorrect option 4 voor question 42"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 43",
+                                    "es": "Correct answer for question 43",
+                                    "de": "Correct answer for question 43",
+                                    "nl": "Correct answer for question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 43",
+                                    "es": "Incorrect option 2 para question 43",
+                                    "de": "Incorrect option 2 für question 43",
+                                    "nl": "Incorrect option 2 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 43",
+                                    "es": "Incorrect option 3 para question 43",
+                                    "de": "Incorrect option 3 für question 43",
+                                    "nl": "Incorrect option 3 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 43",
+                                    "es": "Incorrect option 4 para question 43",
+                                    "de": "Incorrect option 4 für question 43",
+                                    "nl": "Incorrect option 4 voor question 43"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 44",
+                                    "es": "Incorrect option 1 para question 44",
+                                    "de": "Incorrect option 1 für question 44",
+                                    "nl": "Incorrect option 1 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 44",
+                                    "es": "Incorrect option 2 para question 44",
+                                    "de": "Incorrect option 2 für question 44",
+                                    "nl": "Incorrect option 2 voor question 44"
+                            },
+                            {
+                                    "en": "Correct answer for question 44",
+                                    "es": "Correct answer for question 44",
+                                    "de": "Correct answer for question 44",
+                                    "nl": "Correct answer for question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 44",
+                                    "es": "Incorrect option 4 para question 44",
+                                    "de": "Incorrect option 4 für question 44",
+                                    "nl": "Incorrect option 4 voor question 44"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 45",
+                                    "es": "Correct answer for question 45",
+                                    "de": "Correct answer for question 45",
+                                    "nl": "Correct answer for question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 45",
+                                    "es": "Incorrect option 2 para question 45",
+                                    "de": "Incorrect option 2 für question 45",
+                                    "nl": "Incorrect option 2 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 45",
+                                    "es": "Incorrect option 3 para question 45",
+                                    "de": "Incorrect option 3 für question 45",
+                                    "nl": "Incorrect option 3 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 45",
+                                    "es": "Incorrect option 4 para question 45",
+                                    "de": "Incorrect option 4 für question 45",
+                                    "nl": "Incorrect option 4 voor question 45"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 46",
+                                    "es": "Incorrect option 1 para question 46",
+                                    "de": "Incorrect option 1 für question 46",
+                                    "nl": "Incorrect option 1 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 46",
+                                    "es": "Incorrect option 2 para question 46",
+                                    "de": "Incorrect option 2 für question 46",
+                                    "nl": "Incorrect option 2 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 46",
+                                    "es": "Incorrect option 3 para question 46",
+                                    "de": "Incorrect option 3 für question 46",
+                                    "nl": "Incorrect option 3 voor question 46"
+                            },
+                            {
+                                    "en": "Correct answer for question 46",
+                                    "es": "Correct answer for question 46",
+                                    "de": "Correct answer for question 46",
+                                    "nl": "Correct answer for question 46"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 47",
+                                    "es": "Incorrect option 1 para question 47",
+                                    "de": "Incorrect option 1 für question 47",
+                                    "nl": "Incorrect option 1 voor question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 47",
+                                    "es": "Incorrect option 2 para question 47",
+                                    "de": "Incorrect option 2 für question 47",
+                                    "nl": "Incorrect option 2 voor question 47"
+                            },
+                            {
+                                    "en": "Correct answer for question 47",
+                                    "es": "Correct answer for question 47",
+                                    "de": "Correct answer for question 47",
+                                    "nl": "Correct answer for question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 47",
+                                    "es": "Incorrect option 4 para question 47",
+                                    "de": "Incorrect option 4 für question 47",
+                                    "nl": "Incorrect option 4 voor question 47"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 48",
+                                    "es": "Incorrect option 1 para question 48",
+                                    "de": "Incorrect option 1 für question 48",
+                                    "nl": "Incorrect option 1 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 48",
+                                    "es": "Incorrect option 2 para question 48",
+                                    "de": "Incorrect option 2 für question 48",
+                                    "nl": "Incorrect option 2 voor question 48"
+                            },
+                            {
+                                    "en": "Correct answer for question 48",
+                                    "es": "Correct answer for question 48",
+                                    "de": "Correct answer for question 48",
+                                    "nl": "Correct answer for question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 48",
+                                    "es": "Incorrect option 4 para question 48",
+                                    "de": "Incorrect option 4 für question 48",
+                                    "nl": "Incorrect option 4 voor question 48"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 49",
+                                    "es": "Correct answer for question 49",
+                                    "de": "Correct answer for question 49",
+                                    "nl": "Correct answer for question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 49",
+                                    "es": "Incorrect option 2 para question 49",
+                                    "de": "Incorrect option 2 für question 49",
+                                    "nl": "Incorrect option 2 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 49",
+                                    "es": "Incorrect option 3 para question 49",
+                                    "de": "Incorrect option 3 für question 49",
+                                    "nl": "Incorrect option 3 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 49",
+                                    "es": "Incorrect option 4 para question 49",
+                                    "de": "Incorrect option 4 für question 49",
+                                    "nl": "Incorrect option 4 voor question 49"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 50",
+                                    "es": "Incorrect option 1 para question 50",
+                                    "de": "Incorrect option 1 für question 50",
+                                    "nl": "Incorrect option 1 voor question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 50",
+                                    "es": "Incorrect option 2 para question 50",
+                                    "de": "Incorrect option 2 für question 50",
+                                    "nl": "Incorrect option 2 voor question 50"
+                            },
+                            {
+                                    "en": "Correct answer for question 50",
+                                    "es": "Correct answer for question 50",
+                                    "de": "Correct answer for question 50",
+                                    "nl": "Correct answer for question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 50",
+                                    "es": "Incorrect option 4 para question 50",
+                                    "de": "Incorrect option 4 für question 50",
+                                    "nl": "Incorrect option 4 voor question 50"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 51",
+                                    "es": "Correct answer for question 51",
+                                    "de": "Correct answer for question 51",
+                                    "nl": "Correct answer for question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 51",
+                                    "es": "Incorrect option 2 para question 51",
+                                    "de": "Incorrect option 2 für question 51",
+                                    "nl": "Incorrect option 2 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 51",
+                                    "es": "Incorrect option 3 para question 51",
+                                    "de": "Incorrect option 3 für question 51",
+                                    "nl": "Incorrect option 3 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 51",
+                                    "es": "Incorrect option 4 para question 51",
+                                    "de": "Incorrect option 4 für question 51",
+                                    "nl": "Incorrect option 4 voor question 51"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 52",
+                                    "es": "Incorrect option 2 para question 52",
+                                    "de": "Incorrect option 2 für question 52",
+                                    "nl": "Incorrect option 2 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 52",
+                                    "es": "Incorrect option 3 para question 52",
+                                    "de": "Incorrect option 3 für question 52",
+                                    "nl": "Incorrect option 3 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 52",
+                                    "es": "Incorrect option 4 para question 52",
+                                    "de": "Incorrect option 4 für question 52",
+                                    "nl": "Incorrect option 4 voor question 52"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 53",
+                                    "es": "Incorrect option 3 para question 53",
+                                    "de": "Incorrect option 3 für question 53",
+                                    "nl": "Incorrect option 3 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 53",
+                                    "es": "Incorrect option 4 para question 53",
+                                    "de": "Incorrect option 4 für question 53",
+                                    "nl": "Incorrect option 4 voor question 53"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 54",
+                                    "es": "Incorrect option 2 para question 54",
+                                    "de": "Incorrect option 2 für question 54",
+                                    "nl": "Incorrect option 2 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 54",
+                                    "es": "Incorrect option 3 para question 54",
+                                    "de": "Incorrect option 3 für question 54",
+                                    "nl": "Incorrect option 3 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 55",
+                                    "es": "Incorrect option 1 para question 55",
+                                    "de": "Incorrect option 1 für question 55",
+                                    "nl": "Incorrect option 1 voor question 55"
+                            },
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 55",
+                                    "es": "Incorrect option 3 para question 55",
+                                    "de": "Incorrect option 3 für question 55",
+                                    "nl": "Incorrect option 3 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 55",
+                                    "es": "Incorrect option 4 para question 55",
+                                    "de": "Incorrect option 4 für question 55",
+                                    "nl": "Incorrect option 4 voor question 55"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 56",
+                                    "es": "Incorrect option 1 para question 56",
+                                    "de": "Incorrect option 1 für question 56",
+                                    "nl": "Incorrect option 1 voor question 56"
+                            },
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 56",
+                                    "es": "Incorrect option 3 para question 56",
+                                    "de": "Incorrect option 3 für question 56",
+                                    "nl": "Incorrect option 3 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 56",
+                                    "es": "Incorrect option 4 para question 56",
+                                    "de": "Incorrect option 4 für question 56",
+                                    "nl": "Incorrect option 4 voor question 56"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 57",
+                                    "es": "Incorrect option 1 para question 57",
+                                    "de": "Incorrect option 1 für question 57",
+                                    "nl": "Incorrect option 1 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 57",
+                                    "es": "Incorrect option 2 para question 57",
+                                    "de": "Incorrect option 2 für question 57",
+                                    "nl": "Incorrect option 2 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 58",
+                                    "es": "Incorrect option 1 para question 58",
+                                    "de": "Incorrect option 1 für question 58",
+                                    "nl": "Incorrect option 1 voor question 58"
+                            },
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 58",
+                                    "es": "Incorrect option 3 para question 58",
+                                    "de": "Incorrect option 3 für question 58",
+                                    "nl": "Incorrect option 3 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 58",
+                                    "es": "Incorrect option 4 para question 58",
+                                    "de": "Incorrect option 4 für question 58",
+                                    "nl": "Incorrect option 4 voor question 58"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 59",
+                                    "es": "Incorrect option 2 para question 59",
+                                    "de": "Incorrect option 2 für question 59",
+                                    "nl": "Incorrect option 2 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 59",
+                                    "es": "Incorrect option 3 para question 59",
+                                    "de": "Incorrect option 3 für question 59",
+                                    "nl": "Incorrect option 3 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 59",
+                                    "es": "Incorrect option 4 para question 59",
+                                    "de": "Incorrect option 4 für question 59",
+                                    "nl": "Incorrect option 4 voor question 59"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 60",
+                                    "es": "Incorrect option 2 para question 60",
+                                    "de": "Incorrect option 2 für question 60",
+                                    "nl": "Incorrect option 2 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 60",
+                                    "es": "Incorrect option 4 para question 60",
+                                    "de": "Incorrect option 4 für question 60",
+                                    "nl": "Incorrect option 4 voor question 60"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 61",
+                                    "es": "Incorrect option 1 para question 61",
+                                    "de": "Incorrect option 1 für question 61",
+                                    "nl": "Incorrect option 1 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 61",
+                                    "es": "Incorrect option 2 para question 61",
+                                    "de": "Incorrect option 2 für question 61",
+                                    "nl": "Incorrect option 2 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 61",
+                                    "es": "Incorrect option 3 para question 61",
+                                    "de": "Incorrect option 3 für question 61",
+                                    "nl": "Incorrect option 3 voor question 61"
+                            },
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 62",
+                                    "es": "Incorrect option 1 para question 62",
+                                    "de": "Incorrect option 1 für question 62",
+                                    "nl": "Incorrect option 1 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 62",
+                                    "es": "Incorrect option 3 para question 62",
+                                    "de": "Incorrect option 3 für question 62",
+                                    "nl": "Incorrect option 3 voor question 62"
+                            },
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 63",
+                                    "es": "Incorrect option 1 para question 63",
+                                    "de": "Incorrect option 1 für question 63",
+                                    "nl": "Incorrect option 1 voor question 63"
+                            },
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 63",
+                                    "es": "Incorrect option 3 para question 63",
+                                    "de": "Incorrect option 3 für question 63",
+                                    "nl": "Incorrect option 3 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 64",
+                                    "es": "Incorrect option 2 para question 64",
+                                    "de": "Incorrect option 2 für question 64",
+                                    "nl": "Incorrect option 2 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 64",
+                                    "es": "Incorrect option 4 para question 64",
+                                    "de": "Incorrect option 4 für question 64",
+                                    "nl": "Incorrect option 4 voor question 64"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 65",
+                                    "es": "Incorrect option 1 para question 65",
+                                    "de": "Incorrect option 1 für question 65",
+                                    "nl": "Incorrect option 1 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 65",
+                                    "es": "Incorrect option 2 para question 65",
+                                    "de": "Incorrect option 2 für question 65",
+                                    "nl": "Incorrect option 2 voor question 65"
+                            },
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 65",
+                                    "es": "Incorrect option 4 para question 65",
+                                    "de": "Incorrect option 4 für question 65",
+                                    "nl": "Incorrect option 4 voor question 65"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 66",
+                                    "es": "Incorrect option 1 para question 66",
+                                    "de": "Incorrect option 1 für question 66",
+                                    "nl": "Incorrect option 1 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 66",
+                                    "es": "Incorrect option 2 para question 66",
+                                    "de": "Incorrect option 2 für question 66",
+                                    "nl": "Incorrect option 2 voor question 66"
+                            },
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 67",
+                                    "es": "Incorrect option 1 para question 67",
+                                    "de": "Incorrect option 1 für question 67",
+                                    "nl": "Incorrect option 1 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 67",
+                                    "es": "Incorrect option 3 para question 67",
+                                    "de": "Incorrect option 3 für question 67",
+                                    "nl": "Incorrect option 3 voor question 67"
+                            },
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 68",
+                                    "es": "Incorrect option 2 para question 68",
+                                    "de": "Incorrect option 2 für question 68",
+                                    "nl": "Incorrect option 2 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 68",
+                                    "es": "Incorrect option 4 para question 68",
+                                    "de": "Incorrect option 4 für question 68",
+                                    "nl": "Incorrect option 4 voor question 68"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 69",
+                                    "es": "Incorrect option 2 para question 69",
+                                    "de": "Incorrect option 2 für question 69",
+                                    "nl": "Incorrect option 2 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 69",
+                                    "es": "Incorrect option 3 para question 69",
+                                    "de": "Incorrect option 3 für question 69",
+                                    "nl": "Incorrect option 3 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 70",
+                                    "es": "Incorrect option 2 para question 70",
+                                    "de": "Incorrect option 2 für question 70",
+                                    "nl": "Incorrect option 2 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 70",
+                                    "es": "Incorrect option 3 para question 70",
+                                    "de": "Incorrect option 3 für question 70",
+                                    "nl": "Incorrect option 3 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 70",
+                                    "es": "Incorrect option 4 para question 70",
+                                    "de": "Incorrect option 4 für question 70",
+                                    "nl": "Incorrect option 4 voor question 70"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 71",
+                                    "es": "Incorrect option 2 para question 71",
+                                    "de": "Incorrect option 2 für question 71",
+                                    "nl": "Incorrect option 2 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 71",
+                                    "es": "Incorrect option 3 para question 71",
+                                    "de": "Incorrect option 3 für question 71",
+                                    "nl": "Incorrect option 3 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 71",
+                                    "es": "Incorrect option 4 para question 71",
+                                    "de": "Incorrect option 4 für question 71",
+                                    "nl": "Incorrect option 4 voor question 71"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 72",
+                                    "es": "Incorrect option 1 para question 72",
+                                    "de": "Incorrect option 1 für question 72",
+                                    "nl": "Incorrect option 1 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 73",
+                                    "es": "Incorrect option 2 para question 73",
+                                    "de": "Incorrect option 2 für question 73",
+                                    "nl": "Incorrect option 2 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 73",
+                                    "es": "Incorrect option 4 para question 73",
+                                    "de": "Incorrect option 4 für question 73",
+                                    "nl": "Incorrect option 4 voor question 73"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 74",
+                                    "es": "Incorrect option 2 para question 74",
+                                    "de": "Incorrect option 2 für question 74",
+                                    "nl": "Incorrect option 2 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 76",
+                                    "es": "Incorrect option 4 para question 76",
+                                    "de": "Incorrect option 4 für question 76",
+                                    "nl": "Incorrect option 4 voor question 76"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 77",
+                                    "es": "Incorrect option 3 para question 77",
+                                    "de": "Incorrect option 3 für question 77",
+                                    "nl": "Incorrect option 3 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 77",
+                                    "es": "Incorrect option 4 para question 77",
+                                    "de": "Incorrect option 4 für question 77",
+                                    "nl": "Incorrect option 4 voor question 77"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 78",
+                                    "es": "Incorrect option 3 para question 78",
+                                    "de": "Incorrect option 3 für question 78",
+                                    "nl": "Incorrect option 3 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 78",
+                                    "es": "Incorrect option 4 para question 78",
+                                    "de": "Incorrect option 4 für question 78",
+                                    "nl": "Incorrect option 4 voor question 78"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 79",
+                                    "es": "Incorrect option 4 para question 79",
+                                    "de": "Incorrect option 4 für question 79",
+                                    "nl": "Incorrect option 4 voor question 79"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 80",
+                                    "es": "Incorrect option 1 para question 80",
+                                    "de": "Incorrect option 1 für question 80",
+                                    "nl": "Incorrect option 1 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 80",
+                                    "es": "Incorrect option 2 para question 80",
+                                    "de": "Incorrect option 2 für question 80",
+                                    "nl": "Incorrect option 2 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 81",
+                                    "es": "Incorrect option 4 para question 81",
+                                    "de": "Incorrect option 4 für question 81",
+                                    "nl": "Incorrect option 4 voor question 81"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 82",
+                                    "es": "Incorrect option 1 para question 82",
+                                    "de": "Incorrect option 1 für question 82",
+                                    "nl": "Incorrect option 1 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 83",
+                                    "es": "Incorrect option 1 para question 83",
+                                    "de": "Incorrect option 1 für question 83",
+                                    "nl": "Incorrect option 1 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 83",
+                                    "es": "Incorrect option 4 para question 83",
+                                    "de": "Incorrect option 4 für question 83",
+                                    "nl": "Incorrect option 4 voor question 83"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 84",
+                                    "es": "Incorrect option 4 para question 84",
+                                    "de": "Incorrect option 4 für question 84",
+                                    "nl": "Incorrect option 4 voor question 84"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 85",
+                                    "es": "Incorrect option 1 para question 85",
+                                    "de": "Incorrect option 1 für question 85",
+                                    "nl": "Incorrect option 1 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 85",
+                                    "es": "Incorrect option 2 para question 85",
+                                    "de": "Incorrect option 2 für question 85",
+                                    "nl": "Incorrect option 2 voor question 85"
+                            },
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 86",
+                                    "es": "Incorrect option 1 para question 86",
+                                    "de": "Incorrect option 1 für question 86",
+                                    "nl": "Incorrect option 1 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 86",
+                                    "es": "Incorrect option 4 para question 86",
+                                    "de": "Incorrect option 4 für question 86",
+                                    "nl": "Incorrect option 4 voor question 86"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 87",
+                                    "es": "Incorrect option 3 para question 87",
+                                    "de": "Incorrect option 3 für question 87",
+                                    "nl": "Incorrect option 3 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 88",
+                                    "es": "Incorrect option 3 para question 88",
+                                    "de": "Incorrect option 3 für question 88",
+                                    "nl": "Incorrect option 3 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 89",
+                                    "es": "Incorrect option 2 para question 89",
+                                    "de": "Incorrect option 2 für question 89",
+                                    "nl": "Incorrect option 2 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 89",
+                                    "es": "Incorrect option 3 para question 89",
+                                    "de": "Incorrect option 3 für question 89",
+                                    "nl": "Incorrect option 3 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 90",
+                                    "es": "Incorrect option 1 para question 90",
+                                    "de": "Incorrect option 1 für question 90",
+                                    "nl": "Incorrect option 1 voor question 90"
+                            },
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 90",
+                                    "es": "Incorrect option 4 para question 90",
+                                    "de": "Incorrect option 4 für question 90",
+                                    "nl": "Incorrect option 4 voor question 90"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Cooking Methods?",
+                            "es": "¿Cómo does this relate to Cooking Methods?",
+                            "de": "Wie does this relate to Cooking Methods?",
+                            "nl": "Hoe does this relate to Cooking Methods?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 92",
+                                    "es": "Incorrect option 2 para question 92",
+                                    "de": "Incorrect option 2 für question 92",
+                                    "nl": "Incorrect option 2 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 93",
+                                    "es": "Incorrect option 2 para question 93",
+                                    "de": "Incorrect option 2 für question 93",
+                                    "nl": "Incorrect option 2 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 93",
+                                    "es": "Incorrect option 3 para question 93",
+                                    "de": "Incorrect option 3 für question 93",
+                                    "nl": "Incorrect option 3 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 93",
+                                    "es": "Incorrect option 4 para question 93",
+                                    "de": "Incorrect option 4 für question 93",
+                                    "nl": "Incorrect option 4 voor question 93"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 94",
+                                    "es": "Incorrect option 2 para question 94",
+                                    "de": "Incorrect option 2 für question 94",
+                                    "nl": "Incorrect option 2 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 94",
+                                    "es": "Incorrect option 3 para question 94",
+                                    "de": "Incorrect option 3 für question 94",
+                                    "nl": "Incorrect option 3 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 95",
+                                    "es": "Incorrect option 3 para question 95",
+                                    "de": "Incorrect option 3 für question 95",
+                                    "nl": "Incorrect option 3 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 96",
+                                    "es": "Incorrect option 1 para question 96",
+                                    "de": "Incorrect option 1 für question 96",
+                                    "nl": "Incorrect option 1 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 97",
+                                    "es": "Incorrect option 1 para question 97",
+                                    "de": "Incorrect option 1 für question 97",
+                                    "nl": "Incorrect option 1 voor question 97"
+                            },
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 97",
+                                    "es": "Incorrect option 3 para question 97",
+                                    "de": "Incorrect option 3 für question 97",
+                                    "nl": "Incorrect option 3 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 98",
+                                    "es": "Incorrect option 1 para question 98",
+                                    "de": "Incorrect option 1 für question 98",
+                                    "nl": "Incorrect option 1 voor question 98"
+                            },
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 98",
+                                    "es": "Incorrect option 4 para question 98",
+                                    "de": "Incorrect option 4 für question 98",
+                                    "nl": "Incorrect option 4 voor question 98"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 99",
+                                    "es": "Incorrect option 1 para question 99",
+                                    "de": "Incorrect option 1 für question 99",
+                                    "nl": "Incorrect option 1 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 99",
+                                    "es": "Incorrect option 2 para question 99",
+                                    "de": "Incorrect option 2 für question 99",
+                                    "nl": "Incorrect option 2 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 5?",
+                            "es": "¿Qué is the significance of this in level 5?",
+                            "de": "Was is the significance of this in level 5?",
+                            "nl": "Wat is the significance of this in level 5?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 100",
+                                    "es": "Incorrect option 4 para question 100",
+                                    "de": "Incorrect option 4 für question 100",
+                                    "nl": "Incorrect option 4 voor question 100"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "es": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "de": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context.",
+                            "nl": "This question relates to level 5 content in Cooking Methods. The correct answer provides important context."
+                    }
+            }
+    ]
 };

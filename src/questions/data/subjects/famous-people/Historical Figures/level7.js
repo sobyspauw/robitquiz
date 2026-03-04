@@ -1,4104 +1,4108 @@
+// Historical Figures - level7
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:26.412Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Historical Figures",
-      "es": "Pregunta 1 sobre Historical Figures",
-      "de": "Frage 1 über Historical Figures",
-      "nl": "Vraag 1 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Historical Figures",
-      "es": "Pregunta 2 sobre Historical Figures",
-      "de": "Frage 2 über Historical Figures",
-      "nl": "Vraag 2 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Historical Figures",
-      "es": "Pregunta 3 sobre Historical Figures",
-      "de": "Frage 3 über Historical Figures",
-      "nl": "Vraag 3 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Historical Figures",
-      "es": "Pregunta 4 sobre Historical Figures",
-      "de": "Frage 4 über Historical Figures",
-      "nl": "Vraag 4 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Historical Figures",
-      "es": "Pregunta 5 sobre Historical Figures",
-      "de": "Frage 5 über Historical Figures",
-      "nl": "Vraag 5 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Historical Figures",
-      "es": "Pregunta 6 sobre Historical Figures",
-      "de": "Frage 6 über Historical Figures",
-      "nl": "Vraag 6 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Historical Figures",
-      "es": "Pregunta 7 sobre Historical Figures",
-      "de": "Frage 7 über Historical Figures",
-      "nl": "Vraag 7 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Historical Figures",
-      "es": "Pregunta 8 sobre Historical Figures",
-      "de": "Frage 8 über Historical Figures",
-      "nl": "Vraag 8 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Historical Figures",
-      "es": "Pregunta 9 sobre Historical Figures",
-      "de": "Frage 9 über Historical Figures",
-      "nl": "Vraag 9 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Historical Figures",
-      "es": "Pregunta 10 sobre Historical Figures",
-      "de": "Frage 10 über Historical Figures",
-      "nl": "Vraag 10 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Historical Figures",
-      "es": "Pregunta 11 sobre Historical Figures",
-      "de": "Frage 11 über Historical Figures",
-      "nl": "Vraag 11 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Historical Figures",
-      "es": "Pregunta 12 sobre Historical Figures",
-      "de": "Frage 12 über Historical Figures",
-      "nl": "Vraag 12 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Historical Figures",
-      "es": "Pregunta 13 sobre Historical Figures",
-      "de": "Frage 13 über Historical Figures",
-      "nl": "Vraag 13 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Historical Figures",
-      "es": "Pregunta 14 sobre Historical Figures",
-      "de": "Frage 14 über Historical Figures",
-      "nl": "Vraag 14 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Historical Figures",
-      "es": "Pregunta 15 sobre Historical Figures",
-      "de": "Frage 15 über Historical Figures",
-      "nl": "Vraag 15 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Historical Figures",
-      "es": "Pregunta 16 sobre Historical Figures",
-      "de": "Frage 16 über Historical Figures",
-      "nl": "Vraag 16 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Historical Figures",
-      "es": "Pregunta 17 sobre Historical Figures",
-      "de": "Frage 17 über Historical Figures",
-      "nl": "Vraag 17 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Historical Figures",
-      "es": "Pregunta 18 sobre Historical Figures",
-      "de": "Frage 18 über Historical Figures",
-      "nl": "Vraag 18 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Historical Figures",
-      "es": "Pregunta 19 sobre Historical Figures",
-      "de": "Frage 19 über Historical Figures",
-      "nl": "Vraag 19 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Historical Figures",
-      "es": "Pregunta 20 sobre Historical Figures",
-      "de": "Frage 20 über Historical Figures",
-      "nl": "Vraag 20 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Historical Figures",
-      "es": "Pregunta 21 sobre Historical Figures",
-      "de": "Frage 21 über Historical Figures",
-      "nl": "Vraag 21 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Historical Figures",
-      "es": "Pregunta 22 sobre Historical Figures",
-      "de": "Frage 22 über Historical Figures",
-      "nl": "Vraag 22 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Historical Figures",
-      "es": "Pregunta 23 sobre Historical Figures",
-      "de": "Frage 23 über Historical Figures",
-      "nl": "Vraag 23 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Historical Figures",
-      "es": "Pregunta 24 sobre Historical Figures",
-      "de": "Frage 24 über Historical Figures",
-      "nl": "Vraag 24 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Historical Figures",
-      "es": "Pregunta 25 sobre Historical Figures",
-      "de": "Frage 25 über Historical Figures",
-      "nl": "Vraag 25 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Historical Figures",
-      "es": "Pregunta 26 sobre Historical Figures",
-      "de": "Frage 26 über Historical Figures",
-      "nl": "Vraag 26 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Historical Figures",
-      "es": "Pregunta 27 sobre Historical Figures",
-      "de": "Frage 27 über Historical Figures",
-      "nl": "Vraag 27 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Historical Figures",
-      "es": "Pregunta 28 sobre Historical Figures",
-      "de": "Frage 28 über Historical Figures",
-      "nl": "Vraag 28 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Historical Figures",
-      "es": "Pregunta 29 sobre Historical Figures",
-      "de": "Frage 29 über Historical Figures",
-      "nl": "Vraag 29 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Historical Figures",
-      "es": "Pregunta 30 sobre Historical Figures",
-      "de": "Frage 30 über Historical Figures",
-      "nl": "Vraag 30 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Historical Figures",
-      "es": "Pregunta 31 sobre Historical Figures",
-      "de": "Frage 31 über Historical Figures",
-      "nl": "Vraag 31 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Historical Figures",
-      "es": "Pregunta 32 sobre Historical Figures",
-      "de": "Frage 32 über Historical Figures",
-      "nl": "Vraag 32 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Historical Figures",
-      "es": "Pregunta 33 sobre Historical Figures",
-      "de": "Frage 33 über Historical Figures",
-      "nl": "Vraag 33 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Historical Figures",
-      "es": "Pregunta 34 sobre Historical Figures",
-      "de": "Frage 34 über Historical Figures",
-      "nl": "Vraag 34 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Historical Figures",
-      "es": "Pregunta 35 sobre Historical Figures",
-      "de": "Frage 35 über Historical Figures",
-      "nl": "Vraag 35 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Historical Figures",
-      "es": "Pregunta 36 sobre Historical Figures",
-      "de": "Frage 36 über Historical Figures",
-      "nl": "Vraag 36 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Historical Figures",
-      "es": "Pregunta 37 sobre Historical Figures",
-      "de": "Frage 37 über Historical Figures",
-      "nl": "Vraag 37 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Historical Figures",
-      "es": "Pregunta 38 sobre Historical Figures",
-      "de": "Frage 38 über Historical Figures",
-      "nl": "Vraag 38 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Historical Figures",
-      "es": "Pregunta 39 sobre Historical Figures",
-      "de": "Frage 39 über Historical Figures",
-      "nl": "Vraag 39 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Historical Figures",
-      "es": "Pregunta 40 sobre Historical Figures",
-      "de": "Frage 40 über Historical Figures",
-      "nl": "Vraag 40 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Historical Figures",
-      "es": "Pregunta 41 sobre Historical Figures",
-      "de": "Frage 41 über Historical Figures",
-      "nl": "Vraag 41 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Historical Figures",
-      "es": "Pregunta 42 sobre Historical Figures",
-      "de": "Frage 42 über Historical Figures",
-      "nl": "Vraag 42 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Historical Figures",
-      "es": "Pregunta 43 sobre Historical Figures",
-      "de": "Frage 43 über Historical Figures",
-      "nl": "Vraag 43 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Historical Figures",
-      "es": "Pregunta 44 sobre Historical Figures",
-      "de": "Frage 44 über Historical Figures",
-      "nl": "Vraag 44 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Historical Figures",
-      "es": "Pregunta 45 sobre Historical Figures",
-      "de": "Frage 45 über Historical Figures",
-      "nl": "Vraag 45 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Historical Figures",
-      "es": "Pregunta 46 sobre Historical Figures",
-      "de": "Frage 46 über Historical Figures",
-      "nl": "Vraag 46 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Historical Figures",
-      "es": "Pregunta 47 sobre Historical Figures",
-      "de": "Frage 47 über Historical Figures",
-      "nl": "Vraag 47 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Historical Figures",
-      "es": "Pregunta 48 sobre Historical Figures",
-      "de": "Frage 48 über Historical Figures",
-      "nl": "Vraag 48 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Historical Figures",
-      "es": "Pregunta 49 sobre Historical Figures",
-      "de": "Frage 49 über Historical Figures",
-      "nl": "Vraag 49 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Historical Figures",
-      "es": "Pregunta 50 sobre Historical Figures",
-      "de": "Frage 50 über Historical Figures",
-      "nl": "Vraag 50 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Historical Figures",
-      "es": "Pregunta 51 sobre Historical Figures",
-      "de": "Frage 51 über Historical Figures",
-      "nl": "Vraag 51 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Historical Figures",
-      "es": "Pregunta 52 sobre Historical Figures",
-      "de": "Frage 52 über Historical Figures",
-      "nl": "Vraag 52 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Historical Figures",
-      "es": "Pregunta 53 sobre Historical Figures",
-      "de": "Frage 53 über Historical Figures",
-      "nl": "Vraag 53 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Historical Figures",
-      "es": "Pregunta 54 sobre Historical Figures",
-      "de": "Frage 54 über Historical Figures",
-      "nl": "Vraag 54 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Historical Figures",
-      "es": "Pregunta 55 sobre Historical Figures",
-      "de": "Frage 55 über Historical Figures",
-      "nl": "Vraag 55 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Historical Figures",
-      "es": "Pregunta 56 sobre Historical Figures",
-      "de": "Frage 56 über Historical Figures",
-      "nl": "Vraag 56 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Historical Figures",
-      "es": "Pregunta 57 sobre Historical Figures",
-      "de": "Frage 57 über Historical Figures",
-      "nl": "Vraag 57 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Historical Figures",
-      "es": "Pregunta 58 sobre Historical Figures",
-      "de": "Frage 58 über Historical Figures",
-      "nl": "Vraag 58 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Historical Figures",
-      "es": "Pregunta 59 sobre Historical Figures",
-      "de": "Frage 59 über Historical Figures",
-      "nl": "Vraag 59 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Historical Figures",
-      "es": "Pregunta 60 sobre Historical Figures",
-      "de": "Frage 60 über Historical Figures",
-      "nl": "Vraag 60 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Historical Figures",
-      "es": "Pregunta 61 sobre Historical Figures",
-      "de": "Frage 61 über Historical Figures",
-      "nl": "Vraag 61 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Historical Figures",
-      "es": "Pregunta 62 sobre Historical Figures",
-      "de": "Frage 62 über Historical Figures",
-      "nl": "Vraag 62 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Historical Figures",
-      "es": "Pregunta 63 sobre Historical Figures",
-      "de": "Frage 63 über Historical Figures",
-      "nl": "Vraag 63 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Historical Figures",
-      "es": "Pregunta 64 sobre Historical Figures",
-      "de": "Frage 64 über Historical Figures",
-      "nl": "Vraag 64 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Historical Figures",
-      "es": "Pregunta 65 sobre Historical Figures",
-      "de": "Frage 65 über Historical Figures",
-      "nl": "Vraag 65 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Historical Figures",
-      "es": "Pregunta 66 sobre Historical Figures",
-      "de": "Frage 66 über Historical Figures",
-      "nl": "Vraag 66 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Historical Figures",
-      "es": "Pregunta 67 sobre Historical Figures",
-      "de": "Frage 67 über Historical Figures",
-      "nl": "Vraag 67 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Historical Figures",
-      "es": "Pregunta 68 sobre Historical Figures",
-      "de": "Frage 68 über Historical Figures",
-      "nl": "Vraag 68 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Historical Figures",
-      "es": "Pregunta 69 sobre Historical Figures",
-      "de": "Frage 69 über Historical Figures",
-      "nl": "Vraag 69 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Historical Figures",
-      "es": "Pregunta 70 sobre Historical Figures",
-      "de": "Frage 70 über Historical Figures",
-      "nl": "Vraag 70 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Historical Figures",
-      "es": "Pregunta 71 sobre Historical Figures",
-      "de": "Frage 71 über Historical Figures",
-      "nl": "Vraag 71 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Historical Figures",
-      "es": "Pregunta 72 sobre Historical Figures",
-      "de": "Frage 72 über Historical Figures",
-      "nl": "Vraag 72 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Historical Figures",
-      "es": "Pregunta 73 sobre Historical Figures",
-      "de": "Frage 73 über Historical Figures",
-      "nl": "Vraag 73 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Historical Figures",
-      "es": "Pregunta 74 sobre Historical Figures",
-      "de": "Frage 74 über Historical Figures",
-      "nl": "Vraag 74 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Historical Figures",
-      "es": "Pregunta 75 sobre Historical Figures",
-      "de": "Frage 75 über Historical Figures",
-      "nl": "Vraag 75 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Historical Figures",
-      "es": "Pregunta 76 sobre Historical Figures",
-      "de": "Frage 76 über Historical Figures",
-      "nl": "Vraag 76 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Historical Figures",
-      "es": "Pregunta 77 sobre Historical Figures",
-      "de": "Frage 77 über Historical Figures",
-      "nl": "Vraag 77 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Historical Figures",
-      "es": "Pregunta 78 sobre Historical Figures",
-      "de": "Frage 78 über Historical Figures",
-      "nl": "Vraag 78 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Historical Figures",
-      "es": "Pregunta 79 sobre Historical Figures",
-      "de": "Frage 79 über Historical Figures",
-      "nl": "Vraag 79 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Historical Figures",
-      "es": "Pregunta 80 sobre Historical Figures",
-      "de": "Frage 80 über Historical Figures",
-      "nl": "Vraag 80 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Historical Figures",
-      "es": "Pregunta 81 sobre Historical Figures",
-      "de": "Frage 81 über Historical Figures",
-      "nl": "Vraag 81 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Historical Figures",
-      "es": "Pregunta 82 sobre Historical Figures",
-      "de": "Frage 82 über Historical Figures",
-      "nl": "Vraag 82 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Historical Figures",
-      "es": "Pregunta 83 sobre Historical Figures",
-      "de": "Frage 83 über Historical Figures",
-      "nl": "Vraag 83 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Historical Figures",
-      "es": "Pregunta 84 sobre Historical Figures",
-      "de": "Frage 84 über Historical Figures",
-      "nl": "Vraag 84 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Historical Figures",
-      "es": "Pregunta 85 sobre Historical Figures",
-      "de": "Frage 85 über Historical Figures",
-      "nl": "Vraag 85 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Historical Figures",
-      "es": "Pregunta 86 sobre Historical Figures",
-      "de": "Frage 86 über Historical Figures",
-      "nl": "Vraag 86 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Historical Figures",
-      "es": "Pregunta 87 sobre Historical Figures",
-      "de": "Frage 87 über Historical Figures",
-      "nl": "Vraag 87 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Historical Figures",
-      "es": "Pregunta 88 sobre Historical Figures",
-      "de": "Frage 88 über Historical Figures",
-      "nl": "Vraag 88 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Historical Figures",
-      "es": "Pregunta 89 sobre Historical Figures",
-      "de": "Frage 89 über Historical Figures",
-      "nl": "Vraag 89 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Historical Figures",
-      "es": "Pregunta 90 sobre Historical Figures",
-      "de": "Frage 90 über Historical Figures",
-      "nl": "Vraag 90 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Historical Figures",
-      "es": "Pregunta 91 sobre Historical Figures",
-      "de": "Frage 91 über Historical Figures",
-      "nl": "Vraag 91 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Historical Figures",
-      "es": "Pregunta 92 sobre Historical Figures",
-      "de": "Frage 92 über Historical Figures",
-      "nl": "Vraag 92 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Historical Figures",
-      "es": "Pregunta 93 sobre Historical Figures",
-      "de": "Frage 93 über Historical Figures",
-      "nl": "Vraag 93 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Historical Figures",
-      "es": "Pregunta 94 sobre Historical Figures",
-      "de": "Frage 94 über Historical Figures",
-      "nl": "Vraag 94 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Historical Figures",
-      "es": "Pregunta 95 sobre Historical Figures",
-      "de": "Frage 95 über Historical Figures",
-      "nl": "Vraag 95 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Historical Figures",
-      "es": "Pregunta 96 sobre Historical Figures",
-      "de": "Frage 96 über Historical Figures",
-      "nl": "Vraag 96 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Historical Figures",
-      "es": "Pregunta 97 sobre Historical Figures",
-      "de": "Frage 97 über Historical Figures",
-      "nl": "Vraag 97 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Historical Figures",
-      "es": "Pregunta 98 sobre Historical Figures",
-      "de": "Frage 98 über Historical Figures",
-      "nl": "Vraag 98 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Historical Figures",
-      "es": "Pregunta 99 sobre Historical Figures",
-      "de": "Frage 99 über Historical Figures",
-      "nl": "Vraag 99 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Historical Figures",
-      "es": "Pregunta 100 sobre Historical Figures",
-      "de": "Frage 100 über Historical Figures",
-      "nl": "Vraag 100 over Historical Figures"
-    },
-    "options": [
-      {
-        "en": "Answer A for Historical Figures",
-        "es": "Respuesta A para Historical Figures",
-        "de": "Antwort A für Historical Figures",
-        "nl": "Antwoord A voor Historical Figures"
-      },
-      {
-        "en": "Answer B for Historical Figures",
-        "es": "Respuesta B para Historical Figures",
-        "de": "Antwort B für Historical Figures",
-        "nl": "Antwoord B voor Historical Figures"
-      },
-      {
-        "en": "Answer C for Historical Figures",
-        "es": "Respuesta C para Historical Figures",
-        "de": "Antwort C für Historical Figures",
-        "nl": "Antwoord C voor Historical Figures"
-      },
-      {
-        "en": "Answer D for Historical Figures",
-        "es": "Respuesta D para Historical Figures",
-        "de": "Antwort D für Historical Figures",
-        "nl": "Antwoord D voor Historical Figures"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Historical Figures.",
-      "es": "Esta es la respuesta correcta sobre Historical Figures.",
-      "de": "Dies ist die richtige Antwort über Historical Figures.",
-      "nl": "Dit is het juiste antwoord over Historical Figures."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "Which Roman general crossed the Rubicon River and said 'The die is cast'?",
+                            "es": "¿Qué general romano cruzó el río Rubicón y dijo 'La suerte está echada'?",
+                            "de": "Welcher römische General überquerte den Rubikon und sagte 'Die Würfel sind gefallen'?",
+                            "nl": "Welke Romeinse generaal stak de Rubicon over en zei 'De teerling is geworpen'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Julius Caesar",
+                                    "es": "Julio César",
+                                    "de": "Julius Cäsar",
+                                    "nl": "Julius Caesar"
+                            },
+                            {
+                                    "en": "Marcus Aurelius",
+                                    "es": "Marco Aurelio",
+                                    "de": "Mark Aurel",
+                                    "nl": "Marcus Aurelius"
+                            },
+                            {
+                                    "en": "Pompey",
+                                    "es": "Pompeyo",
+                                    "de": "Pompeius",
+                                    "nl": "Pompeius"
+                            },
+                            {
+                                    "en": "Augustus",
+                                    "es": "Augusto",
+                                    "de": "Augustus",
+                                    "nl": "Augustus"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Julius Caesar crossed the Rubicon River in 49 BCE with his army, defying the Roman Senate and starting a civil war. His famous words 'Alea iacta est' (The die is cast) meant there was no turning back. This act ultimately led to the end of the Roman Republic.",
+                            "es": "Julio César cruzó el río Rubicón en 49 a.C. con su ejército, desafiando al Senado Romano e inicia...",
+                            "de": "Julius Cäsar überquerte 49 v.Chr. mit seiner Armee den Rubikon, trotzte dem römischen Senat und b...",
+                            "nl": "Julius Caesar stak in 49 v.Chr. met zijn leger de Rubicon over, daagde de Romeinse Senaat uit en ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the telephone in 1876?",
+                            "es": "¿Quién inventó el teléfono en 1876?",
+                            "de": "Wer erfand 1876 das Telefon?",
+                            "nl": "Wie vond de telefoon uit in 1876?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Guglielmo Marconi",
+                                    "es": "Guglielmo Marconi",
+                                    "de": "Guglielmo Marconi",
+                                    "nl": "Guglielmo Marconi"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Graham Bell patented the telephone on March 7, 1876. His first successful telephone transmission occurred on March 10, 1876, when he spoke to his assistant Thomas Watson: 'Mr. Watson, come here, I want to see you.' This invention revolutionized global communication.",
+                            "es": "Alexander Graham Bell patentó el teléfono el 7 de marzo de 1876. Su primera transmisión telefónic...",
+                            "de": "Alexander Graham Bell patentierte das Telefon am 7. März 1876. Seine erste erfolgreiche Telefonüb...",
+                            "nl": "Alexander Graham Bell patenteerde de telefoon op 7 maart 1876. Zijn eerste succesvolle telefonisc..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which nurse became known as 'The Lady with the Lamp' during the Crimean War?",
+                            "es": "¿Qué enfermera se hizo conocida como 'La Dama de la Lámpara' durante la Guerra de Crimea?",
+                            "de": "Welche Krankenschwester wurde während des Krimkrieges als 'Die Dame mit der Lampe' bekannt?",
+                            "nl": "Welke verpleegster werd bekend als 'De Dame met de Lamp' tijdens de Krimoorlog?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Florence Nightingale",
+                                    "es": "Florence Nightingale",
+                                    "de": "Florence Nightingale",
+                                    "nl": "Florence Nightingale"
+                            },
+                            {
+                                    "en": "Clara Barton",
+                                    "es": "Clara Barton",
+                                    "de": "Clara Barton",
+                                    "nl": "Clara Barton"
+                            },
+                            {
+                                    "en": "Mary Seacole",
+                                    "es": "Mary Seacole",
+                                    "de": "Mary Seacole",
+                                    "nl": "Mary Seacole"
+                            },
+                            {
+                                    "en": "Edith Cavell",
+                                    "es": "Edith Cavell",
+                                    "de": "Edith Cavell",
+                                    "nl": "Edith Cavell"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Florence Nightingale (1820-1910) earned the nickname 'The Lady with the Lamp' during the Crimean War (1853-1856) for her nightly rounds caring for wounded soldiers. She revolutionized nursing and hospital sanitation, reducing the death rate from 42% to 2% and founding modern nursing education.",
+                            "es": "Florence Nightingale (1820-1910) ganó el apodo 'La Dama de la Lámpara' durante la Guerra de Crime...",
+                            "de": "Florence Nightingale (1820-1910) erhielt während des Krimkrieges (1853-1856) den Spitznamen 'Die ...",
+                            "nl": "Florence Nightingale (1820-1910) kreeg de bijnaam 'De Dame met de Lamp' tijdens de Krimoorlog (18..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin in 1928, revolutionizing medicine?",
+                            "es": "¿Quién descubrió la penicilina en 1928, revolucionando la medicina?",
+                            "de": "Wer entdeckte 1928 Penicillin und revolutionierte die Medizin?",
+                            "nl": "Wie ontdekte penicilline in 1928 en revolutioneerde de geneeskunde?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            },
+                            {
+                                    "en": "Robert Koch",
+                                    "es": "Robert Koch",
+                                    "de": "Robert Koch",
+                                    "nl": "Robert Koch"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin accidentally in 1928 when he noticed that a mold had contaminated a bacterial culture and killed the bacteria around it. This discovery led to the development of antibiotics, saving millions of lives and earning Fleming the Nobel Prize in 1945.",
+                            "es": "Alexander Fleming descubrió la penicilina accidentalmente en 1928 cuando notó que un moho había c...",
+                            "de": "Alexander Fleming entdeckte 1928 zufällig Penicillin, als er bemerkte, dass ein Schimmelpilz eine...",
+                            "nl": "Alexander Fleming ontdekte penicilline per ongeluk in 1928 toen hij opmerkte dat een schimmel een..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which explorer was the first to reach the South Pole in 1911?",
+                            "es": "¿Qué explorador fue el primero en llegar al Polo Sur en 1911?",
+                            "de": "Welcher Entdecker erreichte 1911 als Erster den Südpol?",
+                            "nl": "Welke ontdekkingsreiziger bereikte als eerste de Zuidpool in 1911?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Roald Amundsen",
+                                    "es": "Roald Amundsen",
+                                    "de": "Roald Amundsen",
+                                    "nl": "Roald Amundsen"
+                            },
+                            {
+                                    "en": "Robert Falcon Scott",
+                                    "es": "Robert Falcon Scott",
+                                    "de": "Robert Falcon Scott",
+                                    "nl": "Robert Falcon Scott"
+                            },
+                            {
+                                    "en": "Ernest Shackleton",
+                                    "es": "Ernest Shackleton",
+                                    "de": "Ernest Shackleton",
+                                    "nl": "Ernest Shackleton"
+                            },
+                            {
+                                    "en": "Richard Byrd",
+                                    "es": "Richard Byrd",
+                                    "de": "Richard Byrd",
+                                    "nl": "Richard Byrd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Norwegian explorer Roald Amundsen reached the South Pole on December 14, 1911, beating Robert Falcon Scott's British expedition by 34 days. Amundsen's success was due to careful planning, use of sled dogs, and experience in polar conditions. Scott's team reached the pole but perished on the return journey.",
+                            "es": "El explorador noruego Roald Amundsen llegó al Polo Sur el 14 de diciembre de 1911, adelantándose ...",
+                            "de": "Der norwegische Entdecker Roald Amundsen erreichte am 14. Dezember 1911 den Südpol und schlug Rob...",
+                            "nl": "De Noorse ontdekkingsreiziger Roald Amundsen bereikte de Zuidpool op 14 december 1911, 34 dagen e..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 6",
+                                    "es": "Incorrect option 1 para question 6",
+                                    "de": "Incorrect option 1 für question 6",
+                                    "nl": "Incorrect option 1 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 6",
+                                    "es": "Incorrect option 2 para question 6",
+                                    "de": "Incorrect option 2 für question 6",
+                                    "nl": "Incorrect option 2 voor question 6"
+                            },
+                            {
+                                    "en": "Correct answer for question 6",
+                                    "es": "Correct answer for question 6",
+                                    "de": "Correct answer for question 6",
+                                    "nl": "Correct answer for question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 6",
+                                    "es": "Incorrect option 4 para question 6",
+                                    "de": "Incorrect option 4 für question 6",
+                                    "nl": "Incorrect option 4 voor question 6"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 7",
+                                    "es": "Incorrect option 1 para question 7",
+                                    "de": "Incorrect option 1 für question 7",
+                                    "nl": "Incorrect option 1 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 7",
+                                    "es": "Incorrect option 2 para question 7",
+                                    "de": "Incorrect option 2 für question 7",
+                                    "nl": "Incorrect option 2 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 7",
+                                    "es": "Incorrect option 3 para question 7",
+                                    "de": "Incorrect option 3 für question 7",
+                                    "nl": "Incorrect option 3 voor question 7"
+                            },
+                            {
+                                    "en": "Correct answer for question 7",
+                                    "es": "Correct answer for question 7",
+                                    "de": "Correct answer for question 7",
+                                    "nl": "Correct answer for question 7"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 8",
+                                    "es": "Incorrect option 1 para question 8",
+                                    "de": "Incorrect option 1 für question 8",
+                                    "nl": "Incorrect option 1 voor question 8"
+                            },
+                            {
+                                    "en": "Correct answer for question 8",
+                                    "es": "Correct answer for question 8",
+                                    "de": "Correct answer for question 8",
+                                    "nl": "Correct answer for question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 8",
+                                    "es": "Incorrect option 3 para question 8",
+                                    "de": "Incorrect option 3 für question 8",
+                                    "nl": "Incorrect option 3 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 8",
+                                    "es": "Incorrect option 4 para question 8",
+                                    "de": "Incorrect option 4 für question 8",
+                                    "nl": "Incorrect option 4 voor question 8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 9",
+                                    "es": "Correct answer for question 9",
+                                    "de": "Correct answer for question 9",
+                                    "nl": "Correct answer for question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 9",
+                                    "es": "Incorrect option 2 para question 9",
+                                    "de": "Incorrect option 2 für question 9",
+                                    "nl": "Incorrect option 2 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 9",
+                                    "es": "Incorrect option 3 para question 9",
+                                    "de": "Incorrect option 3 für question 9",
+                                    "nl": "Incorrect option 3 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 9",
+                                    "es": "Incorrect option 4 para question 9",
+                                    "de": "Incorrect option 4 für question 9",
+                                    "nl": "Incorrect option 4 voor question 9"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 10",
+                                    "es": "Correct answer for question 10",
+                                    "de": "Correct answer for question 10",
+                                    "nl": "Correct answer for question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 10",
+                                    "es": "Incorrect option 2 para question 10",
+                                    "de": "Incorrect option 2 für question 10",
+                                    "nl": "Incorrect option 2 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 10",
+                                    "es": "Incorrect option 3 para question 10",
+                                    "de": "Incorrect option 3 für question 10",
+                                    "nl": "Incorrect option 3 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 10",
+                                    "es": "Incorrect option 4 para question 10",
+                                    "de": "Incorrect option 4 für question 10",
+                                    "nl": "Incorrect option 4 voor question 10"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 11",
+                                    "es": "Incorrect option 1 para question 11",
+                                    "de": "Incorrect option 1 für question 11",
+                                    "nl": "Incorrect option 1 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 11",
+                                    "es": "Incorrect option 2 para question 11",
+                                    "de": "Incorrect option 2 für question 11",
+                                    "nl": "Incorrect option 2 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 11",
+                                    "es": "Incorrect option 3 para question 11",
+                                    "de": "Incorrect option 3 für question 11",
+                                    "nl": "Incorrect option 3 voor question 11"
+                            },
+                            {
+                                    "en": "Correct answer for question 11",
+                                    "es": "Correct answer for question 11",
+                                    "de": "Correct answer for question 11",
+                                    "nl": "Correct answer for question 11"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 12",
+                                    "es": "Correct answer for question 12",
+                                    "de": "Correct answer for question 12",
+                                    "nl": "Correct answer for question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 12",
+                                    "es": "Incorrect option 2 para question 12",
+                                    "de": "Incorrect option 2 für question 12",
+                                    "nl": "Incorrect option 2 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 12",
+                                    "es": "Incorrect option 3 para question 12",
+                                    "de": "Incorrect option 3 für question 12",
+                                    "nl": "Incorrect option 3 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 12",
+                                    "es": "Incorrect option 4 para question 12",
+                                    "de": "Incorrect option 4 für question 12",
+                                    "nl": "Incorrect option 4 voor question 12"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 13",
+                                    "es": "Incorrect option 1 para question 13",
+                                    "de": "Incorrect option 1 für question 13",
+                                    "nl": "Incorrect option 1 voor question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 13",
+                                    "es": "Incorrect option 2 para question 13",
+                                    "de": "Incorrect option 2 für question 13",
+                                    "nl": "Incorrect option 2 voor question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 13",
+                                    "es": "Incorrect option 3 para question 13",
+                                    "de": "Incorrect option 3 für question 13",
+                                    "nl": "Incorrect option 3 voor question 13"
+                            },
+                            {
+                                    "en": "Correct answer for question 13",
+                                    "es": "Correct answer for question 13",
+                                    "de": "Correct answer for question 13",
+                                    "nl": "Correct answer for question 13"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 14",
+                                    "es": "Incorrect option 1 para question 14",
+                                    "de": "Incorrect option 1 für question 14",
+                                    "nl": "Incorrect option 1 voor question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 14",
+                                    "es": "Incorrect option 2 para question 14",
+                                    "de": "Incorrect option 2 für question 14",
+                                    "nl": "Incorrect option 2 voor question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 14",
+                                    "es": "Incorrect option 3 para question 14",
+                                    "de": "Incorrect option 3 für question 14",
+                                    "nl": "Incorrect option 3 voor question 14"
+                            },
+                            {
+                                    "en": "Correct answer for question 14",
+                                    "es": "Correct answer for question 14",
+                                    "de": "Correct answer for question 14",
+                                    "nl": "Correct answer for question 14"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 15",
+                                    "es": "Incorrect option 1 para question 15",
+                                    "de": "Incorrect option 1 für question 15",
+                                    "nl": "Incorrect option 1 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 15",
+                                    "es": "Incorrect option 2 para question 15",
+                                    "de": "Incorrect option 2 für question 15",
+                                    "nl": "Incorrect option 2 voor question 15"
+                            },
+                            {
+                                    "en": "Correct answer for question 15",
+                                    "es": "Correct answer for question 15",
+                                    "de": "Correct answer for question 15",
+                                    "nl": "Correct answer for question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 15",
+                                    "es": "Incorrect option 4 para question 15",
+                                    "de": "Incorrect option 4 für question 15",
+                                    "nl": "Incorrect option 4 voor question 15"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 16",
+                                    "es": "Incorrect option 1 para question 16",
+                                    "de": "Incorrect option 1 für question 16",
+                                    "nl": "Incorrect option 1 voor question 16"
+                            },
+                            {
+                                    "en": "Correct answer for question 16",
+                                    "es": "Correct answer for question 16",
+                                    "de": "Correct answer for question 16",
+                                    "nl": "Correct answer for question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 16",
+                                    "es": "Incorrect option 3 para question 16",
+                                    "de": "Incorrect option 3 für question 16",
+                                    "nl": "Incorrect option 3 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 16",
+                                    "es": "Incorrect option 4 para question 16",
+                                    "de": "Incorrect option 4 für question 16",
+                                    "nl": "Incorrect option 4 voor question 16"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 17",
+                                    "es": "Incorrect option 1 para question 17",
+                                    "de": "Incorrect option 1 für question 17",
+                                    "nl": "Incorrect option 1 voor question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 17",
+                                    "es": "Incorrect option 2 para question 17",
+                                    "de": "Incorrect option 2 für question 17",
+                                    "nl": "Incorrect option 2 voor question 17"
+                            },
+                            {
+                                    "en": "Correct answer for question 17",
+                                    "es": "Correct answer for question 17",
+                                    "de": "Correct answer for question 17",
+                                    "nl": "Correct answer for question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 17",
+                                    "es": "Incorrect option 4 para question 17",
+                                    "de": "Incorrect option 4 für question 17",
+                                    "nl": "Incorrect option 4 voor question 17"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 18",
+                                    "es": "Incorrect option 1 para question 18",
+                                    "de": "Incorrect option 1 für question 18",
+                                    "nl": "Incorrect option 1 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 18",
+                                    "es": "Incorrect option 2 para question 18",
+                                    "de": "Incorrect option 2 für question 18",
+                                    "nl": "Incorrect option 2 voor question 18"
+                            },
+                            {
+                                    "en": "Correct answer for question 18",
+                                    "es": "Correct answer for question 18",
+                                    "de": "Correct answer for question 18",
+                                    "nl": "Correct answer for question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 18",
+                                    "es": "Incorrect option 4 para question 18",
+                                    "de": "Incorrect option 4 für question 18",
+                                    "nl": "Incorrect option 4 voor question 18"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 19",
+                                    "es": "Incorrect option 1 para question 19",
+                                    "de": "Incorrect option 1 für question 19",
+                                    "nl": "Incorrect option 1 voor question 19"
+                            },
+                            {
+                                    "en": "Correct answer for question 19",
+                                    "es": "Correct answer for question 19",
+                                    "de": "Correct answer for question 19",
+                                    "nl": "Correct answer for question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 19",
+                                    "es": "Incorrect option 3 para question 19",
+                                    "de": "Incorrect option 3 für question 19",
+                                    "nl": "Incorrect option 3 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 19",
+                                    "es": "Incorrect option 4 para question 19",
+                                    "de": "Incorrect option 4 für question 19",
+                                    "nl": "Incorrect option 4 voor question 19"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 20",
+                                    "es": "Incorrect option 1 para question 20",
+                                    "de": "Incorrect option 1 für question 20",
+                                    "nl": "Incorrect option 1 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 20",
+                                    "es": "Incorrect option 2 para question 20",
+                                    "de": "Incorrect option 2 für question 20",
+                                    "nl": "Incorrect option 2 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 20",
+                                    "es": "Incorrect option 3 para question 20",
+                                    "de": "Incorrect option 3 für question 20",
+                                    "nl": "Incorrect option 3 voor question 20"
+                            },
+                            {
+                                    "en": "Correct answer for question 20",
+                                    "es": "Correct answer for question 20",
+                                    "de": "Correct answer for question 20",
+                                    "nl": "Correct answer for question 20"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 21",
+                                    "es": "Incorrect option 1 para question 21",
+                                    "de": "Incorrect option 1 für question 21",
+                                    "nl": "Incorrect option 1 voor question 21"
+                            },
+                            {
+                                    "en": "Correct answer for question 21",
+                                    "es": "Correct answer for question 21",
+                                    "de": "Correct answer for question 21",
+                                    "nl": "Correct answer for question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 21",
+                                    "es": "Incorrect option 3 para question 21",
+                                    "de": "Incorrect option 3 für question 21",
+                                    "nl": "Incorrect option 3 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 21",
+                                    "es": "Incorrect option 4 para question 21",
+                                    "de": "Incorrect option 4 für question 21",
+                                    "nl": "Incorrect option 4 voor question 21"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 22",
+                                    "es": "Incorrect option 1 para question 22",
+                                    "de": "Incorrect option 1 für question 22",
+                                    "nl": "Incorrect option 1 voor question 22"
+                            },
+                            {
+                                    "en": "Correct answer for question 22",
+                                    "es": "Correct answer for question 22",
+                                    "de": "Correct answer for question 22",
+                                    "nl": "Correct answer for question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 22",
+                                    "es": "Incorrect option 3 para question 22",
+                                    "de": "Incorrect option 3 für question 22",
+                                    "nl": "Incorrect option 3 voor question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 22",
+                                    "es": "Incorrect option 4 para question 22",
+                                    "de": "Incorrect option 4 für question 22",
+                                    "nl": "Incorrect option 4 voor question 22"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 23",
+                                    "es": "Incorrect option 1 para question 23",
+                                    "de": "Incorrect option 1 für question 23",
+                                    "nl": "Incorrect option 1 voor question 23"
+                            },
+                            {
+                                    "en": "Correct answer for question 23",
+                                    "es": "Correct answer for question 23",
+                                    "de": "Correct answer for question 23",
+                                    "nl": "Correct answer for question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 23",
+                                    "es": "Incorrect option 3 para question 23",
+                                    "de": "Incorrect option 3 für question 23",
+                                    "nl": "Incorrect option 3 voor question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 23",
+                                    "es": "Incorrect option 4 para question 23",
+                                    "de": "Incorrect option 4 für question 23",
+                                    "nl": "Incorrect option 4 voor question 23"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 24",
+                                    "es": "Correct answer for question 24",
+                                    "de": "Correct answer for question 24",
+                                    "nl": "Correct answer for question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 24",
+                                    "es": "Incorrect option 2 para question 24",
+                                    "de": "Incorrect option 2 für question 24",
+                                    "nl": "Incorrect option 2 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 24",
+                                    "es": "Incorrect option 3 para question 24",
+                                    "de": "Incorrect option 3 für question 24",
+                                    "nl": "Incorrect option 3 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 24",
+                                    "es": "Incorrect option 4 para question 24",
+                                    "de": "Incorrect option 4 für question 24",
+                                    "nl": "Incorrect option 4 voor question 24"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 25",
+                                    "es": "Incorrect option 1 para question 25",
+                                    "de": "Incorrect option 1 für question 25",
+                                    "nl": "Incorrect option 1 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 25",
+                                    "es": "Incorrect option 2 para question 25",
+                                    "de": "Incorrect option 2 für question 25",
+                                    "nl": "Incorrect option 2 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 25",
+                                    "es": "Incorrect option 3 para question 25",
+                                    "de": "Incorrect option 3 für question 25",
+                                    "nl": "Incorrect option 3 voor question 25"
+                            },
+                            {
+                                    "en": "Correct answer for question 25",
+                                    "es": "Correct answer for question 25",
+                                    "de": "Correct answer for question 25",
+                                    "nl": "Correct answer for question 25"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 26",
+                                    "es": "Incorrect option 1 para question 26",
+                                    "de": "Incorrect option 1 für question 26",
+                                    "nl": "Incorrect option 1 voor question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 26",
+                                    "es": "Incorrect option 2 para question 26",
+                                    "de": "Incorrect option 2 für question 26",
+                                    "nl": "Incorrect option 2 voor question 26"
+                            },
+                            {
+                                    "en": "Correct answer for question 26",
+                                    "es": "Correct answer for question 26",
+                                    "de": "Correct answer for question 26",
+                                    "nl": "Correct answer for question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 26",
+                                    "es": "Incorrect option 4 para question 26",
+                                    "de": "Incorrect option 4 für question 26",
+                                    "nl": "Incorrect option 4 voor question 26"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 27",
+                                    "es": "Correct answer for question 27",
+                                    "de": "Correct answer for question 27",
+                                    "nl": "Correct answer for question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 27",
+                                    "es": "Incorrect option 2 para question 27",
+                                    "de": "Incorrect option 2 für question 27",
+                                    "nl": "Incorrect option 2 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 27",
+                                    "es": "Incorrect option 3 para question 27",
+                                    "de": "Incorrect option 3 für question 27",
+                                    "nl": "Incorrect option 3 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 27",
+                                    "es": "Incorrect option 4 para question 27",
+                                    "de": "Incorrect option 4 für question 27",
+                                    "nl": "Incorrect option 4 voor question 27"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 28",
+                                    "es": "Incorrect option 1 para question 28",
+                                    "de": "Incorrect option 1 für question 28",
+                                    "nl": "Incorrect option 1 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 28",
+                                    "es": "Incorrect option 2 para question 28",
+                                    "de": "Incorrect option 2 für question 28",
+                                    "nl": "Incorrect option 2 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 28",
+                                    "es": "Incorrect option 3 para question 28",
+                                    "de": "Incorrect option 3 für question 28",
+                                    "nl": "Incorrect option 3 voor question 28"
+                            },
+                            {
+                                    "en": "Correct answer for question 28",
+                                    "es": "Correct answer for question 28",
+                                    "de": "Correct answer for question 28",
+                                    "nl": "Correct answer for question 28"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 29",
+                                    "es": "Correct answer for question 29",
+                                    "de": "Correct answer for question 29",
+                                    "nl": "Correct answer for question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 29",
+                                    "es": "Incorrect option 2 para question 29",
+                                    "de": "Incorrect option 2 für question 29",
+                                    "nl": "Incorrect option 2 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 29",
+                                    "es": "Incorrect option 3 para question 29",
+                                    "de": "Incorrect option 3 für question 29",
+                                    "nl": "Incorrect option 3 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 29",
+                                    "es": "Incorrect option 4 para question 29",
+                                    "de": "Incorrect option 4 für question 29",
+                                    "nl": "Incorrect option 4 voor question 29"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 30",
+                                    "es": "Incorrect option 1 para question 30",
+                                    "de": "Incorrect option 1 für question 30",
+                                    "nl": "Incorrect option 1 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 30",
+                                    "es": "Incorrect option 2 para question 30",
+                                    "de": "Incorrect option 2 für question 30",
+                                    "nl": "Incorrect option 2 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 30",
+                                    "es": "Incorrect option 3 para question 30",
+                                    "de": "Incorrect option 3 für question 30",
+                                    "nl": "Incorrect option 3 voor question 30"
+                            },
+                            {
+                                    "en": "Correct answer for question 30",
+                                    "es": "Correct answer for question 30",
+                                    "de": "Correct answer for question 30",
+                                    "nl": "Correct answer for question 30"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 31",
+                                    "es": "Incorrect option 1 para question 31",
+                                    "de": "Incorrect option 1 für question 31",
+                                    "nl": "Incorrect option 1 voor question 31"
+                            },
+                            {
+                                    "en": "Correct answer for question 31",
+                                    "es": "Correct answer for question 31",
+                                    "de": "Correct answer for question 31",
+                                    "nl": "Correct answer for question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 31",
+                                    "es": "Incorrect option 3 para question 31",
+                                    "de": "Incorrect option 3 für question 31",
+                                    "nl": "Incorrect option 3 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 31",
+                                    "es": "Incorrect option 4 para question 31",
+                                    "de": "Incorrect option 4 für question 31",
+                                    "nl": "Incorrect option 4 voor question 31"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 32",
+                                    "es": "Incorrect option 1 para question 32",
+                                    "de": "Incorrect option 1 für question 32",
+                                    "nl": "Incorrect option 1 voor question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 32",
+                                    "es": "Incorrect option 2 para question 32",
+                                    "de": "Incorrect option 2 für question 32",
+                                    "nl": "Incorrect option 2 voor question 32"
+                            },
+                            {
+                                    "en": "Correct answer for question 32",
+                                    "es": "Correct answer for question 32",
+                                    "de": "Correct answer for question 32",
+                                    "nl": "Correct answer for question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 32",
+                                    "es": "Incorrect option 4 para question 32",
+                                    "de": "Incorrect option 4 für question 32",
+                                    "nl": "Incorrect option 4 voor question 32"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 33",
+                                    "es": "Incorrect option 1 para question 33",
+                                    "de": "Incorrect option 1 für question 33",
+                                    "nl": "Incorrect option 1 voor question 33"
+                            },
+                            {
+                                    "en": "Correct answer for question 33",
+                                    "es": "Correct answer for question 33",
+                                    "de": "Correct answer for question 33",
+                                    "nl": "Correct answer for question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 33",
+                                    "es": "Incorrect option 3 para question 33",
+                                    "de": "Incorrect option 3 für question 33",
+                                    "nl": "Incorrect option 3 voor question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 33",
+                                    "es": "Incorrect option 4 para question 33",
+                                    "de": "Incorrect option 4 für question 33",
+                                    "nl": "Incorrect option 4 voor question 33"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 34",
+                                    "es": "Incorrect option 1 para question 34",
+                                    "de": "Incorrect option 1 für question 34",
+                                    "nl": "Incorrect option 1 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 34",
+                                    "es": "Incorrect option 2 para question 34",
+                                    "de": "Incorrect option 2 für question 34",
+                                    "nl": "Incorrect option 2 voor question 34"
+                            },
+                            {
+                                    "en": "Correct answer for question 34",
+                                    "es": "Correct answer for question 34",
+                                    "de": "Correct answer for question 34",
+                                    "nl": "Correct answer for question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 34",
+                                    "es": "Incorrect option 4 para question 34",
+                                    "de": "Incorrect option 4 für question 34",
+                                    "nl": "Incorrect option 4 voor question 34"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 35",
+                                    "es": "Incorrect option 1 para question 35",
+                                    "de": "Incorrect option 1 für question 35",
+                                    "nl": "Incorrect option 1 voor question 35"
+                            },
+                            {
+                                    "en": "Correct answer for question 35",
+                                    "es": "Correct answer for question 35",
+                                    "de": "Correct answer for question 35",
+                                    "nl": "Correct answer for question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 35",
+                                    "es": "Incorrect option 3 para question 35",
+                                    "de": "Incorrect option 3 für question 35",
+                                    "nl": "Incorrect option 3 voor question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 35",
+                                    "es": "Incorrect option 4 para question 35",
+                                    "de": "Incorrect option 4 für question 35",
+                                    "nl": "Incorrect option 4 voor question 35"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 36",
+                                    "es": "Incorrect option 1 para question 36",
+                                    "de": "Incorrect option 1 für question 36",
+                                    "nl": "Incorrect option 1 voor question 36"
+                            },
+                            {
+                                    "en": "Correct answer for question 36",
+                                    "es": "Correct answer for question 36",
+                                    "de": "Correct answer for question 36",
+                                    "nl": "Correct answer for question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 36",
+                                    "es": "Incorrect option 3 para question 36",
+                                    "de": "Incorrect option 3 für question 36",
+                                    "nl": "Incorrect option 3 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 36",
+                                    "es": "Incorrect option 4 para question 36",
+                                    "de": "Incorrect option 4 für question 36",
+                                    "nl": "Incorrect option 4 voor question 36"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 37",
+                                    "es": "Incorrect option 1 para question 37",
+                                    "de": "Incorrect option 1 für question 37",
+                                    "nl": "Incorrect option 1 voor question 37"
+                            },
+                            {
+                                    "en": "Correct answer for question 37",
+                                    "es": "Correct answer for question 37",
+                                    "de": "Correct answer for question 37",
+                                    "nl": "Correct answer for question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 37",
+                                    "es": "Incorrect option 3 para question 37",
+                                    "de": "Incorrect option 3 für question 37",
+                                    "nl": "Incorrect option 3 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 37",
+                                    "es": "Incorrect option 4 para question 37",
+                                    "de": "Incorrect option 4 für question 37",
+                                    "nl": "Incorrect option 4 voor question 37"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 38",
+                                    "es": "Incorrect option 1 para question 38",
+                                    "de": "Incorrect option 1 für question 38",
+                                    "nl": "Incorrect option 1 voor question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 38",
+                                    "es": "Incorrect option 2 para question 38",
+                                    "de": "Incorrect option 2 für question 38",
+                                    "nl": "Incorrect option 2 voor question 38"
+                            },
+                            {
+                                    "en": "Correct answer for question 38",
+                                    "es": "Correct answer for question 38",
+                                    "de": "Correct answer for question 38",
+                                    "nl": "Correct answer for question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 38",
+                                    "es": "Incorrect option 4 para question 38",
+                                    "de": "Incorrect option 4 für question 38",
+                                    "nl": "Incorrect option 4 voor question 38"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 39",
+                                    "es": "Correct answer for question 39",
+                                    "de": "Correct answer for question 39",
+                                    "nl": "Correct answer for question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 39",
+                                    "es": "Incorrect option 2 para question 39",
+                                    "de": "Incorrect option 2 für question 39",
+                                    "nl": "Incorrect option 2 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 39",
+                                    "es": "Incorrect option 3 para question 39",
+                                    "de": "Incorrect option 3 für question 39",
+                                    "nl": "Incorrect option 3 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 39",
+                                    "es": "Incorrect option 4 para question 39",
+                                    "de": "Incorrect option 4 für question 39",
+                                    "nl": "Incorrect option 4 voor question 39"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 40",
+                                    "es": "Incorrect option 1 para question 40",
+                                    "de": "Incorrect option 1 für question 40",
+                                    "nl": "Incorrect option 1 voor question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 40",
+                                    "es": "Incorrect option 2 para question 40",
+                                    "de": "Incorrect option 2 für question 40",
+                                    "nl": "Incorrect option 2 voor question 40"
+                            },
+                            {
+                                    "en": "Correct answer for question 40",
+                                    "es": "Correct answer for question 40",
+                                    "de": "Correct answer for question 40",
+                                    "nl": "Correct answer for question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 40",
+                                    "es": "Incorrect option 4 para question 40",
+                                    "de": "Incorrect option 4 für question 40",
+                                    "nl": "Incorrect option 4 voor question 40"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 41",
+                                    "es": "Incorrect option 1 para question 41",
+                                    "de": "Incorrect option 1 für question 41",
+                                    "nl": "Incorrect option 1 voor question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 41",
+                                    "es": "Incorrect option 2 para question 41",
+                                    "de": "Incorrect option 2 für question 41",
+                                    "nl": "Incorrect option 2 voor question 41"
+                            },
+                            {
+                                    "en": "Correct answer for question 41",
+                                    "es": "Correct answer for question 41",
+                                    "de": "Correct answer for question 41",
+                                    "nl": "Correct answer for question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 41",
+                                    "es": "Incorrect option 4 para question 41",
+                                    "de": "Incorrect option 4 für question 41",
+                                    "nl": "Incorrect option 4 voor question 41"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 42",
+                                    "es": "Correct answer for question 42",
+                                    "de": "Correct answer for question 42",
+                                    "nl": "Correct answer for question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 42",
+                                    "es": "Incorrect option 2 para question 42",
+                                    "de": "Incorrect option 2 für question 42",
+                                    "nl": "Incorrect option 2 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 42",
+                                    "es": "Incorrect option 3 para question 42",
+                                    "de": "Incorrect option 3 für question 42",
+                                    "nl": "Incorrect option 3 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 42",
+                                    "es": "Incorrect option 4 para question 42",
+                                    "de": "Incorrect option 4 für question 42",
+                                    "nl": "Incorrect option 4 voor question 42"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 43",
+                                    "es": "Incorrect option 1 para question 43",
+                                    "de": "Incorrect option 1 für question 43",
+                                    "nl": "Incorrect option 1 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 43",
+                                    "es": "Incorrect option 2 para question 43",
+                                    "de": "Incorrect option 2 für question 43",
+                                    "nl": "Incorrect option 2 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 43",
+                                    "es": "Incorrect option 3 para question 43",
+                                    "de": "Incorrect option 3 für question 43",
+                                    "nl": "Incorrect option 3 voor question 43"
+                            },
+                            {
+                                    "en": "Correct answer for question 43",
+                                    "es": "Correct answer for question 43",
+                                    "de": "Correct answer for question 43",
+                                    "nl": "Correct answer for question 43"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 44",
+                                    "es": "Incorrect option 1 para question 44",
+                                    "de": "Incorrect option 1 für question 44",
+                                    "nl": "Incorrect option 1 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 44",
+                                    "es": "Incorrect option 2 para question 44",
+                                    "de": "Incorrect option 2 für question 44",
+                                    "nl": "Incorrect option 2 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 44",
+                                    "es": "Incorrect option 3 para question 44",
+                                    "de": "Incorrect option 3 für question 44",
+                                    "nl": "Incorrect option 3 voor question 44"
+                            },
+                            {
+                                    "en": "Correct answer for question 44",
+                                    "es": "Correct answer for question 44",
+                                    "de": "Correct answer for question 44",
+                                    "nl": "Correct answer for question 44"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 45",
+                                    "es": "Incorrect option 1 para question 45",
+                                    "de": "Incorrect option 1 für question 45",
+                                    "nl": "Incorrect option 1 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 45",
+                                    "es": "Incorrect option 2 para question 45",
+                                    "de": "Incorrect option 2 für question 45",
+                                    "nl": "Incorrect option 2 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 45",
+                                    "es": "Incorrect option 3 para question 45",
+                                    "de": "Incorrect option 3 für question 45",
+                                    "nl": "Incorrect option 3 voor question 45"
+                            },
+                            {
+                                    "en": "Correct answer for question 45",
+                                    "es": "Correct answer for question 45",
+                                    "de": "Correct answer for question 45",
+                                    "nl": "Correct answer for question 45"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 46",
+                                    "es": "Correct answer for question 46",
+                                    "de": "Correct answer for question 46",
+                                    "nl": "Correct answer for question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 46",
+                                    "es": "Incorrect option 2 para question 46",
+                                    "de": "Incorrect option 2 für question 46",
+                                    "nl": "Incorrect option 2 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 46",
+                                    "es": "Incorrect option 3 para question 46",
+                                    "de": "Incorrect option 3 für question 46",
+                                    "nl": "Incorrect option 3 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 46",
+                                    "es": "Incorrect option 4 para question 46",
+                                    "de": "Incorrect option 4 für question 46",
+                                    "nl": "Incorrect option 4 voor question 46"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 47",
+                                    "es": "Incorrect option 1 para question 47",
+                                    "de": "Incorrect option 1 für question 47",
+                                    "nl": "Incorrect option 1 voor question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 47",
+                                    "es": "Incorrect option 2 para question 47",
+                                    "de": "Incorrect option 2 für question 47",
+                                    "nl": "Incorrect option 2 voor question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 47",
+                                    "es": "Incorrect option 3 para question 47",
+                                    "de": "Incorrect option 3 für question 47",
+                                    "nl": "Incorrect option 3 voor question 47"
+                            },
+                            {
+                                    "en": "Correct answer for question 47",
+                                    "es": "Correct answer for question 47",
+                                    "de": "Correct answer for question 47",
+                                    "nl": "Correct answer for question 47"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 48",
+                                    "es": "Correct answer for question 48",
+                                    "de": "Correct answer for question 48",
+                                    "nl": "Correct answer for question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 48",
+                                    "es": "Incorrect option 2 para question 48",
+                                    "de": "Incorrect option 2 für question 48",
+                                    "nl": "Incorrect option 2 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 48",
+                                    "es": "Incorrect option 3 para question 48",
+                                    "de": "Incorrect option 3 für question 48",
+                                    "nl": "Incorrect option 3 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 48",
+                                    "es": "Incorrect option 4 para question 48",
+                                    "de": "Incorrect option 4 für question 48",
+                                    "nl": "Incorrect option 4 voor question 48"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 49",
+                                    "es": "Incorrect option 1 para question 49",
+                                    "de": "Incorrect option 1 für question 49",
+                                    "nl": "Incorrect option 1 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 49",
+                                    "es": "Incorrect option 2 para question 49",
+                                    "de": "Incorrect option 2 für question 49",
+                                    "nl": "Incorrect option 2 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 49",
+                                    "es": "Incorrect option 3 para question 49",
+                                    "de": "Incorrect option 3 für question 49",
+                                    "nl": "Incorrect option 3 voor question 49"
+                            },
+                            {
+                                    "en": "Correct answer for question 49",
+                                    "es": "Correct answer for question 49",
+                                    "de": "Correct answer for question 49",
+                                    "nl": "Correct answer for question 49"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 50",
+                                    "es": "Incorrect option 1 para question 50",
+                                    "de": "Incorrect option 1 für question 50",
+                                    "nl": "Incorrect option 1 voor question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 50",
+                                    "es": "Incorrect option 2 para question 50",
+                                    "de": "Incorrect option 2 für question 50",
+                                    "nl": "Incorrect option 2 voor question 50"
+                            },
+                            {
+                                    "en": "Correct answer for question 50",
+                                    "es": "Correct answer for question 50",
+                                    "de": "Correct answer for question 50",
+                                    "nl": "Correct answer for question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 50",
+                                    "es": "Incorrect option 4 para question 50",
+                                    "de": "Incorrect option 4 für question 50",
+                                    "nl": "Incorrect option 4 voor question 50"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 51",
+                                    "es": "Correct answer for question 51",
+                                    "de": "Correct answer for question 51",
+                                    "nl": "Correct answer for question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 51",
+                                    "es": "Incorrect option 2 para question 51",
+                                    "de": "Incorrect option 2 für question 51",
+                                    "nl": "Incorrect option 2 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 51",
+                                    "es": "Incorrect option 3 para question 51",
+                                    "de": "Incorrect option 3 für question 51",
+                                    "nl": "Incorrect option 3 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 51",
+                                    "es": "Incorrect option 4 para question 51",
+                                    "de": "Incorrect option 4 für question 51",
+                                    "nl": "Incorrect option 4 voor question 51"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 52",
+                                    "es": "Incorrect option 1 para question 52",
+                                    "de": "Incorrect option 1 für question 52",
+                                    "nl": "Incorrect option 1 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 52",
+                                    "es": "Incorrect option 2 para question 52",
+                                    "de": "Incorrect option 2 für question 52",
+                                    "nl": "Incorrect option 2 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 52",
+                                    "es": "Incorrect option 3 para question 52",
+                                    "de": "Incorrect option 3 für question 52",
+                                    "nl": "Incorrect option 3 voor question 52"
+                            },
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 53",
+                                    "es": "Incorrect option 1 para question 53",
+                                    "de": "Incorrect option 1 für question 53",
+                                    "nl": "Incorrect option 1 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 53",
+                                    "es": "Incorrect option 3 para question 53",
+                                    "de": "Incorrect option 3 für question 53",
+                                    "nl": "Incorrect option 3 voor question 53"
+                            },
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 54",
+                                    "es": "Incorrect option 2 para question 54",
+                                    "de": "Incorrect option 2 für question 54",
+                                    "nl": "Incorrect option 2 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 54",
+                                    "es": "Incorrect option 4 para question 54",
+                                    "de": "Incorrect option 4 für question 54",
+                                    "nl": "Incorrect option 4 voor question 54"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 55",
+                                    "es": "Incorrect option 2 para question 55",
+                                    "de": "Incorrect option 2 für question 55",
+                                    "nl": "Incorrect option 2 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 55",
+                                    "es": "Incorrect option 3 para question 55",
+                                    "de": "Incorrect option 3 für question 55",
+                                    "nl": "Incorrect option 3 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 55",
+                                    "es": "Incorrect option 4 para question 55",
+                                    "de": "Incorrect option 4 für question 55",
+                                    "nl": "Incorrect option 4 voor question 55"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 56",
+                                    "es": "Incorrect option 1 para question 56",
+                                    "de": "Incorrect option 1 für question 56",
+                                    "nl": "Incorrect option 1 voor question 56"
+                            },
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 56",
+                                    "es": "Incorrect option 3 para question 56",
+                                    "de": "Incorrect option 3 für question 56",
+                                    "nl": "Incorrect option 3 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 56",
+                                    "es": "Incorrect option 4 para question 56",
+                                    "de": "Incorrect option 4 für question 56",
+                                    "nl": "Incorrect option 4 voor question 56"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 57",
+                                    "es": "Incorrect option 2 para question 57",
+                                    "de": "Incorrect option 2 für question 57",
+                                    "nl": "Incorrect option 2 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 57",
+                                    "es": "Incorrect option 4 para question 57",
+                                    "de": "Incorrect option 4 für question 57",
+                                    "nl": "Incorrect option 4 voor question 57"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 58",
+                                    "es": "Incorrect option 1 para question 58",
+                                    "de": "Incorrect option 1 für question 58",
+                                    "nl": "Incorrect option 1 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 58",
+                                    "es": "Incorrect option 2 para question 58",
+                                    "de": "Incorrect option 2 für question 58",
+                                    "nl": "Incorrect option 2 voor question 58"
+                            },
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 58",
+                                    "es": "Incorrect option 4 para question 58",
+                                    "de": "Incorrect option 4 für question 58",
+                                    "nl": "Incorrect option 4 voor question 58"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 59",
+                                    "es": "Incorrect option 1 para question 59",
+                                    "de": "Incorrect option 1 für question 59",
+                                    "nl": "Incorrect option 1 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 59",
+                                    "es": "Incorrect option 2 para question 59",
+                                    "de": "Incorrect option 2 für question 59",
+                                    "nl": "Incorrect option 2 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 59",
+                                    "es": "Incorrect option 3 para question 59",
+                                    "de": "Incorrect option 3 für question 59",
+                                    "nl": "Incorrect option 3 voor question 59"
+                            },
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 60",
+                                    "es": "Incorrect option 2 para question 60",
+                                    "de": "Incorrect option 2 für question 60",
+                                    "nl": "Incorrect option 2 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 60",
+                                    "es": "Incorrect option 3 para question 60",
+                                    "de": "Incorrect option 3 für question 60",
+                                    "nl": "Incorrect option 3 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 61",
+                                    "es": "Incorrect option 2 para question 61",
+                                    "de": "Incorrect option 2 für question 61",
+                                    "nl": "Incorrect option 2 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 61",
+                                    "es": "Incorrect option 3 para question 61",
+                                    "de": "Incorrect option 3 für question 61",
+                                    "nl": "Incorrect option 3 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 61",
+                                    "es": "Incorrect option 4 para question 61",
+                                    "de": "Incorrect option 4 für question 61",
+                                    "nl": "Incorrect option 4 voor question 61"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 62",
+                                    "es": "Incorrect option 1 para question 62",
+                                    "de": "Incorrect option 1 für question 62",
+                                    "nl": "Incorrect option 1 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 62",
+                                    "es": "Incorrect option 3 para question 62",
+                                    "de": "Incorrect option 3 für question 62",
+                                    "nl": "Incorrect option 3 voor question 62"
+                            },
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 63",
+                                    "es": "Incorrect option 2 para question 63",
+                                    "de": "Incorrect option 2 für question 63",
+                                    "nl": "Incorrect option 2 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 63",
+                                    "es": "Incorrect option 3 para question 63",
+                                    "de": "Incorrect option 3 für question 63",
+                                    "nl": "Incorrect option 3 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 64",
+                                    "es": "Incorrect option 3 para question 64",
+                                    "de": "Incorrect option 3 für question 64",
+                                    "nl": "Incorrect option 3 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 64",
+                                    "es": "Incorrect option 4 para question 64",
+                                    "de": "Incorrect option 4 für question 64",
+                                    "nl": "Incorrect option 4 voor question 64"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 65",
+                                    "es": "Incorrect option 1 para question 65",
+                                    "de": "Incorrect option 1 für question 65",
+                                    "nl": "Incorrect option 1 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 65",
+                                    "es": "Incorrect option 2 para question 65",
+                                    "de": "Incorrect option 2 für question 65",
+                                    "nl": "Incorrect option 2 voor question 65"
+                            },
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 65",
+                                    "es": "Incorrect option 4 para question 65",
+                                    "de": "Incorrect option 4 für question 65",
+                                    "nl": "Incorrect option 4 voor question 65"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 66",
+                                    "es": "Incorrect option 1 para question 66",
+                                    "de": "Incorrect option 1 für question 66",
+                                    "nl": "Incorrect option 1 voor question 66"
+                            },
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 66",
+                                    "es": "Incorrect option 3 para question 66",
+                                    "de": "Incorrect option 3 für question 66",
+                                    "nl": "Incorrect option 3 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 67",
+                                    "es": "Incorrect option 3 para question 67",
+                                    "de": "Incorrect option 3 für question 67",
+                                    "nl": "Incorrect option 3 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 67",
+                                    "es": "Incorrect option 4 para question 67",
+                                    "de": "Incorrect option 4 für question 67",
+                                    "nl": "Incorrect option 4 voor question 67"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 68",
+                                    "es": "Incorrect option 1 para question 68",
+                                    "de": "Incorrect option 1 für question 68",
+                                    "nl": "Incorrect option 1 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 68",
+                                    "es": "Incorrect option 2 para question 68",
+                                    "de": "Incorrect option 2 für question 68",
+                                    "nl": "Incorrect option 2 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 69",
+                                    "es": "Incorrect option 2 para question 69",
+                                    "de": "Incorrect option 2 für question 69",
+                                    "nl": "Incorrect option 2 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 69",
+                                    "es": "Incorrect option 3 para question 69",
+                                    "de": "Incorrect option 3 für question 69",
+                                    "nl": "Incorrect option 3 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 70",
+                                    "es": "Incorrect option 1 para question 70",
+                                    "de": "Incorrect option 1 für question 70",
+                                    "nl": "Incorrect option 1 voor question 70"
+                            },
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 70",
+                                    "es": "Incorrect option 3 para question 70",
+                                    "de": "Incorrect option 3 für question 70",
+                                    "nl": "Incorrect option 3 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 70",
+                                    "es": "Incorrect option 4 para question 70",
+                                    "de": "Incorrect option 4 für question 70",
+                                    "nl": "Incorrect option 4 voor question 70"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 71",
+                                    "es": "Incorrect option 1 para question 71",
+                                    "de": "Incorrect option 1 für question 71",
+                                    "nl": "Incorrect option 1 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 71",
+                                    "es": "Incorrect option 2 para question 71",
+                                    "de": "Incorrect option 2 für question 71",
+                                    "nl": "Incorrect option 2 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 71",
+                                    "es": "Incorrect option 3 para question 71",
+                                    "de": "Incorrect option 3 für question 71",
+                                    "nl": "Incorrect option 3 voor question 71"
+                            },
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 72",
+                                    "es": "Incorrect option 1 para question 72",
+                                    "de": "Incorrect option 1 für question 72",
+                                    "nl": "Incorrect option 1 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 73",
+                                    "es": "Incorrect option 1 para question 73",
+                                    "de": "Incorrect option 1 für question 73",
+                                    "nl": "Incorrect option 1 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 73",
+                                    "es": "Incorrect option 2 para question 73",
+                                    "de": "Incorrect option 2 für question 73",
+                                    "nl": "Incorrect option 2 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 74",
+                                    "es": "Incorrect option 2 para question 74",
+                                    "de": "Incorrect option 2 für question 74",
+                                    "nl": "Incorrect option 2 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 75",
+                                    "es": "Incorrect option 3 para question 75",
+                                    "de": "Incorrect option 3 für question 75",
+                                    "nl": "Incorrect option 3 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 76",
+                                    "es": "Incorrect option 1 para question 76",
+                                    "de": "Incorrect option 1 für question 76",
+                                    "nl": "Incorrect option 1 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 77",
+                                    "es": "Incorrect option 1 para question 77",
+                                    "de": "Incorrect option 1 für question 77",
+                                    "nl": "Incorrect option 1 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 77",
+                                    "es": "Incorrect option 3 para question 77",
+                                    "de": "Incorrect option 3 für question 77",
+                                    "nl": "Incorrect option 3 voor question 77"
+                            },
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 78",
+                                    "es": "Incorrect option 1 para question 78",
+                                    "de": "Incorrect option 1 für question 78",
+                                    "nl": "Incorrect option 1 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 78",
+                                    "es": "Incorrect option 4 para question 78",
+                                    "de": "Incorrect option 4 für question 78",
+                                    "nl": "Incorrect option 4 voor question 78"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 79",
+                                    "es": "Incorrect option 1 para question 79",
+                                    "de": "Incorrect option 1 für question 79",
+                                    "nl": "Incorrect option 1 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 80",
+                                    "es": "Incorrect option 1 para question 80",
+                                    "de": "Incorrect option 1 für question 80",
+                                    "nl": "Incorrect option 1 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 80",
+                                    "es": "Incorrect option 2 para question 80",
+                                    "de": "Incorrect option 2 für question 80",
+                                    "nl": "Incorrect option 2 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 81",
+                                    "es": "Incorrect option 1 para question 81",
+                                    "de": "Incorrect option 1 für question 81",
+                                    "nl": "Incorrect option 1 voor question 81"
+                            },
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 81",
+                                    "es": "Incorrect option 4 para question 81",
+                                    "de": "Incorrect option 4 für question 81",
+                                    "nl": "Incorrect option 4 voor question 81"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 82",
+                                    "es": "Incorrect option 1 para question 82",
+                                    "de": "Incorrect option 1 für question 82",
+                                    "nl": "Incorrect option 1 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 83",
+                                    "es": "Incorrect option 1 para question 83",
+                                    "de": "Incorrect option 1 für question 83",
+                                    "nl": "Incorrect option 1 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 83",
+                                    "es": "Incorrect option 4 para question 83",
+                                    "de": "Incorrect option 4 für question 83",
+                                    "nl": "Incorrect option 4 voor question 83"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 84",
+                                    "es": "Incorrect option 1 para question 84",
+                                    "de": "Incorrect option 1 für question 84",
+                                    "nl": "Incorrect option 1 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 85",
+                                    "es": "Incorrect option 2 para question 85",
+                                    "de": "Incorrect option 2 für question 85",
+                                    "nl": "Incorrect option 2 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 85",
+                                    "es": "Incorrect option 3 para question 85",
+                                    "de": "Incorrect option 3 für question 85",
+                                    "nl": "Incorrect option 3 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 86",
+                                    "es": "Incorrect option 1 para question 86",
+                                    "de": "Incorrect option 1 für question 86",
+                                    "nl": "Incorrect option 1 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 86",
+                                    "es": "Incorrect option 3 para question 86",
+                                    "de": "Incorrect option 3 für question 86",
+                                    "nl": "Incorrect option 3 voor question 86"
+                            },
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 88",
+                                    "es": "Incorrect option 3 para question 88",
+                                    "de": "Incorrect option 3 für question 88",
+                                    "nl": "Incorrect option 3 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 89",
+                                    "es": "Incorrect option 2 para question 89",
+                                    "de": "Incorrect option 2 für question 89",
+                                    "nl": "Incorrect option 2 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 89",
+                                    "es": "Incorrect option 4 para question 89",
+                                    "de": "Incorrect option 4 für question 89",
+                                    "nl": "Incorrect option 4 voor question 89"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 90",
+                                    "es": "Incorrect option 4 para question 90",
+                                    "de": "Incorrect option 4 für question 90",
+                                    "nl": "Incorrect option 4 voor question 90"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Historical Figures?",
+                            "es": "¿Cómo does this relate to Historical Figures?",
+                            "de": "Wie does this relate to Historical Figures?",
+                            "nl": "Hoe does this relate to Historical Figures?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 92",
+                                    "es": "Incorrect option 1 para question 92",
+                                    "de": "Incorrect option 1 für question 92",
+                                    "nl": "Incorrect option 1 voor question 92"
+                            },
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 93",
+                                    "es": "Incorrect option 1 para question 93",
+                                    "de": "Incorrect option 1 für question 93",
+                                    "nl": "Incorrect option 1 voor question 93"
+                            },
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 93",
+                                    "es": "Incorrect option 3 para question 93",
+                                    "de": "Incorrect option 3 für question 93",
+                                    "nl": "Incorrect option 3 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 93",
+                                    "es": "Incorrect option 4 para question 93",
+                                    "de": "Incorrect option 4 für question 93",
+                                    "nl": "Incorrect option 4 voor question 93"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 94",
+                                    "es": "Incorrect option 3 para question 94",
+                                    "de": "Incorrect option 3 für question 94",
+                                    "nl": "Incorrect option 3 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 94",
+                                    "es": "Incorrect option 4 para question 94",
+                                    "de": "Incorrect option 4 für question 94",
+                                    "nl": "Incorrect option 4 voor question 94"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 95",
+                                    "es": "Incorrect option 3 para question 95",
+                                    "de": "Incorrect option 3 für question 95",
+                                    "nl": "Incorrect option 3 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 96",
+                                    "es": "Incorrect option 3 para question 96",
+                                    "de": "Incorrect option 3 für question 96",
+                                    "nl": "Incorrect option 3 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 97",
+                                    "es": "Incorrect option 1 para question 97",
+                                    "de": "Incorrect option 1 für question 97",
+                                    "nl": "Incorrect option 1 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 97",
+                                    "es": "Incorrect option 2 para question 97",
+                                    "de": "Incorrect option 2 für question 97",
+                                    "nl": "Incorrect option 2 voor question 97"
+                            },
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 98",
+                                    "es": "Incorrect option 1 para question 98",
+                                    "de": "Incorrect option 1 für question 98",
+                                    "nl": "Incorrect option 1 voor question 98"
+                            },
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 98",
+                                    "es": "Incorrect option 4 para question 98",
+                                    "de": "Incorrect option 4 für question 98",
+                                    "nl": "Incorrect option 4 voor question 98"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 99",
+                                    "es": "Incorrect option 2 para question 99",
+                                    "de": "Incorrect option 2 für question 99",
+                                    "nl": "Incorrect option 2 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 7?",
+                            "es": "¿Qué is the significance of this in level 7?",
+                            "de": "Was is the significance of this in level 7?",
+                            "nl": "Wat is the significance of this in level 7?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 100",
+                                    "es": "Incorrect option 1 para question 100",
+                                    "de": "Incorrect option 1 für question 100",
+                                    "nl": "Incorrect option 1 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "es": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "de": "This question relates to level 7 content in Historical Figures. The correct answer provides important context.",
+                            "nl": "This question relates to level 7 content in Historical Figures. The correct answer provides important context."
+                    }
+            }
+    ]
 };

@@ -1,4104 +1,4108 @@
+// Donuts - level2
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:49.325Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Donuts",
-      "es": "Pregunta 1 sobre Donuts",
-      "de": "Frage 1 über Donuts",
-      "nl": "Vraag 1 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Donuts",
-      "es": "Pregunta 2 sobre Donuts",
-      "de": "Frage 2 über Donuts",
-      "nl": "Vraag 2 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Donuts",
-      "es": "Pregunta 3 sobre Donuts",
-      "de": "Frage 3 über Donuts",
-      "nl": "Vraag 3 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Donuts",
-      "es": "Pregunta 4 sobre Donuts",
-      "de": "Frage 4 über Donuts",
-      "nl": "Vraag 4 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Donuts",
-      "es": "Pregunta 5 sobre Donuts",
-      "de": "Frage 5 über Donuts",
-      "nl": "Vraag 5 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Donuts",
-      "es": "Pregunta 6 sobre Donuts",
-      "de": "Frage 6 über Donuts",
-      "nl": "Vraag 6 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Donuts",
-      "es": "Pregunta 7 sobre Donuts",
-      "de": "Frage 7 über Donuts",
-      "nl": "Vraag 7 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Donuts",
-      "es": "Pregunta 8 sobre Donuts",
-      "de": "Frage 8 über Donuts",
-      "nl": "Vraag 8 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Donuts",
-      "es": "Pregunta 9 sobre Donuts",
-      "de": "Frage 9 über Donuts",
-      "nl": "Vraag 9 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Donuts",
-      "es": "Pregunta 10 sobre Donuts",
-      "de": "Frage 10 über Donuts",
-      "nl": "Vraag 10 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Donuts",
-      "es": "Pregunta 11 sobre Donuts",
-      "de": "Frage 11 über Donuts",
-      "nl": "Vraag 11 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Donuts",
-      "es": "Pregunta 12 sobre Donuts",
-      "de": "Frage 12 über Donuts",
-      "nl": "Vraag 12 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Donuts",
-      "es": "Pregunta 13 sobre Donuts",
-      "de": "Frage 13 über Donuts",
-      "nl": "Vraag 13 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Donuts",
-      "es": "Pregunta 14 sobre Donuts",
-      "de": "Frage 14 über Donuts",
-      "nl": "Vraag 14 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Donuts",
-      "es": "Pregunta 15 sobre Donuts",
-      "de": "Frage 15 über Donuts",
-      "nl": "Vraag 15 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Donuts",
-      "es": "Pregunta 16 sobre Donuts",
-      "de": "Frage 16 über Donuts",
-      "nl": "Vraag 16 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Donuts",
-      "es": "Pregunta 17 sobre Donuts",
-      "de": "Frage 17 über Donuts",
-      "nl": "Vraag 17 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Donuts",
-      "es": "Pregunta 18 sobre Donuts",
-      "de": "Frage 18 über Donuts",
-      "nl": "Vraag 18 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Donuts",
-      "es": "Pregunta 19 sobre Donuts",
-      "de": "Frage 19 über Donuts",
-      "nl": "Vraag 19 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Donuts",
-      "es": "Pregunta 20 sobre Donuts",
-      "de": "Frage 20 über Donuts",
-      "nl": "Vraag 20 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Donuts",
-      "es": "Pregunta 21 sobre Donuts",
-      "de": "Frage 21 über Donuts",
-      "nl": "Vraag 21 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Donuts",
-      "es": "Pregunta 22 sobre Donuts",
-      "de": "Frage 22 über Donuts",
-      "nl": "Vraag 22 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Donuts",
-      "es": "Pregunta 23 sobre Donuts",
-      "de": "Frage 23 über Donuts",
-      "nl": "Vraag 23 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Donuts",
-      "es": "Pregunta 24 sobre Donuts",
-      "de": "Frage 24 über Donuts",
-      "nl": "Vraag 24 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Donuts",
-      "es": "Pregunta 25 sobre Donuts",
-      "de": "Frage 25 über Donuts",
-      "nl": "Vraag 25 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Donuts",
-      "es": "Pregunta 26 sobre Donuts",
-      "de": "Frage 26 über Donuts",
-      "nl": "Vraag 26 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Donuts",
-      "es": "Pregunta 27 sobre Donuts",
-      "de": "Frage 27 über Donuts",
-      "nl": "Vraag 27 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Donuts",
-      "es": "Pregunta 28 sobre Donuts",
-      "de": "Frage 28 über Donuts",
-      "nl": "Vraag 28 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Donuts",
-      "es": "Pregunta 29 sobre Donuts",
-      "de": "Frage 29 über Donuts",
-      "nl": "Vraag 29 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Donuts",
-      "es": "Pregunta 30 sobre Donuts",
-      "de": "Frage 30 über Donuts",
-      "nl": "Vraag 30 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Donuts",
-      "es": "Pregunta 31 sobre Donuts",
-      "de": "Frage 31 über Donuts",
-      "nl": "Vraag 31 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Donuts",
-      "es": "Pregunta 32 sobre Donuts",
-      "de": "Frage 32 über Donuts",
-      "nl": "Vraag 32 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Donuts",
-      "es": "Pregunta 33 sobre Donuts",
-      "de": "Frage 33 über Donuts",
-      "nl": "Vraag 33 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Donuts",
-      "es": "Pregunta 34 sobre Donuts",
-      "de": "Frage 34 über Donuts",
-      "nl": "Vraag 34 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Donuts",
-      "es": "Pregunta 35 sobre Donuts",
-      "de": "Frage 35 über Donuts",
-      "nl": "Vraag 35 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Donuts",
-      "es": "Pregunta 36 sobre Donuts",
-      "de": "Frage 36 über Donuts",
-      "nl": "Vraag 36 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Donuts",
-      "es": "Pregunta 37 sobre Donuts",
-      "de": "Frage 37 über Donuts",
-      "nl": "Vraag 37 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Donuts",
-      "es": "Pregunta 38 sobre Donuts",
-      "de": "Frage 38 über Donuts",
-      "nl": "Vraag 38 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Donuts",
-      "es": "Pregunta 39 sobre Donuts",
-      "de": "Frage 39 über Donuts",
-      "nl": "Vraag 39 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Donuts",
-      "es": "Pregunta 40 sobre Donuts",
-      "de": "Frage 40 über Donuts",
-      "nl": "Vraag 40 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Donuts",
-      "es": "Pregunta 41 sobre Donuts",
-      "de": "Frage 41 über Donuts",
-      "nl": "Vraag 41 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Donuts",
-      "es": "Pregunta 42 sobre Donuts",
-      "de": "Frage 42 über Donuts",
-      "nl": "Vraag 42 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Donuts",
-      "es": "Pregunta 43 sobre Donuts",
-      "de": "Frage 43 über Donuts",
-      "nl": "Vraag 43 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Donuts",
-      "es": "Pregunta 44 sobre Donuts",
-      "de": "Frage 44 über Donuts",
-      "nl": "Vraag 44 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Donuts",
-      "es": "Pregunta 45 sobre Donuts",
-      "de": "Frage 45 über Donuts",
-      "nl": "Vraag 45 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Donuts",
-      "es": "Pregunta 46 sobre Donuts",
-      "de": "Frage 46 über Donuts",
-      "nl": "Vraag 46 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Donuts",
-      "es": "Pregunta 47 sobre Donuts",
-      "de": "Frage 47 über Donuts",
-      "nl": "Vraag 47 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Donuts",
-      "es": "Pregunta 48 sobre Donuts",
-      "de": "Frage 48 über Donuts",
-      "nl": "Vraag 48 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Donuts",
-      "es": "Pregunta 49 sobre Donuts",
-      "de": "Frage 49 über Donuts",
-      "nl": "Vraag 49 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Donuts",
-      "es": "Pregunta 50 sobre Donuts",
-      "de": "Frage 50 über Donuts",
-      "nl": "Vraag 50 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Donuts",
-      "es": "Pregunta 51 sobre Donuts",
-      "de": "Frage 51 über Donuts",
-      "nl": "Vraag 51 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Donuts",
-      "es": "Pregunta 52 sobre Donuts",
-      "de": "Frage 52 über Donuts",
-      "nl": "Vraag 52 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Donuts",
-      "es": "Pregunta 53 sobre Donuts",
-      "de": "Frage 53 über Donuts",
-      "nl": "Vraag 53 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Donuts",
-      "es": "Pregunta 54 sobre Donuts",
-      "de": "Frage 54 über Donuts",
-      "nl": "Vraag 54 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Donuts",
-      "es": "Pregunta 55 sobre Donuts",
-      "de": "Frage 55 über Donuts",
-      "nl": "Vraag 55 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Donuts",
-      "es": "Pregunta 56 sobre Donuts",
-      "de": "Frage 56 über Donuts",
-      "nl": "Vraag 56 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Donuts",
-      "es": "Pregunta 57 sobre Donuts",
-      "de": "Frage 57 über Donuts",
-      "nl": "Vraag 57 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Donuts",
-      "es": "Pregunta 58 sobre Donuts",
-      "de": "Frage 58 über Donuts",
-      "nl": "Vraag 58 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Donuts",
-      "es": "Pregunta 59 sobre Donuts",
-      "de": "Frage 59 über Donuts",
-      "nl": "Vraag 59 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Donuts",
-      "es": "Pregunta 60 sobre Donuts",
-      "de": "Frage 60 über Donuts",
-      "nl": "Vraag 60 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Donuts",
-      "es": "Pregunta 61 sobre Donuts",
-      "de": "Frage 61 über Donuts",
-      "nl": "Vraag 61 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Donuts",
-      "es": "Pregunta 62 sobre Donuts",
-      "de": "Frage 62 über Donuts",
-      "nl": "Vraag 62 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Donuts",
-      "es": "Pregunta 63 sobre Donuts",
-      "de": "Frage 63 über Donuts",
-      "nl": "Vraag 63 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Donuts",
-      "es": "Pregunta 64 sobre Donuts",
-      "de": "Frage 64 über Donuts",
-      "nl": "Vraag 64 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Donuts",
-      "es": "Pregunta 65 sobre Donuts",
-      "de": "Frage 65 über Donuts",
-      "nl": "Vraag 65 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Donuts",
-      "es": "Pregunta 66 sobre Donuts",
-      "de": "Frage 66 über Donuts",
-      "nl": "Vraag 66 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Donuts",
-      "es": "Pregunta 67 sobre Donuts",
-      "de": "Frage 67 über Donuts",
-      "nl": "Vraag 67 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Donuts",
-      "es": "Pregunta 68 sobre Donuts",
-      "de": "Frage 68 über Donuts",
-      "nl": "Vraag 68 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Donuts",
-      "es": "Pregunta 69 sobre Donuts",
-      "de": "Frage 69 über Donuts",
-      "nl": "Vraag 69 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Donuts",
-      "es": "Pregunta 70 sobre Donuts",
-      "de": "Frage 70 über Donuts",
-      "nl": "Vraag 70 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Donuts",
-      "es": "Pregunta 71 sobre Donuts",
-      "de": "Frage 71 über Donuts",
-      "nl": "Vraag 71 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Donuts",
-      "es": "Pregunta 72 sobre Donuts",
-      "de": "Frage 72 über Donuts",
-      "nl": "Vraag 72 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Donuts",
-      "es": "Pregunta 73 sobre Donuts",
-      "de": "Frage 73 über Donuts",
-      "nl": "Vraag 73 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Donuts",
-      "es": "Pregunta 74 sobre Donuts",
-      "de": "Frage 74 über Donuts",
-      "nl": "Vraag 74 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Donuts",
-      "es": "Pregunta 75 sobre Donuts",
-      "de": "Frage 75 über Donuts",
-      "nl": "Vraag 75 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Donuts",
-      "es": "Pregunta 76 sobre Donuts",
-      "de": "Frage 76 über Donuts",
-      "nl": "Vraag 76 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Donuts",
-      "es": "Pregunta 77 sobre Donuts",
-      "de": "Frage 77 über Donuts",
-      "nl": "Vraag 77 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Donuts",
-      "es": "Pregunta 78 sobre Donuts",
-      "de": "Frage 78 über Donuts",
-      "nl": "Vraag 78 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Donuts",
-      "es": "Pregunta 79 sobre Donuts",
-      "de": "Frage 79 über Donuts",
-      "nl": "Vraag 79 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Donuts",
-      "es": "Pregunta 80 sobre Donuts",
-      "de": "Frage 80 über Donuts",
-      "nl": "Vraag 80 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Donuts",
-      "es": "Pregunta 81 sobre Donuts",
-      "de": "Frage 81 über Donuts",
-      "nl": "Vraag 81 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Donuts",
-      "es": "Pregunta 82 sobre Donuts",
-      "de": "Frage 82 über Donuts",
-      "nl": "Vraag 82 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Donuts",
-      "es": "Pregunta 83 sobre Donuts",
-      "de": "Frage 83 über Donuts",
-      "nl": "Vraag 83 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Donuts",
-      "es": "Pregunta 84 sobre Donuts",
-      "de": "Frage 84 über Donuts",
-      "nl": "Vraag 84 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Donuts",
-      "es": "Pregunta 85 sobre Donuts",
-      "de": "Frage 85 über Donuts",
-      "nl": "Vraag 85 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Donuts",
-      "es": "Pregunta 86 sobre Donuts",
-      "de": "Frage 86 über Donuts",
-      "nl": "Vraag 86 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Donuts",
-      "es": "Pregunta 87 sobre Donuts",
-      "de": "Frage 87 über Donuts",
-      "nl": "Vraag 87 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Donuts",
-      "es": "Pregunta 88 sobre Donuts",
-      "de": "Frage 88 über Donuts",
-      "nl": "Vraag 88 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Donuts",
-      "es": "Pregunta 89 sobre Donuts",
-      "de": "Frage 89 über Donuts",
-      "nl": "Vraag 89 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Donuts",
-      "es": "Pregunta 90 sobre Donuts",
-      "de": "Frage 90 über Donuts",
-      "nl": "Vraag 90 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Donuts",
-      "es": "Pregunta 91 sobre Donuts",
-      "de": "Frage 91 über Donuts",
-      "nl": "Vraag 91 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Donuts",
-      "es": "Pregunta 92 sobre Donuts",
-      "de": "Frage 92 über Donuts",
-      "nl": "Vraag 92 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Donuts",
-      "es": "Pregunta 93 sobre Donuts",
-      "de": "Frage 93 über Donuts",
-      "nl": "Vraag 93 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Donuts",
-      "es": "Pregunta 94 sobre Donuts",
-      "de": "Frage 94 über Donuts",
-      "nl": "Vraag 94 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Donuts",
-      "es": "Pregunta 95 sobre Donuts",
-      "de": "Frage 95 über Donuts",
-      "nl": "Vraag 95 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Donuts",
-      "es": "Pregunta 96 sobre Donuts",
-      "de": "Frage 96 über Donuts",
-      "nl": "Vraag 96 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Donuts",
-      "es": "Pregunta 97 sobre Donuts",
-      "de": "Frage 97 über Donuts",
-      "nl": "Vraag 97 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Donuts",
-      "es": "Pregunta 98 sobre Donuts",
-      "de": "Frage 98 über Donuts",
-      "nl": "Vraag 98 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Donuts",
-      "es": "Pregunta 99 sobre Donuts",
-      "de": "Frage 99 über Donuts",
-      "nl": "Vraag 99 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Donuts",
-      "es": "Pregunta 100 sobre Donuts",
-      "de": "Frage 100 über Donuts",
-      "nl": "Vraag 100 over Donuts"
-    },
-    "options": [
-      {
-        "en": "Answer A for Donuts",
-        "es": "Respuesta A para Donuts",
-        "de": "Antwort A für Donuts",
-        "nl": "Antwoord A voor Donuts"
-      },
-      {
-        "en": "Answer B for Donuts",
-        "es": "Respuesta B para Donuts",
-        "de": "Antwort B für Donuts",
-        "nl": "Antwoord B voor Donuts"
-      },
-      {
-        "en": "Answer C for Donuts",
-        "es": "Respuesta C para Donuts",
-        "de": "Antwort C für Donuts",
-        "nl": "Antwoord C voor Donuts"
-      },
-      {
-        "en": "Answer D for Donuts",
-        "es": "Respuesta D para Donuts",
-        "de": "Antwort D für Donuts",
-        "nl": "Antwoord D voor Donuts"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Donuts.",
-      "es": "Esta es la respuesta correcta sobre Donuts.",
-      "de": "Dies ist die richtige Antwort über Donuts.",
-      "nl": "Dit is het juiste antwoord over Donuts."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What creates the signature ring shape of traditional donuts?",
+                            "es": "¿Qué crea la forma de anillo característica de los donuts tradicionales?",
+                            "de": "Was erzeugt die charakteristische Ringform traditioneller Donuts?",
+                            "nl": "Wat creëert de kenmerkende ringvorm van traditionele donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Removing center allows even frying throughout",
+                                    "es": "Quitar el centro permite fritura uniforme",
+                                    "de": "Das Entfernen der Mitte ermöglicht gleichmäßiges Frittieren",
+                                    "nl": "Het verwijderen van het midden zorgt voor gelijkmatig frituren"
+                            },
+                            {
+                                    "en": "To save dough costs",
+                                    "es": "Para ahorrar costos de masa",
+                                    "de": "Um Teigkosten zu sparen",
+                                    "nl": "Om deegkosten te besparen"
+                            },
+                            {
+                                    "en": "For easier handling",
+                                    "es": "Para manejo más fácil",
+                                    "de": "Für einfachere Handhabung",
+                                    "nl": "Voor gemakkelijker hanteren"
+                            },
+                            {
+                                    "en": "Traditional mold shape",
+                                    "es": "Forma de molde tradicional",
+                                    "de": "Traditionelle Formgestalt",
+                                    "nl": "Traditionele malvorm"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The hole in donuts was originally created to solve the problem of undercooked centers. By removing the middle, the donut cooks evenly throughout when fried. The removed centers became 'donut holes' - a popular treat themselves!",
+                            "es": "El agujero en los donuts se creó originalmente para resolver el problema de centros poco cocidos. Al quitar el medio, el donut se cocina uniformemente cuando se fríe. ¡Los centros removidos se convirtieron en 'agujeros de donut' - un dulce popular en sí mismos!",
+                            "de": "Das Loch in Donuts wurde ursprünglich geschaffen, um das Problem ungarer Zentren zu lösen. Durch das Entfernen der Mitte wird der Donut beim Frittieren gleichmäßig durchgegart. Die entfernten Zentren wurden zu 'Donut-Löchern' - selbst ein beliebter Snack!",
+                            "nl": "Het gat in donuts werd oorspronkelijk gemaakt om het probleem van ongare kernen op te lossen. Door het midden te verwijderen, bakt de donut gelijkmatig door bij het frituren. De verwijderde middens werden 'donutgaten' - zelf een populaire lekkernij!"
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the difference between cake donuts and yeast donuts?",
+                            "es": "¿Cuál es la diferencia entre donuts de pastel y donuts de levadura?",
+                            "de": "Was ist der Unterschied zwischen Kuchen-Donuts und Hefe-Donuts?",
+                            "nl": "Wat is het verschil tussen cake donuts en gist donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cake uses baking powder, yeast uses fermented dough",
+                                    "es": "Pastel usa polvo de hornear, levadura usa masa fermentada",
+                                    "de": "Kuchen verwendet Backpulver, Hefe verwendet fermentierten Teig",
+                                    "nl": "Cake gebruikt bakpoeder, gist gebruikt gefermenteerd deeg"
+                            },
+                            {
+                                    "en": "Only the shape differs",
+                                    "es": "Solo difiere la forma",
+                                    "de": "Nur die Form unterscheidet sich",
+                                    "nl": "Alleen de vorm verschilt"
+                            },
+                            {
+                                    "en": "Cake is baked, yeast is fried",
+                                    "es": "Pastel se hornea, levadura se fríe",
+                                    "de": "Kuchen wird gebacken, Hefe wird frittiert",
+                                    "nl": "Cake wordt gebakken, gist wordt gefrituurd"
+                            },
+                            {
+                                    "en": "No real difference",
+                                    "es": "No hay diferencia real",
+                                    "de": "Kein wirklicher Unterschied",
+                                    "nl": "Geen echt verschil"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Cake donuts use chemical leaveners like baking powder for a denser, cake-like texture and can be made quickly. Yeast donuts require fermentation time, creating a lighter, airier texture with a slightly chewy bite. Krispy Kreme uses yeast; traditional old-fashioned uses cake batter.",
+                            "es": "Los donuts de pastel usan leudantes químicos como polvo de hornear para una textura más densa, tipo pastel y se pueden hacer rápidamente. Los donuts de levadura requieren tiempo de fermentación, creando una textura más ligera y aireada con un mordisco ligeramente masticable.",
+                            "de": "Kuchen-Donuts verwenden chemische Treibmittel wie Backpulver für eine dichtere, kuchenartige Textur und können schnell hergestellt werden. Hefe-Donuts benötigen Gärzeit und erzeugen eine leichtere, luftigere Textur mit einem leicht zähen Biss.",
+                            "nl": "Cake donuts gebruiken chemische rijsmiddelen zoals bakpoeder voor een dichtere, cake-achtige textuur en kunnen snel gemaakt worden. Gist donuts vereisen fermentatietijd, wat een lichtere, luchtigere textuur met een licht taaie beet creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Why do glazed donuts have a shiny coating?",
+                            "es": "¿Por qué los donuts glaseados tienen un recubrimiento brillante?",
+                            "de": "Warum haben glasierte Donuts eine glänzende Beschichtung?",
+                            "nl": "Waarom hebben geglazuurde donuts een glanzende coating?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Sugar glaze hardens to a glossy shell when cooled",
+                                    "es": "El glaseado de azúcar se endurece en una capa brillante al enfriarse",
+                                    "de": "Zuckerglasur härtet beim Abkühlen zu einer glänzenden Schale",
+                                    "nl": "Suikerglazuur hardt uit tot een glanzende schil bij afkoeling"
+                            },
+                            {
+                                    "en": "Oil from frying creates shine",
+                                    "es": "El aceite de freír crea brillo",
+                                    "de": "Öl vom Frittieren erzeugt Glanz",
+                                    "nl": "Olie van frituren creëert glans"
+                            },
+                            {
+                                    "en": "Special wax coating",
+                                    "es": "Recubrimiento de cera especial",
+                                    "de": "Spezielle Wachsbeschichtung",
+                                    "nl": "Speciale wascoating"
+                            },
+                            {
+                                    "en": "Egg wash application",
+                                    "es": "Aplicación de huevo batido",
+                                    "de": "Eiwaschauftrag",
+                                    "nl": "Eiwas applicatie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The glaze is made from powdered sugar, liquid (water, milk, or cream), and sometimes vanilla. When warm donuts are dipped in this thin glaze, it flows evenly over the surface. As it cools, the sugar crystallizes into a sweet, glossy shell that cracks when bitten.",
+                            "es": "El glaseado está hecho de azúcar en polvo, líquido (agua, leche o crema) y a veces vainilla. Cuando los donuts calientes se sumergen en este glaseado fino, fluye uniformemente sobre la superficie. Al enfriarse, el azúcar cristaliza en una capa dulce y brillante.",
+                            "de": "Die Glasur besteht aus Puderzucker, Flüssigkeit (Wasser, Milch oder Sahne) und manchmal Vanille. Wenn warme Donuts in diese dünne Glasur getaucht werden, fließt sie gleichmäßig über die Oberfläche. Beim Abkühlen kristallisiert der Zucker zu einer süßen, glänzenden Schale.",
+                            "nl": "Het glazuur is gemaakt van poedersuiker, vloeistof (water, melk of room), en soms vanille. Wanneer warme donuts in dit dunne glazuur worden gedoopt, stroomt het gelijkmatig over het oppervlak. Bij afkoeling kristalliseert de suiker tot een zoete, glanzende schil."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What temperature is optimal for frying donuts?",
+                            "es": "¿Qué temperatura es óptima para freír donuts?",
+                            "de": "Welche Temperatur ist optimal zum Frittieren von Donuts?",
+                            "nl": "Welke temperatuur is optimaal voor het frituren van donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "375°F (190°C) for golden exterior and cooked interior",
+                                    "es": "375°F (190°C) para exterior dorado e interior cocido",
+                                    "de": "375°F (190°C) für goldenes Äußeres und gegarten Kern",
+                                    "nl": "375°F (190°C) voor gouden buitenkant en gare binnenkant"
+                            },
+                            {
+                                    "en": "250°F (120°C) for slow cooking",
+                                    "es": "250°F (120°C) para cocción lenta",
+                                    "de": "250°F (120°C) für langsames Garen",
+                                    "nl": "250°F (120°C) voor langzaam garen"
+                            },
+                            {
+                                    "en": "450°F (230°C) for quick frying",
+                                    "es": "450°F (230°C) para fritura rápida",
+                                    "de": "450°F (230°C) für schnelles Frittieren",
+                                    "nl": "450°F (230°C) voor snel frituren"
+                            },
+                            {
+                                    "en": "Room temperature oil",
+                                    "es": "Aceite a temperatura ambiente",
+                                    "de": "Öl bei Raumtemperatur",
+                                    "nl": "Olie op kamertemperatuur"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "At 375°F (190°C), donuts achieve the perfect balance: the exterior becomes golden and slightly crispy while the interior cooks through without absorbing excess oil. Too hot burns the outside before cooking inside; too cool makes greasy, undercooked donuts.",
+                            "es": "A 375°F (190°C), los donuts logran el equilibrio perfecto: el exterior se vuelve dorado y ligeramente crujiente mientras el interior se cocina sin absorber exceso de aceite. Demasiado caliente quema el exterior antes de cocinar el interior; demasiado frío hace donuts grasosos y poco cocidos.",
+                            "de": "Bei 375°F (190°C) erreichen Donuts die perfekte Balance: Das Äußere wird golden und leicht knusprig, während das Innere durchgart, ohne überschüssiges Öl aufzunehmen. Zu heiß verbrennt außen bevor innen gar; zu kühl macht fettige, ungare Donuts.",
+                            "nl": "Bij 375°F (190°C) bereiken donuts de perfecte balans: de buitenkant wordt goudbruin en licht knapperig terwijl de binnenkant gaart zonder overmatige olie op te nemen. Te heet verbrandt de buitenkant voordat de binnenkant gaar is; te koel maakt vette, ongare donuts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes old-fashioned donuts have their characteristic craggy surface?",
+                            "es": "¿Qué hace que los donuts tradicionales tengan su superficie característica rugosa?",
+                            "de": "Was verleiht altmodischen Donuts ihre charakteristische zerklüftete Oberfläche?",
+                            "nl": "Wat zorgt voor het karakteristieke ruwe oppervlak van ouderwetse donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Lower moisture content causes surface to crack when fried",
+                                    "es": "Menor contenido de humedad causa que la superficie se agriete al freír",
+                                    "de": "Geringerer Feuchtigkeitsgehalt lässt Oberfläche beim Frittieren aufbrechen",
+                                    "nl": "Lager vochtgehalte zorgt ervoor dat oppervlak barst bij frituren"
+                            },
+                            {
+                                    "en": "Hand-shaped irregularly",
+                                    "es": "Formado a mano irregularmente",
+                                    "de": "Von Hand unregelmäßig geformt",
+                                    "nl": "Met de hand onregelmatig gevormd"
+                            },
+                            {
+                                    "en": "Special cutting tool",
+                                    "es": "Herramienta de corte especial",
+                                    "de": "Spezielles Schneidwerkzeug",
+                                    "nl": "Speciaal snijgereedschap"
+                            },
+                            {
+                                    "en": "Added nuts on surface",
+                                    "es": "Nueces agregadas en superficie",
+                                    "de": "Nüsse auf der Oberfläche",
+                                    "nl": "Toegevoegde noten op oppervlak"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Old-fashioned donuts use a cake batter with less moisture than other types. When dropped into hot oil, the exterior sets quickly while steam from inside tries to escape, creating the signature cracks and crevices that hold extra glaze perfectly.",
+                            "es": "Los donuts tradicionales usan una masa de pastel con menos humedad que otros tipos. Cuando se sumergen en aceite caliente, el exterior se solidifica rápidamente mientras el vapor del interior trata de escapar, creando las grietas características que retienen perfectamente el glaseado extra.",
+                            "de": "Altmodische Donuts verwenden einen Kuchenteig mit weniger Feuchtigkeit als andere Sorten. Beim Eintauchen in heißes Öl erstarrt die Außenseite schnell, während Dampf von innen zu entweichen versucht, was die charakteristischen Risse erzeugt, die extra Glasur perfekt halten.",
+                            "nl": "Ouderwetse donuts gebruiken een cakebeslag met minder vocht dan andere soorten. Bij het laten vallen in hete olie, stolt de buitenkant snel terwijl stoom van binnenuit probeert te ontsnappen, wat de karakteristieke barsten creëert die extra glazuur perfect vasthouden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 6",
+                                    "es": "Incorrect option 1 para question 6",
+                                    "de": "Incorrect option 1 für question 6",
+                                    "nl": "Incorrect option 1 voor question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 6",
+                                    "es": "Incorrect option 2 para question 6",
+                                    "de": "Incorrect option 2 für question 6",
+                                    "nl": "Incorrect option 2 voor question 6"
+                            },
+                            {
+                                    "en": "Correct answer for question 6",
+                                    "es": "Correct answer for question 6",
+                                    "de": "Correct answer for question 6",
+                                    "nl": "Correct answer for question 6"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 6",
+                                    "es": "Incorrect option 4 para question 6",
+                                    "de": "Incorrect option 4 für question 6",
+                                    "nl": "Incorrect option 4 voor question 6"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 7",
+                                    "es": "Incorrect option 1 para question 7",
+                                    "de": "Incorrect option 1 für question 7",
+                                    "nl": "Incorrect option 1 voor question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 7",
+                                    "es": "Incorrect option 2 para question 7",
+                                    "de": "Incorrect option 2 für question 7",
+                                    "nl": "Incorrect option 2 voor question 7"
+                            },
+                            {
+                                    "en": "Correct answer for question 7",
+                                    "es": "Correct answer for question 7",
+                                    "de": "Correct answer for question 7",
+                                    "nl": "Correct answer for question 7"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 7",
+                                    "es": "Incorrect option 4 para question 7",
+                                    "de": "Incorrect option 4 für question 7",
+                                    "nl": "Incorrect option 4 voor question 7"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 8",
+                                    "es": "Correct answer for question 8",
+                                    "de": "Correct answer for question 8",
+                                    "nl": "Correct answer for question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 8",
+                                    "es": "Incorrect option 2 para question 8",
+                                    "de": "Incorrect option 2 für question 8",
+                                    "nl": "Incorrect option 2 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 8",
+                                    "es": "Incorrect option 3 para question 8",
+                                    "de": "Incorrect option 3 für question 8",
+                                    "nl": "Incorrect option 3 voor question 8"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 8",
+                                    "es": "Incorrect option 4 para question 8",
+                                    "de": "Incorrect option 4 für question 8",
+                                    "nl": "Incorrect option 4 voor question 8"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 9",
+                                    "es": "Incorrect option 1 para question 9",
+                                    "de": "Incorrect option 1 für question 9",
+                                    "nl": "Incorrect option 1 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 9",
+                                    "es": "Incorrect option 2 para question 9",
+                                    "de": "Incorrect option 2 für question 9",
+                                    "nl": "Incorrect option 2 voor question 9"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 9",
+                                    "es": "Incorrect option 3 para question 9",
+                                    "de": "Incorrect option 3 für question 9",
+                                    "nl": "Incorrect option 3 voor question 9"
+                            },
+                            {
+                                    "en": "Correct answer for question 9",
+                                    "es": "Correct answer for question 9",
+                                    "de": "Correct answer for question 9",
+                                    "nl": "Correct answer for question 9"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 10",
+                                    "es": "Incorrect option 1 para question 10",
+                                    "de": "Incorrect option 1 für question 10",
+                                    "nl": "Incorrect option 1 voor question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 10",
+                                    "es": "Incorrect option 2 para question 10",
+                                    "de": "Incorrect option 2 für question 10",
+                                    "nl": "Incorrect option 2 voor question 10"
+                            },
+                            {
+                                    "en": "Correct answer for question 10",
+                                    "es": "Correct answer for question 10",
+                                    "de": "Correct answer for question 10",
+                                    "nl": "Correct answer for question 10"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 10",
+                                    "es": "Incorrect option 4 para question 10",
+                                    "de": "Incorrect option 4 für question 10",
+                                    "nl": "Incorrect option 4 voor question 10"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 11",
+                                    "es": "Incorrect option 1 para question 11",
+                                    "de": "Incorrect option 1 für question 11",
+                                    "nl": "Incorrect option 1 voor question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 11",
+                                    "es": "Incorrect option 2 para question 11",
+                                    "de": "Incorrect option 2 für question 11",
+                                    "nl": "Incorrect option 2 voor question 11"
+                            },
+                            {
+                                    "en": "Correct answer for question 11",
+                                    "es": "Correct answer for question 11",
+                                    "de": "Correct answer for question 11",
+                                    "nl": "Correct answer for question 11"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 11",
+                                    "es": "Incorrect option 4 para question 11",
+                                    "de": "Incorrect option 4 für question 11",
+                                    "nl": "Incorrect option 4 voor question 11"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 12",
+                                    "es": "Incorrect option 1 para question 12",
+                                    "de": "Incorrect option 1 für question 12",
+                                    "nl": "Incorrect option 1 voor question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 12",
+                                    "es": "Incorrect option 2 para question 12",
+                                    "de": "Incorrect option 2 für question 12",
+                                    "nl": "Incorrect option 2 voor question 12"
+                            },
+                            {
+                                    "en": "Correct answer for question 12",
+                                    "es": "Correct answer for question 12",
+                                    "de": "Correct answer for question 12",
+                                    "nl": "Correct answer for question 12"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 12",
+                                    "es": "Incorrect option 4 para question 12",
+                                    "de": "Incorrect option 4 für question 12",
+                                    "nl": "Incorrect option 4 voor question 12"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 13",
+                                    "es": "Incorrect option 1 para question 13",
+                                    "de": "Incorrect option 1 für question 13",
+                                    "nl": "Incorrect option 1 voor question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 13",
+                                    "es": "Incorrect option 2 para question 13",
+                                    "de": "Incorrect option 2 für question 13",
+                                    "nl": "Incorrect option 2 voor question 13"
+                            },
+                            {
+                                    "en": "Correct answer for question 13",
+                                    "es": "Correct answer for question 13",
+                                    "de": "Correct answer for question 13",
+                                    "nl": "Correct answer for question 13"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 13",
+                                    "es": "Incorrect option 4 para question 13",
+                                    "de": "Incorrect option 4 für question 13",
+                                    "nl": "Incorrect option 4 voor question 13"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 14",
+                                    "es": "Incorrect option 1 para question 14",
+                                    "de": "Incorrect option 1 für question 14",
+                                    "nl": "Incorrect option 1 voor question 14"
+                            },
+                            {
+                                    "en": "Correct answer for question 14",
+                                    "es": "Correct answer for question 14",
+                                    "de": "Correct answer for question 14",
+                                    "nl": "Correct answer for question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 14",
+                                    "es": "Incorrect option 3 para question 14",
+                                    "de": "Incorrect option 3 für question 14",
+                                    "nl": "Incorrect option 3 voor question 14"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 14",
+                                    "es": "Incorrect option 4 para question 14",
+                                    "de": "Incorrect option 4 für question 14",
+                                    "nl": "Incorrect option 4 voor question 14"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 15",
+                                    "es": "Incorrect option 1 para question 15",
+                                    "de": "Incorrect option 1 für question 15",
+                                    "nl": "Incorrect option 1 voor question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 15",
+                                    "es": "Incorrect option 2 para question 15",
+                                    "de": "Incorrect option 2 für question 15",
+                                    "nl": "Incorrect option 2 voor question 15"
+                            },
+                            {
+                                    "en": "Correct answer for question 15",
+                                    "es": "Correct answer for question 15",
+                                    "de": "Correct answer for question 15",
+                                    "nl": "Correct answer for question 15"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 15",
+                                    "es": "Incorrect option 4 para question 15",
+                                    "de": "Incorrect option 4 für question 15",
+                                    "nl": "Incorrect option 4 voor question 15"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 16",
+                                    "es": "Incorrect option 1 para question 16",
+                                    "de": "Incorrect option 1 für question 16",
+                                    "nl": "Incorrect option 1 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 16",
+                                    "es": "Incorrect option 2 para question 16",
+                                    "de": "Incorrect option 2 für question 16",
+                                    "nl": "Incorrect option 2 voor question 16"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 16",
+                                    "es": "Incorrect option 3 para question 16",
+                                    "de": "Incorrect option 3 für question 16",
+                                    "nl": "Incorrect option 3 voor question 16"
+                            },
+                            {
+                                    "en": "Correct answer for question 16",
+                                    "es": "Correct answer for question 16",
+                                    "de": "Correct answer for question 16",
+                                    "nl": "Correct answer for question 16"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 17",
+                                    "es": "Incorrect option 1 para question 17",
+                                    "de": "Incorrect option 1 für question 17",
+                                    "nl": "Incorrect option 1 voor question 17"
+                            },
+                            {
+                                    "en": "Correct answer for question 17",
+                                    "es": "Correct answer for question 17",
+                                    "de": "Correct answer for question 17",
+                                    "nl": "Correct answer for question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 17",
+                                    "es": "Incorrect option 3 para question 17",
+                                    "de": "Incorrect option 3 für question 17",
+                                    "nl": "Incorrect option 3 voor question 17"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 17",
+                                    "es": "Incorrect option 4 para question 17",
+                                    "de": "Incorrect option 4 für question 17",
+                                    "nl": "Incorrect option 4 voor question 17"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 18",
+                                    "es": "Incorrect option 1 para question 18",
+                                    "de": "Incorrect option 1 für question 18",
+                                    "nl": "Incorrect option 1 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 18",
+                                    "es": "Incorrect option 2 para question 18",
+                                    "de": "Incorrect option 2 für question 18",
+                                    "nl": "Incorrect option 2 voor question 18"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 18",
+                                    "es": "Incorrect option 3 para question 18",
+                                    "de": "Incorrect option 3 für question 18",
+                                    "nl": "Incorrect option 3 voor question 18"
+                            },
+                            {
+                                    "en": "Correct answer for question 18",
+                                    "es": "Correct answer for question 18",
+                                    "de": "Correct answer for question 18",
+                                    "nl": "Correct answer for question 18"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 19",
+                                    "es": "Incorrect option 1 para question 19",
+                                    "de": "Incorrect option 1 für question 19",
+                                    "nl": "Incorrect option 1 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 19",
+                                    "es": "Incorrect option 2 para question 19",
+                                    "de": "Incorrect option 2 für question 19",
+                                    "nl": "Incorrect option 2 voor question 19"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 19",
+                                    "es": "Incorrect option 3 para question 19",
+                                    "de": "Incorrect option 3 für question 19",
+                                    "nl": "Incorrect option 3 voor question 19"
+                            },
+                            {
+                                    "en": "Correct answer for question 19",
+                                    "es": "Correct answer for question 19",
+                                    "de": "Correct answer for question 19",
+                                    "nl": "Correct answer for question 19"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 20",
+                                    "es": "Incorrect option 1 para question 20",
+                                    "de": "Incorrect option 1 für question 20",
+                                    "nl": "Incorrect option 1 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 20",
+                                    "es": "Incorrect option 2 para question 20",
+                                    "de": "Incorrect option 2 für question 20",
+                                    "nl": "Incorrect option 2 voor question 20"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 20",
+                                    "es": "Incorrect option 3 para question 20",
+                                    "de": "Incorrect option 3 für question 20",
+                                    "nl": "Incorrect option 3 voor question 20"
+                            },
+                            {
+                                    "en": "Correct answer for question 20",
+                                    "es": "Correct answer for question 20",
+                                    "de": "Correct answer for question 20",
+                                    "nl": "Correct answer for question 20"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 21",
+                                    "es": "Correct answer for question 21",
+                                    "de": "Correct answer for question 21",
+                                    "nl": "Correct answer for question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 21",
+                                    "es": "Incorrect option 2 para question 21",
+                                    "de": "Incorrect option 2 für question 21",
+                                    "nl": "Incorrect option 2 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 21",
+                                    "es": "Incorrect option 3 para question 21",
+                                    "de": "Incorrect option 3 für question 21",
+                                    "nl": "Incorrect option 3 voor question 21"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 21",
+                                    "es": "Incorrect option 4 para question 21",
+                                    "de": "Incorrect option 4 für question 21",
+                                    "nl": "Incorrect option 4 voor question 21"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 22",
+                                    "es": "Incorrect option 1 para question 22",
+                                    "de": "Incorrect option 1 für question 22",
+                                    "nl": "Incorrect option 1 voor question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 22",
+                                    "es": "Incorrect option 2 para question 22",
+                                    "de": "Incorrect option 2 für question 22",
+                                    "nl": "Incorrect option 2 voor question 22"
+                            },
+                            {
+                                    "en": "Correct answer for question 22",
+                                    "es": "Correct answer for question 22",
+                                    "de": "Correct answer for question 22",
+                                    "nl": "Correct answer for question 22"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 22",
+                                    "es": "Incorrect option 4 para question 22",
+                                    "de": "Incorrect option 4 für question 22",
+                                    "nl": "Incorrect option 4 voor question 22"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 23",
+                                    "es": "Correct answer for question 23",
+                                    "de": "Correct answer for question 23",
+                                    "nl": "Correct answer for question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 23",
+                                    "es": "Incorrect option 2 para question 23",
+                                    "de": "Incorrect option 2 für question 23",
+                                    "nl": "Incorrect option 2 voor question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 23",
+                                    "es": "Incorrect option 3 para question 23",
+                                    "de": "Incorrect option 3 für question 23",
+                                    "nl": "Incorrect option 3 voor question 23"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 23",
+                                    "es": "Incorrect option 4 para question 23",
+                                    "de": "Incorrect option 4 für question 23",
+                                    "nl": "Incorrect option 4 voor question 23"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 24",
+                                    "es": "Incorrect option 1 para question 24",
+                                    "de": "Incorrect option 1 für question 24",
+                                    "nl": "Incorrect option 1 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 24",
+                                    "es": "Incorrect option 2 para question 24",
+                                    "de": "Incorrect option 2 für question 24",
+                                    "nl": "Incorrect option 2 voor question 24"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 24",
+                                    "es": "Incorrect option 3 para question 24",
+                                    "de": "Incorrect option 3 für question 24",
+                                    "nl": "Incorrect option 3 voor question 24"
+                            },
+                            {
+                                    "en": "Correct answer for question 24",
+                                    "es": "Correct answer for question 24",
+                                    "de": "Correct answer for question 24",
+                                    "nl": "Correct answer for question 24"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 25",
+                                    "es": "Incorrect option 1 para question 25",
+                                    "de": "Incorrect option 1 für question 25",
+                                    "nl": "Incorrect option 1 voor question 25"
+                            },
+                            {
+                                    "en": "Correct answer for question 25",
+                                    "es": "Correct answer for question 25",
+                                    "de": "Correct answer for question 25",
+                                    "nl": "Correct answer for question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 25",
+                                    "es": "Incorrect option 3 para question 25",
+                                    "de": "Incorrect option 3 für question 25",
+                                    "nl": "Incorrect option 3 voor question 25"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 25",
+                                    "es": "Incorrect option 4 para question 25",
+                                    "de": "Incorrect option 4 für question 25",
+                                    "nl": "Incorrect option 4 voor question 25"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 26",
+                                    "es": "Correct answer for question 26",
+                                    "de": "Correct answer for question 26",
+                                    "nl": "Correct answer for question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 26",
+                                    "es": "Incorrect option 2 para question 26",
+                                    "de": "Incorrect option 2 für question 26",
+                                    "nl": "Incorrect option 2 voor question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 26",
+                                    "es": "Incorrect option 3 para question 26",
+                                    "de": "Incorrect option 3 für question 26",
+                                    "nl": "Incorrect option 3 voor question 26"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 26",
+                                    "es": "Incorrect option 4 para question 26",
+                                    "de": "Incorrect option 4 für question 26",
+                                    "nl": "Incorrect option 4 voor question 26"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 27",
+                                    "es": "Correct answer for question 27",
+                                    "de": "Correct answer for question 27",
+                                    "nl": "Correct answer for question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 27",
+                                    "es": "Incorrect option 2 para question 27",
+                                    "de": "Incorrect option 2 für question 27",
+                                    "nl": "Incorrect option 2 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 27",
+                                    "es": "Incorrect option 3 para question 27",
+                                    "de": "Incorrect option 3 für question 27",
+                                    "nl": "Incorrect option 3 voor question 27"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 27",
+                                    "es": "Incorrect option 4 para question 27",
+                                    "de": "Incorrect option 4 für question 27",
+                                    "nl": "Incorrect option 4 voor question 27"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 28",
+                                    "es": "Correct answer for question 28",
+                                    "de": "Correct answer for question 28",
+                                    "nl": "Correct answer for question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 28",
+                                    "es": "Incorrect option 2 para question 28",
+                                    "de": "Incorrect option 2 für question 28",
+                                    "nl": "Incorrect option 2 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 28",
+                                    "es": "Incorrect option 3 para question 28",
+                                    "de": "Incorrect option 3 für question 28",
+                                    "nl": "Incorrect option 3 voor question 28"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 28",
+                                    "es": "Incorrect option 4 para question 28",
+                                    "de": "Incorrect option 4 für question 28",
+                                    "nl": "Incorrect option 4 voor question 28"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 29",
+                                    "es": "Incorrect option 1 para question 29",
+                                    "de": "Incorrect option 1 für question 29",
+                                    "nl": "Incorrect option 1 voor question 29"
+                            },
+                            {
+                                    "en": "Correct answer for question 29",
+                                    "es": "Correct answer for question 29",
+                                    "de": "Correct answer for question 29",
+                                    "nl": "Correct answer for question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 29",
+                                    "es": "Incorrect option 3 para question 29",
+                                    "de": "Incorrect option 3 für question 29",
+                                    "nl": "Incorrect option 3 voor question 29"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 29",
+                                    "es": "Incorrect option 4 para question 29",
+                                    "de": "Incorrect option 4 für question 29",
+                                    "nl": "Incorrect option 4 voor question 29"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 30",
+                                    "es": "Correct answer for question 30",
+                                    "de": "Correct answer for question 30",
+                                    "nl": "Correct answer for question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 30",
+                                    "es": "Incorrect option 2 para question 30",
+                                    "de": "Incorrect option 2 für question 30",
+                                    "nl": "Incorrect option 2 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 30",
+                                    "es": "Incorrect option 3 para question 30",
+                                    "de": "Incorrect option 3 für question 30",
+                                    "nl": "Incorrect option 3 voor question 30"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 30",
+                                    "es": "Incorrect option 4 para question 30",
+                                    "de": "Incorrect option 4 für question 30",
+                                    "nl": "Incorrect option 4 voor question 30"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 31",
+                                    "es": "Incorrect option 1 para question 31",
+                                    "de": "Incorrect option 1 für question 31",
+                                    "nl": "Incorrect option 1 voor question 31"
+                            },
+                            {
+                                    "en": "Correct answer for question 31",
+                                    "es": "Correct answer for question 31",
+                                    "de": "Correct answer for question 31",
+                                    "nl": "Correct answer for question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 31",
+                                    "es": "Incorrect option 3 para question 31",
+                                    "de": "Incorrect option 3 für question 31",
+                                    "nl": "Incorrect option 3 voor question 31"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 31",
+                                    "es": "Incorrect option 4 para question 31",
+                                    "de": "Incorrect option 4 für question 31",
+                                    "nl": "Incorrect option 4 voor question 31"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 32",
+                                    "es": "Incorrect option 1 para question 32",
+                                    "de": "Incorrect option 1 für question 32",
+                                    "nl": "Incorrect option 1 voor question 32"
+                            },
+                            {
+                                    "en": "Correct answer for question 32",
+                                    "es": "Correct answer for question 32",
+                                    "de": "Correct answer for question 32",
+                                    "nl": "Correct answer for question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 32",
+                                    "es": "Incorrect option 3 para question 32",
+                                    "de": "Incorrect option 3 für question 32",
+                                    "nl": "Incorrect option 3 voor question 32"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 32",
+                                    "es": "Incorrect option 4 para question 32",
+                                    "de": "Incorrect option 4 für question 32",
+                                    "nl": "Incorrect option 4 voor question 32"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 33",
+                                    "es": "Incorrect option 1 para question 33",
+                                    "de": "Incorrect option 1 für question 33",
+                                    "nl": "Incorrect option 1 voor question 33"
+                            },
+                            {
+                                    "en": "Correct answer for question 33",
+                                    "es": "Correct answer for question 33",
+                                    "de": "Correct answer for question 33",
+                                    "nl": "Correct answer for question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 33",
+                                    "es": "Incorrect option 3 para question 33",
+                                    "de": "Incorrect option 3 für question 33",
+                                    "nl": "Incorrect option 3 voor question 33"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 33",
+                                    "es": "Incorrect option 4 para question 33",
+                                    "de": "Incorrect option 4 für question 33",
+                                    "nl": "Incorrect option 4 voor question 33"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 34",
+                                    "es": "Correct answer for question 34",
+                                    "de": "Correct answer for question 34",
+                                    "nl": "Correct answer for question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 34",
+                                    "es": "Incorrect option 2 para question 34",
+                                    "de": "Incorrect option 2 für question 34",
+                                    "nl": "Incorrect option 2 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 34",
+                                    "es": "Incorrect option 3 para question 34",
+                                    "de": "Incorrect option 3 für question 34",
+                                    "nl": "Incorrect option 3 voor question 34"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 34",
+                                    "es": "Incorrect option 4 para question 34",
+                                    "de": "Incorrect option 4 für question 34",
+                                    "nl": "Incorrect option 4 voor question 34"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 35",
+                                    "es": "Incorrect option 1 para question 35",
+                                    "de": "Incorrect option 1 für question 35",
+                                    "nl": "Incorrect option 1 voor question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 35",
+                                    "es": "Incorrect option 2 para question 35",
+                                    "de": "Incorrect option 2 für question 35",
+                                    "nl": "Incorrect option 2 voor question 35"
+                            },
+                            {
+                                    "en": "Correct answer for question 35",
+                                    "es": "Correct answer for question 35",
+                                    "de": "Correct answer for question 35",
+                                    "nl": "Correct answer for question 35"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 35",
+                                    "es": "Incorrect option 4 para question 35",
+                                    "de": "Incorrect option 4 für question 35",
+                                    "nl": "Incorrect option 4 voor question 35"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 36",
+                                    "es": "Incorrect option 1 para question 36",
+                                    "de": "Incorrect option 1 für question 36",
+                                    "nl": "Incorrect option 1 voor question 36"
+                            },
+                            {
+                                    "en": "Correct answer for question 36",
+                                    "es": "Correct answer for question 36",
+                                    "de": "Correct answer for question 36",
+                                    "nl": "Correct answer for question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 36",
+                                    "es": "Incorrect option 3 para question 36",
+                                    "de": "Incorrect option 3 für question 36",
+                                    "nl": "Incorrect option 3 voor question 36"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 36",
+                                    "es": "Incorrect option 4 para question 36",
+                                    "de": "Incorrect option 4 für question 36",
+                                    "nl": "Incorrect option 4 voor question 36"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 37",
+                                    "es": "Correct answer for question 37",
+                                    "de": "Correct answer for question 37",
+                                    "nl": "Correct answer for question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 37",
+                                    "es": "Incorrect option 2 para question 37",
+                                    "de": "Incorrect option 2 für question 37",
+                                    "nl": "Incorrect option 2 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 37",
+                                    "es": "Incorrect option 3 para question 37",
+                                    "de": "Incorrect option 3 für question 37",
+                                    "nl": "Incorrect option 3 voor question 37"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 37",
+                                    "es": "Incorrect option 4 para question 37",
+                                    "de": "Incorrect option 4 für question 37",
+                                    "nl": "Incorrect option 4 voor question 37"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 38",
+                                    "es": "Incorrect option 1 para question 38",
+                                    "de": "Incorrect option 1 für question 38",
+                                    "nl": "Incorrect option 1 voor question 38"
+                            },
+                            {
+                                    "en": "Correct answer for question 38",
+                                    "es": "Correct answer for question 38",
+                                    "de": "Correct answer for question 38",
+                                    "nl": "Correct answer for question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 38",
+                                    "es": "Incorrect option 3 para question 38",
+                                    "de": "Incorrect option 3 für question 38",
+                                    "nl": "Incorrect option 3 voor question 38"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 38",
+                                    "es": "Incorrect option 4 para question 38",
+                                    "de": "Incorrect option 4 für question 38",
+                                    "nl": "Incorrect option 4 voor question 38"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 39",
+                                    "es": "Correct answer for question 39",
+                                    "de": "Correct answer for question 39",
+                                    "nl": "Correct answer for question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 39",
+                                    "es": "Incorrect option 2 para question 39",
+                                    "de": "Incorrect option 2 für question 39",
+                                    "nl": "Incorrect option 2 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 39",
+                                    "es": "Incorrect option 3 para question 39",
+                                    "de": "Incorrect option 3 für question 39",
+                                    "nl": "Incorrect option 3 voor question 39"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 39",
+                                    "es": "Incorrect option 4 para question 39",
+                                    "de": "Incorrect option 4 für question 39",
+                                    "nl": "Incorrect option 4 voor question 39"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 40",
+                                    "es": "Correct answer for question 40",
+                                    "de": "Correct answer for question 40",
+                                    "nl": "Correct answer for question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 40",
+                                    "es": "Incorrect option 2 para question 40",
+                                    "de": "Incorrect option 2 für question 40",
+                                    "nl": "Incorrect option 2 voor question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 40",
+                                    "es": "Incorrect option 3 para question 40",
+                                    "de": "Incorrect option 3 für question 40",
+                                    "nl": "Incorrect option 3 voor question 40"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 40",
+                                    "es": "Incorrect option 4 para question 40",
+                                    "de": "Incorrect option 4 für question 40",
+                                    "nl": "Incorrect option 4 voor question 40"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 41",
+                                    "es": "Incorrect option 1 para question 41",
+                                    "de": "Incorrect option 1 für question 41",
+                                    "nl": "Incorrect option 1 voor question 41"
+                            },
+                            {
+                                    "en": "Correct answer for question 41",
+                                    "es": "Correct answer for question 41",
+                                    "de": "Correct answer for question 41",
+                                    "nl": "Correct answer for question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 41",
+                                    "es": "Incorrect option 3 para question 41",
+                                    "de": "Incorrect option 3 für question 41",
+                                    "nl": "Incorrect option 3 voor question 41"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 41",
+                                    "es": "Incorrect option 4 para question 41",
+                                    "de": "Incorrect option 4 für question 41",
+                                    "nl": "Incorrect option 4 voor question 41"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 42",
+                                    "es": "Correct answer for question 42",
+                                    "de": "Correct answer for question 42",
+                                    "nl": "Correct answer for question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 42",
+                                    "es": "Incorrect option 2 para question 42",
+                                    "de": "Incorrect option 2 für question 42",
+                                    "nl": "Incorrect option 2 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 42",
+                                    "es": "Incorrect option 3 para question 42",
+                                    "de": "Incorrect option 3 für question 42",
+                                    "nl": "Incorrect option 3 voor question 42"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 42",
+                                    "es": "Incorrect option 4 para question 42",
+                                    "de": "Incorrect option 4 für question 42",
+                                    "nl": "Incorrect option 4 voor question 42"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 43",
+                                    "es": "Incorrect option 1 para question 43",
+                                    "de": "Incorrect option 1 für question 43",
+                                    "nl": "Incorrect option 1 voor question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 43",
+                                    "es": "Incorrect option 2 para question 43",
+                                    "de": "Incorrect option 2 für question 43",
+                                    "nl": "Incorrect option 2 voor question 43"
+                            },
+                            {
+                                    "en": "Correct answer for question 43",
+                                    "es": "Correct answer for question 43",
+                                    "de": "Correct answer for question 43",
+                                    "nl": "Correct answer for question 43"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 43",
+                                    "es": "Incorrect option 4 para question 43",
+                                    "de": "Incorrect option 4 für question 43",
+                                    "nl": "Incorrect option 4 voor question 43"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 44",
+                                    "es": "Correct answer for question 44",
+                                    "de": "Correct answer for question 44",
+                                    "nl": "Correct answer for question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 44",
+                                    "es": "Incorrect option 2 para question 44",
+                                    "de": "Incorrect option 2 für question 44",
+                                    "nl": "Incorrect option 2 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 44",
+                                    "es": "Incorrect option 3 para question 44",
+                                    "de": "Incorrect option 3 für question 44",
+                                    "nl": "Incorrect option 3 voor question 44"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 44",
+                                    "es": "Incorrect option 4 para question 44",
+                                    "de": "Incorrect option 4 für question 44",
+                                    "nl": "Incorrect option 4 voor question 44"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 45",
+                                    "es": "Incorrect option 1 para question 45",
+                                    "de": "Incorrect option 1 für question 45",
+                                    "nl": "Incorrect option 1 voor question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 45",
+                                    "es": "Incorrect option 2 para question 45",
+                                    "de": "Incorrect option 2 für question 45",
+                                    "nl": "Incorrect option 2 voor question 45"
+                            },
+                            {
+                                    "en": "Correct answer for question 45",
+                                    "es": "Correct answer for question 45",
+                                    "de": "Correct answer for question 45",
+                                    "nl": "Correct answer for question 45"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 45",
+                                    "es": "Incorrect option 4 para question 45",
+                                    "de": "Incorrect option 4 für question 45",
+                                    "nl": "Incorrect option 4 voor question 45"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 46",
+                                    "es": "Correct answer for question 46",
+                                    "de": "Correct answer for question 46",
+                                    "nl": "Correct answer for question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 46",
+                                    "es": "Incorrect option 2 para question 46",
+                                    "de": "Incorrect option 2 für question 46",
+                                    "nl": "Incorrect option 2 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 46",
+                                    "es": "Incorrect option 3 para question 46",
+                                    "de": "Incorrect option 3 für question 46",
+                                    "nl": "Incorrect option 3 voor question 46"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 46",
+                                    "es": "Incorrect option 4 para question 46",
+                                    "de": "Incorrect option 4 für question 46",
+                                    "nl": "Incorrect option 4 voor question 46"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 47",
+                                    "es": "Incorrect option 1 para question 47",
+                                    "de": "Incorrect option 1 für question 47",
+                                    "nl": "Incorrect option 1 voor question 47"
+                            },
+                            {
+                                    "en": "Correct answer for question 47",
+                                    "es": "Correct answer for question 47",
+                                    "de": "Correct answer for question 47",
+                                    "nl": "Correct answer for question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 47",
+                                    "es": "Incorrect option 3 para question 47",
+                                    "de": "Incorrect option 3 für question 47",
+                                    "nl": "Incorrect option 3 voor question 47"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 47",
+                                    "es": "Incorrect option 4 para question 47",
+                                    "de": "Incorrect option 4 für question 47",
+                                    "nl": "Incorrect option 4 voor question 47"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 48",
+                                    "es": "Incorrect option 1 para question 48",
+                                    "de": "Incorrect option 1 für question 48",
+                                    "nl": "Incorrect option 1 voor question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 48",
+                                    "es": "Incorrect option 2 para question 48",
+                                    "de": "Incorrect option 2 für question 48",
+                                    "nl": "Incorrect option 2 voor question 48"
+                            },
+                            {
+                                    "en": "Correct answer for question 48",
+                                    "es": "Correct answer for question 48",
+                                    "de": "Correct answer for question 48",
+                                    "nl": "Correct answer for question 48"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 48",
+                                    "es": "Incorrect option 4 para question 48",
+                                    "de": "Incorrect option 4 für question 48",
+                                    "nl": "Incorrect option 4 voor question 48"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 49",
+                                    "es": "Incorrect option 1 para question 49",
+                                    "de": "Incorrect option 1 für question 49",
+                                    "nl": "Incorrect option 1 voor question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 49",
+                                    "es": "Incorrect option 2 para question 49",
+                                    "de": "Incorrect option 2 für question 49",
+                                    "nl": "Incorrect option 2 voor question 49"
+                            },
+                            {
+                                    "en": "Correct answer for question 49",
+                                    "es": "Correct answer for question 49",
+                                    "de": "Correct answer for question 49",
+                                    "nl": "Correct answer for question 49"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 49",
+                                    "es": "Incorrect option 4 para question 49",
+                                    "de": "Incorrect option 4 für question 49",
+                                    "nl": "Incorrect option 4 voor question 49"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 50",
+                                    "es": "Incorrect option 1 para question 50",
+                                    "de": "Incorrect option 1 für question 50",
+                                    "nl": "Incorrect option 1 voor question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 50",
+                                    "es": "Incorrect option 2 para question 50",
+                                    "de": "Incorrect option 2 für question 50",
+                                    "nl": "Incorrect option 2 voor question 50"
+                            },
+                            {
+                                    "en": "Correct answer for question 50",
+                                    "es": "Correct answer for question 50",
+                                    "de": "Correct answer for question 50",
+                                    "nl": "Correct answer for question 50"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 50",
+                                    "es": "Incorrect option 4 para question 50",
+                                    "de": "Incorrect option 4 für question 50",
+                                    "nl": "Incorrect option 4 voor question 50"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 51",
+                                    "es": "Incorrect option 1 para question 51",
+                                    "de": "Incorrect option 1 für question 51",
+                                    "nl": "Incorrect option 1 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 51",
+                                    "es": "Incorrect option 2 para question 51",
+                                    "de": "Incorrect option 2 für question 51",
+                                    "nl": "Incorrect option 2 voor question 51"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 51",
+                                    "es": "Incorrect option 3 para question 51",
+                                    "de": "Incorrect option 3 für question 51",
+                                    "nl": "Incorrect option 3 voor question 51"
+                            },
+                            {
+                                    "en": "Correct answer for question 51",
+                                    "es": "Correct answer for question 51",
+                                    "de": "Correct answer for question 51",
+                                    "nl": "Correct answer for question 51"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 52",
+                                    "es": "Incorrect option 1 para question 52",
+                                    "de": "Incorrect option 1 für question 52",
+                                    "nl": "Incorrect option 1 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 52",
+                                    "es": "Incorrect option 2 para question 52",
+                                    "de": "Incorrect option 2 für question 52",
+                                    "nl": "Incorrect option 2 voor question 52"
+                            },
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 52",
+                                    "es": "Incorrect option 4 para question 52",
+                                    "de": "Incorrect option 4 für question 52",
+                                    "nl": "Incorrect option 4 voor question 52"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 53",
+                                    "es": "Incorrect option 1 para question 53",
+                                    "de": "Incorrect option 1 für question 53",
+                                    "nl": "Incorrect option 1 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 53",
+                                    "es": "Incorrect option 3 para question 53",
+                                    "de": "Incorrect option 3 für question 53",
+                                    "nl": "Incorrect option 3 voor question 53"
+                            },
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 54",
+                                    "es": "Incorrect option 3 para question 54",
+                                    "de": "Incorrect option 3 für question 54",
+                                    "nl": "Incorrect option 3 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 54",
+                                    "es": "Incorrect option 4 para question 54",
+                                    "de": "Incorrect option 4 für question 54",
+                                    "nl": "Incorrect option 4 voor question 54"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 55",
+                                    "es": "Incorrect option 1 para question 55",
+                                    "de": "Incorrect option 1 für question 55",
+                                    "nl": "Incorrect option 1 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 55",
+                                    "es": "Incorrect option 2 para question 55",
+                                    "de": "Incorrect option 2 für question 55",
+                                    "nl": "Incorrect option 2 voor question 55"
+                            },
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 55",
+                                    "es": "Incorrect option 4 para question 55",
+                                    "de": "Incorrect option 4 für question 55",
+                                    "nl": "Incorrect option 4 voor question 55"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 56",
+                                    "es": "Incorrect option 1 para question 56",
+                                    "de": "Incorrect option 1 für question 56",
+                                    "nl": "Incorrect option 1 voor question 56"
+                            },
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 56",
+                                    "es": "Incorrect option 3 para question 56",
+                                    "de": "Incorrect option 3 für question 56",
+                                    "nl": "Incorrect option 3 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 56",
+                                    "es": "Incorrect option 4 para question 56",
+                                    "de": "Incorrect option 4 für question 56",
+                                    "nl": "Incorrect option 4 voor question 56"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 57",
+                                    "es": "Incorrect option 1 para question 57",
+                                    "de": "Incorrect option 1 für question 57",
+                                    "nl": "Incorrect option 1 voor question 57"
+                            },
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 57",
+                                    "es": "Incorrect option 4 para question 57",
+                                    "de": "Incorrect option 4 für question 57",
+                                    "nl": "Incorrect option 4 voor question 57"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 58",
+                                    "es": "Incorrect option 1 para question 58",
+                                    "de": "Incorrect option 1 für question 58",
+                                    "nl": "Incorrect option 1 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 58",
+                                    "es": "Incorrect option 2 para question 58",
+                                    "de": "Incorrect option 2 für question 58",
+                                    "nl": "Incorrect option 2 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 58",
+                                    "es": "Incorrect option 3 para question 58",
+                                    "de": "Incorrect option 3 für question 58",
+                                    "nl": "Incorrect option 3 voor question 58"
+                            },
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 59",
+                                    "es": "Incorrect option 1 para question 59",
+                                    "de": "Incorrect option 1 für question 59",
+                                    "nl": "Incorrect option 1 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 59",
+                                    "es": "Incorrect option 2 para question 59",
+                                    "de": "Incorrect option 2 für question 59",
+                                    "nl": "Incorrect option 2 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 59",
+                                    "es": "Incorrect option 3 para question 59",
+                                    "de": "Incorrect option 3 für question 59",
+                                    "nl": "Incorrect option 3 voor question 59"
+                            },
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 60",
+                                    "es": "Incorrect option 2 para question 60",
+                                    "de": "Incorrect option 2 für question 60",
+                                    "nl": "Incorrect option 2 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 60",
+                                    "es": "Incorrect option 3 para question 60",
+                                    "de": "Incorrect option 3 für question 60",
+                                    "nl": "Incorrect option 3 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 61",
+                                    "es": "Incorrect option 1 para question 61",
+                                    "de": "Incorrect option 1 für question 61",
+                                    "nl": "Incorrect option 1 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 61",
+                                    "es": "Incorrect option 2 para question 61",
+                                    "de": "Incorrect option 2 für question 61",
+                                    "nl": "Incorrect option 2 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 61",
+                                    "es": "Incorrect option 3 para question 61",
+                                    "de": "Incorrect option 3 für question 61",
+                                    "nl": "Incorrect option 3 voor question 61"
+                            },
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 62",
+                                    "es": "Incorrect option 3 para question 62",
+                                    "de": "Incorrect option 3 für question 62",
+                                    "nl": "Incorrect option 3 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 62",
+                                    "es": "Incorrect option 4 para question 62",
+                                    "de": "Incorrect option 4 für question 62",
+                                    "nl": "Incorrect option 4 voor question 62"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 63",
+                                    "es": "Incorrect option 2 para question 63",
+                                    "de": "Incorrect option 2 für question 63",
+                                    "nl": "Incorrect option 2 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 63",
+                                    "es": "Incorrect option 3 para question 63",
+                                    "de": "Incorrect option 3 für question 63",
+                                    "nl": "Incorrect option 3 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 64",
+                                    "es": "Incorrect option 2 para question 64",
+                                    "de": "Incorrect option 2 für question 64",
+                                    "nl": "Incorrect option 2 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 64",
+                                    "es": "Incorrect option 4 para question 64",
+                                    "de": "Incorrect option 4 für question 64",
+                                    "nl": "Incorrect option 4 voor question 64"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 65",
+                                    "es": "Incorrect option 1 para question 65",
+                                    "de": "Incorrect option 1 für question 65",
+                                    "nl": "Incorrect option 1 voor question 65"
+                            },
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 65",
+                                    "es": "Incorrect option 3 para question 65",
+                                    "de": "Incorrect option 3 für question 65",
+                                    "nl": "Incorrect option 3 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 65",
+                                    "es": "Incorrect option 4 para question 65",
+                                    "de": "Incorrect option 4 für question 65",
+                                    "nl": "Incorrect option 4 voor question 65"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 66",
+                                    "es": "Incorrect option 2 para question 66",
+                                    "de": "Incorrect option 2 für question 66",
+                                    "nl": "Incorrect option 2 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 66",
+                                    "es": "Incorrect option 3 para question 66",
+                                    "de": "Incorrect option 3 für question 66",
+                                    "nl": "Incorrect option 3 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 67",
+                                    "es": "Incorrect option 1 para question 67",
+                                    "de": "Incorrect option 1 für question 67",
+                                    "nl": "Incorrect option 1 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 67",
+                                    "es": "Incorrect option 3 para question 67",
+                                    "de": "Incorrect option 3 für question 67",
+                                    "nl": "Incorrect option 3 voor question 67"
+                            },
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 68",
+                                    "es": "Incorrect option 1 para question 68",
+                                    "de": "Incorrect option 1 für question 68",
+                                    "nl": "Incorrect option 1 voor question 68"
+                            },
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 68",
+                                    "es": "Incorrect option 4 para question 68",
+                                    "de": "Incorrect option 4 für question 68",
+                                    "nl": "Incorrect option 4 voor question 68"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 69",
+                                    "es": "Incorrect option 1 para question 69",
+                                    "de": "Incorrect option 1 für question 69",
+                                    "nl": "Incorrect option 1 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 69",
+                                    "es": "Incorrect option 2 para question 69",
+                                    "de": "Incorrect option 2 für question 69",
+                                    "nl": "Incorrect option 2 voor question 69"
+                            },
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 70",
+                                    "es": "Incorrect option 2 para question 70",
+                                    "de": "Incorrect option 2 für question 70",
+                                    "nl": "Incorrect option 2 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 70",
+                                    "es": "Incorrect option 3 para question 70",
+                                    "de": "Incorrect option 3 für question 70",
+                                    "nl": "Incorrect option 3 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 70",
+                                    "es": "Incorrect option 4 para question 70",
+                                    "de": "Incorrect option 4 für question 70",
+                                    "nl": "Incorrect option 4 voor question 70"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 71",
+                                    "es": "Incorrect option 1 para question 71",
+                                    "de": "Incorrect option 1 für question 71",
+                                    "nl": "Incorrect option 1 voor question 71"
+                            },
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 71",
+                                    "es": "Incorrect option 3 para question 71",
+                                    "de": "Incorrect option 3 für question 71",
+                                    "nl": "Incorrect option 3 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 71",
+                                    "es": "Incorrect option 4 para question 71",
+                                    "de": "Incorrect option 4 für question 71",
+                                    "nl": "Incorrect option 4 voor question 71"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 72",
+                                    "es": "Incorrect option 1 para question 72",
+                                    "de": "Incorrect option 1 für question 72",
+                                    "nl": "Incorrect option 1 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 73",
+                                    "es": "Incorrect option 2 para question 73",
+                                    "de": "Incorrect option 2 für question 73",
+                                    "nl": "Incorrect option 2 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 73",
+                                    "es": "Incorrect option 4 para question 73",
+                                    "de": "Incorrect option 4 für question 73",
+                                    "nl": "Incorrect option 4 voor question 73"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 74",
+                                    "es": "Incorrect option 4 para question 74",
+                                    "de": "Incorrect option 4 für question 74",
+                                    "nl": "Incorrect option 4 voor question 74"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 76",
+                                    "es": "Incorrect option 1 para question 76",
+                                    "de": "Incorrect option 1 für question 76",
+                                    "nl": "Incorrect option 1 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 77",
+                                    "es": "Incorrect option 1 para question 77",
+                                    "de": "Incorrect option 1 für question 77",
+                                    "nl": "Incorrect option 1 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 77",
+                                    "es": "Incorrect option 4 para question 77",
+                                    "de": "Incorrect option 4 für question 77",
+                                    "nl": "Incorrect option 4 voor question 77"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 78",
+                                    "es": "Incorrect option 1 para question 78",
+                                    "de": "Incorrect option 1 für question 78",
+                                    "nl": "Incorrect option 1 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 78",
+                                    "es": "Incorrect option 3 para question 78",
+                                    "de": "Incorrect option 3 für question 78",
+                                    "nl": "Incorrect option 3 voor question 78"
+                            },
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 79",
+                                    "es": "Incorrect option 1 para question 79",
+                                    "de": "Incorrect option 1 für question 79",
+                                    "nl": "Incorrect option 1 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 79",
+                                    "es": "Incorrect option 4 para question 79",
+                                    "de": "Incorrect option 4 für question 79",
+                                    "nl": "Incorrect option 4 voor question 79"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 80",
+                                    "es": "Incorrect option 1 para question 80",
+                                    "de": "Incorrect option 1 für question 80",
+                                    "nl": "Incorrect option 1 voor question 80"
+                            },
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 80",
+                                    "es": "Incorrect option 4 para question 80",
+                                    "de": "Incorrect option 4 für question 80",
+                                    "nl": "Incorrect option 4 voor question 80"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 81",
+                                    "es": "Incorrect option 4 para question 81",
+                                    "de": "Incorrect option 4 für question 81",
+                                    "nl": "Incorrect option 4 voor question 81"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 82",
+                                    "es": "Incorrect option 1 para question 82",
+                                    "de": "Incorrect option 1 für question 82",
+                                    "nl": "Incorrect option 1 voor question 82"
+                            },
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 82",
+                                    "es": "Incorrect option 3 para question 82",
+                                    "de": "Incorrect option 3 für question 82",
+                                    "nl": "Incorrect option 3 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 83",
+                                    "es": "Incorrect option 3 para question 83",
+                                    "de": "Incorrect option 3 für question 83",
+                                    "nl": "Incorrect option 3 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 83",
+                                    "es": "Incorrect option 4 para question 83",
+                                    "de": "Incorrect option 4 für question 83",
+                                    "nl": "Incorrect option 4 voor question 83"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 84",
+                                    "es": "Incorrect option 1 para question 84",
+                                    "de": "Incorrect option 1 für question 84",
+                                    "nl": "Incorrect option 1 voor question 84"
+                            },
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 84",
+                                    "es": "Incorrect option 4 para question 84",
+                                    "de": "Incorrect option 4 für question 84",
+                                    "nl": "Incorrect option 4 voor question 84"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 85",
+                                    "es": "Incorrect option 1 para question 85",
+                                    "de": "Incorrect option 1 für question 85",
+                                    "nl": "Incorrect option 1 voor question 85"
+                            },
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 85",
+                                    "es": "Incorrect option 3 para question 85",
+                                    "de": "Incorrect option 3 für question 85",
+                                    "nl": "Incorrect option 3 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 86",
+                                    "es": "Incorrect option 1 para question 86",
+                                    "de": "Incorrect option 1 für question 86",
+                                    "nl": "Incorrect option 1 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 86",
+                                    "es": "Incorrect option 3 para question 86",
+                                    "de": "Incorrect option 3 für question 86",
+                                    "nl": "Incorrect option 3 voor question 86"
+                            },
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 87",
+                                    "es": "Incorrect option 3 para question 87",
+                                    "de": "Incorrect option 3 für question 87",
+                                    "nl": "Incorrect option 3 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 88",
+                                    "es": "Incorrect option 1 para question 88",
+                                    "de": "Incorrect option 1 für question 88",
+                                    "nl": "Incorrect option 1 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 89",
+                                    "es": "Incorrect option 3 para question 89",
+                                    "de": "Incorrect option 3 für question 89",
+                                    "nl": "Incorrect option 3 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 89",
+                                    "es": "Incorrect option 4 para question 89",
+                                    "de": "Incorrect option 4 für question 89",
+                                    "nl": "Incorrect option 4 voor question 89"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 90",
+                                    "es": "Incorrect option 4 para question 90",
+                                    "de": "Incorrect option 4 für question 90",
+                                    "nl": "Incorrect option 4 voor question 90"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 91",
+                                    "es": "Incorrect option 4 para question 91",
+                                    "de": "Incorrect option 4 für question 91",
+                                    "nl": "Incorrect option 4 voor question 91"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Donuts?",
+                            "es": "¿Cómo does this relate to Donuts?",
+                            "de": "Wie does this relate to Donuts?",
+                            "nl": "Hoe does this relate to Donuts?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 92",
+                                    "es": "Incorrect option 2 para question 92",
+                                    "de": "Incorrect option 2 für question 92",
+                                    "nl": "Incorrect option 2 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 93",
+                                    "es": "Incorrect option 1 para question 93",
+                                    "de": "Incorrect option 1 für question 93",
+                                    "nl": "Incorrect option 1 voor question 93"
+                            },
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 93",
+                                    "es": "Incorrect option 3 para question 93",
+                                    "de": "Incorrect option 3 für question 93",
+                                    "nl": "Incorrect option 3 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 93",
+                                    "es": "Incorrect option 4 para question 93",
+                                    "de": "Incorrect option 4 für question 93",
+                                    "nl": "Incorrect option 4 voor question 93"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 94",
+                                    "es": "Incorrect option 2 para question 94",
+                                    "de": "Incorrect option 2 für question 94",
+                                    "nl": "Incorrect option 2 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 94",
+                                    "es": "Incorrect option 4 para question 94",
+                                    "de": "Incorrect option 4 für question 94",
+                                    "nl": "Incorrect option 4 voor question 94"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 95",
+                                    "es": "Incorrect option 3 para question 95",
+                                    "de": "Incorrect option 3 für question 95",
+                                    "nl": "Incorrect option 3 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 96",
+                                    "es": "Incorrect option 1 para question 96",
+                                    "de": "Incorrect option 1 für question 96",
+                                    "nl": "Incorrect option 1 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 97",
+                                    "es": "Incorrect option 1 para question 97",
+                                    "de": "Incorrect option 1 für question 97",
+                                    "nl": "Incorrect option 1 voor question 97"
+                            },
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 97",
+                                    "es": "Incorrect option 3 para question 97",
+                                    "de": "Incorrect option 3 für question 97",
+                                    "nl": "Incorrect option 3 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 98",
+                                    "es": "Incorrect option 1 para question 98",
+                                    "de": "Incorrect option 1 für question 98",
+                                    "nl": "Incorrect option 1 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 98",
+                                    "es": "Incorrect option 2 para question 98",
+                                    "de": "Incorrect option 2 für question 98",
+                                    "nl": "Incorrect option 2 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 99",
+                                    "es": "Incorrect option 2 para question 99",
+                                    "de": "Incorrect option 2 für question 99",
+                                    "nl": "Incorrect option 2 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 2?",
+                            "es": "¿Qué is the significance of this in level 2?",
+                            "de": "Was is the significance of this in level 2?",
+                            "nl": "Wat is the significance of this in level 2?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 100",
+                                    "es": "Incorrect option 1 para question 100",
+                                    "de": "Incorrect option 1 für question 100",
+                                    "nl": "Incorrect option 1 voor question 100"
+                            },
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 100",
+                                    "es": "Incorrect option 4 para question 100",
+                                    "de": "Incorrect option 4 für question 100",
+                                    "nl": "Incorrect option 4 voor question 100"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "es": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "de": "This question relates to level 2 content in Donuts. The correct answer provides important context.",
+                            "nl": "This question relates to level 2 content in Donuts. The correct answer provides important context."
+                    }
+            }
+    ]
 };

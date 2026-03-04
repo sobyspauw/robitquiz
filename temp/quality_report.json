@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "totalFiles": 1812,
+    "totalQuestions": 180405,
+    "filesWithCorrectCount": 1804,
+    "qualityScore": {
+      "questionCount": 99.55849889624724,
+      "charLimits": 99.95787256450764,
+      "translations": 100,
+      "structure": 100
+    },
+    "overallScore": 99.87909286518872
+  },
+  "violations": {
+    "characterLimits": {
+      "questions": 0,
+      "options": 12,
+      "explanations": 64
+    },
+    "translations": 0,
+    "structure": {
+      "missingCorrect": 0,
+      "invalidCorrect": 0,
+      "wrongOptionCount": 0
+    }
+  },
+  "bySubject": {
+    "ai": {
+      "totalFiles": 161,
+      "totalQuestions": 16005,
+      "filesWithIssues": 1,
+      "filesUnder100": [
+        {
+          "file": "AI geschiedenis\\level1_new.js",
+          "count": 5
+        }
+      ],
+      "issues": [
+        {
+          "file": "AI geschiedenis\\level1_new.js",
+          "issues": [
+            {
+              "type": "INSUFFICIENT_QUESTIONS",
+              "message": "Only 5 questions (need 100+)",
+              "severity": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    "board-games": {
+      "totalFiles": 130,
+      "totalQuestions": 12500,
+      "filesWithIssues": 5,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "books": {
+      "totalFiles": 110,
+      "totalQuestions": 11000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "currencies": {
+      "totalFiles": 230,
+      "totalQuestions": 23000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "desserts": {
+      "totalFiles": 180,
+      "totalQuestions": 18000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "dinosaurs": {
+      "totalFiles": 180,
+      "totalQuestions": 18000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "drinks": {
+      "totalFiles": 100,
+      "totalQuestions": 10000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "egypt": {
+      "totalFiles": 240,
+      "totalQuestions": 24000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "f1": {
+      "totalFiles": 120,
+      "totalQuestions": 12000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "famous-buildings": {
+      "totalFiles": 120,
+      "totalQuestions": 12000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "famous-people": {
+      "totalFiles": 100,
+      "totalQuestions": 10000,
+      "filesWithIssues": 0,
+      "filesUnder100": [],
+      "issues": []
+    },
+    "food": {
+      "totalFiles": 141,
+      "totalQuestions": 13900,
+      "filesWithIssues": 2,
+      "filesUnder100": [],
+      "issues": []
+    }
+  }
+}

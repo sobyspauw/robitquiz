@@ -1,4104 +1,4104 @@
 module.exports = {
   questions: [
-  {
-    "question": {
-      "en": "Question 1 about Pitstop strategieën",
-      "es": "Pregunta 1 sobre Pitstop strategieën",
-      "de": "Frage 1 über Pitstop strategieën",
-      "nl": "Vraag 1 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Pitstop strategieën",
-      "es": "Pregunta 2 sobre Pitstop strategieën",
-      "de": "Frage 2 über Pitstop strategieën",
-      "nl": "Vraag 2 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Pitstop strategieën",
-      "es": "Pregunta 3 sobre Pitstop strategieën",
-      "de": "Frage 3 über Pitstop strategieën",
-      "nl": "Vraag 3 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Pitstop strategieën",
-      "es": "Pregunta 4 sobre Pitstop strategieën",
-      "de": "Frage 4 über Pitstop strategieën",
-      "nl": "Vraag 4 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Pitstop strategieën",
-      "es": "Pregunta 5 sobre Pitstop strategieën",
-      "de": "Frage 5 über Pitstop strategieën",
-      "nl": "Vraag 5 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Pitstop strategieën",
-      "es": "Pregunta 6 sobre Pitstop strategieën",
-      "de": "Frage 6 über Pitstop strategieën",
-      "nl": "Vraag 6 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Pitstop strategieën",
-      "es": "Pregunta 7 sobre Pitstop strategieën",
-      "de": "Frage 7 über Pitstop strategieën",
-      "nl": "Vraag 7 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Pitstop strategieën",
-      "es": "Pregunta 8 sobre Pitstop strategieën",
-      "de": "Frage 8 über Pitstop strategieën",
-      "nl": "Vraag 8 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Pitstop strategieën",
-      "es": "Pregunta 9 sobre Pitstop strategieën",
-      "de": "Frage 9 über Pitstop strategieën",
-      "nl": "Vraag 9 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Pitstop strategieën",
-      "es": "Pregunta 10 sobre Pitstop strategieën",
-      "de": "Frage 10 über Pitstop strategieën",
-      "nl": "Vraag 10 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Pitstop strategieën",
-      "es": "Pregunta 11 sobre Pitstop strategieën",
-      "de": "Frage 11 über Pitstop strategieën",
-      "nl": "Vraag 11 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Pitstop strategieën",
-      "es": "Pregunta 12 sobre Pitstop strategieën",
-      "de": "Frage 12 über Pitstop strategieën",
-      "nl": "Vraag 12 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Pitstop strategieën",
-      "es": "Pregunta 13 sobre Pitstop strategieën",
-      "de": "Frage 13 über Pitstop strategieën",
-      "nl": "Vraag 13 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Pitstop strategieën",
-      "es": "Pregunta 14 sobre Pitstop strategieën",
-      "de": "Frage 14 über Pitstop strategieën",
-      "nl": "Vraag 14 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Pitstop strategieën",
-      "es": "Pregunta 15 sobre Pitstop strategieën",
-      "de": "Frage 15 über Pitstop strategieën",
-      "nl": "Vraag 15 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Pitstop strategieën",
-      "es": "Pregunta 16 sobre Pitstop strategieën",
-      "de": "Frage 16 über Pitstop strategieën",
-      "nl": "Vraag 16 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Pitstop strategieën",
-      "es": "Pregunta 17 sobre Pitstop strategieën",
-      "de": "Frage 17 über Pitstop strategieën",
-      "nl": "Vraag 17 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Pitstop strategieën",
-      "es": "Pregunta 18 sobre Pitstop strategieën",
-      "de": "Frage 18 über Pitstop strategieën",
-      "nl": "Vraag 18 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Pitstop strategieën",
-      "es": "Pregunta 19 sobre Pitstop strategieën",
-      "de": "Frage 19 über Pitstop strategieën",
-      "nl": "Vraag 19 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Pitstop strategieën",
-      "es": "Pregunta 20 sobre Pitstop strategieën",
-      "de": "Frage 20 über Pitstop strategieën",
-      "nl": "Vraag 20 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Pitstop strategieën",
-      "es": "Pregunta 21 sobre Pitstop strategieën",
-      "de": "Frage 21 über Pitstop strategieën",
-      "nl": "Vraag 21 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Pitstop strategieën",
-      "es": "Pregunta 22 sobre Pitstop strategieën",
-      "de": "Frage 22 über Pitstop strategieën",
-      "nl": "Vraag 22 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Pitstop strategieën",
-      "es": "Pregunta 23 sobre Pitstop strategieën",
-      "de": "Frage 23 über Pitstop strategieën",
-      "nl": "Vraag 23 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Pitstop strategieën",
-      "es": "Pregunta 24 sobre Pitstop strategieën",
-      "de": "Frage 24 über Pitstop strategieën",
-      "nl": "Vraag 24 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Pitstop strategieën",
-      "es": "Pregunta 25 sobre Pitstop strategieën",
-      "de": "Frage 25 über Pitstop strategieën",
-      "nl": "Vraag 25 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Pitstop strategieën",
-      "es": "Pregunta 26 sobre Pitstop strategieën",
-      "de": "Frage 26 über Pitstop strategieën",
-      "nl": "Vraag 26 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Pitstop strategieën",
-      "es": "Pregunta 27 sobre Pitstop strategieën",
-      "de": "Frage 27 über Pitstop strategieën",
-      "nl": "Vraag 27 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Pitstop strategieën",
-      "es": "Pregunta 28 sobre Pitstop strategieën",
-      "de": "Frage 28 über Pitstop strategieën",
-      "nl": "Vraag 28 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Pitstop strategieën",
-      "es": "Pregunta 29 sobre Pitstop strategieën",
-      "de": "Frage 29 über Pitstop strategieën",
-      "nl": "Vraag 29 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Pitstop strategieën",
-      "es": "Pregunta 30 sobre Pitstop strategieën",
-      "de": "Frage 30 über Pitstop strategieën",
-      "nl": "Vraag 30 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Pitstop strategieën",
-      "es": "Pregunta 31 sobre Pitstop strategieën",
-      "de": "Frage 31 über Pitstop strategieën",
-      "nl": "Vraag 31 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Pitstop strategieën",
-      "es": "Pregunta 32 sobre Pitstop strategieën",
-      "de": "Frage 32 über Pitstop strategieën",
-      "nl": "Vraag 32 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Pitstop strategieën",
-      "es": "Pregunta 33 sobre Pitstop strategieën",
-      "de": "Frage 33 über Pitstop strategieën",
-      "nl": "Vraag 33 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Pitstop strategieën",
-      "es": "Pregunta 34 sobre Pitstop strategieën",
-      "de": "Frage 34 über Pitstop strategieën",
-      "nl": "Vraag 34 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Pitstop strategieën",
-      "es": "Pregunta 35 sobre Pitstop strategieën",
-      "de": "Frage 35 über Pitstop strategieën",
-      "nl": "Vraag 35 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Pitstop strategieën",
-      "es": "Pregunta 36 sobre Pitstop strategieën",
-      "de": "Frage 36 über Pitstop strategieën",
-      "nl": "Vraag 36 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Pitstop strategieën",
-      "es": "Pregunta 37 sobre Pitstop strategieën",
-      "de": "Frage 37 über Pitstop strategieën",
-      "nl": "Vraag 37 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Pitstop strategieën",
-      "es": "Pregunta 38 sobre Pitstop strategieën",
-      "de": "Frage 38 über Pitstop strategieën",
-      "nl": "Vraag 38 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Pitstop strategieën",
-      "es": "Pregunta 39 sobre Pitstop strategieën",
-      "de": "Frage 39 über Pitstop strategieën",
-      "nl": "Vraag 39 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Pitstop strategieën",
-      "es": "Pregunta 40 sobre Pitstop strategieën",
-      "de": "Frage 40 über Pitstop strategieën",
-      "nl": "Vraag 40 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Pitstop strategieën",
-      "es": "Pregunta 41 sobre Pitstop strategieën",
-      "de": "Frage 41 über Pitstop strategieën",
-      "nl": "Vraag 41 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Pitstop strategieën",
-      "es": "Pregunta 42 sobre Pitstop strategieën",
-      "de": "Frage 42 über Pitstop strategieën",
-      "nl": "Vraag 42 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Pitstop strategieën",
-      "es": "Pregunta 43 sobre Pitstop strategieën",
-      "de": "Frage 43 über Pitstop strategieën",
-      "nl": "Vraag 43 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Pitstop strategieën",
-      "es": "Pregunta 44 sobre Pitstop strategieën",
-      "de": "Frage 44 über Pitstop strategieën",
-      "nl": "Vraag 44 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Pitstop strategieën",
-      "es": "Pregunta 45 sobre Pitstop strategieën",
-      "de": "Frage 45 über Pitstop strategieën",
-      "nl": "Vraag 45 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Pitstop strategieën",
-      "es": "Pregunta 46 sobre Pitstop strategieën",
-      "de": "Frage 46 über Pitstop strategieën",
-      "nl": "Vraag 46 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Pitstop strategieën",
-      "es": "Pregunta 47 sobre Pitstop strategieën",
-      "de": "Frage 47 über Pitstop strategieën",
-      "nl": "Vraag 47 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Pitstop strategieën",
-      "es": "Pregunta 48 sobre Pitstop strategieën",
-      "de": "Frage 48 über Pitstop strategieën",
-      "nl": "Vraag 48 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Pitstop strategieën",
-      "es": "Pregunta 49 sobre Pitstop strategieën",
-      "de": "Frage 49 über Pitstop strategieën",
-      "nl": "Vraag 49 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Pitstop strategieën",
-      "es": "Pregunta 50 sobre Pitstop strategieën",
-      "de": "Frage 50 über Pitstop strategieën",
-      "nl": "Vraag 50 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Pitstop strategieën",
-      "es": "Pregunta 51 sobre Pitstop strategieën",
-      "de": "Frage 51 über Pitstop strategieën",
-      "nl": "Vraag 51 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Pitstop strategieën",
-      "es": "Pregunta 52 sobre Pitstop strategieën",
-      "de": "Frage 52 über Pitstop strategieën",
-      "nl": "Vraag 52 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Pitstop strategieën",
-      "es": "Pregunta 53 sobre Pitstop strategieën",
-      "de": "Frage 53 über Pitstop strategieën",
-      "nl": "Vraag 53 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Pitstop strategieën",
-      "es": "Pregunta 54 sobre Pitstop strategieën",
-      "de": "Frage 54 über Pitstop strategieën",
-      "nl": "Vraag 54 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Pitstop strategieën",
-      "es": "Pregunta 55 sobre Pitstop strategieën",
-      "de": "Frage 55 über Pitstop strategieën",
-      "nl": "Vraag 55 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Pitstop strategieën",
-      "es": "Pregunta 56 sobre Pitstop strategieën",
-      "de": "Frage 56 über Pitstop strategieën",
-      "nl": "Vraag 56 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Pitstop strategieën",
-      "es": "Pregunta 57 sobre Pitstop strategieën",
-      "de": "Frage 57 über Pitstop strategieën",
-      "nl": "Vraag 57 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Pitstop strategieën",
-      "es": "Pregunta 58 sobre Pitstop strategieën",
-      "de": "Frage 58 über Pitstop strategieën",
-      "nl": "Vraag 58 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Pitstop strategieën",
-      "es": "Pregunta 59 sobre Pitstop strategieën",
-      "de": "Frage 59 über Pitstop strategieën",
-      "nl": "Vraag 59 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Pitstop strategieën",
-      "es": "Pregunta 60 sobre Pitstop strategieën",
-      "de": "Frage 60 über Pitstop strategieën",
-      "nl": "Vraag 60 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Pitstop strategieën",
-      "es": "Pregunta 61 sobre Pitstop strategieën",
-      "de": "Frage 61 über Pitstop strategieën",
-      "nl": "Vraag 61 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Pitstop strategieën",
-      "es": "Pregunta 62 sobre Pitstop strategieën",
-      "de": "Frage 62 über Pitstop strategieën",
-      "nl": "Vraag 62 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Pitstop strategieën",
-      "es": "Pregunta 63 sobre Pitstop strategieën",
-      "de": "Frage 63 über Pitstop strategieën",
-      "nl": "Vraag 63 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Pitstop strategieën",
-      "es": "Pregunta 64 sobre Pitstop strategieën",
-      "de": "Frage 64 über Pitstop strategieën",
-      "nl": "Vraag 64 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Pitstop strategieën",
-      "es": "Pregunta 65 sobre Pitstop strategieën",
-      "de": "Frage 65 über Pitstop strategieën",
-      "nl": "Vraag 65 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Pitstop strategieën",
-      "es": "Pregunta 66 sobre Pitstop strategieën",
-      "de": "Frage 66 über Pitstop strategieën",
-      "nl": "Vraag 66 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Pitstop strategieën",
-      "es": "Pregunta 67 sobre Pitstop strategieën",
-      "de": "Frage 67 über Pitstop strategieën",
-      "nl": "Vraag 67 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Pitstop strategieën",
-      "es": "Pregunta 68 sobre Pitstop strategieën",
-      "de": "Frage 68 über Pitstop strategieën",
-      "nl": "Vraag 68 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Pitstop strategieën",
-      "es": "Pregunta 69 sobre Pitstop strategieën",
-      "de": "Frage 69 über Pitstop strategieën",
-      "nl": "Vraag 69 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Pitstop strategieën",
-      "es": "Pregunta 70 sobre Pitstop strategieën",
-      "de": "Frage 70 über Pitstop strategieën",
-      "nl": "Vraag 70 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Pitstop strategieën",
-      "es": "Pregunta 71 sobre Pitstop strategieën",
-      "de": "Frage 71 über Pitstop strategieën",
-      "nl": "Vraag 71 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Pitstop strategieën",
-      "es": "Pregunta 72 sobre Pitstop strategieën",
-      "de": "Frage 72 über Pitstop strategieën",
-      "nl": "Vraag 72 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Pitstop strategieën",
-      "es": "Pregunta 73 sobre Pitstop strategieën",
-      "de": "Frage 73 über Pitstop strategieën",
-      "nl": "Vraag 73 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Pitstop strategieën",
-      "es": "Pregunta 74 sobre Pitstop strategieën",
-      "de": "Frage 74 über Pitstop strategieën",
-      "nl": "Vraag 74 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Pitstop strategieën",
-      "es": "Pregunta 75 sobre Pitstop strategieën",
-      "de": "Frage 75 über Pitstop strategieën",
-      "nl": "Vraag 75 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Pitstop strategieën",
-      "es": "Pregunta 76 sobre Pitstop strategieën",
-      "de": "Frage 76 über Pitstop strategieën",
-      "nl": "Vraag 76 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Pitstop strategieën",
-      "es": "Pregunta 77 sobre Pitstop strategieën",
-      "de": "Frage 77 über Pitstop strategieën",
-      "nl": "Vraag 77 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Pitstop strategieën",
-      "es": "Pregunta 78 sobre Pitstop strategieën",
-      "de": "Frage 78 über Pitstop strategieën",
-      "nl": "Vraag 78 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Pitstop strategieën",
-      "es": "Pregunta 79 sobre Pitstop strategieën",
-      "de": "Frage 79 über Pitstop strategieën",
-      "nl": "Vraag 79 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Pitstop strategieën",
-      "es": "Pregunta 80 sobre Pitstop strategieën",
-      "de": "Frage 80 über Pitstop strategieën",
-      "nl": "Vraag 80 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Pitstop strategieën",
-      "es": "Pregunta 81 sobre Pitstop strategieën",
-      "de": "Frage 81 über Pitstop strategieën",
-      "nl": "Vraag 81 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Pitstop strategieën",
-      "es": "Pregunta 82 sobre Pitstop strategieën",
-      "de": "Frage 82 über Pitstop strategieën",
-      "nl": "Vraag 82 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Pitstop strategieën",
-      "es": "Pregunta 83 sobre Pitstop strategieën",
-      "de": "Frage 83 über Pitstop strategieën",
-      "nl": "Vraag 83 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Pitstop strategieën",
-      "es": "Pregunta 84 sobre Pitstop strategieën",
-      "de": "Frage 84 über Pitstop strategieën",
-      "nl": "Vraag 84 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Pitstop strategieën",
-      "es": "Pregunta 85 sobre Pitstop strategieën",
-      "de": "Frage 85 über Pitstop strategieën",
-      "nl": "Vraag 85 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Pitstop strategieën",
-      "es": "Pregunta 86 sobre Pitstop strategieën",
-      "de": "Frage 86 über Pitstop strategieën",
-      "nl": "Vraag 86 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Pitstop strategieën",
-      "es": "Pregunta 87 sobre Pitstop strategieën",
-      "de": "Frage 87 über Pitstop strategieën",
-      "nl": "Vraag 87 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Pitstop strategieën",
-      "es": "Pregunta 88 sobre Pitstop strategieën",
-      "de": "Frage 88 über Pitstop strategieën",
-      "nl": "Vraag 88 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Pitstop strategieën",
-      "es": "Pregunta 89 sobre Pitstop strategieën",
-      "de": "Frage 89 über Pitstop strategieën",
-      "nl": "Vraag 89 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Pitstop strategieën",
-      "es": "Pregunta 90 sobre Pitstop strategieën",
-      "de": "Frage 90 über Pitstop strategieën",
-      "nl": "Vraag 90 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Pitstop strategieën",
-      "es": "Pregunta 91 sobre Pitstop strategieën",
-      "de": "Frage 91 über Pitstop strategieën",
-      "nl": "Vraag 91 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Pitstop strategieën",
-      "es": "Pregunta 92 sobre Pitstop strategieën",
-      "de": "Frage 92 über Pitstop strategieën",
-      "nl": "Vraag 92 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Pitstop strategieën",
-      "es": "Pregunta 93 sobre Pitstop strategieën",
-      "de": "Frage 93 über Pitstop strategieën",
-      "nl": "Vraag 93 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Pitstop strategieën",
-      "es": "Pregunta 94 sobre Pitstop strategieën",
-      "de": "Frage 94 über Pitstop strategieën",
-      "nl": "Vraag 94 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Pitstop strategieën",
-      "es": "Pregunta 95 sobre Pitstop strategieën",
-      "de": "Frage 95 über Pitstop strategieën",
-      "nl": "Vraag 95 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Pitstop strategieën",
-      "es": "Pregunta 96 sobre Pitstop strategieën",
-      "de": "Frage 96 über Pitstop strategieën",
-      "nl": "Vraag 96 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Pitstop strategieën",
-      "es": "Pregunta 97 sobre Pitstop strategieën",
-      "de": "Frage 97 über Pitstop strategieën",
-      "nl": "Vraag 97 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Pitstop strategieën",
-      "es": "Pregunta 98 sobre Pitstop strategieën",
-      "de": "Frage 98 über Pitstop strategieën",
-      "nl": "Vraag 98 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Pitstop strategieën",
-      "es": "Pregunta 99 sobre Pitstop strategieën",
-      "de": "Frage 99 über Pitstop strategieën",
-      "nl": "Vraag 99 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Pitstop strategieën",
-      "es": "Pregunta 100 sobre Pitstop strategieën",
-      "de": "Frage 100 über Pitstop strategieën",
-      "nl": "Vraag 100 over Pitstop strategieën"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pitstop strategieën",
-        "es": "Respuesta A para Pitstop strategieën",
-        "de": "Antwort A für Pitstop strategieën",
-        "nl": "Antwoord A voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer B for Pitstop strategieën",
-        "es": "Respuesta B para Pitstop strategieën",
-        "de": "Antwort B für Pitstop strategieën",
-        "nl": "Antwoord B voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer C for Pitstop strategieën",
-        "es": "Respuesta C para Pitstop strategieën",
-        "de": "Antwort C für Pitstop strategieën",
-        "nl": "Antwoord C voor Pitstop strategieën"
-      },
-      {
-        "en": "Answer D for Pitstop strategieën",
-        "es": "Respuesta D para Pitstop strategieën",
-        "de": "Antwort D für Pitstop strategieën",
-        "nl": "Antwoord D voor Pitstop strategieën"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pitstop strategieën.",
-      "es": "Esta es la respuesta correcta sobre Pitstop strategieën.",
-      "de": "Dies ist die richtige Antwort über Pitstop strategieën.",
-      "nl": "Dit is het juiste antwoord over Pitstop strategieën."
-    }
-  }
-]
+    {
+          "question": {
+                "en": "What is fact 1 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 1 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 1 über Pitstop strategieën?",
+                "nl": "Wat is feit 1 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 1",
+                      "es": "Respuesta correcta 1",
+                      "de": "Richtige Antwort 1",
+                      "nl": "Juist antwoord 1"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 2 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 2 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 2 über Pitstop strategieën?",
+                "nl": "Wat is feit 2 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 2",
+                      "es": "Respuesta correcta 2",
+                      "de": "Richtige Antwort 2",
+                      "nl": "Juist antwoord 2"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 3 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 3 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 3 über Pitstop strategieën?",
+                "nl": "Wat is feit 3 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 3",
+                      "es": "Respuesta correcta 3",
+                      "de": "Richtige Antwort 3",
+                      "nl": "Juist antwoord 3"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 4 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 4 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 4 über Pitstop strategieën?",
+                "nl": "Wat is feit 4 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 4",
+                      "es": "Respuesta correcta 4",
+                      "de": "Richtige Antwort 4",
+                      "nl": "Juist antwoord 4"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 5 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 5 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 5 über Pitstop strategieën?",
+                "nl": "Wat is feit 5 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 5",
+                      "es": "Respuesta correcta 5",
+                      "de": "Richtige Antwort 5",
+                      "nl": "Juist antwoord 5"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 6 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 6 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 6 über Pitstop strategieën?",
+                "nl": "Wat is feit 6 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 6",
+                      "es": "Respuesta correcta 6",
+                      "de": "Richtige Antwort 6",
+                      "nl": "Juist antwoord 6"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 7 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 7 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 7 über Pitstop strategieën?",
+                "nl": "Wat is feit 7 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 7",
+                      "es": "Respuesta correcta 7",
+                      "de": "Richtige Antwort 7",
+                      "nl": "Juist antwoord 7"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 8 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 8 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 8 über Pitstop strategieën?",
+                "nl": "Wat is feit 8 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 8",
+                      "es": "Respuesta correcta 8",
+                      "de": "Richtige Antwort 8",
+                      "nl": "Juist antwoord 8"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 9 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 9 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 9 über Pitstop strategieën?",
+                "nl": "Wat is feit 9 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 9",
+                      "es": "Respuesta correcta 9",
+                      "de": "Richtige Antwort 9",
+                      "nl": "Juist antwoord 9"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 10 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 10 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 10 über Pitstop strategieën?",
+                "nl": "Wat is feit 10 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 10",
+                      "es": "Respuesta correcta 10",
+                      "de": "Richtige Antwort 10",
+                      "nl": "Juist antwoord 10"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 11 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 11 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 11 über Pitstop strategieën?",
+                "nl": "Wat is feit 11 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 11",
+                      "es": "Respuesta correcta 11",
+                      "de": "Richtige Antwort 11",
+                      "nl": "Juist antwoord 11"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 12 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 12 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 12 über Pitstop strategieën?",
+                "nl": "Wat is feit 12 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 12",
+                      "es": "Respuesta correcta 12",
+                      "de": "Richtige Antwort 12",
+                      "nl": "Juist antwoord 12"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 13 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 13 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 13 über Pitstop strategieën?",
+                "nl": "Wat is feit 13 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 13",
+                      "es": "Respuesta correcta 13",
+                      "de": "Richtige Antwort 13",
+                      "nl": "Juist antwoord 13"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 14 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 14 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 14 über Pitstop strategieën?",
+                "nl": "Wat is feit 14 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 14",
+                      "es": "Respuesta correcta 14",
+                      "de": "Richtige Antwort 14",
+                      "nl": "Juist antwoord 14"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 15 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 15 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 15 über Pitstop strategieën?",
+                "nl": "Wat is feit 15 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 15",
+                      "es": "Respuesta correcta 15",
+                      "de": "Richtige Antwort 15",
+                      "nl": "Juist antwoord 15"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 16 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 16 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 16 über Pitstop strategieën?",
+                "nl": "Wat is feit 16 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 16",
+                      "es": "Respuesta correcta 16",
+                      "de": "Richtige Antwort 16",
+                      "nl": "Juist antwoord 16"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 17 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 17 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 17 über Pitstop strategieën?",
+                "nl": "Wat is feit 17 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 17",
+                      "es": "Respuesta correcta 17",
+                      "de": "Richtige Antwort 17",
+                      "nl": "Juist antwoord 17"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 18 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 18 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 18 über Pitstop strategieën?",
+                "nl": "Wat is feit 18 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 18",
+                      "es": "Respuesta correcta 18",
+                      "de": "Richtige Antwort 18",
+                      "nl": "Juist antwoord 18"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 19 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 19 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 19 über Pitstop strategieën?",
+                "nl": "Wat is feit 19 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 19",
+                      "es": "Respuesta correcta 19",
+                      "de": "Richtige Antwort 19",
+                      "nl": "Juist antwoord 19"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 20 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 20 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 20 über Pitstop strategieën?",
+                "nl": "Wat is feit 20 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 20",
+                      "es": "Respuesta correcta 20",
+                      "de": "Richtige Antwort 20",
+                      "nl": "Juist antwoord 20"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 21 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 21 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 21 über Pitstop strategieën?",
+                "nl": "Wat is feit 21 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 21",
+                      "es": "Respuesta correcta 21",
+                      "de": "Richtige Antwort 21",
+                      "nl": "Juist antwoord 21"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 22 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 22 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 22 über Pitstop strategieën?",
+                "nl": "Wat is feit 22 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 22",
+                      "es": "Respuesta correcta 22",
+                      "de": "Richtige Antwort 22",
+                      "nl": "Juist antwoord 22"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 23 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 23 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 23 über Pitstop strategieën?",
+                "nl": "Wat is feit 23 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 23",
+                      "es": "Respuesta correcta 23",
+                      "de": "Richtige Antwort 23",
+                      "nl": "Juist antwoord 23"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 24 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 24 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 24 über Pitstop strategieën?",
+                "nl": "Wat is feit 24 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 24",
+                      "es": "Respuesta correcta 24",
+                      "de": "Richtige Antwort 24",
+                      "nl": "Juist antwoord 24"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 25 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 25 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 25 über Pitstop strategieën?",
+                "nl": "Wat is feit 25 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 25",
+                      "es": "Respuesta correcta 25",
+                      "de": "Richtige Antwort 25",
+                      "nl": "Juist antwoord 25"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 26 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 26 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 26 über Pitstop strategieën?",
+                "nl": "Wat is feit 26 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 26",
+                      "es": "Respuesta correcta 26",
+                      "de": "Richtige Antwort 26",
+                      "nl": "Juist antwoord 26"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 27 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 27 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 27 über Pitstop strategieën?",
+                "nl": "Wat is feit 27 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 27",
+                      "es": "Respuesta correcta 27",
+                      "de": "Richtige Antwort 27",
+                      "nl": "Juist antwoord 27"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 28 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 28 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 28 über Pitstop strategieën?",
+                "nl": "Wat is feit 28 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 28",
+                      "es": "Respuesta correcta 28",
+                      "de": "Richtige Antwort 28",
+                      "nl": "Juist antwoord 28"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 29 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 29 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 29 über Pitstop strategieën?",
+                "nl": "Wat is feit 29 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 29",
+                      "es": "Respuesta correcta 29",
+                      "de": "Richtige Antwort 29",
+                      "nl": "Juist antwoord 29"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 30 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 30 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 30 über Pitstop strategieën?",
+                "nl": "Wat is feit 30 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 30",
+                      "es": "Respuesta correcta 30",
+                      "de": "Richtige Antwort 30",
+                      "nl": "Juist antwoord 30"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 31 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 31 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 31 über Pitstop strategieën?",
+                "nl": "Wat is feit 31 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 31",
+                      "es": "Respuesta correcta 31",
+                      "de": "Richtige Antwort 31",
+                      "nl": "Juist antwoord 31"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 32 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 32 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 32 über Pitstop strategieën?",
+                "nl": "Wat is feit 32 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 32",
+                      "es": "Respuesta correcta 32",
+                      "de": "Richtige Antwort 32",
+                      "nl": "Juist antwoord 32"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 33 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 33 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 33 über Pitstop strategieën?",
+                "nl": "Wat is feit 33 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 33",
+                      "es": "Respuesta correcta 33",
+                      "de": "Richtige Antwort 33",
+                      "nl": "Juist antwoord 33"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 34 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 34 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 34 über Pitstop strategieën?",
+                "nl": "Wat is feit 34 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 34",
+                      "es": "Respuesta correcta 34",
+                      "de": "Richtige Antwort 34",
+                      "nl": "Juist antwoord 34"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 35 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 35 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 35 über Pitstop strategieën?",
+                "nl": "Wat is feit 35 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 35",
+                      "es": "Respuesta correcta 35",
+                      "de": "Richtige Antwort 35",
+                      "nl": "Juist antwoord 35"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 36 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 36 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 36 über Pitstop strategieën?",
+                "nl": "Wat is feit 36 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 36",
+                      "es": "Respuesta correcta 36",
+                      "de": "Richtige Antwort 36",
+                      "nl": "Juist antwoord 36"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 37 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 37 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 37 über Pitstop strategieën?",
+                "nl": "Wat is feit 37 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 37",
+                      "es": "Respuesta correcta 37",
+                      "de": "Richtige Antwort 37",
+                      "nl": "Juist antwoord 37"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 38 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 38 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 38 über Pitstop strategieën?",
+                "nl": "Wat is feit 38 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 38",
+                      "es": "Respuesta correcta 38",
+                      "de": "Richtige Antwort 38",
+                      "nl": "Juist antwoord 38"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 39 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 39 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 39 über Pitstop strategieën?",
+                "nl": "Wat is feit 39 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 39",
+                      "es": "Respuesta correcta 39",
+                      "de": "Richtige Antwort 39",
+                      "nl": "Juist antwoord 39"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 40 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 40 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 40 über Pitstop strategieën?",
+                "nl": "Wat is feit 40 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 40",
+                      "es": "Respuesta correcta 40",
+                      "de": "Richtige Antwort 40",
+                      "nl": "Juist antwoord 40"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 41 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 41 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 41 über Pitstop strategieën?",
+                "nl": "Wat is feit 41 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 41",
+                      "es": "Respuesta correcta 41",
+                      "de": "Richtige Antwort 41",
+                      "nl": "Juist antwoord 41"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 42 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 42 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 42 über Pitstop strategieën?",
+                "nl": "Wat is feit 42 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 42",
+                      "es": "Respuesta correcta 42",
+                      "de": "Richtige Antwort 42",
+                      "nl": "Juist antwoord 42"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 43 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 43 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 43 über Pitstop strategieën?",
+                "nl": "Wat is feit 43 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 43",
+                      "es": "Respuesta correcta 43",
+                      "de": "Richtige Antwort 43",
+                      "nl": "Juist antwoord 43"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 44 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 44 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 44 über Pitstop strategieën?",
+                "nl": "Wat is feit 44 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 44",
+                      "es": "Respuesta correcta 44",
+                      "de": "Richtige Antwort 44",
+                      "nl": "Juist antwoord 44"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 45 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 45 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 45 über Pitstop strategieën?",
+                "nl": "Wat is feit 45 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 45",
+                      "es": "Respuesta correcta 45",
+                      "de": "Richtige Antwort 45",
+                      "nl": "Juist antwoord 45"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 46 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 46 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 46 über Pitstop strategieën?",
+                "nl": "Wat is feit 46 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 46",
+                      "es": "Respuesta correcta 46",
+                      "de": "Richtige Antwort 46",
+                      "nl": "Juist antwoord 46"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 47 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 47 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 47 über Pitstop strategieën?",
+                "nl": "Wat is feit 47 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 47",
+                      "es": "Respuesta correcta 47",
+                      "de": "Richtige Antwort 47",
+                      "nl": "Juist antwoord 47"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 48 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 48 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 48 über Pitstop strategieën?",
+                "nl": "Wat is feit 48 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 48",
+                      "es": "Respuesta correcta 48",
+                      "de": "Richtige Antwort 48",
+                      "nl": "Juist antwoord 48"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 49 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 49 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 49 über Pitstop strategieën?",
+                "nl": "Wat is feit 49 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 49",
+                      "es": "Respuesta correcta 49",
+                      "de": "Richtige Antwort 49",
+                      "nl": "Juist antwoord 49"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 50 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 50 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 50 über Pitstop strategieën?",
+                "nl": "Wat is feit 50 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 50",
+                      "es": "Respuesta correcta 50",
+                      "de": "Richtige Antwort 50",
+                      "nl": "Juist antwoord 50"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 51 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 51 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 51 über Pitstop strategieën?",
+                "nl": "Wat is feit 51 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 51",
+                      "es": "Respuesta correcta 51",
+                      "de": "Richtige Antwort 51",
+                      "nl": "Juist antwoord 51"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 52 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 52 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 52 über Pitstop strategieën?",
+                "nl": "Wat is feit 52 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 52",
+                      "es": "Respuesta correcta 52",
+                      "de": "Richtige Antwort 52",
+                      "nl": "Juist antwoord 52"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 53 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 53 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 53 über Pitstop strategieën?",
+                "nl": "Wat is feit 53 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 53",
+                      "es": "Respuesta correcta 53",
+                      "de": "Richtige Antwort 53",
+                      "nl": "Juist antwoord 53"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 54 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 54 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 54 über Pitstop strategieën?",
+                "nl": "Wat is feit 54 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 54",
+                      "es": "Respuesta correcta 54",
+                      "de": "Richtige Antwort 54",
+                      "nl": "Juist antwoord 54"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 55 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 55 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 55 über Pitstop strategieën?",
+                "nl": "Wat is feit 55 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 55",
+                      "es": "Respuesta correcta 55",
+                      "de": "Richtige Antwort 55",
+                      "nl": "Juist antwoord 55"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 56 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 56 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 56 über Pitstop strategieën?",
+                "nl": "Wat is feit 56 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 56",
+                      "es": "Respuesta correcta 56",
+                      "de": "Richtige Antwort 56",
+                      "nl": "Juist antwoord 56"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 57 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 57 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 57 über Pitstop strategieën?",
+                "nl": "Wat is feit 57 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 57",
+                      "es": "Respuesta correcta 57",
+                      "de": "Richtige Antwort 57",
+                      "nl": "Juist antwoord 57"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 58 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 58 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 58 über Pitstop strategieën?",
+                "nl": "Wat is feit 58 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 58",
+                      "es": "Respuesta correcta 58",
+                      "de": "Richtige Antwort 58",
+                      "nl": "Juist antwoord 58"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 59 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 59 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 59 über Pitstop strategieën?",
+                "nl": "Wat is feit 59 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 59",
+                      "es": "Respuesta correcta 59",
+                      "de": "Richtige Antwort 59",
+                      "nl": "Juist antwoord 59"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 60 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 60 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 60 über Pitstop strategieën?",
+                "nl": "Wat is feit 60 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 60",
+                      "es": "Respuesta correcta 60",
+                      "de": "Richtige Antwort 60",
+                      "nl": "Juist antwoord 60"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 61 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 61 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 61 über Pitstop strategieën?",
+                "nl": "Wat is feit 61 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 61",
+                      "es": "Respuesta correcta 61",
+                      "de": "Richtige Antwort 61",
+                      "nl": "Juist antwoord 61"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 62 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 62 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 62 über Pitstop strategieën?",
+                "nl": "Wat is feit 62 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 62",
+                      "es": "Respuesta correcta 62",
+                      "de": "Richtige Antwort 62",
+                      "nl": "Juist antwoord 62"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 63 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 63 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 63 über Pitstop strategieën?",
+                "nl": "Wat is feit 63 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 63",
+                      "es": "Respuesta correcta 63",
+                      "de": "Richtige Antwort 63",
+                      "nl": "Juist antwoord 63"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 64 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 64 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 64 über Pitstop strategieën?",
+                "nl": "Wat is feit 64 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 64",
+                      "es": "Respuesta correcta 64",
+                      "de": "Richtige Antwort 64",
+                      "nl": "Juist antwoord 64"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 65 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 65 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 65 über Pitstop strategieën?",
+                "nl": "Wat is feit 65 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 65",
+                      "es": "Respuesta correcta 65",
+                      "de": "Richtige Antwort 65",
+                      "nl": "Juist antwoord 65"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 66 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 66 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 66 über Pitstop strategieën?",
+                "nl": "Wat is feit 66 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 66",
+                      "es": "Respuesta correcta 66",
+                      "de": "Richtige Antwort 66",
+                      "nl": "Juist antwoord 66"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 67 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 67 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 67 über Pitstop strategieën?",
+                "nl": "Wat is feit 67 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 67",
+                      "es": "Respuesta correcta 67",
+                      "de": "Richtige Antwort 67",
+                      "nl": "Juist antwoord 67"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 68 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 68 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 68 über Pitstop strategieën?",
+                "nl": "Wat is feit 68 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 68",
+                      "es": "Respuesta correcta 68",
+                      "de": "Richtige Antwort 68",
+                      "nl": "Juist antwoord 68"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 69 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 69 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 69 über Pitstop strategieën?",
+                "nl": "Wat is feit 69 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 69",
+                      "es": "Respuesta correcta 69",
+                      "de": "Richtige Antwort 69",
+                      "nl": "Juist antwoord 69"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 70 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 70 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 70 über Pitstop strategieën?",
+                "nl": "Wat is feit 70 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 70",
+                      "es": "Respuesta correcta 70",
+                      "de": "Richtige Antwort 70",
+                      "nl": "Juist antwoord 70"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 71 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 71 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 71 über Pitstop strategieën?",
+                "nl": "Wat is feit 71 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 71",
+                      "es": "Respuesta correcta 71",
+                      "de": "Richtige Antwort 71",
+                      "nl": "Juist antwoord 71"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 72 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 72 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 72 über Pitstop strategieën?",
+                "nl": "Wat is feit 72 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 72",
+                      "es": "Respuesta correcta 72",
+                      "de": "Richtige Antwort 72",
+                      "nl": "Juist antwoord 72"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 73 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 73 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 73 über Pitstop strategieën?",
+                "nl": "Wat is feit 73 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 73",
+                      "es": "Respuesta correcta 73",
+                      "de": "Richtige Antwort 73",
+                      "nl": "Juist antwoord 73"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 74 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 74 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 74 über Pitstop strategieën?",
+                "nl": "Wat is feit 74 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 74",
+                      "es": "Respuesta correcta 74",
+                      "de": "Richtige Antwort 74",
+                      "nl": "Juist antwoord 74"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 75 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 75 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 75 über Pitstop strategieën?",
+                "nl": "Wat is feit 75 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 75",
+                      "es": "Respuesta correcta 75",
+                      "de": "Richtige Antwort 75",
+                      "nl": "Juist antwoord 75"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 76 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 76 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 76 über Pitstop strategieën?",
+                "nl": "Wat is feit 76 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 76",
+                      "es": "Respuesta correcta 76",
+                      "de": "Richtige Antwort 76",
+                      "nl": "Juist antwoord 76"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 77 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 77 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 77 über Pitstop strategieën?",
+                "nl": "Wat is feit 77 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 77",
+                      "es": "Respuesta correcta 77",
+                      "de": "Richtige Antwort 77",
+                      "nl": "Juist antwoord 77"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 78 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 78 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 78 über Pitstop strategieën?",
+                "nl": "Wat is feit 78 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 78",
+                      "es": "Respuesta correcta 78",
+                      "de": "Richtige Antwort 78",
+                      "nl": "Juist antwoord 78"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 79 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 79 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 79 über Pitstop strategieën?",
+                "nl": "Wat is feit 79 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 79",
+                      "es": "Respuesta correcta 79",
+                      "de": "Richtige Antwort 79",
+                      "nl": "Juist antwoord 79"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 80 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 80 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 80 über Pitstop strategieën?",
+                "nl": "Wat is feit 80 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 80",
+                      "es": "Respuesta correcta 80",
+                      "de": "Richtige Antwort 80",
+                      "nl": "Juist antwoord 80"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 81 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 81 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 81 über Pitstop strategieën?",
+                "nl": "Wat is feit 81 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 81",
+                      "es": "Respuesta correcta 81",
+                      "de": "Richtige Antwort 81",
+                      "nl": "Juist antwoord 81"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 82 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 82 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 82 über Pitstop strategieën?",
+                "nl": "Wat is feit 82 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 82",
+                      "es": "Respuesta correcta 82",
+                      "de": "Richtige Antwort 82",
+                      "nl": "Juist antwoord 82"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 83 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 83 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 83 über Pitstop strategieën?",
+                "nl": "Wat is feit 83 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 83",
+                      "es": "Respuesta correcta 83",
+                      "de": "Richtige Antwort 83",
+                      "nl": "Juist antwoord 83"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 84 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 84 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 84 über Pitstop strategieën?",
+                "nl": "Wat is feit 84 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 84",
+                      "es": "Respuesta correcta 84",
+                      "de": "Richtige Antwort 84",
+                      "nl": "Juist antwoord 84"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 85 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 85 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 85 über Pitstop strategieën?",
+                "nl": "Wat is feit 85 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 85",
+                      "es": "Respuesta correcta 85",
+                      "de": "Richtige Antwort 85",
+                      "nl": "Juist antwoord 85"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 86 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 86 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 86 über Pitstop strategieën?",
+                "nl": "Wat is feit 86 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 86",
+                      "es": "Respuesta correcta 86",
+                      "de": "Richtige Antwort 86",
+                      "nl": "Juist antwoord 86"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 87 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 87 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 87 über Pitstop strategieën?",
+                "nl": "Wat is feit 87 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 87",
+                      "es": "Respuesta correcta 87",
+                      "de": "Richtige Antwort 87",
+                      "nl": "Juist antwoord 87"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 88 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 88 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 88 über Pitstop strategieën?",
+                "nl": "Wat is feit 88 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 88",
+                      "es": "Respuesta correcta 88",
+                      "de": "Richtige Antwort 88",
+                      "nl": "Juist antwoord 88"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 89 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 89 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 89 über Pitstop strategieën?",
+                "nl": "Wat is feit 89 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 89",
+                      "es": "Respuesta correcta 89",
+                      "de": "Richtige Antwort 89",
+                      "nl": "Juist antwoord 89"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 90 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 90 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 90 über Pitstop strategieën?",
+                "nl": "Wat is feit 90 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 90",
+                      "es": "Respuesta correcta 90",
+                      "de": "Richtige Antwort 90",
+                      "nl": "Juist antwoord 90"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 91 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 91 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 91 über Pitstop strategieën?",
+                "nl": "Wat is feit 91 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 91",
+                      "es": "Respuesta correcta 91",
+                      "de": "Richtige Antwort 91",
+                      "nl": "Juist antwoord 91"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 92 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 92 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 92 über Pitstop strategieën?",
+                "nl": "Wat is feit 92 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 92",
+                      "es": "Respuesta correcta 92",
+                      "de": "Richtige Antwort 92",
+                      "nl": "Juist antwoord 92"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 93 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 93 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 93 über Pitstop strategieën?",
+                "nl": "Wat is feit 93 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 93",
+                      "es": "Respuesta correcta 93",
+                      "de": "Richtige Antwort 93",
+                      "nl": "Juist antwoord 93"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 94 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 94 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 94 über Pitstop strategieën?",
+                "nl": "Wat is feit 94 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 94",
+                      "es": "Respuesta correcta 94",
+                      "de": "Richtige Antwort 94",
+                      "nl": "Juist antwoord 94"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 95 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 95 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 95 über Pitstop strategieën?",
+                "nl": "Wat is feit 95 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 95",
+                      "es": "Respuesta correcta 95",
+                      "de": "Richtige Antwort 95",
+                      "nl": "Juist antwoord 95"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 96 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 96 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 96 über Pitstop strategieën?",
+                "nl": "Wat is feit 96 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 96",
+                      "es": "Respuesta correcta 96",
+                      "de": "Richtige Antwort 96",
+                      "nl": "Juist antwoord 96"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 97 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 97 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 97 über Pitstop strategieën?",
+                "nl": "Wat is feit 97 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 97",
+                      "es": "Respuesta correcta 97",
+                      "de": "Richtige Antwort 97",
+                      "nl": "Juist antwoord 97"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 98 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 98 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 98 über Pitstop strategieën?",
+                "nl": "Wat is feit 98 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 98",
+                      "es": "Respuesta correcta 98",
+                      "de": "Richtige Antwort 98",
+                      "nl": "Juist antwoord 98"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 99 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 99 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 99 über Pitstop strategieën?",
+                "nl": "Wat is feit 99 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 99",
+                      "es": "Respuesta correcta 99",
+                      "de": "Richtige Antwort 99",
+                      "nl": "Juist antwoord 99"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    },
+    {
+          "question": {
+                "en": "What is fact 100 about Pitstop strategieën?",
+                "es": "¿Cuál es el hecho 100 sobre Pitstop strategieën?",
+                "de": "Was ist Fakt 100 über Pitstop strategieën?",
+                "nl": "Wat is feit 100 over Pitstop strategieën?"
+          },
+          "options": [
+                {
+                      "en": "Correct answer 100",
+                      "es": "Respuesta correcta 100",
+                      "de": "Richtige Antwort 100",
+                      "nl": "Juist antwoord 100"
+                },
+                {
+                      "en": "Wrong option 1",
+                      "es": "Opción incorrecta 1",
+                      "de": "Falsche Option 1",
+                      "nl": "Fout optie 1"
+                },
+                {
+                      "en": "Wrong option 2",
+                      "es": "Opción incorrecta 2",
+                      "de": "Falsche Option 2",
+                      "nl": "Fout optie 2"
+                },
+                {
+                      "en": "Wrong option 3",
+                      "es": "Opción incorrecta 3",
+                      "de": "Falsche Option 3",
+                      "nl": "Fout optie 3"
+                }
+          ],
+          "correct": 0,
+          "explanation": {
+                "en": "This is an educational fact about Pitstop strategieën.",
+                "es": "Este es un hecho educativo sobre Pitstop strategieën.",
+                "de": "Dies ist eine Bildungstatsache über Pitstop strategieën.",
+                "nl": "Dit is een educatief feit over Pitstop strategieën."
+          }
+    }
+  ]
 };

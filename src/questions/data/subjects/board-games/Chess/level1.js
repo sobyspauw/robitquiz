@@ -1,2125 +1,4108 @@
+// Chess - level1
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:04.854Z
+
 module.exports = {
-  questions: [
-    {
-      "question": {
-        "en": "How many squares are on a standard chessboard?",
-        "es": "¿Cuántos cuadrados hay en un tablero de ajedrez estándar?",
-        "de": "Wie viele Felder hat ein Standard-Schachbrett?",
-        "nl": "Hoeveel velden zijn er op een standaard schaakbord?"
-      },
-      "options": [
-        {"en": "64", "es": "64", "de": "64", "nl": "64"},
-        {"en": "32", "es": "32", "de": "32", "nl": "32"},
-        {"en": "81", "es": "81", "de": "81", "nl": "81"},
-        {"en": "100", "es": "100", "de": "100", "nl": "100"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A standard chessboard has 64 squares arranged in an 8x8 grid.",
-        "es": "Un tablero de ajedrez estándar tiene 64 cuadrados en una cuadrícula de 8x8.",
-        "de": "Ein Standard-Schachbrett hat 64 Felder in einem 8x8-Gitter.",
-        "nl": "Een standaard schaakbord heeft 64 velden in een 8x8 raster."
-      }
-    },
-    {
-      "question": {
-        "en": "How many pieces does each player start with in chess?",
-        "es": "¿Con cuántas piezas comienza cada jugador en el ajedrez?",
-        "de": "Mit wie vielen Figuren beginnt jeder Spieler im Schach?",
-        "nl": "Met hoeveel stukken begint elke speler bij schaken?"
-      },
-      "options": [
-        {"en": "16", "es": "16", "de": "16", "nl": "16"},
-        {"en": "12", "es": "12", "de": "12", "nl": "12"},
-        {"en": "20", "es": "20", "de": "20", "nl": "20"},
-        {"en": "8", "es": "8", "de": "8", "nl": "8"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Each player starts with 16 pieces: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, and 8 pawns.",
-        "es": "Cada jugador comienza con 16 piezas: 1 rey, 1 reina, 2 torres, 2 alfiles, 2 caballos y 8 peones.",
-        "de": "Jeder Spieler beginnt mit 16 Figuren: 1 König, 1 Dame, 2 Türme, 2 Läufer, 2 Springer und 8 Bauern.",
-        "nl": "Elke speler begint met 16 stukken: 1 koning, 1 dame, 2 torens, 2 lopers, 2 paarden en 8 pionnen."
-      }
-    },
-    {
-      "question": {
-        "en": "Which piece can only move diagonally?",
-        "es": "¿Qué pieza solo puede moverse en diagonal?",
-        "de": "Welche Figur kann sich nur diagonal bewegen?",
-        "nl": "Welk stuk kan alleen diagonaal bewegen?"
-      },
-      "options": [
-        {"en": "Bishop", "es": "Alfil", "de": "Läufer", "nl": "Loper"},
-        {"en": "Knight", "es": "Caballo", "de": "Springer", "nl": "Paard"},
-        {"en": "Rook", "es": "Torre", "de": "Turm", "nl": "Toren"},
-        {"en": "Pawn", "es": "Peón", "de": "Bauer", "nl": "Pion"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The bishop can only move diagonally across the board, any number of squares.",
-        "es": "El alfil solo puede moverse diagonalmente por el tablero, cualquier número de cuadrados.",
-        "de": "Der Läufer kann sich nur diagonal über das Brett bewegen, beliebig viele Felder.",
-        "nl": "De loper kan alleen diagonaal over het bord bewegen, een willekeurig aantal velden."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the most powerful piece in chess?",
-        "es": "¿Cuál es la pieza más poderosa en el ajedrez?",
-        "de": "Was ist die mächtigste Figur im Schach?",
-        "nl": "Wat is het krachtigste stuk bij schaken?"
-      },
-      "options": [
-        {"en": "Queen", "es": "Reina", "de": "Dame", "nl": "Dame"},
-        {"en": "King", "es": "Rey", "de": "König", "nl": "Koning"},
-        {"en": "Rook", "es": "Torre", "de": "Turm", "nl": "Toren"},
-        {"en": "Knight", "es": "Caballo", "de": "Springer", "nl": "Paard"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The queen is the most powerful piece as it can move any number of squares horizontally, vertically, or diagonally.",
-        "es": "La reina es la pieza más poderosa ya que puede moverse cualquier número de cuadrados horizontal, vertical o diagonalmente.",
-        "de": "Die Dame ist die mächtigste Figur, da sie beliebig viele Felder horizontal, vertikal oder diagonal ziehen kann.",
-        "nl": "De dame is het krachtigste stuk omdat ze een willekeurig aantal velden horizontaal, verticaal of diagonaal kan bewegen."
-      }
-    },
-    {
-      "question": {
-        "en": "Which piece moves in an L-shape?",
-        "es": "¿Qué pieza se mueve en forma de L?",
-        "de": "Welche Figur bewegt sich in L-Form?",
-        "nl": "Welk stuk beweegt in een L-vorm?"
-      },
-      "options": [
-        {"en": "Knight", "es": "Caballo", "de": "Springer", "nl": "Paard"},
-        {"en": "Bishop", "es": "Alfil", "de": "Läufer", "nl": "Loper"},
-        {"en": "Pawn", "es": "Peón", "de": "Bauer", "nl": "Pion"},
-        {"en": "Queen", "es": "Reina", "de": "Dame", "nl": "Dame"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The knight is unique in chess as it moves in an L-shape: two squares in one direction and one square perpendicular.",
-        "es": "El caballo es único en el ajedrez ya que se mueve en forma de L: dos cuadrados en una dirección y uno perpendicular.",
-        "de": "Der Springer ist einzigartig im Schach, da er sich in L-Form bewegt: zwei Felder in eine Richtung und ein Feld senkrecht.",
-        "nl": "Het paard is uniek in het schaken omdat het in een L-vorm beweegt: twee velden in één richting en één veld loodrecht."
-      }
-    },
-    {
-      "question": {
-        "en": "What is it called when the king is under direct attack?",
-        "es": "¿Cómo se llama cuando el rey está bajo ataque directo?",
-        "de": "Wie nennt man es, wenn der König direkt angegriffen wird?",
-        "nl": "Hoe heet het wanneer de koning onder directe aanval staat?"
-      },
-      "options": [
-        {"en": "Check", "es": "Jaque", "de": "Schach", "nl": "Schaak"},
-        {"en": "Checkmate", "es": "Jaque mate", "de": "Schachmatt", "nl": "Schaakmat"},
-        {"en": "Stalemate", "es": "Tablas", "de": "Patt", "nl": "Pat"},
-        {"en": "Capture", "es": "Captura", "de": "Schlagen", "nl": "Slaan"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Check is when the king is under direct attack but can still escape. The player must immediately get out of check.",
-        "es": "Jaque es cuando el rey está bajo ataque directo pero aún puede escapar. El jugador debe salir inmediatamente del jaque.",
-        "de": "Schach ist, wenn der König direkt angegriffen wird, aber noch entkommen kann. Der Spieler muss sofort das Schach abwehren.",
-        "nl": "Schaak is wanneer de koning onder directe aanval staat maar nog kan ontsnappen. De speler moet onmiddellijk uit schaak komen."
-      }
-    },
-    {
-      "question": {
-        "en": "How many pawns does each player have at the start?",
-        "es": "¿Cuántos peones tiene cada jugador al inicio?",
-        "de": "Wie viele Bauern hat jeder Spieler zu Beginn?",
-        "nl": "Hoeveel pionnen heeft elke speler bij het begin?"
-      },
-      "options": [
-        {"en": "8", "es": "8", "de": "8", "nl": "8"},
-        {"en": "6", "es": "6", "de": "6", "nl": "6"},
-        {"en": "10", "es": "10", "de": "10", "nl": "10"},
-        {"en": "4", "es": "4", "de": "4", "nl": "4"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Each player starts with 8 pawns, placed on the second rank (row) of their side of the board.",
-        "es": "Cada jugador comienza con 8 peones, colocados en la segunda fila de su lado del tablero.",
-        "de": "Jeder Spieler beginnt mit 8 Bauern, die auf der zweiten Reihe seiner Seite des Bretts platziert sind.",
-        "nl": "Elke speler begint met 8 pionnen, geplaatst op de tweede rij van hun kant van het bord."
-      }
-    },
-    {
-      "question": {
-        "en": "Which piece can't move backwards?",
-        "es": "¿Qué pieza no puede moverse hacia atrás?",
-        "de": "Welche Figur kann sich nicht rückwärts bewegen?",
-        "nl": "Welk stuk kan niet achteruit bewegen?"
-      },
-      "options": [
-        {"en": "Pawn", "es": "Peón", "de": "Bauer", "nl": "Pion"},
-        {"en": "Knight", "es": "Caballo", "de": "Springer", "nl": "Paard"},
-        {"en": "Bishop", "es": "Alfil", "de": "Läufer", "nl": "Loper"},
-        {"en": "Rook", "es": "Torre", "de": "Turm", "nl": "Toren"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Pawns are the only pieces that cannot move backwards. They can only move forward.",
-        "es": "Los peones son las únicas piezas que no pueden moverse hacia atrás. Solo pueden avanzar.",
-        "de": "Bauern sind die einzigen Figuren, die sich nicht rückwärts bewegen können. Sie können nur vorwärts ziehen.",
-        "nl": "Pionnen zijn de enige stukken die niet achteruit kunnen bewegen. Ze kunnen alleen vooruit."
-      }
-    },
-    {
-      "question": {
-        "en": "What color always moves first in chess?",
-        "es": "¿Qué color siempre mueve primero en el ajedrez?",
-        "de": "Welche Farbe zieht im Schach immer zuerst?",
-        "nl": "Welke kleur zet altijd eerst bij schaken?"
-      },
-      "options": [
-        {"en": "White", "es": "Blanco", "de": "Weiß", "nl": "Wit"},
-        {"en": "Black", "es": "Negro", "de": "Schwarz", "nl": "Zwart"},
-        {"en": "Random choice", "es": "Elección aleatoria", "de": "Zufällige Wahl", "nl": "Willekeurige keuze"},
-        {"en": "Winner of last game", "es": "Ganador del último juego", "de": "Gewinner des letzten Spiels", "nl": "Winnaar van vorige partij"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "White always moves first in chess. This is a standard rule in all official chess games.",
-        "es": "El blanco siempre mueve primero en el ajedrez. Esta es una regla estándar en todos los juegos oficiales.",
-        "de": "Weiß zieht im Schach immer zuerst. Dies ist eine Standardregel in allen offiziellen Schachspielen.",
-        "nl": "Wit zet altijd eerst bij schaken. Dit is een standaardregel in alle officiële schaakpartijen."
-      }
-    },
-    {
-      "question": {
-        "en": "What happens when a pawn reaches the opposite end of the board?",
-        "es": "¿Qué sucede cuando un peón llega al extremo opuesto del tablero?",
-        "de": "Was passiert, wenn ein Bauer das gegenüberliegende Ende des Bretts erreicht?",
-        "nl": "Wat gebeurt er als een pion de overkant van het bord bereikt?"
-      },
-      "options": [
-        {"en": "It can be promoted to any piece except a king", "es": "Puede ser promovido a cualquier pieza excepto un rey", "de": "Er kann in jede Figur außer dem König umgewandelt werden", "nl": "Hij kan gepromoveerd worden tot elk stuk behalve een koning"},
-        {"en": "It wins the game", "es": "Gana el juego", "de": "Es gewinnt das Spiel", "nl": "Het wint het spel"},
-        {"en": "It must stay there", "es": "Debe quedarse allí", "de": "Er muss dort bleiben", "nl": "Hij moet daar blijven"},
-        {"en": "It is removed from the board", "es": "Se retira del tablero", "de": "Er wird vom Brett entfernt", "nl": "Hij wordt van het bord verwijderd"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "When a pawn reaches the opposite end, it must be promoted to a queen, rook, bishop, or knight. Most players choose a queen.",
-        "es": "Cuando un peón llega al extremo opuesto, debe ser promovido a reina, torre, alfil o caballo. La mayoría elige reina.",
-        "de": "Wenn ein Bauer das gegenüberliegende Ende erreicht, muss er in Dame, Turm, Läufer oder Springer umgewandelt werden.",
-        "nl": "Als een pion de overkant bereikt, moet hij gepromoveerd worden tot dame, toren, loper of paard. De meeste spelers kiezen dame."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the term for when neither player can win?",
-        "es": "¿Cuál es el término cuando ningún jugador puede ganar?",
-        "de": "Wie nennt man es, wenn keiner gewinnen kann?",
-        "nl": "Wat is de term als geen van beide spelers kan winnen?"
-      },
-      "options": [
-        {"en": "Draw", "es": "Tablas", "de": "Remis", "nl": "Remise"},
-        {"en": "Check", "es": "Jaque", "de": "Schach", "nl": "Schaak"},
-        {"en": "Forfeit", "es": "Abandono", "de": "Aufgabe", "nl": "Opgave"},
-        {"en": "Time out", "es": "Tiempo agotado", "de": "Zeitüberschreitung", "nl": "Tijd op"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A draw occurs when the game ends without a winner, such as by stalemate, insufficient material, or agreement.",
-        "es": "Las tablas ocurren cuando el juego termina sin ganador, como por ahogado, material insuficiente o acuerdo.",
-        "de": "Ein Remis tritt auf, wenn das Spiel ohne Sieger endet, z.B. durch Patt, unzureichendes Material oder Vereinbarung.",
-        "nl": "Remise treedt op als het spel eindigt zonder winnaar, zoals door pat, onvoldoende materiaal of overeenstemming."
-      }
-    },
-    {
-      "question": {
-        "en": "How many rooks does each player start with?",
-        "es": "¿Con cuántas torres comienza cada jugador?",
-        "de": "Mit wie vielen Türmen beginnt jeder Spieler?",
-        "nl": "Met hoeveel torens begint elke speler?"
-      },
-      "options": [
-        {"en": "2", "es": "2", "de": "2", "nl": "2"},
-        {"en": "1", "es": "1", "de": "1", "nl": "1"},
-        {"en": "4", "es": "4", "de": "4", "nl": "4"},
-        {"en": "3", "es": "3", "de": "3", "nl": "3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Each player starts with 2 rooks, positioned in the corners of their first rank.",
-        "es": "Cada jugador comienza con 2 torres, ubicadas en las esquinas de su primera fila.",
-        "de": "Jeder Spieler beginnt mit 2 Türmen, die in den Ecken der ersten Reihe stehen.",
-        "nl": "Elke speler begint met 2 torens, geplaatst in de hoeken van hun eerste rij."
-      }
-    },
-    {
-      "question": {
-        "en": "What is castling?",
-        "es": "¿Qué es el enroque?",
-        "de": "Was ist die Rochade?",
-        "nl": "Wat is rokeren?"
-      },
-      "options": [
-        {"en": "A special move involving the king and rook", "es": "Un movimiento especial con el rey y la torre", "de": "Ein Sonderzug mit König und Turm", "nl": "Een speciale zet met koning en toren"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"},
-        {"en": "Capturing en passant", "es": "Captura al paso", "de": "En passant schlagen", "nl": "En passant slaan"},
-        {"en": "Moving the queen", "es": "Mover la reina", "de": "Die Dame ziehen", "nl": "De dame verplaatsen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Castling is a special move where the king moves two squares toward a rook, and the rook moves to the other side of the king.",
-        "es": "El enroque es un movimiento especial donde el rey se mueve dos casillas hacia una torre, y la torre se mueve al otro lado del rey.",
-        "de": "Die Rochade ist ein Sonderzug, bei dem der König zwei Felder auf einen Turm zu zieht und der Turm auf die andere Seite des Königs.",
-        "nl": "Rokeren is een speciale zet waarbij de koning twee velden richting een toren beweegt en de toren naar de andere kant van de koning."
-      }
-    },
-    {
-      "question": {
-        "en": "Which piece is worth approximately 3 points in chess?",
-        "es": "¿Qué pieza vale aproximadamente 3 puntos en ajedrez?",
-        "de": "Welche Figur ist im Schach etwa 3 Punkte wert?",
-        "nl": "Welk stuk is ongeveer 3 punten waard bij schaken?"
-      },
-      "options": [
-        {"en": "Bishop or Knight", "es": "Alfil o Caballo", "de": "Läufer oder Springer", "nl": "Loper of Paard"},
-        {"en": "Pawn", "es": "Peón", "de": "Bauer", "nl": "Pion"},
-        {"en": "Rook", "es": "Torre", "de": "Turm", "nl": "Toren"},
-        {"en": "Queen", "es": "Reina", "de": "Dame", "nl": "Dame"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Bishops and knights are each worth approximately 3 points. Pawns are 1 point, rooks 5 points, and the queen 9 points.",
-        "es": "Los alfiles y caballos valen aproximadamente 3 puntos cada uno. Los peones valen 1, las torres 5 y la reina 9 puntos.",
-        "de": "Läufer und Springer sind jeweils etwa 3 Punkte wert. Bauern 1 Punkt, Türme 5 Punkte und die Dame 9 Punkte.",
-        "nl": "Lopers en paarden zijn elk ongeveer 3 punten waard. Pionnen zijn 1 punt, torens 5 punten en de dame 9 punten."
-      }
-    },
-    {
-      "question": {
-        "en": "What is checkmate?",
-        "es": "¿Qué es jaque mate?",
-        "de": "Was ist Schachmatt?",
-        "nl": "Wat is schaakmat?"
-      },
-      "options": [
-        {"en": "When the king is in check and cannot escape", "es": "Cuando el rey está en jaque y no puede escapar", "de": "Wenn der König im Schach steht und nicht entkommen kann", "nl": "Als de koning schaak staat en niet kan ontsnappen"},
-        {"en": "When you capture the opponent's queen", "es": "Cuando capturas la reina del oponente", "de": "Wenn man die gegnerische Dame schlägt", "nl": "Als je de dame van de tegenstander slaat"},
-        {"en": "When time runs out", "es": "Cuando se acaba el tiempo", "de": "Wenn die Zeit abläuft", "nl": "Als de tijd op is"},
-        {"en": "When all pawns are promoted", "es": "Cuando todos los peones son promovidos", "de": "Wenn alle Bauern umgewandelt sind", "nl": "Als alle pionnen gepromoveerd zijn"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Checkmate occurs when a king is in check and has no legal move to escape capture. This ends the game immediately.",
-        "es": "El jaque mate ocurre cuando un rey está en jaque y no tiene movimiento legal para escapar. Esto termina el juego inmediatamente.",
-        "de": "Schachmatt tritt auf, wenn ein König im Schach steht und keinen legalen Zug hat, um der Gefangennahme zu entkommen.",
-        "nl": "Schaakmat treedt op als een koning schaak staat en geen legale zet heeft om te ontsnappen. Dit beëindigt het spel onmiddellijk."
-      }
-    },
-    {
-      "question": {
-        "en": "How does a rook move?",
-        "es": "¿Cómo se mueve una torre?",
-        "de": "Wie zieht ein Turm?",
-        "nl": "Hoe beweegt een toren?"
-      },
-      "options": [
-        {"en": "Horizontally or vertically any number of squares", "es": "Horizontal o verticalmente cualquier número de casillas", "de": "Horizontal oder vertikal beliebig viele Felder", "nl": "Horizontaal of verticaal een willekeurig aantal velden"},
-        {"en": "Diagonally any number of squares", "es": "Diagonalmente cualquier número de casillas", "de": "Diagonal beliebig viele Felder", "nl": "Diagonaal een willekeurig aantal velden"},
-        {"en": "In an L-shape", "es": "En forma de L", "de": "In L-Form", "nl": "In een L-vorm"},
-        {"en": "One square in any direction", "es": "Una casilla en cualquier dirección", "de": "Ein Feld in jede Richtung", "nl": "Één veld in elke richting"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Rooks move in straight lines horizontally or vertically across any number of unoccupied squares.",
-        "es": "Las torres se mueven en líneas rectas horizontal o verticalmente a través de cualquier número de casillas desocupadas.",
-        "de": "Türme ziehen in geraden Linien horizontal oder vertikal über beliebig viele unbesetzte Felder.",
-        "nl": "Torens bewegen in rechte lijnen horizontaal of verticaal over een willekeurig aantal onbezette velden."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the starting position of the white king?",
-        "es": "¿Cuál es la posición inicial del rey blanco?",
-        "de": "Was ist die Anfangsposition des weißen Königs?",
-        "nl": "Wat is de startpositie van de witte koning?"
-      },
-      "options": [
-        {"en": "e1", "es": "e1", "de": "e1", "nl": "e1"},
-        {"en": "d1", "es": "d1", "de": "d1", "nl": "d1"},
-        {"en": "e8", "es": "e8", "de": "e8", "nl": "e8"},
-        {"en": "d8", "es": "d8", "de": "d8", "nl": "d8"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The white king starts on e1, while the white queen starts on d1. Remember: queen on her color!",
-        "es": "El rey blanco comienza en e1, mientras que la reina blanca comienza en d1. Recuerda: ¡la reina en su color!",
-        "de": "Der weiße König startet auf e1, während die weiße Dame auf d1 startet. Merke: Dame auf ihrer Farbe!",
-        "nl": "De witte koning start op e1, terwijl de witte dame op d1 start. Onthoud: dame op haar kleur!"
-      }
-    },
-    {
-      "question": {
-        "en": "What is en passant?",
-        "es": "¿Qué es al paso?",
-        "de": "Was ist en passant?",
-        "nl": "Wat is en passant?"
-      },
-      "options": [
-        {"en": "A special pawn capture move", "es": "Un movimiento especial de captura de peón", "de": "Ein spezieller Bauernschlagzug", "nl": "Een speciale pion slagzet"},
-        {"en": "A type of checkmate", "es": "Un tipo de jaque mate", "de": "Eine Art Schachmatt", "nl": "Een soort schaakmat"},
-        {"en": "A draw condition", "es": "Una condición de tablas", "de": "Eine Remisbedingung", "nl": "Een remise conditie"},
-        {"en": "A knight move", "es": "Un movimiento de caballo", "de": "Ein Springerzug", "nl": "Een paardenzet"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "En passant is a special pawn capture that can occur when an enemy pawn moves two squares forward from its starting position.",
-        "es": "Al paso es una captura especial de peón que puede ocurrir cuando un peón enemigo avanza dos casillas desde su posición inicial.",
-        "de": "En passant ist ein spezieller Bauernschlag, der erfolgen kann, wenn ein gegnerischer Bauer zwei Felder von seiner Startposition vorrückt.",
-        "nl": "En passant is een speciale pion slag die kan gebeuren als een vijandelijke pion twee velden vooruit gaat vanaf zijn startpositie."
-      }
-    },
-    {
-      "question": {
-        "en": "How many bishops does each player start with?",
-        "es": "¿Con cuántos alfiles comienza cada jugador?",
-        "de": "Mit wie vielen Läufern beginnt jeder Spieler?",
-        "nl": "Met hoeveel lopers begint elke speler?"
-      },
-      "options": [
-        {"en": "2", "es": "2", "de": "2", "nl": "2"},
-        {"en": "1", "es": "1", "de": "1", "nl": "1"},
-        {"en": "3", "es": "3", "de": "3", "nl": "3"},
-        {"en": "4", "es": "4", "de": "4", "nl": "4"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Each player starts with 2 bishops: one on a light square and one on a dark square.",
-        "es": "Cada jugador comienza con 2 alfiles: uno en una casilla clara y uno en una casilla oscura.",
-        "de": "Jeder Spieler beginnt mit 2 Läufern: einer auf einem hellen und einer auf einem dunklen Feld.",
-        "nl": "Elke speler begint met 2 lopers: één op een licht veld en één op een donker veld."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a fork in chess?",
-        "es": "¿Qué es una horquilla en ajedrez?",
-        "de": "Was ist eine Gabel im Schach?",
-        "nl": "Wat is een vork bij schaken?"
-      },
-      "options": [
-        {"en": "Attacking two pieces at once", "es": "Atacar dos piezas a la vez", "de": "Zwei Figuren gleichzeitig angreifen", "nl": "Twee stukken tegelijk aanvallen"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"},
-        {"en": "Castling queenside", "es": "Enroque largo", "de": "Lange Rochade", "nl": "Lange rokade"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A fork is a tactic where one piece attacks two or more enemy pieces simultaneously.",
-        "es": "Una horquilla es una táctica donde una pieza ataca dos o más piezas enemigas simultáneamente.",
-        "de": "Eine Gabel ist eine Taktik, bei der eine Figur zwei oder mehr gegnerische Figuren gleichzeitig angreift.",
-        "nl": "Een vork is een tactiek waarbij één stuk twee of meer vijandelijke stukken tegelijk aanvalt."
-      }
-    },
-    {
-      "question": {
-        "en": "What is stalemate?",
-        "es": "¿Qué es el ahogado?",
-        "de": "Was ist Patt?",
-        "nl": "Wat is pat?"
-      },
-      "options": [
-        {"en": "When a player has no legal moves but isn't in check", "es": "Cuando un jugador no tiene movimientos legales pero no está en jaque", "de": "Wenn ein Spieler keine legalen Züge hat, aber nicht im Schach steht", "nl": "Als een speler geen legale zetten heeft maar niet schaak staat"},
-        {"en": "When the king is in check", "es": "Cuando el rey está en jaque", "de": "Wenn der König im Schach steht", "nl": "Als de koning schaak staat"},
-        {"en": "When you win the game", "es": "Cuando ganas el juego", "de": "Wenn man das Spiel gewinnt", "nl": "Als je het spel wint"},
-        {"en": "When time runs out", "es": "Cuando se acaba el tiempo", "de": "Wenn die Zeit abläuft", "nl": "Als de tijd op is"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Stalemate is a draw that occurs when the player whose turn it is has no legal moves and their king is not in check.",
-        "es": "El ahogado es un empate que ocurre cuando el jugador al que le toca no tiene movimientos legales y su rey no está en jaque.",
-        "de": "Patt ist ein Remis, das eintritt, wenn der Spieler am Zug keine legalen Züge hat und sein König nicht im Schach steht.",
-        "nl": "Pat is remise dat optreedt als de speler aan zet geen legale zetten heeft en zijn koning niet schaak staat."
-      }
-    },
-    {
-      "question": {
-        "en": "How many knights does each player start with?",
-        "es": "¿Con cuántos caballos comienza cada jugador?",
-        "de": "Mit wie vielen Springern beginnt jeder Spieler?",
-        "nl": "Met hoeveel paarden begint elke speler?"
-      },
-      "options": [
-        {"en": "2", "es": "2", "de": "2", "nl": "2"},
-        {"en": "1", "es": "1", "de": "1", "nl": "1"},
-        {"en": "3", "es": "3", "de": "3", "nl": "3"},
-        {"en": "4", "es": "4", "de": "4", "nl": "4"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Each player starts with 2 knights, positioned next to the rooks at the beginning of the game.",
-        "es": "Cada jugador comienza con 2 caballos, ubicados junto a las torres al principio del juego.",
-        "de": "Jeder Spieler beginnt mit 2 Springern, die zu Beginn des Spiels neben den Türmen stehen.",
-        "nl": "Elke speler begint met 2 paarden, geplaatst naast de torens aan het begin van het spel."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the only piece that can jump over other pieces?",
-        "es": "¿Cuál es la única pieza que puede saltar sobre otras piezas?",
-        "de": "Welche ist die einzige Figur, die über andere Figuren springen kann?",
-        "nl": "Wat is het enige stuk dat over andere stukken kan springen?"
-      },
-      "options": [
-        {"en": "Knight", "es": "Caballo", "de": "Springer", "nl": "Paard"},
-        {"en": "Queen", "es": "Reina", "de": "Dame", "nl": "Dame"},
-        {"en": "Bishop", "es": "Alfil", "de": "Läufer", "nl": "Loper"},
-        {"en": "Rook", "es": "Torre", "de": "Turm", "nl": "Toren"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The knight is the only piece that can jump over other pieces, moving in its characteristic L-shape.",
-        "es": "El caballo es la única pieza que puede saltar sobre otras piezas, moviéndose en su característica forma de L.",
-        "de": "Der Springer ist die einzige Figur, die über andere Figuren springen kann und sich in seiner charakteristischen L-Form bewegt.",
-        "nl": "Het paard is het enige stuk dat over andere stukken kan springen, bewegend in zijn kenmerkende L-vorm."
-      }
-    },
-    {
-      "question": {
-        "en": "How many queens does each player start with?",
-        "es": "¿Con cuántas reinas comienza cada jugador?",
-        "de": "Mit wie vielen Damen beginnt jeder Spieler?",
-        "nl": "Met hoeveel dames begint elke speler?"
-      },
-      "options": [
-        {"en": "1", "es": "1", "de": "1", "nl": "1"},
-        {"en": "2", "es": "2", "de": "2", "nl": "2"},
-        {"en": "0", "es": "0", "de": "0", "nl": "0"},
-        {"en": "3", "es": "3", "de": "3", "nl": "3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Each player starts with only 1 queen, the most powerful piece on the board.",
-        "es": "Cada jugador comienza con solo 1 reina, la pieza más poderosa del tablero.",
-        "de": "Jeder Spieler beginnt mit nur 1 Dame, der mächtigsten Figur auf dem Brett.",
-        "nl": "Elke speler begint met slechts 1 dame, het krachtigste stuk op het bord."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a pin in chess?",
-        "es": "¿Qué es una clavada en ajedrez?",
-        "de": "Was ist eine Fesselung im Schach?",
-        "nl": "Wat is een penning bij schaken?"
-      },
-      "options": [
-        {"en": "When a piece can't move without exposing a more valuable piece", "es": "Cuando una pieza no puede moverse sin exponer una pieza más valiosa", "de": "Wenn eine Figur sich nicht bewegen kann, ohne eine wertvollere Figur preiszugeben", "nl": "Als een stuk niet kan bewegen zonder een waardevoller stuk bloot te geven"},
-        {"en": "Capturing two pieces at once", "es": "Capturar dos piezas a la vez", "de": "Zwei Figuren gleichzeitig schlagen", "nl": "Twee stukken tegelijk slaan"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A pin occurs when a piece cannot move without exposing a more valuable piece (often the king) to attack.",
-        "es": "Una clavada ocurre cuando una pieza no puede moverse sin exponer una pieza más valiosa (a menudo el rey) al ataque.",
-        "de": "Eine Fesselung tritt auf, wenn eine Figur sich nicht bewegen kann, ohne eine wertvollere Figur (oft den König) einem Angriff auszusetzen.",
-        "nl": "Een penning treedt op als een stuk niet kan bewegen zonder een waardevoller stuk (vaak de koning) aan aanval bloot te stellen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the 50-move rule?",
-        "es": "¿Qué es la regla de los 50 movimientos?",
-        "de": "Was ist die 50-Züge-Regel?",
-        "nl": "Wat is de 50-zetten regel?"
-      },
-      "options": [
-        {"en": "A draw can be claimed after 50 moves with no pawn moves or captures", "es": "Se pueden reclamar tablas después de 50 movimientos sin mover peones o capturas", "de": "Remis kann nach 50 Zügen ohne Bauernzüge oder Schlagzüge beansprucht werden", "nl": "Remise kan geclaimd worden na 50 zetten zonder pionzetten of slagen"},
-        {"en": "The game ends after 50 moves", "es": "El juego termina después de 50 movimientos", "de": "Das Spiel endet nach 50 Zügen", "nl": "Het spel eindigt na 50 zetten"},
-        {"en": "You must move within 50 seconds", "es": "Debes mover dentro de 50 segundos", "de": "Man muss innerhalb von 50 Sekunden ziehen", "nl": "Je moet binnen 50 seconden zetten"},
-        {"en": "Each player gets 50 moves total", "es": "Cada jugador tiene 50 movimientos en total", "de": "Jeder Spieler hat insgesamt 50 Züge", "nl": "Elke speler krijgt 50 zetten totaal"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The 50-move rule allows a player to claim a draw if 50 moves have been made by each player with no pawn moves or captures.",
-        "es": "La regla de los 50 movimientos permite reclamar tablas si se han hecho 50 movimientos por cada jugador sin mover peones o capturas.",
-        "de": "Die 50-Züge-Regel erlaubt es, Remis zu beanspruchen, wenn 50 Züge ohne Bauernzüge oder Schlagzüge gemacht wurden.",
-        "nl": "De 50-zetten regel staat toe remise te claimen als 50 zetten zijn gedaan door elke speler zonder pionzetten of slagen."
-      }
-    },
-    {
-      "question": {
-        "en": "What does 'zugzwang' mean?",
-        "es": "¿Qué significa 'zugzwang'?",
-        "de": "Was bedeutet 'Zugzwang'?",
-        "nl": "Wat betekent 'zugzwang'?"
-      },
-      "options": [
-        {"en": "Being forced to move when any move weakens your position", "es": "Estar obligado a mover cuando cualquier movimiento debilita tu posición", "de": "Gezwungen sein zu ziehen, wenn jeder Zug die Position verschlechtert", "nl": "Gedwongen zijn te zetten terwijl elke zet je positie verzwakt"},
-        {"en": "A winning position", "es": "Una posición ganadora", "de": "Eine Gewinnstellung", "nl": "Een winnende positie"},
-        {"en": "A type of checkmate", "es": "Un tipo de jaque mate", "de": "Eine Art Schachmatt", "nl": "Een soort schaakmat"},
-        {"en": "An opening move", "es": "Un movimiento de apertura", "de": "Ein Eröffnungszug", "nl": "Een openingszet"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Zugzwang is a situation where a player must move but any move will worsen their position.",
-        "es": "Zugzwang es una situación donde un jugador debe mover pero cualquier movimiento empeorará su posición.",
-        "de": "Zugzwang ist eine Situation, in der ein Spieler ziehen muss, aber jeder Zug seine Position verschlechtert.",
-        "nl": "Zugzwang is een situatie waarin een speler moet zetten maar elke zet zijn positie verslechtert."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Scholar's Mate?",
-        "es": "¿Qué es el mate del pastor?",
-        "de": "Was ist das Schäfermatt?",
-        "nl": "Wat is het herdersmat?"
-      },
-      "options": [
-        {"en": "A checkmate in 4 moves", "es": "Un jaque mate en 4 movimientos", "de": "Ein Schachmatt in 4 Zügen", "nl": "Een schaakmat in 4 zetten"},
-        {"en": "A type of draw", "es": "Un tipo de tablas", "de": "Eine Art Remis", "nl": "Een soort remise"},
-        {"en": "An opening system", "es": "Un sistema de apertura", "de": "Ein Eröffnungssystem", "nl": "Een openingssysteem"},
-        {"en": "A endgame technique", "es": "Una técnica de final", "de": "Eine Endspiel-Technik", "nl": "Een eindspeltechniek"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Scholar's Mate is a four-move checkmate that targets the weak f7 square early in the game.",
-        "es": "El mate del pastor es un jaque mate en cuatro movimientos que ataca el débil cuadrado f7 temprano en el juego.",
-        "de": "Das Schäfermatt ist ein Schachmatt in vier Zügen, das früh im Spiel das schwache Feld f7 angreift.",
-        "nl": "Herdersmat is een schaakmat in vier zetten die het zwakke f7-veld vroeg in het spel aanvalt."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the value of a rook in points?",
-        "es": "¿Cuál es el valor de una torre en puntos?",
-        "de": "Was ist der Wert eines Turms in Punkten?",
-        "nl": "Wat is de waarde van een toren in punten?"
-      },
-      "options": [
-        {"en": "5 points", "es": "5 puntos", "de": "5 Punkte", "nl": "5 punten"},
-        {"en": "3 points", "es": "3 puntos", "de": "3 Punkte", "nl": "3 punten"},
-        {"en": "9 points", "es": "9 puntos", "de": "9 Punkte", "nl": "9 punten"},
-        {"en": "1 point", "es": "1 punto", "de": "1 Punkt", "nl": "1 punt"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A rook is valued at 5 points, making it more valuable than bishops or knights but less than the queen.",
-        "es": "Una torre vale 5 puntos, haciéndola más valiosa que alfiles o caballos pero menos que la reina.",
-        "de": "Ein Turm wird mit 5 Punkten bewertet, was ihn wertvoller als Läufer oder Springer, aber weniger wertvoll als die Dame macht.",
-        "nl": "Een toren is 5 punten waard, waardoor hij waardevoller is dan lopers of paarden maar minder dan de dame."
-      }
-    },
-    {
-      "question": {
-        "en": "How can a game end in a draw?",
-        "es": "¿Cómo puede terminar un juego en tablas?",
-        "de": "Wie kann ein Spiel mit Remis enden?",
-        "nl": "Hoe kan een spel in remise eindigen?"
-      },
-      "options": [
-        {"en": "Stalemate, agreement, repetition, or insufficient material", "es": "Ahogado, acuerdo, repetición o material insuficiente", "de": "Patt, Vereinbarung, Wiederholung oder unzureichendes Material", "nl": "Pat, overeenstemming, herhaling of onvoldoende materiaal"},
-        {"en": "Only by agreement", "es": "Solo por acuerdo", "de": "Nur durch Vereinbarung", "nl": "Alleen door overeenstemming"},
-        {"en": "Only when time runs out", "es": "Solo cuando se acaba el tiempo", "de": "Nur wenn die Zeit abläuft", "nl": "Alleen als de tijd op is"},
-        {"en": "Only in stalemate", "es": "Solo en ahogado", "de": "Nur bei Patt", "nl": "Alleen bij pat"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A draw can occur through stalemate, mutual agreement, threefold repetition, the 50-move rule, or insufficient material to checkmate.",
-        "es": "Las tablas pueden ocurrir por ahogado, acuerdo mutuo, triple repetición, la regla de 50 movimientos o material insuficiente para dar mate.",
-        "de": "Remis kann durch Patt, gegenseitige Vereinbarung, dreifache Wiederholung, die 50-Züge-Regel oder unzureichendes Material zum Matt entstehen.",
-        "nl": "Remise kan optreden door pat, wederzijdse overeenstemming, drievoudige herhaling, de 50-zetten regel of onvoldoende materiaal voor mat."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Ruy Lopez opening?",
-        "es": "¿Qué es la apertura Ruy López?",
-        "de": "Was ist die Spanische Eröffnung?",
-        "nl": "Wat is de Spaanse opening?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.Nf3 Nc6 3.Bb5", "es": "1.e4 e5 2.Cf3 Cc6 3.Ab5", "de": "1.e4 e5 2.Sf3 Sc6 3.Lb5", "nl": "1.e4 e5 2.Pf3 Pc6 3.Lb5"},
-        {"en": "1.d4 d5 2.c4", "es": "1.d4 d5 2.c4", "de": "1.d4 d5 2.c4", "nl": "1.d4 d5 2.c4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 e6", "es": "1.e4 e6", "de": "1.e4 e6", "nl": "1.e4 e6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Ruy Lopez or Spanish Opening begins with 1.e4 e5 2.Nf3 Nc6 3.Bb5, one of the oldest and most classic openings.",
-        "es": "La Ruy López o Apertura Española comienza con 1.e4 e5 2.Cf3 Cc6 3.Ab5, una de las aperturas más antiguas y clásicas.",
-        "de": "Die Spanische Eröffnung beginnt mit 1.e4 e5 2.Sf3 Sc6 3.Lb5, eine der ältesten und klassischsten Eröffnungen.",
-        "nl": "De Spaanse opening begint met 1.e4 e5 2.Pf3 Pc6 3.Lb5, een van de oudste en meest klassieke openingen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a fianchetto?",
-        "es": "¿Qué es un fianchetto?",
-        "de": "Was ist ein Fianchetto?",
-        "nl": "Wat is een fianchetto?"
-      },
-      "options": [
-        {"en": "Developing a bishop on the long diagonal", "es": "Desarrollar un alfil en la diagonal larga", "de": "Einen Läufer auf der langen Diagonale entwickeln", "nl": "Een loper ontwikkelen op de lange diagonaal"},
-        {"en": "A type of checkmate", "es": "Un tipo de jaque mate", "de": "Eine Art Schachmatt", "nl": "Een soort schaakmat"},
-        {"en": "Castling", "es": "Enroque", "de": "Rochade", "nl": "Rokade"},
-        {"en": "A pawn promotion", "es": "Una promoción de peón", "de": "Eine Bauernumwandlung", "nl": "Een pionpromotie"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A fianchetto is when a bishop is developed to g2/b2 or g7/b7, controlling the long diagonal after moving the g or b pawn.",
-        "es": "Un fianchetto es cuando un alfil se desarrolla a g2/b2 o g7/b7, controlando la diagonal larga después de mover el peón g o b.",
-        "de": "Ein Fianchetto ist, wenn ein Läufer nach g2/b2 oder g7/b7 entwickelt wird und die lange Diagonale kontrolliert.",
-        "nl": "Een fianchetto is wanneer een loper wordt ontwikkeld naar g2/b2 of g7/b7, controlerend over de lange diagonaal."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the back rank?",
-        "es": "¿Qué es la última fila?",
-        "de": "Was ist die Grundreihe?",
-        "nl": "Wat is de achterste rij?"
-      },
-      "options": [
-        {"en": "The first and eighth ranks where pieces start", "es": "Las filas primera y octava donde comienzan las piezas", "de": "Die erste und achte Reihe, wo die Figuren starten", "nl": "De eerste en achtste rij waar de stukken starten"},
-        {"en": "The middle of the board", "es": "El centro del tablero", "de": "Die Mitte des Bretts", "nl": "Het midden van het bord"},
-        {"en": "The pawn rows", "es": "Las filas de peones", "de": "Die Bauernreihen", "nl": "De pionrijen"},
-        {"en": "The side files", "es": "Las columnas laterales", "de": "Die Seitenlinien", "nl": "De zijlijnen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The back rank refers to the first rank for White and eighth rank for Black, where the major pieces initially stand.",
-        "es": "La última fila se refiere a la primera fila para las blancas y octava para las negras, donde están las piezas mayores inicialmente.",
-        "de": "Die Grundreihe bezeichnet die erste Reihe für Weiß und achte Reihe für Schwarz, wo die Schwerfiguren anfangs stehen.",
-        "nl": "De achterste rij verwijst naar de eerste rij voor wit en achtste rij voor zwart, waar de zware stukken initieel staan."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a passed pawn?",
-        "es": "¿Qué es un peón pasado?",
-        "de": "Was ist ein Freibauer?",
-        "nl": "Wat is een vrijpion?"
-      },
-      "options": [
-        {"en": "A pawn with no enemy pawns blocking its advance", "es": "Un peón sin peones enemigos bloqueando su avance", "de": "Ein Bauer ohne gegnerische Bauern, die seinen Vormarsch blockieren", "nl": "Een pion zonder vijandelijke pionnen die zijn opmars blokkeren"},
-        {"en": "A pawn that has been captured", "es": "Un peón que ha sido capturado", "de": "Ein geschlagener Bauer", "nl": "Een geslagen pion"},
-        {"en": "A pawn on its starting square", "es": "Un peón en su casilla inicial", "de": "Ein Bauer auf seinem Startfeld", "nl": "Een pion op zijn startveld"},
-        {"en": "A promoted pawn", "es": "Un peón promovido", "de": "Ein umgewandelter Bauer", "nl": "Een gepromoveerde pion"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A passed pawn is a pawn with no opposing pawns to prevent it from advancing to promotion.",
-        "es": "Un peón pasado es un peón sin peones contrarios que impidan su avance hacia la promoción.",
-        "de": "Ein Freibauer ist ein Bauer ohne gegnerische Bauern, die seine Umwandlung verhindern können.",
-        "nl": "Een vrijpion is een pion zonder tegengestelde pionnen die kunnen voorkomen dat hij promoveert."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the center of the board?",
-        "es": "¿Qué es el centro del tablero?",
-        "de": "Was ist das Zentrum des Bretts?",
-        "nl": "Wat is het centrum van het bord?"
-      },
-      "options": [
-        {"en": "The squares e4, e5, d4, d5", "es": "Las casillas e4, e5, d4, d5", "de": "Die Felder e4, e5, d4, d5", "nl": "De velden e4, e5, d4, d5"},
-        {"en": "The entire fourth and fifth ranks", "es": "Todas las filas cuarta y quinta", "de": "Die gesamten vierten und fünften Reihen", "nl": "De hele vierde en vijfde rijen"},
-        {"en": "The corners", "es": "Las esquinas", "de": "Die Ecken", "nl": "De hoeken"},
-        {"en": "The king's position", "es": "La posición del rey", "de": "Die Position des Königs", "nl": "De positie van de koning"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The center consists of the four squares e4, e5, d4, and d5. Control of the center is crucial in chess strategy.",
-        "es": "El centro consiste en las cuatro casillas e4, e5, d4 y d5. El control del centro es crucial en la estrategia del ajedrez.",
-        "de": "Das Zentrum besteht aus den vier Feldern e4, e5, d4 und d5. Die Kontrolle des Zentrums ist entscheidend in der Schachstrategie.",
-        "nl": "Het centrum bestaat uit de vier velden e4, e5, d4 en d5. Controle over het centrum is cruciaal in de schaakstrategie."
-      }
-    },
-    {
-      "question": {
-        "en": "What is opposition in king and pawn endgames?",
-        "es": "¿Qué es la oposición en finales de rey y peón?",
-        "de": "Was ist Opposition in König-und-Bauer-Endspielen?",
-        "nl": "Wat is oppositie in koning-en-pion eindspelen?"
-      },
-      "options": [
-        {"en": "When kings face each other with one square between them", "es": "Cuando los reyes se enfrentan con una casilla entre ellos", "de": "Wenn sich Könige mit einem Feld dazwischen gegenüberstehen", "nl": "Wanneer koningen tegenover elkaar staan met één veld ertussen"},
-        {"en": "When pawns block each other", "es": "Cuando los peones se bloquean", "de": "Wenn Bauern sich blockieren", "nl": "Wanneer pionnen elkaar blokkeren"},
-        {"en": "A type of draw", "es": "Un tipo de tablas", "de": "Eine Art Remis", "nl": "Een soort remise"},
-        {"en": "When the game ends", "es": "Cuando termina el juego", "de": "Wenn das Spiel endet", "nl": "Wanneer het spel eindigt"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Opposition is when two kings face each other with one square between them. The player not to move has the opposition.",
-        "es": "La oposición es cuando dos reyes se enfrentan con una casilla entre ellos. El jugador que no mueve tiene la oposición.",
-        "de": "Opposition ist, wenn sich zwei Könige mit einem Feld dazwischen gegenüberstehen. Der Spieler, der nicht am Zug ist, hat die Opposition.",
-        "nl": "Oppositie is wanneer twee koningen tegenover elkaar staan met één veld ertussen. De speler die niet aan zet is heeft de oppositie."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a battery in chess?",
-        "es": "¿Qué es una batería en ajedrez?",
-        "de": "Was ist eine Batterie im Schach?",
-        "nl": "Wat is een batterij bij schaken?"
-      },
-      "options": [
-        {"en": "Two pieces of the same type lined up on the same file, rank, or diagonal", "es": "Dos piezas del mismo tipo alineadas en la misma columna, fila o diagonal", "de": "Zwei gleichartige Figuren auf derselben Linie, Reihe oder Diagonale", "nl": "Twee stukken van hetzelfde type op dezelfde lijn, rij of diagonaal"},
-        {"en": "The chess clock", "es": "El reloj de ajedrez", "de": "Die Schachuhr", "nl": "De schaakklok"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"},
-        {"en": "Castling", "es": "Enroque", "de": "Rochade", "nl": "Rokade"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A battery is formed when two rooks are on the same file, or a queen and bishop/rook are aligned on the same line.",
-        "es": "Una batería se forma cuando dos torres están en la misma columna, o una reina y alfil/torre están alineados en la misma línea.",
-        "de": "Eine Batterie entsteht, wenn zwei Türme auf derselben Linie stehen oder Dame und Läufer/Turm auf derselben Linie ausgerichtet sind.",
-        "nl": "Een batterij wordt gevormd wanneer twee torens op dezelfde lijn staan, of een dame en loper/toren op dezelfde lijn zijn uitgelijnd."
-      }
-    },
-    {
-      "question": {
-        "en": "How many different ways can a knight move from its starting position?",
-        "es": "¿De cuántas formas diferentes puede moverse un caballo desde su posición inicial?",
-        "de": "Auf wie viele verschiedene Arten kann ein Springer von seiner Startposition ziehen?",
-        "nl": "Op hoeveel verschillende manieren kan een paard vanaf zijn startpositie bewegen?"
-      },
-      "options": [
-        {"en": "2 or 3 depending on position", "es": "2 o 3 dependiendo de la posición", "de": "2 oder 3 je nach Position", "nl": "2 of 3 afhankelijk van positie"},
-        {"en": "4", "es": "4", "de": "4", "nl": "4"},
-        {"en": "8", "es": "8", "de": "8", "nl": "8"},
-        {"en": "1", "es": "1", "de": "1", "nl": "1"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A knight on b1/g1 (or b8/g8) has 3 possible moves, while a knight in the corner has only 2 possible moves.",
-        "es": "Un caballo en b1/g1 (o b8/g8) tiene 3 movimientos posibles, mientras que un caballo en la esquina tiene solo 2.",
-        "de": "Ein Springer auf b1/g1 (oder b8/g8) hat 3 mögliche Züge, während ein Springer in der Ecke nur 2 hat.",
-        "nl": "Een paard op b1/g1 (of b8/g8) heeft 3 mogelijke zetten, terwijl een paard in de hoek slechts 2 heeft."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a blunder?",
-        "es": "¿Qué es un error grave?",
-        "de": "Was ist ein grober Fehler?",
-        "nl": "Wat is een blunder?"
-      },
-      "options": [
-        {"en": "A very bad move that loses material or the game", "es": "Un movimiento muy malo que pierde material o el juego", "de": "Ein sehr schlechter Zug, der Material oder das Spiel verliert", "nl": "Een zeer slechte zet die materiaal of het spel verliest"},
-        {"en": "A brilliant move", "es": "Un movimiento brillante", "de": "Ein brillanter Zug", "nl": "Een briljante zet"},
-        {"en": "An opening", "es": "Una apertura", "de": "Eine Eröffnung", "nl": "Een opening"},
-        {"en": "A draw", "es": "Tablas", "de": "Remis", "nl": "Remise"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A blunder is a very bad move that drastically worsens your position, often losing material or the game.",
-        "es": "Un error grave es un movimiento muy malo que empeora drásticamente tu posición, a menudo perdiendo material o el juego.",
-        "de": "Ein grober Fehler ist ein sehr schlechter Zug, der die Position drastisch verschlechtert, oft mit Materialverlust oder Niederlage.",
-        "nl": "Een blunder is een zeer slechte zet die je positie drastisch verslechtert, vaak met materiaalverlies of verlies van het spel."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Queen's Gambit?",
-        "es": "¿Qué es el Gambito de Dama?",
-        "de": "Was ist das Damengambit?",
-        "nl": "Wat is het Damegambiet?"
-      },
-      "options": [
-        {"en": "1.d4 d5 2.c4", "es": "1.d4 d5 2.c4", "de": "1.d4 d5 2.c4", "nl": "1.d4 d5 2.c4"},
-        {"en": "1.e4 e5 2.f4", "es": "1.e4 e5 2.f4", "de": "1.e4 e5 2.f4", "nl": "1.e4 e5 2.f4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3 Nf6", "es": "1.Cf3 Cf6", "de": "1.Sf3 Sf6", "nl": "1.Pf3 Pf6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Queen's Gambit begins with 1.d4 d5 2.c4, offering the c-pawn to gain central control.",
-        "es": "El Gambito de Dama comienza con 1.d4 d5 2.c4, ofreciendo el peón c para ganar control central.",
-        "de": "Das Damengambit beginnt mit 1.d4 d5 2.c4 und bietet den c-Bauern für zentrale Kontrolle.",
-        "nl": "Het Damegambiet begint met 1.d4 d5 2.c4, waarbij de c-pion wordt geofferd voor centrale controle."
-      }
-    },
-    {
-      "question": {
-        "en": "What is an isolated pawn?",
-        "es": "¿Qué es un peón aislado?",
-        "de": "Was ist ein isolierter Bauer?",
-        "nl": "Wat is een geïsoleerde pion?"
-      },
-      "options": [
-        {"en": "A pawn with no friendly pawns on adjacent files", "es": "Un peón sin peones amigos en columnas adyacentes", "de": "Ein Bauer ohne eigene Bauern auf benachbarten Linien", "nl": "Een pion zonder eigen pionnen op aangrenzende lijnen"},
-        {"en": "A pawn on the edge of the board", "es": "Un peón en el borde del tablero", "de": "Ein Bauer am Rand des Bretts", "nl": "Een pion aan de rand van het bord"},
-        {"en": "A promoted pawn", "es": "Un peón promovido", "de": "Ein umgewandelter Bauer", "nl": "Een gepromoveerde pion"},
-        {"en": "The last pawn", "es": "El último peón", "de": "Der letzte Bauer", "nl": "De laatste pion"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "An isolated pawn has no friendly pawns on adjacent files and can be a weakness as it cannot be defended by other pawns.",
-        "es": "Un peón aislado no tiene peones amigos en columnas adyacentes y puede ser una debilidad ya que no puede ser defendido por otros peones.",
-        "de": "Ein isolierter Bauer hat keine eigenen Bauern auf benachbarten Linien und kann eine Schwäche sein, da er nicht von anderen Bauern verteidigt werden kann.",
-        "nl": "Een geïsoleerde pion heeft geen eigen pionnen op aangrenzende lijnen en kan een zwakte zijn omdat hij niet door andere pionnen verdedigd kan worden."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the English Opening?",
-        "es": "¿Qué es la Apertura Inglesa?",
-        "de": "Was ist die Englische Eröffnung?",
-        "nl": "Wat is de Engelse opening?"
-      },
-      "options": [
-        {"en": "1.c4", "es": "1.c4", "de": "1.c4", "nl": "1.c4"},
-        {"en": "1.e4", "es": "1.e4", "de": "1.e4", "nl": "1.e4"},
-        {"en": "1.d4", "es": "1.d4", "de": "1.d4", "nl": "1.d4"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The English Opening starts with 1.c4, controlling the center from the side and often leading to positional play.",
-        "es": "La Apertura Inglesa comienza con 1.c4, controlando el centro desde el lado y a menudo llevando a un juego posicional.",
-        "de": "Die Englische Eröffnung beginnt mit 1.c4, kontrolliert das Zentrum von der Seite und führt oft zu positionellem Spiel.",
-        "nl": "De Engelse opening begint met 1.c4, controleert het centrum vanaf de zijkant en leidt vaak tot positioneel spel."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a backward pawn?",
-        "es": "¿Qué es un peón retrasado?",
-        "de": "Was ist ein rückständiger Bauer?",
-        "nl": "Wat is een achtergebleven pion?"
-      },
-      "options": [
-        {"en": "A pawn that cannot advance without being captured", "es": "Un peón que no puede avanzar sin ser capturado", "de": "Ein Bauer, der nicht vorrücken kann ohne geschlagen zu werden", "nl": "Een pion die niet kan oprukken zonder geslagen te worden"},
-        {"en": "A pawn on the first rank", "es": "Un peón en la primera fila", "de": "Ein Bauer auf der ersten Reihe", "nl": "Een pion op de eerste rij"},
-        {"en": "A pawn moving backwards", "es": "Un peón moviéndose hacia atrás", "de": "Ein rückwärts ziehender Bauer", "nl": "Een pion die achteruit beweegt"},
-        {"en": "The last pawn", "es": "El último peón", "de": "Der letzte Bauer", "nl": "De laatste pion"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A backward pawn is behind pawns on adjacent files and cannot safely advance, often becoming a weakness.",
-        "es": "Un peón retrasado está detrás de peones en columnas adyacentes y no puede avanzar con seguridad, a menudo convirtiéndose en una debilidad.",
-        "de": "Ein rückständiger Bauer steht hinter Bauern auf benachbarten Linien und kann nicht sicher vorrücken, wird oft zur Schwäche.",
-        "nl": "Een achtergebleven pion staat achter pionnen op aangrenzende lijnen en kan niet veilig oprukken, wordt vaak een zwakte."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the f7 square often called for Black?",
-        "es": "¿Cómo se llama a menudo la casilla f7 para las negras?",
-        "de": "Wie wird das Feld f7 für Schwarz oft genannt?",
-        "nl": "Hoe wordt het f7-veld voor zwart vaak genoemd?"
-      },
-      "options": [
-        {"en": "The weakest square", "es": "La casilla más débil", "de": "Das schwächste Feld", "nl": "Het zwakste veld"},
-        {"en": "The strongest square", "es": "La casilla más fuerte", "de": "Das stärkste Feld", "nl": "Het sterkste veld"},
-        {"en": "The center", "es": "El centro", "de": "Das Zentrum", "nl": "Het centrum"},
-        {"en": "The corner", "es": "La esquina", "de": "Die Ecke", "nl": "De hoek"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The f7 square is often Black's weakest point in the opening, defended only by the king before castling.",
-        "es": "La casilla f7 es a menudo el punto más débil de las negras en la apertura, defendida solo por el rey antes del enroque.",
-        "de": "Das Feld f7 ist oft Schwarzs schwächster Punkt in der Eröffnung, nur vom König verteidigt vor der Rochade.",
-        "nl": "Het f7-veld is vaak zwarts zwakste punt in de opening, alleen verdedigd door de koning voor het rokeren."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a pawn chain?",
-        "es": "¿Qué es una cadena de peones?",
-        "de": "Was ist eine Bauernkette?",
-        "nl": "Wat is een pionnenketen?"
-      },
-      "options": [
-        {"en": "Diagonal line of pawns protecting each other", "es": "Línea diagonal de peones protegiéndose mutuamente", "de": "Diagonale Linie von Bauern, die sich gegenseitig schützen", "nl": "Diagonale lijn van pionnen die elkaar beschermen"},
-        {"en": "All pawns in a row", "es": "Todos los peones en fila", "de": "Alle Bauern in einer Reihe", "nl": "Alle pionnen op een rij"},
-        {"en": "Doubled pawns", "es": "Peones doblados", "de": "Doppelbauern", "nl": "Dubbele pionnen"},
-        {"en": "Passed pawns", "es": "Peones pasados", "de": "Freibauern", "nl": "Vrijpionnen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A pawn chain is a diagonal line of pawns protecting each other. The base of the chain is often the weakest point.",
-        "es": "Una cadena de peones es una línea diagonal de peones protegiéndose mutuamente. La base de la cadena es a menudo el punto más débil.",
-        "de": "Eine Bauernkette ist eine diagonale Linie von Bauern, die sich gegenseitig schützen. Die Basis der Kette ist oft der schwächste Punkt.",
-        "nl": "Een pionnenketen is een diagonale lijn van pionnen die elkaar beschermen. De basis van de keten is vaak het zwakste punt."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Caro-Kann Defense?",
-        "es": "¿Qué es la Defensa Caro-Kann?",
-        "de": "Was ist die Caro-Kann-Verteidigung?",
-        "nl": "Wat is de Caro-Kann verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 c6", "es": "1.e4 c6", "de": "1.e4 c6", "nl": "1.e4 c6"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 e6", "es": "1.e4 e6", "de": "1.e4 e6", "nl": "1.e4 e6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Caro-Kann Defense starts with 1.e4 c6, preparing to play d5 and create a solid pawn structure.",
-        "es": "La Defensa Caro-Kann comienza con 1.e4 c6, preparando jugar d5 y crear una estructura de peones sólida.",
-        "de": "Die Caro-Kann-Verteidigung beginnt mit 1.e4 c6, bereitet d5 vor und schafft eine solide Bauernstruktur.",
-        "nl": "De Caro-Kann verdediging begint met 1.e4 c6, voorbereidend om d5 te spelen en een solide pionnenstructuur te creëren."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a doubled pawn?",
-        "es": "¿Qué es un peón doblado?",
-        "de": "Was ist ein Doppelbauer?",
-        "nl": "Wat is een dubbele pion?"
-      },
-      "options": [
-        {"en": "Two pawns of the same color on the same file", "es": "Dos peones del mismo color en la misma columna", "de": "Zwei Bauern derselben Farbe auf derselben Linie", "nl": "Twee pionnen van dezelfde kleur op dezelfde lijn"},
-        {"en": "A pawn worth two points", "es": "Un peón que vale dos puntos", "de": "Ein Bauer der zwei Punkte wert ist", "nl": "Een pion die twee punten waard is"},
-        {"en": "A pawn that moved twice", "es": "Un peón que se movió dos veces", "de": "Ein Bauer der zweimal gezogen hat", "nl": "Een pion die twee keer heeft bewogen"},
-        {"en": "Two pawns side by side", "es": "Dos peones lado a lado", "de": "Zwei Bauern nebeneinander", "nl": "Twee pionnen naast elkaar"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Doubled pawns are two pawns of the same color on the same file, usually considered a weakness.",
-        "es": "Los peones doblados son dos peones del mismo color en la misma columna, generalmente considerados una debilidad.",
-        "de": "Doppelbauern sind zwei Bauern derselben Farbe auf derselben Linie, gelten meist als Schwäche.",
-        "nl": "Dubbele pionnen zijn twee pionnen van dezelfde kleur op dezelfde lijn, meestal beschouwd als een zwakte."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Alekhine Defense?",
-        "es": "¿Qué es la Defensa Alekhine?",
-        "de": "Was ist die Aljechin-Verteidigung?",
-        "nl": "Wat is de Aljechin verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 Nf6", "es": "1.e4 Cf6", "de": "1.e4 Sf6", "nl": "1.e4 Pf6"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 d5", "es": "1.e4 d5", "de": "1.e4 d5", "nl": "1.e4 d5"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Alekhine Defense begins with 1.e4 Nf6, inviting White to advance pawns which Black later undermines.",
-        "es": "La Defensa Alekhine comienza con 1.e4 Cf6, invitando a las blancas a avanzar peones que las negras luego socavan.",
-        "de": "Die Aljechin-Verteidigung beginnt mit 1.e4 Sf6 und lädt Weiß ein, Bauern vorzurücken, die Schwarz später untergräbt.",
-        "nl": "De Aljechin verdediging begint met 1.e4 Pf6, wit uitnodigend pionnen op te rukken die zwart later ondermijnt."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a sacrifice in chess?",
-        "es": "¿Qué es un sacrificio en ajedrez?",
-        "de": "Was ist ein Opfer im Schach?",
-        "nl": "Wat is een offer bij schaken?"
-      },
-      "options": [
-        {"en": "Deliberately giving up material for positional or tactical advantage", "es": "Entregar material deliberadamente por ventaja posicional o táctica", "de": "Bewusst Material für positionellen oder taktischen Vorteil aufgeben", "nl": "Bewust materiaal opgeven voor positioneel of tactisch voordeel"},
-        {"en": "Losing a piece by mistake", "es": "Perder una pieza por error", "de": "Eine Figur aus Versehen verlieren", "nl": "Een stuk per ongeluk verliezen"},
-        {"en": "Trading pieces", "es": "Intercambiar piezas", "de": "Figuren tauschen", "nl": "Stukken ruilen"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A sacrifice is deliberately giving up material to gain a positional, tactical, or attacking advantage.",
-        "es": "Un sacrificio es entregar material deliberadamente para obtener una ventaja posicional, táctica o de ataque.",
-        "de": "Ein Opfer ist das bewusste Aufgeben von Material für positionellen, taktischen oder Angriffsvorteil.",
-        "nl": "Een offer is het bewust opgeven van materiaal voor positioneel, tactisch of aanvalsvoordeel."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the minimum number of moves for checkmate?",
-        "es": "¿Cuál es el número mínimo de movimientos para jaque mate?",
-        "de": "Was ist die Mindestanzahl von Zügen für Schachmatt?",
-        "nl": "Wat is het minimum aantal zetten voor schaakmat?"
-      },
-      "options": [
-        {"en": "2 moves (Fool's Mate)", "es": "2 movimientos (Mate del Loco)", "de": "2 Züge (Narrenmatt)", "nl": "2 zetten (Dwaasmat)"},
-        {"en": "3 moves", "es": "3 movimientos", "de": "3 Züge", "nl": "3 zetten"},
-        {"en": "4 moves", "es": "4 movimientos", "de": "4 Züge", "nl": "4 zetten"},
-        {"en": "5 moves", "es": "5 movimientos", "de": "5 Züge", "nl": "5 zetten"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Fool's Mate is the fastest checkmate possible, occurring after just 2 moves: 1.f3 e5 2.g4 Qh4#",
-        "es": "El Mate del Loco es el jaque mate más rápido posible, ocurriendo después de solo 2 movimientos: 1.f3 e5 2.g4 Dh4#",
-        "de": "Das Narrenmatt ist das schnellste mögliche Schachmatt, nach nur 2 Zügen: 1.f3 e5 2.g4 Dh4#",
-        "nl": "Dwaasmat is het snelste mogelijke schaakmat, na slechts 2 zetten: 1.f3 e5 2.g4 Dh4#"
-      }
-    },
-    {
-      "question": {
-        "en": "What is the London System?",
-        "es": "¿Qué es el Sistema Londres?",
-        "de": "Was ist das Londoner System?",
-        "nl": "Wat is het Londense Systeem?"
-      },
-      "options": [
-        {"en": "A solid opening system with d4, Nf3, Bf4", "es": "Un sistema de apertura sólido con d4, Cf3, Af4", "de": "Ein solides Eröffnungssystem mit d4, Sf3, Lf4", "nl": "Een solide openingssysteem met d4, Pf3, Lf4"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "A type of endgame", "es": "Un tipo de final", "de": "Eine Art Endspiel", "nl": "Een soort eindspel"},
-        {"en": "A chess tournament", "es": "Un torneo de ajedrez", "de": "Ein Schachturnier", "nl": "Een schaaktoernooi"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The London System is a solid chess opening where White plays d4, Nf3, Bf4, e3, Nbd2, and often c3.",
-        "es": "El Sistema Londres es una apertura sólida donde las blancas juegan d4, Cf3, Af4, e3, Cbd2, y a menudo c3.",
-        "de": "Das Londoner System ist eine solide Eröffnung mit d4, Sf3, Lf4, e3, Sbd2 und oft c3.",
-        "nl": "Het Londense Systeem is een solide opening waarbij wit d4, Pf3, Lf4, e3, Pbd2, en vaak c3 speelt."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a windmill in chess?",
-        "es": "¿Qué es un molino en ajedrez?",
-        "de": "Was ist eine Windmühle im Schach?",
-        "nl": "Wat is een molen bij schaken?"
-      },
-      "options": [
-        {"en": "A tactic using discovered check repeatedly", "es": "Una táctica usando jaque descubierto repetidamente", "de": "Eine Taktik mit wiederholtem Abzugsschach", "nl": "Een tactiek met herhaalde aftrekschaak"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"},
-        {"en": "A pawn structure", "es": "Una estructura de peones", "de": "Eine Bauernstruktur", "nl": "Een pionnenstructuur"},
-        {"en": "Castling", "es": "Enroque", "de": "Rochade", "nl": "Rokade"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A windmill is a tactic where discovered checks are used repeatedly to win material.",
-        "es": "Un molino es una táctica donde se usan jaques descubiertos repetidamente para ganar material.",
-        "de": "Eine Windmühle ist eine Taktik, bei der wiederholt Abzugsschachs verwendet werden, um Material zu gewinnen.",
-        "nl": "Een molen is een tactiek waarbij aftrekschaak herhaaldelijk wordt gebruikt om materiaal te winnen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a hanging piece?",
-        "es": "¿Qué es una pieza colgante?",
-        "de": "Was ist eine hängende Figur?",
-        "nl": "Wat is een hangende stuk?"
-      },
-      "options": [
-        {"en": "An undefended piece that can be captured", "es": "Una pieza sin defensa que puede ser capturada", "de": "Eine unverteidigte Figur, die geschlagen werden kann", "nl": "Een onverdedigd stuk dat geslagen kan worden"},
-        {"en": "A piece in the air", "es": "Una pieza en el aire", "de": "Eine Figur in der Luft", "nl": "Een stuk in de lucht"},
-        {"en": "A promoted pawn", "es": "Un peón promovido", "de": "Ein umgewandelter Bauer", "nl": "Een gepromoveerde pion"},
-        {"en": "The king", "es": "El rey", "de": "Der König", "nl": "De koning"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A hanging piece is one that is undefended and can be captured for free.",
-        "es": "Una pieza colgante es una que no está defendida y puede ser capturada gratis.",
-        "de": "Eine hängende Figur ist unverteidigt und kann kostenlos geschlagen werden.",
-        "nl": "Een hangend stuk is onverdedigd en kan gratis geslagen worden."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Nimzo-Indian Defense?",
-        "es": "¿Qué es la Defensa Nimzoindia?",
-        "de": "Was ist die Nimzoindische Verteidigung?",
-        "nl": "Wat is de Nimzo-Indische verdediging?"
-      },
-      "options": [
-        {"en": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4", "es": "1.d4 Cf6 2.c4 e6 3.Cc3 Ab4", "de": "1.d4 Sf6 2.c4 e6 3.Sc3 Lb4", "nl": "1.d4 Pf6 2.c4 e6 3.Pc3 Lb4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Nimzo-Indian Defense features Black pinning White's knight on c3 with ...Bb4.",
-        "es": "La Defensa Nimzoindia presenta al negro clavando el caballo blanco en c3 con ...Ab4.",
-        "de": "Die Nimzoindische Verteidigung zeichnet sich durch die Fesselung des weißen Springers auf c3 mit ...Lb4 aus.",
-        "nl": "De Nimzo-Indische verdediging kenmerkt zich door zwart die wits paard op c3 pent met ...Lb4."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a clearance in chess?",
-        "es": "¿Qué es un despeje en ajedrez?",
-        "de": "Was ist eine Räumung im Schach?",
-        "nl": "Wat is een ruiming bij schaken?"
-      },
-      "options": [
-        {"en": "Moving a piece to clear a line for another piece", "es": "Mover una pieza para despejar una línea para otra", "de": "Eine Figur ziehen, um eine Linie für eine andere zu räumen", "nl": "Een stuk verplaatsen om een lijn vrij te maken voor een ander stuk"},
-        {"en": "Capturing all pieces", "es": "Capturar todas las piezas", "de": "Alle Figuren schlagen", "nl": "Alle stukken slaan"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"},
-        {"en": "Castling", "es": "Enroque", "de": "Rochade", "nl": "Rokade"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Clearance is a tactic where a piece moves to clear a file, rank, or diagonal for another piece to use.",
-        "es": "El despeje es una táctica donde una pieza se mueve para despejar una columna, fila o diagonal para que otra pieza la use.",
-        "de": "Räumung ist eine Taktik, bei der eine Figur zieht, um eine Linie, Reihe oder Diagonale für eine andere Figur freizumachen.",
-        "nl": "Ruiming is een tactiek waarbij een stuk beweegt om een lijn, rij of diagonaal vrij te maken voor een ander stuk."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a weak square?",
-        "es": "¿Qué es una casilla débil?",
-        "de": "Was ist ein schwaches Feld?",
-        "nl": "Wat is een zwak veld?"
-      },
-      "options": [
-        {"en": "A square that cannot be defended by pawns", "es": "Una casilla que no puede ser defendida por peones", "de": "Ein Feld, das nicht von Bauern verteidigt werden kann", "nl": "Een veld dat niet door pionnen verdedigd kan worden"},
-        {"en": "Any corner square", "es": "Cualquier casilla de esquina", "de": "Jedes Eckfeld", "nl": "Elk hoekveld"},
-        {"en": "The king's position", "es": "La posición del rey", "de": "Die Position des Königs", "nl": "De positie van de koning"},
-        {"en": "A captured square", "es": "Una casilla capturada", "de": "Ein geschlagenes Feld", "nl": "Een geslagen veld"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A weak square is one that cannot be defended by pawns and can be occupied by enemy pieces.",
-        "es": "Una casilla débil es una que no puede ser defendida por peones y puede ser ocupada por piezas enemigas.",
-        "de": "Ein schwaches Feld kann nicht von Bauern verteidigt werden und kann von gegnerischen Figuren besetzt werden.",
-        "nl": "Een zwak veld kan niet door pionnen verdedigd worden en kan door vijandelijke stukken bezet worden."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Scandinavian Defense?",
-        "es": "¿Qué es la Defensa Escandinava?",
-        "de": "Was ist die Skandinavische Verteidigung?",
-        "nl": "Wat is de Scandinavische verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 d5", "es": "1.e4 d5", "de": "1.e4 d5", "nl": "1.e4 d5"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.d4 d5", "es": "1.d4 d5", "de": "1.d4 d5", "nl": "1.d4 d5"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Scandinavian Defense begins with 1.e4 d5, immediately challenging White's center pawn.",
-        "es": "La Defensa Escandinava comienza con 1.e4 d5, desafiando inmediatamente el peón central de las blancas.",
-        "de": "Die Skandinavische Verteidigung beginnt mit 1.e4 d5 und fordert sofort Weiß' Zentrumsbauern heraus.",
-        "nl": "De Scandinavische verdediging begint met 1.e4 d5, waarbij direct wits centrale pion wordt aangevallen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a decoy in chess?",
-        "es": "¿Qué es un señuelo en ajedrez?",
-        "de": "Was ist ein Köder im Schach?",
-        "nl": "Wat is een lokvogel bij schaken?"
-      },
-      "options": [
-        {"en": "Luring an enemy piece to a bad square", "es": "Atraer una pieza enemiga a una casilla mala", "de": "Eine gegnerische Figur auf ein schlechtes Feld locken", "nl": "Een vijandelijk stuk naar een slecht veld lokken"},
-        {"en": "A fake move", "es": "Un movimiento falso", "de": "Ein falscher Zug", "nl": "Een valse zet"},
-        {"en": "Castling", "es": "Enroque", "de": "Rochade", "nl": "Rokade"},
-        {"en": "A draw offer", "es": "Una oferta de tablas", "de": "Ein Remisangebot", "nl": "Een remise aanbod"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A decoy is a tactic that forces an enemy piece to move to a square where it can be exploited.",
-        "es": "Un señuelo es una táctica que fuerza a una pieza enemiga a moverse a una casilla donde puede ser explotada.",
-        "de": "Ein Köder ist eine Taktik, die eine gegnerische Figur zwingt, auf ein Feld zu ziehen, wo sie ausgenutzt werden kann.",
-        "nl": "Een lokvogel is een tactiek die een vijandelijk stuk dwingt naar een veld te gaan waar het uitgebuit kan worden."
-      }
-    },
-    {
-      "question": {
-        "en": "What is overloading in chess?",
-        "es": "¿Qué es la sobrecarga en ajedrez?",
-        "de": "Was ist Überlastung im Schach?",
-        "nl": "Wat is overbelasting bij schaken?"
-      },
-      "options": [
-        {"en": "When a piece defends too many things at once", "es": "Cuando una pieza defiende demasiadas cosas a la vez", "de": "Wenn eine Figur zu viele Dinge gleichzeitig verteidigt", "nl": "Wanneer een stuk te veel dingen tegelijk verdedigt"},
-        {"en": "Having too many pieces", "es": "Tener demasiadas piezas", "de": "Zu viele Figuren haben", "nl": "Te veel stukken hebben"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"},
-        {"en": "Promoting all pawns", "es": "Promover todos los peones", "de": "Alle Bauern umwandeln", "nl": "Alle pionnen promoveren"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Overloading occurs when a piece has too many defensive duties and cannot fulfill them all.",
-        "es": "La sobrecarga ocurre cuando una pieza tiene demasiadas tareas defensivas y no puede cumplirlas todas.",
-        "de": "Überlastung tritt auf, wenn eine Figur zu viele Verteidigungsaufgaben hat und nicht alle erfüllen kann.",
-        "nl": "Overbelasting treedt op wanneer een stuk te veel verdedigingstaken heeft en ze niet allemaal kan vervullen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the King's Gambit?",
-        "es": "¿Qué es el Gambito de Rey?",
-        "de": "Was ist das Königsgambit?",
-        "nl": "Wat is het Koningsgambiet?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.f4", "es": "1.e4 e5 2.f4", "de": "1.e4 e5 2.f4", "nl": "1.e4 e5 2.f4"},
-        {"en": "1.d4 d5 2.c4", "es": "1.d4 d5 2.c4", "de": "1.d4 d5 2.c4", "nl": "1.d4 d5 2.c4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The King's Gambit is an aggressive opening where White sacrifices the f-pawn with 1.e4 e5 2.f4.",
-        "es": "El Gambito de Rey es una apertura agresiva donde las blancas sacrifican el peón f con 1.e4 e5 2.f4.",
-        "de": "Das Königsgambit ist eine aggressive Eröffnung, bei der Weiß den f-Bauern mit 1.e4 e5 2.f4 opfert.",
-        "nl": "Het Koningsgambiet is een agressieve opening waarbij wit de f-pion offert met 1.e4 e5 2.f4."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Benoni Defense?",
-        "es": "¿Qué es la Defensa Benoni?",
-        "de": "Was ist die Benoni-Verteidigung?",
-        "nl": "Wat is de Benoni verdediging?"
-      },
-      "options": [
-        {"en": "1.d4 Nf6 2.c4 c5", "es": "1.d4 Cf6 2.c4 c5", "de": "1.d4 Sf6 2.c4 c5", "nl": "1.d4 Pf6 2.c4 c5"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Benoni Defense features an early ...c5 to challenge White's center and create imbalanced positions.",
-        "es": "La Defensa Benoni presenta un temprano ...c5 para desafiar el centro de las blancas y crear posiciones desequilibradas.",
-        "de": "Die Benoni-Verteidigung zeichnet sich durch ein frühes ...c5 aus, um Weiß' Zentrum herauszufordern.",
-        "nl": "De Benoni verdediging kenmerkt zich door een vroege ...c5 om wits centrum uit te dagen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a Zwischenzug?",
-        "es": "¿Qué es un Zwischenzug?",
-        "de": "Was ist ein Zwischenzug?",
-        "nl": "Wat is een Zwischenzug?"
-      },
-      "options": [
-        {"en": "An intermediate move before an expected recapture", "es": "Un movimiento intermedio antes de una recaptura esperada", "de": "Ein Zwischenzug vor einem erwarteten Rückschlag", "nl": "Een tussenzet voor een verwachte terugslag"},
-        {"en": "A German opening", "es": "Una apertura alemana", "de": "Eine deutsche Eröffnung", "nl": "Een Duitse opening"},
-        {"en": "Castling", "es": "Enroque", "de": "Rochade", "nl": "Rokade"},
-        {"en": "A draw", "es": "Tablas", "de": "Remis", "nl": "Remise"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Zwischenzug (intermediate move) is a move played before an expected recapture to gain an advantage.",
-        "es": "Zwischenzug (movimiento intermedio) es un movimiento jugado antes de una recaptura esperada para ganar ventaja.",
-        "de": "Ein Zwischenzug ist ein Zug vor einem erwarteten Rückschlag, um einen Vorteil zu erlangen.",
-        "nl": "Zwischenzug (tussenzet) is een zet gespeeld voor een verwachte terugslag om voordeel te behalen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Dragon Variation?",
-        "es": "¿Qué es la Variante del Dragón?",
-        "de": "Was ist die Drachenvariante?",
-        "nl": "Wat is de Drakenvariant?"
-      },
-      "options": [
-        {"en": "A sharp line in the Sicilian Defense with ...g6", "es": "Una línea aguda en la Defensa Siciliana con ...g6", "de": "Eine scharfe Variante in der Sizilianischen Verteidigung mit ...g6", "nl": "Een scherpe lijn in de Siciliaanse verdediging met ...g6"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "A type of endgame", "es": "Un tipo de final", "de": "Eine Art Endspiel", "nl": "Een soort eindspel"},
-        {"en": "Castling queenside", "es": "Enroque largo", "de": "Lange Rochade", "nl": "Lange rokade"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Dragon Variation is a sharp line in the Sicilian where Black fianchettoes the kingside bishop.",
-        "es": "La Variante del Dragón es una línea aguda en la Siciliana donde las negras hacen fianchetto del alfil del flanco de rey.",
-        "de": "Die Drachenvariante ist eine scharfe Variante in der Sizilianischen, wo Schwarz den Königsläufer fianchettiert.",
-        "nl": "De Drakenvariant is een scherpe lijn in de Siciliaanse waar zwart de koningsloper fianchetteert."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a pawn break?",
-        "es": "¿Qué es una ruptura de peones?",
-        "de": "Was ist ein Bauernbruch?",
-        "nl": "Wat is een pionnenbreuk?"
-      },
-      "options": [
-        {"en": "A pawn advance that opens lines and changes the pawn structure", "es": "Un avance de peón que abre líneas y cambia la estructura de peones", "de": "Ein Bauernvorstoß der Linien öffnet und die Bauernstruktur ändert", "nl": "Een pionopmars die lijnen opent en de pionnenstructuur verandert"},
-        {"en": "A broken pawn", "es": "Un peón roto", "de": "Ein gebrochener Bauer", "nl": "Een gebroken pion"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"},
-        {"en": "Losing a pawn", "es": "Perder un peón", "de": "Einen Bauern verlieren", "nl": "Een pion verliezen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A pawn break is a pawn advance that challenges the opponent's pawn structure and opens lines.",
-        "es": "Una ruptura de peones es un avance de peón que desafía la estructura de peones del oponente y abre líneas.",
-        "de": "Ein Bauernbruch ist ein Bauernvorstoß, der die gegnerische Bauernstruktur herausfordert und Linien öffnet.",
-        "nl": "Een pionnenbreuk is een pionopmars die de pionnenstructuur van de tegenstander uitdaagt en lijnen opent."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Bird's Opening?",
-        "es": "¿Qué es la Apertura Bird?",
-        "de": "Was ist die Bird-Eröffnung?",
-        "nl": "Wat is de Bird opening?"
-      },
-      "options": [
-        {"en": "1.f4", "es": "1.f4", "de": "1.f4", "nl": "1.f4"},
-        {"en": "1.e4", "es": "1.e4", "de": "1.e4", "nl": "1.e4"},
-        {"en": "1.d4", "es": "1.d4", "de": "1.d4", "nl": "1.d4"},
-        {"en": "1.c4", "es": "1.c4", "de": "1.c4", "nl": "1.c4"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Bird's Opening starts with 1.f4, controlling e5 and often leading to Dutch Defense reversed positions.",
-        "es": "La Apertura Bird comienza con 1.f4, controlando e5 y a menudo llevando a posiciones de Defensa Holandesa invertida.",
-        "de": "Die Bird-Eröffnung beginnt mit 1.f4, kontrolliert e5 und führt oft zu umgekehrten Holländisch-Stellungen.",
-        "nl": "De Bird opening begint met 1.f4, controleert e5 en leidt vaak tot omgekeerde Nederlandse posities."
-      }
-    },
-    {
-      "question": {
-        "en": "What is perpetual check?",
-        "es": "¿Qué es el jaque perpetuo?",
-        "de": "Was ist Dauerschach?",
-        "nl": "Wat is eeuwig schaak?"
-      },
-      "options": [
-        {"en": "Continuous checks that force a draw", "es": "Jaques continuos que fuerzan tablas", "de": "Fortgesetzte Schachs die ein Remis erzwingen", "nl": "Voortdurende schaakjes die remise forceren"},
-        {"en": "A type of checkmate", "es": "Un tipo de jaque mate", "de": "Eine Art Schachmatt", "nl": "Een soort schaakmat"},
-        {"en": "The first check", "es": "El primer jaque", "de": "Das erste Schach", "nl": "Het eerste schaak"},
-        {"en": "Checking with a pawn", "es": "Jaque con un peón", "de": "Schach mit einem Bauern", "nl": "Schaak met een pion"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Perpetual check is a drawing mechanism where one player gives continuous checks that cannot be escaped.",
-        "es": "El jaque perpetuo es un mecanismo de tablas donde un jugador da jaques continuos que no pueden ser evitados.",
-        "de": "Dauerschach ist ein Remismechanismus, bei dem ein Spieler fortgesetzte Schachs gibt, die nicht verhindert werden können.",
-        "nl": "Eeuwig schaak is een remisemechanisme waarbij één speler voortdurende schaakjes geeft die niet kunnen worden voorkomen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Catalan Opening?",
-        "es": "¿Qué es la Apertura Catalana?",
-        "de": "Was ist die Katalanische Eröffnung?",
-        "nl": "Wat is de Catalaanse opening?"
-      },
-      "options": [
-        {"en": "1.d4 Nf6 2.c4 e6 3.g3", "es": "1.d4 Cf6 2.c4 e6 3.g3", "de": "1.d4 Sf6 2.c4 e6 3.g3", "nl": "1.d4 Pf6 2.c4 e6 3.g3"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Catalan Opening combines d4 and c4 with a fianchettoed kingside bishop.",
-        "es": "La Apertura Catalana combina d4 y c4 con un alfil del flanco de rey en fianchetto.",
-        "de": "Die Katalanische Eröffnung kombiniert d4 und c4 mit einem fianchettierten Königsläufer.",
-        "nl": "De Catalaanse opening combineert d4 en c4 met een gefianchetteerde koningsloper."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a backward move in chess?",
-        "es": "¿Qué es un movimiento hacia atrás en ajedrez?",
-        "de": "Was ist ein Rückwärtszug im Schach?",
-        "nl": "Wat is een achterwaartse zet bij schaken?"
-      },
-      "options": [
-        {"en": "Only pawns cannot move backwards", "es": "Solo los peones no pueden moverse hacia atrás", "de": "Nur Bauern können nicht rückwärts ziehen", "nl": "Alleen pionnen kunnen niet achteruit"},
-        {"en": "All pieces can move backwards", "es": "Todas las piezas pueden moverse hacia atrás", "de": "Alle Figuren können rückwärts ziehen", "nl": "Alle stukken kunnen achteruit"},
-        {"en": "No pieces can move backwards", "es": "Ninguna pieza puede moverse hacia atrás", "de": "Keine Figur kann rückwärts ziehen", "nl": "Geen stukken kunnen achteruit"},
-        {"en": "Only the king moves backwards", "es": "Solo el rey se mueve hacia atrás", "de": "Nur der König zieht rückwärts", "nl": "Alleen de koning beweegt achteruit"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "In chess, all pieces except pawns can move backwards. Pawns can only move forward.",
-        "es": "En ajedrez, todas las piezas excepto los peones pueden moverse hacia atrás. Los peones solo pueden avanzar.",
-        "de": "Im Schach können alle Figuren außer Bauern rückwärts ziehen. Bauern können nur vorwärts ziehen.",
-        "nl": "Bij schaken kunnen alle stukken behalve pionnen achteruit bewegen. Pionnen kunnen alleen vooruit."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Evans Gambit?",
-        "es": "¿Qué es el Gambito Evans?",
-        "de": "Was ist das Evans-Gambit?",
-        "nl": "Wat is het Evans Gambiet?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4", "es": "1.e4 e5 2.Cf3 Cc6 3.Ac4 Ac5 4.b4", "de": "1.e4 e5 2.Sf3 Sc6 3.Lc4 Lc5 4.b4", "nl": "1.e4 e5 2.Pf3 Pc6 3.Lc4 Lc5 4.b4"},
-        {"en": "1.d4 d5 2.c4", "es": "1.d4 d5 2.c4", "de": "1.d4 d5 2.c4", "nl": "1.d4 d5 2.c4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Evans Gambit is an aggressive line in the Italian Game where White sacrifices the b4 pawn for rapid development.",
-        "es": "El Gambito Evans es una línea agresiva en el Juego Italiano donde las blancas sacrifican el peón b4 por desarrollo rápido.",
-        "de": "Das Evans-Gambit ist eine aggressive Variante der Italienischen Partie, wo Weiß den b4-Bauern für schnelle Entwicklung opfert.",
-        "nl": "Het Evans Gambiet is een agressieve lijn in het Italiaans waar wit de b4-pion offert voor snelle ontwikkeling."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a pawn island?",
-        "es": "¿Qué es una isla de peones?",
-        "de": "Was ist eine Bauerninsel?",
-        "nl": "Wat is een pionneneiland?"
-      },
-      "options": [
-        {"en": "A group of connected pawns separated from other pawns", "es": "Un grupo de peones conectados separados de otros peones", "de": "Eine Gruppe verbundener Bauern getrennt von anderen Bauern", "nl": "Een groep verbonden pionnen gescheiden van andere pionnen"},
-        {"en": "A single pawn", "es": "Un solo peón", "de": "Ein einzelner Bauer", "nl": "Een enkele pion"},
-        {"en": "Pawns on the edge", "es": "Peones en el borde", "de": "Bauern am Rand", "nl": "Pionnen aan de rand"},
-        {"en": "All pawns together", "es": "Todos los peones juntos", "de": "Alle Bauern zusammen", "nl": "Alle pionnen samen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A pawn island is a group of connected pawns separated from other pawns. Fewer islands usually means better pawn structure.",
-        "es": "Una isla de peones es un grupo de peones conectados separados de otros peones. Menos islas generalmente significa mejor estructura.",
-        "de": "Eine Bauerninsel ist eine Gruppe verbundener Bauern getrennt von anderen. Weniger Inseln bedeuten meist eine bessere Struktur.",
-        "nl": "Een pionneneiland is een groep verbonden pionnen gescheiden van anderen. Minder eilanden betekent meestal een betere structuur."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Petroff Defense?",
-        "es": "¿Qué es la Defensa Petrov?",
-        "de": "Was ist die Russische Verteidigung?",
-        "nl": "Wat is de Russische verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.Nf3 Nf6", "es": "1.e4 e5 2.Cf3 Cf6", "de": "1.e4 e5 2.Sf3 Sf6", "nl": "1.e4 e5 2.Pf3 Pf6"},
-        {"en": "1.d4 d5", "es": "1.d4 d5", "de": "1.d4 d5", "nl": "1.d4 d5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 e6", "es": "1.e4 e6", "de": "1.e4 e6", "nl": "1.e4 e6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Petroff Defense (Russian Defense) is 1.e4 e5 2.Nf3 Nf6, counterattacking White's e4 pawn.",
-        "es": "La Defensa Petrov (Defensa Rusa) es 1.e4 e5 2.Cf3 Cf6, contraatacando el peón e4 de las blancas.",
-        "de": "Die Russische Verteidigung ist 1.e4 e5 2.Sf3 Sf6 und greift Weiß' e4-Bauern an.",
-        "nl": "De Russische verdediging is 1.e4 e5 2.Pf3 Pf6, een tegenaanval op wits e4-pion."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the rule of the square?",
-        "es": "¿Qué es la regla del cuadrado?",
-        "de": "Was ist die Quadratregel?",
-        "nl": "Wat is de regel van het vierkant?"
-      },
-      "options": [
-        {"en": "A method to determine if a king can catch a passed pawn", "es": "Un método para determinar si un rey puede alcanzar un peón pasado", "de": "Eine Methode um zu bestimmen ob ein König einen Freibauern fangen kann", "nl": "Een methode om te bepalen of een koning een vrijpion kan vangen"},
-        {"en": "The center squares", "es": "Las casillas centrales", "de": "Die Zentrumsfelder", "nl": "De centrale velden"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"},
-        {"en": "Castling rules", "es": "Reglas del enroque", "de": "Rochaderegeln", "nl": "Rokaderegels"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The rule of the square helps determine if a king can catch a passed pawn by imagining a square from the pawn to the promotion rank.",
-        "es": "La regla del cuadrado ayuda a determinar si un rey puede alcanzar un peón pasado imaginando un cuadrado desde el peón hasta la fila de promoción.",
-        "de": "Die Quadratregel hilft zu bestimmen, ob ein König einen Freibauern fangen kann, indem man sich ein Quadrat vom Bauern zur Umwandlungsreihe vorstellt.",
-        "nl": "De regel van het vierkant helpt bepalen of een koning een vrijpion kan vangen door een vierkant voor te stellen van de pion tot de promotierij."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Two Knights Defense?",
-        "es": "¿Qué es la Defensa de los Dos Caballos?",
-        "de": "Was ist die Zweispringerspiel-Verteidigung?",
-        "nl": "Wat is de Tweepaardenspel verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6", "es": "1.e4 e5 2.Cf3 Cc6 3.Ac4 Cf6", "de": "1.e4 e5 2.Sf3 Sc6 3.Lc4 Sf6", "nl": "1.e4 e5 2.Pf3 Pc6 3.Lc4 Pf6"},
-        {"en": "1.d4 d5 2.c4", "es": "1.d4 d5 2.c4", "de": "1.d4 d5 2.c4", "nl": "1.d4 d5 2.c4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3 Nf6", "es": "1.Cf3 Cf6", "de": "1.Sf3 Sf6", "nl": "1.Pf3 Pf6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Two Knights Defense arises after 1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6, developing both knights before bishops.",
-        "es": "La Defensa de los Dos Caballos surge después de 1.e4 e5 2.Cf3 Cc6 3.Ac4 Cf6, desarrollando ambos caballos antes que los alfiles.",
-        "de": "Die Zweispringerspiel-Verteidigung entsteht nach 1.e4 e5 2.Sf3 Sc6 3.Lc4 Sf6, beide Springer werden vor den Läufern entwickelt.",
-        "nl": "De Tweepaardenspel verdediging ontstaat na 1.e4 e5 2.Pf3 Pc6 3.Lc4 Pf6, beide paarden worden voor de lopers ontwikkeld."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a smothered mate?",
-        "es": "¿Qué es un mate ahogado?",
-        "de": "Was ist ein ersticktes Matt?",
-        "nl": "Wat is een verstikkingsmat?"
-      },
-      "options": [
-        {"en": "Checkmate where the king is blocked by its own pieces", "es": "Jaque mate donde el rey está bloqueado por sus propias piezas", "de": "Schachmatt wo der König von eigenen Figuren blockiert ist", "nl": "Schaakmat waarbij de koning geblokkeerd is door eigen stukken"},
-        {"en": "Any quick checkmate", "es": "Cualquier jaque mate rápido", "de": "Jedes schnelle Schachmatt", "nl": "Elke snelle schaakmat"},
-        {"en": "Checkmate with a pawn", "es": "Jaque mate con un peón", "de": "Schachmatt mit einem Bauern", "nl": "Schaakmat met een pion"},
-        {"en": "Stalemate", "es": "Ahogado", "de": "Patt", "nl": "Pat"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A smothered mate is a checkmate delivered by a knight where the enemy king is surrounded by its own pieces.",
-        "es": "Un mate ahogado es un jaque mate dado por un caballo donde el rey enemigo está rodeado por sus propias piezas.",
-        "de": "Ein ersticktes Matt ist ein Schachmatt durch einen Springer, wo der gegnerische König von eigenen Figuren umgeben ist.",
-        "nl": "Een verstikkingsmat is een schaakmat gegeven door een paard waarbij de vijandelijke koning omringd is door eigen stukken."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Philidor Defense?",
-        "es": "¿Qué es la Defensa Philidor?",
-        "de": "Was ist die Philidor-Verteidigung?",
-        "nl": "Wat is de Philidor verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.Nf3 d6", "es": "1.e4 e5 2.Cf3 d6", "de": "1.e4 e5 2.Sf3 d6", "nl": "1.e4 e5 2.Pf3 d6"},
-        {"en": "1.d4 d5", "es": "1.d4 d5", "de": "1.d4 d5", "nl": "1.d4 d5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 e6", "es": "1.e4 e6", "de": "1.e4 e6", "nl": "1.e4 e6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Philidor Defense is 1.e4 e5 2.Nf3 d6, creating a solid but somewhat passive position.",
-        "es": "La Defensa Philidor es 1.e4 e5 2.Cf3 d6, creando una posición sólida pero algo pasiva.",
-        "de": "Die Philidor-Verteidigung ist 1.e4 e5 2.Sf3 d6 und schafft eine solide aber etwas passive Position.",
-        "nl": "De Philidor verdediging is 1.e4 e5 2.Pf3 d6, wat een solide maar wat passieve positie creëert."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a connected passed pawn?",
-        "es": "¿Qué es un peón pasado conectado?",
-        "de": "Was sind verbundene Freibauern?",
-        "nl": "Wat zijn verbonden vrijpionnen?"
-      },
-      "options": [
-        {"en": "Passed pawns on adjacent files that protect each other", "es": "Peones pasados en columnas adyacentes que se protegen mutuamente", "de": "Freibauern auf benachbarten Linien die sich gegenseitig schützen", "nl": "Vrijpionnen op aangrenzende lijnen die elkaar beschermen"},
-        {"en": "A single passed pawn", "es": "Un solo peón pasado", "de": "Ein einzelner Freibauer", "nl": "Een enkele vrijpion"},
-        {"en": "Doubled pawns", "es": "Peones doblados", "de": "Doppelbauern", "nl": "Dubbele pionnen"},
-        {"en": "Isolated pawns", "es": "Peones aislados", "de": "Isolierte Bauern", "nl": "Geïsoleerde pionnen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Connected passed pawns are passed pawns on adjacent files that can protect each other, very powerful in endgames.",
-        "es": "Los peones pasados conectados son peones pasados en columnas adyacentes que pueden protegerse mutuamente, muy poderosos en finales.",
-        "de": "Verbundene Freibauern sind Freibauern auf benachbarten Linien die sich gegenseitig schützen können, sehr stark im Endspiel.",
-        "nl": "Verbonden vrijpionnen zijn vrijpionnen op aangrenzende lijnen die elkaar kunnen beschermen, zeer krachtig in eindspelen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Blackmar-Diemer Gambit?",
-        "es": "¿Qué es el Gambito Blackmar-Diemer?",
-        "de": "Was ist das Blackmar-Diemer-Gambit?",
-        "nl": "Wat is het Blackmar-Diemer Gambiet?"
-      },
-      "options": [
-        {"en": "1.d4 d5 2.e4", "es": "1.d4 d5 2.e4", "de": "1.d4 d5 2.e4", "nl": "1.d4 d5 2.e4"},
-        {"en": "1.e4 e5 2.f4", "es": "1.e4 e5 2.f4", "de": "1.e4 e5 2.f4", "nl": "1.e4 e5 2.f4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Blackmar-Diemer Gambit starts with 1.d4 d5 2.e4, sacrificing a pawn for rapid development and attack.",
-        "es": "El Gambito Blackmar-Diemer comienza con 1.d4 d5 2.e4, sacrificando un peón por desarrollo rápido y ataque.",
-        "de": "Das Blackmar-Diemer-Gambit beginnt mit 1.d4 d5 2.e4 und opfert einen Bauern für schnelle Entwicklung und Angriff.",
-        "nl": "Het Blackmar-Diemer Gambiet begint met 1.d4 d5 2.e4, offert een pion voor snelle ontwikkeling en aanval."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the triangulation technique?",
-        "es": "¿Qué es la técnica de triangulación?",
-        "de": "Was ist die Dreiecks-Technik?",
-        "nl": "Wat is de driehoekstechniek?"
-      },
-      "options": [
-        {"en": "King maneuver to lose a tempo and gain opposition", "es": "Maniobra del rey para perder un tiempo y ganar oposición", "de": "Königsmanöver um ein Tempo zu verlieren und Opposition zu erlangen", "nl": "Koningsmanoeuvre om een tempo te verliezen en oppositie te krijgen"},
-        {"en": "Three pieces attacking", "es": "Tres piezas atacando", "de": "Drei angreifende Figuren", "nl": "Drie aanvallende stukken"},
-        {"en": "A pawn formation", "es": "Una formación de peones", "de": "Eine Bauernformation", "nl": "Een pionnenformatie"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Triangulation is a king maneuver in endgames to lose a tempo and force the opponent into zugzwang.",
-        "es": "La triangulación es una maniobra del rey en finales para perder un tiempo y forzar al oponente al zugzwang.",
-        "de": "Triangulation ist ein Königsmanöver im Endspiel um ein Tempo zu verlieren und den Gegner in Zugzwang zu bringen.",
-        "nl": "Driehoek is een koningsmanoeuvre in eindspelen om een tempo te verliezen en de tegenstander in zugzwang te dwingen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Budapest Gambit?",
-        "es": "¿Qué es el Gambito Budapest?",
-        "de": "Was ist das Budapester Gambit?",
-        "nl": "Wat is het Boedapest Gambiet?"
-      },
-      "options": [
-        {"en": "1.d4 Nf6 2.c4 e5", "es": "1.d4 Cf6 2.c4 e5", "de": "1.d4 Sf6 2.c4 e5", "nl": "1.d4 Pf6 2.c4 e5"},
-        {"en": "1.e4 e5 2.f4", "es": "1.e4 e5 2.f4", "de": "1.e4 e5 2.f4", "nl": "1.e4 e5 2.f4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.Nf3", "es": "1.Cf3", "de": "1.Sf3", "nl": "1.Pf3"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Budapest Gambit is 1.d4 Nf6 2.c4 e5, sacrificing a pawn for quick development and piece activity.",
-        "es": "El Gambito Budapest es 1.d4 Cf6 2.c4 e5, sacrificando un peón por desarrollo rápido y actividad de piezas.",
-        "de": "Das Budapester Gambit ist 1.d4 Sf6 2.c4 e5 und opfert einen Bauern für schnelle Entwicklung und Figurenaktivität.",
-        "nl": "Het Boedapest Gambiet is 1.d4 Pf6 2.c4 e5, offert een pion voor snelle ontwikkeling en stukactiviteit."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the maximum number of queens possible in a legal position?",
-        "es": "¿Cuál es el número máximo de reinas posible en una posición legal?",
-        "de": "Was ist die maximale Anzahl von Damen in einer legalen Position?",
-        "nl": "Wat is het maximum aantal dames mogelijk in een legale positie?"
-      },
-      "options": [
-        {"en": "18 (9 per side through promotion)", "es": "18 (9 por lado mediante promoción)", "de": "18 (9 pro Seite durch Umwandlung)", "nl": "18 (9 per kant door promotie)"},
-        {"en": "2 (one per side)", "es": "2 (una por lado)", "de": "2 (eine pro Seite)", "nl": "2 (één per kant)"},
-        {"en": "8", "es": "8", "de": "8", "nl": "8"},
-        {"en": "16", "es": "16", "de": "16", "nl": "16"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Theoretically, each side can have 9 queens (1 original + 8 promoted pawns), totaling 18 queens maximum.",
-        "es": "Teóricamente, cada lado puede tener 9 reinas (1 original + 8 peones promovidos), totalizando 18 reinas máximo.",
-        "de": "Theoretisch kann jede Seite 9 Damen haben (1 Original + 8 umgewandelte Bauern), insgesamt maximal 18 Damen.",
-        "nl": "Theoretisch kan elke kant 9 dames hebben (1 origineel + 8 gepromoveerde pionnen), totaal maximaal 18 dames."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Scotch Game?",
-        "es": "¿Qué es el Juego Escocés?",
-        "de": "Was ist die Schottische Partie?",
-        "nl": "Wat is het Schots spel?"
-      },
-      "options": [
-        {"en": "1.e4 e5 2.Nf3 Nc6 3.d4", "es": "1.e4 e5 2.Cf3 Cc6 3.d4", "de": "1.e4 e5 2.Sf3 Sc6 3.d4", "nl": "1.e4 e5 2.Pf3 Pc6 3.d4"},
-        {"en": "1.d4 d5 2.c4", "es": "1.d4 d5 2.c4", "de": "1.d4 d5 2.c4", "nl": "1.d4 d5 2.c4"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.c4", "es": "1.c4", "de": "1.c4", "nl": "1.c4"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Scotch Game is 1.e4 e5 2.Nf3 Nc6 3.d4, opening the center immediately.",
-        "es": "El Juego Escocés es 1.e4 e5 2.Cf3 Cc6 3.d4, abriendo el centro inmediatamente.",
-        "de": "Die Schottische Partie ist 1.e4 e5 2.Sf3 Sc6 3.d4 und öffnet sofort das Zentrum.",
-        "nl": "Het Schots spel is 1.e4 e5 2.Pf3 Pc6 3.d4, opent het centrum onmiddellijk."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the French Defense?",
-        "es": "¿Qué es la Defensa Francesa?",
-        "de": "Was ist die Französische Verteidigung?",
-        "nl": "Wat is de Franse verdediging?"
-      },
-      "options": [
-        {"en": "1.e4 e6", "es": "1.e4 e6", "de": "1.e4 e6", "nl": "1.e4 e6"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.e4 d5", "es": "1.e4 d5", "de": "1.e4 d5", "nl": "1.e4 d5"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The French Defense starts with 1.e4 e6, preparing to challenge White's center with d5.",
-        "es": "La Defensa Francesa comienza con 1.e4 e6, preparando desafiar el centro blanco con d5.",
-        "de": "Die Französische Verteidigung beginnt mit 1.e4 e6 und bereitet d5 vor.",
-        "nl": "De Franse verdediging begint met 1.e4 e6, voorbereidend om het witte centrum met d5 uit te dagen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a discovered attack?",
-        "es": "¿Qué es un ataque descubierto?",
-        "de": "Was ist ein Abzugsangriff?",
-        "nl": "Wat is een afgedekte aanval?"
-      },
-      "options": [
-        {"en": "Moving a piece to reveal an attack from another piece", "es": "Mover una pieza para revelar un ataque de otra pieza", "de": "Eine Figur bewegen um einen Angriff einer anderen Figur aufzudecken", "nl": "Een stuk verplaatsen om een aanval van een ander stuk te onthullen"},
-        {"en": "Finding a new move", "es": "Encontrar un nuevo movimiento", "de": "Einen neuen Zug finden", "nl": "Een nieuwe zet vinden"},
-        {"en": "Attacking the king", "es": "Atacar al rey", "de": "Den König angreifen", "nl": "De koning aanvallen"},
-        {"en": "Promoting a pawn", "es": "Promover un peón", "de": "Einen Bauern umwandeln", "nl": "Een pion promoveren"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A discovered attack occurs when moving one piece reveals an attack from another piece behind it.",
-        "es": "Un ataque descubierto ocurre cuando mover una pieza revela un ataque de otra pieza detrás.",
-        "de": "Ein Abzugsangriff entsteht, wenn das Bewegen einer Figur einen Angriff einer dahinter stehenden Figur aufdeckt.",
-        "nl": "Een afgedekte aanval ontstaat wanneer het verplaatsen van een stuk een aanval van een ander stuk erachter onthult."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Slav Defense?",
-        "es": "¿Qué es la Defensa Eslava?",
-        "de": "Was ist die Slawische Verteidigung?",
-        "nl": "Wat is de Slavische verdediging?"
-      },
-      "options": [
-        {"en": "1.d4 d5 2.c4 c6", "es": "1.d4 d5 2.c4 c6", "de": "1.d4 d5 2.c4 c6", "nl": "1.d4 d5 2.c4 c6"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.d4 Nf6", "es": "1.d4 Cf6", "de": "1.d4 Sf6", "nl": "1.d4 Pf6"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Slav Defense is 1.d4 d5 2.c4 c6, supporting the d5 pawn solidly.",
-        "es": "La Defensa Eslava es 1.d4 d5 2.c4 c6, apoyando sólidamente el peón d5.",
-        "de": "Die Slawische Verteidigung ist 1.d4 d5 2.c4 c6 und unterstützt den d5-Bauern solide.",
-        "nl": "De Slavische verdediging is 1.d4 d5 2.c4 c6, ondersteunt de d5-pion stevig."
-      }
-    },
-    {
-      "question": {
-        "en": "What is an X-ray in chess?",
-        "es": "¿Qué es un rayo X en ajedrez?",
-        "de": "Was ist ein Röntgenangriff im Schach?",
-        "nl": "Wat is een röntgenaanval bij schaken?"
-      },
-      "options": [
-        {"en": "Attacking through an enemy piece to a target behind it", "es": "Atacar a través de una pieza enemiga a un objetivo detrás", "de": "Durch eine gegnerische Figur auf ein Ziel dahinter angreifen", "nl": "Aanvallen door een vijandelijk stuk naar een doel erachter"},
-        {"en": "A medical check", "es": "Un chequeo médico", "de": "Eine medizinische Untersuchung", "nl": "Een medische controle"},
-        {"en": "Looking at the board", "es": "Mirar el tablero", "de": "Das Brett anschauen", "nl": "Naar het bord kijken"},
-        {"en": "A draw offer", "es": "Una oferta de tablas", "de": "Ein Remisangebot", "nl": "Een remise aanbod"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "An X-ray is when a piece attacks or defends through an enemy piece, as if seeing through it.",
-        "es": "Un rayo X es cuando una pieza ataca o defiende a través de una pieza enemiga, como si viera a través de ella.",
-        "de": "Ein Röntgenangriff ist, wenn eine Figur durch eine gegnerische Figur hindurch angreift oder verteidigt.",
-        "nl": "Een röntgenaanval is wanneer een stuk aanvalt of verdedigt door een vijandelijk stuk heen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Queen's Indian Defense?",
-        "es": "¿Qué es la Defensa India de Dama?",
-        "de": "Was ist die Damenindische Verteidigung?",
-        "nl": "Wat is de Dame-Indische verdediging?"
-      },
-      "options": [
-        {"en": "1.d4 Nf6 2.c4 e6 3.Nf3 b6", "es": "1.d4 Cf6 2.c4 e6 3.Cf3 b6", "de": "1.d4 Sf6 2.c4 e6 3.Sf3 b6", "nl": "1.d4 Pf6 2.c4 e6 3.Pf3 b6"},
-        {"en": "1.e4 e5", "es": "1.e4 e5", "de": "1.e4 e5", "nl": "1.e4 e5"},
-        {"en": "1.e4 c5", "es": "1.e4 c5", "de": "1.e4 c5", "nl": "1.e4 c5"},
-        {"en": "1.d4 d5", "es": "1.d4 d5", "de": "1.d4 d5", "nl": "1.d4 d5"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Queen's Indian Defense features fianchettoing the queenside bishop to control e4.",
-        "es": "La Defensa India de Dama presenta el fianchetto del alfil de dama para controlar e4.",
-        "de": "Die Damenindische Verteidigung fianchettiert den Damenläufer zur Kontrolle von e4.",
-        "nl": "De Dame-Indische verdediging fianchetteert de dameloper om e4 te controleren."
-      }
-    },
-    {
-      "question": {
-        "en": "What is interference in chess?",
-        "es": "¿Qué es la interferencia en ajedrez?",
-        "de": "Was ist Interferenz im Schach?",
-        "nl": "Wat is interferentie bij schaken?"
-      },
-      "options": [
-        {"en": "Blocking communication between enemy pieces", "es": "Bloquear la comunicación entre piezas enemigas", "de": "Die Verbindung zwischen gegnerischen Figuren blockieren", "nl": "Communicatie tussen vijandelijke stukken blokkeren"},
-        {"en": "Radio noise", "es": "Ruido de radio", "de": "Funkstörung", "nl": "Radio storing"},
-        {"en": "Talking during play", "es": "Hablar durante el juego", "de": "Während des Spiels sprechen", "nl": "Praten tijdens het spel"},
-        {"en": "Moving too fast", "es": "Mover demasiado rápido", "de": "Zu schnell ziehen", "nl": "Te snel zetten"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Interference occurs when a piece is placed to block the connection between enemy pieces.",
-        "es": "La interferencia ocurre cuando se coloca una pieza para bloquear la conexión entre piezas enemigas.",
-        "de": "Interferenz tritt auf, wenn eine Figur platziert wird, um die Verbindung zwischen gegnerischen Figuren zu blockieren.",
-        "nl": "Interferentie treedt op wanneer een stuk wordt geplaatst om de verbinding tussen vijandelijke stukken te blokkeren."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Lucena position?",
-        "es": "¿Qué es la posición de Lucena?",
-        "de": "Was ist die Lucena-Position?",
-        "nl": "Wat is de Lucena positie?"
-      },
-      "options": [
-        {"en": "A winning rook and pawn endgame technique", "es": "Una técnica ganadora de final de torre y peón", "de": "Eine gewinnende Turm- und Bauernendspiel-Technik", "nl": "Een winnende toren en pion eindspeltechniek"},
-        {"en": "An opening", "es": "Una apertura", "de": "Eine Eröffnung", "nl": "Een opening"},
-        {"en": "A draw", "es": "Tablas", "de": "Remis", "nl": "Remise"},
-        {"en": "A stalemate", "es": "Ahogado", "de": "Patt", "nl": "Pat"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Lucena position is a fundamental winning technique in rook and pawn endgames, building a bridge.",
-        "es": "La posición de Lucena es una técnica fundamental ganadora en finales de torre y peón, construyendo un puente.",
-        "de": "Die Lucena-Position ist eine fundamentale Gewinntechnik in Turm- und Bauernendspielen mit Brückenbau.",
-        "nl": "De Lucena positie is een fundamentele winnende techniek in toren- en pioneindspelen, met brugbouw."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a desperado piece?",
-        "es": "¿Qué es una pieza desesperada?",
-        "de": "Was ist eine Desperado-Figur?",
-        "nl": "Wat is een desperado stuk?"
-      },
-      "options": [
-        {"en": "A doomed piece that captures as much as possible before being taken", "es": "Una pieza condenada que captura lo máximo posible antes de ser tomada", "de": "Eine verlorene Figur die soviel wie möglich schlägt bevor sie genommen wird", "nl": "Een gedoemd stuk dat zoveel mogelijk slaat voordat het genomen wordt"},
-        {"en": "A cowboy piece", "es": "Una pieza vaquera", "de": "Eine Cowboy-Figur", "nl": "Een cowboy stuk"},
-        {"en": "A promoted pawn", "es": "Un peón promovido", "de": "Ein umgewandelter Bauer", "nl": "Een gepromoveerde pion"},
-        {"en": "The king", "es": "El rey", "de": "Der König", "nl": "De koning"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A desperado is a piece that's going to be captured anyway, so it takes as much material as possible first.",
-        "es": "Un desesperado es una pieza que será capturada de todos modos, así que toma tanto material como sea posible primero.",
-        "de": "Ein Desperado ist eine Figur die sowieso geschlagen wird und daher vorher soviel Material wie möglich schlägt.",
-        "nl": "Een desperado is een stuk dat toch geslagen wordt, dus slaat eerst zoveel mogelijk materiaal."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Philidor position?",
-        "es": "¿Qué es la posición de Philidor?",
-        "de": "Was ist die Philidor-Position?",
-        "nl": "Wat is de Philidor positie?"
-      },
-      "options": [
-        {"en": "A defensive drawing technique in rook endgames", "es": "Una técnica defensiva de tablas en finales de torre", "de": "Eine defensive Remistechnik in Turmendspielen", "nl": "Een verdedigende remise techniek in toreneindspelen"},
-        {"en": "An attacking formation", "es": "Una formación de ataque", "de": "Eine Angriffsformation", "nl": "Een aanvalsformatie"},
-        {"en": "A chess opening", "es": "Una apertura de ajedrez", "de": "Eine Schacheröffnung", "nl": "Een schaakopening"},
-        {"en": "A checkmate pattern", "es": "Un patrón de jaque mate", "de": "Ein Schachmattmuster", "nl": "Een schaakmat patroon"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Philidor position is a key defensive drawing technique in rook and pawn endgames.",
-        "es": "La posición de Philidor es una técnica defensiva clave de tablas en finales de torre y peón.",
-        "de": "Die Philidor-Position ist eine wichtige defensive Remistechnik in Turm- und Bauernendspielen.",
-        "nl": "De Philidor positie is een belangrijke verdedigende remise techniek in toren- en pioneindspelen."
-      }
-    },
-    {
-      "question": {
-        "en": "What does it mean to have the move?",
-        "es": "¿Qué significa tener el turno?",
-        "de": "Was bedeutet es, am Zug zu sein?",
-        "nl": "Wat betekent het om aan zet te zijn?"
-      },
-      "options": [
-        {"en": "It's your turn to play", "es": "Es tu turno de jugar", "de": "Du bist am Zug", "nl": "Het is jouw beurt om te zetten"},
-        {"en": "You can castle", "es": "Puedes enrocar", "de": "Du kannst rochieren", "nl": "Je kunt rokeren"},
-        {"en": "You have more pieces", "es": "Tienes más piezas", "de": "Du hast mehr Figuren", "nl": "Je hebt meer stukken"},
-        {"en": "You are winning", "es": "Estás ganando", "de": "Du gewinnst", "nl": "Je staat voor"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Having the move simply means it's your turn to make a move on the board.",
-        "es": "Tener el turno simplemente significa que es tu turno de hacer un movimiento en el tablero.",
-        "de": "Am Zug zu sein bedeutet einfach, dass du an der Reihe bist, einen Zug zu machen.",
-        "nl": "Aan zet zijn betekent simpelweg dat het jouw beurt is om een zet te doen."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a Greek gift sacrifice?",
-        "es": "¿Qué es el sacrificio del regalo griego?",
-        "de": "Was ist das griechische Geschenk?",
-        "nl": "Wat is het Griekse geschenkoffer?"
-      },
-      "options": [
-        {"en": "Bxh7+ sacrifice to attack the king", "es": "Sacrificio Axh7+ para atacar al rey", "de": "Lxh7+ Opfer zum Königsangriff", "nl": "Lxh7+ offer om de koning aan te vallen"},
-        {"en": "A present from Greece", "es": "Un regalo de Grecia", "de": "Ein Geschenk aus Griechenland", "nl": "Een cadeau uit Griekenland"},
-        {"en": "Trading queens", "es": "Intercambiar damas", "de": "Damen tauschen", "nl": "Dames ruilen"},
-        {"en": "A pawn promotion", "es": "Una promoción de peón", "de": "Eine Bauernumwandlung", "nl": "Een pionpromotie"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Greek gift is a classic bishop sacrifice on h7 (or h2) to expose the enemy king to attack.",
-        "es": "El regalo griego es un sacrificio clásico de alfil en h7 (o h2) para exponer al rey enemigo al ataque.",
-        "de": "Das griechische Geschenk ist ein klassisches Läuferopfer auf h7 (oder h2) um den König anzugreifen.",
-        "nl": "Het Griekse geschenk is een klassiek loperoffer op h7 (of h2) om de koning aan te vallen."
-      }
-    },
-    {
-      "question": {
-        "en": "What are hanging pawns?",
-        "es": "¿Qué son los peones colgantes?",
-        "de": "Was sind hängende Bauern?",
-        "nl": "Wat zijn hangende pionnen?"
-      },
-      "options": [
-        {"en": "Two adjacent pawns without pawn support", "es": "Dos peones adyacentes sin apoyo de peones", "de": "Zwei benachbarte Bauern ohne Bauernunterstützung", "nl": "Twee aangrenzende pionnen zonder pionsteun"},
-        {"en": "Pawns on ropes", "es": "Peones en cuerdas", "de": "Bauern an Seilen", "nl": "Pionnen aan touwen"},
-        {"en": "Promoted pawns", "es": "Peones promovidos", "de": "Umgewandelte Bauern", "nl": "Gepromoveerde pionnen"},
-        {"en": "Pawns in the center", "es": "Peones en el centro", "de": "Bauern im Zentrum", "nl": "Pionnen in het centrum"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Hanging pawns are two adjacent pawns on the same rank without pawn support, often on c4 and d4.",
-        "es": "Los peones colgantes son dos peones adyacentes en la misma fila sin apoyo de peones, a menudo en c4 y d4.",
-        "de": "Hängende Bauern sind zwei benachbarte Bauern auf derselben Reihe ohne Bauernunterstützung, oft auf c4 und d4.",
-        "nl": "Hangende pionnen zijn twee aangrenzende pionnen op dezelfde rij zonder pionsteun, vaak op c4 en d4."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the Maroczy Bind?",
-        "es": "¿Qué es la Atadura Maroczy?",
-        "de": "Was ist die Maroczy-Fesselung?",
-        "nl": "Wat is de Maroczy Bind?"
-      },
-      "options": [
-        {"en": "Pawns on c4 and e4 restricting Black's play", "es": "Peones en c4 y e4 restringiendo el juego negro", "de": "Bauern auf c4 und e4 die Schwarz einschränken", "nl": "Pionnen op c4 en e4 die zwart beperken"},
-        {"en": "A rope technique", "es": "Una técnica de cuerda", "de": "Eine Seiltechnik", "nl": "Een touwtechniek"},
-        {"en": "A chess clock", "es": "Un reloj de ajedrez", "de": "Eine Schachuhr", "nl": "Een schaakklok"},
-        {"en": "A tournament", "es": "Un torneo", "de": "Ein Turnier", "nl": "Een toernooi"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Maroczy Bind is a pawn structure with white pawns on c4 and e4, restricting Black's pawn breaks.",
-        "es": "La Atadura Maroczy es una estructura de peones con peones blancos en c4 y e4, restringiendo las rupturas negras.",
-        "de": "Die Maroczy-Fesselung ist eine Bauernstruktur mit weißen Bauern auf c4 und e4, die schwarze Durchbrüche einschränkt.",
-        "nl": "De Maroczy Bind is een pionnenstructuur met witte pionnen op c4 en e4, die zwarte doorbraken beperkt."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a fortress in chess?",
-        "es": "¿Qué es una fortaleza en ajedrez?",
-        "de": "Was ist eine Festung im Schach?",
-        "nl": "Wat is een vesting bij schaken?"
-      },
-      "options": [
-        {"en": "A defensive position that cannot be breached despite material disadvantage", "es": "Una posición defensiva que no puede ser penetrada a pesar de desventaja material", "de": "Eine defensive Position die trotz Materialnachteil nicht durchbrochen werden kann", "nl": "Een verdedigende positie die ondanks materiaal nadeel niet doorbroken kan worden"},
-        {"en": "A castle", "es": "Un castillo", "de": "Eine Burg", "nl": "Een kasteel"},
-        {"en": "The starting position", "es": "La posición inicial", "de": "Die Ausgangsstellung", "nl": "De startpositie"},
-        {"en": "A chess club", "es": "Un club de ajedrez", "de": "Ein Schachclub", "nl": "Een schaakclub"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "A fortress is a defensive setup where the weaker side creates an impregnable position to hold a draw.",
-        "es": "Una fortaleza es una configuración defensiva donde el lado más débil crea una posición impenetrable para mantener tablas.",
-        "de": "Eine Festung ist eine defensive Aufstellung, in der die schwächere Seite eine uneinnehmbare Position zum Remis schafft.",
-        "nl": "Een vesting is een verdedigende opstelling waar de zwakkere kant een onneembare positie creëert voor remise."
-      }
-    },
-    {
-      "question": {
-        "en": "What is tempo in chess?",
-        "es": "¿Qué es el tempo en ajedrez?",
-        "de": "Was ist Tempo im Schach?",
-        "nl": "Wat is tempo bij schaken?"
-      },
-      "options": [
-        {"en": "A unit of time representing one move", "es": "Una unidad de tiempo que representa un movimiento", "de": "Eine Zeiteinheit die einen Zug darstellt", "nl": "Een tijdseenheid die één zet voorstelt"},
-        {"en": "Music rhythm", "es": "Ritmo musical", "de": "Musikrhythmus", "nl": "Muziek ritme"},
-        {"en": "Speed of play", "es": "Velocidad de juego", "de": "Spielgeschwindigkeit", "nl": "Speelsnelheid"},
-        {"en": "Temperature", "es": "Temperatura", "de": "Temperatur", "nl": "Temperatuur"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Tempo is a turn or single move, gaining a tempo means making progress while forcing the opponent to respond.",
-        "es": "El tempo es un turno o movimiento único, ganar un tempo significa progresar mientras se fuerza al oponente a responder.",
-        "de": "Tempo ist ein Zug, ein Tempo gewinnen bedeutet Fortschritt machen während der Gegner reagieren muss.",
-        "nl": "Tempo is een beurt of enkele zet, een tempo winnen betekent vooruitgang boeken terwijl de tegenstander moet reageren."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the algebraic notation for castling kingside?",
-        "es": "¿Cuál es la notación algebraica para el enroque corto?",
-        "de": "Was ist die algebraische Notation für die kurze Rochade?",
-        "nl": "Wat is de algebraïsche notatie voor korte rokade?"
-      },
-      "options": [
-        {"en": "0-0", "es": "0-0", "de": "0-0", "nl": "0-0"},
-        {"en": "0-0-0", "es": "0-0-0", "de": "0-0-0", "nl": "0-0-0"},
-        {"en": "K-R", "es": "R-T", "de": "K-T", "nl": "K-T"},
-        {"en": "Kg1", "es": "Rg1", "de": "Kg1", "nl": "Kg1"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Kingside castling is written as 0-0 in algebraic notation, while queenside is 0-0-0.",
-        "es": "El enroque corto se escribe como 0-0 en notación algebraica, mientras que el largo es 0-0-0.",
-        "de": "Die kurze Rochade wird als 0-0 in algebraischer Notation geschrieben, die lange als 0-0-0.",
-        "nl": "Korte rokade wordt geschreven als 0-0 in algebraïsche notatie, lange rokade als 0-0-0."
-      }
-    },
-    {
-      "question": {
-        "en": "What is a blitz game?",
-        "es": "¿Qué es una partida relámpago?",
-        "de": "Was ist eine Blitzpartie?",
-        "nl": "Wat is een blitzpartij?"
-      },
-      "options": [
-        {"en": "A game with 3-5 minutes per player", "es": "Una partida con 3-5 minutos por jugador", "de": "Ein Spiel mit 3-5 Minuten pro Spieler", "nl": "Een partij met 3-5 minuten per speler"},
-        {"en": "A very long game", "es": "Una partida muy larga", "de": "Ein sehr langes Spiel", "nl": "Een zeer lange partij"},
-        {"en": "A drawn game", "es": "Una partida tablas", "de": "Eine Remispartie", "nl": "Een remise partij"},
-        {"en": "A perfect game", "es": "Una partida perfecta", "de": "Ein perfektes Spiel", "nl": "Een perfecte partij"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Blitz chess typically gives each player 3 to 5 minutes for the entire game.",
-        "es": "El ajedrez relámpago típicamente da a cada jugador 3 a 5 minutos para toda la partida.",
-        "de": "Blitzschach gibt jedem Spieler typischerweise 3 bis 5 Minuten für die gesamte Partie.",
-        "nl": "Blitzschaak geeft elke speler typisch 3 tot 5 minuten voor de hele partij."
-      }
-    },
-    {
-      "question": {
-        "en": "What is the touch-move rule?",
-        "es": "¿Qué es la regla de pieza tocada?",
-        "de": "Was ist die Berührung-Zug-Regel?",
-        "nl": "Wat is de aangeraakt-gezet regel?"
-      },
-      "options": [
-        {"en": "If you touch a piece, you must move it", "es": "Si tocas una pieza, debes moverla", "de": "Wenn du eine Figur berührst, musst du sie ziehen", "nl": "Als je een stuk aanraakt, moet je het zetten"},
-        {"en": "You can touch any piece", "es": "Puedes tocar cualquier pieza", "de": "Du kannst jede Figur berühren", "nl": "Je kunt elk stuk aanraken"},
-        {"en": "Moving quickly", "es": "Mover rápidamente", "de": "Schnell ziehen", "nl": "Snel zetten"},
-        {"en": "A type of opening", "es": "Un tipo de apertura", "de": "Eine Art Eröffnung", "nl": "Een soort opening"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The touch-move rule states that if you deliberately touch a piece, you must move it if it has a legal move.",
-        "es": "La regla de pieza tocada establece que si tocas deliberadamente una pieza, debes moverla si tiene un movimiento legal.",
-        "de": "Die Berührung-Zug-Regel besagt, dass wenn du eine Figur absichtlich berührst, du sie ziehen musst wenn sie einen legalen Zug hat.",
-        "nl": "De aangeraakt-gezet regel stelt dat als je opzettelijk een stuk aanraakt, je het moet zetten als het een legale zet heeft."
-      }
-    },
-    {
-      "question": {
-        "en": "Who was the first official World Chess Champion?",
-        "es": "¿Quién fue el primer Campeón Mundial oficial de Ajedrez?",
-        "de": "Wer war der erste offizielle Schachweltmeister?",
-        "nl": "Wie was de eerste officiële Wereldkampioen Schaken?"
-      },
-      "options": [
-        {"en": "Wilhelm Steinitz", "es": "Wilhelm Steinitz", "de": "Wilhelm Steinitz", "nl": "Wilhelm Steinitz"},
-        {"en": "Bobby Fischer", "es": "Bobby Fischer", "de": "Bobby Fischer", "nl": "Bobby Fischer"},
-        {"en": "Garry Kasparov", "es": "Garry Kasparov", "de": "Garry Kasparov", "nl": "Garry Kasparov"},
-        {"en": "Magnus Carlsen", "es": "Magnus Carlsen", "de": "Magnus Carlsen", "nl": "Magnus Carlsen"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Wilhelm Steinitz became the first official World Chess Champion in 1886.",
-        "es": "Wilhelm Steinitz se convirtió en el primer Campeón Mundial oficial de Ajedrez en 1886.",
-        "de": "Wilhelm Steinitz wurde 1886 der erste offizielle Schachweltmeister.",
-        "nl": "Wilhelm Steinitz werd in 1886 de eerste officiële Wereldkampioen Schaken."
-      }
-    },
-    {
-      "question": {
-        "en": "What is an isolated pawn?",
-        "es": "¿Qué es un peón aislado?",
-        "de": "Was ist ein isolierter Bauer?",
-        "nl": "Wat is een geïsoleerde pion?"
-      },
-      "options": [
-        {"en": "A pawn with no friendly pawns on adjacent files", "es": "Un peón sin peones amigos en columnas adyacentes", "de": "Ein Bauer ohne eigene Bauern auf benachbarten Linien", "nl": "Een pion zonder vriendelijke pionnen op aangrenzende lijnen"},
-        {"en": "A lonely pawn", "es": "Un peón solitario", "de": "Ein einsamer Bauer", "nl": "Een eenzame pion"},
-        {"en": "A pawn on an island", "es": "Un peón en una isla", "de": "Ein Bauer auf einer Insel", "nl": "Een pion op een eiland"},
-        {"en": "The last pawn", "es": "El último peón", "de": "Der letzte Bauer", "nl": "De laatste pion"}
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "An isolated pawn has no friendly pawns on adjacent files and cannot be defended by other pawns.",
-        "es": "Un peón aislado no tiene peones amigos en columnas adyacentes y no puede ser defendido por otros peones.",
-        "de": "Ein isolierter Bauer hat keine eigenen Bauern auf benachbarten Linien und kann nicht von anderen Bauern verteidigt werden.",
-        "nl": "Een geïsoleerde pion heeft geen vriendelijke pionnen op aangrenzende lijnen en kan niet door andere pionnen verdedigd worden."
-      }
-    }
-  ]
+    questions: [
+            {
+                    "question": {
+                            "en": "How many squares are on a chess board?",
+                            "es": "¿Cuántas casillas hay en un tablero de ajedrez?",
+                            "de": "Wie viele Felder hat ein Schachbrett?",
+                            "nl": "Hoeveel velden zijn er op een schaakbord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "64 squares",
+                                    "es": "64 casillas",
+                                    "de": "64 Felder",
+                                    "nl": "64 velden"
+                            },
+                            {
+                                    "en": "32 squares",
+                                    "es": "32 casillas",
+                                    "de": "32 Felder",
+                                    "nl": "32 velden"
+                            },
+                            {
+                                    "en": "48 squares",
+                                    "es": "48 casillas",
+                                    "de": "48 Felder",
+                                    "nl": "48 velden"
+                            },
+                            {
+                                    "en": "100 squares",
+                                    "es": "100 casillas",
+                                    "de": "100 Felder",
+                                    "nl": "100 velden"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A chess board has 64 squares arranged in an 8x8 grid, alternating between light and dark colors.",
+                            "es": "Un tablero de ajedrez tiene 64 casillas dispuestas en una cuadrícula de 8x8, alternando entre colores claros y oscuros.",
+                            "de": "Ein Schachbrett hat 64 Felder in einem 8x8-Gitter angeordnet, abwechselnd in hellen und dunklen Farben.",
+                            "nl": "Een schaakbord heeft 64 velden gerangschikt in een 8x8 raster, afwisselend in lichte en donkere kleuren."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which piece can only move diagonally?",
+                            "es": "¿Qué pieza solo puede moverse diagonalmente?",
+                            "de": "Welche Figur kann sich nur diagonal bewegen?",
+                            "nl": "Welk stuk kan alleen diagonaal bewegen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Bishop",
+                                    "es": "Alfil",
+                                    "de": "Läufer",
+                                    "nl": "Loper"
+                            },
+                            {
+                                    "en": "Rook",
+                                    "es": "Torre",
+                                    "de": "Turm",
+                                    "nl": "Toren"
+                            },
+                            {
+                                    "en": "Knight",
+                                    "es": "Caballo",
+                                    "de": "Springer",
+                                    "nl": "Paard"
+                            },
+                            {
+                                    "en": "Queen",
+                                    "es": "Reina",
+                                    "de": "Dame",
+                                    "nl": "Dame"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The bishop can only move diagonally, any number of squares, but cannot jump over other pieces.",
+                            "es": "El alfil solo puede moverse diagonalmente, cualquier número de casillas, pero no puede saltar sobre otras piezas.",
+                            "de": "Der Läufer kann sich nur diagonal bewegen, beliebig viele Felder, kann aber nicht über andere Figuren springen.",
+                            "nl": "De loper kan alleen diagonaal bewegen, een willekeurig aantal velden, maar kan niet over andere stukken springen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does the knight move?",
+                            "es": "¿Cómo se mueve el caballo?",
+                            "de": "Wie bewegt sich der Springer?",
+                            "nl": "Hoe beweegt het paard?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In an L-shape: 2 squares in one direction, then 1 perpendicular",
+                                    "es": "En forma de L: 2 casillas en una dirección, luego 1 perpendicular",
+                                    "de": "in L-Form: 2 Felder in eine Richtung, dann 1 senkrecht",
+                                    "nl": "in een L-vorm: 2 velden in één richting, dan 1 loodrecht"
+                            },
+                            {
+                                    "en": "Only diagonally",
+                                    "es": "Solo diagonalmente",
+                                    "de": "Nur diagonal",
+                                    "nl": "Alleen diagonaal"
+                            },
+                            {
+                                    "en": "Only straight lines",
+                                    "es": "Solo en líneas rectas",
+                                    "de": "Nur gerade Linien",
+                                    "nl": "Alleen rechte lijnen"
+                            },
+                            {
+                                    "en": "One square in any direction",
+                                    "es": "Una casilla en cualquier dirección",
+                                    "de": "Ein Feld in jede Richtung",
+                                    "nl": "Één veld in elke richting"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The knight moves in an L-shape: 2 squares vertically or horizontally, then 1 square perpendicular. It's the only piece that can jump over others.",
+                            "es": "El caballo se mueve en forma de L: 2 casillas vertical u horizontalmente, luego 1 casilla perpendicular. Es la única pieza que puede saltar sobre otras.",
+                            "de": "Der Springer bewegt sich in L-Form: 2 Felder vertikal oder horizontal, dann 1 Feld senkrecht. Er ist die einzige Figur, die über andere springen kann.",
+                            "nl": "Het paard beweegt in een L-vorm: 2 velden verticaal of horizontaal, dan 1 veld loodrecht. Het is het enige stuk dat over anderen kan springen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the objective of chess?",
+                            "es": "¿Cuál es el objetivo del ajedrez?",
+                            "de": "Was ist das Ziel des Schachs?",
+                            "nl": "Wat is het doel van schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "To checkmate the opponent's king",
+                                    "es": "Dar jaque mate al rey del oponente",
+                                    "de": "Den gegnerischen König schachmatt setzen",
+                                    "nl": "De koning van de tegenstander schaakmat zetten"
+                            },
+                            {
+                                    "en": "To capture all opponent's pieces",
+                                    "es": "Capturar todas las piezas del oponente",
+                                    "de": "Alle gegnerischen Figuren schlagen",
+                                    "nl": "Alle stukken van de tegenstander slaan"
+                            },
+                            {
+                                    "en": "To reach the other side",
+                                    "es": "Llegar al otro lado",
+                                    "de": "Die andere Seite erreichen",
+                                    "nl": "De andere kant bereiken"
+                            },
+                            {
+                                    "en": "To control the center",
+                                    "es": "Controlar el centro",
+                                    "de": "Das Zentrum kontrollieren",
+                                    "nl": "Het centrum controleren"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The objective of chess is to checkmate the opponent's king - placing it under attack with no legal move to escape capture.",
+                            "es": "El objetivo del ajedrez es dar jaque mate al rey del oponente - colocándolo bajo ataque sin movimiento legal para escapar de la captura.",
+                            "de": "Das Ziel des Schachs ist es, den gegnerischen König schachmatt zu setzen - ihn unter Angriff zu stellen ohne legalen Zug zur Flucht.",
+                            "nl": "Het doel van schaken is de koning van de tegenstander schaakmat te zetten - hem onder aanval plaatsen zonder legale zet om te ontsnappen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many pawns does each player start with?",
+                            "es": "¿Con cuántos peones empieza cada jugador?",
+                            "de": "Mit wie vielen Bauern startet jeder Spieler?",
+                            "nl": "Met hoeveel pionnen begint elke speler?"
+                    },
+                    "options": [
+                            {
+                                    "en": "8 pawns",
+                                    "es": "8 peones",
+                                    "de": "8 Bauern",
+                                    "nl": "8 pionnen"
+                            },
+                            {
+                                    "en": "6 pawns",
+                                    "es": "6 peones",
+                                    "de": "6 Bauern",
+                                    "nl": "6 pionnen"
+                            },
+                            {
+                                    "en": "10 pawns",
+                                    "es": "10 peones",
+                                    "de": "10 Bauern",
+                                    "nl": "10 pionnen"
+                            },
+                            {
+                                    "en": "12 pawns",
+                                    "es": "12 peones",
+                                    "de": "12 Bauern",
+                                    "nl": "12 pionnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Each player starts with 8 pawns, placed on the second rank (row) from their perspective at the beginning of the game.",
+                            "es": "Cada jugador comienza con 8 peones, colocados en la segunda fila desde su perspectiva al inicio del juego.",
+                            "de": "Jeder Spieler beginnt mit 8 Bauern, die auf der zweiten Reihe aus seiner Sicht zu Beginn des Spiels platziert sind.",
+                            "nl": "Elke speler begint met 8 pionnen, geplaatst op de tweede rij vanuit hun perspectief aan het begin van het spel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which piece is the most powerful?",
+                            "es": "¿Cuál es la pieza más poderosa?",
+                            "de": "Welche Figur ist die mächtigste?",
+                            "nl": "Welk stuk is het krachtigst?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Queen",
+                                    "es": "Reina",
+                                    "de": "Dame",
+                                    "nl": "Dame"
+                            },
+                            {
+                                    "en": "King",
+                                    "es": "Rey",
+                                    "de": "König",
+                                    "nl": "Koning"
+                            },
+                            {
+                                    "en": "Rook",
+                                    "es": "Torre",
+                                    "de": "Turm",
+                                    "nl": "Toren"
+                            },
+                            {
+                                    "en": "Knight",
+                                    "es": "Caballo",
+                                    "de": "Springer",
+                                    "nl": "Paard"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The queen is the most powerful piece, able to move any number of squares horizontally, vertically, or diagonally.",
+                            "es": "La reina es la pieza más poderosa, capaz de moverse cualquier número de casillas horizontal, vertical o diagonalmente.",
+                            "de": "Die Dame ist die mächtigste Figur, sie kann beliebig viele Felder horizontal, vertikal oder diagonal ziehen.",
+                            "nl": "De dame is het krachtigste stuk, ze kan een willekeurig aantal velden horizontaal, verticaal of diagonaal bewegen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is castling?",
+                            "es": "¿Qué es el enroque?",
+                            "de": "Was ist die Rochade?",
+                            "nl": "Wat is rokeren?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A special move involving the king and a rook",
+                                    "es": "Un movimiento especial que involucra al rey y una torre",
+                                    "de": "Ein Spezialzug mit König und Turm",
+                                    "nl": "Een speciale zet met de koning en een toren"
+                            },
+                            {
+                                    "en": "Promoting a pawn",
+                                    "es": "Promocionar un peón",
+                                    "de": "Einen Bauern umwandeln",
+                                    "nl": "Een pion promoveren"
+                            },
+                            {
+                                    "en": "Capturing en passant",
+                                    "es": "Captura al paso",
+                                    "de": "En passant schlagen",
+                                    "nl": "En passant slaan"
+                            },
+                            {
+                                    "en": "Moving the queen",
+                                    "es": "Mover la reina",
+                                    "de": "Die Dame bewegen",
+                                    "nl": "De dame bewegen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Castling is a special move where the king moves two squares toward a rook, and the rook moves to the square the king crossed over.",
+                            "es": "El enroque es un movimiento especial donde el rey se mueve dos casillas hacia una torre, y la torre se mueve a la casilla que el rey cruzó.",
+                            "de": "Die Rochade ist ein Spezialzug, bei dem der König zwei Felder auf einen Turm zu zieht und der Turm auf das Feld zieht, das der König überquert hat.",
+                            "nl": "Rokeren is een speciale zet waarbij de koning twee velden naar een toren beweegt, en de toren naar het veld beweegt dat de koning heeft overgestoken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How can a pawn capture?",
+                            "es": "¿Cómo puede capturar un peón?",
+                            "de": "Wie kann ein Bauer schlagen?",
+                            "nl": "Hoe kan een pion slaan?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Diagonally forward one square",
+                                    "es": "Diagonalmente hacia adelante una casilla",
+                                    "de": "Diagonal vorwärts ein Feld",
+                                    "nl": "Diagonaal vooruit één veld"
+                            },
+                            {
+                                    "en": "Straight forward",
+                                    "es": "Recto hacia adelante",
+                                    "de": "Gerade vorwärts",
+                                    "nl": "Recht vooruit"
+                            },
+                            {
+                                    "en": "Sideways",
+                                    "es": "Hacia los lados",
+                                    "de": "Seitwärts",
+                                    "nl": "Zijwaarts"
+                            },
+                            {
+                                    "en": "Backwards",
+                                    "es": "Hacia atrás",
+                                    "de": "Rückwärts",
+                                    "nl": "Achteruit"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pawns capture differently from how they move - they capture diagonally forward one square to either side.",
+                            "es": "Los peones capturan de manera diferente a como se mueven - capturan diagonalmente hacia adelante una casilla a cada lado.",
+                            "de": "Bauern schlagen anders als sie ziehen - sie schlagen diagonal vorwärts ein Feld zu beiden Seiten.",
+                            "nl": "Pionnen slaan anders dan ze bewegen - ze slaan diagonaal vooruit één veld naar beide zijden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What happens when a pawn reaches the opposite end of the board?",
+                            "es": "¿Qué sucede cuando un peón llega al extremo opuesto del tablero?",
+                            "de": "Was passiert, wenn ein Bauer das andere Ende des Bretts erreicht?",
+                            "nl": "Wat gebeurt er als een pion de overkant van het bord bereikt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "It must be promoted to a queen, rook, bishop, or knight",
+                                    "es": "Debe ser promocionado a reina, torre, alfil o caballo",
+                                    "de": "Er muss in Dame, Turm, Läufer oder Springer umgewandelt werden",
+                                    "nl": "Hij moet gepromoveerd worden tot dame, toren, loper of paard"
+                            },
+                            {
+                                    "en": "It wins the game",
+                                    "es": "Gana el juego",
+                                    "de": "Es gewinnt das Spiel",
+                                    "nl": "Het wint het spel"
+                            },
+                            {
+                                    "en": "It stays as a pawn",
+                                    "es": "Permanece como peón",
+                                    "de": "Er bleibt ein Bauer",
+                                    "nl": "Het blijft een pion"
+                            },
+                            {
+                                    "en": "It is removed from the board",
+                                    "es": "Se retira del tablero",
+                                    "de": "Er wird vom Brett entfernt",
+                                    "nl": "Het wordt van het bord verwijderd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "When a pawn reaches the eighth rank (the opposite end), it must be promoted to a queen, rook, bishop, or knight of the same color.",
+                            "es": "Cuando un peón alcanza la octava fila (el extremo opuesto), debe ser promocionado a reina, torre, alfil o caballo del mismo color.",
+                            "de": "Wenn ein Bauer die achte Reihe (das andere Ende) erreicht, muss er in Dame, Turm, Läufer oder Springer derselben Farbe umgewandelt werden.",
+                            "nl": "Wanneer een pion de achtste rij (de overkant) bereikt, moet hij gepromoveerd worden tot dame, toren, loper of paard van dezelfde kleur."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which color moves first in chess?",
+                            "es": "¿Qué color mueve primero en ajedrez?",
+                            "de": "Welche Farbe zieht zuerst im Schach?",
+                            "nl": "Welke kleur zet eerst in schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "White",
+                                    "es": "Blancas",
+                                    "de": "Weiß",
+                                    "nl": "Wit"
+                            },
+                            {
+                                    "en": "Black",
+                                    "es": "Negras",
+                                    "de": "Schwarz",
+                                    "nl": "Zwart"
+                            },
+                            {
+                                    "en": "Random choice",
+                                    "es": "Elección aleatoria",
+                                    "de": "Zufällige Wahl",
+                                    "nl": "Willekeurige keuze"
+                            },
+                            {
+                                    "en": "Winner of last game",
+                                    "es": "Ganador del último juego",
+                                    "de": "Gewinner des letzten Spiels",
+                                    "nl": "Winnaar van het laatste spel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "White always moves first in chess. This is a fundamental rule that has been standard for centuries.",
+                            "es": "Las blancas siempre mueven primero en ajedrez. Esta es una regla fundamental que ha sido estándar durante siglos.",
+                            "de": "Weiß zieht im Schach immer zuerst. Dies ist eine grundlegende Regel, die seit Jahrhunderten Standard ist.",
+                            "nl": "Wit zet altijd eerst in schaken. Dit is een fundamentele regel die al eeuwenlang standaard is."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does the rook move?",
+                            "es": "¿Cómo se mueve la torre?",
+                            "de": "Wie bewegt sich der Turm?",
+                            "nl": "Hoe beweegt de toren?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Horizontally or vertically, any number of squares",
+                                    "es": "Horizontal o verticalmente, cualquier número de casillas",
+                                    "de": "Horizontal oder vertikal, beliebig viele Felder",
+                                    "nl": "Horizontaal of verticaal, een willekeurig aantal velden"
+                            },
+                            {
+                                    "en": "Only diagonally",
+                                    "es": "Solo diagonalmente",
+                                    "de": "Nur diagonal",
+                                    "nl": "Alleen diagonaal"
+                            },
+                            {
+                                    "en": "In an L-shape",
+                                    "es": "En forma de L",
+                                    "de": "in L-Form",
+                                    "nl": "in een L-vorm"
+                            },
+                            {
+                                    "en": "One square in any direction",
+                                    "es": "Una casilla en cualquier dirección",
+                                    "de": "Ein Feld in jede Richtung",
+                                    "nl": "Één veld in elke richting"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The rook moves horizontally or vertically across any number of unoccupied squares. It cannot jump over pieces.",
+                            "es": "La torre se mueve horizontal o verticalmente a través de cualquier número de casillas desocupadas. No puede saltar sobre piezas.",
+                            "de": "Der Turm bewegt sich horizontal oder vertikal über beliebig viele freie Felder. Er kann nicht über Figuren springen.",
+                            "nl": "De toren beweegt horizontaal of verticaal over een willekeurig aantal vrije velden. Hij kan niet over stukken springen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'check' in chess?",
+                            "es": "¿Qué es 'jaque' en ajedrez?",
+                            "de": "Was ist 'Schach' im Schachspiel?",
+                            "nl": "Wat is 'schaak' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When the king is under direct attack",
+                                    "es": "Cuando el rey está bajo ataque directo",
+                                    "de": "Wenn der König direkt angegriffen wird",
+                                    "nl": "Wanneer de koning direct wordt aangevallen"
+                            },
+                            {
+                                    "en": "When you capture a piece",
+                                    "es": "Cuando capturas una pieza",
+                                    "de": "Wenn man eine Figur schlägt",
+                                    "nl": "Wanneer je een stuk slaat"
+                            },
+                            {
+                                    "en": "The end of the game",
+                                    "es": "El final del juego",
+                                    "de": "Das Ende des Spiels",
+                                    "nl": "Het einde van het spel"
+                            },
+                            {
+                                    "en": "A special move",
+                                    "es": "Un movimiento especial",
+                                    "de": "Ein Spezialzug",
+                                    "nl": "Een speciale zet"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Check occurs when the king is under direct attack by an opponent's piece. The player must immediately get out of check.",
+                            "es": "El jaque ocurre cuando el rey está bajo ataque directo de una pieza del oponente. El jugador debe salir inmediatamente del jaque.",
+                            "de": "Schach tritt auf, wenn der König direkt von einer gegnerischen Figur angegriffen wird. Der Spieler muss sofort das Schach abwehren.",
+                            "nl": "Schaak treedt op wanneer de koning direct wordt aangevallen door een stuk van de tegenstander. De speler moet direct uit schaak komen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many pieces does each player start with?",
+                            "es": "¿Con cuántas piezas empieza cada jugador?",
+                            "de": "Mit wie vielen Figuren startet jeder Spieler?",
+                            "nl": "Met hoeveel stukken begint elke speler?"
+                    },
+                    "options": [
+                            {
+                                    "en": "16 pieces",
+                                    "es": "16 piezas",
+                                    "de": "16 Figuren",
+                                    "nl": "16 stukken"
+                            },
+                            {
+                                    "en": "32 pieces",
+                                    "es": "32 piezas",
+                                    "de": "32 Figuren",
+                                    "nl": "32 stukken"
+                            },
+                            {
+                                    "en": "8 pieces",
+                                    "es": "8 piezas",
+                                    "de": "8 Figuren",
+                                    "nl": "8 stukken"
+                            },
+                            {
+                                    "en": "12 pieces",
+                                    "es": "12 piezas",
+                                    "de": "12 Figuren",
+                                    "nl": "12 stukken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Each player starts with 16 pieces: 8 pawns, 2 rooks, 2 knights, 2 bishops, 1 queen, and 1 king.",
+                            "es": "Cada jugador comienza con 16 piezas: 8 peones, 2 torres, 2 caballos, 2 alfiles, 1 reina y 1 rey.",
+                            "de": "Jeder Spieler beginnt mit 16 Figuren: 8 Bauern, 2 Türme, 2 Springer, 2 Läufer, 1 Dame und 1 König.",
+                            "nl": "Elke speler begint met 16 stukken: 8 pionnen, 2 torens, 2 paarden, 2 lopers, 1 dame en 1 koning."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a stalemate?",
+                            "es": "¿Qué es un ahogado?",
+                            "de": "Was ist ein Patt?",
+                            "nl": "Wat is een pat?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When a player has no legal moves and their king is not in check",
+                                    "es": "Cuando un jugador no tiene movimientos legales y su rey no está en jaque",
+                                    "de": "Wenn ein Spieler keine legalen Züge hat und sein König nicht im Schach steht",
+                                    "nl": "Wanneer een speler geen legale zetten heeft en zijn koning niet schaak staat"
+                            },
+                            {
+                                    "en": "When the king is captured",
+                                    "es": "Cuando el rey es capturado",
+                                    "de": "Wenn der König geschlagen wird",
+                                    "nl": "Wanneer de koning wordt geslagen"
+                            },
+                            {
+                                    "en": "When both players agree to draw",
+                                    "es": "Cuando ambos jugadores acuerdan tablas",
+                                    "de": "Wenn beide Spieler Remis vereinbaren",
+                                    "nl": "Wanneer beide spelers remise overeenkomen"
+                            },
+                            {
+                                    "en": "When time runs out",
+                                    "es": "Cuando se acaba el tiempo",
+                                    "de": "Wenn die Zeit abläuft",
+                                    "nl": "Wanneer de tijd op is"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A stalemate occurs when a player has no legal moves available and their king is not in check. The game ends in a draw.",
+                            "es": "Un ahogado ocurre cuando un jugador no tiene movimientos legales disponibles y su rey no está en jaque. El juego termina en tablas.",
+                            "de": "Ein Patt tritt auf, wenn ein Spieler keine legalen Züge hat und sein König nicht im Schach steht. Das Spiel endet remis.",
+                            "nl": "Een pat treedt op wanneer een speler geen legale zetten heeft en zijn koning niet schaak staat. Het spel eindigt in remise."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is the white king placed at the start?",
+                            "es": "¿Dónde se coloca el rey blanco al inicio?",
+                            "de": "Wo steht der weiße König zu Beginn?",
+                            "nl": "Waar staat de witte koning aan het begin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "On the e1 square",
+                                    "es": "En la casilla e1",
+                                    "de": "Auf dem Feld e1",
+                                    "nl": "Op het veld e1"
+                            },
+                            {
+                                    "en": "On the d1 square",
+                                    "es": "En la casilla d1",
+                                    "de": "Auf dem Feld d1",
+                                    "nl": "Op het veld d1"
+                            },
+                            {
+                                    "en": "On the f1 square",
+                                    "es": "En la casilla f1",
+                                    "de": "Auf dem Feld f1",
+                                    "nl": "Op het veld f1"
+                            },
+                            {
+                                    "en": "On the c1 square",
+                                    "es": "En la casilla c1",
+                                    "de": "Auf dem Feld c1",
+                                    "nl": "Op het veld c1"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The white king starts on square e1, while the white queen starts on d1. Remember: 'Queen on her color' - white queen on light square.",
+                            "es": "El rey blanco comienza en la casilla e1, mientras que la reina blanca comienza en d1. Recuerda: 'Reina en su color' - reina blanca en casilla clara.",
+                            "de": "Der weiße König beginnt auf Feld e1, während die weiße Dame auf d1 startet. Merke: 'Dame auf ihrer Farbe' - weiße Dame auf hellem Feld.",
+                            "nl": "De witte koning begint op veld e1, terwijl de witte dame op d1 begint. Onthoud: 'Dame op haar kleur' - witte dame op licht veld."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'en passant'?",
+                            "es": "¿Qué es 'al paso'?",
+                            "de": "Was ist 'en passant'?",
+                            "nl": "Wat is 'en passant'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A special pawn capture when an enemy pawn moves two squares forward",
+                                    "es": "Una captura especial de peón cuando un peón enemigo avanza dos casillas",
+                                    "de": "Ein spezieller Bauernschlag wenn ein feindlicher Bauer zwei Felder vorrückt",
+                                    "nl": "Een speciale pion slag wanneer een vijandelijke pion twee velden vooruit gaat"
+                            },
+                            {
+                                    "en": "Moving the king two squares",
+                                    "es": "Mover el rey dos casillas",
+                                    "de": "Den König zwei Felder bewegen",
+                                    "nl": "De koning twee velden bewegen"
+                            },
+                            {
+                                    "en": "Promoting a pawn",
+                                    "es": "Promocionar un peón",
+                                    "de": "Einen Bauern umwandeln",
+                                    "nl": "Een pion promoveren"
+                            },
+                            {
+                                    "en": "Capturing the queen",
+                                    "es": "Capturar la reina",
+                                    "de": "Die Dame schlagen",
+                                    "nl": "De dame slaan"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "En passant is a special pawn capture that can occur when an enemy pawn moves two squares forward from its starting position, passing an opposing pawn.",
+                            "es": "Al paso es una captura especial de peón que puede ocurrir cuando un peón enemigo avanza dos casillas desde su posición inicial, pasando un peón contrario.",
+                            "de": "En passant ist ein spezieller Bauernschlag, der erfolgen kann, wenn ein feindlicher Bauer zwei Felder aus seiner Grundstellung vorrückt und dabei einen gegnerischen Bauern passiert.",
+                            "nl": "En passant is een speciale pion slag die kan plaatsvinden wanneer een vijandelijke pion twee velden vooruit gaat vanuit zijn startpositie, langs een tegengestelde pion."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Can a king capture other pieces?",
+                            "es": "¿Puede un rey capturar otras piezas?",
+                            "de": "Kann ein König andere Figuren schlagen?",
+                            "nl": "Kan een koning andere stukken slaan?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Yes, if the piece is not defended",
+                                    "es": "Sí, si la pieza no está defendida",
+                                    "de": "Ja, wenn die Figur nicht verteidigt ist",
+                                    "nl": "Ja, als het stuk niet verdedigd wordt"
+                            },
+                            {
+                                    "en": "No, the king cannot capture",
+                                    "es": "No, el rey no puede capturar",
+                                    "de": "Nein, der König kann nicht schlagen",
+                                    "nl": "Nee, de koning kan niet slaan"
+                            },
+                            {
+                                    "en": "Only pawns",
+                                    "es": "Solo peones",
+                                    "de": "Nur Bauern",
+                                    "nl": "Alleen pionnen"
+                            },
+                            {
+                                    "en": "Only in endgames",
+                                    "es": "Solo en finales",
+                                    "de": "Nur im Endspiel",
+                                    "nl": "Alleen in het eindspel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The king can capture any undefended enemy piece that is one square away. However, the king cannot move into check.",
+                            "es": "El rey puede capturar cualquier pieza enemiga no defendida que esté a una casilla de distancia. Sin embargo, el rey no puede moverse a jaque.",
+                            "de": "Der König kann jede unverteidigte gegnerische Figur schlagen, die ein Feld entfernt ist. Der König darf sich jedoch nicht ins Schach bewegen.",
+                            "nl": "De koning kan elk onverdedigd vijandelijk stuk slaan dat één veld verwijderd is. De koning mag zich echter niet in schaak bewegen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does the king move?",
+                            "es": "¿Cómo se mueve el rey?",
+                            "de": "Wie bewegt sich der König?",
+                            "nl": "Hoe beweegt de koning?"
+                    },
+                    "options": [
+                            {
+                                    "en": "One square in any direction",
+                                    "es": "Una casilla en cualquier dirección",
+                                    "de": "Ein Feld in jede Richtung",
+                                    "nl": "Één veld in elke richting"
+                            },
+                            {
+                                    "en": "Two squares in any direction",
+                                    "es": "Dos casillas en cualquier dirección",
+                                    "de": "Zwei Felder in jede Richtung",
+                                    "nl": "Twee velden in elke richting"
+                            },
+                            {
+                                    "en": "Like a knight",
+                                    "es": "Como un caballo",
+                                    "de": "Wie ein Springer",
+                                    "nl": "Als een paard"
+                            },
+                            {
+                                    "en": "Only forward",
+                                    "es": "Solo hacia adelante",
+                                    "de": "Nur vorwärts",
+                                    "nl": "Alleen vooruit"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The king moves exactly one square in any direction: horizontally, vertically, or diagonally, as long as the square is not under attack.",
+                            "es": "El rey se mueve exactamente una casilla en cualquier dirección: horizontal, vertical o diagonal, siempre que la casilla no esté bajo ataque.",
+                            "de": "Der König bewegt sich genau ein Feld in jede Richtung: horizontal, vertikal oder diagonal, solange das Feld nicht angegriffen wird.",
+                            "nl": "De koning beweegt precies één veld in elke richting: horizontaal, verticaal of diagonaal, zolang het veld niet wordt aangevallen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a draw in chess?",
+                            "es": "¿Qué son las tablas en ajedrez?",
+                            "de": "Was ist ein Remis im Schach?",
+                            "nl": "Wat is remise bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When neither player wins and the game ends in a tie",
+                                    "es": "Cuando ningún jugador gana y el juego termina en empate",
+                                    "de": "Wenn kein Spieler gewinnt und das Spiel unentschieden endet",
+                                    "nl": "Wanneer geen speler wint en het spel in gelijkspel eindigt"
+                            },
+                            {
+                                    "en": "When both kings are captured",
+                                    "es": "Cuando ambos reyes son capturados",
+                                    "de": "Wenn beide Könige geschlagen werden",
+                                    "nl": "Wanneer beide koningen worden geslagen"
+                            },
+                            {
+                                    "en": "When time runs out",
+                                    "es": "Cuando se acaba el tiempo",
+                                    "de": "Wenn die Zeit abläuft",
+                                    "nl": "Wanneer de tijd op is"
+                            },
+                            {
+                                    "en": "When a player gives up",
+                                    "es": "Cuando un jugador se rinde",
+                                    "de": "Wenn ein Spieler aufgibt",
+                                    "nl": "Wanneer een speler opgeeft"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A draw is when the game ends without a winner. This can happen through stalemate, insufficient material, threefold repetition, or mutual agreement.",
+                            "es": "Las tablas ocurren cuando el juego termina sin ganador. Esto puede suceder por ahogado, material insuficiente, repetición triple o acuerdo mutuo.",
+                            "de": "Ein Remis ist, wenn das Spiel ohne Sieger endet. Dies kann durch Patt, unzureichendes Material, dreifache Stellungswiederholung oder gegenseitige Vereinbarung geschehen.",
+                            "nl": "Remise is wanneer het spel zonder winnaar eindigt. Dit kan gebeuren door pat, onvoldoende materiaal, drievoudige herhaling of wederzijdse overeenstemming."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which pieces start in the corners of the board?",
+                            "es": "¿Qué piezas comienzan en las esquinas del tablero?",
+                            "de": "Welche Figuren stehen zu Beginn in den Ecken des Bretts?",
+                            "nl": "Welke stukken beginnen in de hoeken van het bord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Rooks",
+                                    "es": "Torres",
+                                    "de": "Türme",
+                                    "nl": "Torens"
+                            },
+                            {
+                                    "en": "Knights",
+                                    "es": "Caballos",
+                                    "de": "Springer",
+                                    "nl": "Paarden"
+                            },
+                            {
+                                    "en": "Bishops",
+                                    "es": "Alfiles",
+                                    "de": "Läufer",
+                                    "nl": "Lopers"
+                            },
+                            {
+                                    "en": "Pawns",
+                                    "es": "Peones",
+                                    "de": "Bauern",
+                                    "nl": "Pionnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Rooks start in the corners of the board (a1, h1 for white and a8, h8 for black). They are major pieces worth about 5 pawns each.",
+                            "es": "Las torres comienzan en las esquinas del tablero (a1, h1 para blancas y a8, h8 para negras). Son piezas mayores que valen unos 5 peones cada una.",
+                            "de": "Türme stehen zu Beginn in den Ecken des Bretts (a1, h1 für Weiß und a8, h8 für Schwarz). Sie sind Schwerfiguren im Wert von etwa 5 Bauern.",
+                            "nl": "Torens beginnen in de hoeken van het bord (a1, h1 voor wit en a8, h8 voor zwart). Het zijn zware stukken met een waarde van ongeveer 5 pionnen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the starting position of the board called?",
+                            "es": "¿Cómo se llama la posición inicial del tablero?",
+                            "de": "Wie nennt man die Anfangsstellung des Bretts?",
+                            "nl": "Hoe heet de startpositie van het bord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The initial position or starting position",
+                                    "es": "La posición inicial o posición de inicio",
+                                    "de": "Die Anfangsstellung oder Grundstellung",
+                                    "nl": "De beginopstelling of startpositie"
+                            },
+                            {
+                                    "en": "The opening",
+                                    "es": "La apertura",
+                                    "de": "Die Eröffnung",
+                                    "nl": "De opening"
+                            },
+                            {
+                                    "en": "The setup",
+                                    "es": "La configuración",
+                                    "de": "Die Aufstellung",
+                                    "nl": "De opstelling"
+                            },
+                            {
+                                    "en": "The beginning",
+                                    "es": "El comienzo",
+                                    "de": "Der Anfang",
+                                    "nl": "Het begin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The starting arrangement of pieces is called the initial position or starting position, with all pieces placed in their designated squares.",
+                            "es": "La disposición inicial de las piezas se llama posición inicial o posición de inicio, con todas las piezas colocadas en sus casillas designadas.",
+                            "de": "Die Startaufstellung der Figuren nennt man Anfangsstellung oder Grundstellung, wobei alle Figuren auf ihren festgelegten Feldern stehen.",
+                            "nl": "De startopstelling van de stukken heet de beginopstelling of startpositie, met alle stukken op hun aangewezen velden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What happens when a pawn reaches the opposite end of the board?",
+                            "es": "¿Qué sucede cuando un peón llega al extremo opuesto del tablero?",
+                            "de": "Was passiert, wenn ein Bauer das gegenüberliegende Ende des Bretts erreicht?",
+                            "nl": "Wat gebeurt er als een pion het andere einde van het bord bereikt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "It must be promoted to another piece",
+                                    "es": "Debe ser promocionado a otra pieza",
+                                    "de": "Er muss in eine andere Figur umgewandelt werden",
+                                    "nl": "Hij moet worden gepromoveerd tot een ander stuk"
+                            },
+                            {
+                                    "en": "It wins the game",
+                                    "es": "Gana el juego",
+                                    "de": "Er gewinnt das Spiel",
+                                    "nl": "Hij wint het spel"
+                            },
+                            {
+                                    "en": "It stays as a pawn",
+                                    "es": "Permanece como peón",
+                                    "de": "Er bleibt ein Bauer",
+                                    "nl": "Hij blijft een pion"
+                            },
+                            {
+                                    "en": "It is removed from the board",
+                                    "es": "Se retira del tablero",
+                                    "de": "Er wird vom Brett entfernt",
+                                    "nl": "Hij wordt van het bord verwijderd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "When a pawn reaches the 8th rank (opposite end), it must be promoted to a queen, rook, bishop, or knight - usually a queen.",
+                            "es": "Cuando un peón alcanza la 8ª fila (extremo opuesto), debe ser promocionado a reina, torre, alfil o caballo - generalmente una reina.",
+                            "de": "Wenn ein Bauer die 8. Reihe (gegenüberliegendes Ende) erreicht, muss er in Dame, Turm, Läufer oder Springer umgewandelt werden - meist eine Dame.",
+                            "nl": "Wanneer een pion de 8e rij (andere einde) bereikt, moet hij worden gepromoveerd tot dame, toren, loper of paard - meestal een dame."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which file (column) is labeled 'a' on the chess board?",
+                            "es": "¿Qué columna está etiquetada como 'a' en el tablero de ajedrez?",
+                            "de": "Welche Linie (Spalte) ist auf dem Schachbrett mit 'a' bezeichnet?",
+                            "nl": "Welke lijn (kolom) is gelabeld als 'a' op het schaakbord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The leftmost file from white's perspective",
+                                    "es": "La columna más a la izquierda desde la perspectiva de las blancas",
+                                    "de": "Die Linie ganz links aus Sicht von Weiß",
+                                    "nl": "De meest linkse lijn vanuit het perspectief van wit"
+                            },
+                            {
+                                    "en": "The rightmost file",
+                                    "es": "La columna más a la derecha",
+                                    "de": "Die Linie ganz rechts",
+                                    "nl": "De meest rechtse lijn"
+                            },
+                            {
+                                    "en": "The center file",
+                                    "es": "La columna central",
+                                    "de": "Die mittlere Linie",
+                                    "nl": "De middelste lijn"
+                            },
+                            {
+                                    "en": "The second file from left",
+                                    "es": "La segunda columna desde la izquierda",
+                                    "de": "Die zweite Linie von links",
+                                    "nl": "De tweede lijn van links"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Files are labeled a-h from left to right when viewed from white's perspective. The 'a' file is on white's left side.",
+                            "es": "Las columnas se etiquetan de a-h de izquierda a derecha vistas desde la perspectiva de las blancas. La columna 'a' está en el lado izquierdo de las blancas.",
+                            "de": "Linien werden von a-h von links nach rechts aus Sicht von Weiß bezeichnet. Die 'a'-Linie ist auf der linken Seite von Weiß.",
+                            "nl": "Lijnen worden gelabeld van a-h van links naar rechts gezien vanuit het perspectief van wit. De 'a'-lijn is aan de linkerkant van wit."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the value of a queen in terms of pawns?",
+                            "es": "¿Cuál es el valor de una reina en términos de peones?",
+                            "de": "Was ist der Wert einer Dame in Bauerneinheiten?",
+                            "nl": "Wat is de waarde van een dame in termen van pionnen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "About 9 pawns",
+                                    "es": "Aproximadamente 9 peones",
+                                    "de": "Etwa 9 Bauern",
+                                    "nl": "Ongeveer 9 pionnen"
+                            },
+                            {
+                                    "en": "About 5 pawns",
+                                    "es": "Aproximadamente 5 peones",
+                                    "de": "Etwa 5 Bauern",
+                                    "nl": "Ongeveer 5 pionnen"
+                            },
+                            {
+                                    "en": "About 3 pawns",
+                                    "es": "Aproximadamente 3 peones",
+                                    "de": "Etwa 3 Bauern",
+                                    "nl": "Ongeveer 3 pionnen"
+                            },
+                            {
+                                    "en": "About 15 pawns",
+                                    "es": "Aproximadamente 15 peones",
+                                    "de": "Etwa 15 Bauern",
+                                    "nl": "Ongeveer 15 pionnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The queen is valued at approximately 9 pawns, making it the most powerful piece. Rooks are worth 5, bishops and knights 3 each.",
+                            "es": "La reina vale aproximadamente 9 peones, lo que la convierte en la pieza más poderosa. Las torres valen 5, alfiles y caballos 3 cada uno.",
+                            "de": "Die Dame hat einen Wert von etwa 9 Bauern und ist damit die stärkste Figur. Türme sind 5 wert, Läufer und Springer je 3.",
+                            "nl": "De dame is ongeveer 9 pionnen waard, wat haar het krachtigste stuk maakt. Torens zijn 5 waard, lopers en paarden elk 3."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the term for the rows on a chess board?",
+                            "es": "¿Cuál es el término para las filas en un tablero de ajedrez?",
+                            "de": "Wie nennt man die Reihen auf einem Schachbrett?",
+                            "nl": "Wat is de term voor de rijen op een schaakbord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ranks",
+                                    "es": "Filas",
+                                    "de": "Reihen",
+                                    "nl": "Rijen"
+                            },
+                            {
+                                    "en": "Files",
+                                    "es": "Columnas",
+                                    "de": "Linien",
+                                    "nl": "Lijnen"
+                            },
+                            {
+                                    "en": "Diagonals",
+                                    "es": "Diagonales",
+                                    "de": "Diagonalen",
+                                    "nl": "Diagonalen"
+                            },
+                            {
+                                    "en": "Lines",
+                                    "es": "Líneas",
+                                    "de": "Linien",
+                                    "nl": "Lijnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The horizontal rows are called ranks (numbered 1-8), while the vertical columns are called files (labeled a-h).",
+                            "es": "Las filas horizontales se llaman filas (numeradas 1-8), mientras que las columnas verticales se llaman columnas (etiquetadas a-h).",
+                            "de": "Die horizontalen Reihen heißen Reihen (nummeriert 1-8), während die vertikalen Spalten Linien (bezeichnet a-h) genannt werden.",
+                            "nl": "De horizontale rijen heten rijen (genummerd 1-8), terwijl de verticale kolommen lijnen (gelabeld a-h) worden genoemd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Can pawns move backwards?",
+                            "es": "¿Pueden los peones moverse hacia atrás?",
+                            "de": "Können Bauern rückwärts ziehen?",
+                            "nl": "Kunnen pionnen achteruit bewegen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "No, pawns can only move forward",
+                                    "es": "No, los peones solo pueden avanzar",
+                                    "de": "Nein, Bauern können nur vorwärts ziehen",
+                                    "nl": "Nee, pionnen kunnen alleen vooruit"
+                            },
+                            {
+                                    "en": "Yes, one square backwards",
+                                    "es": "Sí, una casilla hacia atrás",
+                                    "de": "Ja, ein Feld rückwärts",
+                                    "nl": "Ja, één veld achteruit"
+                            },
+                            {
+                                    "en": "Only when capturing",
+                                    "es": "Solo al capturar",
+                                    "de": "Nur beim Schlagen",
+                                    "nl": "Alleen bij slaan"
+                            },
+                            {
+                                    "en": "Only in the endgame",
+                                    "es": "Solo en el final",
+                                    "de": "Nur im Endspiel",
+                                    "nl": "Alleen in het eindspel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pawns are the only pieces that cannot move backwards. They can only move forward, making pawn moves irreversible decisions.",
+                            "es": "Los peones son las únicas piezas que no pueden retroceder. Solo pueden avanzar, haciendo los movimientos de peón decisiones irreversibles.",
+                            "de": "Bauern sind die einzigen Figuren, die nicht rückwärts ziehen können. Sie können nur vorwärts ziehen, was Bauernzüge zu unwiderruflichen Entscheidungen macht.",
+                            "nl": "Pionnen zijn de enige stukken die niet achteruit kunnen bewegen. Ze kunnen alleen vooruit, waardoor pionzetten onomkeerbare beslissingen zijn."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 50-move rule?",
+                            "es": "¿Qué es la regla de los 50 movimientos?",
+                            "de": "Was ist die 50-Züge-Regel?",
+                            "nl": "Wat is de 50-zetten regel?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A draw can be claimed after 50 moves without a pawn move or capture",
+                                    "es": "Se puede reclamar tablas después de 50 movimientos sin mover un peón o captura",
+                                    "de": "Remis kann nach 50 Zügen ohne Bauernzug oder Schlag beansprucht werden",
+                                    "nl": "Remise kan worden geclaimd na 50 zetten zonder pionzet of slag"
+                            },
+                            {
+                                    "en": "The game ends after 50 moves",
+                                    "es": "El juego termina después de 50 movimientos",
+                                    "de": "Das Spiel endet nach 50 Zügen",
+                                    "nl": "Het spel eindigt na 50 zetten"
+                            },
+                            {
+                                    "en": "You must move within 50 seconds",
+                                    "es": "Debes mover en 50 segundos",
+                                    "de": "Man muss innerhalb von 50 Sekunden ziehen",
+                                    "nl": "Je moet binnen 50 seconden zetten"
+                            },
+                            {
+                                    "en": "Each player gets 50 moves total",
+                                    "es": "Cada jugador tiene 50 movimientos en total",
+                                    "de": "Jeder Spieler hat insgesamt 50 Züge",
+                                    "nl": "Elke speler krijgt 50 zetten totaal"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The 50-move rule allows a player to claim a draw if 50 moves have been made by both players without any pawn moves or captures.",
+                            "es": "La regla de los 50 movimientos permite a un jugador reclamar tablas si ambos jugadores han hecho 50 movimientos sin mover peones o capturas.",
+                            "de": "Die 50-Züge-Regel erlaubt es einem Spieler, Remis zu beanspruchen, wenn beide Spieler 50 Züge ohne Bauernzüge oder Schläge gemacht haben.",
+                            "nl": "De 50-zetten regel staat een speler toe remise te claimen als beide spelers 50 zetten hebben gedaan zonder pionzetten of slagen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'resignation' mean in chess?",
+                            "es": "¿Qué significa 'rendirse' en ajedrez?",
+                            "de": "Was bedeutet 'Aufgabe' im Schach?",
+                            "nl": "Wat betekent 'opgeven' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A player voluntarily gives up and loses the game",
+                                    "es": "Un jugador se rinde voluntariamente y pierde el juego",
+                                    "de": "Ein Spieler gibt freiwillig auf und verliert das Spiel",
+                                    "nl": "Een speler geeft vrijwillig op en verliest het spel"
+                            },
+                            {
+                                    "en": "The game is paused",
+                                    "es": "El juego se pausa",
+                                    "de": "Das Spiel wird pausiert",
+                                    "nl": "Het spel wordt gepauzeerd"
+                            },
+                            {
+                                    "en": "The game restarts",
+                                    "es": "El juego se reinicia",
+                                    "de": "Das Spiel startet neu",
+                                    "nl": "Het spel herstart"
+                            },
+                            {
+                                    "en": "A draw is agreed",
+                                    "es": "Se acuerdan tablas",
+                                    "de": "Remis wird vereinbart",
+                                    "nl": "Remise wordt overeengekomen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Resignation occurs when a player voluntarily gives up the game, typically by tipping over their king or saying 'I resign'. This results in a loss.",
+                            "es": "La rendición ocurre cuando un jugador abandona voluntariamente el juego, típicamente volteando su rey o diciendo 'Me rindo'. Esto resulta en una derrota.",
+                            "de": "Aufgabe erfolgt, wenn ein Spieler das Spiel freiwillig aufgibt, typischerweise durch Umlegen des Königs oder mit den Worten 'Ich gebe auf'. Dies führt zu einer Niederlage.",
+                            "nl": "Opgeven gebeurt wanneer een speler vrijwillig het spel opgeeft, meestal door de koning om te leggen of 'Ik geef op' te zeggen. Dit resulteert in verlies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which piece is worth approximately 3 pawns?",
+                            "es": "¿Qué pieza vale aproximadamente 3 peones?",
+                            "de": "Welche Figur ist etwa 3 Bauern wert?",
+                            "nl": "Welk stuk is ongeveer 3 pionnen waard?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Bishop or Knight",
+                                    "es": "Alfil o Caballo",
+                                    "de": "Läufer oder Springer",
+                                    "nl": "Loper of Paard"
+                            },
+                            {
+                                    "en": "Rook",
+                                    "es": "Torre",
+                                    "de": "Turm",
+                                    "nl": "Toren"
+                            },
+                            {
+                                    "en": "Queen",
+                                    "es": "Reina",
+                                    "de": "Dame",
+                                    "nl": "Dame"
+                            },
+                            {
+                                    "en": "King",
+                                    "es": "Rey",
+                                    "de": "König",
+                                    "nl": "Koning"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Both bishops and knights are valued at approximately 3 pawns each. They are considered minor pieces of roughly equal value.",
+                            "es": "Tanto los alfiles como los caballos valen aproximadamente 3 peones cada uno. Se consideran piezas menores de valor aproximadamente igual.",
+                            "de": "Sowohl Läufer als auch Springer haben einen Wert von etwa 3 Bauern. Sie gelten als Leichtfiguren von ungefähr gleichem Wert.",
+                            "nl": "Zowel lopers als paarden zijn ongeveer 3 pionnen waard. Ze worden beschouwd als lichte stukken van ongeveer gelijke waarde."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the center of the chess board?",
+                            "es": "¿Cuál es el centro del tablero de ajedrez?",
+                            "de": "Was ist das Zentrum des Schachbretts?",
+                            "nl": "Wat is het centrum van het schaakbord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The four central squares: e4, e5, d4, d5",
+                                    "es": "Las cuatro casillas centrales: e4, e5, d4, d5",
+                                    "de": "Die vier zentralen Felder: e4, e5, d4, d5",
+                                    "nl": "De vier centrale velden: e4, e5, d4, d5"
+                            },
+                            {
+                                    "en": "The entire middle area",
+                                    "es": "Toda el área central",
+                                    "de": "Der gesamte mittlere Bereich",
+                                    "nl": "Het hele middengebied"
+                            },
+                            {
+                                    "en": "Squares c3 to f6",
+                                    "es": "Casillas c3 a f6",
+                                    "de": "Felder c3 bis f6",
+                                    "nl": "Velden c3 tot f6"
+                            },
+                            {
+                                    "en": "The 4th and 5th ranks",
+                                    "es": "Las filas 4 y 5",
+                                    "de": "Die 4. und 5. Reihe",
+                                    "nl": "De 4e en 5e rijen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The center consists of the four squares e4, e5, d4, and d5. Controlling the center is a fundamental strategic principle in chess.",
+                            "es": "El centro consiste en las cuatro casillas e4, e5, d4 y d5. Controlar el centro es un principio estratégico fundamental en ajedrez.",
+                            "de": "Das Zentrum besteht aus den vier Feldern e4, e5, d4 und d5. Die Kontrolle des Zentrums ist ein grundlegendes strategisches Prinzip im Schach.",
+                            "nl": "Het centrum bestaat uit de vier velden e4, e5, d4 en d5. Het controleren van het centrum is een fundamenteel strategisch principe in schaken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What color square is a1?",
+                            "es": "¿De qué color es la casilla a1?",
+                            "de": "Welche Farbe hat das Feld a1?",
+                            "nl": "Welke kleur heeft veld a1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Dark square",
+                                    "es": "Casilla oscura",
+                                    "de": "Dunkles Feld",
+                                    "nl": "Donker veld"
+                            },
+                            {
+                                    "en": "Light square",
+                                    "es": "Casilla clara",
+                                    "de": "Helles Feld",
+                                    "nl": "Licht veld"
+                            },
+                            {
+                                    "en": "It varies",
+                                    "es": "Varía",
+                                    "de": "Es variiert",
+                                    "nl": "Het varieert"
+                            },
+                            {
+                                    "en": "Always white",
+                                    "es": "Siempre blanca",
+                                    "de": "Immer weiß",
+                                    "nl": "Altijd wit"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The a1 square is always a dark square. The board is oriented so that each player has a light square on their right corner.",
+                            "es": "La casilla a1 siempre es una casilla oscura. El tablero se orienta para que cada jugador tenga una casilla clara en su esquina derecha.",
+                            "de": "Das Feld a1 ist immer ein dunkles Feld. Das Brett wird so ausgerichtet, dass jeder Spieler ein helles Feld in seiner rechten Ecke hat.",
+                            "nl": "Het veld a1 is altijd een donker veld. Het bord wordt zo georiënteerd dat elke speler een licht veld in zijn rechterhoek heeft."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'fork' in chess?",
+                            "es": "¿Qué es un 'tenedor' en ajedrez?",
+                            "de": "Was ist eine 'Gabel' im Schach?",
+                            "nl": "Wat is een 'vork' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When one piece attacks two or more enemy pieces at once",
+                                    "es": "Cuando una pieza ataca dos o más piezas enemigas a la vez",
+                                    "de": "Wenn eine Figur zwei oder mehr gegnerische Figuren gleichzeitig angreift",
+                                    "nl": "Wanneer één stuk twee of meer vijandelijke stukken tegelijk aanvalt"
+                            },
+                            {
+                                    "en": "A type of opening",
+                                    "es": "Un tipo de apertura",
+                                    "de": "Eine Art von Eröffnung",
+                                    "nl": "Een type opening"
+                            },
+                            {
+                                    "en": "A defensive move",
+                                    "es": "Un movimiento defensivo",
+                                    "de": "Ein Verteidigungszug",
+                                    "nl": "Een verdedigende zet"
+                            },
+                            {
+                                    "en": "An endgame position",
+                                    "es": "Una posición de final",
+                                    "de": "Eine Endspielstellung",
+                                    "nl": "Een eindspelpositie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A fork occurs when a single piece attacks two or more of the opponent's pieces simultaneously, forcing them to save only one.",
+                            "es": "Un tenedor ocurre cuando una sola pieza ataca dos o más piezas del oponente simultáneamente, forzándolo a salvar solo una.",
+                            "de": "Eine Gabel entsteht, wenn eine einzelne Figur zwei oder mehr gegnerische Figuren gleichzeitig angreift und der Gegner nur eine retten kann.",
+                            "nl": "Een vork ontstaat wanneer een enkel stuk twee of meer stukken van de tegenstander tegelijkertijd aanvalt, waardoor hij er maar één kan redden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many bishops does each player start with?",
+                            "es": "¿Con cuántos alfiles comienza cada jugador?",
+                            "de": "Mit wie vielen Läufern startet jeder Spieler?",
+                            "nl": "Met hoeveel lopers begint elke speler?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2 bishops",
+                                    "es": "2 alfiles",
+                                    "de": "2 Läufer",
+                                    "nl": "2 lopers"
+                            },
+                            {
+                                    "en": "1 bishop",
+                                    "es": "1 alfil",
+                                    "de": "1 Läufer",
+                                    "nl": "1 loper"
+                            },
+                            {
+                                    "en": "3 bishops",
+                                    "es": "3 alfiles",
+                                    "de": "3 Läufer",
+                                    "nl": "3 lopers"
+                            },
+                            {
+                                    "en": "4 bishops",
+                                    "es": "4 alfiles",
+                                    "de": "4 Läufer",
+                                    "nl": "4 lopers"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Each player starts with 2 bishops - one on a light square (c1/f1 for white) and one on a dark square.",
+                            "es": "Cada jugador comienza con 2 alfiles - uno en casilla clara (c1/f1 para blancas) y uno en casilla oscura.",
+                            "de": "Jeder Spieler startet mit 2 Läufern - einer auf einem hellen Feld (c1/f1 für Weiß) und einer auf einem dunklen Feld.",
+                            "nl": "Elke speler begint met 2 lopers - één op een licht veld (c1/f1 voor wit) en één op een donker veld."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'pin' in chess?",
+                            "es": "¿Qué es una 'clavada' en ajedrez?",
+                            "de": "Was ist eine 'Fesselung' im Schach?",
+                            "nl": "Wat is een 'penning' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When a piece cannot move without exposing a more valuable piece to attack",
+                                    "es": "Cuando una pieza no puede moverse sin exponer una pieza más valiosa al ataque",
+                                    "de": "Wenn eine Figur nicht ziehen kann, ohne eine wertvollere Figur einem Angriff auszusetzen",
+                                    "nl": "Wanneer een stuk niet kan bewegen zonder een waardevoller stuk bloot te stellen aan aanval"
+                            },
+                            {
+                                    "en": "A special pawn move",
+                                    "es": "Un movimiento especial de peón",
+                                    "de": "Ein spezieller Bauernzug",
+                                    "nl": "Een speciale pionzet"
+                            },
+                            {
+                                    "en": "The final move of a game",
+                                    "es": "El movimiento final del juego",
+                                    "de": "Der letzte Zug des Spiels",
+                                    "nl": "De laatste zet van het spel"
+                            },
+                            {
+                                    "en": "A type of draw",
+                                    "es": "Un tipo de tablas",
+                                    "de": "Eine Art von Remis",
+                                    "nl": "Een type remise"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A pin occurs when a piece cannot or should not move because it would expose a more valuable piece (often the king) behind it to attack.",
+                            "es": "Una clavada ocurre cuando una pieza no puede o no debe moverse porque expondría una pieza más valiosa (a menudo el rey) detrás de ella al ataque.",
+                            "de": "Eine Fesselung tritt auf, wenn eine Figur nicht ziehen kann oder sollte, weil sie eine wertvollere Figur (oft den König) dahinter einem Angriff aussetzen würde.",
+                            "nl": "Een penning treedt op wanneer een stuk niet kan of niet zou moeten bewegen omdat het een waardevoller stuk (vaak de koning) erachter bloot zou stellen aan aanval."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Can a pawn move two squares on its first move?",
+                            "es": "¿Puede un peón moverse dos casillas en su primer movimiento?",
+                            "de": "Kann ein Bauer bei seinem ersten Zug zwei Felder ziehen?",
+                            "nl": "Kan een pion twee velden bewegen bij zijn eerste zet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Yes, from its starting position",
+                                    "es": "Sí, desde su posición inicial",
+                                    "de": "Ja, aus seiner Grundstellung",
+                                    "nl": "Ja, vanuit zijn startpositie"
+                            },
+                            {
+                                    "en": "No, only one square",
+                                    "es": "No, solo una casilla",
+                                    "de": "Nein, nur ein Feld",
+                                    "nl": "Nee, alleen één veld"
+                            },
+                            {
+                                    "en": "Only when capturing",
+                                    "es": "Solo al capturar",
+                                    "de": "Nur beim Schlagen",
+                                    "nl": "Alleen bij slaan"
+                            },
+                            {
+                                    "en": "Only in the endgame",
+                                    "es": "Solo en el final",
+                                    "de": "Nur im Endspiel",
+                                    "nl": "Alleen in het eindspel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A pawn can move two squares forward on its first move from its starting position. After that, it can only move one square at a time.",
+                            "es": "Un peón puede avanzar dos casillas en su primer movimiento desde su posición inicial. Después, solo puede moverse una casilla a la vez.",
+                            "de": "Ein Bauer kann bei seinem ersten Zug aus der Grundstellung zwei Felder vorwärts ziehen. Danach kann er nur noch ein Feld ziehen.",
+                            "nl": "Een pion kan twee velden vooruit bij zijn eerste zet vanuit zijn startpositie. Daarna kan hij slechts één veld per keer bewegen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What happens if you touch a piece during your turn?",
+                            "es": "¿Qué pasa si tocas una pieza durante tu turno?",
+                            "de": "Was passiert, wenn man eine Figur während seines Zuges berührt?",
+                            "nl": "Wat gebeurt er als je een stuk aanraakt tijdens je beurt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "You must move it if it has a legal move (touch-move rule)",
+                                    "es": "Debes moverla si tiene un movimiento legal (regla de pieza tocada)",
+                                    "de": "Man muss sie ziehen, wenn sie einen legalen Zug hat (Berührt-Geführt-Regel)",
+                                    "nl": "Je moet het verzetten als het een legale zet heeft (aangeraakt-verzet regel)"
+                            },
+                            {
+                                    "en": "Nothing happens",
+                                    "es": "No pasa nada",
+                                    "de": "Nichts passiert",
+                                    "nl": "Er gebeurt niets"
+                            },
+                            {
+                                    "en": "You lose your turn",
+                                    "es": "Pierdes tu turno",
+                                    "de": "Man verliert seinen Zug",
+                                    "nl": "Je verliest je beurt"
+                            },
+                            {
+                                    "en": "You get a warning",
+                                    "es": "Recibes una advertencia",
+                                    "de": "Man bekommt eine Verwarnung",
+                                    "nl": "Je krijgt een waarschuwing"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The touch-move rule states that if you touch a piece that has a legal move, you must move it. Say 'J'adoube' (I adjust) to adjust pieces without moving.",
+                            "es": "La regla de pieza tocada establece que si tocas una pieza que tiene un movimiento legal, debes moverla. Di 'Compongo' para ajustar piezas sin mover.",
+                            "de": "Die Berührt-Geführt-Regel besagt, dass man eine berührte Figur ziehen muss, wenn sie einen legalen Zug hat. Sagt man 'J'adoube', kann man Figuren zurechtrücken.",
+                            "nl": "De aangeraakt-verzet regel stelt dat als je een stuk aanraakt dat een legale zet heeft, je het moet verzetten. Zeg 'J'adoube' om stukken recht te zetten."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the quickest possible checkmate in chess?",
+                            "es": "¿Cuál es el jaque mate más rápido posible en ajedrez?",
+                            "de": "Was ist das schnellstmögliche Schachmatt?",
+                            "nl": "Wat is het snelst mogelijke schaakmat?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2 moves (Fool's Mate)",
+                                    "es": "2 movimientos (Mate del Loco)",
+                                    "de": "2 Züge (Narrenmatt)",
+                                    "nl": "2 zetten (Narrenmat)"
+                            },
+                            {
+                                    "en": "4 moves",
+                                    "es": "4 movimientos",
+                                    "de": "4 Züge",
+                                    "nl": "4 zetten"
+                            },
+                            {
+                                    "en": "6 moves",
+                                    "es": "6 movimientos",
+                                    "de": "6 Züge",
+                                    "nl": "6 zetten"
+                            },
+                            {
+                                    "en": "10 moves",
+                                    "es": "10 movimientos",
+                                    "de": "10 Züge",
+                                    "nl": "10 zetten"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Fool's Mate is the fastest checkmate possible, occurring after just 2 moves by each player when one side makes terrible opening moves.",
+                            "es": "El Mate del Loco es el jaque mate más rápido posible, ocurriendo después de solo 2 movimientos de cada jugador cuando un lado hace movimientos de apertura terribles.",
+                            "de": "Das Narrenmatt ist das schnellstmögliche Schachmatt, das nach nur 2 Zügen jedes Spielers eintritt, wenn eine Seite schreckliche Eröffnungszüge macht.",
+                            "nl": "Narrenmat is het snelst mogelijke schaakmat, dat optreedt na slechts 2 zetten van elke speler wanneer één kant vreselijke openingszetten doet."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the name for the phase after the opening?",
+                            "es": "¿Cómo se llama la fase después de la apertura?",
+                            "de": "Wie nennt man die Phase nach der Eröffnung?",
+                            "nl": "Hoe heet de fase na de opening?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Middlegame",
+                                    "es": "Medio juego",
+                                    "de": "Mittelspiel",
+                                    "nl": "Middenspel"
+                            },
+                            {
+                                    "en": "Endgame",
+                                    "es": "Final",
+                                    "de": "Endspiel",
+                                    "nl": "Eindspel"
+                            },
+                            {
+                                    "en": "Development",
+                                    "es": "Desarrollo",
+                                    "de": "Entwicklung",
+                                    "nl": "Ontwikkeling"
+                            },
+                            {
+                                    "en": "Transition",
+                                    "es": "Transición",
+                                    "de": "Übergang",
+                                    "nl": "Overgang"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The middlegame is the phase that follows the opening, where most pieces are developed and players execute their strategic plans.",
+                            "es": "El medio juego es la fase que sigue a la apertura, donde la mayoría de las piezas están desarrolladas y los jugadores ejecutan sus planes estratégicos.",
+                            "de": "Das Mittelspiel ist die Phase nach der Eröffnung, in der die meisten Figuren entwickelt sind und die Spieler ihre strategischen Pläne umsetzen.",
+                            "nl": "Het middenspel is de fase die volgt op de opening, waar de meeste stukken ontwikkeld zijn en spelers hun strategische plannen uitvoeren."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many knights does each player start with?",
+                            "es": "¿Con cuántos caballos comienza cada jugador?",
+                            "de": "Mit wie vielen Springern startet jeder Spieler?",
+                            "nl": "Met hoeveel paarden begint elke speler?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2 knights",
+                                    "es": "2 caballos",
+                                    "de": "2 Springer",
+                                    "nl": "2 paarden"
+                            },
+                            {
+                                    "en": "1 knight",
+                                    "es": "1 caballo",
+                                    "de": "1 Springer",
+                                    "nl": "1 paard"
+                            },
+                            {
+                                    "en": "3 knights",
+                                    "es": "3 caballos",
+                                    "de": "3 Springer",
+                                    "nl": "3 paarden"
+                            },
+                            {
+                                    "en": "4 knights",
+                                    "es": "4 caballos",
+                                    "de": "4 Springer",
+                                    "nl": "4 paarden"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Each player starts with 2 knights, positioned on b1 and g1 for white, and b8 and g8 for black.",
+                            "es": "Cada jugador comienza con 2 caballos, posicionados en b1 y g1 para las blancas, y b8 y g8 para las negras.",
+                            "de": "Jeder Spieler startet mit 2 Springern, positioniert auf b1 und g1 für Weiß, und b8 und g8 für Schwarz.",
+                            "nl": "Elke speler begint met 2 paarden, gepositioneerd op b1 en g1 voor wit, en b8 en g8 voor zwart."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'development' in chess?",
+                            "es": "¿Qué es el 'desarrollo' en ajedrez?",
+                            "de": "Was ist 'Entwicklung' im Schach?",
+                            "nl": "Wat is 'ontwikkeling' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Moving pieces from their starting positions to more active squares",
+                                    "es": "Mover piezas desde sus posiciones iniciales a casillas más activas",
+                                    "de": "Figuren von ihren Ausgangsstellungen auf aktivere Felder ziehen",
+                                    "nl": "Stukken van hun startposities naar actievere velden verplaatsen"
+                            },
+                            {
+                                    "en": "Promoting pawns",
+                                    "es": "Promocionar peones",
+                                    "de": "Bauern umwandeln",
+                                    "nl": "Pionnen promoveren"
+                            },
+                            {
+                                    "en": "Capturing pieces",
+                                    "es": "Capturar piezas",
+                                    "de": "Figuren schlagen",
+                                    "nl": "Stukken slaan"
+                            },
+                            {
+                                    "en": "Studying chess",
+                                    "es": "Estudiar ajedrez",
+                                    "de": "Schach studieren",
+                                    "nl": "Schaken studeren"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Development refers to bringing your pieces (especially knights and bishops) from their starting positions into the game where they can be more effective.",
+                            "es": "El desarrollo se refiere a llevar tus piezas (especialmente caballos y alfiles) desde sus posiciones iniciales al juego donde pueden ser más efectivas.",
+                            "de": "Entwicklung bezieht sich darauf, die Figuren (besonders Springer und Läufer) von ihren Ausgangsstellungen ins Spiel zu bringen, wo sie effektiver sind.",
+                            "nl": "Ontwikkeling verwijst naar het brengen van je stukken (vooral paarden en lopers) van hun startposities in het spel waar ze effectiever kunnen zijn."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'tempo' in chess?",
+                            "es": "¿Qué es el 'tempo' en ajedrez?",
+                            "de": "Was ist ein 'Tempo' im Schach?",
+                            "nl": "Wat is 'tempo' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A unit of time in the game, essentially one move",
+                                    "es": "Una unidad de tiempo en el juego, esencialmente un movimiento",
+                                    "de": "Eine Zeiteinheit im Spiel, im Wesentlichen ein Zug",
+                                    "nl": "Een tijdseenheid in het spel, in wezen één zet"
+                            },
+                            {
+                                    "en": "The speed of play",
+                                    "es": "La velocidad de juego",
+                                    "de": "Die Spielgeschwindigkeit",
+                                    "nl": "De speelsnelheid"
+                            },
+                            {
+                                    "en": "A type of opening",
+                                    "es": "Un tipo de apertura",
+                                    "de": "Eine Art von Eröffnung",
+                                    "nl": "Een type opening"
+                            },
+                            {
+                                    "en": "The endgame phase",
+                                    "es": "La fase final",
+                                    "de": "Die Endspielphase",
+                                    "nl": "De eindspeelfase"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tempo refers to a turn or move in chess. Gaining a tempo means making a move that forces your opponent to respond, effectively gaining time.",
+                            "es": "El tempo se refiere a un turno o movimiento en ajedrez. Ganar un tempo significa hacer un movimiento que obliga al oponente a responder, ganando tiempo efectivamente.",
+                            "de": "Tempo bezieht sich auf einen Zug im Schach. Ein Tempo gewinnen bedeutet, einen Zug zu machen, der den Gegner zu einer Antwort zwingt und so Zeit gewinnt.",
+                            "nl": "Tempo verwijst naar een beurt of zet in schaken. Een tempo winnen betekent een zet doen die je tegenstander dwingt te reageren, waardoor je effectief tijd wint."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Can you castle if your king has moved before?",
+                            "es": "¿Puedes enrocar si tu rey se ha movido antes?",
+                            "de": "Kann man rochieren, wenn der König sich schon bewegt hat?",
+                            "nl": "Kun je rokeren als je koning al heeft bewogen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "No, the king must not have moved",
+                                    "es": "No, el rey no debe haberse movido",
+                                    "de": "Nein, der König darf sich nicht bewegt haben",
+                                    "nl": "Nee, de koning mag niet bewogen hebben"
+                            },
+                            {
+                                    "en": "Yes, always",
+                                    "es": "Sí, siempre",
+                                    "de": "Ja, immer",
+                                    "nl": "Ja, altijd"
+                            },
+                            {
+                                    "en": "Only in the endgame",
+                                    "es": "Solo en el final",
+                                    "de": "Nur im Endspiel",
+                                    "nl": "Alleen in het eindspel"
+                            },
+                            {
+                                    "en": "Only once per game",
+                                    "es": "Solo una vez por juego",
+                                    "de": "Nur einmal pro Spiel",
+                                    "nl": "Slechts één keer per spel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Castling is only allowed if neither the king nor the rook involved has moved during the game. Once the king moves, castling is no longer possible.",
+                            "es": "El enroque solo está permitido si ni el rey ni la torre involucrada se han movido durante el juego. Una vez que el rey se mueve, el enroque ya no es posible.",
+                            "de": "Die Rochade ist nur erlaubt, wenn weder der König noch der beteiligte Turm sich während des Spiels bewegt haben. Sobald der König zieht, ist keine Rochade mehr möglich.",
+                            "nl": "Rokeren is alleen toegestaan als noch de koning noch de betrokken toren tijdens het spel heeft bewogen. Zodra de koning beweegt, is rokeren niet meer mogelijk."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the value of a rook in terms of pawns?",
+                            "es": "¿Cuál es el valor de una torre en términos de peones?",
+                            "de": "Was ist der Wert eines Turms in Bauerneinheiten?",
+                            "nl": "Wat is de waarde van een toren in termen van pionnen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "About 5 pawns",
+                                    "es": "Aproximadamente 5 peones",
+                                    "de": "Etwa 5 Bauern",
+                                    "nl": "Ongeveer 5 pionnen"
+                            },
+                            {
+                                    "en": "About 3 pawns",
+                                    "es": "Aproximadamente 3 peones",
+                                    "de": "Etwa 3 Bauern",
+                                    "nl": "Ongeveer 3 pionnen"
+                            },
+                            {
+                                    "en": "About 9 pawns",
+                                    "es": "Aproximadamente 9 peones",
+                                    "de": "Etwa 9 Bauern",
+                                    "nl": "Ongeveer 9 pionnen"
+                            },
+                            {
+                                    "en": "About 2 pawns",
+                                    "es": "Aproximadamente 2 peones",
+                                    "de": "Etwa 2 Bauern",
+                                    "nl": "Ongeveer 2 pionnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A rook is valued at approximately 5 pawns. This makes it a major piece, more valuable than bishops or knights but less than the queen.",
+                            "es": "Una torre vale aproximadamente 5 peones. Esto la convierte en una pieza mayor, más valiosa que alfiles o caballos pero menos que la reina.",
+                            "de": "Ein Turm hat einen Wert von etwa 5 Bauern. Dies macht ihn zu einer Schwerfigur, wertvoller als Läufer oder Springer, aber weniger als die Dame.",
+                            "nl": "Een toren is ongeveer 5 pionnen waard. Dit maakt het een zwaar stuk, waardevoller dan lopers of paarden maar minder dan de dame."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'opposition' in chess?",
+                            "es": "¿Qué es la 'oposición' en ajedrez?",
+                            "de": "Was ist 'Opposition' im Schach?",
+                            "nl": "Wat is 'oppositie' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When two kings face each other with one square between them",
+                                    "es": "Cuando dos reyes se enfrentan con una casilla entre ellos",
+                                    "de": "Wenn zwei Könige sich mit einem Feld dazwischen gegenüberstehen",
+                                    "nl": "Wanneer twee koningen tegenover elkaar staan met één veld ertussen"
+                            },
+                            {
+                                    "en": "When pieces are attacking each other",
+                                    "es": "Cuando las piezas se atacan entre sí",
+                                    "de": "Wenn Figuren sich gegenseitig angreifen",
+                                    "nl": "Wanneer stukken elkaar aanvallen"
+                            },
+                            {
+                                    "en": "The opening phase",
+                                    "es": "La fase de apertura",
+                                    "de": "Die Eröffnungsphase",
+                                    "nl": "De openingsfase"
+                            },
+                            {
+                                    "en": "A type of defense",
+                                    "es": "Un tipo de defensa",
+                                    "de": "Eine Art der Verteidigung",
+                                    "nl": "Een type verdediging"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Opposition is a key endgame concept where two kings face each other with one square between them. The player not to move has the opposition advantage.",
+                            "es": "La oposición es un concepto clave del final donde dos reyes se enfrentan con una casilla entre ellos. El jugador que no mueve tiene la ventaja de la oposición.",
+                            "de": "Opposition ist ein wichtiges Endspielkonzept, bei dem zwei Könige sich mit einem Feld dazwischen gegenüberstehen. Der Spieler, der nicht am Zug ist, hat die Opposition.",
+                            "nl": "Oppositie is een belangrijk eindspelconcept waarbij twee koningen tegenover elkaar staan met één veld ertussen. De speler die niet aan zet is heeft het oppositievoordeel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'discovered attack'?",
+                            "es": "¿Qué es un 'ataque descubierto'?",
+                            "de": "Was ist ein 'Abzugsangriff'?",
+                            "nl": "Wat is een 'ontdekte aanval'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When moving one piece reveals an attack from another piece behind it",
+                                    "es": "Cuando mover una pieza revela un ataque de otra pieza detrás de ella",
+                                    "de": "Wenn das Ziehen einer Figur einen Angriff einer dahinter stehenden Figur aufdeckt",
+                                    "nl": "Wanneer het bewegen van één stuk een aanval van een ander stuk erachter onthult"
+                            },
+                            {
+                                    "en": "Finding a new move",
+                                    "es": "Encontrar un nuevo movimiento",
+                                    "de": "Einen neuen Zug finden",
+                                    "nl": "Een nieuwe zet vinden"
+                            },
+                            {
+                                    "en": "An opening trap",
+                                    "es": "Una trampa de apertura",
+                                    "de": "Eine Eröffnungsfalle",
+                                    "nl": "Een openingsval"
+                            },
+                            {
+                                    "en": "A defensive formation",
+                                    "es": "Una formación defensiva",
+                                    "de": "Eine Verteidigungsformation",
+                                    "nl": "Een verdedigingsformatie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A discovered attack occurs when moving one piece uncovers an attack from another piece that was behind it, creating two threats simultaneously.",
+                            "es": "Un ataque descubierto ocurre cuando mover una pieza descubre un ataque de otra pieza que estaba detrás, creando dos amenazas simultáneamente.",
+                            "de": "Ein Abzugsangriff entsteht, wenn das Ziehen einer Figur einen Angriff einer dahinter stehenden Figur aufdeckt und so zwei Drohungen gleichzeitig entstehen.",
+                            "nl": "Een ontdekte aanval treedt op wanneer het bewegen van één stuk een aanval van een ander stuk dat erachter stond onthult, waardoor twee bedreigingen tegelijk ontstaan."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many rooks does each player start with?",
+                            "es": "¿Con cuántas torres comienza cada jugador?",
+                            "de": "Mit wie vielen Türmen startet jeder Spieler?",
+                            "nl": "Met hoeveel torens begint elke speler?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2 rooks",
+                                    "es": "2 torres",
+                                    "de": "2 Türme",
+                                    "nl": "2 torens"
+                            },
+                            {
+                                    "en": "1 rook",
+                                    "es": "1 torre",
+                                    "de": "1 Turm",
+                                    "nl": "1 toren"
+                            },
+                            {
+                                    "en": "3 rooks",
+                                    "es": "3 torres",
+                                    "de": "3 Türme",
+                                    "nl": "3 torens"
+                            },
+                            {
+                                    "en": "4 rooks",
+                                    "es": "4 torres",
+                                    "de": "4 Türme",
+                                    "nl": "4 torens"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Each player starts with 2 rooks, placed in the corners of their first rank (a1 and h1 for white, a8 and h8 for black).",
+                            "es": "Cada jugador comienza con 2 torres, colocadas en las esquinas de su primera fila (a1 y h1 para blancas, a8 y h8 para negras).",
+                            "de": "Jeder Spieler startet mit 2 Türmen, die in den Ecken der ersten Reihe stehen (a1 und h1 für Weiß, a8 und h8 für Schwarz).",
+                            "nl": "Elke speler begint met 2 torens, geplaatst in de hoeken van hun eerste rij (a1 en h1 voor wit, a8 en h8 voor zwart)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'fianchetto'?",
+                            "es": "¿Qué es un 'fianchetto'?",
+                            "de": "Was ist ein 'Fianchetto'?",
+                            "nl": "Wat is een 'fianchetto'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Developing a bishop to the long diagonal by moving it to b2, g2, b7, or g7",
+                                    "es": "Desarrollar un alfil en la diagonal larga moviéndolo a b2, g2, b7 o g7",
+                                    "de": "Einen Läufer auf die lange Diagonale entwickeln (b2, g2, b7 oder g7)",
+                                    "nl": "Een loper ontwikkelen naar de lange diagonaal door hem naar b2, g2, b7 of g7 te bewegen"
+                            },
+                            {
+                                    "en": "A special pawn move",
+                                    "es": "Un movimiento especial de peón",
+                                    "de": "Ein spezieller Bauernzug",
+                                    "nl": "Een speciale pionzet"
+                            },
+                            {
+                                    "en": "A type of checkmate",
+                                    "es": "Un tipo de jaque mate",
+                                    "de": "Eine Art von Schachmatt",
+                                    "nl": "Een type schaakmat"
+                            },
+                            {
+                                    "en": "An endgame technique",
+                                    "es": "Una técnica de final",
+                                    "de": "Eine Endspiel-Technik",
+                                    "nl": "Een eindspeltechniek"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Fianchetto is a development pattern where a bishop is placed on the long diagonal (b2, g2, b7, or g7) after moving the b or g pawn one square.",
+                            "es": "El fianchetto es un patrón de desarrollo donde un alfil se coloca en la diagonal larga (b2, g2, b7 o g7) después de mover el peón b o g una casilla.",
+                            "de": "Fianchetto ist ein Entwicklungsmuster, bei dem ein Läufer auf die lange Diagonale (b2, g2, b7 oder g7) gestellt wird, nachdem der b- oder g-Bauer ein Feld vorgezogen wurde.",
+                            "nl": "Fianchetto is een ontwikkelingspatroon waarbij een loper op de lange diagonaal (b2, g2, b7 of g7) wordt geplaatst na het bewegen van de b- of g-pion één veld."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is threefold repetition?",
+                            "es": "¿Qué es la repetición triple?",
+                            "de": "Was ist die dreifache Stellungswiederholung?",
+                            "nl": "Wat is drievoudige herhaling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When the same position occurs three times, a draw can be claimed",
+                                    "es": "Cuando la misma posición ocurre tres veces, se pueden reclamar tablas",
+                                    "de": "Wenn dieselbe Stellung dreimal auftritt, kann Remis beansprucht werden",
+                                    "nl": "Wanneer dezelfde stelling drie keer voorkomt, kan remise worden geclaimd"
+                            },
+                            {
+                                    "en": "Moving the same piece three times",
+                                    "es": "Mover la misma pieza tres veces",
+                                    "de": "Dieselbe Figur dreimal ziehen",
+                                    "nl": "Hetzelfde stuk drie keer bewegen"
+                            },
+                            {
+                                    "en": "Three checks in a row",
+                                    "es": "Tres jaques seguidos",
+                                    "de": "Drei Schachs hintereinander",
+                                    "nl": "Drie schaaks op rij"
+                            },
+                            {
+                                    "en": "Capturing three pieces",
+                                    "es": "Capturar tres piezas",
+                                    "de": "Drei Figuren schlagen",
+                                    "nl": "Drie stukken slaan"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Threefold repetition occurs when the same position appears three times during the game. A player can then claim a draw.",
+                            "es": "La repetición triple ocurre cuando la misma posición aparece tres veces durante el juego. Un jugador puede entonces reclamar tablas.",
+                            "de": "Dreifache Stellungswiederholung tritt auf, wenn dieselbe Stellung dreimal während des Spiels erscheint. Ein Spieler kann dann Remis beanspruchen.",
+                            "nl": "Drievoudige herhaling treedt op wanneer dezelfde stelling drie keer tijdens het spel verschijnt. Een speler kan dan remise claimen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which piece can jump over other pieces?",
+                            "es": "¿Qué pieza puede saltar sobre otras piezas?",
+                            "de": "Welche Figur kann über andere Figuren springen?",
+                            "nl": "Welk stuk kan over andere stukken springen?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Only the knight",
+                                    "es": "Solo el caballo",
+                                    "de": "Nur der Springer",
+                                    "nl": "Alleen het paard"
+                            },
+                            {
+                                    "en": "Knight and bishop",
+                                    "es": "Caballo y alfil",
+                                    "de": "Springer und Läufer",
+                                    "nl": "Paard en loper"
+                            },
+                            {
+                                    "en": "All pieces",
+                                    "es": "Todas las piezas",
+                                    "de": "Alle Figuren",
+                                    "nl": "Alle stukken"
+                            },
+                            {
+                                    "en": "Queen and rook",
+                                    "es": "Reina y torre",
+                                    "de": "Dame und Turm",
+                                    "nl": "Dame en toren"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The knight is the only piece that can jump over other pieces. It moves in an L-shape and can leap over any pieces in its path.",
+                            "es": "El caballo es la única pieza que puede saltar sobre otras piezas. Se mueve en forma de L y puede saltar sobre cualquier pieza en su camino.",
+                            "de": "Der Springer ist die einzige Figur, die über andere Figuren springen kann. Er zieht in L-Form und kann über alle Figuren auf seinem Weg springen.",
+                            "nl": "Het paard is het enige stuk dat over andere stukken kan springen. Het beweegt in een L-vorm en kan over alle stukken in zijn pad springen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Scholar's Mate?",
+                            "es": "¿Qué es el Mate del Pastor?",
+                            "de": "Was ist das Schäfermatt?",
+                            "nl": "Wat is het Herdersmat?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A 4-move checkmate targeting the weak f7/f2 square",
+                                    "es": "Un jaque mate en 4 movimientos que ataca la casilla débil f7/f2",
+                                    "de": "Ein 4-Züge-Matt, das das schwache Feld f7/f2 angreift",
+                                    "nl": "Een 4-zetten schaakmat gericht op het zwakke f7/f2 veld"
+                            },
+                            {
+                                    "en": "An opening system",
+                                    "es": "Un sistema de apertura",
+                                    "de": "Ein Eröffnungssystem",
+                                    "nl": "Een openingssysteem"
+                            },
+                            {
+                                    "en": "An endgame pattern",
+                                    "es": "Un patrón de final",
+                                    "de": "Ein Endspiel-Muster",
+                                    "nl": "Een eindspelpatroon"
+                            },
+                            {
+                                    "en": "A drawing technique",
+                                    "es": "Una técnica de tablas",
+                                    "de": "Eine Remis-Technik",
+                                    "nl": "Een remisetechniek"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Scholar's Mate is a 4-move checkmate where the queen and bishop cooperate to attack the weak f7 square (f2 for black). It only works against beginners.",
+                            "es": "El Mate del Pastor es un jaque mate en 4 movimientos donde la reina y el alfil cooperan para atacar la casilla débil f7 (f2 para negras). Solo funciona contra principiantes.",
+                            "de": "Das Schäfermatt ist ein 4-Züge-Matt, bei dem Dame und Läufer zusammenarbeiten, um das schwache Feld f7 (f2 für Schwarz) anzugreifen. Es funktioniert nur gegen Anfänger.",
+                            "nl": "Herdersmat is een 4-zetten schaakmat waarbij de dame en loper samenwerken om het zwakke f7 veld (f2 voor zwart) aan te vallen. Het werkt alleen tegen beginners."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'back rank'?",
+                            "es": "¿Qué es la 'última fila'?",
+                            "de": "Was ist die 'Grundreihe'?",
+                            "nl": "Wat is de 'achterste rij'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The first and eighth ranks where pieces start",
+                                    "es": "Las filas primera y octava donde comienzan las piezas",
+                                    "de": "Die erste und achte Reihe, wo die Figuren starten",
+                                    "nl": "De eerste en achtste rij waar de stukken beginnen"
+                            },
+                            {
+                                    "en": "The middle of the board",
+                                    "es": "El centro del tablero",
+                                    "de": "Die Mitte des Bretts",
+                                    "nl": "Het midden van het bord"
+                            },
+                            {
+                                    "en": "The pawn rows",
+                                    "es": "Las filas de peones",
+                                    "de": "Die Bauernreihen",
+                                    "nl": "De pionrijen"
+                            },
+                            {
+                                    "en": "The side files",
+                                    "es": "Las columnas laterales",
+                                    "de": "Die Randlinien",
+                                    "nl": "De zijlijnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The back rank refers to the first rank for white (rank 1) and the eighth rank for black (rank 8), where the major pieces start the game.",
+                            "es": "La última fila se refiere a la primera fila para las blancas (fila 1) y la octava fila para las negras (fila 8), donde las piezas mayores comienzan el juego.",
+                            "de": "Die Grundreihe bezeichnet die erste Reihe für Weiß (Reihe 1) und die achte Reihe für Schwarz (Reihe 8), wo die Schwerfiguren das Spiel beginnen.",
+                            "nl": "De achterste rij verwijst naar de eerste rij voor wit (rij 1) en de achtste rij voor zwart (rij 8), waar de zware stukken het spel beginnen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'zugzwang'?",
+                            "es": "¿Qué es 'zugzwang'?",
+                            "de": "Was ist 'Zugzwang'?",
+                            "nl": "Wat is 'zugzwang'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When any move you make worsens your position",
+                                    "es": "Cuando cualquier movimiento que hagas empeora tu posición",
+                                    "de": "Wenn jeder Zug die eigene Stellung verschlechtert",
+                                    "nl": "Wanneer elke zet die je doet je positie verslechtert"
+                            },
+                            {
+                                    "en": "A type of opening",
+                                    "es": "Un tipo de apertura",
+                                    "de": "Eine Art von Eröffnung",
+                                    "nl": "Een type opening"
+                            },
+                            {
+                                    "en": "A checkmate pattern",
+                                    "es": "Un patrón de jaque mate",
+                                    "de": "Ein Schachmatt-Muster",
+                                    "nl": "Een schaakmatpatroon"
+                            },
+                            {
+                                    "en": "A drawing technique",
+                                    "es": "Una técnica de tablas",
+                                    "de": "Eine Remis-Technik",
+                                    "nl": "Een remisetechniek"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Zugzwang is a situation where a player is forced to move but any move they make will worsen their position. It's more common in endgames.",
+                            "es": "Zugzwang es una situación donde un jugador está obligado a mover pero cualquier movimiento empeorará su posición. Es más común en finales.",
+                            "de": "Zugzwang ist eine Situation, in der ein Spieler ziehen muss, aber jeder Zug seine Stellung verschlechtert. Es kommt häufiger in Endspielen vor.",
+                            "nl": "Zugzwang is een situatie waarin een speler gedwongen is te zetten maar elke zet zijn positie verslechtert. Het komt vaker voor in eindspelen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many light squares are on a chess board?",
+                            "es": "¿Cuántas casillas claras hay en un tablero de ajedrez?",
+                            "de": "Wie viele helle Felder hat ein Schachbrett?",
+                            "nl": "Hoeveel lichte velden zijn er op een schaakbord?"
+                    },
+                    "options": [
+                            {
+                                    "en": "32 light squares",
+                                    "es": "32 casillas claras",
+                                    "de": "32 helle Felder",
+                                    "nl": "32 lichte velden"
+                            },
+                            {
+                                    "en": "64 light squares",
+                                    "es": "64 casillas claras",
+                                    "de": "64 helle Felder",
+                                    "nl": "64 lichte velden"
+                            },
+                            {
+                                    "en": "16 light squares",
+                                    "es": "16 casillas claras",
+                                    "de": "16 helle Felder",
+                                    "nl": "16 lichte velden"
+                            },
+                            {
+                                    "en": "48 light squares",
+                                    "es": "48 casillas claras",
+                                    "de": "48 helle Felder",
+                                    "nl": "48 lichte velden"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A chess board has 32 light squares and 32 dark squares, alternating in a checkered pattern for a total of 64 squares.",
+                            "es": "Un tablero de ajedrez tiene 32 casillas claras y 32 oscuras, alternando en un patrón de tablero para un total de 64 casillas.",
+                            "de": "Ein Schachbrett hat 32 helle und 32 dunkle Felder, die sich in einem Schachbrettmuster abwechseln, insgesamt 64 Felder.",
+                            "nl": "Een schaakbord heeft 32 lichte en 32 donkere velden, afwisselend in een dambordpatroon voor een totaal van 64 velden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'sacrifice' in chess?",
+                            "es": "¿Qué es un 'sacrificio' en ajedrez?",
+                            "de": "Was ist ein 'Opfer' im Schach?",
+                            "nl": "Wat is een 'offer' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Deliberately giving up material for positional or tactical advantage",
+                                    "es": "Entregar deliberadamente material por ventaja posicional o táctica",
+                                    "de": "Bewusst Material für positionellen oder taktischen Vorteil aufgeben",
+                                    "nl": "Bewust materiaal opgeven voor positioneel of tactisch voordeel"
+                            },
+                            {
+                                    "en": "Losing a piece by mistake",
+                                    "es": "Perder una pieza por error",
+                                    "de": "Eine Figur aus Versehen verlieren",
+                                    "nl": "Een stuk per ongeluk verliezen"
+                            },
+                            {
+                                    "en": "Trading pieces",
+                                    "es": "Intercambiar piezas",
+                                    "de": "Figuren tauschen",
+                                    "nl": "Stukken ruilen"
+                            },
+                            {
+                                    "en": "Promoting a pawn",
+                                    "es": "Promocionar un peón",
+                                    "de": "Einen Bauern umwandeln",
+                                    "nl": "Een pion promoveren"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A sacrifice is when you deliberately give up material (pieces) to gain a positional, tactical, or strategic advantage, often leading to checkmate.",
+                            "es": "Un sacrificio es cuando entregas deliberadamente material (piezas) para obtener una ventaja posicional, táctica o estratégica, a menudo llevando al jaque mate.",
+                            "de": "Ein Opfer ist, wenn man bewusst Material (Figuren) aufgibt, um einen positionellen, taktischen oder strategischen Vorteil zu erlangen, oft führt es zum Schachmatt.",
+                            "nl": "Een offer is wanneer je bewust materiaal (stukken) opgeeft om een positioneel, tactisch of strategisch voordeel te krijgen, vaak leidend tot schaakmat."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'J'adoube' mean?",
+                            "es": "¿Qué significa 'Compongo'?",
+                            "de": "Was bedeutet 'J'adoube'?",
+                            "nl": "Wat betekent 'J'adoube'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "I adjust - said when touching a piece without intending to move it",
+                                    "es": "Compongo - se dice al tocar una pieza sin intención de moverla",
+                                    "de": "Ich rücke zurecht - gesagt beim Berühren einer Figur ohne Zugabsicht",
+                                    "nl": "Ik zet recht - gezegd bij het aanraken van een stuk zonder de intentie het te verzetten"
+                            },
+                            {
+                                    "en": "I resign",
+                                    "es": "Me rindo",
+                                    "de": "Ich gebe auf",
+                                    "nl": "Ik geef op"
+                            },
+                            {
+                                    "en": "Check",
+                                    "es": "Jaque",
+                                    "de": "Schach",
+                                    "nl": "Schaak"
+                            },
+                            {
+                                    "en": "Draw offer",
+                                    "es": "Oferta de tablas",
+                                    "de": "Remisangebot",
+                                    "nl": "Remiseaanbod"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "J'adoube (French for 'I adjust') is said before touching a piece to adjust its position on the square without being obligated to move it.",
+                            "es": "Compongo (J'adoube en francés) se dice antes de tocar una pieza para ajustar su posición en la casilla sin estar obligado a moverla.",
+                            "de": "J'adoube (französisch für 'Ich rücke zurecht') wird gesagt, bevor man eine Figur berührt, um ihre Position auf dem Feld zu korrigieren, ohne sie ziehen zu müssen.",
+                            "nl": "J'adoube (Frans voor 'Ik zet recht') wordt gezegd voordat je een stuk aanraakt om zijn positie op het veld aan te passen zonder verplicht te zijn het te verzetten."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is an 'isolated pawn'?",
+                            "es": "¿Qué es un 'peón aislado'?",
+                            "de": "Was ist ein 'isolierter Bauer'?",
+                            "nl": "Wat is een 'geïsoleerde pion'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pawn with no friendly pawns on adjacent files",
+                                    "es": "Un peón sin peones amigos en columnas adyacentes",
+                                    "de": "Ein Bauer ohne eigene Bauern auf benachbarten Linien",
+                                    "nl": "Een pion zonder vriendelijke pionnen op aangrenzende lijnen"
+                            },
+                            {
+                                    "en": "A pawn on the edge of the board",
+                                    "es": "Un peón en el borde del tablero",
+                                    "de": "Ein Bauer am Rand des Bretts",
+                                    "nl": "Een pion aan de rand van het bord"
+                            },
+                            {
+                                    "en": "A passed pawn",
+                                    "es": "Un peón pasado",
+                                    "de": "Ein Freibauer",
+                                    "nl": "Een vrijpion"
+                            },
+                            {
+                                    "en": "A backward pawn",
+                                    "es": "Un peón retrasado",
+                                    "de": "Ein rückständiger Bauer",
+                                    "nl": "Een achtergebleven pion"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "An isolated pawn is a pawn that has no friendly pawns on the files immediately to its left or right, making it potentially weak.",
+                            "es": "Un peón aislado es un peón que no tiene peones amigos en las columnas inmediatamente a su izquierda o derecha, haciéndolo potencialmente débil.",
+                            "de": "Ein isolierter Bauer ist ein Bauer, der keine eigenen Bauern auf den unmittelbar benachbarten Linien hat, was ihn potenziell schwach macht.",
+                            "nl": "Een geïsoleerde pion is een pion die geen vriendelijke pionnen heeft op de lijnen direct links of rechts, wat hem potentieel zwak maakt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'Italian Game' opening?",
+                            "es": "¿Qué es la apertura 'Italiana'?",
+                            "de": "Was ist die 'Italienische Eröffnung'?",
+                            "nl": "Wat is de 'Italiaanse opening'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e5 2.Nf3 Nc6 3.Bc4",
+                                    "es": "1.e4 e5 2.Cf3 Cc6 3.Ac4",
+                                    "de": "1.e4 e5 2.Sf3 Sc6 3.Lc4",
+                                    "nl": "1.e4 e5 2.Pf3 Pc6 3.Lc4"
+                            },
+                            {
+                                    "en": "1.d4 d5",
+                                    "es": "1.d4 d5",
+                                    "de": "1.d4 d5",
+                                    "nl": "1.d4 d5"
+                            },
+                            {
+                                    "en": "1.e4 c5",
+                                    "es": "1.e4 c5",
+                                    "de": "1.e4 c5",
+                                    "nl": "1.e4 c5"
+                            },
+                            {
+                                    "en": "1.Nf3",
+                                    "es": "1.Cf3",
+                                    "de": "1.Sf3",
+                                    "nl": "1.Pf3"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Italian Game starts with 1.e4 e5 2.Nf3 Nc6 3.Bc4, where white develops the bishop to c4, targeting the f7 square.",
+                            "es": "La Italiana comienza con 1.e4 e5 2.Cf3 Cc6 3.Ac4, donde las blancas desarrollan el alfil a c4, apuntando a la casilla f7.",
+                            "de": "Die Italienische Eröffnung beginnt mit 1.e4 e5 2.Sf3 Sc6 3.Lc4, wobei Weiß den Läufer nach c4 entwickelt und auf das Feld f7 zielt.",
+                            "nl": "De Italiaanse opening begint met 1.e4 e5 2.Pf3 Pc6 3.Lc4, waarbij wit de loper naar c4 ontwikkelt, gericht op het f7 veld."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many queens does each player start with?",
+                            "es": "¿Con cuántas reinas comienza cada jugador?",
+                            "de": "Mit wie vielen Damen startet jeder Spieler?",
+                            "nl": "Met hoeveel dames begint elke speler?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1 queen",
+                                    "es": "1 reina",
+                                    "de": "1 Dame",
+                                    "nl": "1 dame"
+                            },
+                            {
+                                    "en": "2 queens",
+                                    "es": "2 reinas",
+                                    "de": "2 Damen",
+                                    "nl": "2 dames"
+                            },
+                            {
+                                    "en": "0 queens",
+                                    "es": "0 reinas",
+                                    "de": "0 Damen",
+                                    "nl": "0 dames"
+                            },
+                            {
+                                    "en": "3 queens",
+                                    "es": "3 reinas",
+                                    "de": "3 Damen",
+                                    "nl": "3 dames"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Each player starts with exactly 1 queen, placed on their own color (white queen on d1, black queen on d8).",
+                            "es": "Cada jugador comienza con exactamente 1 reina, colocada en su propio color (reina blanca en d1, reina negra en d8).",
+                            "de": "Jeder Spieler startet mit genau 1 Dame, die auf ihrer eigenen Farbe steht (weiße Dame auf d1, schwarze Dame auf d8).",
+                            "nl": "Elke speler begint met precies 1 dame, geplaatst op hun eigen kleur (witte dame op d1, zwarte dame op d8)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'castling long'?",
+                            "es": "¿Qué es el 'enroque largo'?",
+                            "de": "Was ist die 'lange Rochade'?",
+                            "nl": "Wat is 'lange rokade'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Castling queenside (O-O-O)",
+                                    "es": "Enroque del lado de la dama (O-O-O)",
+                                    "de": "Rochade zur Damenseite (O-O-O)",
+                                    "nl": "Rokade naar de damevleugel (O-O-O)"
+                            },
+                            {
+                                    "en": "Castling kingside (O-O)",
+                                    "es": "Enroque del lado del rey (O-O)",
+                                    "de": "Rochade zur Königsseite (O-O)",
+                                    "nl": "Rokade naar de koningsvleugel (O-O)"
+                            },
+                            {
+                                    "en": "Moving the king three squares",
+                                    "es": "Mover el rey tres casillas",
+                                    "de": "Den König drei Felder bewegen",
+                                    "nl": "De koning drie velden bewegen"
+                            },
+                            {
+                                    "en": "A special endgame move",
+                                    "es": "Un movimiento especial de final",
+                                    "de": "Ein spezieller Endspielzug",
+                                    "nl": "Een speciale eindspelzet"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Castling long (queenside castling or O-O-O) involves moving the king two squares toward the queenside rook, which then moves to the other side of the king.",
+                            "es": "El enroque largo (enroque del lado de la dama u O-O-O) implica mover el rey dos casillas hacia la torre del lado de la dama, que luego se mueve al otro lado del rey.",
+                            "de": "Die lange Rochade (Damenrochade oder O-O-O) bedeutet, den König zwei Felder zum Damenturm zu bewegen, der dann auf die andere Seite des Königs zieht.",
+                            "nl": "Lange rokade (damevleugel rokade of O-O-O) houdt in dat de koning twee velden naar de damevleugel toren beweegt, die dan naar de andere kant van de koning gaat."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'blunder' in chess?",
+                            "es": "¿Qué es un 'error grave' en ajedrez?",
+                            "de": "Was ist ein 'grober Fehler' im Schach?",
+                            "nl": "Wat is een 'blunder' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A very bad move that loses material or the game",
+                                    "es": "Un movimiento muy malo que pierde material o el juego",
+                                    "de": "Ein sehr schlechter Zug, der Material oder das Spiel verliert",
+                                    "nl": "Een zeer slechte zet die materiaal of het spel verliest"
+                            },
+                            {
+                                    "en": "A brilliant move",
+                                    "es": "Un movimiento brillante",
+                                    "de": "Ein brillanter Zug",
+                                    "nl": "Een briljante zet"
+                            },
+                            {
+                                    "en": "An average move",
+                                    "es": "Un movimiento promedio",
+                                    "de": "Ein durchschnittlicher Zug",
+                                    "nl": "Een gemiddelde zet"
+                            },
+                            {
+                                    "en": "An opening move",
+                                    "es": "Un movimiento de apertura",
+                                    "de": "Ein Eröffnungszug",
+                                    "nl": "Een openingszet"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A blunder is a very bad move that significantly worsens your position, often losing material or even the game immediately.",
+                            "es": "Un error grave es un movimiento muy malo que empeora significativamente tu posición, a menudo perdiendo material o incluso el juego inmediatamente.",
+                            "de": "Ein grober Fehler ist ein sehr schlechter Zug, der die eigene Stellung erheblich verschlechtert, oft mit Materialverlust oder sogar sofortigem Partieverlust.",
+                            "nl": "Een blunder is een zeer slechte zet die je positie aanzienlijk verslechtert, vaak met verlies van materiaal of zelfs onmiddellijk verlies van het spel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'passed pawn'?",
+                            "es": "¿Qué es un 'peón pasado'?",
+                            "de": "Was ist ein 'Freibauer'?",
+                            "nl": "Wat is een 'vrijpion'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pawn with no enemy pawns blocking its path to promotion",
+                                    "es": "Un peón sin peones enemigos bloqueando su camino a la promoción",
+                                    "de": "Ein Bauer ohne gegnerische Bauern, die seinen Weg zur Umwandlung blockieren",
+                                    "nl": "Een pion zonder vijandelijke pionnen die zijn pad naar promotie blokkeren"
+                            },
+                            {
+                                    "en": "A pawn that has moved two squares",
+                                    "es": "Un peón que ha movido dos casillas",
+                                    "de": "Ein Bauer, der zwei Felder gezogen ist",
+                                    "nl": "Een pion die twee velden heeft bewogen"
+                            },
+                            {
+                                    "en": "An isolated pawn",
+                                    "es": "Un peón aislado",
+                                    "de": "Ein isolierter Bauer",
+                                    "nl": "Een geïsoleerde pion"
+                            },
+                            {
+                                    "en": "A backward pawn",
+                                    "es": "Un peón retrasado",
+                                    "de": "Ein rückständiger Bauer",
+                                    "nl": "Een achtergebleven pion"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A passed pawn is a pawn that has no opposing pawns to prevent it from advancing to promotion. It's often a strong advantage.",
+                            "es": "Un peón pasado es un peón que no tiene peones opuestos para evitar que avance a la promoción. A menudo es una fuerte ventaja.",
+                            "de": "Ein Freibauer ist ein Bauer, der keine gegnerischen Bauern hat, die ihn am Vorrücken zur Umwandlung hindern. Er ist oft ein starker Vorteil.",
+                            "nl": "Een vrijpion is een pion die geen tegengestelde pionnen heeft om te voorkomen dat hij naar promotie opruk. Het is vaak een sterk voordeel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'material' in chess?",
+                            "es": "¿Qué es el 'material' en ajedrez?",
+                            "de": "Was ist 'Material' im Schach?",
+                            "nl": "Wat is 'materiaal' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The pieces and their combined value",
+                                    "es": "Las piezas y su valor combinado",
+                                    "de": "Die Figuren und ihr kombinierter Wert",
+                                    "nl": "De stukken en hun gecombineerde waarde"
+                            },
+                            {
+                                    "en": "The chess board",
+                                    "es": "El tablero de ajedrez",
+                                    "de": "Das Schachbrett",
+                                    "nl": "Het schaakbord"
+                            },
+                            {
+                                    "en": "The chess clock",
+                                    "es": "El reloj de ajedrez",
+                                    "de": "Die Schachuhr",
+                                    "nl": "De schaakklok"
+                            },
+                            {
+                                    "en": "The rules of chess",
+                                    "es": "Las reglas del ajedrez",
+                                    "de": "Die Schachregeln",
+                                    "nl": "De schaakregels"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Material refers to the pieces on the board and their relative values. Having more material (higher total piece value) is usually an advantage.",
+                            "es": "El material se refiere a las piezas en el tablero y sus valores relativos. Tener más material (mayor valor total de piezas) suele ser una ventaja.",
+                            "de": "Material bezieht sich auf die Figuren auf dem Brett und ihre relativen Werte. Mehr Material (höherer Gesamtwert der Figuren) zu haben ist meist ein Vorteil.",
+                            "nl": "Materiaal verwijst naar de stukken op het bord en hun relatieve waarden. Meer materiaal hebben (hogere totale stukwaarde) is meestal een voordeel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which square does the white queen start on?",
+                            "es": "¿En qué casilla comienza la reina blanca?",
+                            "de": "Auf welchem Feld startet die weiße Dame?",
+                            "nl": "Op welk veld begint de witte dame?"
+                    },
+                    "options": [
+                            {
+                                    "en": "d1",
+                                    "es": "d1",
+                                    "de": "d1",
+                                    "nl": "d1"
+                            },
+                            {
+                                    "en": "e1",
+                                    "es": "e1",
+                                    "de": "e1",
+                                    "nl": "e1"
+                            },
+                            {
+                                    "en": "d8",
+                                    "es": "d8",
+                                    "de": "d8",
+                                    "nl": "d8"
+                            },
+                            {
+                                    "en": "e8",
+                                    "es": "e8",
+                                    "de": "e8",
+                                    "nl": "e8"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The white queen starts on d1, which is a light square. Remember: 'Queen on her color' - white queen on white square.",
+                            "es": "La reina blanca comienza en d1, que es una casilla clara. Recuerda: 'Reina en su color' - reina blanca en casilla blanca.",
+                            "de": "Die weiße Dame startet auf d1, einem hellen Feld. Merke: 'Dame auf ihrer Farbe' - weiße Dame auf weißem Feld.",
+                            "nl": "De witte dame begint op d1, wat een licht veld is. Onthoud: 'Dame op haar kleur' - witte dame op wit veld."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'Sicilian Defense'?",
+                            "es": "¿Qué es la 'Defensa Siciliana'?",
+                            "de": "Was ist die 'Sizilianische Verteidigung'?",
+                            "nl": "Wat is de 'Siciliaanse verdediging'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c5 - Black's most popular defense",
+                                    "es": "1.e4 c5 - La defensa más popular de las negras",
+                                    "de": "1.e4 c5 - Schwarz' populärste Verteidigung",
+                                    "nl": "1.e4 c5 - Zwarts meest populaire verdediging"
+                            },
+                            {
+                                    "en": "1.d4 Nf6",
+                                    "es": "1.d4 Cf6",
+                                    "de": "1.d4 Sf6",
+                                    "nl": "1.d4 Pf6"
+                            },
+                            {
+                                    "en": "1.e4 e5",
+                                    "es": "1.e4 e5",
+                                    "de": "1.e4 e5",
+                                    "nl": "1.e4 e5"
+                            },
+                            {
+                                    "en": "1.Nf3 d5",
+                                    "es": "1.Cf3 d5",
+                                    "de": "1.Sf3 d5",
+                                    "nl": "1.Pf3 d5"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Sicilian Defense (1.e4 c5) is Black's most popular and successful response to 1.e4, leading to complex and fighting games.",
+                            "es": "La Defensa Siciliana (1.e4 c5) es la respuesta más popular y exitosa de las negras a 1.e4, llevando a juegos complejos y de lucha.",
+                            "de": "Die Sizilianische Verteidigung (1.e4 c5) ist Schwarz' populärste und erfolgreichste Antwort auf 1.e4, sie führt zu komplexen Kampfpartien.",
+                            "nl": "De Siciliaanse verdediging (1.e4 c5) is zwarts meest populaire en succesvolle antwoord op 1.e4, leidend tot complexe en strijdlustige partijen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'skewer' in chess?",
+                            "es": "¿Qué es un 'pincho' en ajedrez?",
+                            "de": "Was ist ein 'Spieß' im Schach?",
+                            "nl": "Wat is een 'spies' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "An attack on a valuable piece that forces it to move and expose a less valuable piece behind",
+                                    "es": "Un ataque a una pieza valiosa que la obliga a moverse y exponer una pieza menos valiosa detrás",
+                                    "de": "Ein Angriff auf eine wertvolle Figur, die sich bewegen muss und eine weniger wertvolle Figur dahinter preisgibt",
+                                    "nl": "Een aanval op een waardevol stuk dat moet bewegen en een minder waardevol stuk erachter blootstelt"
+                            },
+                            {
+                                    "en": "A fork attack",
+                                    "es": "Un ataque de tenedor",
+                                    "de": "Ein Gabelangriff",
+                                    "nl": "Een vorkaanval"
+                            },
+                            {
+                                    "en": "A pin attack",
+                                    "es": "Un ataque de clavada",
+                                    "de": "Eine Fesselung",
+                                    "nl": "Een penning"
+                            },
+                            {
+                                    "en": "A checkmate pattern",
+                                    "es": "Un patrón de jaque mate",
+                                    "de": "Ein Schachmatt-Muster",
+                                    "nl": "Een schaakmatpatroon"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A skewer is like a reverse pin - it attacks a valuable piece that must move, exposing a less valuable piece behind it to capture.",
+                            "es": "Un pincho es como una clavada inversa - ataca una pieza valiosa que debe moverse, exponiendo una pieza menos valiosa detrás para capturar.",
+                            "de": "Ein Spieß ist wie eine umgekehrte Fesselung - er greift eine wertvolle Figur an, die ziehen muss und eine weniger wertvolle Figur dahinter zum Schlagen freigibt.",
+                            "nl": "Een spies is als een omgekeerde penning - het valt een waardevol stuk aan dat moet bewegen, waardoor een minder waardevol stuk erachter kan worden geslagen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Can you castle through check?",
+                            "es": "¿Puedes enrocar a través del jaque?",
+                            "de": "Kann man durch ein Schach rochieren?",
+                            "nl": "Kun je rokeren door schaak?"
+                    },
+                    "options": [
+                            {
+                                    "en": "No, you cannot castle through check",
+                                    "es": "No, no puedes enrocar a través del jaque",
+                                    "de": "Nein, man kann nicht durch ein Schach rochieren",
+                                    "nl": "Nee, je kunt niet door schaak rokeren"
+                            },
+                            {
+                                    "en": "Yes, always",
+                                    "es": "Sí, siempre",
+                                    "de": "Ja, immer",
+                                    "nl": "Ja, altijd"
+                            },
+                            {
+                                    "en": "Only on queenside",
+                                    "es": "Solo en el lado de la dama",
+                                    "de": "Nur auf der Damenseite",
+                                    "nl": "Alleen aan de damevleugel"
+                            },
+                            {
+                                    "en": "Only on kingside",
+                                    "es": "Solo en el lado del rey",
+                                    "de": "Nur auf der Königsseite",
+                                    "nl": "Alleen aan de koningsvleugel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "You cannot castle if your king is in check, moves through check, or ends up in check. The king must be safe throughout the castling move.",
+                            "es": "No puedes enrocar si tu rey está en jaque, pasa por jaque o termina en jaque. El rey debe estar seguro durante todo el movimiento de enroque.",
+                            "de": "Man kann nicht rochieren, wenn der König im Schach steht, durch ein Schach zieht oder im Schach landet. Der König muss während der gesamten Rochade sicher sein.",
+                            "nl": "Je kunt niet rokeren als je koning schaak staat, door schaak beweegt, of in schaak eindigt. De koning moet veilig zijn tijdens de hele rokade."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'endgame'?",
+                            "es": "¿Qué es el 'final'?",
+                            "de": "Was ist das 'Endspiel'?",
+                            "nl": "Wat is het 'eindspel'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The final phase of the game with few pieces remaining",
+                                    "es": "La fase final del juego con pocas piezas restantes",
+                                    "de": "Die Endphase des Spiels mit wenigen verbleibenden Figuren",
+                                    "nl": "De laatste fase van het spel met weinig stukken over"
+                            },
+                            {
+                                    "en": "The opening moves",
+                                    "es": "Los movimientos de apertura",
+                                    "de": "Die Eröffnungszüge",
+                                    "nl": "De openingszetten"
+                            },
+                            {
+                                    "en": "The middle game",
+                                    "es": "El medio juego",
+                                    "de": "Das Mittelspiel",
+                                    "nl": "Het middenspel"
+                            },
+                            {
+                                    "en": "Checkmate",
+                                    "es": "Jaque mate",
+                                    "de": "Schachmatt",
+                                    "nl": "Schaakmat"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The endgame is the final phase of chess when most pieces have been exchanged and kings become active pieces. Different principles apply than in the opening or middlegame.",
+                            "es": "El final es la fase final del ajedrez cuando la mayoría de las piezas han sido intercambiadas y los reyes se vuelven piezas activas. Se aplican principios diferentes que en la apertura o medio juego.",
+                            "de": "Das Endspiel ist die Endphase des Schachs, wenn die meisten Figuren getauscht wurden und Könige zu aktiven Figuren werden. Es gelten andere Prinzipien als in Eröffnung oder Mittelspiel.",
+                            "nl": "Het eindspel is de laatste fase van het schaken wanneer de meeste stukken zijn geruild en koningen actieve stukken worden. Er gelden andere principes dan in de opening of het middenspel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'notation' in chess?",
+                            "es": "¿Qué es la 'notación' en ajedrez?",
+                            "de": "Was ist 'Notation' im Schach?",
+                            "nl": "Wat is 'notatie' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The system for recording chess moves",
+                                    "es": "El sistema para registrar movimientos de ajedrez",
+                                    "de": "Das System zur Aufzeichnung von Schachzügen",
+                                    "nl": "Het systeem voor het noteren van schaakzetten"
+                            },
+                            {
+                                    "en": "The chess board layout",
+                                    "es": "El diseño del tablero",
+                                    "de": "Die Schachbrettanordnung",
+                                    "nl": "De schaakbordindeling"
+                            },
+                            {
+                                    "en": "The piece values",
+                                    "es": "Los valores de las piezas",
+                                    "de": "Die Figurenwerte",
+                                    "nl": "De stukwaarden"
+                            },
+                            {
+                                    "en": "The time control",
+                                    "es": "El control de tiempo",
+                                    "de": "Die Zeitkontrolle",
+                                    "nl": "De tijdscontrole"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess notation is the system for recording moves in a game. The most common is algebraic notation, using letters for files and numbers for ranks.",
+                            "es": "La notación de ajedrez es el sistema para registrar movimientos en un juego. La más común es la notación algebraica, usando letras para columnas y números para filas.",
+                            "de": "Schachnotation ist das System zur Aufzeichnung von Zügen in einer Partie. Am häufigsten ist die algebraische Notation mit Buchstaben für Linien und Zahlen für Reihen.",
+                            "nl": "Schaaknotatie is het systeem voor het noteren van zetten in een partij. De meest gebruikte is algebraïsche notatie, met letters voor lijnen en cijfers voor rijen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'double attack'?",
+                            "es": "¿Qué es un 'doble ataque'?",
+                            "de": "Was ist ein 'Doppelangriff'?",
+                            "nl": "Wat is een 'dubbele aanval'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When one piece attacks two enemy pieces at the same time",
+                                    "es": "Cuando una pieza ataca dos piezas enemigas al mismo tiempo",
+                                    "de": "Wenn eine Figur zwei gegnerische Figuren gleichzeitig angreift",
+                                    "nl": "Wanneer één stuk twee vijandelijke stukken tegelijk aanvalt"
+                            },
+                            {
+                                    "en": "Two pieces attacking one square",
+                                    "es": "Dos piezas atacando una casilla",
+                                    "de": "Zwei Figuren greifen ein Feld an",
+                                    "nl": "Twee stukken vallen één veld aan"
+                            },
+                            {
+                                    "en": "Moving twice in a row",
+                                    "es": "Mover dos veces seguidas",
+                                    "de": "Zweimal hintereinander ziehen",
+                                    "nl": "Twee keer achter elkaar zetten"
+                            },
+                            {
+                                    "en": "Capturing two pieces",
+                                    "es": "Capturar dos piezas",
+                                    "de": "Zwei Figuren schlagen",
+                                    "nl": "Twee stukken slaan"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A double attack (or fork) occurs when a single piece attacks two or more enemy pieces simultaneously, forcing the opponent to save only one.",
+                            "es": "Un doble ataque (o tenedor) ocurre cuando una sola pieza ataca dos o más piezas enemigas simultáneamente, forzando al oponente a salvar solo una.",
+                            "de": "Ein Doppelangriff (oder Gabel) entsteht, wenn eine einzelne Figur zwei oder mehr gegnerische Figuren gleichzeitig angreift und der Gegner nur eine retten kann.",
+                            "nl": "Een dubbele aanval (of vork) treedt op wanneer één stuk twee of meer vijandelijke stukken tegelijk aanvalt, waardoor de tegenstander er maar één kan redden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'hanging' mean in chess?",
+                            "es": "¿Qué significa 'colgada' en ajedrez?",
+                            "de": "Was bedeutet 'hängen' im Schach?",
+                            "nl": "Wat betekent 'hangen' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A piece that is undefended and can be captured for free",
+                                    "es": "Una pieza que no está defendida y puede ser capturada gratis",
+                                    "de": "Eine Figur, die unverteidigt ist und kostenlos geschlagen werden kann",
+                                    "nl": "Een stuk dat onverdedigd is en gratis kan worden geslagen"
+                            },
+                            {
+                                    "en": "A piece in the center",
+                                    "es": "Una pieza en el centro",
+                                    "de": "Eine Figur im Zentrum",
+                                    "nl": "Een stuk in het centrum"
+                            },
+                            {
+                                    "en": "A promoted pawn",
+                                    "es": "Un peón promocionado",
+                                    "de": "Ein umgewandelter Bauer",
+                                    "nl": "Een gepromoveerde pion"
+                            },
+                            {
+                                    "en": "A pinned piece",
+                                    "es": "Una pieza clavada",
+                                    "de": "Eine gefesselte Figur",
+                                    "nl": "Een gepend stuk"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A hanging piece is one that is undefended and can be captured without any compensation. It's also called an 'en prise' piece.",
+                            "es": "Una pieza colgada es aquella que no está defendida y puede ser capturada sin compensación. También se llama pieza 'en prise'.",
+                            "de": "Eine hängende Figur ist unverteidigt und kann ohne Kompensation geschlagen werden. Sie wird auch 'en prise' Figur genannt.",
+                            "nl": "Een hangend stuk is onverdedigd en kan zonder compensatie worden geslagen. Het wordt ook een 'en prise' stuk genoemd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'gambit' in chess?",
+                            "es": "¿Qué es un 'gambito' en ajedrez?",
+                            "de": "Was ist ein 'Gambit' im Schach?",
+                            "nl": "Wat is een 'gambiet' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "An opening where material is sacrificed for position or development",
+                                    "es": "Una apertura donde se sacrifica material por posición o desarrollo",
+                                    "de": "Eine Eröffnung, bei der Material für Position oder Entwicklung geopfert wird",
+                                    "nl": "Een opening waarbij materiaal wordt geofferd voor positie of ontwikkeling"
+                            },
+                            {
+                                    "en": "A type of endgame",
+                                    "es": "Un tipo de final",
+                                    "de": "Eine Art von Endspiel",
+                                    "nl": "Een type eindspel"
+                            },
+                            {
+                                    "en": "A checkmate pattern",
+                                    "es": "Un patrón de jaque mate",
+                                    "de": "Ein Schachmatt-Muster",
+                                    "nl": "Een schaakmatpatroon"
+                            },
+                            {
+                                    "en": "A defensive strategy",
+                                    "es": "Una estrategia defensiva",
+                                    "de": "Eine Verteidigungsstrategie",
+                                    "nl": "Een verdedigingsstrategie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A gambit is an opening where a player sacrifices material (usually a pawn) to gain advantages in development, position, or attacking chances.",
+                            "es": "Un gambito es una apertura donde un jugador sacrifica material (generalmente un peón) para obtener ventajas en desarrollo, posición o oportunidades de ataque.",
+                            "de": "Ein Gambit ist eine Eröffnung, bei der ein Spieler Material (meist einen Bauern) opfert, um Vorteile in Entwicklung, Position oder Angriffschancen zu erlangen.",
+                            "nl": "Een gambiet is een opening waarbij een speler materiaal (meestal een pion) offert om voordelen in ontwikkeling, positie of aanvalskansen te krijgen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'x' mean in chess notation?",
+                            "es": "¿Qué significa 'x' en notación de ajedrez?",
+                            "de": "Was bedeutet 'x' in der Schachnotation?",
+                            "nl": "Wat betekent 'x' in schaaknotatie?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Captures",
+                                    "es": "Captura",
+                                    "de": "Schlägt",
+                                    "nl": "Slaat"
+                            },
+                            {
+                                    "en": "Check",
+                                    "es": "Jaque",
+                                    "de": "Schach",
+                                    "nl": "Schaak"
+                            },
+                            {
+                                    "en": "Checkmate",
+                                    "es": "Jaque mate",
+                                    "de": "Schachmatt",
+                                    "nl": "Schaakmat"
+                            },
+                            {
+                                    "en": "Castling",
+                                    "es": "Enroque",
+                                    "de": "Rochade",
+                                    "nl": "Rokade"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In chess notation, 'x' indicates a capture. For example, Bxe5 means bishop captures on e5.",
+                            "es": "En notación de ajedrez, 'x' indica una captura. Por ejemplo, Axe5 significa alfil captura en e5.",
+                            "de": "in der Schachnotation zeigt 'x' einen Schlag an. Zum Beispiel bedeutet Lxe5 Läufer schlägt auf e5.",
+                            "nl": "in schaaknotatie geeft 'x' een slag aan. Bijvoorbeeld, Lxe5 betekent loper slaat op e5."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'castling short'?",
+                            "es": "¿Qué es el 'enroque corto'?",
+                            "de": "Was ist die 'kurze Rochade'?",
+                            "nl": "Wat is 'korte rokade'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Castling kingside (O-O)",
+                                    "es": "Enroque del lado del rey (O-O)",
+                                    "de": "Rochade zur Königsseite (O-O)",
+                                    "nl": "Rokade naar de koningsvleugel (O-O)"
+                            },
+                            {
+                                    "en": "Castling queenside (O-O-O)",
+                                    "es": "Enroque del lado de la dama (O-O-O)",
+                                    "de": "Rochade zur Damenseite (O-O-O)",
+                                    "nl": "Rokade naar de damevleugel (O-O-O)"
+                            },
+                            {
+                                    "en": "Moving the king one square",
+                                    "es": "Mover el rey una casilla",
+                                    "de": "Den König ein Feld bewegen",
+                                    "nl": "De koning één veld bewegen"
+                            },
+                            {
+                                    "en": "A quick checkmate",
+                                    "es": "Un jaque mate rápido",
+                                    "de": "Ein schnelles Schachmatt",
+                                    "nl": "Een snel schaakmat"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Castling short (kingside castling or O-O) involves moving the king two squares toward the kingside rook, which then moves to the other side of the king.",
+                            "es": "El enroque corto (enroque del lado del rey u O-O) implica mover el rey dos casillas hacia la torre del lado del rey, que luego se mueve al otro lado del rey.",
+                            "de": "Die kurze Rochade (Königsrochade oder O-O) bedeutet, den König zwei Felder zum Königsturm zu bewegen, der dann auf die andere Seite des Königs zieht.",
+                            "nl": "Korte rokade (koningsvleugel rokade of O-O) houdt in dat de koning twee velden naar de koningsvleugel toren beweegt, die dan naar de andere kant van de koning gaat."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'backward pawn'?",
+                            "es": "¿Qué es un 'peón retrasado'?",
+                            "de": "Was ist ein 'rückständiger Bauer'?",
+                            "nl": "Wat is een 'achtergebleven pion'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pawn that cannot advance because the square in front is controlled by enemy pawns",
+                                    "es": "Un peón que no puede avanzar porque la casilla delante está controlada por peones enemigos",
+                                    "de": "Ein Bauer, der nicht vorrücken kann, weil das Feld davor von gegnerischen Bauern kontrolliert wird",
+                                    "nl": "Een pion die niet kan opruken omdat het veld ervoor wordt gecontroleerd door vijandelijke pionnen"
+                            },
+                            {
+                                    "en": "A pawn moving backwards",
+                                    "es": "Un peón moviéndose hacia atrás",
+                                    "de": "Ein Bauer, der rückwärts zieht",
+                                    "nl": "Een pion die achteruit beweegt"
+                            },
+                            {
+                                    "en": "A passed pawn",
+                                    "es": "Un peón pasado",
+                                    "de": "Ein Freibauer",
+                                    "nl": "Een vrijpion"
+                            },
+                            {
+                                    "en": "An isolated pawn",
+                                    "es": "Un peón aislado",
+                                    "de": "Ein isolierter Bauer",
+                                    "nl": "Een geïsoleerde pion"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A backward pawn is one that lags behind its neighboring pawns and cannot safely advance because enemy pawns control the square in front of it.",
+                            "es": "Un peón retrasado es uno que queda rezagado detrás de sus peones vecinos y no puede avanzar de forma segura porque los peones enemigos controlan la casilla delante.",
+                            "de": "Ein rückständiger Bauer ist einer, der hinter seinen Nachbarbauern zurückbleibt und nicht sicher vorrücken kann, weil gegnerische Bauern das Feld davor kontrollieren.",
+                            "nl": "Een achtergebleven pion is er één die achterloopt op zijn buurpionnen en niet veilig kan opruken omdat vijandelijke pionnen het veld ervoor controleren."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does '+' mean in chess notation?",
+                            "es": "¿Qué significa '+' en notación de ajedrez?",
+                            "de": "Was bedeutet '+' in der Schachnotation?",
+                            "nl": "Wat betekent '+' in schaaknotatie?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Check",
+                                    "es": "Jaque",
+                                    "de": "Schach",
+                                    "nl": "Schaak"
+                            },
+                            {
+                                    "en": "Checkmate",
+                                    "es": "Jaque mate",
+                                    "de": "Schachmatt",
+                                    "nl": "Schaakmat"
+                            },
+                            {
+                                    "en": "Good move",
+                                    "es": "Buen movimiento",
+                                    "de": "Guter Zug",
+                                    "nl": "Goede zet"
+                            },
+                            {
+                                    "en": "Capture",
+                                    "es": "Captura",
+                                    "de": "Schlag",
+                                    "nl": "Slag"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In chess notation, '+' indicates check. For example, Qd8+ means queen to d8 with check.",
+                            "es": "En notación de ajedrez, '+' indica jaque. Por ejemplo, Dd8+ significa reina a d8 con jaque.",
+                            "de": "in der Schachnotation zeigt '+' Schach an. Zum Beispiel bedeutet Dd8+ Dame nach d8 mit Schach.",
+                            "nl": "in schaaknotatie geeft '+' schaak aan. Bijvoorbeeld, Dd8+ betekent dame naar d8 met schaak."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'pawn chain'?",
+                            "es": "¿Qué es una 'cadena de peones'?",
+                            "de": "Was ist eine 'Bauernkette'?",
+                            "nl": "Wat is een 'pionnenketen'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A diagonal line of pawns protecting each other",
+                                    "es": "Una línea diagonal de peones protegiéndose mutuamente",
+                                    "de": "Eine diagonale Linie von Bauern, die sich gegenseitig schützen",
+                                    "nl": "Een diagonale lijn van pionnen die elkaar beschermen"
+                            },
+                            {
+                                    "en": "Pawns in a horizontal row",
+                                    "es": "Peones en una fila horizontal",
+                                    "de": "Bauern in einer horizontalen Reihe",
+                                    "nl": "Pionnen in een horizontale rij"
+                            },
+                            {
+                                    "en": "Doubled pawns",
+                                    "es": "Peones doblados",
+                                    "de": "Doppelbauern",
+                                    "nl": "Dubbelpionnen"
+                            },
+                            {
+                                    "en": "Isolated pawns",
+                                    "es": "Peones aislados",
+                                    "de": "Isolierte Bauern",
+                                    "nl": "Geïsoleerde pionnen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A pawn chain is a diagonal line of pawns where each pawn protects the one in front of it, creating a strong defensive structure.",
+                            "es": "Una cadena de peones es una línea diagonal de peones donde cada peón protege al que está delante, creando una estructura defensiva fuerte.",
+                            "de": "Eine Bauernkette ist eine diagonale Linie von Bauern, bei der jeder Bauer den vor ihm schützt und eine starke Verteidigungsstruktur bildet.",
+                            "nl": "Een pionnenketen is een diagonale lijn van pionnen waarbij elke pion degene ervoor beschermt, wat een sterke verdedigingsstructuur creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'French Defense'?",
+                            "es": "¿Qué es la 'Defensa Francesa'?",
+                            "de": "Was ist die 'Französische Verteidigung'?",
+                            "nl": "Wat is de 'Franse verdediging'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 e6 - A solid defense for Black",
+                                    "es": "1.e4 e6 - Una defensa sólida para las negras",
+                                    "de": "1.e4 e6 - Eine solide Verteidigung für Schwarz",
+                                    "nl": "1.e4 e6 - Een solide verdediging voor zwart"
+                            },
+                            {
+                                    "en": "1.d4 d5",
+                                    "es": "1.d4 d5",
+                                    "de": "1.d4 d5",
+                                    "nl": "1.d4 d5"
+                            },
+                            {
+                                    "en": "1.e4 c5",
+                                    "es": "1.e4 c5",
+                                    "de": "1.e4 c5",
+                                    "nl": "1.e4 c5"
+                            },
+                            {
+                                    "en": "1.Nf3",
+                                    "es": "1.Cf3",
+                                    "de": "1.Sf3",
+                                    "nl": "1.Pf3"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The French Defense (1.e4 e6) is a solid opening for Black that often leads to strategic, positional games with a strong pawn center.",
+                            "es": "La Defensa Francesa (1.e4 e6) es una apertura sólida para las negras que a menudo lleva a juegos estratégicos y posicionales con un centro de peones fuerte.",
+                            "de": "Die Französische Verteidigung (1.e4 e6) ist eine solide Eröffnung für Schwarz, die oft zu strategischen, positionellen Partien mit starkem Bauernzentrum führt.",
+                            "nl": "De Franse verdediging (1.e4 e6) is een solide opening voor zwart die vaak leidt tot strategische, positionele partijen met een sterk pionnencentrum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does '#' mean in chess notation?",
+                            "es": "¿Qué significa '#' en notación de ajedrez?",
+                            "de": "Was bedeutet '#' in der Schachnotation?",
+                            "nl": "Wat betekent '#' in schaaknotatie?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Checkmate",
+                                    "es": "Jaque mate",
+                                    "de": "Schachmatt",
+                                    "nl": "Schaakmat"
+                            },
+                            {
+                                    "en": "Check",
+                                    "es": "Jaque",
+                                    "de": "Schach",
+                                    "nl": "Schaak"
+                            },
+                            {
+                                    "en": "Draw",
+                                    "es": "Tablas",
+                                    "de": "Remis",
+                                    "nl": "Remise"
+                            },
+                            {
+                                    "en": "Stalemate",
+                                    "es": "Ahogado",
+                                    "de": "Patt",
+                                    "nl": "Pat"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In chess notation, '#' indicates checkmate. For example, Qg7# means queen to g7, checkmate.",
+                            "es": "En notación de ajedrez, '#' indica jaque mate. Por ejemplo, Dg7# significa reina a g7, jaque mate.",
+                            "de": "in der Schachnotation zeigt '#' Schachmatt an. Zum Beispiel bedeutet Dg7# Dame nach g7, Schachmatt.",
+                            "nl": "in schaaknotatie geeft '#' schaakmat aan. Bijvoorbeeld, Dg7# betekent dame naar g7, schaakmat."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is an 'exchange' in chess?",
+                            "es": "¿Qué es un 'cambio' en ajedrez?",
+                            "de": "Was ist ein 'Tausch' im Schach?",
+                            "nl": "Wat is een 'ruil' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Trading pieces of equal value, or specifically rook for bishop/knight",
+                                    "es": "Intercambiar piezas de igual valor, o específicamente torre por alfil/caballo",
+                                    "de": "Figuren gleichen Wertes tauschen, oder speziell Turm für Läufer/Springer",
+                                    "nl": "Stukken van gelijke waarde ruilen, of specifiek toren voor loper/paard"
+                            },
+                            {
+                                    "en": "Moving twice",
+                                    "es": "Mover dos veces",
+                                    "de": "Zweimal ziehen",
+                                    "nl": "Twee keer zetten"
+                            },
+                            {
+                                    "en": "Castling",
+                                    "es": "Enroque",
+                                    "de": "Rochade",
+                                    "nl": "Rokade"
+                            },
+                            {
+                                    "en": "Pawn promotion",
+                                    "es": "Promoción de peón",
+                                    "de": "Bauernumwandlung",
+                                    "nl": "Pionpromotie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "An exchange refers to trading pieces of equal value. 'Winning the exchange' specifically means gaining a rook for a bishop or knight.",
+                            "es": "Un cambio se refiere a intercambiar piezas de igual valor. 'Ganar el cambio' específicamente significa obtener una torre por un alfil o caballo.",
+                            "de": "Ein Tausch bezieht sich auf den Austausch von Figuren gleichen Wertes. 'Die Qualität gewinnen' bedeutet speziell, einen Turm für Läufer oder Springer zu bekommen.",
+                            "nl": "Een ruil verwijst naar het ruilen van stukken van gelijke waarde. 'De kwaliteit winnen' betekent specifiek een toren krijgen voor een loper of paard."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the starting position of Black's king?",
+                            "es": "¿Cuál es la posición inicial del rey negro?",
+                            "de": "Was ist die Ausgangsstellung des schwarzen Königs?",
+                            "nl": "Wat is de startpositie van de zwarte koning?"
+                    },
+                    "options": [
+                            {
+                                    "en": "e8",
+                                    "es": "e8",
+                                    "de": "e8",
+                                    "nl": "e8"
+                            },
+                            {
+                                    "en": "d8",
+                                    "es": "d8",
+                                    "de": "d8",
+                                    "nl": "d8"
+                            },
+                            {
+                                    "en": "e1",
+                                    "es": "e1",
+                                    "de": "e1",
+                                    "nl": "e1"
+                            },
+                            {
+                                    "en": "d1",
+                                    "es": "d1",
+                                    "de": "d1",
+                                    "nl": "d1"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Black king starts on e8, directly opposite the White king on e1. Kings always face each other at the start.",
+                            "es": "El rey negro comienza en e8, directamente opuesto al rey blanco en e1. Los reyes siempre se enfrentan al inicio.",
+                            "de": "Der schwarze König startet auf e8, direkt gegenüber dem weißen König auf e1. Könige stehen sich zu Beginn immer gegenüber.",
+                            "nl": "De zwarte koning begint op e8, direct tegenover de witte koning op e1. Koningen staan altijd tegenover elkaar aan het begin."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'insufficient material' for checkmate?",
+                            "es": "¿Qué es 'material insuficiente' para jaque mate?",
+                            "de": "Was ist 'unzureichendes Material' für Schachmatt?",
+                            "nl": "Wat is 'onvoldoende materiaal' voor schaakmat?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When neither side has enough pieces to force checkmate",
+                                    "es": "Cuando ningún lado tiene piezas suficientes para forzar jaque mate",
+                                    "de": "Wenn keine Seite genug Figuren hat, um Schachmatt zu erzwingen",
+                                    "nl": "Wanneer geen van beide kanten genoeg stukken heeft om schaakmat te forceren"
+                            },
+                            {
+                                    "en": "Not having a queen",
+                                    "es": "No tener una reina",
+                                    "de": "Keine Dame haben",
+                                    "nl": "Geen dame hebben"
+                            },
+                            {
+                                    "en": "Having only pawns",
+                                    "es": "Tener solo peones",
+                                    "de": "Nur Bauern haben",
+                                    "nl": "Alleen pionnen hebben"
+                            },
+                            {
+                                    "en": "Being down material",
+                                    "es": "Estar abajo en material",
+                                    "de": "Weniger Material haben",
+                                    "nl": "Minder materiaal hebben"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Insufficient material means neither player has enough pieces to force checkmate (e.g., King vs King, or King and Bishop vs King). The game is drawn.",
+                            "es": "Material insuficiente significa que ningún jugador tiene piezas suficientes para forzar jaque mate (ej., Rey vs Rey, o Rey y Alfil vs Rey). El juego es tablas.",
+                            "de": "Unzureichendes Material bedeutet, dass kein Spieler genug Figuren hat, um Schachmatt zu erzwingen (z.B. König gegen König, oder König und Läufer gegen König). Die Partie ist remis.",
+                            "nl": "Onvoldoende materiaal betekent dat geen speler genoeg stukken heeft om schaakmat te forceren (bijv. Koning vs Koning, van Koning en Loper vs Koning). Het spel is remise."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'Caro-Kann Defense'?",
+                            "es": "¿Qué es la 'Defensa Caro-Kann'?",
+                            "de": "Was ist die 'Caro-Kann Verteidigung'?",
+                            "nl": "Wat is de 'Caro-Kann verdediging'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.e4 c6 - A solid defense for Black",
+                                    "es": "1.e4 c6 - Una defensa sólida para las negras",
+                                    "de": "1.e4 c6 - Eine solide Verteidigung für Schwarz",
+                                    "nl": "1.e4 c6 - Een solide verdediging voor zwart"
+                            },
+                            {
+                                    "en": "1.d4 d5",
+                                    "es": "1.d4 d5",
+                                    "de": "1.d4 d5",
+                                    "nl": "1.d4 d5"
+                            },
+                            {
+                                    "en": "1.e4 e5",
+                                    "es": "1.e4 e5",
+                                    "de": "1.e4 e5",
+                                    "nl": "1.e4 e5"
+                            },
+                            {
+                                    "en": "1.Nf3 Nf6",
+                                    "es": "1.Cf3 Cf6",
+                                    "de": "1.Sf3 Sf6",
+                                    "nl": "1.Pf3 Pf6"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Caro-Kann Defense (1.e4 c6) is a solid opening for Black that prepares ...d5, creating a strong pawn structure while avoiding early complications.",
+                            "es": "La Defensa Caro-Kann (1.e4 c6) es una apertura sólida para las negras que prepara ...d5, creando una estructura de peones fuerte mientras evita complicaciones tempranas.",
+                            "de": "Die Caro-Kann Verteidigung (1.e4 c6) ist eine solide Eröffnung für Schwarz, die ...d5 vorbereitet und eine starke Bauernstruktur schafft, während frühe Komplikationen vermieden werden.",
+                            "nl": "De Caro-Kann verdediging (1.e4 c6) is een solide opening voor zwart die ...d5 voorbereidt, een sterke pionnenstructuur creëert en vroege complicaties vermijdt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'doubled pawn'?",
+                            "es": "¿Qué es un 'peón doblado'?",
+                            "de": "Was ist ein 'Doppelbauer'?",
+                            "nl": "Wat is een 'dubbelpion'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Two pawns of the same color on the same file",
+                                    "es": "Dos peones del mismo color en la misma columna",
+                                    "de": "Zwei Bauern derselben Farbe auf derselben Linie",
+                                    "nl": "Twee pionnen van dezelfde kleur op dezelfde lijn"
+                            },
+                            {
+                                    "en": "A pawn that has moved twice",
+                                    "es": "Un peón que se ha movido dos veces",
+                                    "de": "Ein Bauer, der zweimal gezogen ist",
+                                    "nl": "Een pion die twee keer heeft bewogen"
+                            },
+                            {
+                                    "en": "Connected pawns",
+                                    "es": "Peones conectados",
+                                    "de": "Verbundene Bauern",
+                                    "nl": "Verbonden pionnen"
+                            },
+                            {
+                                    "en": "A promoted pawn",
+                                    "es": "Un peón promocionado",
+                                    "de": "Ein umgewandelter Bauer",
+                                    "nl": "Een gepromoveerde pion"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Doubled pawns are two pawns of the same color on the same file, usually resulting from a capture. They are often considered weak.",
+                            "es": "Los peones doblados son dos peones del mismo color en la misma columna, generalmente resultado de una captura. A menudo se consideran débiles.",
+                            "de": "Doppelbauern sind zwei Bauern derselben Farbe auf derselben Linie, meist als Ergebnis eines Schlags. Sie gelten oft als schwach.",
+                            "nl": "Dubbelpionnen zijn twee pionnen van dezelfde kleur op dezelfde lijn, meestal het resultaat van een slag. Ze worden vaak als zwak beschouwd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'King's Indian Defense'?",
+                            "es": "¿Qué es la 'Defensa India de Rey'?",
+                            "de": "Was ist die 'Königsindische Verteidigung'?",
+                            "nl": "Wat is de 'Konings-Indische verdediging'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1.d4 Nf6 2.c4 g6 - A counterattacking defense",
+                                    "es": "1.d4 Cf6 2.c4 g6 - Una defensa de contraataque",
+                                    "de": "1.d4 Sf6 2.c4 g6 - Eine Gegenangriffs-Verteidigung",
+                                    "nl": "1.d4 Pf6 2.c4 g6 - Een tegenaanval verdediging"
+                            },
+                            {
+                                    "en": "1.e4 e5",
+                                    "es": "1.e4 e5",
+                                    "de": "1.e4 e5",
+                                    "nl": "1.e4 e5"
+                            },
+                            {
+                                    "en": "1.e4 c5",
+                                    "es": "1.e4 c5",
+                                    "de": "1.e4 c5",
+                                    "nl": "1.e4 c5"
+                            },
+                            {
+                                    "en": "1.Nf3 d5",
+                                    "es": "1.Cf3 d5",
+                                    "de": "1.Sf3 d5",
+                                    "nl": "1.Pf3 d5"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The King's Indian Defense is a dynamic opening where Black fianchettoes the king's bishop and often launches a kingside attack later.",
+                            "es": "La Defensa India de Rey es una apertura dinámica donde las negras hacen fianchetto con el alfil del rey y a menudo lanzan un ataque al flanco del rey más tarde.",
+                            "de": "Die Königsindische Verteidigung ist eine dynamische Eröffnung, bei der Schwarz den Königsläufer fianchettiert und später oft einen Königsangriff startet.",
+                            "nl": "De Konings-Indische verdediging is een dynamische opening waarbij zwart de koningsloper fianchettoot en later vaak een koningsvleugelaanval lanceert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the purpose of 'prophylaxis' in chess?",
+                            "es": "¿Cuál es el propósito de la 'profilaxis' en ajedrez?",
+                            "de": "Was ist der Zweck der 'Prophylaxe' im Schach?",
+                            "nl": "Wat is het doel van 'profylaxe' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Preventing your opponent's plans before they happen",
+                                    "es": "Prevenir los planes del oponente antes de que sucedan",
+                                    "de": "Die Pläne des Gegners verhindern, bevor sie geschehen",
+                                    "nl": "De plannen van je tegenstander voorkomen voordat ze gebeuren"
+                            },
+                            {
+                                    "en": "Attacking the king",
+                                    "es": "Atacar al rey",
+                                    "de": "Den König angreifen",
+                                    "nl": "De koning aanvallen"
+                            },
+                            {
+                                    "en": "Promoting pawns",
+                                    "es": "Promocionar peones",
+                                    "de": "Bauern umwandeln",
+                                    "nl": "Pionnen promoveren"
+                            },
+                            {
+                                    "en": "Trading pieces",
+                                    "es": "Intercambiar piezas",
+                                    "de": "Figuren tauschen",
+                                    "nl": "Stukken ruilen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Prophylaxis is the practice of preventing your opponent's threats and plans before they can be executed, a key defensive concept.",
+                            "es": "La profilaxis es la práctica de prevenir las amenazas y planes del oponente antes de que puedan ejecutarse, un concepto defensivo clave.",
+                            "de": "Prophylaxe ist die Praxis, die Drohungen und Pläne des Gegners zu verhindern, bevor sie ausgeführt werden können - ein wichtiges Verteidigungskonzept.",
+                            "nl": "Profylaxe is het voorkomen van de dreigingen en plannen van je tegenstander voordat ze kunnen worden uitgevoerd, een belangrijk verdedigingsconcept."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'desperado' piece?",
+                            "es": "¿Qué es una pieza 'desesperada'?",
+                            "de": "Was ist eine 'Desperado' Figur?",
+                            "nl": "Wat is een 'desperado' stuk?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A piece that's doomed but can do damage before being captured",
+                                    "es": "Una pieza condenada pero que puede hacer daño antes de ser capturada",
+                                    "de": "Eine verlorene Figur, die vor ihrer Eroberung noch Schaden anrichten kann",
+                                    "nl": "Een gedoemd stuk dat schade kan aanrichten voordat het wordt geslagen"
+                            },
+                            {
+                                    "en": "A very powerful piece",
+                                    "es": "Una pieza muy poderosa",
+                                    "de": "Eine sehr mächtige Figur",
+                                    "nl": "Een zeer krachtig stuk"
+                            },
+                            {
+                                    "en": "A promoted pawn",
+                                    "es": "Un peón promocionado",
+                                    "de": "Ein umgewandelter Bauer",
+                                    "nl": "Een gepromoveerde pion"
+                            },
+                            {
+                                    "en": "An isolated piece",
+                                    "es": "Una pieza aislada",
+                                    "de": "Eine isolierte Figur",
+                                    "nl": "Een geïsoleerd stuk"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A desperado is a piece that is going to be captured anyway, so it tries to capture or do maximum damage before it's taken.",
+                            "es": "Un desesperado es una pieza que va a ser capturada de todos modos, así que intenta capturar o hacer el máximo daño antes de ser tomada.",
+                            "de": "Ein Desperado ist eine Figur, die sowieso geschlagen wird, also versucht sie vorher noch zu schlagen oder maximalen Schaden anzurichten.",
+                            "nl": "Een desperado is een stuk dat toch geslagen gaat worden, dus het probeert te slaan of maximale schade aan te richten voordat het wordt genomen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'time control' in chess?",
+                            "es": "¿Qué es el 'control de tiempo' en ajedrez?",
+                            "de": "Was ist 'Zeitkontrolle' im Schach?",
+                            "nl": "Wat is 'tijdcontrole' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The amount of time each player has to make their moves",
+                                    "es": "La cantidad de tiempo que cada jugador tiene para hacer sus movimientos",
+                                    "de": "Die Zeit, die jeder Spieler für seine Züge hat",
+                                    "nl": "De hoeveelheid tijd die elke speler heeft om zijn zetten te doen"
+                            },
+                            {
+                                    "en": "Controlling the center early",
+                                    "es": "Controlar el centro temprano",
+                                    "de": "Das Zentrum früh kontrollieren",
+                                    "nl": "Het centrum vroeg controleren"
+                            },
+                            {
+                                    "en": "Managing your pieces",
+                                    "es": "Gestionar tus piezas",
+                                    "de": "Die eigenen Figuren verwalten",
+                                    "nl": "Je stukken beheren"
+                            },
+                            {
+                                    "en": "The opening phase",
+                                    "es": "La fase de apertura",
+                                    "de": "Die Eröffnungsphase",
+                                    "nl": "De openingsfase"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Time control refers to the time limits in chess games, such as rapid (15-25 minutes), blitz (3-5 minutes), or classical (90+ minutes).",
+                            "es": "El control de tiempo se refiere a los límites de tiempo en partidas de ajedrez, como rápidas (15-25 minutos), blitz (3-5 minutos) o clásicas (90+ minutos).",
+                            "de": "Zeitkontrolle bezieht sich auf die Zeitlimits in Schachpartien, wie Schnellschach (15-25 Minuten), Blitz (3-5 Minuten) oder klassisch (90+ Minuten).",
+                            "nl": "Tijdcontrole verwijst naar de tijdslimieten in schaakpartijen, zoals rapid (15-25 minuten), blitz (3-5 minuten) of klassiek (90+ minuten)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'windmill' in chess?",
+                            "es": "¿Qué es un 'molino' en ajedrez?",
+                            "de": "Was ist eine 'Windmühle' im Schach?",
+                            "nl": "Wat is een 'molen' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A series of discovered checks that win material",
+                                    "es": "Una serie de jaques descubiertos que ganan material",
+                                    "de": "Eine Serie von Abzugsschachs, die Material gewinnen",
+                                    "nl": "Een reeks ontdekte schaaks die materiaal winnen"
+                            },
+                            {
+                                    "en": "A pawn formation",
+                                    "es": "Una formación de peones",
+                                    "de": "Eine Bauernformation",
+                                    "nl": "Een pionnenformatie"
+                            },
+                            {
+                                    "en": "An opening trap",
+                                    "es": "Una trampa de apertura",
+                                    "de": "Eine Eröffnungsfalle",
+                                    "nl": "Een openingsval"
+                            },
+                            {
+                                    "en": "A type of draw",
+                                    "es": "Un tipo de tablas",
+                                    "de": "Eine Art von Remis",
+                                    "nl": "Een type remise"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A windmill is a tactical pattern where a piece moves back and forth, giving discovered check each time while the other piece captures material.",
+                            "es": "Un molino es un patrón táctico donde una pieza se mueve hacia adelante y atrás, dando jaque descubierto cada vez mientras la otra pieza captura material.",
+                            "de": "Eine Windmühle ist ein taktisches Muster, bei dem eine Figur hin und her zieht, jedes Mal Abzugsschach gibt, während die andere Figur Material schlägt.",
+                            "nl": "Een molen is een tactisch patroon waarbij een stuk heen en weer beweegt, telkens ontdekt schaak geeft terwijl het andere stuk materiaal slaat."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'overloading' in chess tactics?",
+                            "es": "¿Qué es la 'sobrecarga' en tácticas de ajedrez?",
+                            "de": "Was ist 'Überlastung' in Schachtaktiken?",
+                            "nl": "Wat is 'overbelasting' in schaaktactiek?"
+                    },
+                    "options": [
+                            {
+                                    "en": "When a piece has too many defensive duties to handle",
+                                    "es": "Cuando una pieza tiene demasiadas tareas defensivas que manejar",
+                                    "de": "Wenn eine Figur zu viele Verteidigungsaufgaben hat",
+                                    "nl": "Wanneer een stuk te veel verdedigingstaken heeft"
+                            },
+                            {
+                                    "en": "Having too many pieces",
+                                    "es": "Tener demasiadas piezas",
+                                    "de": "Zu viele Figuren haben",
+                                    "nl": "Te veel stukken hebben"
+                            },
+                            {
+                                    "en": "Playing too fast",
+                                    "es": "Jugar demasiado rápido",
+                                    "de": "Zu schnell spielen",
+                                    "nl": "Te snel spelen"
+                            },
+                            {
+                                    "en": "A heavy position",
+                                    "es": "Una posición pesada",
+                                    "de": "Eine schwere Stellung",
+                                    "nl": "Een zware positie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Overloading occurs when a piece is defending multiple important squares or pieces and cannot fulfill all its defensive duties at once.",
+                            "es": "La sobrecarga ocurre cuando una pieza está defendiendo múltiples casillas o piezas importantes y no puede cumplir todas sus tareas defensivas a la vez.",
+                            "de": "Überlastung tritt auf, wenn eine Figur mehrere wichtige Felder oder Figuren verteidigt und nicht alle Verteidigungsaufgaben gleichzeitig erfüllen kann.",
+                            "nl": "Overbelasting treedt op wanneer een stuk meerdere belangrijke velden of stukken verdedigt en niet al zijn verdedigingstaken tegelijk kan vervullen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'London System'?",
+                            "es": "¿Qué es el 'Sistema Londres'?",
+                            "de": "Was ist das 'Londoner System'?",
+                            "nl": "Wat is het 'Londen Systeem'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A solid opening system with 1.d4, 2.Nf3, 3.Bf4",
+                                    "es": "Un sistema de apertura sólido con 1.d4, 2.Cf3, 3.Af4",
+                                    "de": "Ein solides Eröffnungssystem mit 1.d4, 2.Sf3, 3.Lf4",
+                                    "nl": "Een solide openingssysteem met 1.d4, 2.Pf3, 3.Lf4"
+                            },
+                            {
+                                    "en": "1.e4 e5",
+                                    "es": "1.e4 e5",
+                                    "de": "1.e4 e5",
+                                    "nl": "1.e4 e5"
+                            },
+                            {
+                                    "en": "A chess tournament",
+                                    "es": "Un torneo de ajedrez",
+                                    "de": "Ein Schachturnier",
+                                    "nl": "Een schaaktoernooi"
+                            },
+                            {
+                                    "en": "An endgame technique",
+                                    "es": "Una técnica de final",
+                                    "de": "Eine Endspiel-Technik",
+                                    "nl": "Een eindspeltechniek"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The London System is a solid opening system for White starting with 1.d4, 2.Nf3, and 3.Bf4, creating a stable pawn structure.",
+                            "es": "El Sistema Londres es un sistema de apertura sólido para las blancas que comienza con 1.d4, 2.Cf3 y 3.Af4, creando una estructura de peones estable.",
+                            "de": "Das Londoner System ist ein solides Eröffnungssystem für Weiß, das mit 1.d4, 2.Sf3 und 3.Lf4 beginnt und eine stabile Bauernstruktur schafft.",
+                            "nl": "Het Londen Systeem is een solide openingssysteem voor wit dat begint met 1.d4, 2.Pf3 en 3.Lf4, wat een stabiele pionnenstructuur creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'under promotion'?",
+                            "es": "¿Qué es la 'subpromoción'?",
+                            "de": "Was ist eine 'Unterverwandlung'?",
+                            "nl": "Wat is 'onderpromotie'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Promoting a pawn to a piece other than a queen",
+                                    "es": "Promocionar un peón a una pieza que no sea reina",
+                                    "de": "Einen Bauern in eine andere Figur als die Dame umwandeln",
+                                    "nl": "Een pion promoveren tot een ander stuk dan een dame"
+                            },
+                            {
+                                    "en": "Promoting too early",
+                                    "es": "Promocionar demasiado temprano",
+                                    "de": "Zu früh umwandeln",
+                                    "nl": "Te vroeg promoveren"
+                            },
+                            {
+                                    "en": "Not promoting a pawn",
+                                    "es": "No promocionar un peón",
+                                    "de": "Einen Bauern nicht umwandeln",
+                                    "nl": "Een pion niet promoveren"
+                            },
+                            {
+                                    "en": "Promoting slowly",
+                                    "es": "Promocionar lentamente",
+                                    "de": "Langsam umwandeln",
+                                    "nl": "Langzaam promoveren"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Under promotion is when a pawn is promoted to a knight, bishop, or rook instead of a queen, usually for tactical reasons.",
+                            "es": "La subpromoción es cuando un peón se promociona a caballo, alfil o torre en lugar de reina, generalmente por razones tácticas.",
+                            "de": "Unterverwandlung ist, wenn ein Bauer in Springer, Läufer oder Turm statt in eine Dame umgewandelt wird, meist aus taktischen Gründen.",
+                            "nl": "Onderpromotie is wanneer een pion wordt gepromoveerd tot paard, loper van toren in plaats van dame, meestal om tactische redenen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'blitz chess'?",
+                            "es": "¿Qué es el 'ajedrez blitz'?",
+                            "de": "Was ist 'Blitzschach'?",
+                            "nl": "Wat is 'blitz schaken'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Chess games with 3-5 minutes per player",
+                                    "es": "Partidas de ajedrez con 3-5 minutos por jugador",
+                                    "de": "Schachpartien mit 3-5 Minuten pro Spieler",
+                                    "nl": "Schaakpartijen met 3-5 minuten per speler"
+                            },
+                            {
+                                    "en": "Very slow chess",
+                                    "es": "Ajedrez muy lento",
+                                    "de": "Sehr langsames Schach",
+                                    "nl": "Zeer langzaam schaken"
+                            },
+                            {
+                                    "en": "Chess without a clock",
+                                    "es": "Ajedrez sin reloj",
+                                    "de": "Schach ohne Uhr",
+                                    "nl": "Schaken zonder klok"
+                            },
+                            {
+                                    "en": "Team chess",
+                                    "es": "Ajedrez en equipo",
+                                    "de": "Mannschaftsschach",
+                                    "nl": "Teamschaak"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blitz chess is a fast time control where each player has 3-5 minutes for the entire game, requiring quick thinking and fast moves.",
+                            "es": "El ajedrez blitz es un control de tiempo rápido donde cada jugador tiene 3-5 minutos para toda la partida, requiriendo pensamiento rápido y movimientos veloces.",
+                            "de": "Blitzschach ist eine schnelle Zeitkontrolle, bei der jeder Spieler 3-5 Minuten für die gesamte Partie hat, was schnelles Denken und schnelle Züge erfordert.",
+                            "nl": "Blitz schaken is een snelle tijdcontrole waarbij elke speler 3-5 minuten heeft voor de hele partij, wat snel denken en snelle zetten vereist."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is a 'battery' in chess?",
+                            "es": "¿Qué es una 'batería' en ajedrez?",
+                            "de": "Was ist eine 'Batterie' im Schach?",
+                            "nl": "Wat is een 'batterij' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Two or more pieces of the same color on the same line attacking together",
+                                    "es": "Dos o más piezas del mismo color en la misma línea atacando juntas",
+                                    "de": "Zwei oder mehr Figuren derselben Farbe auf derselben Linie, die zusammen angreifen",
+                                    "nl": "Twee of meer stukken van dezelfde kleur op dezelfde lijn die samen aanvallen"
+                            },
+                            {
+                                    "en": "The chess clock",
+                                    "es": "El reloj de ajedrez",
+                                    "de": "Die Schachuhr",
+                                    "nl": "De schaakklok"
+                            },
+                            {
+                                    "en": "A pawn formation",
+                                    "es": "Una formación de peones",
+                                    "de": "Eine Bauernformation",
+                                    "nl": "Een pionnenformatie"
+                            },
+                            {
+                                    "en": "An opening system",
+                                    "es": "Un sistema de apertura",
+                                    "de": "Ein Eröffnungssystem",
+                                    "nl": "Een openingssysteem"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A battery is formed when two pieces (often queen and rook, or two rooks) are lined up on the same file, rank, or diagonal to create a powerful attack.",
+                            "es": "Una batería se forma cuando dos piezas (a menudo reina y torre, o dos torres) se alinean en la misma columna, fila o diagonal para crear un ataque poderoso.",
+                            "de": "Eine Batterie entsteht, wenn zwei Figuren (oft Dame und Turm, oder zwei Türme) auf derselben Linie, Reihe oder Diagonale aufgestellt sind, um einen kraftvollen Angriff zu schaffen.",
+                            "nl": "Een batterij wordt gevormd wanneer twee stukken (vaak dame en toren, of twee torens) op dezelfde lijn, rij of diagonaal staan om een krachtige aanval te creëren."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'Elo rating'?",
+                            "es": "¿Qué es el 'rating Elo'?",
+                            "de": "Was ist die 'Elo-Zahl'?",
+                            "nl": "Wat is 'Elo rating'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A system to calculate the relative skill levels of players",
+                                    "es": "Un sistema para calcular los niveles de habilidad relativos de los jugadores",
+                                    "de": "Ein System zur Berechnung der relativen Spielstärke von Spielern",
+                                    "nl": "Een systeem om de relatieve vaardigheidsniveaus van spelers te berekenen"
+                            },
+                            {
+                                    "en": "The number of games played",
+                                    "es": "El número de partidas jugadas",
+                                    "de": "Die Anzahl gespielter Partien",
+                                    "nl": "Het aantal gespeelde partijen"
+                            },
+                            {
+                                    "en": "Tournament points",
+                                    "es": "Puntos de torneo",
+                                    "de": "Turnierpunkte",
+                                    "nl": "Toernooipunten"
+                            },
+                            {
+                                    "en": "Chess piece values",
+                                    "es": "Valores de piezas de ajedrez",
+                                    "de": "Schachfigurenwerte",
+                                    "nl": "Schaakstukwaarden"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Elo rating system is a method for calculating the relative skill levels of players. Higher ratings indicate stronger players.",
+                            "es": "El sistema de rating Elo es un método para calcular los niveles de habilidad relativos de los jugadores. Ratings más altos indican jugadores más fuertes.",
+                            "de": "Das Elo-System ist eine Methode zur Berechnung der relativen Spielstärke von Spielern. Höhere Zahlen zeigen stärkere Spieler an.",
+                            "nl": "Het Elo rating systeem is een methode om de relatieve vaardigheidsniveaus van spelers te berekenen. Hogere ratings duiden op sterkere spelers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'correspondence chess'?",
+                            "es": "¿Qué es el 'ajedrez por correspondencia'?",
+                            "de": "Was ist 'Fernschach'?",
+                            "nl": "Wat is 'correspondentieschaak'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Chess played over long periods with days per move",
+                                    "es": "Ajedrez jugado durante largos períodos con días por movimiento",
+                                    "de": "Schach über lange Zeiträume mit Tagen pro Zug",
+                                    "nl": "Schaak gespeeld over lange periodes met dagen per zet"
+                            },
+                            {
+                                    "en": "Chess played face to face",
+                                    "es": "Ajedrez jugado cara a cara",
+                                    "de": "Schach von Angesicht zu Angesicht",
+                                    "nl": "Schaak face-to-face gespeeld"
+                            },
+                            {
+                                    "en": "Speed chess",
+                                    "es": "Ajedrez rápido",
+                                    "de": "Schnellschach",
+                                    "nl": "Snelschaak"
+                            },
+                            {
+                                    "en": "Tournament chess",
+                                    "es": "Ajedrez de torneo",
+                                    "de": "Turnierschach",
+                                    "nl": "Toernooischaak"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Correspondence chess is played over long time periods (days or weeks per move), traditionally by mail, now often online.",
+                            "es": "El ajedrez por correspondencia se juega durante largos períodos (días o semanas por movimiento), tradicionalmente por correo, ahora a menudo en línea.",
+                            "de": "Fernschach wird über lange Zeiträume gespielt (Tage oder Wochen pro Zug), traditionell per Post, heute oft online.",
+                            "nl": "Correspondentieschaak wordt gespeeld over lange tijdsperiodes (dagen of weken per zet), traditioneel per post, nu vaak online."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'Swiss system' in tournaments?",
+                            "es": "¿Qué es el 'sistema suizo' en torneos?",
+                            "de": "Was ist das 'Schweizer System' in Turnieren?",
+                            "nl": "Wat is het 'Zwitsers systeem' in toernooien?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A tournament format where players are paired based on similar scores",
+                                    "es": "Un formato de torneo donde los jugadores se emparejan según puntuaciones similares",
+                                    "de": "Ein Turnierformat, bei dem Spieler nach ähnlichen Punktzahlen gepaart werden",
+                                    "nl": "Een toernooiformaat waarbij spelers worden gekoppeld op basis van vergelijkbare scores"
+                            },
+                            {
+                                    "en": "Round-robin format",
+                                    "es": "Formato todos contra todos",
+                                    "de": "Rundenturnier-Format",
+                                    "nl": "Round-robin formaat"
+                            },
+                            {
+                                    "en": "Knockout tournament",
+                                    "es": "Torneo eliminatorio",
+                                    "de": "K.o.-Turnier",
+                                    "nl": "Knock-out toernooi"
+                            },
+                            {
+                                    "en": "Team tournament",
+                                    "es": "Torneo por equipos",
+                                    "de": "Mannschaftsturnier",
+                                    "nl": "Teamtoernooi"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Swiss system pairs players with similar scores in each round without requiring everyone to play everyone else, allowing large tournaments.",
+                            "es": "El sistema suizo empareja jugadores con puntuaciones similares en cada ronda sin requerir que todos jueguen contra todos, permitiendo torneos grandes.",
+                            "de": "Das Schweizer System paart Spieler mit ähnlichen Punktzahlen in jeder Runde, ohne dass jeder gegen jeden spielen muss, was große Turniere ermöglicht.",
+                            "nl": "Het Zwitsers systeem koppelt spelers met vergelijkbare scores in elke ronde zonder dat iedereen tegen iedereen hoeft te spelen, wat grote toernooien mogelijk maakt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'perpetual check'?",
+                            "es": "¿Qué es el 'jaque perpetuo'?",
+                            "de": "Was ist 'Dauerschach'?",
+                            "nl": "Wat is 'eeuwig schaak'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A series of checks that forces a draw",
+                                    "es": "Una serie de jaques que fuerza tablas",
+                                    "de": "Eine Serie von Schachs, die ein Remis erzwingt",
+                                    "nl": "Een reeks schaaks die remise afdwingt"
+                            },
+                            {
+                                    "en": "Checkmate",
+                                    "es": "Jaque mate",
+                                    "de": "Schachmatt",
+                                    "nl": "Schaakmat"
+                            },
+                            {
+                                    "en": "A single check",
+                                    "es": "Un solo jaque",
+                                    "de": "Ein einzelnes Schach",
+                                    "nl": "Een enkele schaak"
+                            },
+                            {
+                                    "en": "Double check",
+                                    "es": "Jaque doble",
+                                    "de": "Doppelschach",
+                                    "nl": "Dubbelschaak"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Perpetual check is a situation where one player can give endless checks, forcing a draw as the position repeats or the defending player accepts the draw.",
+                            "es": "El jaque perpetuo es una situación donde un jugador puede dar jaques infinitos, forzando tablas cuando la posición se repite o el defensor acepta las tablas.",
+                            "de": "Dauerschach ist eine Situation, in der ein Spieler endlose Schachs geben kann, was ein Remis erzwingt, da sich die Stellung wiederholt oder der Verteidiger das Remis annimmt.",
+                            "nl": "Eeuwig schaak is een situatie waarin een speler eindeloos schaak kan geven, wat remise afdwingt doordat de stelling zich herhaalt of de verdediger remise accepteert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'chess blindness'?",
+                            "es": "¿Qué es la 'ceguera ajedrecística'?",
+                            "de": "Was ist 'Schachblindheit'?",
+                            "nl": "Wat is 'schaakblindheid'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Missing an obvious move or threat during a game",
+                                    "es": "Perder un movimiento o amenaza obvia durante una partida",
+                                    "de": "Einen offensichtlichen Zug oder eine Drohung während einer Partie übersehen",
+                                    "nl": "Een voor de hand liggende zet of dreiging missen tijdens een partij"
+                            },
+                            {
+                                    "en": "Playing without seeing the board",
+                                    "es": "Jugar sin ver el tablero",
+                                    "de": "Spielen ohne das Brett zu sehen",
+                                    "nl": "Spelen zonder het bord te zien"
+                            },
+                            {
+                                    "en": "Bad eyesight",
+                                    "es": "Mala vista",
+                                    "de": "Schlechtes Sehvermögen",
+                                    "nl": "Slecht zicht"
+                            },
+                            {
+                                    "en": "Playing too fast",
+                                    "es": "Jugar demasiado rápido",
+                                    "de": "Zu schnell spielen",
+                                    "nl": "Te snel spelen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess blindness is when a player fails to see an obvious move, capture, or threat, often due to fatigue or focus on other aspects of the position.",
+                            "es": "La ceguera ajedrecística es cuando un jugador no ve un movimiento, captura o amenaza obvia, a menudo debido a fatiga o enfoque en otros aspectos de la posición.",
+                            "de": "Schachblindheit ist, wenn ein Spieler einen offensichtlichen Zug, Schlag oder eine Drohung nicht sieht, oft aufgrund von Müdigkeit oder Fokus auf andere Aspekte der Stellung.",
+                            "nl": "Schaakblindheid is wanneer een speler een voor de hand liggende zet, slag of dreiging niet ziet, vaak door vermoeidheid of focus op andere aspecten van de stelling."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is 'book' in chess?",
+                            "es": "¿Qué es el 'libro' en ajedrez?",
+                            "de": "Was ist 'Theorie' im Schach?",
+                            "nl": "Wat is 'boek' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Known opening theory and established moves",
+                                    "es": "Teoría de aperturas conocida y movimientos establecidos",
+                                    "de": "Bekannte Eröffnungstheorie und etablierte Züge",
+                                    "nl": "Bekende openingstheorie en gevestigde zetten"
+                            },
+                            {
+                                    "en": "A chess manual",
+                                    "es": "Un manual de ajedrez",
+                                    "de": "Ein Schachhandbuch",
+                                    "nl": "Een schaakhandboek"
+                            },
+                            {
+                                    "en": "The rules of chess",
+                                    "es": "Las reglas del ajedrez",
+                                    "de": "Die Schachregeln",
+                                    "nl": "De schaakregels"
+                            },
+                            {
+                                    "en": "A chess database",
+                                    "es": "Una base de datos de ajedrez",
+                                    "de": "Eine Schachdatenbank",
+                                    "nl": "Een schaakdatabase"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Being 'in book' means playing moves that are part of established opening theory. 'Out of book' means entering unknown or less explored positions.",
+                            "es": "Estar 'en el libro' significa jugar movimientos que son parte de la teoría de aperturas establecida. 'Fuera del libro' significa entrar en posiciones desconocidas o menos exploradas.",
+                            "de": "in der 'Theorie' zu sein bedeutet, Züge zu spielen, die Teil der etablierten Eröffnungstheorie sind. 'Aus der Theorie' bedeutet, unbekannte oder weniger erforschte Stellungen zu betreten.",
+                            "nl": "in het 'boek' zijn betekent zetten spelen die deel uitmaken van gevestigde openingstheorie. 'Uit het boek' betekent onbekende van minder verkende stellingen ingaan."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the 'initiative' in chess?",
+                            "es": "¿Qué es la 'iniciativa' en ajedrez?",
+                            "de": "Was ist die 'Initiative' im Schach?",
+                            "nl": "Wat is het 'initiatief' bij schaken?"
+                    },
+                    "options": [
+                            {
+                                    "en": "The ability to make threats and dictate the flow of the game",
+                                    "es": "La capacidad de hacer amenazas y dictar el flujo del juego",
+                                    "de": "Die Fähigkeit, Drohungen aufzustellen und den Spielfluss zu bestimmen",
+                                    "nl": "Het vermogen om dreigingen te maken en de stroom van het spel te dicteren"
+                            },
+                            {
+                                    "en": "Moving first",
+                                    "es": "Mover primero",
+                                    "de": "Zuerst ziehen",
+                                    "nl": "Als eerste zetten"
+                            },
+                            {
+                                    "en": "Having more pieces",
+                                    "es": "Tener más piezas",
+                                    "de": "Mehr Figuren haben",
+                                    "nl": "Meer stukken hebben"
+                            },
+                            {
+                                    "en": "The opening move",
+                                    "es": "El movimiento de apertura",
+                                    "de": "Der Eröffnungszug",
+                                    "nl": "De openingszet"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Initiative means having the ability to create threats and force your opponent to respond to your plans rather than pursuing their own.",
+                            "es": "La iniciativa significa tener la capacidad de crear amenazas y forzar a tu oponente a responder a tus planes en lugar de seguir los suyos.",
+                            "de": "Initiative bedeutet, die Fähigkeit zu haben, Drohungen zu schaffen und den Gegner zu zwingen, auf die eigenen Pläne zu reagieren, anstatt seine eigenen zu verfolgen.",
+                            "nl": "Initiatief betekent het vermogen hebben om dreigingen te creëren en je tegenstander te dwingen op jouw plannen te reageren in plaats van hun eigen plannen na te streven."
+                    }
+            }
+    ]
 };

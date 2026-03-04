@@ -1,0 +1,748 @@
+{
+  "summary": {
+    "totalFiles": 1812,
+    "totalQuestions": 180405,
+    "totalAffectedFiles": 70,
+    "qualityScore": {
+      "translations": 100,
+      "optionLabels": 100,
+      "content": 100,
+      "overall": 96.13686534216336
+    }
+  },
+  "issues": {
+    "fakeTranslations": 0,
+    "correctIncorrectLabels": 0,
+    "templateContent": 0,
+    "mixedLanguages": 70
+  },
+  "bySubject": {
+    "ai": {
+      "totalFiles": 161,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 70,
+      "affectedFiles": [
+        {
+          "file": "AI ethiek\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI ethiek\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI geschiedenis\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "AI toekomst\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Ethiek en AI\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Natuurlijke taalverwerking\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Neurale netwerken\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level1.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level10.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level2.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level3.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level4.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level5.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level6.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level7.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level8.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        },
+        {
+          "file": "Toekomst van AI\\level9.js",
+          "issues": {
+            "fakeTranslations": 0,
+            "correctIncorrect": 0,
+            "templates": 0,
+            "mixedLang": 130
+          }
+        }
+      ]
+    },
+    "board-games": {
+      "totalFiles": 130,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "books": {
+      "totalFiles": 110,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "currencies": {
+      "totalFiles": 230,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "desserts": {
+      "totalFiles": 180,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "dinosaurs": {
+      "totalFiles": 180,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "drinks": {
+      "totalFiles": 100,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "egypt": {
+      "totalFiles": 240,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "f1": {
+      "totalFiles": 120,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "famous-buildings": {
+      "totalFiles": 120,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "famous-people": {
+      "totalFiles": 100,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    },
+    "food": {
+      "totalFiles": 141,
+      "filesWithFakeTranslations": 0,
+      "filesWithCorrectIncorrect": 0,
+      "filesWithTemplates": 0,
+      "filesWithMixedLang": 0,
+      "affectedFiles": []
+    }
+  }
+}

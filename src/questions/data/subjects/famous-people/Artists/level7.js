@@ -1,4104 +1,4108 @@
+// Artists - level7
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:23.880Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Artists",
-      "es": "Pregunta 1 sobre Artists",
-      "de": "Frage 1 über Artists",
-      "nl": "Vraag 1 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Artists",
-      "es": "Pregunta 2 sobre Artists",
-      "de": "Frage 2 über Artists",
-      "nl": "Vraag 2 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Artists",
-      "es": "Pregunta 3 sobre Artists",
-      "de": "Frage 3 über Artists",
-      "nl": "Vraag 3 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Artists",
-      "es": "Pregunta 4 sobre Artists",
-      "de": "Frage 4 über Artists",
-      "nl": "Vraag 4 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Artists",
-      "es": "Pregunta 5 sobre Artists",
-      "de": "Frage 5 über Artists",
-      "nl": "Vraag 5 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Artists",
-      "es": "Pregunta 6 sobre Artists",
-      "de": "Frage 6 über Artists",
-      "nl": "Vraag 6 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Artists",
-      "es": "Pregunta 7 sobre Artists",
-      "de": "Frage 7 über Artists",
-      "nl": "Vraag 7 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Artists",
-      "es": "Pregunta 8 sobre Artists",
-      "de": "Frage 8 über Artists",
-      "nl": "Vraag 8 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Artists",
-      "es": "Pregunta 9 sobre Artists",
-      "de": "Frage 9 über Artists",
-      "nl": "Vraag 9 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Artists",
-      "es": "Pregunta 10 sobre Artists",
-      "de": "Frage 10 über Artists",
-      "nl": "Vraag 10 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Artists",
-      "es": "Pregunta 11 sobre Artists",
-      "de": "Frage 11 über Artists",
-      "nl": "Vraag 11 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Artists",
-      "es": "Pregunta 12 sobre Artists",
-      "de": "Frage 12 über Artists",
-      "nl": "Vraag 12 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Artists",
-      "es": "Pregunta 13 sobre Artists",
-      "de": "Frage 13 über Artists",
-      "nl": "Vraag 13 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Artists",
-      "es": "Pregunta 14 sobre Artists",
-      "de": "Frage 14 über Artists",
-      "nl": "Vraag 14 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Artists",
-      "es": "Pregunta 15 sobre Artists",
-      "de": "Frage 15 über Artists",
-      "nl": "Vraag 15 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Artists",
-      "es": "Pregunta 16 sobre Artists",
-      "de": "Frage 16 über Artists",
-      "nl": "Vraag 16 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Artists",
-      "es": "Pregunta 17 sobre Artists",
-      "de": "Frage 17 über Artists",
-      "nl": "Vraag 17 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Artists",
-      "es": "Pregunta 18 sobre Artists",
-      "de": "Frage 18 über Artists",
-      "nl": "Vraag 18 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Artists",
-      "es": "Pregunta 19 sobre Artists",
-      "de": "Frage 19 über Artists",
-      "nl": "Vraag 19 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Artists",
-      "es": "Pregunta 20 sobre Artists",
-      "de": "Frage 20 über Artists",
-      "nl": "Vraag 20 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Artists",
-      "es": "Pregunta 21 sobre Artists",
-      "de": "Frage 21 über Artists",
-      "nl": "Vraag 21 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Artists",
-      "es": "Pregunta 22 sobre Artists",
-      "de": "Frage 22 über Artists",
-      "nl": "Vraag 22 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Artists",
-      "es": "Pregunta 23 sobre Artists",
-      "de": "Frage 23 über Artists",
-      "nl": "Vraag 23 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Artists",
-      "es": "Pregunta 24 sobre Artists",
-      "de": "Frage 24 über Artists",
-      "nl": "Vraag 24 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Artists",
-      "es": "Pregunta 25 sobre Artists",
-      "de": "Frage 25 über Artists",
-      "nl": "Vraag 25 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Artists",
-      "es": "Pregunta 26 sobre Artists",
-      "de": "Frage 26 über Artists",
-      "nl": "Vraag 26 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Artists",
-      "es": "Pregunta 27 sobre Artists",
-      "de": "Frage 27 über Artists",
-      "nl": "Vraag 27 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Artists",
-      "es": "Pregunta 28 sobre Artists",
-      "de": "Frage 28 über Artists",
-      "nl": "Vraag 28 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Artists",
-      "es": "Pregunta 29 sobre Artists",
-      "de": "Frage 29 über Artists",
-      "nl": "Vraag 29 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Artists",
-      "es": "Pregunta 30 sobre Artists",
-      "de": "Frage 30 über Artists",
-      "nl": "Vraag 30 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Artists",
-      "es": "Pregunta 31 sobre Artists",
-      "de": "Frage 31 über Artists",
-      "nl": "Vraag 31 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Artists",
-      "es": "Pregunta 32 sobre Artists",
-      "de": "Frage 32 über Artists",
-      "nl": "Vraag 32 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Artists",
-      "es": "Pregunta 33 sobre Artists",
-      "de": "Frage 33 über Artists",
-      "nl": "Vraag 33 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Artists",
-      "es": "Pregunta 34 sobre Artists",
-      "de": "Frage 34 über Artists",
-      "nl": "Vraag 34 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Artists",
-      "es": "Pregunta 35 sobre Artists",
-      "de": "Frage 35 über Artists",
-      "nl": "Vraag 35 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Artists",
-      "es": "Pregunta 36 sobre Artists",
-      "de": "Frage 36 über Artists",
-      "nl": "Vraag 36 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Artists",
-      "es": "Pregunta 37 sobre Artists",
-      "de": "Frage 37 über Artists",
-      "nl": "Vraag 37 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Artists",
-      "es": "Pregunta 38 sobre Artists",
-      "de": "Frage 38 über Artists",
-      "nl": "Vraag 38 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Artists",
-      "es": "Pregunta 39 sobre Artists",
-      "de": "Frage 39 über Artists",
-      "nl": "Vraag 39 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Artists",
-      "es": "Pregunta 40 sobre Artists",
-      "de": "Frage 40 über Artists",
-      "nl": "Vraag 40 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Artists",
-      "es": "Pregunta 41 sobre Artists",
-      "de": "Frage 41 über Artists",
-      "nl": "Vraag 41 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Artists",
-      "es": "Pregunta 42 sobre Artists",
-      "de": "Frage 42 über Artists",
-      "nl": "Vraag 42 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Artists",
-      "es": "Pregunta 43 sobre Artists",
-      "de": "Frage 43 über Artists",
-      "nl": "Vraag 43 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Artists",
-      "es": "Pregunta 44 sobre Artists",
-      "de": "Frage 44 über Artists",
-      "nl": "Vraag 44 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Artists",
-      "es": "Pregunta 45 sobre Artists",
-      "de": "Frage 45 über Artists",
-      "nl": "Vraag 45 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Artists",
-      "es": "Pregunta 46 sobre Artists",
-      "de": "Frage 46 über Artists",
-      "nl": "Vraag 46 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Artists",
-      "es": "Pregunta 47 sobre Artists",
-      "de": "Frage 47 über Artists",
-      "nl": "Vraag 47 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Artists",
-      "es": "Pregunta 48 sobre Artists",
-      "de": "Frage 48 über Artists",
-      "nl": "Vraag 48 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Artists",
-      "es": "Pregunta 49 sobre Artists",
-      "de": "Frage 49 über Artists",
-      "nl": "Vraag 49 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Artists",
-      "es": "Pregunta 50 sobre Artists",
-      "de": "Frage 50 über Artists",
-      "nl": "Vraag 50 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Artists",
-      "es": "Pregunta 51 sobre Artists",
-      "de": "Frage 51 über Artists",
-      "nl": "Vraag 51 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Artists",
-      "es": "Pregunta 52 sobre Artists",
-      "de": "Frage 52 über Artists",
-      "nl": "Vraag 52 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Artists",
-      "es": "Pregunta 53 sobre Artists",
-      "de": "Frage 53 über Artists",
-      "nl": "Vraag 53 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Artists",
-      "es": "Pregunta 54 sobre Artists",
-      "de": "Frage 54 über Artists",
-      "nl": "Vraag 54 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Artists",
-      "es": "Pregunta 55 sobre Artists",
-      "de": "Frage 55 über Artists",
-      "nl": "Vraag 55 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Artists",
-      "es": "Pregunta 56 sobre Artists",
-      "de": "Frage 56 über Artists",
-      "nl": "Vraag 56 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Artists",
-      "es": "Pregunta 57 sobre Artists",
-      "de": "Frage 57 über Artists",
-      "nl": "Vraag 57 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Artists",
-      "es": "Pregunta 58 sobre Artists",
-      "de": "Frage 58 über Artists",
-      "nl": "Vraag 58 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Artists",
-      "es": "Pregunta 59 sobre Artists",
-      "de": "Frage 59 über Artists",
-      "nl": "Vraag 59 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Artists",
-      "es": "Pregunta 60 sobre Artists",
-      "de": "Frage 60 über Artists",
-      "nl": "Vraag 60 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Artists",
-      "es": "Pregunta 61 sobre Artists",
-      "de": "Frage 61 über Artists",
-      "nl": "Vraag 61 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Artists",
-      "es": "Pregunta 62 sobre Artists",
-      "de": "Frage 62 über Artists",
-      "nl": "Vraag 62 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Artists",
-      "es": "Pregunta 63 sobre Artists",
-      "de": "Frage 63 über Artists",
-      "nl": "Vraag 63 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Artists",
-      "es": "Pregunta 64 sobre Artists",
-      "de": "Frage 64 über Artists",
-      "nl": "Vraag 64 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Artists",
-      "es": "Pregunta 65 sobre Artists",
-      "de": "Frage 65 über Artists",
-      "nl": "Vraag 65 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Artists",
-      "es": "Pregunta 66 sobre Artists",
-      "de": "Frage 66 über Artists",
-      "nl": "Vraag 66 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Artists",
-      "es": "Pregunta 67 sobre Artists",
-      "de": "Frage 67 über Artists",
-      "nl": "Vraag 67 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Artists",
-      "es": "Pregunta 68 sobre Artists",
-      "de": "Frage 68 über Artists",
-      "nl": "Vraag 68 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Artists",
-      "es": "Pregunta 69 sobre Artists",
-      "de": "Frage 69 über Artists",
-      "nl": "Vraag 69 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Artists",
-      "es": "Pregunta 70 sobre Artists",
-      "de": "Frage 70 über Artists",
-      "nl": "Vraag 70 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Artists",
-      "es": "Pregunta 71 sobre Artists",
-      "de": "Frage 71 über Artists",
-      "nl": "Vraag 71 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Artists",
-      "es": "Pregunta 72 sobre Artists",
-      "de": "Frage 72 über Artists",
-      "nl": "Vraag 72 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Artists",
-      "es": "Pregunta 73 sobre Artists",
-      "de": "Frage 73 über Artists",
-      "nl": "Vraag 73 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Artists",
-      "es": "Pregunta 74 sobre Artists",
-      "de": "Frage 74 über Artists",
-      "nl": "Vraag 74 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Artists",
-      "es": "Pregunta 75 sobre Artists",
-      "de": "Frage 75 über Artists",
-      "nl": "Vraag 75 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Artists",
-      "es": "Pregunta 76 sobre Artists",
-      "de": "Frage 76 über Artists",
-      "nl": "Vraag 76 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Artists",
-      "es": "Pregunta 77 sobre Artists",
-      "de": "Frage 77 über Artists",
-      "nl": "Vraag 77 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Artists",
-      "es": "Pregunta 78 sobre Artists",
-      "de": "Frage 78 über Artists",
-      "nl": "Vraag 78 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Artists",
-      "es": "Pregunta 79 sobre Artists",
-      "de": "Frage 79 über Artists",
-      "nl": "Vraag 79 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Artists",
-      "es": "Pregunta 80 sobre Artists",
-      "de": "Frage 80 über Artists",
-      "nl": "Vraag 80 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Artists",
-      "es": "Pregunta 81 sobre Artists",
-      "de": "Frage 81 über Artists",
-      "nl": "Vraag 81 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Artists",
-      "es": "Pregunta 82 sobre Artists",
-      "de": "Frage 82 über Artists",
-      "nl": "Vraag 82 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Artists",
-      "es": "Pregunta 83 sobre Artists",
-      "de": "Frage 83 über Artists",
-      "nl": "Vraag 83 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Artists",
-      "es": "Pregunta 84 sobre Artists",
-      "de": "Frage 84 über Artists",
-      "nl": "Vraag 84 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Artists",
-      "es": "Pregunta 85 sobre Artists",
-      "de": "Frage 85 über Artists",
-      "nl": "Vraag 85 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Artists",
-      "es": "Pregunta 86 sobre Artists",
-      "de": "Frage 86 über Artists",
-      "nl": "Vraag 86 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Artists",
-      "es": "Pregunta 87 sobre Artists",
-      "de": "Frage 87 über Artists",
-      "nl": "Vraag 87 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Artists",
-      "es": "Pregunta 88 sobre Artists",
-      "de": "Frage 88 über Artists",
-      "nl": "Vraag 88 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Artists",
-      "es": "Pregunta 89 sobre Artists",
-      "de": "Frage 89 über Artists",
-      "nl": "Vraag 89 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Artists",
-      "es": "Pregunta 90 sobre Artists",
-      "de": "Frage 90 über Artists",
-      "nl": "Vraag 90 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Artists",
-      "es": "Pregunta 91 sobre Artists",
-      "de": "Frage 91 über Artists",
-      "nl": "Vraag 91 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Artists",
-      "es": "Pregunta 92 sobre Artists",
-      "de": "Frage 92 über Artists",
-      "nl": "Vraag 92 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Artists",
-      "es": "Pregunta 93 sobre Artists",
-      "de": "Frage 93 über Artists",
-      "nl": "Vraag 93 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Artists",
-      "es": "Pregunta 94 sobre Artists",
-      "de": "Frage 94 über Artists",
-      "nl": "Vraag 94 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Artists",
-      "es": "Pregunta 95 sobre Artists",
-      "de": "Frage 95 über Artists",
-      "nl": "Vraag 95 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Artists",
-      "es": "Pregunta 96 sobre Artists",
-      "de": "Frage 96 über Artists",
-      "nl": "Vraag 96 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Artists",
-      "es": "Pregunta 97 sobre Artists",
-      "de": "Frage 97 über Artists",
-      "nl": "Vraag 97 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Artists",
-      "es": "Pregunta 98 sobre Artists",
-      "de": "Frage 98 über Artists",
-      "nl": "Vraag 98 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Artists",
-      "es": "Pregunta 99 sobre Artists",
-      "de": "Frage 99 über Artists",
-      "nl": "Vraag 99 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Artists",
-      "es": "Pregunta 100 sobre Artists",
-      "de": "Frage 100 über Artists",
-      "nl": "Vraag 100 over Artists"
-    },
-    "options": [
-      {
-        "en": "Answer A for Artists",
-        "es": "Respuesta A para Artists",
-        "de": "Antwort A für Artists",
-        "nl": "Antwoord A voor Artists"
-      },
-      {
-        "en": "Answer B for Artists",
-        "es": "Respuesta B para Artists",
-        "de": "Antwort B für Artists",
-        "nl": "Antwoord B voor Artists"
-      },
-      {
-        "en": "Answer C for Artists",
-        "es": "Respuesta C para Artists",
-        "de": "Antwort C für Artists",
-        "nl": "Antwoord C voor Artists"
-      },
-      {
-        "en": "Answer D for Artists",
-        "es": "Respuesta D para Artists",
-        "de": "Antwort D für Artists",
-        "nl": "Antwoord D voor Artists"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Artists.",
-      "es": "Esta es la respuesta correcta sobre Artists.",
-      "de": "Dies ist die richtige Antwort über Artists.",
-      "nl": "Dit is het juiste antwoord over Artists."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted the Mona Lisa?",
+                            "es": "¿Quién painted the Mona Lisa?",
+                            "de": "Wer painted the Mona Lisa?",
+                            "nl": "Wie painted the Mona Lisa?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michelangelo",
+                                    "es": "Michelangelo",
+                                    "de": "Michelangelo",
+                                    "nl": "Michelangelo"
+                            },
+                            {
+                                    "en": "Leonardo da Vinci",
+                                    "es": "Leonardo da Vinci",
+                                    "de": "Leonardo da Vinci",
+                                    "nl": "Leonardo da Vinci"
+                            },
+                            {
+                                    "en": "Raphael",
+                                    "es": "Raphael",
+                                    "de": "Raphael",
+                                    "nl": "Raphael"
+                            },
+                            {
+                                    "en": "Donatello",
+                                    "es": "Donatello",
+                                    "de": "Donatello",
+                                    "nl": "Donatello"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum.",
+                            "es": "Leonardo da Vinci painted the Mona Lesa between 1503-1519, now desplayed in the Louvre Museum.",
+                            "de": "Leonardo da Vinci painted the Mona Lista between 1503-1519, now distplayed in the Louvre Museum.",
+                            "nl": "Leonardo da Vinci painted the Mona Lisa between 1503-1519, now displayed in the Louvre Museum."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who developed the theory of relativity?",
+                            "es": "¿Quién developed the theory of relativity?",
+                            "de": "Wer developed the theory of relativity?",
+                            "nl": "Wie developed the theory of relativity?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Isaac Newton",
+                                    "es": "Isaac Newton",
+                                    "de": "Isaac Newton",
+                                    "nl": "Isaac Newton"
+                            },
+                            {
+                                    "en": "Albert Einstein",
+                                    "es": "Albert Einstein",
+                                    "de": "Albert Einstein",
+                                    "nl": "Albert Einstein"
+                            },
+                            {
+                                    "en": "Stephen Hawking",
+                                    "es": "Stephen Hawking",
+                                    "de": "Stephen Hawking",
+                                    "nl": "Stephen Hawking"
+                            },
+                            {
+                                    "en": "Galileo Galilei",
+                                    "es": "Galileo Galilei",
+                                    "de": "Galileo Galilei",
+                                    "nl": "Galileo Galilei"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Albert Einstein developed the theory of relativity, published in 1905 (special) and 1915 (general).",
+                            "es": "Albert Einstein developed el theory de relativity, publeshed en 1905 (special) y 1915 (general).",
+                            "de": "Albert Einstein developed der theory von relativity, publisthed in 1905 (special) und 1915 (general).",
+                            "nl": "Albert Einstein developed de theory van relativity, published in 1905 (special) en 1915 (general)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first person to walk on the moon?",
+                            "es": "¿Quién was the first person to walk on the moon?",
+                            "de": "Wer was the first person to walk on the moon?",
+                            "nl": "Wie was the first person to walk on the moon?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Buzz Aldrin",
+                                    "es": "Buzz Aldrin",
+                                    "de": "Buzz Aldrin",
+                                    "nl": "Buzz Aldrin"
+                            },
+                            {
+                                    "en": "Neil Armstrong",
+                                    "es": "Neil Armstrong",
+                                    "de": "Neil Armstrong",
+                                    "nl": "Neil Armstrong"
+                            },
+                            {
+                                    "en": "Yuri Gagarin",
+                                    "es": "Yuri Gagarin",
+                                    "de": "Yuri Gagarin",
+                                    "nl": "Yuri Gagarin"
+                            },
+                            {
+                                    "en": "John Glenn",
+                                    "es": "John Glenn",
+                                    "de": "John Glenn",
+                                    "nl": "John Glenn"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "es": "Neil Armstrong fue the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "de": "Neil Armstrong war the first person to walk on the moon on July 20, 1969, during Apollo 11.",
+                            "nl": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during Apollo 11."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who wrote 'Romeo and Juliet'?",
+                            "es": "¿Quién wrote 'Romeo and Juliet'?",
+                            "de": "Wer wrote 'Romeo and Juliet'?",
+                            "nl": "Wie wrote 'Romeo and Juliet'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Charles Dickens",
+                                    "es": "Charles Dickens",
+                                    "de": "Charles Dickens",
+                                    "nl": "Charles Dickens"
+                            },
+                            {
+                                    "en": "William Shakespeare",
+                                    "es": "William Shakespeare",
+                                    "de": "William Shakespeare",
+                                    "nl": "William Shakespeare"
+                            },
+                            {
+                                    "en": "Mark Twain",
+                                    "es": "Mark Twain",
+                                    "de": "Mark Twain",
+                                    "nl": "Mark Twain"
+                            },
+                            {
+                                    "en": "Oscar Wilde",
+                                    "es": "Oscar Wilde",
+                                    "de": "Oscar Wilde",
+                                    "nl": "Oscar Wilde"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "William Shakespeare wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies.",
+                            "es": "William Shakespeson wrote Romeo and Juliet around 1594-1596, one of hes most famous tragedies.",
+                            "de": "William Shakespesind wrote Romeo and Juliet around 1594-1596, one of hist most famous tragedies.",
+                            "nl": "William Shakespezijn wrote Romeo and Juliet around 1594-1596, one of his most famous tragedies."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who invented the light bulb?",
+                            "es": "¿Quién invented the light bulb?",
+                            "de": "Wer invented the light bulb?",
+                            "nl": "Wie invented the light bulb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Thomas Edison",
+                                    "es": "Thomas Edison",
+                                    "de": "Thomas Edison",
+                                    "nl": "Thomas Edison"
+                            },
+                            {
+                                    "en": "Nikola Tesla",
+                                    "es": "Nikola Tesla",
+                                    "de": "Nikola Tesla",
+                                    "nl": "Nikola Tesla"
+                            },
+                            {
+                                    "en": "Alexander Graham Bell",
+                                    "es": "Alexander Graham Bell",
+                                    "de": "Alexander Graham Bell",
+                                    "nl": "Alexander Graham Bell"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on similar designs.",
+                            "es": "Thomas Edeson invented the practical incandescent light bulb in 1879, though others worked on simil.",
+                            "de": "Thomas Ediston invented the practical incandescent light bulb in 1879, though others worked on si...",
+                            "nl": "Thomas Edison invented the practical incandescent light bulb in 1879, though others worked on sim..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who painted 'Starry Night'?",
+                            "es": "¿Quién painted 'Starry Night'?",
+                            "de": "Wer painted 'Starry Night'?",
+                            "nl": "Wie painted 'Starry Night'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Claude Monet",
+                                    "es": "Claude Monet",
+                                    "de": "Claude Monet",
+                                    "nl": "Claude Monet"
+                            },
+                            {
+                                    "en": "Vincent van Gogh",
+                                    "es": "Vincent van Gogh",
+                                    "de": "Vincent van Gogh",
+                                    "nl": "Vincent van Gogh"
+                            },
+                            {
+                                    "en": "Pablo Picasso",
+                                    "es": "Pablo Picasso",
+                                    "de": "Pablo Picasso",
+                                    "nl": "Pablo Picasso"
+                            },
+                            {
+                                    "en": "Salvador Dalí",
+                                    "es": "Salvador Dalí",
+                                    "de": "Salvador Dalí",
+                                    "nl": "Salvador Dalí"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in France.",
+                            "es": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Francia.",
+                            "de": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr...",
+                            "nl": "Vincent van Gogh painted 'Starry Night' in 1889 while staying at a psychiatric hospital in Frankr..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who discovered penicillin?",
+                            "es": "¿Quién discovered penicillin?",
+                            "de": "Wer discovered penicillin?",
+                            "nl": "Wie discovered penicillin?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Marie Curie",
+                                    "es": "Marie Curie",
+                                    "de": "Marie Curie",
+                                    "nl": "Marie Curie"
+                            },
+                            {
+                                    "en": "Alexander Fleming",
+                                    "es": "Alexander Fleming",
+                                    "de": "Alexander Fleming",
+                                    "nl": "Alexander Fleming"
+                            },
+                            {
+                                    "en": "Louis Pasteur",
+                                    "es": "Louis Pasteur",
+                                    "de": "Louis Pasteur",
+                                    "nl": "Louis Pasteur"
+                            },
+                            {
+                                    "en": "Jonas Salk",
+                                    "es": "Jonas Salk",
+                                    "de": "Jonas Salk",
+                                    "nl": "Jonas Salk"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with the first antibiotic.",
+                            "es": "Alexander Fleming descovered penicillin en 1928, revolutionizing medicine with el first antibiotic.",
+                            "de": "Alexander Fleming distcovered penicillin in 1928, revolutionizing medicine with der first antibio...",
+                            "nl": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine with de first antibiotic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the first female Prime Minister of the UK?",
+                            "es": "¿Quién was the first female Prime Minister of the UK?",
+                            "de": "Wer was the first female Prime Minister of the UK?",
+                            "nl": "Wie was the first female Prime Minister of the UK?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Margaret Thatcher",
+                                    "es": "Margaret Thatcher",
+                                    "de": "Margaret Thatcher",
+                                    "nl": "Margaret Thatcher"
+                            },
+                            {
+                                    "en": "Theresa May",
+                                    "es": "Theresa May",
+                                    "de": "Theresa May",
+                                    "nl": "Theresa May"
+                            },
+                            {
+                                    "en": "Queen Elizabeth II",
+                                    "es": "Queen Elizabeth II",
+                                    "de": "Queen Elizabeth II",
+                                    "nl": "Queen Elizabeth II"
+                            },
+                            {
+                                    "en": "Liz Truss",
+                                    "es": "Liz Truss",
+                                    "de": "Liz Truss",
+                                    "nl": "Liz Truss"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Margaret Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990.",
+                            "es": "Margsont Thatcher fue the UK's first female Prime Minester, serving from 1979 to 1990.",
+                            "de": "Margsindt Thatcher war the UK's first female Prime Ministter, serving from 1979 to 1990.",
+                            "nl": "Margzijnt Thatcher was the UK's first female Prime Minister, serving from 1979 to 1990."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who composed 'The Four Seasons'?",
+                            "es": "¿Quién composed 'The Four Seasons'?",
+                            "de": "Wer composed 'The Four Seasons'?",
+                            "nl": "Wie composed 'The Four Seasons'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Mozart",
+                                    "es": "Mozart",
+                                    "de": "Mozart",
+                                    "nl": "Mozart"
+                            },
+                            {
+                                    "en": "Vivaldi",
+                                    "es": "Vivaldi",
+                                    "de": "Vivaldi",
+                                    "nl": "Vivaldi"
+                            },
+                            {
+                                    "en": "Beethoven",
+                                    "es": "Beethoven",
+                                    "de": "Beethoven",
+                                    "nl": "Beethoven"
+                            },
+                            {
+                                    "en": "Bach",
+                                    "es": "Bach",
+                                    "de": "Bach",
+                                    "nl": "Bach"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Antonio Vivaldi composed 'The Four Seasons' around 1720, a set of four violin concertos.",
+                            "es": "Antonio Vivaldi composed 'El Four Seasons' around 1720, a set de four violin concertos.",
+                            "de": "Antonio Vivaldi composed 'Der Four Seasons' around 1720, a set von four violin concertos.",
+                            "nl": "Antonio Vivaldi composed 'De Four Seasons' around 1720, a set van four violin concertos."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who founded Microsoft?",
+                            "es": "¿Quién founded Microsoft?",
+                            "de": "Wer founded Microsoft?",
+                            "nl": "Wie founded Microsoft?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Steve Jobs",
+                                    "es": "Steve Jobs",
+                                    "de": "Steve Jobs",
+                                    "nl": "Steve Jobs"
+                            },
+                            {
+                                    "en": "Bill Gates",
+                                    "es": "Bill Gates",
+                                    "de": "Bill Gates",
+                                    "nl": "Bill Gates"
+                            },
+                            {
+                                    "en": "Mark Zuckerberg",
+                                    "es": "Mark Zuckerberg",
+                                    "de": "Mark Zuckerberg",
+                                    "nl": "Mark Zuckerberg"
+                            },
+                            {
+                                    "en": "Jeff Bezos",
+                                    "es": "Jeff Bezos",
+                                    "de": "Jeff Bezos",
+                                    "nl": "Jeff Bezos"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest software companies.",
+                            "es": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest softws.",
+                            "de": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft...",
+                            "nl": "Bill Gates co-founded Microsoft with Paul Allen in 1975, becoming one of the world's largest soft..."
+                    }
+            }
+    ]
 };

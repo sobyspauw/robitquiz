@@ -1,4104 +1,4108 @@
+// African Currencies - level1
+// Total questions: 100
+// Labels cleaned: 2026-03-03T10:21:43.361Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about African Currencies",
-      "es": "Pregunta 1 sobre African Currencies",
-      "de": "Frage 1 über African Currencies",
-      "nl": "Vraag 1 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about African Currencies",
-      "es": "Pregunta 2 sobre African Currencies",
-      "de": "Frage 2 über African Currencies",
-      "nl": "Vraag 2 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about African Currencies",
-      "es": "Pregunta 3 sobre African Currencies",
-      "de": "Frage 3 über African Currencies",
-      "nl": "Vraag 3 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about African Currencies",
-      "es": "Pregunta 4 sobre African Currencies",
-      "de": "Frage 4 über African Currencies",
-      "nl": "Vraag 4 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about African Currencies",
-      "es": "Pregunta 5 sobre African Currencies",
-      "de": "Frage 5 über African Currencies",
-      "nl": "Vraag 5 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about African Currencies",
-      "es": "Pregunta 6 sobre African Currencies",
-      "de": "Frage 6 über African Currencies",
-      "nl": "Vraag 6 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about African Currencies",
-      "es": "Pregunta 7 sobre African Currencies",
-      "de": "Frage 7 über African Currencies",
-      "nl": "Vraag 7 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about African Currencies",
-      "es": "Pregunta 8 sobre African Currencies",
-      "de": "Frage 8 über African Currencies",
-      "nl": "Vraag 8 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about African Currencies",
-      "es": "Pregunta 9 sobre African Currencies",
-      "de": "Frage 9 über African Currencies",
-      "nl": "Vraag 9 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about African Currencies",
-      "es": "Pregunta 10 sobre African Currencies",
-      "de": "Frage 10 über African Currencies",
-      "nl": "Vraag 10 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about African Currencies",
-      "es": "Pregunta 11 sobre African Currencies",
-      "de": "Frage 11 über African Currencies",
-      "nl": "Vraag 11 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about African Currencies",
-      "es": "Pregunta 12 sobre African Currencies",
-      "de": "Frage 12 über African Currencies",
-      "nl": "Vraag 12 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about African Currencies",
-      "es": "Pregunta 13 sobre African Currencies",
-      "de": "Frage 13 über African Currencies",
-      "nl": "Vraag 13 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about African Currencies",
-      "es": "Pregunta 14 sobre African Currencies",
-      "de": "Frage 14 über African Currencies",
-      "nl": "Vraag 14 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about African Currencies",
-      "es": "Pregunta 15 sobre African Currencies",
-      "de": "Frage 15 über African Currencies",
-      "nl": "Vraag 15 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about African Currencies",
-      "es": "Pregunta 16 sobre African Currencies",
-      "de": "Frage 16 über African Currencies",
-      "nl": "Vraag 16 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about African Currencies",
-      "es": "Pregunta 17 sobre African Currencies",
-      "de": "Frage 17 über African Currencies",
-      "nl": "Vraag 17 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about African Currencies",
-      "es": "Pregunta 18 sobre African Currencies",
-      "de": "Frage 18 über African Currencies",
-      "nl": "Vraag 18 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about African Currencies",
-      "es": "Pregunta 19 sobre African Currencies",
-      "de": "Frage 19 über African Currencies",
-      "nl": "Vraag 19 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about African Currencies",
-      "es": "Pregunta 20 sobre African Currencies",
-      "de": "Frage 20 über African Currencies",
-      "nl": "Vraag 20 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about African Currencies",
-      "es": "Pregunta 21 sobre African Currencies",
-      "de": "Frage 21 über African Currencies",
-      "nl": "Vraag 21 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about African Currencies",
-      "es": "Pregunta 22 sobre African Currencies",
-      "de": "Frage 22 über African Currencies",
-      "nl": "Vraag 22 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about African Currencies",
-      "es": "Pregunta 23 sobre African Currencies",
-      "de": "Frage 23 über African Currencies",
-      "nl": "Vraag 23 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about African Currencies",
-      "es": "Pregunta 24 sobre African Currencies",
-      "de": "Frage 24 über African Currencies",
-      "nl": "Vraag 24 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about African Currencies",
-      "es": "Pregunta 25 sobre African Currencies",
-      "de": "Frage 25 über African Currencies",
-      "nl": "Vraag 25 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about African Currencies",
-      "es": "Pregunta 26 sobre African Currencies",
-      "de": "Frage 26 über African Currencies",
-      "nl": "Vraag 26 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about African Currencies",
-      "es": "Pregunta 27 sobre African Currencies",
-      "de": "Frage 27 über African Currencies",
-      "nl": "Vraag 27 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about African Currencies",
-      "es": "Pregunta 28 sobre African Currencies",
-      "de": "Frage 28 über African Currencies",
-      "nl": "Vraag 28 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about African Currencies",
-      "es": "Pregunta 29 sobre African Currencies",
-      "de": "Frage 29 über African Currencies",
-      "nl": "Vraag 29 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about African Currencies",
-      "es": "Pregunta 30 sobre African Currencies",
-      "de": "Frage 30 über African Currencies",
-      "nl": "Vraag 30 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about African Currencies",
-      "es": "Pregunta 31 sobre African Currencies",
-      "de": "Frage 31 über African Currencies",
-      "nl": "Vraag 31 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about African Currencies",
-      "es": "Pregunta 32 sobre African Currencies",
-      "de": "Frage 32 über African Currencies",
-      "nl": "Vraag 32 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about African Currencies",
-      "es": "Pregunta 33 sobre African Currencies",
-      "de": "Frage 33 über African Currencies",
-      "nl": "Vraag 33 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about African Currencies",
-      "es": "Pregunta 34 sobre African Currencies",
-      "de": "Frage 34 über African Currencies",
-      "nl": "Vraag 34 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about African Currencies",
-      "es": "Pregunta 35 sobre African Currencies",
-      "de": "Frage 35 über African Currencies",
-      "nl": "Vraag 35 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about African Currencies",
-      "es": "Pregunta 36 sobre African Currencies",
-      "de": "Frage 36 über African Currencies",
-      "nl": "Vraag 36 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about African Currencies",
-      "es": "Pregunta 37 sobre African Currencies",
-      "de": "Frage 37 über African Currencies",
-      "nl": "Vraag 37 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about African Currencies",
-      "es": "Pregunta 38 sobre African Currencies",
-      "de": "Frage 38 über African Currencies",
-      "nl": "Vraag 38 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about African Currencies",
-      "es": "Pregunta 39 sobre African Currencies",
-      "de": "Frage 39 über African Currencies",
-      "nl": "Vraag 39 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about African Currencies",
-      "es": "Pregunta 40 sobre African Currencies",
-      "de": "Frage 40 über African Currencies",
-      "nl": "Vraag 40 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about African Currencies",
-      "es": "Pregunta 41 sobre African Currencies",
-      "de": "Frage 41 über African Currencies",
-      "nl": "Vraag 41 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about African Currencies",
-      "es": "Pregunta 42 sobre African Currencies",
-      "de": "Frage 42 über African Currencies",
-      "nl": "Vraag 42 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about African Currencies",
-      "es": "Pregunta 43 sobre African Currencies",
-      "de": "Frage 43 über African Currencies",
-      "nl": "Vraag 43 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about African Currencies",
-      "es": "Pregunta 44 sobre African Currencies",
-      "de": "Frage 44 über African Currencies",
-      "nl": "Vraag 44 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about African Currencies",
-      "es": "Pregunta 45 sobre African Currencies",
-      "de": "Frage 45 über African Currencies",
-      "nl": "Vraag 45 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about African Currencies",
-      "es": "Pregunta 46 sobre African Currencies",
-      "de": "Frage 46 über African Currencies",
-      "nl": "Vraag 46 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about African Currencies",
-      "es": "Pregunta 47 sobre African Currencies",
-      "de": "Frage 47 über African Currencies",
-      "nl": "Vraag 47 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about African Currencies",
-      "es": "Pregunta 48 sobre African Currencies",
-      "de": "Frage 48 über African Currencies",
-      "nl": "Vraag 48 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about African Currencies",
-      "es": "Pregunta 49 sobre African Currencies",
-      "de": "Frage 49 über African Currencies",
-      "nl": "Vraag 49 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about African Currencies",
-      "es": "Pregunta 50 sobre African Currencies",
-      "de": "Frage 50 über African Currencies",
-      "nl": "Vraag 50 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about African Currencies",
-      "es": "Pregunta 51 sobre African Currencies",
-      "de": "Frage 51 über African Currencies",
-      "nl": "Vraag 51 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about African Currencies",
-      "es": "Pregunta 52 sobre African Currencies",
-      "de": "Frage 52 über African Currencies",
-      "nl": "Vraag 52 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about African Currencies",
-      "es": "Pregunta 53 sobre African Currencies",
-      "de": "Frage 53 über African Currencies",
-      "nl": "Vraag 53 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about African Currencies",
-      "es": "Pregunta 54 sobre African Currencies",
-      "de": "Frage 54 über African Currencies",
-      "nl": "Vraag 54 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about African Currencies",
-      "es": "Pregunta 55 sobre African Currencies",
-      "de": "Frage 55 über African Currencies",
-      "nl": "Vraag 55 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about African Currencies",
-      "es": "Pregunta 56 sobre African Currencies",
-      "de": "Frage 56 über African Currencies",
-      "nl": "Vraag 56 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about African Currencies",
-      "es": "Pregunta 57 sobre African Currencies",
-      "de": "Frage 57 über African Currencies",
-      "nl": "Vraag 57 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about African Currencies",
-      "es": "Pregunta 58 sobre African Currencies",
-      "de": "Frage 58 über African Currencies",
-      "nl": "Vraag 58 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about African Currencies",
-      "es": "Pregunta 59 sobre African Currencies",
-      "de": "Frage 59 über African Currencies",
-      "nl": "Vraag 59 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about African Currencies",
-      "es": "Pregunta 60 sobre African Currencies",
-      "de": "Frage 60 über African Currencies",
-      "nl": "Vraag 60 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about African Currencies",
-      "es": "Pregunta 61 sobre African Currencies",
-      "de": "Frage 61 über African Currencies",
-      "nl": "Vraag 61 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about African Currencies",
-      "es": "Pregunta 62 sobre African Currencies",
-      "de": "Frage 62 über African Currencies",
-      "nl": "Vraag 62 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about African Currencies",
-      "es": "Pregunta 63 sobre African Currencies",
-      "de": "Frage 63 über African Currencies",
-      "nl": "Vraag 63 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about African Currencies",
-      "es": "Pregunta 64 sobre African Currencies",
-      "de": "Frage 64 über African Currencies",
-      "nl": "Vraag 64 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about African Currencies",
-      "es": "Pregunta 65 sobre African Currencies",
-      "de": "Frage 65 über African Currencies",
-      "nl": "Vraag 65 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about African Currencies",
-      "es": "Pregunta 66 sobre African Currencies",
-      "de": "Frage 66 über African Currencies",
-      "nl": "Vraag 66 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about African Currencies",
-      "es": "Pregunta 67 sobre African Currencies",
-      "de": "Frage 67 über African Currencies",
-      "nl": "Vraag 67 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about African Currencies",
-      "es": "Pregunta 68 sobre African Currencies",
-      "de": "Frage 68 über African Currencies",
-      "nl": "Vraag 68 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about African Currencies",
-      "es": "Pregunta 69 sobre African Currencies",
-      "de": "Frage 69 über African Currencies",
-      "nl": "Vraag 69 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about African Currencies",
-      "es": "Pregunta 70 sobre African Currencies",
-      "de": "Frage 70 über African Currencies",
-      "nl": "Vraag 70 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about African Currencies",
-      "es": "Pregunta 71 sobre African Currencies",
-      "de": "Frage 71 über African Currencies",
-      "nl": "Vraag 71 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about African Currencies",
-      "es": "Pregunta 72 sobre African Currencies",
-      "de": "Frage 72 über African Currencies",
-      "nl": "Vraag 72 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about African Currencies",
-      "es": "Pregunta 73 sobre African Currencies",
-      "de": "Frage 73 über African Currencies",
-      "nl": "Vraag 73 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about African Currencies",
-      "es": "Pregunta 74 sobre African Currencies",
-      "de": "Frage 74 über African Currencies",
-      "nl": "Vraag 74 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about African Currencies",
-      "es": "Pregunta 75 sobre African Currencies",
-      "de": "Frage 75 über African Currencies",
-      "nl": "Vraag 75 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about African Currencies",
-      "es": "Pregunta 76 sobre African Currencies",
-      "de": "Frage 76 über African Currencies",
-      "nl": "Vraag 76 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about African Currencies",
-      "es": "Pregunta 77 sobre African Currencies",
-      "de": "Frage 77 über African Currencies",
-      "nl": "Vraag 77 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about African Currencies",
-      "es": "Pregunta 78 sobre African Currencies",
-      "de": "Frage 78 über African Currencies",
-      "nl": "Vraag 78 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about African Currencies",
-      "es": "Pregunta 79 sobre African Currencies",
-      "de": "Frage 79 über African Currencies",
-      "nl": "Vraag 79 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about African Currencies",
-      "es": "Pregunta 80 sobre African Currencies",
-      "de": "Frage 80 über African Currencies",
-      "nl": "Vraag 80 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about African Currencies",
-      "es": "Pregunta 81 sobre African Currencies",
-      "de": "Frage 81 über African Currencies",
-      "nl": "Vraag 81 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about African Currencies",
-      "es": "Pregunta 82 sobre African Currencies",
-      "de": "Frage 82 über African Currencies",
-      "nl": "Vraag 82 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about African Currencies",
-      "es": "Pregunta 83 sobre African Currencies",
-      "de": "Frage 83 über African Currencies",
-      "nl": "Vraag 83 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about African Currencies",
-      "es": "Pregunta 84 sobre African Currencies",
-      "de": "Frage 84 über African Currencies",
-      "nl": "Vraag 84 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about African Currencies",
-      "es": "Pregunta 85 sobre African Currencies",
-      "de": "Frage 85 über African Currencies",
-      "nl": "Vraag 85 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about African Currencies",
-      "es": "Pregunta 86 sobre African Currencies",
-      "de": "Frage 86 über African Currencies",
-      "nl": "Vraag 86 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about African Currencies",
-      "es": "Pregunta 87 sobre African Currencies",
-      "de": "Frage 87 über African Currencies",
-      "nl": "Vraag 87 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about African Currencies",
-      "es": "Pregunta 88 sobre African Currencies",
-      "de": "Frage 88 über African Currencies",
-      "nl": "Vraag 88 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about African Currencies",
-      "es": "Pregunta 89 sobre African Currencies",
-      "de": "Frage 89 über African Currencies",
-      "nl": "Vraag 89 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about African Currencies",
-      "es": "Pregunta 90 sobre African Currencies",
-      "de": "Frage 90 über African Currencies",
-      "nl": "Vraag 90 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about African Currencies",
-      "es": "Pregunta 91 sobre African Currencies",
-      "de": "Frage 91 über African Currencies",
-      "nl": "Vraag 91 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about African Currencies",
-      "es": "Pregunta 92 sobre African Currencies",
-      "de": "Frage 92 über African Currencies",
-      "nl": "Vraag 92 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about African Currencies",
-      "es": "Pregunta 93 sobre African Currencies",
-      "de": "Frage 93 über African Currencies",
-      "nl": "Vraag 93 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about African Currencies",
-      "es": "Pregunta 94 sobre African Currencies",
-      "de": "Frage 94 über African Currencies",
-      "nl": "Vraag 94 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about African Currencies",
-      "es": "Pregunta 95 sobre African Currencies",
-      "de": "Frage 95 über African Currencies",
-      "nl": "Vraag 95 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about African Currencies",
-      "es": "Pregunta 96 sobre African Currencies",
-      "de": "Frage 96 über African Currencies",
-      "nl": "Vraag 96 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about African Currencies",
-      "es": "Pregunta 97 sobre African Currencies",
-      "de": "Frage 97 über African Currencies",
-      "nl": "Vraag 97 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about African Currencies",
-      "es": "Pregunta 98 sobre African Currencies",
-      "de": "Frage 98 über African Currencies",
-      "nl": "Vraag 98 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about African Currencies",
-      "es": "Pregunta 99 sobre African Currencies",
-      "de": "Frage 99 über African Currencies",
-      "nl": "Vraag 99 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about African Currencies",
-      "es": "Pregunta 100 sobre African Currencies",
-      "de": "Frage 100 über African Currencies",
-      "nl": "Vraag 100 over African Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for African Currencies",
-        "es": "Respuesta A para African Currencies",
-        "de": "Antwort A für African Currencies",
-        "nl": "Antwoord A voor African Currencies"
-      },
-      {
-        "en": "Answer B for African Currencies",
-        "es": "Respuesta B para African Currencies",
-        "de": "Antwort B für African Currencies",
-        "nl": "Antwoord B voor African Currencies"
-      },
-      {
-        "en": "Answer C for African Currencies",
-        "es": "Respuesta C para African Currencies",
-        "de": "Antwort C für African Currencies",
-        "nl": "Antwoord C voor African Currencies"
-      },
-      {
-        "en": "Answer D for African Currencies",
-        "es": "Respuesta D para African Currencies",
-        "de": "Antwort D für African Currencies",
-        "nl": "Antwoord D voor African Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about African Currencies.",
-      "es": "Esta es la respuesta correcta sobre African Currencies.",
-      "de": "Dies ist die richtige Antwort über African Currencies.",
-      "nl": "Dit is het juiste antwoord over African Currencies."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "How does South African Rand relate to Major African currencies?",
+                            "es": "¿Cómo does South African Rand relate to Major African currencies?",
+                            "de": "Wie does South African Rand relate to Major African currencies?",
+                            "nl": "Hoe does South African Rand relate to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about South African Rand and Currency symbols is correct?",
+                            "es": "¿Cuál statement about South African Rand and Currency symbols is correct?",
+                            "de": "Welche statement about South African Rand and Currency symbols is correct?",
+                            "nl": "Welke statement about South African Rand and Currency symbols is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does South African Rand play?",
+                            "es": "¿In the context of African Currencies, what role does South African Rand play?",
+                            "de": "in der context von African Currencies, what role does South African Rand play?",
+                            "nl": "in de context van African Currencies, what role does South African Rand play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between South African Rand and Major African currencies?",
+                            "es": "¿Qué is the relationship between South African Rand and Major African currencies?",
+                            "de": "Was is the relationship between South African Rand and Major African currencies?",
+                            "nl": "Wat is the relationship between South African Rand and Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes South African Rand?",
+                            "es": "¿Cuál of the following best describes South African Rand?",
+                            "de": "Welche of the following best describes South African Rand?",
+                            "nl": "Welke of the following best describes South African Rand?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has South African Rand evolved in relation to Basic exchange?",
+                            "es": "¿Cómo has South African Rand evolved in relation to Basic exchange?",
+                            "de": "Wie has South African Rand evolved in relation to Basic exchange?",
+                            "nl": "Hoe has South African Rand evolved in relation to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of South African Rand on modern african currencies?",
+                            "es": "¿Qué is the impact of South African Rand on modern african currencies?",
+                            "de": "Was is the impact of South African Rand on modern african currencies?",
+                            "nl": "Wat is the impact of South African Rand on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of South African Rand is most relevant to Currency symbols?",
+                            "es": "¿Cuál principle of South African Rand is most relevant to Currency symbols?",
+                            "de": "Welche principle of South African Rand is most relevant to Currency symbols?",
+                            "nl": "Welke principle of South African Rand is most relevant to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes South African Rand in the field of African Currencies?",
+                            "es": "¿Qué distinguishes South African Rand in the field of African Currencies?",
+                            "de": "Was distinguishes South African Rand in the field of African Currencies?",
+                            "nl": "Wat distinguishes South African Rand in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of South African Rand in Major African currencies?",
+                            "es": "¿Qué is the significance of South African Rand in Major African currencies?",
+                            "de": "Was is the significance of South African Rand in Major African currencies?",
+                            "nl": "Wat is the significance of South African Rand in Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows South African Rand",
+                                    "es": "This shows South African Rand",
+                                    "de": "This shows South African Rand",
+                                    "nl": "This shows South African Rand"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "South African Rand is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Nigerian Naira relate to Currency symbols?",
+                            "es": "¿Cómo does Nigerian Naira relate to Currency symbols?",
+                            "de": "Wie does Nigerian Naira relate to Currency symbols?",
+                            "nl": "Hoe does Nigerian Naira relate to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Nigerian Naira and Basic exchange is correct?",
+                            "es": "¿Cuál statement about Nigerian Naira and Basic exchange is correct?",
+                            "de": "Welche statement about Nigerian Naira and Basic exchange is correct?",
+                            "nl": "Welke statement about Nigerian Naira and Basic exchange is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Nigerian Naira play?",
+                            "es": "¿In the context of African Currencies, what role does Nigerian Naira play?",
+                            "de": "in der context von African Currencies, what role does Nigerian Naira play?",
+                            "nl": "in de context van African Currencies, what role does Nigerian Naira play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Nigerian Naira and Currency symbols?",
+                            "es": "¿Qué is the relationship between Nigerian Naira and Currency symbols?",
+                            "de": "Was is the relationship between Nigerian Naira and Currency symbols?",
+                            "nl": "Wat is the relationship between Nigerian Naira and Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Nigerian Naira?",
+                            "es": "¿Cuál of the following best describes Nigerian Naira?",
+                            "de": "Welche of the following best describes Nigerian Naira?",
+                            "nl": "Welke of the following best describes Nigerian Naira?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Nigerian Naira evolved in relation to Major African currencies?",
+                            "es": "¿Cómo has Nigerian Naira evolved in relation to Major African currencies?",
+                            "de": "Wie has Nigerian Naira evolved in relation to Major African currencies?",
+                            "nl": "Hoe has Nigerian Naira evolved in relation to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Nigerian Naira on modern african currencies?",
+                            "es": "¿Qué is the impact of Nigerian Naira on modern african currencies?",
+                            "de": "Was is the impact of Nigerian Naira on modern african currencies?",
+                            "nl": "Wat is the impact of Nigerian Naira on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Nigerian Naira is most relevant to Basic exchange?",
+                            "es": "¿Cuál principle of Nigerian Naira is most relevant to Basic exchange?",
+                            "de": "Welche principle of Nigerian Naira is most relevant to Basic exchange?",
+                            "nl": "Welke principle of Nigerian Naira is most relevant to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Nigerian Naira in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Nigerian Naira in the field of African Currencies?",
+                            "de": "Was distinguishes Nigerian Naira in the field of African Currencies?",
+                            "nl": "Wat distinguishes Nigerian Naira in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Nigerian Naira in Currency symbols?",
+                            "es": "¿Qué is the significance of Nigerian Naira in Currency symbols?",
+                            "de": "Was is the significance of Nigerian Naira in Currency symbols?",
+                            "nl": "Wat is the significance of Nigerian Naira in Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nigerian Naira",
+                                    "es": "This shows Nigerian Naira",
+                                    "de": "This shows Nigerian Naira",
+                                    "nl": "This shows Nigerian Naira"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Nigerian Naira is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Egyptian Pound relate to Basic exchange?",
+                            "es": "¿Cómo does Egyptian Pound relate to Basic exchange?",
+                            "de": "Wie does Egyptian Pound relate to Basic exchange?",
+                            "nl": "Hoe does Egyptian Pound relate to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Egyptian Pound and Major African currencies is correct?",
+                            "es": "¿Cuál statement about Egyptian Pound and Major African currencies is correct?",
+                            "de": "Welche statement about Egyptian Pound and Major African currencies is correct?",
+                            "nl": "Welke statement about Egyptian Pound and Major African currencies is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Egyptian Pound play?",
+                            "es": "¿In the context of African Currencies, what role does Egyptian Pound play?",
+                            "de": "in der context von African Currencies, what role does Egyptian Pound play?",
+                            "nl": "in de context van African Currencies, what role does Egyptian Pound play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Egyptian Pound and Basic exchange?",
+                            "es": "¿Qué is the relationship between Egyptian Pound and Basic exchange?",
+                            "de": "Was is the relationship between Egyptian Pound and Basic exchange?",
+                            "nl": "Wat is the relationship between Egyptian Pound and Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Egyptian Pound?",
+                            "es": "¿Cuál of the following best describes Egyptian Pound?",
+                            "de": "Welche of the following best describes Egyptian Pound?",
+                            "nl": "Welke of the following best describes Egyptian Pound?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Egyptian Pound evolved in relation to Currency symbols?",
+                            "es": "¿Cómo has Egyptian Pound evolved in relation to Currency symbols?",
+                            "de": "Wie has Egyptian Pound evolved in relation to Currency symbols?",
+                            "nl": "Hoe has Egyptian Pound evolved in relation to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Egyptian Pound on modern african currencies?",
+                            "es": "¿Qué is the impact of Egyptian Pound on modern african currencies?",
+                            "de": "Was is the impact of Egyptian Pound on modern african currencies?",
+                            "nl": "Wat is the impact of Egyptian Pound on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Egyptian Pound is most relevant to Major African currencies?",
+                            "es": "¿Cuál principle of Egyptian Pound is most relevant to Major African currencies?",
+                            "de": "Welche principle of Egyptian Pound is most relevant to Major African currencies?",
+                            "nl": "Welke principle of Egyptian Pound is most relevant to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Egyptian Pound in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Egyptian Pound in the field of African Currencies?",
+                            "de": "Was distinguishes Egyptian Pound in the field of African Currencies?",
+                            "nl": "Wat distinguishes Egyptian Pound in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Egyptian Pound in Basic exchange?",
+                            "es": "¿Qué is the significance of Egyptian Pound in Basic exchange?",
+                            "de": "Was is the significance of Egyptian Pound in Basic exchange?",
+                            "nl": "Wat is the significance of Egyptian Pound in Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Egyptian Pound",
+                                    "es": "This shows Egyptian Pound",
+                                    "de": "This shows Egyptian Pound",
+                                    "nl": "This shows Egyptian Pound"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Egyptian Pound is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Kenyan Shilling relate to Major African currencies?",
+                            "es": "¿Cómo does Kenyan Shilling relate to Major African currencies?",
+                            "de": "Wie does Kenyan Shilling relate to Major African currencies?",
+                            "nl": "Hoe does Kenyan Shilling relate to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Kenyan Shilling and Currency symbols is correct?",
+                            "es": "¿Cuál statement about Kenyan Shilling and Currency symbols is correct?",
+                            "de": "Welche statement about Kenyan Shilling and Currency symbols is correct?",
+                            "nl": "Welke statement about Kenyan Shilling and Currency symbols is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Kenyan Shilling play?",
+                            "es": "¿In the context of African Currencies, what role does Kenyan Shilling play?",
+                            "de": "in der context von African Currencies, what role does Kenyan Shilling play?",
+                            "nl": "in de context van African Currencies, what role does Kenyan Shilling play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Kenyan Shilling and Major African currencies?",
+                            "es": "¿Qué is the relationship between Kenyan Shilling and Major African currencies?",
+                            "de": "Was is the relationship between Kenyan Shilling and Major African currencies?",
+                            "nl": "Wat is the relationship between Kenyan Shilling and Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Kenyan Shilling?",
+                            "es": "¿Cuál of the following best describes Kenyan Shilling?",
+                            "de": "Welche of the following best describes Kenyan Shilling?",
+                            "nl": "Welke of the following best describes Kenyan Shilling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Kenyan Shilling evolved in relation to Basic exchange?",
+                            "es": "¿Cómo has Kenyan Shilling evolved in relation to Basic exchange?",
+                            "de": "Wie has Kenyan Shilling evolved in relation to Basic exchange?",
+                            "nl": "Hoe has Kenyan Shilling evolved in relation to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Kenyan Shilling on modern african currencies?",
+                            "es": "¿Qué is the impact of Kenyan Shilling on modern african currencies?",
+                            "de": "Was is the impact of Kenyan Shilling on modern african currencies?",
+                            "nl": "Wat is the impact of Kenyan Shilling on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Kenyan Shilling is most relevant to Currency symbols?",
+                            "es": "¿Cuál principle of Kenyan Shilling is most relevant to Currency symbols?",
+                            "de": "Welche principle of Kenyan Shilling is most relevant to Currency symbols?",
+                            "nl": "Welke principle of Kenyan Shilling is most relevant to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Kenyan Shilling in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Kenyan Shilling in the field of African Currencies?",
+                            "de": "Was distinguishes Kenyan Shilling in the field of African Currencies?",
+                            "nl": "Wat distinguishes Kenyan Shilling in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Kenyan Shilling in Major African currencies?",
+                            "es": "¿Qué is the significance of Kenyan Shilling in Major African currencies?",
+                            "de": "Was is the significance of Kenyan Shilling in Major African currencies?",
+                            "nl": "Wat is the significance of Kenyan Shilling in Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Kenyan Shilling",
+                                    "es": "This shows Kenyan Shilling",
+                                    "de": "This shows Kenyan Shilling",
+                                    "nl": "This shows Kenyan Shilling"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Kenyan Shilling is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Moroccan Dirham relate to Currency symbols?",
+                            "es": "¿Cómo does Moroccan Dirham relate to Currency symbols?",
+                            "de": "Wie does Moroccan Dirham relate to Currency symbols?",
+                            "nl": "Hoe does Moroccan Dirham relate to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Moroccan Dirham and Basic exchange is correct?",
+                            "es": "¿Cuál statement about Moroccan Dirham and Basic exchange is correct?",
+                            "de": "Welche statement about Moroccan Dirham and Basic exchange is correct?",
+                            "nl": "Welke statement about Moroccan Dirham and Basic exchange is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Moroccan Dirham play?",
+                            "es": "¿In the context of African Currencies, what role does Moroccan Dirham play?",
+                            "de": "in der context von African Currencies, what role does Moroccan Dirham play?",
+                            "nl": "in de context van African Currencies, what role does Moroccan Dirham play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Moroccan Dirham and Currency symbols?",
+                            "es": "¿Qué is the relationship between Moroccan Dirham and Currency symbols?",
+                            "de": "Was is the relationship between Moroccan Dirham and Currency symbols?",
+                            "nl": "Wat is the relationship between Moroccan Dirham and Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Moroccan Dirham?",
+                            "es": "¿Cuál of the following best describes Moroccan Dirham?",
+                            "de": "Welche of the following best describes Moroccan Dirham?",
+                            "nl": "Welke of the following best describes Moroccan Dirham?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Moroccan Dirham evolved in relation to Major African currencies?",
+                            "es": "¿Cómo has Moroccan Dirham evolved in relation to Major African currencies?",
+                            "de": "Wie has Moroccan Dirham evolved in relation to Major African currencies?",
+                            "nl": "Hoe has Moroccan Dirham evolved in relation to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Moroccan Dirham on modern african currencies?",
+                            "es": "¿Qué is the impact of Moroccan Dirham on modern african currencies?",
+                            "de": "Was is the impact of Moroccan Dirham on modern african currencies?",
+                            "nl": "Wat is the impact of Moroccan Dirham on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Moroccan Dirham is most relevant to Basic exchange?",
+                            "es": "¿Cuál principle of Moroccan Dirham is most relevant to Basic exchange?",
+                            "de": "Welche principle of Moroccan Dirham is most relevant to Basic exchange?",
+                            "nl": "Welke principle of Moroccan Dirham is most relevant to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Moroccan Dirham in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Moroccan Dirham in the field of African Currencies?",
+                            "de": "Was distinguishes Moroccan Dirham in the field of African Currencies?",
+                            "nl": "Wat distinguishes Moroccan Dirham in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Moroccan Dirham in Currency symbols?",
+                            "es": "¿Qué is the significance of Moroccan Dirham in Currency symbols?",
+                            "de": "Was is the significance of Moroccan Dirham in Currency symbols?",
+                            "nl": "Wat is the significance of Moroccan Dirham in Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Moroccan Dirham",
+                                    "es": "This shows Moroccan Dirham",
+                                    "de": "This shows Moroccan Dirham",
+                                    "nl": "This shows Moroccan Dirham"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Moroccan Dirham is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Ghanaian Cedi relate to Basic exchange?",
+                            "es": "¿Cómo does Ghanaian Cedi relate to Basic exchange?",
+                            "de": "Wie does Ghanaian Cedi relate to Basic exchange?",
+                            "nl": "Hoe does Ghanaian Cedi relate to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Ghanaian Cedi and Major African currencies is correct?",
+                            "es": "¿Cuál statement about Ghanaian Cedi and Major African currencies is correct?",
+                            "de": "Welche statement about Ghanaian Cedi and Major African currencies is correct?",
+                            "nl": "Welke statement about Ghanaian Cedi and Major African currencies is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Ghanaian Cedi play?",
+                            "es": "¿In the context of African Currencies, what role does Ghanaian Cedi play?",
+                            "de": "in der context von African Currencies, what role does Ghanaian Cedi play?",
+                            "nl": "in de context van African Currencies, what role does Ghanaian Cedi play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Ghanaian Cedi and Basic exchange?",
+                            "es": "¿Qué is the relationship between Ghanaian Cedi and Basic exchange?",
+                            "de": "Was is the relationship between Ghanaian Cedi and Basic exchange?",
+                            "nl": "Wat is the relationship between Ghanaian Cedi and Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Ghanaian Cedi?",
+                            "es": "¿Cuál of the following best describes Ghanaian Cedi?",
+                            "de": "Welche of the following best describes Ghanaian Cedi?",
+                            "nl": "Welke of the following best describes Ghanaian Cedi?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Ghanaian Cedi evolved in relation to Currency symbols?",
+                            "es": "¿Cómo has Ghanaian Cedi evolved in relation to Currency symbols?",
+                            "de": "Wie has Ghanaian Cedi evolved in relation to Currency symbols?",
+                            "nl": "Hoe has Ghanaian Cedi evolved in relation to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Ghanaian Cedi on modern african currencies?",
+                            "es": "¿Qué is the impact of Ghanaian Cedi on modern african currencies?",
+                            "de": "Was is the impact of Ghanaian Cedi on modern african currencies?",
+                            "nl": "Wat is the impact of Ghanaian Cedi on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Ghanaian Cedi is most relevant to Major African currencies?",
+                            "es": "¿Cuál principle of Ghanaian Cedi is most relevant to Major African currencies?",
+                            "de": "Welche principle of Ghanaian Cedi is most relevant to Major African currencies?",
+                            "nl": "Welke principle of Ghanaian Cedi is most relevant to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Ghanaian Cedi in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Ghanaian Cedi in the field of African Currencies?",
+                            "de": "Was distinguishes Ghanaian Cedi in the field of African Currencies?",
+                            "nl": "Wat distinguishes Ghanaian Cedi in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Ghanaian Cedi in Basic exchange?",
+                            "es": "¿Qué is the significance of Ghanaian Cedi in Basic exchange?",
+                            "de": "Was is the significance of Ghanaian Cedi in Basic exchange?",
+                            "nl": "Wat is the significance of Ghanaian Cedi in Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ghanaian Cedi",
+                                    "es": "This shows Ghanaian Cedi",
+                                    "de": "This shows Ghanaian Cedi",
+                                    "nl": "This shows Ghanaian Cedi"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ghanaian Cedi is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Ethiopian Birr relate to Major African currencies?",
+                            "es": "¿Cómo does Ethiopian Birr relate to Major African currencies?",
+                            "de": "Wie does Ethiopian Birr relate to Major African currencies?",
+                            "nl": "Hoe does Ethiopian Birr relate to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Ethiopian Birr and Currency symbols is correct?",
+                            "es": "¿Cuál statement about Ethiopian Birr and Currency symbols is correct?",
+                            "de": "Welche statement about Ethiopian Birr and Currency symbols is correct?",
+                            "nl": "Welke statement about Ethiopian Birr and Currency symbols is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Ethiopian Birr play?",
+                            "es": "¿In the context of African Currencies, what role does Ethiopian Birr play?",
+                            "de": "in der context von African Currencies, what role does Ethiopian Birr play?",
+                            "nl": "in de context van African Currencies, what role does Ethiopian Birr play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Ethiopian Birr and Major African currencies?",
+                            "es": "¿Qué is the relationship between Ethiopian Birr and Major African currencies?",
+                            "de": "Was is the relationship between Ethiopian Birr and Major African currencies?",
+                            "nl": "Wat is the relationship between Ethiopian Birr and Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Ethiopian Birr?",
+                            "es": "¿Cuál of the following best describes Ethiopian Birr?",
+                            "de": "Welche of the following best describes Ethiopian Birr?",
+                            "nl": "Welke of the following best describes Ethiopian Birr?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Ethiopian Birr evolved in relation to Basic exchange?",
+                            "es": "¿Cómo has Ethiopian Birr evolved in relation to Basic exchange?",
+                            "de": "Wie has Ethiopian Birr evolved in relation to Basic exchange?",
+                            "nl": "Hoe has Ethiopian Birr evolved in relation to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Ethiopian Birr on modern african currencies?",
+                            "es": "¿Qué is the impact of Ethiopian Birr on modern african currencies?",
+                            "de": "Was is the impact of Ethiopian Birr on modern african currencies?",
+                            "nl": "Wat is the impact of Ethiopian Birr on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Ethiopian Birr is most relevant to Currency symbols?",
+                            "es": "¿Cuál principle of Ethiopian Birr is most relevant to Currency symbols?",
+                            "de": "Welche principle of Ethiopian Birr is most relevant to Currency symbols?",
+                            "nl": "Welke principle of Ethiopian Birr is most relevant to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Ethiopian Birr in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Ethiopian Birr in the field of African Currencies?",
+                            "de": "Was distinguishes Ethiopian Birr in the field of African Currencies?",
+                            "nl": "Wat distinguishes Ethiopian Birr in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Ethiopian Birr in Major African currencies?",
+                            "es": "¿Qué is the significance of Ethiopian Birr in Major African currencies?",
+                            "de": "Was is the significance of Ethiopian Birr in Major African currencies?",
+                            "nl": "Wat is the significance of Ethiopian Birr in Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Ethiopian Birr",
+                                    "es": "This shows Ethiopian Birr",
+                                    "de": "This shows Ethiopian Birr",
+                                    "nl": "This shows Ethiopian Birr"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Ethiopian Birr is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does CFA Franc relate to Currency symbols?",
+                            "es": "¿Cómo does CFA Franc relate to Currency symbols?",
+                            "de": "Wie does CFA Franc relate to Currency symbols?",
+                            "nl": "Hoe does CFA Franc relate to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about CFA Franc and Basic exchange is correct?",
+                            "es": "¿Cuál statement about CFA Franc and Basic exchange is correct?",
+                            "de": "Welche statement about CFA Franc and Basic exchange is correct?",
+                            "nl": "Welke statement about CFA Franc and Basic exchange is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does CFA Franc play?",
+                            "es": "¿In the context of African Currencies, what role does CFA Franc play?",
+                            "de": "in der context von African Currencies, what role does CFA Franc play?",
+                            "nl": "in de context van African Currencies, what role does CFA Franc play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between CFA Franc and Currency symbols?",
+                            "es": "¿Qué is the relationship between CFA Franc and Currency symbols?",
+                            "de": "Was is the relationship between CFA Franc and Currency symbols?",
+                            "nl": "Wat is the relationship between CFA Franc and Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes CFA Franc?",
+                            "es": "¿Cuál of the following best describes CFA Franc?",
+                            "de": "Welche of the following best describes CFA Franc?",
+                            "nl": "Welke of the following best describes CFA Franc?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has CFA Franc evolved in relation to Major African currencies?",
+                            "es": "¿Cómo has CFA Franc evolved in relation to Major African currencies?",
+                            "de": "Wie has CFA Franc evolved in relation to Major African currencies?",
+                            "nl": "Hoe has CFA Franc evolved in relation to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of CFA Franc on modern african currencies?",
+                            "es": "¿Qué is the impact of CFA Franc on modern african currencies?",
+                            "de": "Was is the impact of CFA Franc on modern african currencies?",
+                            "nl": "Wat is the impact of CFA Franc on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of CFA Franc is most relevant to Basic exchange?",
+                            "es": "¿Cuál principle of CFA Franc is most relevant to Basic exchange?",
+                            "de": "Welche principle of CFA Franc is most relevant to Basic exchange?",
+                            "nl": "Welke principle of CFA Franc is most relevant to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes CFA Franc in the field of African Currencies?",
+                            "es": "¿Qué distinguishes CFA Franc in the field of African Currencies?",
+                            "de": "Was distinguishes CFA Franc in the field of African Currencies?",
+                            "nl": "Wat distinguishes CFA Franc in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of CFA Franc in Currency symbols?",
+                            "es": "¿Qué is the significance of CFA Franc in Currency symbols?",
+                            "de": "Was is the significance of CFA Franc in Currency symbols?",
+                            "nl": "Wat is the significance of CFA Franc in Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows CFA Franc",
+                                    "es": "This shows CFA Franc",
+                                    "de": "This shows CFA Franc",
+                                    "nl": "This shows CFA Franc"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "CFA Franc is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Botswana Pula relate to Basic exchange?",
+                            "es": "¿Cómo does Botswana Pula relate to Basic exchange?",
+                            "de": "Wie does Botswana Pula relate to Basic exchange?",
+                            "nl": "Hoe does Botswana Pula relate to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Botswana Pula and Major African currencies is correct?",
+                            "es": "¿Cuál statement about Botswana Pula and Major African currencies is correct?",
+                            "de": "Welche statement about Botswana Pula and Major African currencies is correct?",
+                            "nl": "Welke statement about Botswana Pula and Major African currencies is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Botswana Pula play?",
+                            "es": "¿In the context of African Currencies, what role does Botswana Pula play?",
+                            "de": "in der context von African Currencies, what role does Botswana Pula play?",
+                            "nl": "in de context van African Currencies, what role does Botswana Pula play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Botswana Pula and Basic exchange?",
+                            "es": "¿Qué is the relationship between Botswana Pula and Basic exchange?",
+                            "de": "Was is the relationship between Botswana Pula and Basic exchange?",
+                            "nl": "Wat is the relationship between Botswana Pula and Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Botswana Pula?",
+                            "es": "¿Cuál of the following best describes Botswana Pula?",
+                            "de": "Welche of the following best describes Botswana Pula?",
+                            "nl": "Welke of the following best describes Botswana Pula?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Botswana Pula evolved in relation to Currency symbols?",
+                            "es": "¿Cómo has Botswana Pula evolved in relation to Currency symbols?",
+                            "de": "Wie has Botswana Pula evolved in relation to Currency symbols?",
+                            "nl": "Hoe has Botswana Pula evolved in relation to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Botswana Pula on modern african currencies?",
+                            "es": "¿Qué is the impact of Botswana Pula on modern african currencies?",
+                            "de": "Was is the impact of Botswana Pula on modern african currencies?",
+                            "nl": "Wat is the impact of Botswana Pula on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Botswana Pula is most relevant to Major African currencies?",
+                            "es": "¿Cuál principle of Botswana Pula is most relevant to Major African currencies?",
+                            "de": "Welche principle of Botswana Pula is most relevant to Major African currencies?",
+                            "nl": "Welke principle of Botswana Pula is most relevant to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Botswana Pula in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Botswana Pula in the field of African Currencies?",
+                            "de": "Was distinguishes Botswana Pula in the field of African Currencies?",
+                            "nl": "Wat distinguishes Botswana Pula in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Botswana Pula in Basic exchange?",
+                            "es": "¿Qué is the significance of Botswana Pula in Basic exchange?",
+                            "de": "Was is the significance of Botswana Pula in Basic exchange?",
+                            "nl": "Wat is the significance of Botswana Pula in Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Botswana Pula",
+                                    "es": "This shows Botswana Pula",
+                                    "de": "This shows Botswana Pula",
+                                    "nl": "This shows Botswana Pula"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Botswana Pula is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Tunisian Dinar relate to Major African currencies?",
+                            "es": "¿Cómo does Tunisian Dinar relate to Major African currencies?",
+                            "de": "Wie does Tunisian Dinar relate to Major African currencies?",
+                            "nl": "Hoe does Tunisian Dinar relate to Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Tunisian Dinar and Currency symbols is correct?",
+                            "es": "¿Cuál statement about Tunisian Dinar and Currency symbols is correct?",
+                            "de": "Welche statement about Tunisian Dinar and Currency symbols is correct?",
+                            "nl": "Welke statement about Tunisian Dinar and Currency symbols is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of African Currencies, what role does Tunisian Dinar play?",
+                            "es": "¿In the context of African Currencies, what role does Tunisian Dinar play?",
+                            "de": "in der context von African Currencies, what role does Tunisian Dinar play?",
+                            "nl": "in de context van African Currencies, what role does Tunisian Dinar play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Tunisian Dinar and Major African currencies?",
+                            "es": "¿Qué is the relationship between Tunisian Dinar and Major African currencies?",
+                            "de": "Was is the relationship between Tunisian Dinar and Major African currencies?",
+                            "nl": "Wat is the relationship between Tunisian Dinar and Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Tunisian Dinar?",
+                            "es": "¿Cuál of the following best describes Tunisian Dinar?",
+                            "de": "Welche of the following best describes Tunisian Dinar?",
+                            "nl": "Welke of the following best describes Tunisian Dinar?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Tunisian Dinar evolved in relation to Basic exchange?",
+                            "es": "¿Cómo has Tunisian Dinar evolved in relation to Basic exchange?",
+                            "de": "Wie has Tunisian Dinar evolved in relation to Basic exchange?",
+                            "nl": "Hoe has Tunisian Dinar evolved in relation to Basic exchange?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Tunisian Dinar on modern african currencies?",
+                            "es": "¿Qué is the impact of Tunisian Dinar on modern african currencies?",
+                            "de": "Was is the impact of Tunisian Dinar on modern african currencies?",
+                            "nl": "Wat is the impact of Tunisian Dinar on modern african currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Tunisian Dinar is most relevant to Currency symbols?",
+                            "es": "¿Cuál principle of Tunisian Dinar is most relevant to Currency symbols?",
+                            "de": "Welche principle of Tunisian Dinar is most relevant to Currency symbols?",
+                            "nl": "Welke principle of Tunisian Dinar is most relevant to Currency symbols?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Currency symbols",
+                                    "es": "This affects Currency symbols",
+                                    "de": "This affects Currency symbols",
+                                    "nl": "This affects Currency symbols"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Currency symbols. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Tunisian Dinar in the field of African Currencies?",
+                            "es": "¿Qué distinguishes Tunisian Dinar in the field of African Currencies?",
+                            "de": "Was distinguishes Tunisian Dinar in the field of African Currencies?",
+                            "nl": "Wat distinguishes Tunisian Dinar in the field of African Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Basic exchange",
+                                    "es": "This affects Basic exchange",
+                                    "de": "This affects Basic exchange",
+                                    "nl": "This affects Basic exchange"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Basic exchange. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Tunisian Dinar in Major African currencies?",
+                            "es": "¿Qué is the significance of Tunisian Dinar in Major African currencies?",
+                            "de": "Was is the significance of Tunisian Dinar in Major African currencies?",
+                            "nl": "Wat is the significance of Tunisian Dinar in Major African currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Tunisian Dinar",
+                                    "es": "This shows Tunisian Dinar",
+                                    "de": "This shows Tunisian Dinar",
+                                    "nl": "This shows Tunisian Dinar"
+                            },
+                            {
+                                    "en": "This affects Major African currencies",
+                                    "es": "This affects Major African currencies",
+                                    "de": "This affects Major African currencies",
+                                    "nl": "This affects Major African currencies"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "es": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "de": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field.",
+                            "nl": "Tunisian Dinar is important in African Currencies because it relates to Major African currencies. This is a key concept in this field."
+                    }
+            }
+    ]
 };

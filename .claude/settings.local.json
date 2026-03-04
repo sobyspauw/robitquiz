@@ -303,7 +303,8 @@
       "Bash(lsof:*)",
       "Bash(tail:*)",
       "Bash(else echo \"Level $i: File not found\")",
-      "Bash(while read subject)"
+      "Bash(while read subject)",
+      "Bash(tee /tmp/currencies_subjects.txt)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

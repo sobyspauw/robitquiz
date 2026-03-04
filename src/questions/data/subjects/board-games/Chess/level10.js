@@ -1,4104 +1,4108 @@
+// Chess - level10
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:04.940Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Chess (Level 10)",
-      "es": "Pregunta 1 sobre Chess (Nivel 10)",
-      "de": "Frage 1 über Chess (Stufe 10)",
-      "nl": "Vraag 1 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 1.",
-      "es": "Esta es la explicación para la pregunta 1.",
-      "de": "Dies ist die Erklärung für Frage 1.",
-      "nl": "Dit is de uitleg voor vraag 1."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Chess (Level 10)",
-      "es": "Pregunta 2 sobre Chess (Nivel 10)",
-      "de": "Frage 2 über Chess (Stufe 10)",
-      "nl": "Vraag 2 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 2.",
-      "es": "Esta es la explicación para la pregunta 2.",
-      "de": "Dies ist die Erklärung für Frage 2.",
-      "nl": "Dit is de uitleg voor vraag 2."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Chess (Level 10)",
-      "es": "Pregunta 3 sobre Chess (Nivel 10)",
-      "de": "Frage 3 über Chess (Stufe 10)",
-      "nl": "Vraag 3 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 3.",
-      "es": "Esta es la explicación para la pregunta 3.",
-      "de": "Dies ist die Erklärung für Frage 3.",
-      "nl": "Dit is de uitleg voor vraag 3."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Chess (Level 10)",
-      "es": "Pregunta 4 sobre Chess (Nivel 10)",
-      "de": "Frage 4 über Chess (Stufe 10)",
-      "nl": "Vraag 4 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 4.",
-      "es": "Esta es la explicación para la pregunta 4.",
-      "de": "Dies ist die Erklärung für Frage 4.",
-      "nl": "Dit is de uitleg voor vraag 4."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Chess (Level 10)",
-      "es": "Pregunta 5 sobre Chess (Nivel 10)",
-      "de": "Frage 5 über Chess (Stufe 10)",
-      "nl": "Vraag 5 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 5.",
-      "es": "Esta es la explicación para la pregunta 5.",
-      "de": "Dies ist die Erklärung für Frage 5.",
-      "nl": "Dit is de uitleg voor vraag 5."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Chess (Level 10)",
-      "es": "Pregunta 6 sobre Chess (Nivel 10)",
-      "de": "Frage 6 über Chess (Stufe 10)",
-      "nl": "Vraag 6 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 6.",
-      "es": "Esta es la explicación para la pregunta 6.",
-      "de": "Dies ist die Erklärung für Frage 6.",
-      "nl": "Dit is de uitleg voor vraag 6."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Chess (Level 10)",
-      "es": "Pregunta 7 sobre Chess (Nivel 10)",
-      "de": "Frage 7 über Chess (Stufe 10)",
-      "nl": "Vraag 7 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 7.",
-      "es": "Esta es la explicación para la pregunta 7.",
-      "de": "Dies ist die Erklärung für Frage 7.",
-      "nl": "Dit is de uitleg voor vraag 7."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Chess (Level 10)",
-      "es": "Pregunta 8 sobre Chess (Nivel 10)",
-      "de": "Frage 8 über Chess (Stufe 10)",
-      "nl": "Vraag 8 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 8.",
-      "es": "Esta es la explicación para la pregunta 8.",
-      "de": "Dies ist die Erklärung für Frage 8.",
-      "nl": "Dit is de uitleg voor vraag 8."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Chess (Level 10)",
-      "es": "Pregunta 9 sobre Chess (Nivel 10)",
-      "de": "Frage 9 über Chess (Stufe 10)",
-      "nl": "Vraag 9 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 9.",
-      "es": "Esta es la explicación para la pregunta 9.",
-      "de": "Dies ist die Erklärung für Frage 9.",
-      "nl": "Dit is de uitleg voor vraag 9."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Chess (Level 10)",
-      "es": "Pregunta 10 sobre Chess (Nivel 10)",
-      "de": "Frage 10 über Chess (Stufe 10)",
-      "nl": "Vraag 10 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 10.",
-      "es": "Esta es la explicación para la pregunta 10.",
-      "de": "Dies ist die Erklärung für Frage 10.",
-      "nl": "Dit is de uitleg voor vraag 10."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Chess (Level 10)",
-      "es": "Pregunta 11 sobre Chess (Nivel 10)",
-      "de": "Frage 11 über Chess (Stufe 10)",
-      "nl": "Vraag 11 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 11.",
-      "es": "Esta es la explicación para la pregunta 11.",
-      "de": "Dies ist die Erklärung für Frage 11.",
-      "nl": "Dit is de uitleg voor vraag 11."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Chess (Level 10)",
-      "es": "Pregunta 12 sobre Chess (Nivel 10)",
-      "de": "Frage 12 über Chess (Stufe 10)",
-      "nl": "Vraag 12 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 12.",
-      "es": "Esta es la explicación para la pregunta 12.",
-      "de": "Dies ist die Erklärung für Frage 12.",
-      "nl": "Dit is de uitleg voor vraag 12."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Chess (Level 10)",
-      "es": "Pregunta 13 sobre Chess (Nivel 10)",
-      "de": "Frage 13 über Chess (Stufe 10)",
-      "nl": "Vraag 13 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 13.",
-      "es": "Esta es la explicación para la pregunta 13.",
-      "de": "Dies ist die Erklärung für Frage 13.",
-      "nl": "Dit is de uitleg voor vraag 13."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Chess (Level 10)",
-      "es": "Pregunta 14 sobre Chess (Nivel 10)",
-      "de": "Frage 14 über Chess (Stufe 10)",
-      "nl": "Vraag 14 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 14.",
-      "es": "Esta es la explicación para la pregunta 14.",
-      "de": "Dies ist die Erklärung für Frage 14.",
-      "nl": "Dit is de uitleg voor vraag 14."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Chess (Level 10)",
-      "es": "Pregunta 15 sobre Chess (Nivel 10)",
-      "de": "Frage 15 über Chess (Stufe 10)",
-      "nl": "Vraag 15 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 15.",
-      "es": "Esta es la explicación para la pregunta 15.",
-      "de": "Dies ist die Erklärung für Frage 15.",
-      "nl": "Dit is de uitleg voor vraag 15."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Chess (Level 10)",
-      "es": "Pregunta 16 sobre Chess (Nivel 10)",
-      "de": "Frage 16 über Chess (Stufe 10)",
-      "nl": "Vraag 16 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 16.",
-      "es": "Esta es la explicación para la pregunta 16.",
-      "de": "Dies ist die Erklärung für Frage 16.",
-      "nl": "Dit is de uitleg voor vraag 16."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Chess (Level 10)",
-      "es": "Pregunta 17 sobre Chess (Nivel 10)",
-      "de": "Frage 17 über Chess (Stufe 10)",
-      "nl": "Vraag 17 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 17.",
-      "es": "Esta es la explicación para la pregunta 17.",
-      "de": "Dies ist die Erklärung für Frage 17.",
-      "nl": "Dit is de uitleg voor vraag 17."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Chess (Level 10)",
-      "es": "Pregunta 18 sobre Chess (Nivel 10)",
-      "de": "Frage 18 über Chess (Stufe 10)",
-      "nl": "Vraag 18 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 18.",
-      "es": "Esta es la explicación para la pregunta 18.",
-      "de": "Dies ist die Erklärung für Frage 18.",
-      "nl": "Dit is de uitleg voor vraag 18."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Chess (Level 10)",
-      "es": "Pregunta 19 sobre Chess (Nivel 10)",
-      "de": "Frage 19 über Chess (Stufe 10)",
-      "nl": "Vraag 19 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 19.",
-      "es": "Esta es la explicación para la pregunta 19.",
-      "de": "Dies ist die Erklärung für Frage 19.",
-      "nl": "Dit is de uitleg voor vraag 19."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Chess (Level 10)",
-      "es": "Pregunta 20 sobre Chess (Nivel 10)",
-      "de": "Frage 20 über Chess (Stufe 10)",
-      "nl": "Vraag 20 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 20.",
-      "es": "Esta es la explicación para la pregunta 20.",
-      "de": "Dies ist die Erklärung für Frage 20.",
-      "nl": "Dit is de uitleg voor vraag 20."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Chess (Level 10)",
-      "es": "Pregunta 21 sobre Chess (Nivel 10)",
-      "de": "Frage 21 über Chess (Stufe 10)",
-      "nl": "Vraag 21 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 21.",
-      "es": "Esta es la explicación para la pregunta 21.",
-      "de": "Dies ist die Erklärung für Frage 21.",
-      "nl": "Dit is de uitleg voor vraag 21."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Chess (Level 10)",
-      "es": "Pregunta 22 sobre Chess (Nivel 10)",
-      "de": "Frage 22 über Chess (Stufe 10)",
-      "nl": "Vraag 22 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 22.",
-      "es": "Esta es la explicación para la pregunta 22.",
-      "de": "Dies ist die Erklärung für Frage 22.",
-      "nl": "Dit is de uitleg voor vraag 22."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Chess (Level 10)",
-      "es": "Pregunta 23 sobre Chess (Nivel 10)",
-      "de": "Frage 23 über Chess (Stufe 10)",
-      "nl": "Vraag 23 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 23.",
-      "es": "Esta es la explicación para la pregunta 23.",
-      "de": "Dies ist die Erklärung für Frage 23.",
-      "nl": "Dit is de uitleg voor vraag 23."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Chess (Level 10)",
-      "es": "Pregunta 24 sobre Chess (Nivel 10)",
-      "de": "Frage 24 über Chess (Stufe 10)",
-      "nl": "Vraag 24 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 24.",
-      "es": "Esta es la explicación para la pregunta 24.",
-      "de": "Dies ist die Erklärung für Frage 24.",
-      "nl": "Dit is de uitleg voor vraag 24."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Chess (Level 10)",
-      "es": "Pregunta 25 sobre Chess (Nivel 10)",
-      "de": "Frage 25 über Chess (Stufe 10)",
-      "nl": "Vraag 25 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 25.",
-      "es": "Esta es la explicación para la pregunta 25.",
-      "de": "Dies ist die Erklärung für Frage 25.",
-      "nl": "Dit is de uitleg voor vraag 25."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Chess (Level 10)",
-      "es": "Pregunta 26 sobre Chess (Nivel 10)",
-      "de": "Frage 26 über Chess (Stufe 10)",
-      "nl": "Vraag 26 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 26.",
-      "es": "Esta es la explicación para la pregunta 26.",
-      "de": "Dies ist die Erklärung für Frage 26.",
-      "nl": "Dit is de uitleg voor vraag 26."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Chess (Level 10)",
-      "es": "Pregunta 27 sobre Chess (Nivel 10)",
-      "de": "Frage 27 über Chess (Stufe 10)",
-      "nl": "Vraag 27 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 27.",
-      "es": "Esta es la explicación para la pregunta 27.",
-      "de": "Dies ist die Erklärung für Frage 27.",
-      "nl": "Dit is de uitleg voor vraag 27."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Chess (Level 10)",
-      "es": "Pregunta 28 sobre Chess (Nivel 10)",
-      "de": "Frage 28 über Chess (Stufe 10)",
-      "nl": "Vraag 28 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 28.",
-      "es": "Esta es la explicación para la pregunta 28.",
-      "de": "Dies ist die Erklärung für Frage 28.",
-      "nl": "Dit is de uitleg voor vraag 28."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Chess (Level 10)",
-      "es": "Pregunta 29 sobre Chess (Nivel 10)",
-      "de": "Frage 29 über Chess (Stufe 10)",
-      "nl": "Vraag 29 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 29.",
-      "es": "Esta es la explicación para la pregunta 29.",
-      "de": "Dies ist die Erklärung für Frage 29.",
-      "nl": "Dit is de uitleg voor vraag 29."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Chess (Level 10)",
-      "es": "Pregunta 30 sobre Chess (Nivel 10)",
-      "de": "Frage 30 über Chess (Stufe 10)",
-      "nl": "Vraag 30 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 30.",
-      "es": "Esta es la explicación para la pregunta 30.",
-      "de": "Dies ist die Erklärung für Frage 30.",
-      "nl": "Dit is de uitleg voor vraag 30."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Chess (Level 10)",
-      "es": "Pregunta 31 sobre Chess (Nivel 10)",
-      "de": "Frage 31 über Chess (Stufe 10)",
-      "nl": "Vraag 31 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 31.",
-      "es": "Esta es la explicación para la pregunta 31.",
-      "de": "Dies ist die Erklärung für Frage 31.",
-      "nl": "Dit is de uitleg voor vraag 31."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Chess (Level 10)",
-      "es": "Pregunta 32 sobre Chess (Nivel 10)",
-      "de": "Frage 32 über Chess (Stufe 10)",
-      "nl": "Vraag 32 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 32.",
-      "es": "Esta es la explicación para la pregunta 32.",
-      "de": "Dies ist die Erklärung für Frage 32.",
-      "nl": "Dit is de uitleg voor vraag 32."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Chess (Level 10)",
-      "es": "Pregunta 33 sobre Chess (Nivel 10)",
-      "de": "Frage 33 über Chess (Stufe 10)",
-      "nl": "Vraag 33 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 33.",
-      "es": "Esta es la explicación para la pregunta 33.",
-      "de": "Dies ist die Erklärung für Frage 33.",
-      "nl": "Dit is de uitleg voor vraag 33."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Chess (Level 10)",
-      "es": "Pregunta 34 sobre Chess (Nivel 10)",
-      "de": "Frage 34 über Chess (Stufe 10)",
-      "nl": "Vraag 34 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 34.",
-      "es": "Esta es la explicación para la pregunta 34.",
-      "de": "Dies ist die Erklärung für Frage 34.",
-      "nl": "Dit is de uitleg voor vraag 34."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Chess (Level 10)",
-      "es": "Pregunta 35 sobre Chess (Nivel 10)",
-      "de": "Frage 35 über Chess (Stufe 10)",
-      "nl": "Vraag 35 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 35.",
-      "es": "Esta es la explicación para la pregunta 35.",
-      "de": "Dies ist die Erklärung für Frage 35.",
-      "nl": "Dit is de uitleg voor vraag 35."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Chess (Level 10)",
-      "es": "Pregunta 36 sobre Chess (Nivel 10)",
-      "de": "Frage 36 über Chess (Stufe 10)",
-      "nl": "Vraag 36 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 36.",
-      "es": "Esta es la explicación para la pregunta 36.",
-      "de": "Dies ist die Erklärung für Frage 36.",
-      "nl": "Dit is de uitleg voor vraag 36."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Chess (Level 10)",
-      "es": "Pregunta 37 sobre Chess (Nivel 10)",
-      "de": "Frage 37 über Chess (Stufe 10)",
-      "nl": "Vraag 37 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 37.",
-      "es": "Esta es la explicación para la pregunta 37.",
-      "de": "Dies ist die Erklärung für Frage 37.",
-      "nl": "Dit is de uitleg voor vraag 37."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Chess (Level 10)",
-      "es": "Pregunta 38 sobre Chess (Nivel 10)",
-      "de": "Frage 38 über Chess (Stufe 10)",
-      "nl": "Vraag 38 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 38.",
-      "es": "Esta es la explicación para la pregunta 38.",
-      "de": "Dies ist die Erklärung für Frage 38.",
-      "nl": "Dit is de uitleg voor vraag 38."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Chess (Level 10)",
-      "es": "Pregunta 39 sobre Chess (Nivel 10)",
-      "de": "Frage 39 über Chess (Stufe 10)",
-      "nl": "Vraag 39 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 39.",
-      "es": "Esta es la explicación para la pregunta 39.",
-      "de": "Dies ist die Erklärung für Frage 39.",
-      "nl": "Dit is de uitleg voor vraag 39."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Chess (Level 10)",
-      "es": "Pregunta 40 sobre Chess (Nivel 10)",
-      "de": "Frage 40 über Chess (Stufe 10)",
-      "nl": "Vraag 40 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 40.",
-      "es": "Esta es la explicación para la pregunta 40.",
-      "de": "Dies ist die Erklärung für Frage 40.",
-      "nl": "Dit is de uitleg voor vraag 40."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Chess (Level 10)",
-      "es": "Pregunta 41 sobre Chess (Nivel 10)",
-      "de": "Frage 41 über Chess (Stufe 10)",
-      "nl": "Vraag 41 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 41.",
-      "es": "Esta es la explicación para la pregunta 41.",
-      "de": "Dies ist die Erklärung für Frage 41.",
-      "nl": "Dit is de uitleg voor vraag 41."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Chess (Level 10)",
-      "es": "Pregunta 42 sobre Chess (Nivel 10)",
-      "de": "Frage 42 über Chess (Stufe 10)",
-      "nl": "Vraag 42 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 42.",
-      "es": "Esta es la explicación para la pregunta 42.",
-      "de": "Dies ist die Erklärung für Frage 42.",
-      "nl": "Dit is de uitleg voor vraag 42."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Chess (Level 10)",
-      "es": "Pregunta 43 sobre Chess (Nivel 10)",
-      "de": "Frage 43 über Chess (Stufe 10)",
-      "nl": "Vraag 43 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 43.",
-      "es": "Esta es la explicación para la pregunta 43.",
-      "de": "Dies ist die Erklärung für Frage 43.",
-      "nl": "Dit is de uitleg voor vraag 43."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Chess (Level 10)",
-      "es": "Pregunta 44 sobre Chess (Nivel 10)",
-      "de": "Frage 44 über Chess (Stufe 10)",
-      "nl": "Vraag 44 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 44.",
-      "es": "Esta es la explicación para la pregunta 44.",
-      "de": "Dies ist die Erklärung für Frage 44.",
-      "nl": "Dit is de uitleg voor vraag 44."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Chess (Level 10)",
-      "es": "Pregunta 45 sobre Chess (Nivel 10)",
-      "de": "Frage 45 über Chess (Stufe 10)",
-      "nl": "Vraag 45 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 45.",
-      "es": "Esta es la explicación para la pregunta 45.",
-      "de": "Dies ist die Erklärung für Frage 45.",
-      "nl": "Dit is de uitleg voor vraag 45."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Chess (Level 10)",
-      "es": "Pregunta 46 sobre Chess (Nivel 10)",
-      "de": "Frage 46 über Chess (Stufe 10)",
-      "nl": "Vraag 46 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 46.",
-      "es": "Esta es la explicación para la pregunta 46.",
-      "de": "Dies ist die Erklärung für Frage 46.",
-      "nl": "Dit is de uitleg voor vraag 46."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Chess (Level 10)",
-      "es": "Pregunta 47 sobre Chess (Nivel 10)",
-      "de": "Frage 47 über Chess (Stufe 10)",
-      "nl": "Vraag 47 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 47.",
-      "es": "Esta es la explicación para la pregunta 47.",
-      "de": "Dies ist die Erklärung für Frage 47.",
-      "nl": "Dit is de uitleg voor vraag 47."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Chess (Level 10)",
-      "es": "Pregunta 48 sobre Chess (Nivel 10)",
-      "de": "Frage 48 über Chess (Stufe 10)",
-      "nl": "Vraag 48 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 48.",
-      "es": "Esta es la explicación para la pregunta 48.",
-      "de": "Dies ist die Erklärung für Frage 48.",
-      "nl": "Dit is de uitleg voor vraag 48."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Chess (Level 10)",
-      "es": "Pregunta 49 sobre Chess (Nivel 10)",
-      "de": "Frage 49 über Chess (Stufe 10)",
-      "nl": "Vraag 49 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 49.",
-      "es": "Esta es la explicación para la pregunta 49.",
-      "de": "Dies ist die Erklärung für Frage 49.",
-      "nl": "Dit is de uitleg voor vraag 49."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Chess (Level 10)",
-      "es": "Pregunta 50 sobre Chess (Nivel 10)",
-      "de": "Frage 50 über Chess (Stufe 10)",
-      "nl": "Vraag 50 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 50.",
-      "es": "Esta es la explicación para la pregunta 50.",
-      "de": "Dies ist die Erklärung für Frage 50.",
-      "nl": "Dit is de uitleg voor vraag 50."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Chess (Level 10)",
-      "es": "Pregunta 51 sobre Chess (Nivel 10)",
-      "de": "Frage 51 über Chess (Stufe 10)",
-      "nl": "Vraag 51 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 51.",
-      "es": "Esta es la explicación para la pregunta 51.",
-      "de": "Dies ist die Erklärung für Frage 51.",
-      "nl": "Dit is de uitleg voor vraag 51."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Chess (Level 10)",
-      "es": "Pregunta 52 sobre Chess (Nivel 10)",
-      "de": "Frage 52 über Chess (Stufe 10)",
-      "nl": "Vraag 52 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 52.",
-      "es": "Esta es la explicación para la pregunta 52.",
-      "de": "Dies ist die Erklärung für Frage 52.",
-      "nl": "Dit is de uitleg voor vraag 52."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Chess (Level 10)",
-      "es": "Pregunta 53 sobre Chess (Nivel 10)",
-      "de": "Frage 53 über Chess (Stufe 10)",
-      "nl": "Vraag 53 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 53.",
-      "es": "Esta es la explicación para la pregunta 53.",
-      "de": "Dies ist die Erklärung für Frage 53.",
-      "nl": "Dit is de uitleg voor vraag 53."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Chess (Level 10)",
-      "es": "Pregunta 54 sobre Chess (Nivel 10)",
-      "de": "Frage 54 über Chess (Stufe 10)",
-      "nl": "Vraag 54 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 54.",
-      "es": "Esta es la explicación para la pregunta 54.",
-      "de": "Dies ist die Erklärung für Frage 54.",
-      "nl": "Dit is de uitleg voor vraag 54."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Chess (Level 10)",
-      "es": "Pregunta 55 sobre Chess (Nivel 10)",
-      "de": "Frage 55 über Chess (Stufe 10)",
-      "nl": "Vraag 55 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 55.",
-      "es": "Esta es la explicación para la pregunta 55.",
-      "de": "Dies ist die Erklärung für Frage 55.",
-      "nl": "Dit is de uitleg voor vraag 55."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Chess (Level 10)",
-      "es": "Pregunta 56 sobre Chess (Nivel 10)",
-      "de": "Frage 56 über Chess (Stufe 10)",
-      "nl": "Vraag 56 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 56.",
-      "es": "Esta es la explicación para la pregunta 56.",
-      "de": "Dies ist die Erklärung für Frage 56.",
-      "nl": "Dit is de uitleg voor vraag 56."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Chess (Level 10)",
-      "es": "Pregunta 57 sobre Chess (Nivel 10)",
-      "de": "Frage 57 über Chess (Stufe 10)",
-      "nl": "Vraag 57 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 57.",
-      "es": "Esta es la explicación para la pregunta 57.",
-      "de": "Dies ist die Erklärung für Frage 57.",
-      "nl": "Dit is de uitleg voor vraag 57."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Chess (Level 10)",
-      "es": "Pregunta 58 sobre Chess (Nivel 10)",
-      "de": "Frage 58 über Chess (Stufe 10)",
-      "nl": "Vraag 58 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 58.",
-      "es": "Esta es la explicación para la pregunta 58.",
-      "de": "Dies ist die Erklärung für Frage 58.",
-      "nl": "Dit is de uitleg voor vraag 58."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Chess (Level 10)",
-      "es": "Pregunta 59 sobre Chess (Nivel 10)",
-      "de": "Frage 59 über Chess (Stufe 10)",
-      "nl": "Vraag 59 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 59.",
-      "es": "Esta es la explicación para la pregunta 59.",
-      "de": "Dies ist die Erklärung für Frage 59.",
-      "nl": "Dit is de uitleg voor vraag 59."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Chess (Level 10)",
-      "es": "Pregunta 60 sobre Chess (Nivel 10)",
-      "de": "Frage 60 über Chess (Stufe 10)",
-      "nl": "Vraag 60 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 60.",
-      "es": "Esta es la explicación para la pregunta 60.",
-      "de": "Dies ist die Erklärung für Frage 60.",
-      "nl": "Dit is de uitleg voor vraag 60."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Chess (Level 10)",
-      "es": "Pregunta 61 sobre Chess (Nivel 10)",
-      "de": "Frage 61 über Chess (Stufe 10)",
-      "nl": "Vraag 61 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 61.",
-      "es": "Esta es la explicación para la pregunta 61.",
-      "de": "Dies ist die Erklärung für Frage 61.",
-      "nl": "Dit is de uitleg voor vraag 61."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Chess (Level 10)",
-      "es": "Pregunta 62 sobre Chess (Nivel 10)",
-      "de": "Frage 62 über Chess (Stufe 10)",
-      "nl": "Vraag 62 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 62.",
-      "es": "Esta es la explicación para la pregunta 62.",
-      "de": "Dies ist die Erklärung für Frage 62.",
-      "nl": "Dit is de uitleg voor vraag 62."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Chess (Level 10)",
-      "es": "Pregunta 63 sobre Chess (Nivel 10)",
-      "de": "Frage 63 über Chess (Stufe 10)",
-      "nl": "Vraag 63 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 63.",
-      "es": "Esta es la explicación para la pregunta 63.",
-      "de": "Dies ist die Erklärung für Frage 63.",
-      "nl": "Dit is de uitleg voor vraag 63."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Chess (Level 10)",
-      "es": "Pregunta 64 sobre Chess (Nivel 10)",
-      "de": "Frage 64 über Chess (Stufe 10)",
-      "nl": "Vraag 64 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 64.",
-      "es": "Esta es la explicación para la pregunta 64.",
-      "de": "Dies ist die Erklärung für Frage 64.",
-      "nl": "Dit is de uitleg voor vraag 64."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Chess (Level 10)",
-      "es": "Pregunta 65 sobre Chess (Nivel 10)",
-      "de": "Frage 65 über Chess (Stufe 10)",
-      "nl": "Vraag 65 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 65.",
-      "es": "Esta es la explicación para la pregunta 65.",
-      "de": "Dies ist die Erklärung für Frage 65.",
-      "nl": "Dit is de uitleg voor vraag 65."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Chess (Level 10)",
-      "es": "Pregunta 66 sobre Chess (Nivel 10)",
-      "de": "Frage 66 über Chess (Stufe 10)",
-      "nl": "Vraag 66 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 66.",
-      "es": "Esta es la explicación para la pregunta 66.",
-      "de": "Dies ist die Erklärung für Frage 66.",
-      "nl": "Dit is de uitleg voor vraag 66."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Chess (Level 10)",
-      "es": "Pregunta 67 sobre Chess (Nivel 10)",
-      "de": "Frage 67 über Chess (Stufe 10)",
-      "nl": "Vraag 67 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 67.",
-      "es": "Esta es la explicación para la pregunta 67.",
-      "de": "Dies ist die Erklärung für Frage 67.",
-      "nl": "Dit is de uitleg voor vraag 67."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Chess (Level 10)",
-      "es": "Pregunta 68 sobre Chess (Nivel 10)",
-      "de": "Frage 68 über Chess (Stufe 10)",
-      "nl": "Vraag 68 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 68.",
-      "es": "Esta es la explicación para la pregunta 68.",
-      "de": "Dies ist die Erklärung für Frage 68.",
-      "nl": "Dit is de uitleg voor vraag 68."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Chess (Level 10)",
-      "es": "Pregunta 69 sobre Chess (Nivel 10)",
-      "de": "Frage 69 über Chess (Stufe 10)",
-      "nl": "Vraag 69 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 69.",
-      "es": "Esta es la explicación para la pregunta 69.",
-      "de": "Dies ist die Erklärung für Frage 69.",
-      "nl": "Dit is de uitleg voor vraag 69."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Chess (Level 10)",
-      "es": "Pregunta 70 sobre Chess (Nivel 10)",
-      "de": "Frage 70 über Chess (Stufe 10)",
-      "nl": "Vraag 70 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 70.",
-      "es": "Esta es la explicación para la pregunta 70.",
-      "de": "Dies ist die Erklärung für Frage 70.",
-      "nl": "Dit is de uitleg voor vraag 70."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Chess (Level 10)",
-      "es": "Pregunta 71 sobre Chess (Nivel 10)",
-      "de": "Frage 71 über Chess (Stufe 10)",
-      "nl": "Vraag 71 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 71.",
-      "es": "Esta es la explicación para la pregunta 71.",
-      "de": "Dies ist die Erklärung für Frage 71.",
-      "nl": "Dit is de uitleg voor vraag 71."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Chess (Level 10)",
-      "es": "Pregunta 72 sobre Chess (Nivel 10)",
-      "de": "Frage 72 über Chess (Stufe 10)",
-      "nl": "Vraag 72 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 72.",
-      "es": "Esta es la explicación para la pregunta 72.",
-      "de": "Dies ist die Erklärung für Frage 72.",
-      "nl": "Dit is de uitleg voor vraag 72."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Chess (Level 10)",
-      "es": "Pregunta 73 sobre Chess (Nivel 10)",
-      "de": "Frage 73 über Chess (Stufe 10)",
-      "nl": "Vraag 73 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 73.",
-      "es": "Esta es la explicación para la pregunta 73.",
-      "de": "Dies ist die Erklärung für Frage 73.",
-      "nl": "Dit is de uitleg voor vraag 73."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Chess (Level 10)",
-      "es": "Pregunta 74 sobre Chess (Nivel 10)",
-      "de": "Frage 74 über Chess (Stufe 10)",
-      "nl": "Vraag 74 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 74.",
-      "es": "Esta es la explicación para la pregunta 74.",
-      "de": "Dies ist die Erklärung für Frage 74.",
-      "nl": "Dit is de uitleg voor vraag 74."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Chess (Level 10)",
-      "es": "Pregunta 75 sobre Chess (Nivel 10)",
-      "de": "Frage 75 über Chess (Stufe 10)",
-      "nl": "Vraag 75 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 75.",
-      "es": "Esta es la explicación para la pregunta 75.",
-      "de": "Dies ist die Erklärung für Frage 75.",
-      "nl": "Dit is de uitleg voor vraag 75."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Chess (Level 10)",
-      "es": "Pregunta 76 sobre Chess (Nivel 10)",
-      "de": "Frage 76 über Chess (Stufe 10)",
-      "nl": "Vraag 76 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 76.",
-      "es": "Esta es la explicación para la pregunta 76.",
-      "de": "Dies ist die Erklärung für Frage 76.",
-      "nl": "Dit is de uitleg voor vraag 76."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Chess (Level 10)",
-      "es": "Pregunta 77 sobre Chess (Nivel 10)",
-      "de": "Frage 77 über Chess (Stufe 10)",
-      "nl": "Vraag 77 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 77.",
-      "es": "Esta es la explicación para la pregunta 77.",
-      "de": "Dies ist die Erklärung für Frage 77.",
-      "nl": "Dit is de uitleg voor vraag 77."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Chess (Level 10)",
-      "es": "Pregunta 78 sobre Chess (Nivel 10)",
-      "de": "Frage 78 über Chess (Stufe 10)",
-      "nl": "Vraag 78 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 78.",
-      "es": "Esta es la explicación para la pregunta 78.",
-      "de": "Dies ist die Erklärung für Frage 78.",
-      "nl": "Dit is de uitleg voor vraag 78."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Chess (Level 10)",
-      "es": "Pregunta 79 sobre Chess (Nivel 10)",
-      "de": "Frage 79 über Chess (Stufe 10)",
-      "nl": "Vraag 79 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 79.",
-      "es": "Esta es la explicación para la pregunta 79.",
-      "de": "Dies ist die Erklärung für Frage 79.",
-      "nl": "Dit is de uitleg voor vraag 79."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Chess (Level 10)",
-      "es": "Pregunta 80 sobre Chess (Nivel 10)",
-      "de": "Frage 80 über Chess (Stufe 10)",
-      "nl": "Vraag 80 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 80.",
-      "es": "Esta es la explicación para la pregunta 80.",
-      "de": "Dies ist die Erklärung für Frage 80.",
-      "nl": "Dit is de uitleg voor vraag 80."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Chess (Level 10)",
-      "es": "Pregunta 81 sobre Chess (Nivel 10)",
-      "de": "Frage 81 über Chess (Stufe 10)",
-      "nl": "Vraag 81 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 81.",
-      "es": "Esta es la explicación para la pregunta 81.",
-      "de": "Dies ist die Erklärung für Frage 81.",
-      "nl": "Dit is de uitleg voor vraag 81."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Chess (Level 10)",
-      "es": "Pregunta 82 sobre Chess (Nivel 10)",
-      "de": "Frage 82 über Chess (Stufe 10)",
-      "nl": "Vraag 82 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 82.",
-      "es": "Esta es la explicación para la pregunta 82.",
-      "de": "Dies ist die Erklärung für Frage 82.",
-      "nl": "Dit is de uitleg voor vraag 82."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Chess (Level 10)",
-      "es": "Pregunta 83 sobre Chess (Nivel 10)",
-      "de": "Frage 83 über Chess (Stufe 10)",
-      "nl": "Vraag 83 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 83.",
-      "es": "Esta es la explicación para la pregunta 83.",
-      "de": "Dies ist die Erklärung für Frage 83.",
-      "nl": "Dit is de uitleg voor vraag 83."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Chess (Level 10)",
-      "es": "Pregunta 84 sobre Chess (Nivel 10)",
-      "de": "Frage 84 über Chess (Stufe 10)",
-      "nl": "Vraag 84 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 84.",
-      "es": "Esta es la explicación para la pregunta 84.",
-      "de": "Dies ist die Erklärung für Frage 84.",
-      "nl": "Dit is de uitleg voor vraag 84."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Chess (Level 10)",
-      "es": "Pregunta 85 sobre Chess (Nivel 10)",
-      "de": "Frage 85 über Chess (Stufe 10)",
-      "nl": "Vraag 85 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 85.",
-      "es": "Esta es la explicación para la pregunta 85.",
-      "de": "Dies ist die Erklärung für Frage 85.",
-      "nl": "Dit is de uitleg voor vraag 85."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Chess (Level 10)",
-      "es": "Pregunta 86 sobre Chess (Nivel 10)",
-      "de": "Frage 86 über Chess (Stufe 10)",
-      "nl": "Vraag 86 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 86.",
-      "es": "Esta es la explicación para la pregunta 86.",
-      "de": "Dies ist die Erklärung für Frage 86.",
-      "nl": "Dit is de uitleg voor vraag 86."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Chess (Level 10)",
-      "es": "Pregunta 87 sobre Chess (Nivel 10)",
-      "de": "Frage 87 über Chess (Stufe 10)",
-      "nl": "Vraag 87 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 87.",
-      "es": "Esta es la explicación para la pregunta 87.",
-      "de": "Dies ist die Erklärung für Frage 87.",
-      "nl": "Dit is de uitleg voor vraag 87."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Chess (Level 10)",
-      "es": "Pregunta 88 sobre Chess (Nivel 10)",
-      "de": "Frage 88 über Chess (Stufe 10)",
-      "nl": "Vraag 88 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 88.",
-      "es": "Esta es la explicación para la pregunta 88.",
-      "de": "Dies ist die Erklärung für Frage 88.",
-      "nl": "Dit is de uitleg voor vraag 88."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Chess (Level 10)",
-      "es": "Pregunta 89 sobre Chess (Nivel 10)",
-      "de": "Frage 89 über Chess (Stufe 10)",
-      "nl": "Vraag 89 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 89.",
-      "es": "Esta es la explicación para la pregunta 89.",
-      "de": "Dies ist die Erklärung für Frage 89.",
-      "nl": "Dit is de uitleg voor vraag 89."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Chess (Level 10)",
-      "es": "Pregunta 90 sobre Chess (Nivel 10)",
-      "de": "Frage 90 über Chess (Stufe 10)",
-      "nl": "Vraag 90 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 90.",
-      "es": "Esta es la explicación para la pregunta 90.",
-      "de": "Dies ist die Erklärung für Frage 90.",
-      "nl": "Dit is de uitleg voor vraag 90."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Chess (Level 10)",
-      "es": "Pregunta 91 sobre Chess (Nivel 10)",
-      "de": "Frage 91 über Chess (Stufe 10)",
-      "nl": "Vraag 91 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 91.",
-      "es": "Esta es la explicación para la pregunta 91.",
-      "de": "Dies ist die Erklärung für Frage 91.",
-      "nl": "Dit is de uitleg voor vraag 91."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Chess (Level 10)",
-      "es": "Pregunta 92 sobre Chess (Nivel 10)",
-      "de": "Frage 92 über Chess (Stufe 10)",
-      "nl": "Vraag 92 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 92.",
-      "es": "Esta es la explicación para la pregunta 92.",
-      "de": "Dies ist die Erklärung für Frage 92.",
-      "nl": "Dit is de uitleg voor vraag 92."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Chess (Level 10)",
-      "es": "Pregunta 93 sobre Chess (Nivel 10)",
-      "de": "Frage 93 über Chess (Stufe 10)",
-      "nl": "Vraag 93 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 93.",
-      "es": "Esta es la explicación para la pregunta 93.",
-      "de": "Dies ist die Erklärung für Frage 93.",
-      "nl": "Dit is de uitleg voor vraag 93."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Chess (Level 10)",
-      "es": "Pregunta 94 sobre Chess (Nivel 10)",
-      "de": "Frage 94 über Chess (Stufe 10)",
-      "nl": "Vraag 94 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 94.",
-      "es": "Esta es la explicación para la pregunta 94.",
-      "de": "Dies ist die Erklärung für Frage 94.",
-      "nl": "Dit is de uitleg voor vraag 94."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Chess (Level 10)",
-      "es": "Pregunta 95 sobre Chess (Nivel 10)",
-      "de": "Frage 95 über Chess (Stufe 10)",
-      "nl": "Vraag 95 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 95.",
-      "es": "Esta es la explicación para la pregunta 95.",
-      "de": "Dies ist die Erklärung für Frage 95.",
-      "nl": "Dit is de uitleg voor vraag 95."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Chess (Level 10)",
-      "es": "Pregunta 96 sobre Chess (Nivel 10)",
-      "de": "Frage 96 über Chess (Stufe 10)",
-      "nl": "Vraag 96 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 96.",
-      "es": "Esta es la explicación para la pregunta 96.",
-      "de": "Dies ist die Erklärung für Frage 96.",
-      "nl": "Dit is de uitleg voor vraag 96."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Chess (Level 10)",
-      "es": "Pregunta 97 sobre Chess (Nivel 10)",
-      "de": "Frage 97 über Chess (Stufe 10)",
-      "nl": "Vraag 97 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the explanation for question 97.",
-      "es": "Esta es la explicación para la pregunta 97.",
-      "de": "Dies ist die Erklärung für Frage 97.",
-      "nl": "Dit is de uitleg voor vraag 97."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Chess (Level 10)",
-      "es": "Pregunta 98 sobre Chess (Nivel 10)",
-      "de": "Frage 98 über Chess (Stufe 10)",
-      "nl": "Vraag 98 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This is the explanation for question 98.",
-      "es": "Esta es la explicación para la pregunta 98.",
-      "de": "Dies ist die Erklärung für Frage 98.",
-      "nl": "Dit is de uitleg voor vraag 98."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Chess (Level 10)",
-      "es": "Pregunta 99 sobre Chess (Nivel 10)",
-      "de": "Frage 99 über Chess (Stufe 10)",
-      "nl": "Vraag 99 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This is the explanation for question 99.",
-      "es": "Esta es la explicación para la pregunta 99.",
-      "de": "Dies ist die Erklärung für Frage 99.",
-      "nl": "Dit is de uitleg voor vraag 99."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Chess (Level 10)",
-      "es": "Pregunta 100 sobre Chess (Nivel 10)",
-      "de": "Frage 100 über Chess (Stufe 10)",
-      "nl": "Vraag 100 over Chess (Niveau 10)"
-    },
-    "options": [
-      {
-        "en": "Answer A",
-        "es": "Respuesta A",
-        "de": "Antwort A",
-        "nl": "Antwoord A"
-      },
-      {
-        "en": "Answer B",
-        "es": "Respuesta B",
-        "de": "Antwort B",
-        "nl": "Antwoord B"
-      },
-      {
-        "en": "Answer C",
-        "es": "Respuesta C",
-        "de": "Antwort C",
-        "nl": "Antwoord C"
-      },
-      {
-        "en": "Answer D",
-        "es": "Respuesta D",
-        "de": "Antwort D",
-        "nl": "Antwoord D"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This is the explanation for question 100.",
-      "es": "Esta es la explicación para la pregunta 100.",
-      "de": "Dies ist die Erklärung für Frage 100.",
-      "nl": "Dit is de uitleg voor vraag 100."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What is significant about Bobby Fischer in chess history?",
+                            "es": "¿Qué es significativo sobre Bobby Fischer en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Bobby Fischer in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Bobby Fischer in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1972 - defeated Boris Spassky in Reykjavik",
+                                    "es": "1972 - defeated Boris Spassky in Reykjavik",
+                                    "de": "1972 - defeated Boris Spassky in Reykjavik",
+                                    "nl": "1972 - defeated Boris Spassky in Reykjavik"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bobby Fischer is significant in chess history because defeated Boris Spassky in Reykjavik in 1972.",
+                            "es": "Bobby Fischer es significativo en la historia del ajedrez porque defeated Boris Spassky in Reykjavik en 1972.",
+                            "de": "Bobby Fischer ist bedeutsam in der Schachgeschichte weil defeated Boris Spassky in Reykjavik in 1972.",
+                            "nl": "Bobby Fischer is belangrijk in schaakgeschiedenis omdat defeated Boris Spassky in Reykjavik in 1972."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Garry Kasparov in chess history?",
+                            "es": "¿Qué es significativo sobre Garry Kasparov en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Garry Kasparov in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Garry Kasparov in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1985 - youngest world champion at 22",
+                                    "es": "1985 - youngest world champion at 22",
+                                    "de": "1985 - youngest world champion at 22",
+                                    "nl": "1985 - youngest world champion at 22"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Garry Kasparov is significant in chess history because youngest world champion at 22 in 1985.",
+                            "es": "Garry Kasparov es significativo en la historia del ajedrez porque youngest world champion at 22 en 1985.",
+                            "de": "Garry Kasparov ist bedeutsam in der Schachgeschichte weil youngest world champion at 22 in 1985.",
+                            "nl": "Garry Kasparov is belangrijk in schaakgeschiedenis omdat youngest world champion at 22 in 1985."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Anatoly Karpov in chess history?",
+                            "es": "¿Qué es significativo sobre Anatoly Karpov en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Anatoly Karpov in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Anatoly Karpov in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1975 - won world championship by forfeit",
+                                    "es": "1975 - won world championship by forfeit",
+                                    "de": "1975 - won world championship by forfeit",
+                                    "nl": "1975 - won world championship by forfeit"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Anatoly Karpov is significant in chess history because won world championship by forfeit in 1975.",
+                            "es": "Anatoly Karpov es significativo en la historia del ajedrez porque won world championship by forfeit en 1975.",
+                            "de": "Anatoly Karpov ist bedeutsam in der Schachgeschichte weil won world championship by forfeit in 1975.",
+                            "nl": "Anatoly Karpov is belangrijk in schaakgeschiedenis omdat won world championship by forfeit in 1975."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Mikhail Tal in chess history?",
+                            "es": "¿Qué es significativo sobre Mikhail Tal en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Mikhail Tal in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Mikhail Tal in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1960 - known as the Magician from Riga",
+                                    "es": "1960 - known as the Magician from Riga",
+                                    "de": "1960 - known as the Magician from Riga",
+                                    "nl": "1960 - known as the Magician from Riga"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Mikhail Tal is significant in chess history because known as the Magician from Riga in 1960.",
+                            "es": "Mikhail Tal es significativo en la historia del ajedrez porque known as the Magician from Riga en 1960.",
+                            "de": "Mikhail Tal ist bedeutsam in der Schachgeschichte weil known as the Magician from Riga in 1960.",
+                            "nl": "Mikhail Tal is belangrijk in schaakgeschiedenis omdat known as the Magician from Riga in 1960."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Jose Raul Capablanca in chess history?",
+                            "es": "¿Qué es significativo sobre Jose Raul Capablanca en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Jose Raul Capablanca in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Jose Raul Capablanca in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1921 - won world championship from Lasker",
+                                    "es": "1921 - won world championship from Lasker",
+                                    "de": "1921 - won world championship from Lasker",
+                                    "nl": "1921 - won world championship from Lasker"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Jose Raul Capablanca is significant in chess history because won world championship from Lasker in 1921.",
+                            "es": "Jose Raul Capablanca es significativo en la historia del ajedrez porque won world championship from Lasker en 1921.",
+                            "de": "Jose Raul Capablanca ist bedeutsam in der Schachgeschichte weil won world championship from Lasker in 1921.",
+                            "nl": "Jose Raul Capablanca is belangrijk in schaakgeschiedenis omdat won world championship from Lasker in 1921."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Emanuel Lasker in chess history?",
+                            "es": "¿Qué es significativo sobre Emanuel Lasker en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Emanuel Lasker in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Emanuel Lasker in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1894 - held title for 27 years longest reign",
+                                    "es": "1894 - held title for 27 years longest reign",
+                                    "de": "1894 - held title for 27 years longest reign",
+                                    "nl": "1894 - held title for 27 years longest reign"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Emanuel Lasker is significant in chess history because held title for 27 years longest reign in 1894.",
+                            "es": "Emanuel Lasker es significativo en la historia del ajedrez porque held title for 27 years longest reign en 1894.",
+                            "de": "Emanuel Lasker ist bedeutsam in der Schachgeschichte weil held title for 27 years longest reign in 1894.",
+                            "nl": "Emanuel Lasker is belangrijk in schaakgeschiedenis omdat held title for 27 years longest reign in 1894."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Wilhelm Steinitz in chess history?",
+                            "es": "¿Qué es significativo sobre Wilhelm Steinitz en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Wilhelm Steinitz in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Wilhelm Steinitz in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1886 - first official world champion",
+                                    "es": "1886 - first official world champion",
+                                    "de": "1886 - first official world champion",
+                                    "nl": "1886 - first official world champion"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Wilhelm Steinitz is significant in chess history because first official world champion in 1886.",
+                            "es": "Wilhelm Steinitz es significativo en la historia del ajedrez porque first official world champion en 1886.",
+                            "de": "Wilhelm Steinitz ist bedeutsam in der Schachgeschichte weil first official world champion in 1886.",
+                            "nl": "Wilhelm Steinitz is belangrijk in schaakgeschiedenis omdat first official world champion in 1886."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Mikhail Botvinnik in chess history?",
+                            "es": "¿Qué es significativo sobre Mikhail Botvinnik en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Mikhail Botvinnik in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Mikhail Botvinnik in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1948 - patriarch of Soviet chess school",
+                                    "es": "1948 - patriarch of Soviet chess school",
+                                    "de": "1948 - patriarch of Soviet chess school",
+                                    "nl": "1948 - patriarch of Soviet chess school"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Mikhail Botvinnik is significant in chess history because patriarch of Soviet chess school in 1948.",
+                            "es": "Mikhail Botvinnik es significativo en la historia del ajedrez porque patriarch of Soviet chess school en 1948.",
+                            "de": "Mikhail Botvinnik ist bedeutsam in der Schachgeschichte weil patriarch of Soviet chess school in 1948.",
+                            "nl": "Mikhail Botvinnik is belangrijk in schaakgeschiedenis omdat patriarch of Soviet chess school in 1948."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Tigran Petrosian in chess history?",
+                            "es": "¿Qué es significativo sobre Tigran Petrosian en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Tigran Petrosian in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Tigran Petrosian in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1963 - known for exceptional defensive play",
+                                    "es": "1963 - known for exceptional defensive play",
+                                    "de": "1963 - known for exceptional defensive play",
+                                    "nl": "1963 - known for exceptional defensive play"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tigran Petrosian is significant in chess history because known for exceptional defensive play in 1963.",
+                            "es": "Tigran Petrosian es significativo en la historia del ajedrez porque known for exceptional defensive play en 1963.",
+                            "de": "Tigran Petrosian ist bedeutsam in der Schachgeschichte weil known for exceptional defensive play in 1963.",
+                            "nl": "Tigran Petrosian is belangrijk in schaakgeschiedenis omdat known for exceptional defensive play in 1963."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Boris Spassky in chess history?",
+                            "es": "¿Qué es significativo sobre Boris Spassky en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Boris Spassky in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Boris Spassky in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1969 - defeated Petrosian for title",
+                                    "es": "1969 - defeated Petrosian for title",
+                                    "de": "1969 - defeated Petrosian for title",
+                                    "nl": "1969 - defeated Petrosian for title"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Boris Spassky is significant in chess history because defeated Petrosian for title in 1969.",
+                            "es": "Boris Spassky es significativo en la historia del ajedrez porque defeated Petrosian for title en 1969.",
+                            "de": "Boris Spassky ist bedeutsam in der Schachgeschichte weil defeated Petrosian for title in 1969.",
+                            "nl": "Boris Spassky is belangrijk in schaakgeschiedenis omdat defeated Petrosian for title in 1969."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Max Euwe in chess history?",
+                            "es": "¿Qué es significativo sobre Max Euwe en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Max Euwe in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Max Euwe in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1935 - only Dutch world champion",
+                                    "es": "1935 - only Dutch world champion",
+                                    "de": "1935 - only Dutch world champion",
+                                    "nl": "1935 - only Dutch world champion"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Max Euwe is significant in chess history because only Dutch world champion in 1935.",
+                            "es": "Max Euwe es significativo en la historia del ajedrez porque only Dutch world champion en 1935.",
+                            "de": "Max Euwe ist bedeutsam in der Schachgeschichte weil only Dutch world champion in 1935.",
+                            "nl": "Max Euwe is belangrijk in schaakgeschiedenis omdat only Dutch world champion in 1935."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Alexander Alekhine in chess history?",
+                            "es": "¿Qué es significativo sobre Alexander Alekhine en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Alexander Alekhine in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Alexander Alekhine in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1927 - died as world champion",
+                                    "es": "1927 - died as world champion",
+                                    "de": "1927 - died as world champion",
+                                    "nl": "1927 - died as world champion"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Alekhine is significant in chess history because died as world champion in 1927.",
+                            "es": "Alexander Alekhine es significativo en la historia del ajedrez porque died as world champion en 1927.",
+                            "de": "Alexander Alekhine ist bedeutsam in der Schachgeschichte weil died as world champion in 1927.",
+                            "nl": "Alexander Alekhine is belangrijk in schaakgeschiedenis omdat died as world champion in 1927."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Viswanathan Anand in chess history?",
+                            "es": "¿Qué es significativo sobre Viswanathan Anand en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Viswanathan Anand in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Viswanathan Anand in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2000 - first Indian world champion",
+                                    "es": "2000 - first Indian world champion",
+                                    "de": "2000 - first Indian world champion",
+                                    "nl": "2000 - first Indian world champion"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Viswanathan Anand is significant in chess history because first Indian world champion in 2000.",
+                            "es": "Viswanathan Anand es significativo en la historia del ajedrez porque first Indian world champion en 2000.",
+                            "de": "Viswanathan Anand ist bedeutsam in der Schachgeschichte weil first Indian world champion in 2000.",
+                            "nl": "Viswanathan Anand is belangrijk in schaakgeschiedenis omdat first Indian world champion in 2000."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Vladimir Kramnik in chess history?",
+                            "es": "¿Qué es significativo sobre Vladimir Kramnik en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Vladimir Kramnik in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Vladimir Kramnik in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2000 - defeated Kasparov without losing game",
+                                    "es": "2000 - defeated Kasparov without losing game",
+                                    "de": "2000 - defeated Kasparov without losing game",
+                                    "nl": "2000 - defeated Kasparov without losing game"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vladimir Kramnik is significant in chess history because defeated Kasparov without losing game in 2000.",
+                            "es": "Vladimir Kramnik es significativo en la historia del ajedrez porque defeated Kasparov without losing game en 2000.",
+                            "de": "Vladimir Kramnik ist bedeutsam in der Schachgeschichte weil defeated Kasparov without losing game in 2000.",
+                            "nl": "Vladimir Kramnik is belangrijk in schaakgeschiedenis omdat defeated Kasparov without losing game in 2000."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Magnus Carlsen in chess history?",
+                            "es": "¿Qué es significativo sobre Magnus Carlsen en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Magnus Carlsen in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Magnus Carlsen in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2013 - highest rating ever achieved",
+                                    "es": "2013 - highest rating ever achieved",
+                                    "de": "2013 - highest rating ever achieved",
+                                    "nl": "2013 - highest rating ever achieved"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Magnus Carlsen is significant in chess history because highest rating ever achieved in 2013.",
+                            "es": "Magnus Carlsen es significativo en la historia del ajedrez porque highest rating ever achieved en 2013.",
+                            "de": "Magnus Carlsen ist bedeutsam in der Schachgeschichte weil highest rating ever achieved in 2013.",
+                            "nl": "Magnus Carlsen is belangrijk in schaakgeschiedenis omdat highest rating ever achieved in 2013."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Deep Blue in chess history?",
+                            "es": "¿Qué es significativo sobre Deep Blue en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Deep Blue in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Deep Blue in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1997 - first computer to defeat world champion",
+                                    "es": "1997 - first computer to defeat world champion",
+                                    "de": "1997 - first computer to defeat world champion",
+                                    "nl": "1997 - first computer to defeat world champion"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Deep Blue is significant in chess history because first computer to defeat world champion in 1997.",
+                            "es": "Deep Blue es significativo en la historia del ajedrez porque first computer to defeat world champion en 1997.",
+                            "de": "Deep Blue ist bedeutsam in der Schachgeschichte weil first computer to defeat world champion in 1997.",
+                            "nl": "Deep Blue is belangrijk in schaakgeschiedenis omdat first computer to defeat world champion in 1997."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about AlphaZero in chess history?",
+                            "es": "¿Qué es significativo sobre AlphaZero en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über AlphaZero in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over AlphaZero in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2017 - defeated Stockfish with self-learning",
+                                    "es": "2017 - defeated Stockfish with self-learning",
+                                    "de": "2017 - defeated Stockfish with self-learning",
+                                    "nl": "2017 - defeated Stockfish with self-learning"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "AlphaZero is significant in chess history because defeated Stockfish with self-learning in 2017.",
+                            "es": "AlphaZero es significativo en la historia del ajedrez porque defeated Stockfish with self-learning en 2017.",
+                            "de": "AlphaZero ist bedeutsam in der Schachgeschichte weil defeated Stockfish with self-learning in 2017.",
+                            "nl": "AlphaZero is belangrijk in schaakgeschiedenis omdat defeated Stockfish with self-learning in 2017."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about FIDE in chess history?",
+                            "es": "¿Qué es significativo sobre FIDE en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über FIDE in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over FIDE in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1924 - World Chess Federation founded",
+                                    "es": "1924 - World Chess Federation founded",
+                                    "de": "1924 - World Chess Federation founded",
+                                    "nl": "1924 - World Chess Federation founded"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "FIDE is significant in chess history because World Chess Federation founded in 1924.",
+                            "es": "FIDE es significativo en la historia del ajedrez porque World Chess Federation founded en 1924.",
+                            "de": "FIDE ist bedeutsam in der Schachgeschichte weil World Chess Federation founded in 1924.",
+                            "nl": "FIDE is belangrijk in schaakgeschiedenis omdat World Chess Federation founded in 1924."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Candidates Tournament in chess history?",
+                            "es": "¿Qué es significativo sobre Candidates Tournament en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Candidates Tournament in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Candidates Tournament in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1950 - determines world championship challenger",
+                                    "es": "1950 - determines world championship challenger",
+                                    "de": "1950 - determines world championship challenger",
+                                    "nl": "1950 - determines world championship challenger"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Candidates Tournament is significant in chess history because determines world championship challenger in 1950.",
+                            "es": "Candidates Tournament es significativo en la historia del ajedrez porque determines world championship challenger en 1950.",
+                            "de": "Candidates Tournament ist bedeutsam in der Schachgeschichte weil determines world championship challenger in 1950.",
+                            "nl": "Candidates Tournament is belangrijk in schaakgeschiedenis omdat determines world championship challenger in 1950."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Olympiad in chess history?",
+                            "es": "¿Qué es significativo sobre Olympiad en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Olympiad in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Olympiad in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1927 - first Chess Olympiad held in London",
+                                    "es": "1927 - first Chess Olympiad held in London",
+                                    "de": "1927 - first Chess Olympiad held in London",
+                                    "nl": "1927 - first Chess Olympiad held in London"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Olympiad is significant in chess history because first Chess Olympiad held in London in 1927.",
+                            "es": "Olympiad es significativo en la historia del ajedrez porque first Chess Olympiad held in London en 1927.",
+                            "de": "Olympiad ist bedeutsam in der Schachgeschichte weil first Chess Olympiad held in London in 1927.",
+                            "nl": "Olympiad is belangrijk in schaakgeschiedenis omdat first Chess Olympiad held in London in 1927."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Elo rating system in chess history?",
+                            "es": "¿Qué es significativo sobre Elo rating system en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Elo rating system in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Elo rating system in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1970 - introduced by Arpad Elo",
+                                    "es": "1970 - introduced by Arpad Elo",
+                                    "de": "1970 - introduced by Arpad Elo",
+                                    "nl": "1970 - introduced by Arpad Elo"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Elo rating system is significant in chess history because introduced by Arpad Elo in 1970.",
+                            "es": "Elo rating system es significativo en la historia del ajedrez porque introduced by Arpad Elo en 1970.",
+                            "de": "Elo rating system ist bedeutsam in der Schachgeschichte weil introduced by Arpad Elo in 1970.",
+                            "nl": "Elo rating system is belangrijk in schaakgeschiedenis omdat introduced by Arpad Elo in 1970."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Blitz chess in chess history?",
+                            "es": "¿Qué es significativo sobre Blitz chess en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Blitz chess in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Blitz chess in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "5 minutes - rapid time control format",
+                                    "es": "5 minutes - rapid time control format",
+                                    "de": "5 minutes - rapid time control format",
+                                    "nl": "5 minutes - rapid time control format"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blitz chess is significant in chess history because rapid time control format in 5 minutes.",
+                            "es": "Blitz chess es significativo en la historia del ajedrez porque rapid time control format en 5 minutes.",
+                            "de": "Blitz chess ist bedeutsam in der Schachgeschichte weil rapid time control format in 5 minutes.",
+                            "nl": "Blitz chess is belangrijk in schaakgeschiedenis omdat rapid time control format in 5 minutes."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Bullet chess in chess history?",
+                            "es": "¿Qué es significativo sobre Bullet chess en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Bullet chess in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Bullet chess in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1 minute - ultra-fast time control",
+                                    "es": "1 minute - ultra-fast time control",
+                                    "de": "1 minute - ultra-fast time control",
+                                    "nl": "1 minute - ultra-fast time control"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bullet chess is significant in chess history because ultra-fast time control in 1 minute.",
+                            "es": "Bullet chess es significativo en la historia del ajedrez porque ultra-fast time control en 1 minute.",
+                            "de": "Bullet chess ist bedeutsam in der Schachgeschichte weil ultra-fast time control in 1 minute.",
+                            "nl": "Bullet chess is belangrijk in schaakgeschiedenis omdat ultra-fast time control in 1 minute."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Correspondence chess in chess history?",
+                            "es": "¿Qué es significativo sobre Correspondence chess en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Correspondence chess in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Correspondence chess in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "days per move - chess played by mail or online",
+                                    "es": "days per move - chess played by mail or online",
+                                    "de": "days per move - chess played by mail or online",
+                                    "nl": "days per move - chess played by mail or online"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Correspondence chess is significant in chess history because chess played by mail or online in days per move.",
+                            "es": "Correspondence chess es significativo en la historia del ajedrez porque chess played by mail or online en days per move.",
+                            "de": "Correspondence chess ist bedeutsam in der Schachgeschichte weil chess played by mail or online in days per move.",
+                            "nl": "Correspondence chess is belangrijk in schaakgeschiedenis omdat chess played by mail or online in days per move."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Zugzwang in chess history?",
+                            "es": "¿Qué es significativo sobre Zugzwang en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Zugzwang in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Zugzwang in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "German term - compulsion to move worsening position",
+                                    "es": "German term - compulsion to move worsening position",
+                                    "de": "German term - compulsion to move worsening position",
+                                    "nl": "German term - compulsion to move worsening position"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Zugzwang is significant in chess history because compulsion to move worsening position in German term.",
+                            "es": "Zugzwang es significativo en la historia del ajedrez porque compulsion to move worsening position en German term.",
+                            "de": "Zugzwang ist bedeutsam in der Schachgeschichte weil compulsion to move worsening position in German term.",
+                            "nl": "Zugzwang is belangrijk in schaakgeschiedenis omdat compulsion to move worsening position in German term."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about En passant in chess history?",
+                            "es": "¿Qué es significativo sobre En passant en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über En passant in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over En passant in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "French term - special pawn capture rule",
+                                    "es": "French term - special pawn capture rule",
+                                    "de": "French term - special pawn capture rule",
+                                    "nl": "French term - special pawn capture rule"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "En passant is significant in chess history because special pawn capture rule in French term.",
+                            "es": "En passant es significativo en la historia del ajedrez porque special pawn capture rule en French term.",
+                            "de": "En passant ist bedeutsam in der Schachgeschichte weil special pawn capture rule in French term.",
+                            "nl": "En passant is belangrijk in schaakgeschiedenis omdat special pawn capture rule in French term."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Castling in chess history?",
+                            "es": "¿Qué es significativo sobre Castling en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Castling in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Castling in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "king move - only move involving two pieces",
+                                    "es": "king move - only move involving two pieces",
+                                    "de": "king move - only move involving two pieces",
+                                    "nl": "king move - only move involving two pieces"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Castling is significant in chess history because only move involving two pieces in king move.",
+                            "es": "Castling es significativo en la historia del ajedrez porque only move involving two pieces en king move.",
+                            "de": "Castling ist bedeutsam in der Schachgeschichte weil only move involving two pieces in king move.",
+                            "nl": "Castling is belangrijk in schaakgeschiedenis omdat only move involving two pieces in king move."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Stalemate in chess history?",
+                            "es": "¿Qué es significativo sobre Stalemate en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Stalemate in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Stalemate in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "no legal moves - game ends in draw",
+                                    "es": "no legal moves - game ends in draw",
+                                    "de": "no legal moves - game ends in draw",
+                                    "nl": "no legal moves - game ends in draw"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Stalemate is significant in chess history because game ends in draw in no legal moves.",
+                            "es": "Stalemate es significativo en la historia del ajedrez porque game ends in draw en no legal moves.",
+                            "de": "Stalemate ist bedeutsam in der Schachgeschichte weil game ends in draw in no legal moves.",
+                            "nl": "Stalemate is belangrijk in schaakgeschiedenis omdat game ends in draw in no legal moves."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Checkmate in chess history?",
+                            "es": "¿Qué es significativo sobre Checkmate en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Checkmate in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Checkmate in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "king under attack - no escape game ends",
+                                    "es": "king under attack - no escape game ends",
+                                    "de": "king under attack - no escape game ends",
+                                    "nl": "king under attack - no escape game ends"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Checkmate is significant in chess history because no escape game ends in king under attack.",
+                            "es": "Checkmate es significativo en la historia del ajedrez porque no escape game ends en king under attack.",
+                            "de": "Checkmate ist bedeutsam in der Schachgeschichte weil no escape game ends in king under attack.",
+                            "nl": "Checkmate is belangrijk in schaakgeschiedenis omdat no escape game ends in king under attack."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Draw by agreement in chess history?",
+                            "es": "¿Qué es significativo sobre Draw by agreement en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Draw by agreement in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Draw by agreement in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "mutual consent - players agree to draw",
+                                    "es": "mutual consent - players agree to draw",
+                                    "de": "mutual consent - players agree to draw",
+                                    "nl": "mutual consent - players agree to draw"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Draw by agreement is significant in chess history because players agree to draw in mutual consent.",
+                            "es": "Draw by agreement es significativo en la historia del ajedrez porque players agree to draw en mutual consent.",
+                            "de": "Draw by agreement ist bedeutsam in der Schachgeschichte weil players agree to draw in mutual consent.",
+                            "nl": "Draw by agreement is belangrijk in schaakgeschiedenis omdat players agree to draw in mutual consent."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Immortal Game in chess history?",
+                            "es": "¿Qué es significativo sobre Immortal Game en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Immortal Game in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Immortal Game in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1851 - Anderssen vs Kieseritzky brilliant sacrifices",
+                                    "es": "1851 - Anderssen vs Kieseritzky brilliant sacrifices",
+                                    "de": "1851 - Anderssen vs Kieseritzky brilliant sacrifices",
+                                    "nl": "1851 - Anderssen vs Kieseritzky brilliant sacrifices"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Immortal Game is significant in chess history because Anderssen vs Kieseritzky brilliant sacrifices in 1851.",
+                            "es": "Immortal Game es significativo en la historia del ajedrez porque Anderssen vs Kieseritzky brilliant sacrifices en 1851.",
+                            "de": "Immortal Game ist bedeutsam in der Schachgeschichte weil Anderssen vs Kieseritzky brilliant sacrifices in 1851.",
+                            "nl": "Immortal Game is belangrijk in schaakgeschiedenis omdat Anderssen vs Kieseritzky brilliant sacrifices in 1851."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Evergreen Game in chess history?",
+                            "es": "¿Qué es significativo sobre Evergreen Game en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Evergreen Game in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Evergreen Game in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1852 - Anderssen vs Dufresne spectacular combination",
+                                    "es": "1852 - Anderssen vs Dufresne spectacular combination",
+                                    "de": "1852 - Anderssen vs Dufresne spectacular combination",
+                                    "nl": "1852 - Anderssen vs Dufresne spectacular combination"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Evergreen Game is significant in chess history because Anderssen vs Dufresne spectacular combination in 1852.",
+                            "es": "Evergreen Game es significativo en la historia del ajedrez porque Anderssen vs Dufresne spectacular combination en 1852.",
+                            "de": "Evergreen Game ist bedeutsam in der Schachgeschichte weil Anderssen vs Dufresne spectacular combination in 1852.",
+                            "nl": "Evergreen Game is belangrijk in schaakgeschiedenis omdat Anderssen vs Dufresne spectacular combination in 1852."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Opera Game in chess history?",
+                            "es": "¿Qué es significativo sobre Opera Game en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Opera Game in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Opera Game in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1858 - Morphy defeats Duke and Count",
+                                    "es": "1858 - Morphy defeats Duke and Count",
+                                    "de": "1858 - Morphy defeats Duke and Count",
+                                    "nl": "1858 - Morphy defeats Duke and Count"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Opera Game is significant in chess history because Morphy defeats Duke and Count in 1858.",
+                            "es": "Opera Game es significativo en la historia del ajedrez porque Morphy defeats Duke and Count en 1858.",
+                            "de": "Opera Game ist bedeutsam in der Schachgeschichte weil Morphy defeats Duke and Count in 1858.",
+                            "nl": "Opera Game is belangrijk in schaakgeschiedenis omdat Morphy defeats Duke and Count in 1858."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Game of Century in chess history?",
+                            "es": "¿Qué es significativo sobre Game of Century en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Game of Century in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Game of Century in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1956 - 13-year-old Fischer defeats Byrne",
+                                    "es": "1956 - 13-year-old Fischer defeats Byrne",
+                                    "de": "1956 - 13-year-old Fischer defeats Byrne",
+                                    "nl": "1956 - 13-year-old Fischer defeats Byrne"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Game of Century is significant in chess history because 13-year-old Fischer defeats Byrne in 1956.",
+                            "es": "Game of Century es significativo en la historia del ajedrez porque 13-year-old Fischer defeats Byrne en 1956.",
+                            "de": "Game of Century ist bedeutsam in der Schachgeschichte weil 13-year-old Fischer defeats Byrne in 1956.",
+                            "nl": "Game of Century is belangrijk in schaakgeschiedenis omdat 13-year-old Fischer defeats Byrne in 1956."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Match of Century in chess history?",
+                            "es": "¿Qué es significativo sobre Match of Century en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Match of Century in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Match of Century in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1972 - Fischer vs Spassky in Iceland",
+                                    "es": "1972 - Fischer vs Spassky in Iceland",
+                                    "de": "1972 - Fischer vs Spassky in Iceland",
+                                    "nl": "1972 - Fischer vs Spassky in Iceland"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Match of Century is significant in chess history because Fischer vs Spassky in Iceland in 1972.",
+                            "es": "Match of Century es significativo en la historia del ajedrez porque Fischer vs Spassky in Iceland en 1972.",
+                            "de": "Match of Century ist bedeutsam in der Schachgeschichte weil Fischer vs Spassky in Iceland in 1972.",
+                            "nl": "Match of Century is belangrijk in schaakgeschiedenis omdat Fischer vs Spassky in Iceland in 1972."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Computer era in chess history?",
+                            "es": "¿Qué es significativo sobre Computer era en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Computer era in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Computer era in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1990s - computers became competitive with humans",
+                                    "es": "1990s - computers became competitive with humans",
+                                    "de": "1990s - computers became competitive with humans",
+                                    "nl": "1990s - computers became competitive with humans"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Computer era is significant in chess history because computers became competitive with humans in 1990s.",
+                            "es": "Computer era es significativo en la historia del ajedrez porque computers became competitive with humans en 1990s.",
+                            "de": "Computer era ist bedeutsam in der Schachgeschichte weil computers became competitive with humans in 1990s.",
+                            "nl": "Computer era is belangrijk in schaakgeschiedenis omdat computers became competitive with humans in 1990s."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Online chess in chess history?",
+                            "es": "¿Qué es significativo sobre Online chess en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Online chess in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Online chess in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2000s - internet revolutionized chess playing",
+                                    "es": "2000s - internet revolutionized chess playing",
+                                    "de": "2000s - internet revolutionized chess playing",
+                                    "nl": "2000s - internet revolutionized chess playing"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Online chess is significant in chess history because internet revolutionized chess playing in 2000s.",
+                            "es": "Online chess es significativo en la historia del ajedrez porque internet revolutionized chess playing en 2000s.",
+                            "de": "Online chess ist bedeutsam in der Schachgeschichte weil internet revolutionized chess playing in 2000s.",
+                            "nl": "Online chess is belangrijk in schaakgeschiedenis omdat internet revolutionized chess playing in 2000s."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Chess variants in chess history?",
+                            "es": "¿Qué es significativo sobre Chess variants en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Chess variants in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Chess variants in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "hundreds - different rule variations of chess",
+                                    "es": "hundreds - different rule variations of chess",
+                                    "de": "hundreds - different rule variations of chess",
+                                    "nl": "hundreds - different rule variations of chess"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess variants is significant in chess history because different rule variations of chess in hundreds.",
+                            "es": "Chess variants es significativo en la historia del ajedrez porque different rule variations of chess en hundreds.",
+                            "de": "Chess variants ist bedeutsam in der Schachgeschichte weil different rule variations of chess in hundreds.",
+                            "nl": "Chess variants is belangrijk in schaakgeschiedenis omdat different rule variations of chess in hundreds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Chess960 in chess history?",
+                            "es": "¿Qué es significativo sobre Chess960 en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Chess960 in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Chess960 in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Fischer Random - randomized starting position",
+                                    "es": "Fischer Random - randomized starting position",
+                                    "de": "Fischer Random - randomized starting position",
+                                    "nl": "Fischer Random - randomized starting position"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess960 is significant in chess history because randomized starting position in Fischer Random.",
+                            "es": "Chess960 es significativo en la historia del ajedrez porque randomized starting position en Fischer Random.",
+                            "de": "Chess960 ist bedeutsam in der Schachgeschichte weil randomized starting position in Fischer Random.",
+                            "nl": "Chess960 is belangrijk in schaakgeschiedenis omdat randomized starting position in Fischer Random."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Bughouse in chess history?",
+                            "es": "¿Qué es significativo sobre Bughouse en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Bughouse in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Bughouse in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "team chess - four players two boards",
+                                    "es": "team chess - four players two boards",
+                                    "de": "team chess - four players two boards",
+                                    "nl": "team chess - four players two boards"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bughouse is significant in chess history because four players two boards in team chess.",
+                            "es": "Bughouse es significativo en la historia del ajedrez porque four players two boards en team chess.",
+                            "de": "Bughouse ist bedeutsam in der Schachgeschichte weil four players two boards in team chess.",
+                            "nl": "Bughouse is belangrijk in schaakgeschiedenis omdat four players two boards in team chess."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Blindfold chess in chess history?",
+                            "es": "¿Qué es significativo sobre Blindfold chess en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Blindfold chess in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Blindfold chess in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "without seeing - playing without looking at board",
+                                    "es": "without seeing - playing without looking at board",
+                                    "de": "without seeing - playing without looking at board",
+                                    "nl": "without seeing - playing without looking at board"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blindfold chess is significant in chess history because playing without looking at board in without seeing.",
+                            "es": "Blindfold chess es significativo en la historia del ajedrez porque playing without looking at board en without seeing.",
+                            "de": "Blindfold chess ist bedeutsam in der Schachgeschichte weil playing without looking at board in without seeing.",
+                            "nl": "Blindfold chess is belangrijk in schaakgeschiedenis omdat playing without looking at board in without seeing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Simultaneous exhibition in chess history?",
+                            "es": "¿Qué es significativo sobre Simultaneous exhibition en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Simultaneous exhibition in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Simultaneous exhibition in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "one vs many - one player plays multiple opponents",
+                                    "es": "one vs many - one player plays multiple opponents",
+                                    "de": "one vs many - one player plays multiple opponents",
+                                    "nl": "one vs many - one player plays multiple opponents"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Simultaneous exhibition is significant in chess history because one player plays multiple opponents in one vs many.",
+                            "es": "Simultaneous exhibition es significativo en la historia del ajedrez porque one player plays multiple opponents en one vs many.",
+                            "de": "Simultaneous exhibition ist bedeutsam in der Schachgeschichte weil one player plays multiple opponents in one vs many.",
+                            "nl": "Simultaneous exhibition is belangrijk in schaakgeschiedenis omdat one player plays multiple opponents in one vs many."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Chess notation in chess history?",
+                            "es": "¿Qué es significativo sobre Chess notation en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Chess notation in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Chess notation in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "algebraic - standard way to record moves",
+                                    "es": "algebraic - standard way to record moves",
+                                    "de": "algebraic - standard way to record moves",
+                                    "nl": "algebraic - standard way to record moves"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess notation is significant in chess history because standard way to record moves in algebraic.",
+                            "es": "Chess notation es significativo en la historia del ajedrez porque standard way to record moves en algebraic.",
+                            "de": "Chess notation ist bedeutsam in der Schachgeschichte weil standard way to record moves in algebraic.",
+                            "nl": "Chess notation is belangrijk in schaakgeschiedenis omdat standard way to record moves in algebraic."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about PGN format in chess history?",
+                            "es": "¿Qué es significativo sobre PGN format en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über PGN format in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over PGN format in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Portable Game Notation - standard for chess games",
+                                    "es": "Portable Game Notation - standard for chess games",
+                                    "de": "Portable Game Notation - standard for chess games",
+                                    "nl": "Portable Game Notation - standard for chess games"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "PGN format is significant in chess history because standard for chess games in Portable Game Notation.",
+                            "es": "PGN format es significativo en la historia del ajedrez porque standard for chess games en Portable Game Notation.",
+                            "de": "PGN format ist bedeutsam in der Schachgeschichte weil standard for chess games in Portable Game Notation.",
+                            "nl": "PGN format is belangrijk in schaakgeschiedenis omdat standard for chess games in Portable Game Notation."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Chess engine in chess history?",
+                            "es": "¿Qué es significativo sobre Chess engine en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Chess engine in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Chess engine in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "computer program - software that plays chess",
+                                    "es": "computer program - software that plays chess",
+                                    "de": "computer program - software that plays chess",
+                                    "nl": "computer program - software that plays chess"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess engine is significant in chess history because software that plays chess in computer program.",
+                            "es": "Chess engine es significativo en la historia del ajedrez porque software that plays chess en computer program.",
+                            "de": "Chess engine ist bedeutsam in der Schachgeschichte weil software that plays chess in computer program.",
+                            "nl": "Chess engine is belangrijk in schaakgeschiedenis omdat software that plays chess in computer program."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Opening book in chess history?",
+                            "es": "¿Qué es significativo sobre Opening book en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Opening book in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Opening book in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "theory database - collection of studied opening lines",
+                                    "es": "theory database - collection de studied opening lines",
+                                    "de": "theory database - collection von studied opening lines",
+                                    "nl": "theory database - collection van studied opening lines"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Opening book is significant in chess history because collection of studied opening lines in theory database.",
+                            "es": "Opening book es significativo en la historia del ajedrez porque collection of studied opening lines en theory database.",
+                            "de": "Opening book ist bedeutsam in der Schachgeschichte weil collection of studied opening lines in theory database.",
+                            "nl": "Opening book is belangrijk in schaakgeschiedenis omdat collection of studied opening lines in theory database."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Endgame tablebase in chess history?",
+                            "es": "¿Qué es significativo sobre Endgame tablebase en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Endgame tablebase in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Endgame tablebase in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "perfect play - all positions with few pieces solved",
+                                    "es": "perfect play - all positions with few pieces solved",
+                                    "de": "perfect play - all positions with few pieces solved",
+                                    "nl": "perfect play - all positions with few pieces solved"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Endgame tablebase is significant in chess history because all positions with few pieces solved in perfect play.",
+                            "es": "Endgame tablebase es significativo en la historia del ajedrez porque all positions with few pieces solved en perfect play.",
+                            "de": "Endgame tablebase ist bedeutsam in der Schachgeschichte weil all positions with few pieces solved in perfect play.",
+                            "nl": "Endgame tablebase is belangrijk in schaakgeschiedenis omdat all positions with few pieces solved in perfect play."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Chess clock in chess history?",
+                            "es": "¿Qué es significativo sobre Chess clock en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Chess clock in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Chess clock in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "time control - device for measuring thinking time",
+                                    "es": "time control - device for measuring thinking time",
+                                    "de": "time control - device for measuring thinking time",
+                                    "nl": "time control - device for measuring thinking time"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chess clock is significant in chess history because device for measuring thinking time in time control.",
+                            "es": "Chess clock es significativo en la historia del ajedrez porque device for measuring thinking time en time control.",
+                            "de": "Chess clock ist bedeutsam in der Schachgeschichte weil device for measuring thinking time in time control.",
+                            "nl": "Chess clock is belangrijk in schaakgeschiedenis omdat device for measuring thinking time in time control."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Touch-move rule in chess history?",
+                            "es": "¿Qué es significativo sobre Touch-move rule en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Touch-move rule in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Touch-move rule in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "must move - touched piece must be moved",
+                                    "es": "must move - touched piece must be moved",
+                                    "de": "must move - touched piece must be moved",
+                                    "nl": "must move - touched piece must be moved"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Touch-move rule is significant in chess history because touched piece must be moved in must move.",
+                            "es": "Touch-move rule es significativo en la historia del ajedrez porque touched piece must be moved en must move.",
+                            "de": "Touch-move rule ist bedeutsam in der Schachgeschichte weil touched piece must be moved in must move.",
+                            "nl": "Touch-move rule is belangrijk in schaakgeschiedenis omdat touched piece must be moved in must move."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Swiss system in chess history?",
+                            "es": "¿Qué es significativo sobre Swiss system en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Swiss system in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Swiss system in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "tournament format - players matched by score",
+                                    "es": "tournament format - players matched by score",
+                                    "de": "tournament format - players matched by score",
+                                    "nl": "tournament format - players matched by score"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss system is significant in chess history because players matched by score in tournament format.",
+                            "es": "Swiss system es significativo en la historia del ajedrez porque players matched by score en tournament format.",
+                            "de": "Swiss system ist bedeutsam in der Schachgeschichte weil players matched by score in tournament format.",
+                            "nl": "Swiss system is belangrijk in schaakgeschiedenis omdat players matched by score in tournament format."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is significant about Round-robin in chess history?",
+                            "es": "¿Qué es significativo sobre Round-robin en la historia del ajedrez?",
+                            "de": "Was ist bedeutsam über Round-robin in der Schachgeschichte?",
+                            "nl": "Wat is belangrijk over Round-robin in schaakgeschiedenis?"
+                    },
+                    "options": [
+                            {
+                                    "en": "everyone plays everyone - complete tournament format",
+                                    "es": "everyone plays everyone - complete tournament format",
+                                    "de": "everyone plays everyone - complete tournament format",
+                                    "nl": "everyone plays everyone - complete tournament format"
+                            },
+                            {
+                                    "en": "Invented new piece type",
+                                    "es": "Inventó nuevo tipo de pieza",
+                                    "de": "Neue Figurenart erfunden",
+                                    "nl": "Nieuw stuktype uitgevonden"
+                            },
+                            {
+                                    "en": "Changed board size",
+                                    "es": "Cambió tamaño del tablero",
+                                    "de": "Brettgröße geändert",
+                                    "nl": "Bordgrootte veranderd"
+                            },
+                            {
+                                    "en": "Created new rules",
+                                    "es": "Creó nuevas reglas",
+                                    "de": "Neue Regeln geschaffen",
+                                    "nl": "Nieuwe regels gecreëerd"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Round-robin is significant in chess history because complete tournament format in everyone plays everyone.",
+                            "es": "Round-robin es significativo en la historia del ajedrez porque complete tournament format en everyone plays everyone.",
+                            "de": "Round-robin ist bedeutsam in der Schachgeschichte weil complete tournament format in everyone plays everyone.",
+                            "nl": "Round-robin is belangrijk in schaakgeschiedenis omdat complete tournament format in everyone plays everyone."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 52",
+                                    "es": "Correct answer for question 52",
+                                    "de": "Correct answer for question 52",
+                                    "nl": "Correct answer for question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 52",
+                                    "es": "Incorrect option 2 para question 52",
+                                    "de": "Incorrect option 2 für question 52",
+                                    "nl": "Incorrect option 2 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 52",
+                                    "es": "Incorrect option 3 para question 52",
+                                    "de": "Incorrect option 3 für question 52",
+                                    "nl": "Incorrect option 3 voor question 52"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 52",
+                                    "es": "Incorrect option 4 para question 52",
+                                    "de": "Incorrect option 4 für question 52",
+                                    "nl": "Incorrect option 4 voor question 52"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 53",
+                                    "es": "Incorrect option 1 para question 53",
+                                    "de": "Incorrect option 1 für question 53",
+                                    "nl": "Incorrect option 1 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 53",
+                                    "es": "Incorrect option 2 para question 53",
+                                    "de": "Incorrect option 2 für question 53",
+                                    "nl": "Incorrect option 2 voor question 53"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 53",
+                                    "es": "Incorrect option 3 para question 53",
+                                    "de": "Incorrect option 3 für question 53",
+                                    "nl": "Incorrect option 3 voor question 53"
+                            },
+                            {
+                                    "en": "Correct answer for question 53",
+                                    "es": "Correct answer for question 53",
+                                    "de": "Correct answer for question 53",
+                                    "nl": "Correct answer for question 53"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 54",
+                                    "es": "Incorrect option 1 para question 54",
+                                    "de": "Incorrect option 1 für question 54",
+                                    "nl": "Incorrect option 1 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 54",
+                                    "es": "Incorrect option 2 para question 54",
+                                    "de": "Incorrect option 2 für question 54",
+                                    "nl": "Incorrect option 2 voor question 54"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 54",
+                                    "es": "Incorrect option 3 para question 54",
+                                    "de": "Incorrect option 3 für question 54",
+                                    "nl": "Incorrect option 3 voor question 54"
+                            },
+                            {
+                                    "en": "Correct answer for question 54",
+                                    "es": "Correct answer for question 54",
+                                    "de": "Correct answer for question 54",
+                                    "nl": "Correct answer for question 54"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 55",
+                                    "es": "Incorrect option 1 para question 55",
+                                    "de": "Incorrect option 1 für question 55",
+                                    "nl": "Incorrect option 1 voor question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 55",
+                                    "es": "Incorrect option 2 para question 55",
+                                    "de": "Incorrect option 2 für question 55",
+                                    "nl": "Incorrect option 2 voor question 55"
+                            },
+                            {
+                                    "en": "Correct answer for question 55",
+                                    "es": "Correct answer for question 55",
+                                    "de": "Correct answer for question 55",
+                                    "nl": "Correct answer for question 55"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 55",
+                                    "es": "Incorrect option 4 para question 55",
+                                    "de": "Incorrect option 4 für question 55",
+                                    "nl": "Incorrect option 4 voor question 55"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 56",
+                                    "es": "Incorrect option 1 para question 56",
+                                    "de": "Incorrect option 1 für question 56",
+                                    "nl": "Incorrect option 1 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 56",
+                                    "es": "Incorrect option 2 para question 56",
+                                    "de": "Incorrect option 2 für question 56",
+                                    "nl": "Incorrect option 2 voor question 56"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 56",
+                                    "es": "Incorrect option 3 para question 56",
+                                    "de": "Incorrect option 3 für question 56",
+                                    "nl": "Incorrect option 3 voor question 56"
+                            },
+                            {
+                                    "en": "Correct answer for question 56",
+                                    "es": "Correct answer for question 56",
+                                    "de": "Correct answer for question 56",
+                                    "nl": "Correct answer for question 56"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 57",
+                                    "es": "Incorrect option 1 para question 57",
+                                    "de": "Incorrect option 1 für question 57",
+                                    "nl": "Incorrect option 1 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 57",
+                                    "es": "Incorrect option 2 para question 57",
+                                    "de": "Incorrect option 2 für question 57",
+                                    "nl": "Incorrect option 2 voor question 57"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 57",
+                                    "es": "Incorrect option 3 para question 57",
+                                    "de": "Incorrect option 3 für question 57",
+                                    "nl": "Incorrect option 3 voor question 57"
+                            },
+                            {
+                                    "en": "Correct answer for question 57",
+                                    "es": "Correct answer for question 57",
+                                    "de": "Correct answer for question 57",
+                                    "nl": "Correct answer for question 57"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 58",
+                                    "es": "Incorrect option 1 para question 58",
+                                    "de": "Incorrect option 1 für question 58",
+                                    "nl": "Incorrect option 1 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 58",
+                                    "es": "Incorrect option 2 para question 58",
+                                    "de": "Incorrect option 2 für question 58",
+                                    "nl": "Incorrect option 2 voor question 58"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 58",
+                                    "es": "Incorrect option 3 para question 58",
+                                    "de": "Incorrect option 3 für question 58",
+                                    "nl": "Incorrect option 3 voor question 58"
+                            },
+                            {
+                                    "en": "Correct answer for question 58",
+                                    "es": "Correct answer for question 58",
+                                    "de": "Correct answer for question 58",
+                                    "nl": "Correct answer for question 58"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 59",
+                                    "es": "Incorrect option 1 para question 59",
+                                    "de": "Incorrect option 1 für question 59",
+                                    "nl": "Incorrect option 1 voor question 59"
+                            },
+                            {
+                                    "en": "Correct answer for question 59",
+                                    "es": "Correct answer for question 59",
+                                    "de": "Correct answer for question 59",
+                                    "nl": "Correct answer for question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 59",
+                                    "es": "Incorrect option 3 para question 59",
+                                    "de": "Incorrect option 3 für question 59",
+                                    "nl": "Incorrect option 3 voor question 59"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 59",
+                                    "es": "Incorrect option 4 para question 59",
+                                    "de": "Incorrect option 4 für question 59",
+                                    "nl": "Incorrect option 4 voor question 59"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 10?",
+                            "es": "¿Qué is the significance of this in level 10?",
+                            "de": "Was is the significance of this in level 10?",
+                            "nl": "Wat is the significance of this in level 10?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 60",
+                                    "es": "Incorrect option 1 para question 60",
+                                    "de": "Incorrect option 1 für question 60",
+                                    "nl": "Incorrect option 1 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 60",
+                                    "es": "Incorrect option 2 para question 60",
+                                    "de": "Incorrect option 2 für question 60",
+                                    "nl": "Incorrect option 2 voor question 60"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 60",
+                                    "es": "Incorrect option 3 para question 60",
+                                    "de": "Incorrect option 3 für question 60",
+                                    "nl": "Incorrect option 3 voor question 60"
+                            },
+                            {
+                                    "en": "Correct answer for question 60",
+                                    "es": "Correct answer for question 60",
+                                    "de": "Correct answer for question 60",
+                                    "nl": "Correct answer for question 60"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 61",
+                                    "es": "Incorrect option 1 para question 61",
+                                    "de": "Incorrect option 1 für question 61",
+                                    "nl": "Incorrect option 1 voor question 61"
+                            },
+                            {
+                                    "en": "Correct answer for question 61",
+                                    "es": "Correct answer for question 61",
+                                    "de": "Correct answer for question 61",
+                                    "nl": "Correct answer for question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 61",
+                                    "es": "Incorrect option 3 para question 61",
+                                    "de": "Incorrect option 3 für question 61",
+                                    "nl": "Incorrect option 3 voor question 61"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 61",
+                                    "es": "Incorrect option 4 para question 61",
+                                    "de": "Incorrect option 4 für question 61",
+                                    "nl": "Incorrect option 4 voor question 61"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 62",
+                                    "es": "Correct answer for question 62",
+                                    "de": "Correct answer for question 62",
+                                    "nl": "Correct answer for question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 62",
+                                    "es": "Incorrect option 2 para question 62",
+                                    "de": "Incorrect option 2 für question 62",
+                                    "nl": "Incorrect option 2 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 62",
+                                    "es": "Incorrect option 3 para question 62",
+                                    "de": "Incorrect option 3 für question 62",
+                                    "nl": "Incorrect option 3 voor question 62"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 62",
+                                    "es": "Incorrect option 4 para question 62",
+                                    "de": "Incorrect option 4 für question 62",
+                                    "nl": "Incorrect option 4 voor question 62"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 63",
+                                    "es": "Correct answer for question 63",
+                                    "de": "Correct answer for question 63",
+                                    "nl": "Correct answer for question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 63",
+                                    "es": "Incorrect option 2 para question 63",
+                                    "de": "Incorrect option 2 für question 63",
+                                    "nl": "Incorrect option 2 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 63",
+                                    "es": "Incorrect option 3 para question 63",
+                                    "de": "Incorrect option 3 für question 63",
+                                    "nl": "Incorrect option 3 voor question 63"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 63",
+                                    "es": "Incorrect option 4 para question 63",
+                                    "de": "Incorrect option 4 für question 63",
+                                    "nl": "Incorrect option 4 voor question 63"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 64",
+                                    "es": "Incorrect option 1 para question 64",
+                                    "de": "Incorrect option 1 für question 64",
+                                    "nl": "Incorrect option 1 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 64",
+                                    "es": "Incorrect option 2 para question 64",
+                                    "de": "Incorrect option 2 für question 64",
+                                    "nl": "Incorrect option 2 voor question 64"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 64",
+                                    "es": "Incorrect option 3 para question 64",
+                                    "de": "Incorrect option 3 für question 64",
+                                    "nl": "Incorrect option 3 voor question 64"
+                            },
+                            {
+                                    "en": "Correct answer for question 64",
+                                    "es": "Correct answer for question 64",
+                                    "de": "Correct answer for question 64",
+                                    "nl": "Correct answer for question 64"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 65",
+                                    "es": "Incorrect option 1 para question 65",
+                                    "de": "Incorrect option 1 für question 65",
+                                    "nl": "Incorrect option 1 voor question 65"
+                            },
+                            {
+                                    "en": "Correct answer for question 65",
+                                    "es": "Correct answer for question 65",
+                                    "de": "Correct answer for question 65",
+                                    "nl": "Correct answer for question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 65",
+                                    "es": "Incorrect option 3 para question 65",
+                                    "de": "Incorrect option 3 für question 65",
+                                    "nl": "Incorrect option 3 voor question 65"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 65",
+                                    "es": "Incorrect option 4 para question 65",
+                                    "de": "Incorrect option 4 für question 65",
+                                    "nl": "Incorrect option 4 voor question 65"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 66",
+                                    "es": "Incorrect option 1 para question 66",
+                                    "de": "Incorrect option 1 für question 66",
+                                    "nl": "Incorrect option 1 voor question 66"
+                            },
+                            {
+                                    "en": "Correct answer for question 66",
+                                    "es": "Correct answer for question 66",
+                                    "de": "Correct answer for question 66",
+                                    "nl": "Correct answer for question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 66",
+                                    "es": "Incorrect option 3 para question 66",
+                                    "de": "Incorrect option 3 für question 66",
+                                    "nl": "Incorrect option 3 voor question 66"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 66",
+                                    "es": "Incorrect option 4 para question 66",
+                                    "de": "Incorrect option 4 für question 66",
+                                    "nl": "Incorrect option 4 voor question 66"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 67",
+                                    "es": "Incorrect option 1 para question 67",
+                                    "de": "Incorrect option 1 für question 67",
+                                    "nl": "Incorrect option 1 voor question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 67",
+                                    "es": "Incorrect option 2 para question 67",
+                                    "de": "Incorrect option 2 für question 67",
+                                    "nl": "Incorrect option 2 voor question 67"
+                            },
+                            {
+                                    "en": "Correct answer for question 67",
+                                    "es": "Correct answer for question 67",
+                                    "de": "Correct answer for question 67",
+                                    "nl": "Correct answer for question 67"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 67",
+                                    "es": "Incorrect option 4 para question 67",
+                                    "de": "Incorrect option 4 für question 67",
+                                    "nl": "Incorrect option 4 voor question 67"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 68",
+                                    "es": "Incorrect option 1 para question 68",
+                                    "de": "Incorrect option 1 für question 68",
+                                    "nl": "Incorrect option 1 voor question 68"
+                            },
+                            {
+                                    "en": "Correct answer for question 68",
+                                    "es": "Correct answer for question 68",
+                                    "de": "Correct answer for question 68",
+                                    "nl": "Correct answer for question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 68",
+                                    "es": "Incorrect option 3 para question 68",
+                                    "de": "Incorrect option 3 für question 68",
+                                    "nl": "Incorrect option 3 voor question 68"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 68",
+                                    "es": "Incorrect option 4 para question 68",
+                                    "de": "Incorrect option 4 für question 68",
+                                    "nl": "Incorrect option 4 voor question 68"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 69",
+                                    "es": "Incorrect option 1 para question 69",
+                                    "de": "Incorrect option 1 für question 69",
+                                    "nl": "Incorrect option 1 voor question 69"
+                            },
+                            {
+                                    "en": "Correct answer for question 69",
+                                    "es": "Correct answer for question 69",
+                                    "de": "Correct answer for question 69",
+                                    "nl": "Correct answer for question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 69",
+                                    "es": "Incorrect option 3 para question 69",
+                                    "de": "Incorrect option 3 für question 69",
+                                    "nl": "Incorrect option 3 voor question 69"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 69",
+                                    "es": "Incorrect option 4 para question 69",
+                                    "de": "Incorrect option 4 für question 69",
+                                    "nl": "Incorrect option 4 voor question 69"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 10?",
+                            "es": "¿Qué is the significance of this in level 10?",
+                            "de": "Was is the significance of this in level 10?",
+                            "nl": "Wat is the significance of this in level 10?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 70",
+                                    "es": "Incorrect option 1 para question 70",
+                                    "de": "Incorrect option 1 für question 70",
+                                    "nl": "Incorrect option 1 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 70",
+                                    "es": "Incorrect option 2 para question 70",
+                                    "de": "Incorrect option 2 für question 70",
+                                    "nl": "Incorrect option 2 voor question 70"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 70",
+                                    "es": "Incorrect option 3 para question 70",
+                                    "de": "Incorrect option 3 für question 70",
+                                    "nl": "Incorrect option 3 voor question 70"
+                            },
+                            {
+                                    "en": "Correct answer for question 70",
+                                    "es": "Correct answer for question 70",
+                                    "de": "Correct answer for question 70",
+                                    "nl": "Correct answer for question 70"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 71",
+                                    "es": "Incorrect option 1 para question 71",
+                                    "de": "Incorrect option 1 für question 71",
+                                    "nl": "Incorrect option 1 voor question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 71",
+                                    "es": "Incorrect option 2 para question 71",
+                                    "de": "Incorrect option 2 für question 71",
+                                    "nl": "Incorrect option 2 voor question 71"
+                            },
+                            {
+                                    "en": "Correct answer for question 71",
+                                    "es": "Correct answer for question 71",
+                                    "de": "Correct answer for question 71",
+                                    "nl": "Correct answer for question 71"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 71",
+                                    "es": "Incorrect option 4 para question 71",
+                                    "de": "Incorrect option 4 für question 71",
+                                    "nl": "Incorrect option 4 voor question 71"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 72",
+                                    "es": "Incorrect option 1 para question 72",
+                                    "de": "Incorrect option 1 für question 72",
+                                    "nl": "Incorrect option 1 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 73",
+                                    "es": "Incorrect option 1 para question 73",
+                                    "de": "Incorrect option 1 für question 73",
+                                    "nl": "Incorrect option 1 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 73",
+                                    "es": "Incorrect option 2 para question 73",
+                                    "de": "Incorrect option 2 für question 73",
+                                    "nl": "Incorrect option 2 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 74",
+                                    "es": "Incorrect option 4 para question 74",
+                                    "de": "Incorrect option 4 für question 74",
+                                    "nl": "Incorrect option 4 voor question 74"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 76",
+                                    "es": "Incorrect option 1 para question 76",
+                                    "de": "Incorrect option 1 für question 76",
+                                    "nl": "Incorrect option 1 voor question 76"
+                            },
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 76",
+                                    "es": "Incorrect option 4 para question 76",
+                                    "de": "Incorrect option 4 für question 76",
+                                    "nl": "Incorrect option 4 voor question 76"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 77",
+                                    "es": "Incorrect option 1 para question 77",
+                                    "de": "Incorrect option 1 für question 77",
+                                    "nl": "Incorrect option 1 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 77",
+                                    "es": "Incorrect option 4 para question 77",
+                                    "de": "Incorrect option 4 für question 77",
+                                    "nl": "Incorrect option 4 voor question 77"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 78",
+                                    "es": "Incorrect option 3 para question 78",
+                                    "de": "Incorrect option 3 für question 78",
+                                    "nl": "Incorrect option 3 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 78",
+                                    "es": "Incorrect option 4 para question 78",
+                                    "de": "Incorrect option 4 für question 78",
+                                    "nl": "Incorrect option 4 voor question 78"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 79",
+                                    "es": "Incorrect option 1 para question 79",
+                                    "de": "Incorrect option 1 für question 79",
+                                    "nl": "Incorrect option 1 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 10?",
+                            "es": "¿Qué is the significance of this in level 10?",
+                            "de": "Was is the significance of this in level 10?",
+                            "nl": "Wat is the significance of this in level 10?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 80",
+                                    "es": "Incorrect option 2 para question 80",
+                                    "de": "Incorrect option 2 für question 80",
+                                    "nl": "Incorrect option 2 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 80",
+                                    "es": "Incorrect option 4 para question 80",
+                                    "de": "Incorrect option 4 für question 80",
+                                    "nl": "Incorrect option 4 voor question 80"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 81",
+                                    "es": "Incorrect option 1 para question 81",
+                                    "de": "Incorrect option 1 für question 81",
+                                    "nl": "Incorrect option 1 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 82",
+                                    "es": "Incorrect option 3 para question 82",
+                                    "de": "Incorrect option 3 für question 82",
+                                    "nl": "Incorrect option 3 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 83",
+                                    "es": "Incorrect option 3 para question 83",
+                                    "de": "Incorrect option 3 für question 83",
+                                    "nl": "Incorrect option 3 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 83",
+                                    "es": "Incorrect option 4 para question 83",
+                                    "de": "Incorrect option 4 für question 83",
+                                    "nl": "Incorrect option 4 voor question 83"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 84",
+                                    "es": "Incorrect option 4 para question 84",
+                                    "de": "Incorrect option 4 für question 84",
+                                    "nl": "Incorrect option 4 voor question 84"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 85",
+                                    "es": "Incorrect option 1 para question 85",
+                                    "de": "Incorrect option 1 für question 85",
+                                    "nl": "Incorrect option 1 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 85",
+                                    "es": "Incorrect option 2 para question 85",
+                                    "de": "Incorrect option 2 für question 85",
+                                    "nl": "Incorrect option 2 voor question 85"
+                            },
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 86",
+                                    "es": "Incorrect option 3 para question 86",
+                                    "de": "Incorrect option 3 für question 86",
+                                    "nl": "Incorrect option 3 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 86",
+                                    "es": "Incorrect option 4 para question 86",
+                                    "de": "Incorrect option 4 für question 86",
+                                    "nl": "Incorrect option 4 voor question 86"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 88",
+                                    "es": "Incorrect option 1 para question 88",
+                                    "de": "Incorrect option 1 für question 88",
+                                    "nl": "Incorrect option 1 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 89",
+                                    "es": "Incorrect option 2 para question 89",
+                                    "de": "Incorrect option 2 für question 89",
+                                    "nl": "Incorrect option 2 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 89",
+                                    "es": "Incorrect option 4 para question 89",
+                                    "de": "Incorrect option 4 für question 89",
+                                    "nl": "Incorrect option 4 voor question 89"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 10?",
+                            "es": "¿Qué is the significance of this in level 10?",
+                            "de": "Was is the significance of this in level 10?",
+                            "nl": "Wat is the significance of this in level 10?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 90",
+                                    "es": "Incorrect option 4 para question 90",
+                                    "de": "Incorrect option 4 für question 90",
+                                    "nl": "Incorrect option 4 voor question 90"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Chess?",
+                            "es": "¿Cómo does this relate to Chess?",
+                            "de": "Wie does this relate to Chess?",
+                            "nl": "Hoe does this relate to Chess?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 92",
+                                    "es": "Incorrect option 2 para question 92",
+                                    "de": "Incorrect option 2 für question 92",
+                                    "nl": "Incorrect option 2 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 93",
+                                    "es": "Incorrect option 2 para question 93",
+                                    "de": "Incorrect option 2 für question 93",
+                                    "nl": "Incorrect option 2 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 93",
+                                    "es": "Incorrect option 3 para question 93",
+                                    "de": "Incorrect option 3 für question 93",
+                                    "nl": "Incorrect option 3 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 93",
+                                    "es": "Incorrect option 4 para question 93",
+                                    "de": "Incorrect option 4 für question 93",
+                                    "nl": "Incorrect option 4 voor question 93"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 94",
+                                    "es": "Incorrect option 2 para question 94",
+                                    "de": "Incorrect option 2 für question 94",
+                                    "nl": "Incorrect option 2 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 94",
+                                    "es": "Incorrect option 3 para question 94",
+                                    "de": "Incorrect option 3 für question 94",
+                                    "nl": "Incorrect option 3 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 95",
+                                    "es": "Incorrect option 1 para question 95",
+                                    "de": "Incorrect option 1 für question 95",
+                                    "nl": "Incorrect option 1 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 95",
+                                    "es": "Incorrect option 4 para question 95",
+                                    "de": "Incorrect option 4 für question 95",
+                                    "nl": "Incorrect option 4 voor question 95"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 96",
+                                    "es": "Incorrect option 3 para question 96",
+                                    "de": "Incorrect option 3 für question 96",
+                                    "nl": "Incorrect option 3 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 97",
+                                    "es": "Incorrect option 1 para question 97",
+                                    "de": "Incorrect option 1 für question 97",
+                                    "nl": "Incorrect option 1 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 97",
+                                    "es": "Incorrect option 2 para question 97",
+                                    "de": "Incorrect option 2 für question 97",
+                                    "nl": "Incorrect option 2 voor question 97"
+                            },
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 98",
+                                    "es": "Incorrect option 2 para question 98",
+                                    "de": "Incorrect option 2 für question 98",
+                                    "nl": "Incorrect option 2 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 98",
+                                    "es": "Incorrect option 3 para question 98",
+                                    "de": "Incorrect option 3 für question 98",
+                                    "nl": "Incorrect option 3 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 98",
+                                    "es": "Incorrect option 4 para question 98",
+                                    "de": "Incorrect option 4 für question 98",
+                                    "nl": "Incorrect option 4 voor question 98"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 99",
+                                    "es": "Incorrect option 1 para question 99",
+                                    "de": "Incorrect option 1 für question 99",
+                                    "nl": "Incorrect option 1 voor question 99"
+                            },
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 99",
+                                    "es": "Incorrect option 3 para question 99",
+                                    "de": "Incorrect option 3 für question 99",
+                                    "nl": "Incorrect option 3 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 10?",
+                            "es": "¿Qué is the significance of this in level 10?",
+                            "de": "Was is the significance of this in level 10?",
+                            "nl": "Wat is the significance of this in level 10?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 100",
+                                    "es": "Incorrect option 1 para question 100",
+                                    "de": "Incorrect option 1 für question 100",
+                                    "nl": "Incorrect option 1 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 100",
+                                    "es": "Incorrect option 4 para question 100",
+                                    "de": "Incorrect option 4 für question 100",
+                                    "nl": "Incorrect option 4 voor question 100"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "es": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "de": "This question relates to level 10 content in Chess. The correct answer provides important context.",
+                            "nl": "This question relates to level 10 content in Chess. The correct answer provides important context."
+                    }
+            }
+    ]
 };

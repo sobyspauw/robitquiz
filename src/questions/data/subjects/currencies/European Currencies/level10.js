@@ -1,4104 +1,4108 @@
+// European Currencies - level10
+// Total questions: 100
+// Labels cleaned: 2026-03-03T10:21:47.534Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about European Currencies",
-      "es": "Pregunta 1 sobre European Currencies",
-      "de": "Frage 1 über European Currencies",
-      "nl": "Vraag 1 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about European Currencies",
-      "es": "Pregunta 2 sobre European Currencies",
-      "de": "Frage 2 über European Currencies",
-      "nl": "Vraag 2 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about European Currencies",
-      "es": "Pregunta 3 sobre European Currencies",
-      "de": "Frage 3 über European Currencies",
-      "nl": "Vraag 3 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about European Currencies",
-      "es": "Pregunta 4 sobre European Currencies",
-      "de": "Frage 4 über European Currencies",
-      "nl": "Vraag 4 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about European Currencies",
-      "es": "Pregunta 5 sobre European Currencies",
-      "de": "Frage 5 über European Currencies",
-      "nl": "Vraag 5 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about European Currencies",
-      "es": "Pregunta 6 sobre European Currencies",
-      "de": "Frage 6 über European Currencies",
-      "nl": "Vraag 6 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about European Currencies",
-      "es": "Pregunta 7 sobre European Currencies",
-      "de": "Frage 7 über European Currencies",
-      "nl": "Vraag 7 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about European Currencies",
-      "es": "Pregunta 8 sobre European Currencies",
-      "de": "Frage 8 über European Currencies",
-      "nl": "Vraag 8 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about European Currencies",
-      "es": "Pregunta 9 sobre European Currencies",
-      "de": "Frage 9 über European Currencies",
-      "nl": "Vraag 9 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about European Currencies",
-      "es": "Pregunta 10 sobre European Currencies",
-      "de": "Frage 10 über European Currencies",
-      "nl": "Vraag 10 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about European Currencies",
-      "es": "Pregunta 11 sobre European Currencies",
-      "de": "Frage 11 über European Currencies",
-      "nl": "Vraag 11 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about European Currencies",
-      "es": "Pregunta 12 sobre European Currencies",
-      "de": "Frage 12 über European Currencies",
-      "nl": "Vraag 12 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about European Currencies",
-      "es": "Pregunta 13 sobre European Currencies",
-      "de": "Frage 13 über European Currencies",
-      "nl": "Vraag 13 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about European Currencies",
-      "es": "Pregunta 14 sobre European Currencies",
-      "de": "Frage 14 über European Currencies",
-      "nl": "Vraag 14 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about European Currencies",
-      "es": "Pregunta 15 sobre European Currencies",
-      "de": "Frage 15 über European Currencies",
-      "nl": "Vraag 15 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about European Currencies",
-      "es": "Pregunta 16 sobre European Currencies",
-      "de": "Frage 16 über European Currencies",
-      "nl": "Vraag 16 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about European Currencies",
-      "es": "Pregunta 17 sobre European Currencies",
-      "de": "Frage 17 über European Currencies",
-      "nl": "Vraag 17 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about European Currencies",
-      "es": "Pregunta 18 sobre European Currencies",
-      "de": "Frage 18 über European Currencies",
-      "nl": "Vraag 18 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about European Currencies",
-      "es": "Pregunta 19 sobre European Currencies",
-      "de": "Frage 19 über European Currencies",
-      "nl": "Vraag 19 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about European Currencies",
-      "es": "Pregunta 20 sobre European Currencies",
-      "de": "Frage 20 über European Currencies",
-      "nl": "Vraag 20 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about European Currencies",
-      "es": "Pregunta 21 sobre European Currencies",
-      "de": "Frage 21 über European Currencies",
-      "nl": "Vraag 21 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about European Currencies",
-      "es": "Pregunta 22 sobre European Currencies",
-      "de": "Frage 22 über European Currencies",
-      "nl": "Vraag 22 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about European Currencies",
-      "es": "Pregunta 23 sobre European Currencies",
-      "de": "Frage 23 über European Currencies",
-      "nl": "Vraag 23 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about European Currencies",
-      "es": "Pregunta 24 sobre European Currencies",
-      "de": "Frage 24 über European Currencies",
-      "nl": "Vraag 24 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about European Currencies",
-      "es": "Pregunta 25 sobre European Currencies",
-      "de": "Frage 25 über European Currencies",
-      "nl": "Vraag 25 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about European Currencies",
-      "es": "Pregunta 26 sobre European Currencies",
-      "de": "Frage 26 über European Currencies",
-      "nl": "Vraag 26 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about European Currencies",
-      "es": "Pregunta 27 sobre European Currencies",
-      "de": "Frage 27 über European Currencies",
-      "nl": "Vraag 27 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about European Currencies",
-      "es": "Pregunta 28 sobre European Currencies",
-      "de": "Frage 28 über European Currencies",
-      "nl": "Vraag 28 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about European Currencies",
-      "es": "Pregunta 29 sobre European Currencies",
-      "de": "Frage 29 über European Currencies",
-      "nl": "Vraag 29 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about European Currencies",
-      "es": "Pregunta 30 sobre European Currencies",
-      "de": "Frage 30 über European Currencies",
-      "nl": "Vraag 30 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about European Currencies",
-      "es": "Pregunta 31 sobre European Currencies",
-      "de": "Frage 31 über European Currencies",
-      "nl": "Vraag 31 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about European Currencies",
-      "es": "Pregunta 32 sobre European Currencies",
-      "de": "Frage 32 über European Currencies",
-      "nl": "Vraag 32 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about European Currencies",
-      "es": "Pregunta 33 sobre European Currencies",
-      "de": "Frage 33 über European Currencies",
-      "nl": "Vraag 33 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about European Currencies",
-      "es": "Pregunta 34 sobre European Currencies",
-      "de": "Frage 34 über European Currencies",
-      "nl": "Vraag 34 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about European Currencies",
-      "es": "Pregunta 35 sobre European Currencies",
-      "de": "Frage 35 über European Currencies",
-      "nl": "Vraag 35 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about European Currencies",
-      "es": "Pregunta 36 sobre European Currencies",
-      "de": "Frage 36 über European Currencies",
-      "nl": "Vraag 36 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about European Currencies",
-      "es": "Pregunta 37 sobre European Currencies",
-      "de": "Frage 37 über European Currencies",
-      "nl": "Vraag 37 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about European Currencies",
-      "es": "Pregunta 38 sobre European Currencies",
-      "de": "Frage 38 über European Currencies",
-      "nl": "Vraag 38 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about European Currencies",
-      "es": "Pregunta 39 sobre European Currencies",
-      "de": "Frage 39 über European Currencies",
-      "nl": "Vraag 39 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about European Currencies",
-      "es": "Pregunta 40 sobre European Currencies",
-      "de": "Frage 40 über European Currencies",
-      "nl": "Vraag 40 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about European Currencies",
-      "es": "Pregunta 41 sobre European Currencies",
-      "de": "Frage 41 über European Currencies",
-      "nl": "Vraag 41 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about European Currencies",
-      "es": "Pregunta 42 sobre European Currencies",
-      "de": "Frage 42 über European Currencies",
-      "nl": "Vraag 42 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about European Currencies",
-      "es": "Pregunta 43 sobre European Currencies",
-      "de": "Frage 43 über European Currencies",
-      "nl": "Vraag 43 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about European Currencies",
-      "es": "Pregunta 44 sobre European Currencies",
-      "de": "Frage 44 über European Currencies",
-      "nl": "Vraag 44 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about European Currencies",
-      "es": "Pregunta 45 sobre European Currencies",
-      "de": "Frage 45 über European Currencies",
-      "nl": "Vraag 45 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about European Currencies",
-      "es": "Pregunta 46 sobre European Currencies",
-      "de": "Frage 46 über European Currencies",
-      "nl": "Vraag 46 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about European Currencies",
-      "es": "Pregunta 47 sobre European Currencies",
-      "de": "Frage 47 über European Currencies",
-      "nl": "Vraag 47 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about European Currencies",
-      "es": "Pregunta 48 sobre European Currencies",
-      "de": "Frage 48 über European Currencies",
-      "nl": "Vraag 48 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about European Currencies",
-      "es": "Pregunta 49 sobre European Currencies",
-      "de": "Frage 49 über European Currencies",
-      "nl": "Vraag 49 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about European Currencies",
-      "es": "Pregunta 50 sobre European Currencies",
-      "de": "Frage 50 über European Currencies",
-      "nl": "Vraag 50 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about European Currencies",
-      "es": "Pregunta 51 sobre European Currencies",
-      "de": "Frage 51 über European Currencies",
-      "nl": "Vraag 51 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about European Currencies",
-      "es": "Pregunta 52 sobre European Currencies",
-      "de": "Frage 52 über European Currencies",
-      "nl": "Vraag 52 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about European Currencies",
-      "es": "Pregunta 53 sobre European Currencies",
-      "de": "Frage 53 über European Currencies",
-      "nl": "Vraag 53 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about European Currencies",
-      "es": "Pregunta 54 sobre European Currencies",
-      "de": "Frage 54 über European Currencies",
-      "nl": "Vraag 54 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about European Currencies",
-      "es": "Pregunta 55 sobre European Currencies",
-      "de": "Frage 55 über European Currencies",
-      "nl": "Vraag 55 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about European Currencies",
-      "es": "Pregunta 56 sobre European Currencies",
-      "de": "Frage 56 über European Currencies",
-      "nl": "Vraag 56 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about European Currencies",
-      "es": "Pregunta 57 sobre European Currencies",
-      "de": "Frage 57 über European Currencies",
-      "nl": "Vraag 57 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about European Currencies",
-      "es": "Pregunta 58 sobre European Currencies",
-      "de": "Frage 58 über European Currencies",
-      "nl": "Vraag 58 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about European Currencies",
-      "es": "Pregunta 59 sobre European Currencies",
-      "de": "Frage 59 über European Currencies",
-      "nl": "Vraag 59 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about European Currencies",
-      "es": "Pregunta 60 sobre European Currencies",
-      "de": "Frage 60 über European Currencies",
-      "nl": "Vraag 60 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about European Currencies",
-      "es": "Pregunta 61 sobre European Currencies",
-      "de": "Frage 61 über European Currencies",
-      "nl": "Vraag 61 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about European Currencies",
-      "es": "Pregunta 62 sobre European Currencies",
-      "de": "Frage 62 über European Currencies",
-      "nl": "Vraag 62 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about European Currencies",
-      "es": "Pregunta 63 sobre European Currencies",
-      "de": "Frage 63 über European Currencies",
-      "nl": "Vraag 63 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about European Currencies",
-      "es": "Pregunta 64 sobre European Currencies",
-      "de": "Frage 64 über European Currencies",
-      "nl": "Vraag 64 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about European Currencies",
-      "es": "Pregunta 65 sobre European Currencies",
-      "de": "Frage 65 über European Currencies",
-      "nl": "Vraag 65 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about European Currencies",
-      "es": "Pregunta 66 sobre European Currencies",
-      "de": "Frage 66 über European Currencies",
-      "nl": "Vraag 66 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about European Currencies",
-      "es": "Pregunta 67 sobre European Currencies",
-      "de": "Frage 67 über European Currencies",
-      "nl": "Vraag 67 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about European Currencies",
-      "es": "Pregunta 68 sobre European Currencies",
-      "de": "Frage 68 über European Currencies",
-      "nl": "Vraag 68 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about European Currencies",
-      "es": "Pregunta 69 sobre European Currencies",
-      "de": "Frage 69 über European Currencies",
-      "nl": "Vraag 69 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about European Currencies",
-      "es": "Pregunta 70 sobre European Currencies",
-      "de": "Frage 70 über European Currencies",
-      "nl": "Vraag 70 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about European Currencies",
-      "es": "Pregunta 71 sobre European Currencies",
-      "de": "Frage 71 über European Currencies",
-      "nl": "Vraag 71 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about European Currencies",
-      "es": "Pregunta 72 sobre European Currencies",
-      "de": "Frage 72 über European Currencies",
-      "nl": "Vraag 72 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about European Currencies",
-      "es": "Pregunta 73 sobre European Currencies",
-      "de": "Frage 73 über European Currencies",
-      "nl": "Vraag 73 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about European Currencies",
-      "es": "Pregunta 74 sobre European Currencies",
-      "de": "Frage 74 über European Currencies",
-      "nl": "Vraag 74 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about European Currencies",
-      "es": "Pregunta 75 sobre European Currencies",
-      "de": "Frage 75 über European Currencies",
-      "nl": "Vraag 75 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about European Currencies",
-      "es": "Pregunta 76 sobre European Currencies",
-      "de": "Frage 76 über European Currencies",
-      "nl": "Vraag 76 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about European Currencies",
-      "es": "Pregunta 77 sobre European Currencies",
-      "de": "Frage 77 über European Currencies",
-      "nl": "Vraag 77 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about European Currencies",
-      "es": "Pregunta 78 sobre European Currencies",
-      "de": "Frage 78 über European Currencies",
-      "nl": "Vraag 78 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about European Currencies",
-      "es": "Pregunta 79 sobre European Currencies",
-      "de": "Frage 79 über European Currencies",
-      "nl": "Vraag 79 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about European Currencies",
-      "es": "Pregunta 80 sobre European Currencies",
-      "de": "Frage 80 über European Currencies",
-      "nl": "Vraag 80 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about European Currencies",
-      "es": "Pregunta 81 sobre European Currencies",
-      "de": "Frage 81 über European Currencies",
-      "nl": "Vraag 81 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about European Currencies",
-      "es": "Pregunta 82 sobre European Currencies",
-      "de": "Frage 82 über European Currencies",
-      "nl": "Vraag 82 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about European Currencies",
-      "es": "Pregunta 83 sobre European Currencies",
-      "de": "Frage 83 über European Currencies",
-      "nl": "Vraag 83 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about European Currencies",
-      "es": "Pregunta 84 sobre European Currencies",
-      "de": "Frage 84 über European Currencies",
-      "nl": "Vraag 84 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about European Currencies",
-      "es": "Pregunta 85 sobre European Currencies",
-      "de": "Frage 85 über European Currencies",
-      "nl": "Vraag 85 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about European Currencies",
-      "es": "Pregunta 86 sobre European Currencies",
-      "de": "Frage 86 über European Currencies",
-      "nl": "Vraag 86 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about European Currencies",
-      "es": "Pregunta 87 sobre European Currencies",
-      "de": "Frage 87 über European Currencies",
-      "nl": "Vraag 87 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about European Currencies",
-      "es": "Pregunta 88 sobre European Currencies",
-      "de": "Frage 88 über European Currencies",
-      "nl": "Vraag 88 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about European Currencies",
-      "es": "Pregunta 89 sobre European Currencies",
-      "de": "Frage 89 über European Currencies",
-      "nl": "Vraag 89 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about European Currencies",
-      "es": "Pregunta 90 sobre European Currencies",
-      "de": "Frage 90 über European Currencies",
-      "nl": "Vraag 90 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about European Currencies",
-      "es": "Pregunta 91 sobre European Currencies",
-      "de": "Frage 91 über European Currencies",
-      "nl": "Vraag 91 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about European Currencies",
-      "es": "Pregunta 92 sobre European Currencies",
-      "de": "Frage 92 über European Currencies",
-      "nl": "Vraag 92 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about European Currencies",
-      "es": "Pregunta 93 sobre European Currencies",
-      "de": "Frage 93 über European Currencies",
-      "nl": "Vraag 93 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about European Currencies",
-      "es": "Pregunta 94 sobre European Currencies",
-      "de": "Frage 94 über European Currencies",
-      "nl": "Vraag 94 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about European Currencies",
-      "es": "Pregunta 95 sobre European Currencies",
-      "de": "Frage 95 über European Currencies",
-      "nl": "Vraag 95 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about European Currencies",
-      "es": "Pregunta 96 sobre European Currencies",
-      "de": "Frage 96 über European Currencies",
-      "nl": "Vraag 96 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about European Currencies",
-      "es": "Pregunta 97 sobre European Currencies",
-      "de": "Frage 97 über European Currencies",
-      "nl": "Vraag 97 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about European Currencies",
-      "es": "Pregunta 98 sobre European Currencies",
-      "de": "Frage 98 über European Currencies",
-      "nl": "Vraag 98 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about European Currencies",
-      "es": "Pregunta 99 sobre European Currencies",
-      "de": "Frage 99 über European Currencies",
-      "nl": "Vraag 99 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about European Currencies",
-      "es": "Pregunta 100 sobre European Currencies",
-      "de": "Frage 100 über European Currencies",
-      "nl": "Vraag 100 over European Currencies"
-    },
-    "options": [
-      {
-        "en": "Answer A for European Currencies",
-        "es": "Respuesta A para European Currencies",
-        "de": "Antwort A für European Currencies",
-        "nl": "Antwoord A voor European Currencies"
-      },
-      {
-        "en": "Answer B for European Currencies",
-        "es": "Respuesta B para European Currencies",
-        "de": "Antwort B für European Currencies",
-        "nl": "Antwoord B voor European Currencies"
-      },
-      {
-        "en": "Answer C for European Currencies",
-        "es": "Respuesta C para European Currencies",
-        "de": "Antwort C für European Currencies",
-        "nl": "Antwoord C voor European Currencies"
-      },
-      {
-        "en": "Answer D for European Currencies",
-        "es": "Respuesta D para European Currencies",
-        "de": "Antwort D für European Currencies",
-        "nl": "Antwoord D voor European Currencies"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about European Currencies.",
-      "es": "Esta es la respuesta correcta sobre European Currencies.",
-      "de": "Dies ist die richtige Antwort über European Currencies.",
-      "nl": "Dit is het juiste antwoord over European Currencies."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "How does Pre-Euro relate to Level 10 European?",
+                            "es": "¿Cómo does Pre-Euro relate to Level 10 European?",
+                            "de": "Wie does Pre-Euro relate to Level 10 European?",
+                            "nl": "Hoe does Pre-Euro relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Pre-Euro and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Pre-Euro and Level 10 European is correct?",
+                            "de": "Welche statement about Pre-Euro and Level 10 European is correct?",
+                            "nl": "Welke statement about Pre-Euro and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Pre-Euro play?",
+                            "es": "¿In the context of European Currencies, what role does Pre-Euro play?",
+                            "de": "in der context von European Currencies, what role does Pre-Euro play?",
+                            "nl": "in de context van European Currencies, what role does Pre-Euro play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Pre-Euro and Level 10 European?",
+                            "es": "¿Qué is the relationship between Pre-Euro and Level 10 European?",
+                            "de": "Was is the relationship between Pre-Euro and Level 10 European?",
+                            "nl": "Wat is the relationship between Pre-Euro and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Pre-Euro?",
+                            "es": "¿Cuál of the following best describes Pre-Euro?",
+                            "de": "Welche of the following best describes Pre-Euro?",
+                            "nl": "Welke of the following best describes Pre-Euro?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Pre-Euro evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Pre-Euro evolved in relation to Level 10 European?",
+                            "de": "Wie has Pre-Euro evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Pre-Euro evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Pre-Euro on modern european currencies?",
+                            "es": "¿Qué is the impact of Pre-Euro on modern european currencies?",
+                            "de": "Was is the impact of Pre-Euro on modern european currencies?",
+                            "nl": "Wat is the impact of Pre-Euro on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Pre-Euro is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Pre-Euro is most relevant to Level 10 European?",
+                            "de": "Welche principle of Pre-Euro is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Pre-Euro is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Pre-Euro in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Pre-Euro in the field of European Currencies?",
+                            "de": "Was distinguishes Pre-Euro in the field of European Currencies?",
+                            "nl": "Wat distinguishes Pre-Euro in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Pre-Euro in Level 10 European?",
+                            "es": "¿Qué is the significance of Pre-Euro in Level 10 European?",
+                            "de": "Was is the significance of Pre-Euro in Level 10 European?",
+                            "nl": "Wat is the significance of Pre-Euro in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Eurozone relate to Level 10 European?",
+                            "es": "¿Cómo does Eurozone relate to Level 10 European?",
+                            "de": "Wie does Eurozone relate to Level 10 European?",
+                            "nl": "Hoe does Eurozone relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Eurozone and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Eurozone and Level 10 European is correct?",
+                            "de": "Welche statement about Eurozone and Level 10 European is correct?",
+                            "nl": "Welke statement about Eurozone and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Eurozone play?",
+                            "es": "¿In the context of European Currencies, what role does Eurozone play?",
+                            "de": "in der context von European Currencies, what role does Eurozone play?",
+                            "nl": "in de context van European Currencies, what role does Eurozone play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Eurozone and Level 10 European?",
+                            "es": "¿Qué is the relationship between Eurozone and Level 10 European?",
+                            "de": "Was is the relationship between Eurozone and Level 10 European?",
+                            "nl": "Wat is the relationship between Eurozone and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Eurozone?",
+                            "es": "¿Cuál of the following best describes Eurozone?",
+                            "de": "Welche of the following best describes Eurozone?",
+                            "nl": "Welke of the following best describes Eurozone?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Eurozone evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Eurozone evolved in relation to Level 10 European?",
+                            "de": "Wie has Eurozone evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Eurozone evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Eurozone on modern european currencies?",
+                            "es": "¿Qué is the impact of Eurozone on modern european currencies?",
+                            "de": "Was is the impact of Eurozone on modern european currencies?",
+                            "nl": "Wat is the impact of Eurozone on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Eurozone is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Eurozone is most relevant to Level 10 European?",
+                            "de": "Welche principle of Eurozone is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Eurozone is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Eurozone in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Eurozone in the field of European Currencies?",
+                            "de": "Was distinguishes Eurozone in the field of European Currencies?",
+                            "nl": "Wat distinguishes Eurozone in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Eurozone in Level 10 European?",
+                            "es": "¿Qué is the significance of Eurozone in Level 10 European?",
+                            "de": "Was is the significance of Eurozone in Level 10 European?",
+                            "nl": "Wat is the significance of Eurozone in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Non-Euro EU relate to Level 10 European?",
+                            "es": "¿Cómo does Non-Euro EU relate to Level 10 European?",
+                            "de": "Wie does Non-Euro EU relate to Level 10 European?",
+                            "nl": "Hoe does Non-Euro EU relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Non-Euro EU and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Non-Euro EU and Level 10 European is correct?",
+                            "de": "Welche statement about Non-Euro EU and Level 10 European is correct?",
+                            "nl": "Welke statement about Non-Euro EU and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Non-Euro EU play?",
+                            "es": "¿In the context of European Currencies, what role does Non-Euro EU play?",
+                            "de": "in der context von European Currencies, what role does Non-Euro EU play?",
+                            "nl": "in de context van European Currencies, what role does Non-Euro EU play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Non-Euro EU and Level 10 European?",
+                            "es": "¿Qué is the relationship between Non-Euro EU and Level 10 European?",
+                            "de": "Was is the relationship between Non-Euro EU and Level 10 European?",
+                            "nl": "Wat is the relationship between Non-Euro EU and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Non-Euro EU?",
+                            "es": "¿Cuál of the following best describes Non-Euro EU?",
+                            "de": "Welche of the following best describes Non-Euro EU?",
+                            "nl": "Welke of the following best describes Non-Euro EU?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Non-Euro EU evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Non-Euro EU evolved in relation to Level 10 European?",
+                            "de": "Wie has Non-Euro EU evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Non-Euro EU evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Non-Euro EU on modern european currencies?",
+                            "es": "¿Qué is the impact of Non-Euro EU on modern european currencies?",
+                            "de": "Was is the impact of Non-Euro EU on modern european currencies?",
+                            "nl": "Wat is the impact of Non-Euro EU on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Non-Euro EU is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Non-Euro EU is most relevant to Level 10 European?",
+                            "de": "Welche principle of Non-Euro EU is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Non-Euro EU is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Non-Euro EU in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Non-Euro EU in the field of European Currencies?",
+                            "de": "Was distinguishes Non-Euro EU in the field of European Currencies?",
+                            "nl": "Wat distinguishes Non-Euro EU in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Non-Euro EU in Level 10 European?",
+                            "es": "¿Qué is the significance of Non-Euro EU in Level 10 European?",
+                            "de": "Was is the significance of Non-Euro EU in Level 10 European?",
+                            "nl": "Wat is the significance of Non-Euro EU in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Swiss Franc relate to Level 10 European?",
+                            "es": "¿Cómo does Swiss Franc relate to Level 10 European?",
+                            "de": "Wie does Swiss Franc relate to Level 10 European?",
+                            "nl": "Hoe does Swiss Franc relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Swiss Franc and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Swiss Franc and Level 10 European is correct?",
+                            "de": "Welche statement about Swiss Franc and Level 10 European is correct?",
+                            "nl": "Welke statement about Swiss Franc and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Swiss Franc play?",
+                            "es": "¿In the context of European Currencies, what role does Swiss Franc play?",
+                            "de": "in der context von European Currencies, what role does Swiss Franc play?",
+                            "nl": "in de context van European Currencies, what role does Swiss Franc play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Swiss Franc and Level 10 European?",
+                            "es": "¿Qué is the relationship between Swiss Franc and Level 10 European?",
+                            "de": "Was is the relationship between Swiss Franc and Level 10 European?",
+                            "nl": "Wat is the relationship between Swiss Franc and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Swiss Franc?",
+                            "es": "¿Cuál of the following best describes Swiss Franc?",
+                            "de": "Welche of the following best describes Swiss Franc?",
+                            "nl": "Welke of the following best describes Swiss Franc?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Swiss Franc evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Swiss Franc evolved in relation to Level 10 European?",
+                            "de": "Wie has Swiss Franc evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Swiss Franc evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Swiss Franc on modern european currencies?",
+                            "es": "¿Qué is the impact of Swiss Franc on modern european currencies?",
+                            "de": "Was is the impact of Swiss Franc on modern european currencies?",
+                            "nl": "Wat is the impact of Swiss Franc on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Swiss Franc is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Swiss Franc is most relevant to Level 10 European?",
+                            "de": "Welche principle of Swiss Franc is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Swiss Franc is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Swiss Franc in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Swiss Franc in the field of European Currencies?",
+                            "de": "Was distinguishes Swiss Franc in the field of European Currencies?",
+                            "nl": "Wat distinguishes Swiss Franc in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Swiss Franc in Level 10 European?",
+                            "es": "¿Qué is the significance of Swiss Franc in Level 10 European?",
+                            "de": "Was is the significance of Swiss Franc in Level 10 European?",
+                            "nl": "Wat is the significance of Swiss Franc in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Nordic currencies relate to Level 10 European?",
+                            "es": "¿Cómo does Nordic currencies relate to Level 10 European?",
+                            "de": "Wie does Nordic currencies relate to Level 10 European?",
+                            "nl": "Hoe does Nordic currencies relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Nordic currencies and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Nordic currencies and Level 10 European is correct?",
+                            "de": "Welche statement about Nordic currencies and Level 10 European is correct?",
+                            "nl": "Welke statement about Nordic currencies and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Nordic currencies play?",
+                            "es": "¿In the context of European Currencies, what role does Nordic currencies play?",
+                            "de": "in der context von European Currencies, what role does Nordic currencies play?",
+                            "nl": "in de context van European Currencies, what role does Nordic currencies play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Nordic currencies and Level 10 European?",
+                            "es": "¿Qué is the relationship between Nordic currencies and Level 10 European?",
+                            "de": "Was is the relationship between Nordic currencies and Level 10 European?",
+                            "nl": "Wat is the relationship between Nordic currencies and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Nordic currencies?",
+                            "es": "¿Cuál of the following best describes Nordic currencies?",
+                            "de": "Welche of the following best describes Nordic currencies?",
+                            "nl": "Welke of the following best describes Nordic currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Nordic currencies evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Nordic currencies evolved in relation to Level 10 European?",
+                            "de": "Wie has Nordic currencies evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Nordic currencies evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Nordic currencies on modern european currencies?",
+                            "es": "¿Qué is the impact of Nordic currencies on modern european currencies?",
+                            "de": "Was is the impact of Nordic currencies on modern european currencies?",
+                            "nl": "Wat is the impact of Nordic currencies on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Nordic currencies is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Nordic currencies is most relevant to Level 10 European?",
+                            "de": "Welche principle of Nordic currencies is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Nordic currencies is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Nordic currencies in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Nordic currencies in the field of European Currencies?",
+                            "de": "Was distinguishes Nordic currencies in the field of European Currencies?",
+                            "nl": "Wat distinguishes Nordic currencies in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Nordic currencies in Level 10 European?",
+                            "es": "¿Qué is the significance of Nordic currencies in Level 10 European?",
+                            "de": "Was is the significance of Nordic currencies in Level 10 European?",
+                            "nl": "Wat is the significance of Nordic currencies in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Pre-Euro relate to Level 10 European?",
+                            "es": "¿Cómo does Pre-Euro relate to Level 10 European?",
+                            "de": "Wie does Pre-Euro relate to Level 10 European?",
+                            "nl": "Hoe does Pre-Euro relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Pre-Euro and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Pre-Euro and Level 10 European is correct?",
+                            "de": "Welche statement about Pre-Euro and Level 10 European is correct?",
+                            "nl": "Welke statement about Pre-Euro and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Pre-Euro play?",
+                            "es": "¿In the context of European Currencies, what role does Pre-Euro play?",
+                            "de": "in der context von European Currencies, what role does Pre-Euro play?",
+                            "nl": "in de context van European Currencies, what role does Pre-Euro play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Pre-Euro and Level 10 European?",
+                            "es": "¿Qué is the relationship between Pre-Euro and Level 10 European?",
+                            "de": "Was is the relationship between Pre-Euro and Level 10 European?",
+                            "nl": "Wat is the relationship between Pre-Euro and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Pre-Euro?",
+                            "es": "¿Cuál of the following best describes Pre-Euro?",
+                            "de": "Welche of the following best describes Pre-Euro?",
+                            "nl": "Welke of the following best describes Pre-Euro?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Pre-Euro evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Pre-Euro evolved in relation to Level 10 European?",
+                            "de": "Wie has Pre-Euro evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Pre-Euro evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Pre-Euro on modern european currencies?",
+                            "es": "¿Qué is the impact of Pre-Euro on modern european currencies?",
+                            "de": "Was is the impact of Pre-Euro on modern european currencies?",
+                            "nl": "Wat is the impact of Pre-Euro on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Pre-Euro is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Pre-Euro is most relevant to Level 10 European?",
+                            "de": "Welche principle of Pre-Euro is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Pre-Euro is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Pre-Euro in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Pre-Euro in the field of European Currencies?",
+                            "de": "Was distinguishes Pre-Euro in the field of European Currencies?",
+                            "nl": "Wat distinguishes Pre-Euro in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Pre-Euro in Level 10 European?",
+                            "es": "¿Qué is the significance of Pre-Euro in Level 10 European?",
+                            "de": "Was is the significance of Pre-Euro in Level 10 European?",
+                            "nl": "Wat is the significance of Pre-Euro in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Pre-Euro",
+                                    "es": "This shows Pre-Euro",
+                                    "de": "This shows Pre-Euro",
+                                    "nl": "This shows Pre-Euro"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Pre-Euro is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Eurozone relate to Level 10 European?",
+                            "es": "¿Cómo does Eurozone relate to Level 10 European?",
+                            "de": "Wie does Eurozone relate to Level 10 European?",
+                            "nl": "Hoe does Eurozone relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Eurozone and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Eurozone and Level 10 European is correct?",
+                            "de": "Welche statement about Eurozone and Level 10 European is correct?",
+                            "nl": "Welke statement about Eurozone and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Eurozone play?",
+                            "es": "¿In the context of European Currencies, what role does Eurozone play?",
+                            "de": "in der context von European Currencies, what role does Eurozone play?",
+                            "nl": "in de context van European Currencies, what role does Eurozone play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Eurozone and Level 10 European?",
+                            "es": "¿Qué is the relationship between Eurozone and Level 10 European?",
+                            "de": "Was is the relationship between Eurozone and Level 10 European?",
+                            "nl": "Wat is the relationship between Eurozone and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Eurozone?",
+                            "es": "¿Cuál of the following best describes Eurozone?",
+                            "de": "Welche of the following best describes Eurozone?",
+                            "nl": "Welke of the following best describes Eurozone?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Eurozone evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Eurozone evolved in relation to Level 10 European?",
+                            "de": "Wie has Eurozone evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Eurozone evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Eurozone on modern european currencies?",
+                            "es": "¿Qué is the impact of Eurozone on modern european currencies?",
+                            "de": "Was is the impact of Eurozone on modern european currencies?",
+                            "nl": "Wat is the impact of Eurozone on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Eurozone is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Eurozone is most relevant to Level 10 European?",
+                            "de": "Welche principle of Eurozone is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Eurozone is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Eurozone in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Eurozone in the field of European Currencies?",
+                            "de": "Was distinguishes Eurozone in the field of European Currencies?",
+                            "nl": "Wat distinguishes Eurozone in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Eurozone in Level 10 European?",
+                            "es": "¿Qué is the significance of Eurozone in Level 10 European?",
+                            "de": "Was is the significance of Eurozone in Level 10 European?",
+                            "nl": "Wat is the significance of Eurozone in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Eurozone",
+                                    "es": "This shows Eurozone",
+                                    "de": "This shows Eurozone",
+                                    "nl": "This shows Eurozone"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Eurozone is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Non-Euro EU relate to Level 10 European?",
+                            "es": "¿Cómo does Non-Euro EU relate to Level 10 European?",
+                            "de": "Wie does Non-Euro EU relate to Level 10 European?",
+                            "nl": "Hoe does Non-Euro EU relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Non-Euro EU and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Non-Euro EU and Level 10 European is correct?",
+                            "de": "Welche statement about Non-Euro EU and Level 10 European is correct?",
+                            "nl": "Welke statement about Non-Euro EU and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Non-Euro EU play?",
+                            "es": "¿In the context of European Currencies, what role does Non-Euro EU play?",
+                            "de": "in der context von European Currencies, what role does Non-Euro EU play?",
+                            "nl": "in de context van European Currencies, what role does Non-Euro EU play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Non-Euro EU and Level 10 European?",
+                            "es": "¿Qué is the relationship between Non-Euro EU and Level 10 European?",
+                            "de": "Was is the relationship between Non-Euro EU and Level 10 European?",
+                            "nl": "Wat is the relationship between Non-Euro EU and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Non-Euro EU?",
+                            "es": "¿Cuál of the following best describes Non-Euro EU?",
+                            "de": "Welche of the following best describes Non-Euro EU?",
+                            "nl": "Welke of the following best describes Non-Euro EU?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Non-Euro EU evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Non-Euro EU evolved in relation to Level 10 European?",
+                            "de": "Wie has Non-Euro EU evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Non-Euro EU evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Non-Euro EU on modern european currencies?",
+                            "es": "¿Qué is the impact of Non-Euro EU on modern european currencies?",
+                            "de": "Was is the impact of Non-Euro EU on modern european currencies?",
+                            "nl": "Wat is the impact of Non-Euro EU on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Non-Euro EU is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Non-Euro EU is most relevant to Level 10 European?",
+                            "de": "Welche principle of Non-Euro EU is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Non-Euro EU is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Non-Euro EU in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Non-Euro EU in the field of European Currencies?",
+                            "de": "Was distinguishes Non-Euro EU in the field of European Currencies?",
+                            "nl": "Wat distinguishes Non-Euro EU in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Non-Euro EU in Level 10 European?",
+                            "es": "¿Qué is the significance of Non-Euro EU in Level 10 European?",
+                            "de": "Was is the significance of Non-Euro EU in Level 10 European?",
+                            "nl": "Wat is the significance of Non-Euro EU in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Non-Euro EU",
+                                    "es": "This shows Non-Euro EU",
+                                    "de": "This shows Non-Euro EU",
+                                    "nl": "This shows Non-Euro EU"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Non-Euro EU is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Swiss Franc relate to Level 10 European?",
+                            "es": "¿Cómo does Swiss Franc relate to Level 10 European?",
+                            "de": "Wie does Swiss Franc relate to Level 10 European?",
+                            "nl": "Hoe does Swiss Franc relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Swiss Franc and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Swiss Franc and Level 10 European is correct?",
+                            "de": "Welche statement about Swiss Franc and Level 10 European is correct?",
+                            "nl": "Welke statement about Swiss Franc and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Swiss Franc play?",
+                            "es": "¿In the context of European Currencies, what role does Swiss Franc play?",
+                            "de": "in der context von European Currencies, what role does Swiss Franc play?",
+                            "nl": "in de context van European Currencies, what role does Swiss Franc play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Swiss Franc and Level 10 European?",
+                            "es": "¿Qué is the relationship between Swiss Franc and Level 10 European?",
+                            "de": "Was is the relationship between Swiss Franc and Level 10 European?",
+                            "nl": "Wat is the relationship between Swiss Franc and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Swiss Franc?",
+                            "es": "¿Cuál of the following best describes Swiss Franc?",
+                            "de": "Welche of the following best describes Swiss Franc?",
+                            "nl": "Welke of the following best describes Swiss Franc?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Swiss Franc evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Swiss Franc evolved in relation to Level 10 European?",
+                            "de": "Wie has Swiss Franc evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Swiss Franc evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Swiss Franc on modern european currencies?",
+                            "es": "¿Qué is the impact of Swiss Franc on modern european currencies?",
+                            "de": "Was is the impact of Swiss Franc on modern european currencies?",
+                            "nl": "Wat is the impact of Swiss Franc on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Swiss Franc is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Swiss Franc is most relevant to Level 10 European?",
+                            "de": "Welche principle of Swiss Franc is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Swiss Franc is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Swiss Franc in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Swiss Franc in the field of European Currencies?",
+                            "de": "Was distinguishes Swiss Franc in the field of European Currencies?",
+                            "nl": "Wat distinguishes Swiss Franc in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Swiss Franc in Level 10 European?",
+                            "es": "¿Qué is the significance of Swiss Franc in Level 10 European?",
+                            "de": "Was is the significance of Swiss Franc in Level 10 European?",
+                            "nl": "Wat is the significance of Swiss Franc in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Swiss Franc",
+                                    "es": "This shows Swiss Franc",
+                                    "de": "This shows Swiss Franc",
+                                    "nl": "This shows Swiss Franc"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Swiss Franc is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does Nordic currencies relate to Level 10 European?",
+                            "es": "¿Cómo does Nordic currencies relate to Level 10 European?",
+                            "de": "Wie does Nordic currencies relate to Level 10 European?",
+                            "nl": "Hoe does Nordic currencies relate to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about Nordic currencies and Level 10 European is correct?",
+                            "es": "¿Cuál statement about Nordic currencies and Level 10 European is correct?",
+                            "de": "Welche statement about Nordic currencies and Level 10 European is correct?",
+                            "nl": "Welke statement about Nordic currencies and Level 10 European is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "In the context of European Currencies, what role does Nordic currencies play?",
+                            "es": "¿In the context of European Currencies, what role does Nordic currencies play?",
+                            "de": "in der context von European Currencies, what role does Nordic currencies play?",
+                            "nl": "in de context van European Currencies, what role does Nordic currencies play?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the relationship between Nordic currencies and Level 10 European?",
+                            "es": "¿Qué is the relationship between Nordic currencies and Level 10 European?",
+                            "de": "Was is the relationship between Nordic currencies and Level 10 European?",
+                            "nl": "Wat is the relationship between Nordic currencies and Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which of the following best describes Nordic currencies?",
+                            "es": "¿Cuál of the following best describes Nordic currencies?",
+                            "de": "Welche of the following best describes Nordic currencies?",
+                            "nl": "Welke of the following best describes Nordic currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has Nordic currencies evolved in relation to Level 10 European?",
+                            "es": "¿Cómo has Nordic currencies evolved in relation to Level 10 European?",
+                            "de": "Wie has Nordic currencies evolved in relation to Level 10 European?",
+                            "nl": "Hoe has Nordic currencies evolved in relation to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the impact of Nordic currencies on modern european currencies?",
+                            "es": "¿Qué is the impact of Nordic currencies on modern european currencies?",
+                            "de": "Was is the impact of Nordic currencies on modern european currencies?",
+                            "nl": "Wat is the impact of Nordic currencies on modern european currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle of Nordic currencies is most relevant to Level 10 European?",
+                            "es": "¿Cuál principle of Nordic currencies is most relevant to Level 10 European?",
+                            "de": "Welche principle of Nordic currencies is most relevant to Level 10 European?",
+                            "nl": "Welke principle of Nordic currencies is most relevant to Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes Nordic currencies in the field of European Currencies?",
+                            "es": "¿Qué distinguishes Nordic currencies in the field of European Currencies?",
+                            "de": "Was distinguishes Nordic currencies in the field of European Currencies?",
+                            "nl": "Wat distinguishes Nordic currencies in the field of European Currencies?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of Nordic currencies in Level 10 European?",
+                            "es": "¿Qué is the significance of Nordic currencies in Level 10 European?",
+                            "de": "Was is the significance of Nordic currencies in Level 10 European?",
+                            "nl": "Wat is the significance of Nordic currencies in Level 10 European?"
+                    },
+                    "options": [
+                            {
+                                    "en": "This shows Nordic currencies",
+                                    "es": "This shows Nordic currencies",
+                                    "de": "This shows Nordic currencies",
+                                    "nl": "This shows Nordic currencies"
+                            },
+                            {
+                                    "en": "This affects Level 10 European",
+                                    "es": "This affects Level 10 European",
+                                    "de": "This affects Level 10 European",
+                                    "nl": "This affects Level 10 European"
+                            },
+                            {
+                                    "en": "This defines outcomes",
+                                    "es": "This defines outcomes",
+                                    "de": "This defines outcomes",
+                                    "nl": "This defines outcomes"
+                            },
+                            {
+                                    "en": "This gives framework",
+                                    "es": "This gives framework",
+                                    "de": "This gives framework",
+                                    "nl": "This gives framework"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "es": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "de": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field.",
+                            "nl": "Nordic currencies is important in European Currencies because it relates to Level 10 European. This is a key concept in this field."
+                    }
+            }
+    ]
 };

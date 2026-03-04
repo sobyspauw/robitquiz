@@ -1,4104 +1,4108 @@
+// Pharaohs - level9
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:12.771Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Pharaohs",
-      "es": "Pregunta 1 sobre Pharaohs",
-      "de": "Frage 1 über Pharaohs",
-      "nl": "Vraag 1 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Pharaohs",
-      "es": "Pregunta 2 sobre Pharaohs",
-      "de": "Frage 2 über Pharaohs",
-      "nl": "Vraag 2 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Pharaohs",
-      "es": "Pregunta 3 sobre Pharaohs",
-      "de": "Frage 3 über Pharaohs",
-      "nl": "Vraag 3 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Pharaohs",
-      "es": "Pregunta 4 sobre Pharaohs",
-      "de": "Frage 4 über Pharaohs",
-      "nl": "Vraag 4 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Pharaohs",
-      "es": "Pregunta 5 sobre Pharaohs",
-      "de": "Frage 5 über Pharaohs",
-      "nl": "Vraag 5 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Pharaohs",
-      "es": "Pregunta 6 sobre Pharaohs",
-      "de": "Frage 6 über Pharaohs",
-      "nl": "Vraag 6 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Pharaohs",
-      "es": "Pregunta 7 sobre Pharaohs",
-      "de": "Frage 7 über Pharaohs",
-      "nl": "Vraag 7 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Pharaohs",
-      "es": "Pregunta 8 sobre Pharaohs",
-      "de": "Frage 8 über Pharaohs",
-      "nl": "Vraag 8 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Pharaohs",
-      "es": "Pregunta 9 sobre Pharaohs",
-      "de": "Frage 9 über Pharaohs",
-      "nl": "Vraag 9 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Pharaohs",
-      "es": "Pregunta 10 sobre Pharaohs",
-      "de": "Frage 10 über Pharaohs",
-      "nl": "Vraag 10 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Pharaohs",
-      "es": "Pregunta 11 sobre Pharaohs",
-      "de": "Frage 11 über Pharaohs",
-      "nl": "Vraag 11 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Pharaohs",
-      "es": "Pregunta 12 sobre Pharaohs",
-      "de": "Frage 12 über Pharaohs",
-      "nl": "Vraag 12 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Pharaohs",
-      "es": "Pregunta 13 sobre Pharaohs",
-      "de": "Frage 13 über Pharaohs",
-      "nl": "Vraag 13 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Pharaohs",
-      "es": "Pregunta 14 sobre Pharaohs",
-      "de": "Frage 14 über Pharaohs",
-      "nl": "Vraag 14 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Pharaohs",
-      "es": "Pregunta 15 sobre Pharaohs",
-      "de": "Frage 15 über Pharaohs",
-      "nl": "Vraag 15 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Pharaohs",
-      "es": "Pregunta 16 sobre Pharaohs",
-      "de": "Frage 16 über Pharaohs",
-      "nl": "Vraag 16 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Pharaohs",
-      "es": "Pregunta 17 sobre Pharaohs",
-      "de": "Frage 17 über Pharaohs",
-      "nl": "Vraag 17 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Pharaohs",
-      "es": "Pregunta 18 sobre Pharaohs",
-      "de": "Frage 18 über Pharaohs",
-      "nl": "Vraag 18 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Pharaohs",
-      "es": "Pregunta 19 sobre Pharaohs",
-      "de": "Frage 19 über Pharaohs",
-      "nl": "Vraag 19 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Pharaohs",
-      "es": "Pregunta 20 sobre Pharaohs",
-      "de": "Frage 20 über Pharaohs",
-      "nl": "Vraag 20 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Pharaohs",
-      "es": "Pregunta 21 sobre Pharaohs",
-      "de": "Frage 21 über Pharaohs",
-      "nl": "Vraag 21 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Pharaohs",
-      "es": "Pregunta 22 sobre Pharaohs",
-      "de": "Frage 22 über Pharaohs",
-      "nl": "Vraag 22 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Pharaohs",
-      "es": "Pregunta 23 sobre Pharaohs",
-      "de": "Frage 23 über Pharaohs",
-      "nl": "Vraag 23 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Pharaohs",
-      "es": "Pregunta 24 sobre Pharaohs",
-      "de": "Frage 24 über Pharaohs",
-      "nl": "Vraag 24 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Pharaohs",
-      "es": "Pregunta 25 sobre Pharaohs",
-      "de": "Frage 25 über Pharaohs",
-      "nl": "Vraag 25 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Pharaohs",
-      "es": "Pregunta 26 sobre Pharaohs",
-      "de": "Frage 26 über Pharaohs",
-      "nl": "Vraag 26 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Pharaohs",
-      "es": "Pregunta 27 sobre Pharaohs",
-      "de": "Frage 27 über Pharaohs",
-      "nl": "Vraag 27 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Pharaohs",
-      "es": "Pregunta 28 sobre Pharaohs",
-      "de": "Frage 28 über Pharaohs",
-      "nl": "Vraag 28 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Pharaohs",
-      "es": "Pregunta 29 sobre Pharaohs",
-      "de": "Frage 29 über Pharaohs",
-      "nl": "Vraag 29 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Pharaohs",
-      "es": "Pregunta 30 sobre Pharaohs",
-      "de": "Frage 30 über Pharaohs",
-      "nl": "Vraag 30 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Pharaohs",
-      "es": "Pregunta 31 sobre Pharaohs",
-      "de": "Frage 31 über Pharaohs",
-      "nl": "Vraag 31 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Pharaohs",
-      "es": "Pregunta 32 sobre Pharaohs",
-      "de": "Frage 32 über Pharaohs",
-      "nl": "Vraag 32 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Pharaohs",
-      "es": "Pregunta 33 sobre Pharaohs",
-      "de": "Frage 33 über Pharaohs",
-      "nl": "Vraag 33 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Pharaohs",
-      "es": "Pregunta 34 sobre Pharaohs",
-      "de": "Frage 34 über Pharaohs",
-      "nl": "Vraag 34 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Pharaohs",
-      "es": "Pregunta 35 sobre Pharaohs",
-      "de": "Frage 35 über Pharaohs",
-      "nl": "Vraag 35 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Pharaohs",
-      "es": "Pregunta 36 sobre Pharaohs",
-      "de": "Frage 36 über Pharaohs",
-      "nl": "Vraag 36 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Pharaohs",
-      "es": "Pregunta 37 sobre Pharaohs",
-      "de": "Frage 37 über Pharaohs",
-      "nl": "Vraag 37 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Pharaohs",
-      "es": "Pregunta 38 sobre Pharaohs",
-      "de": "Frage 38 über Pharaohs",
-      "nl": "Vraag 38 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Pharaohs",
-      "es": "Pregunta 39 sobre Pharaohs",
-      "de": "Frage 39 über Pharaohs",
-      "nl": "Vraag 39 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Pharaohs",
-      "es": "Pregunta 40 sobre Pharaohs",
-      "de": "Frage 40 über Pharaohs",
-      "nl": "Vraag 40 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Pharaohs",
-      "es": "Pregunta 41 sobre Pharaohs",
-      "de": "Frage 41 über Pharaohs",
-      "nl": "Vraag 41 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Pharaohs",
-      "es": "Pregunta 42 sobre Pharaohs",
-      "de": "Frage 42 über Pharaohs",
-      "nl": "Vraag 42 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Pharaohs",
-      "es": "Pregunta 43 sobre Pharaohs",
-      "de": "Frage 43 über Pharaohs",
-      "nl": "Vraag 43 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Pharaohs",
-      "es": "Pregunta 44 sobre Pharaohs",
-      "de": "Frage 44 über Pharaohs",
-      "nl": "Vraag 44 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Pharaohs",
-      "es": "Pregunta 45 sobre Pharaohs",
-      "de": "Frage 45 über Pharaohs",
-      "nl": "Vraag 45 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Pharaohs",
-      "es": "Pregunta 46 sobre Pharaohs",
-      "de": "Frage 46 über Pharaohs",
-      "nl": "Vraag 46 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Pharaohs",
-      "es": "Pregunta 47 sobre Pharaohs",
-      "de": "Frage 47 über Pharaohs",
-      "nl": "Vraag 47 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Pharaohs",
-      "es": "Pregunta 48 sobre Pharaohs",
-      "de": "Frage 48 über Pharaohs",
-      "nl": "Vraag 48 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Pharaohs",
-      "es": "Pregunta 49 sobre Pharaohs",
-      "de": "Frage 49 über Pharaohs",
-      "nl": "Vraag 49 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Pharaohs",
-      "es": "Pregunta 50 sobre Pharaohs",
-      "de": "Frage 50 über Pharaohs",
-      "nl": "Vraag 50 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Pharaohs",
-      "es": "Pregunta 51 sobre Pharaohs",
-      "de": "Frage 51 über Pharaohs",
-      "nl": "Vraag 51 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Pharaohs",
-      "es": "Pregunta 52 sobre Pharaohs",
-      "de": "Frage 52 über Pharaohs",
-      "nl": "Vraag 52 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Pharaohs",
-      "es": "Pregunta 53 sobre Pharaohs",
-      "de": "Frage 53 über Pharaohs",
-      "nl": "Vraag 53 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Pharaohs",
-      "es": "Pregunta 54 sobre Pharaohs",
-      "de": "Frage 54 über Pharaohs",
-      "nl": "Vraag 54 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Pharaohs",
-      "es": "Pregunta 55 sobre Pharaohs",
-      "de": "Frage 55 über Pharaohs",
-      "nl": "Vraag 55 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Pharaohs",
-      "es": "Pregunta 56 sobre Pharaohs",
-      "de": "Frage 56 über Pharaohs",
-      "nl": "Vraag 56 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Pharaohs",
-      "es": "Pregunta 57 sobre Pharaohs",
-      "de": "Frage 57 über Pharaohs",
-      "nl": "Vraag 57 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Pharaohs",
-      "es": "Pregunta 58 sobre Pharaohs",
-      "de": "Frage 58 über Pharaohs",
-      "nl": "Vraag 58 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Pharaohs",
-      "es": "Pregunta 59 sobre Pharaohs",
-      "de": "Frage 59 über Pharaohs",
-      "nl": "Vraag 59 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Pharaohs",
-      "es": "Pregunta 60 sobre Pharaohs",
-      "de": "Frage 60 über Pharaohs",
-      "nl": "Vraag 60 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Pharaohs",
-      "es": "Pregunta 61 sobre Pharaohs",
-      "de": "Frage 61 über Pharaohs",
-      "nl": "Vraag 61 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Pharaohs",
-      "es": "Pregunta 62 sobre Pharaohs",
-      "de": "Frage 62 über Pharaohs",
-      "nl": "Vraag 62 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Pharaohs",
-      "es": "Pregunta 63 sobre Pharaohs",
-      "de": "Frage 63 über Pharaohs",
-      "nl": "Vraag 63 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Pharaohs",
-      "es": "Pregunta 64 sobre Pharaohs",
-      "de": "Frage 64 über Pharaohs",
-      "nl": "Vraag 64 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Pharaohs",
-      "es": "Pregunta 65 sobre Pharaohs",
-      "de": "Frage 65 über Pharaohs",
-      "nl": "Vraag 65 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Pharaohs",
-      "es": "Pregunta 66 sobre Pharaohs",
-      "de": "Frage 66 über Pharaohs",
-      "nl": "Vraag 66 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Pharaohs",
-      "es": "Pregunta 67 sobre Pharaohs",
-      "de": "Frage 67 über Pharaohs",
-      "nl": "Vraag 67 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Pharaohs",
-      "es": "Pregunta 68 sobre Pharaohs",
-      "de": "Frage 68 über Pharaohs",
-      "nl": "Vraag 68 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Pharaohs",
-      "es": "Pregunta 69 sobre Pharaohs",
-      "de": "Frage 69 über Pharaohs",
-      "nl": "Vraag 69 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Pharaohs",
-      "es": "Pregunta 70 sobre Pharaohs",
-      "de": "Frage 70 über Pharaohs",
-      "nl": "Vraag 70 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Pharaohs",
-      "es": "Pregunta 71 sobre Pharaohs",
-      "de": "Frage 71 über Pharaohs",
-      "nl": "Vraag 71 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Pharaohs",
-      "es": "Pregunta 72 sobre Pharaohs",
-      "de": "Frage 72 über Pharaohs",
-      "nl": "Vraag 72 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Pharaohs",
-      "es": "Pregunta 73 sobre Pharaohs",
-      "de": "Frage 73 über Pharaohs",
-      "nl": "Vraag 73 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Pharaohs",
-      "es": "Pregunta 74 sobre Pharaohs",
-      "de": "Frage 74 über Pharaohs",
-      "nl": "Vraag 74 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Pharaohs",
-      "es": "Pregunta 75 sobre Pharaohs",
-      "de": "Frage 75 über Pharaohs",
-      "nl": "Vraag 75 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Pharaohs",
-      "es": "Pregunta 76 sobre Pharaohs",
-      "de": "Frage 76 über Pharaohs",
-      "nl": "Vraag 76 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Pharaohs",
-      "es": "Pregunta 77 sobre Pharaohs",
-      "de": "Frage 77 über Pharaohs",
-      "nl": "Vraag 77 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Pharaohs",
-      "es": "Pregunta 78 sobre Pharaohs",
-      "de": "Frage 78 über Pharaohs",
-      "nl": "Vraag 78 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Pharaohs",
-      "es": "Pregunta 79 sobre Pharaohs",
-      "de": "Frage 79 über Pharaohs",
-      "nl": "Vraag 79 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Pharaohs",
-      "es": "Pregunta 80 sobre Pharaohs",
-      "de": "Frage 80 über Pharaohs",
-      "nl": "Vraag 80 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Pharaohs",
-      "es": "Pregunta 81 sobre Pharaohs",
-      "de": "Frage 81 über Pharaohs",
-      "nl": "Vraag 81 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Pharaohs",
-      "es": "Pregunta 82 sobre Pharaohs",
-      "de": "Frage 82 über Pharaohs",
-      "nl": "Vraag 82 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Pharaohs",
-      "es": "Pregunta 83 sobre Pharaohs",
-      "de": "Frage 83 über Pharaohs",
-      "nl": "Vraag 83 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Pharaohs",
-      "es": "Pregunta 84 sobre Pharaohs",
-      "de": "Frage 84 über Pharaohs",
-      "nl": "Vraag 84 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Pharaohs",
-      "es": "Pregunta 85 sobre Pharaohs",
-      "de": "Frage 85 über Pharaohs",
-      "nl": "Vraag 85 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Pharaohs",
-      "es": "Pregunta 86 sobre Pharaohs",
-      "de": "Frage 86 über Pharaohs",
-      "nl": "Vraag 86 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Pharaohs",
-      "es": "Pregunta 87 sobre Pharaohs",
-      "de": "Frage 87 über Pharaohs",
-      "nl": "Vraag 87 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Pharaohs",
-      "es": "Pregunta 88 sobre Pharaohs",
-      "de": "Frage 88 über Pharaohs",
-      "nl": "Vraag 88 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Pharaohs",
-      "es": "Pregunta 89 sobre Pharaohs",
-      "de": "Frage 89 über Pharaohs",
-      "nl": "Vraag 89 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Pharaohs",
-      "es": "Pregunta 90 sobre Pharaohs",
-      "de": "Frage 90 über Pharaohs",
-      "nl": "Vraag 90 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Pharaohs",
-      "es": "Pregunta 91 sobre Pharaohs",
-      "de": "Frage 91 über Pharaohs",
-      "nl": "Vraag 91 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Pharaohs",
-      "es": "Pregunta 92 sobre Pharaohs",
-      "de": "Frage 92 über Pharaohs",
-      "nl": "Vraag 92 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Pharaohs",
-      "es": "Pregunta 93 sobre Pharaohs",
-      "de": "Frage 93 über Pharaohs",
-      "nl": "Vraag 93 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Pharaohs",
-      "es": "Pregunta 94 sobre Pharaohs",
-      "de": "Frage 94 über Pharaohs",
-      "nl": "Vraag 94 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Pharaohs",
-      "es": "Pregunta 95 sobre Pharaohs",
-      "de": "Frage 95 über Pharaohs",
-      "nl": "Vraag 95 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Pharaohs",
-      "es": "Pregunta 96 sobre Pharaohs",
-      "de": "Frage 96 über Pharaohs",
-      "nl": "Vraag 96 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Pharaohs",
-      "es": "Pregunta 97 sobre Pharaohs",
-      "de": "Frage 97 über Pharaohs",
-      "nl": "Vraag 97 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Pharaohs",
-      "es": "Pregunta 98 sobre Pharaohs",
-      "de": "Frage 98 über Pharaohs",
-      "nl": "Vraag 98 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Pharaohs",
-      "es": "Pregunta 99 sobre Pharaohs",
-      "de": "Frage 99 über Pharaohs",
-      "nl": "Vraag 99 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Pharaohs",
-      "es": "Pregunta 100 sobre Pharaohs",
-      "de": "Frage 100 über Pharaohs",
-      "nl": "Vraag 100 over Pharaohs"
-    },
-    "options": [
-      {
-        "en": "Answer A for Pharaohs",
-        "es": "Respuesta A para Pharaohs",
-        "de": "Antwort A für Pharaohs",
-        "nl": "Antwoord A voor Pharaohs"
-      },
-      {
-        "en": "Answer B for Pharaohs",
-        "es": "Respuesta B para Pharaohs",
-        "de": "Antwort B für Pharaohs",
-        "nl": "Antwoord B voor Pharaohs"
-      },
-      {
-        "en": "Answer C for Pharaohs",
-        "es": "Respuesta C para Pharaohs",
-        "de": "Antwort C für Pharaohs",
-        "nl": "Antwoord C voor Pharaohs"
-      },
-      {
-        "en": "Answer D for Pharaohs",
-        "es": "Respuesta D para Pharaohs",
-        "de": "Antwort D für Pharaohs",
-        "nl": "Antwoord D voor Pharaohs"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Pharaohs.",
-      "es": "Esta es la respuesta correcta sobre Pharaohs.",
-      "de": "Dies ist die richtige Antwort über Pharaohs.",
-      "nl": "Dit is het juiste antwoord over Pharaohs."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the largest pyramid in Egypt?",
+                            "es": "¿Cuál es el largest pyramid in Egypt?",
+                            "de": "Was ist der largest pyramid in Egypt?",
+                            "nl": "Wat is de largest pyramid in Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pyramid of Khafre",
+                                    "es": "Pyramid of Khafre",
+                                    "de": "Pyramid of Khafre",
+                                    "nl": "Pyramid of Khafre"
+                            },
+                            {
+                                    "en": "Great Pyramid of Giza",
+                                    "es": "Great Pyramid of Giza",
+                                    "de": "Great Pyramid of Giza",
+                                    "nl": "Great Pyramid of Giza"
+                            },
+                            {
+                                    "en": "Step Pyramid",
+                                    "es": "Step Pyramid",
+                                    "de": "Step Pyramid",
+                                    "nl": "Step Pyramid"
+                            },
+                            {
+                                    "en": "Red Pyramid",
+                                    "es": "Red Pyramid",
+                                    "de": "Red Pyramid",
+                                    "nl": "Red Pyramid"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters tall originally.",
+                            "es": "El Great Pyramid of Giza, built for Pharaoh Khufu, es the largest pyramid in Egypt at 146 meters ta.",
+                            "de": "Der Great Pyramid of Giza, built for Pharaoh Khufu, ist the largest pyramid in Egypt at 146 meter...",
+                            "nl": "De Great Pyramid of Giza, built for Pharaoh Khufu, is the largest pyramid in Egypt at 146 meters ..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What river flows through Egypt?",
+                            "es": "¿Qué river flows through Egypt?",
+                            "de": "Was river flows through Egypt?",
+                            "nl": "Wat river flows through Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tigris",
+                                    "es": "Tigris",
+                                    "de": "Tigris",
+                                    "nl": "Tigris"
+                            },
+                            {
+                                    "en": "Nile",
+                                    "es": "Nile",
+                                    "de": "Nile",
+                                    "nl": "Nile"
+                            },
+                            {
+                                    "en": "Amazon",
+                                    "es": "Amazon",
+                                    "de": "Amazon",
+                                    "nl": "Amazon"
+                            },
+                            {
+                                    "en": "Euphrates",
+                                    "es": "Euphrates",
+                                    "de": "Euphrates",
+                                    "nl": "Euphrates"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Nile River flows through Egypt, providing water and fertile soil that enabled ancient Egyptian civilization.",
+                            "es": "el Nile River flows through Egypt, providing water y fertile soil que enabled ancient Egyptian c.",
+                            "de": "der Nile River flows through Egypt, providing water und fertile soil die enabled ancient Egyptian...",
+                            "nl": "de Nile River flows through Egypt, providing water en fertile soil die enabled ancient Egyptian..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the boy pharaoh?",
+                            "es": "¿Quién was the boy pharaoh?",
+                            "de": "Wer was the boy pharaoh?",
+                            "nl": "Wie was the boy pharaoh?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Cleopatra",
+                                    "es": "Cleopatra",
+                                    "de": "Cleopatra",
+                                    "nl": "Cleopatra"
+                            },
+                            {
+                                    "en": "Akhenaten",
+                                    "es": "Akhenaten",
+                                    "de": "Akhenaten",
+                                    "nl": "Akhenaten"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922.",
+                            "es": "Tutankhamun became pharaoh at age 9 and died at 19. Hes intact tomb fue descovered in 1922.",
+                            "de": "Tutankhamun became pharaoh at age 9 and died at 19. Hist intact tomb war distcovered in 1922.",
+                            "nl": "Tutankhamun became pharaoh at age 9 and died at 19. His intact tomb was discovered in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Egyptian writing system called?",
+                            "es": "¿Cuál es el Egyptian writing system called?",
+                            "de": "Was ist der Egyptian writing system called?",
+                            "nl": "Wat is de Egyptian writing system called?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cuneiform",
+                                    "es": "Cuneiform",
+                                    "de": "Cuneiform",
+                                    "nl": "Cuneiform"
+                            },
+                            {
+                                    "en": "Hieroglyphics",
+                                    "es": "Hieroglyphics",
+                                    "de": "Hieroglyphics",
+                                    "nl": "Hieroglyphics"
+                            },
+                            {
+                                    "en": "Sanskrit",
+                                    "es": "Sanskrit",
+                                    "de": "Sanskrit",
+                                    "nl": "Sanskrit"
+                            },
+                            {
+                                    "en": "Latin",
+                                    "es": "Latin",
+                                    "de": "Latin",
+                                    "nl": "Latin"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alphabetic elements.",
+                            "es": "Hieroglyphics fue the formal writing system used in ancient Egypt, combining logographic and alphab.",
+                            "de": "Hieroglyphics war the formal writing system used in ancient Egypt, combining logographic and alph...",
+                            "nl": "Hieroglyphics was the formal writing system used in ancient Egypt, combining logographic and alph..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the Great Sphinx?",
+                            "es": "¿Cuál es el Great Sphinx?",
+                            "de": "Was ist der Great Sphinx?",
+                            "nl": "Wat is de Great Sphinx?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "A lion-body statue with human head",
+                                    "es": "A lion-body statue with human head",
+                                    "de": "A lion-body statue with human head",
+                                    "nl": "A lion-body statue with human head"
+                            },
+                            {
+                                    "en": "A temple",
+                                    "es": "A temple",
+                                    "de": "A temple",
+                                    "nl": "A temple"
+                            },
+                            {
+                                    "en": "A tomb",
+                                    "es": "A tomb",
+                                    "de": "A tomb",
+                                    "nl": "A tomb"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely representing Pharaoh Khafre.",
+                            "es": "El Great Sphinx of Giza es a limestone statue with a lion's body and human head, likely representin.",
+                            "de": "Der Great Sphinx of Giza ist a limestone statue with a lion's body and human head, likely represe...",
+                            "nl": "De Great Sphinx of Giza is a limestone statue with a lion's body and human head, likely represent..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who was the last pharaoh of Egypt?",
+                            "es": "¿Quién was the last pharaoh of Egypt?",
+                            "de": "Wer was the last pharaoh of Egypt?",
+                            "nl": "Wie was the last pharaoh of Egypt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tutankhamun",
+                                    "es": "Tutankhamun",
+                                    "de": "Tutankhamun",
+                                    "nl": "Tutankhamun"
+                            },
+                            {
+                                    "en": "Ramses II",
+                                    "es": "Ramses II",
+                                    "de": "Ramses II",
+                                    "nl": "Ramses II"
+                            },
+                            {
+                                    "en": "Cleopatra VII",
+                                    "es": "Cleopatra VII",
+                                    "de": "Cleopatra VII",
+                                    "nl": "Cleopatra VII"
+                            },
+                            {
+                                    "en": "Nefertiti",
+                                    "es": "Nefertiti",
+                                    "de": "Nefertiti",
+                                    "nl": "Nefertiti"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "es": "Cleopatra VII fue the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "de": "Cleopatra VII war the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest.",
+                            "nl": "Cleopatra VII was the last active pharaoh of Egypt, ruling from 51-30 BCE before Roman conquest."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What was the purpose of mummification?",
+                            "es": "¿Cuál fue el purpose of mummification?",
+                            "de": "Was war der purpose of mummification?",
+                            "nl": "Wat was de purpose of mummification?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Decoration",
+                                    "es": "Decoration",
+                                    "de": "Decoration",
+                                    "nl": "Decoration"
+                            },
+                            {
+                                    "en": "Preserving bodies for afterlife",
+                                    "es": "Preserving bodies for afterlife",
+                                    "de": "Preserving bodies for afterlife",
+                                    "nl": "Preserving bodies for afterlife"
+                            },
+                            {
+                                    "en": "Medical study",
+                                    "es": "Medical study",
+                                    "de": "Medical study",
+                                    "nl": "Medical study"
+                            },
+                            {
+                                    "en": "Punishment",
+                                    "es": "Punishment",
+                                    "de": "Punishment",
+                                    "nl": "Punishment"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the body in death.",
+                            "es": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed the.",
+                            "de": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t...",
+                            "nl": "Mummification preserved bodies for the afterlife, as ancient Egyptians believed the soul needed t..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is papyrus?",
+                            "es": "¿Qué is papyrus?",
+                            "de": "Was is papyrus?",
+                            "nl": "Wat is papyrus?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A pyramid",
+                                    "es": "A pyramid",
+                                    "de": "A pyramid",
+                                    "nl": "A pyramid"
+                            },
+                            {
+                                    "en": "Paper made from plants",
+                                    "es": "Paper made from plants",
+                                    "de": "Paper made from plants",
+                                    "nl": "Paper made from plants"
+                            },
+                            {
+                                    "en": "A pharaoh name",
+                                    "es": "A pharaoh name",
+                                    "de": "A pharaoh name",
+                                    "nl": "A pharaoh name"
+                            },
+                            {
+                                    "en": "A god",
+                                    "es": "A god",
+                                    "de": "A god",
+                                    "nl": "A god"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "es": "Papyrus es paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "de": "Papyrus ist paper-like material made from the papyrus plant, used by ancient Egyptians for writing.",
+                            "nl": "Papyrus is paper-like material made from the papyrus plant, used by ancient Egyptians for writing."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Where is King Tut's tomb?",
+                            "es": "¿Dónde is King Tut's tomb?",
+                            "de": "Wo is King Tut's tomb?",
+                            "nl": "Waar is King Tut's tomb?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Giza",
+                                    "es": "Giza",
+                                    "de": "Giza",
+                                    "nl": "Giza"
+                            },
+                            {
+                                    "en": "Valley of the Kings",
+                                    "es": "Valley of the Kings",
+                                    "de": "Valley of the Kings",
+                                    "nl": "Valley of the Kings"
+                            },
+                            {
+                                    "en": "Alexandria",
+                                    "es": "Alexandria",
+                                    "de": "Alexandria",
+                                    "nl": "Alexandria"
+                            },
+                            {
+                                    "en": "Cairo",
+                                    "es": "Cairo",
+                                    "de": "Cairo",
+                                    "nl": "Cairo"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922.",
+                            "es": "Tutankhamun's tomb es in the Valley of the Kings near Luxor, descovered by Howard Carter in 1922.",
+                            "de": "Tutankhamun's tomb ist in the Valley of the Kings near Luxor, distcovered by Howard Carter in 1922.",
+                            "nl": "Tutankhamun's tomb is in the Valley of the Kings near Luxor, discovered by Howard Carter in 1922."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'pharaoh' mean?",
+                            "es": "¿Qué does 'pharaoh' mean?",
+                            "de": "Was does 'pharaoh' mean?",
+                            "nl": "Wat does 'pharaoh' mean?"
+                    },
+                    "options": [
+                            {
+                                    "en": "God-king",
+                                    "es": "God-king",
+                                    "de": "God-king",
+                                    "nl": "God-king"
+                            },
+                            {
+                                    "en": "Great house",
+                                    "es": "Great house",
+                                    "de": "Great house",
+                                    "nl": "Great house"
+                            },
+                            {
+                                    "en": "Sun ruler",
+                                    "es": "Sun ruler",
+                                    "de": "Sun ruler",
+                                    "nl": "Sun ruler"
+                            },
+                            {
+                                    "en": "River lord",
+                                    "es": "River lord",
+                                    "de": "River lord",
+                                    "nl": "River lord"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the king himself.",
+                            "es": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then the.",
+                            "de": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th...",
+                            "nl": "Pharaoh means 'great house' in ancient Egyptian, originally referring to the royal palace then th..."
+                    }
+            }
+    ]
 };

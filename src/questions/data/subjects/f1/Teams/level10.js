@@ -1,4104 +1,4108 @@
+// Teams - level10
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:19:17.573Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Teams",
-      "es": "Pregunta 1 sobre Teams",
-      "de": "Frage 1 über Teams",
-      "nl": "Vraag 1 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Teams",
-      "es": "Pregunta 2 sobre Teams",
-      "de": "Frage 2 über Teams",
-      "nl": "Vraag 2 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Teams",
-      "es": "Pregunta 3 sobre Teams",
-      "de": "Frage 3 über Teams",
-      "nl": "Vraag 3 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Teams",
-      "es": "Pregunta 4 sobre Teams",
-      "de": "Frage 4 über Teams",
-      "nl": "Vraag 4 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Teams",
-      "es": "Pregunta 5 sobre Teams",
-      "de": "Frage 5 über Teams",
-      "nl": "Vraag 5 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Teams",
-      "es": "Pregunta 6 sobre Teams",
-      "de": "Frage 6 über Teams",
-      "nl": "Vraag 6 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Teams",
-      "es": "Pregunta 7 sobre Teams",
-      "de": "Frage 7 über Teams",
-      "nl": "Vraag 7 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Teams",
-      "es": "Pregunta 8 sobre Teams",
-      "de": "Frage 8 über Teams",
-      "nl": "Vraag 8 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Teams",
-      "es": "Pregunta 9 sobre Teams",
-      "de": "Frage 9 über Teams",
-      "nl": "Vraag 9 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Teams",
-      "es": "Pregunta 10 sobre Teams",
-      "de": "Frage 10 über Teams",
-      "nl": "Vraag 10 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Teams",
-      "es": "Pregunta 11 sobre Teams",
-      "de": "Frage 11 über Teams",
-      "nl": "Vraag 11 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Teams",
-      "es": "Pregunta 12 sobre Teams",
-      "de": "Frage 12 über Teams",
-      "nl": "Vraag 12 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Teams",
-      "es": "Pregunta 13 sobre Teams",
-      "de": "Frage 13 über Teams",
-      "nl": "Vraag 13 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Teams",
-      "es": "Pregunta 14 sobre Teams",
-      "de": "Frage 14 über Teams",
-      "nl": "Vraag 14 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Teams",
-      "es": "Pregunta 15 sobre Teams",
-      "de": "Frage 15 über Teams",
-      "nl": "Vraag 15 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Teams",
-      "es": "Pregunta 16 sobre Teams",
-      "de": "Frage 16 über Teams",
-      "nl": "Vraag 16 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Teams",
-      "es": "Pregunta 17 sobre Teams",
-      "de": "Frage 17 über Teams",
-      "nl": "Vraag 17 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Teams",
-      "es": "Pregunta 18 sobre Teams",
-      "de": "Frage 18 über Teams",
-      "nl": "Vraag 18 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Teams",
-      "es": "Pregunta 19 sobre Teams",
-      "de": "Frage 19 über Teams",
-      "nl": "Vraag 19 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Teams",
-      "es": "Pregunta 20 sobre Teams",
-      "de": "Frage 20 über Teams",
-      "nl": "Vraag 20 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Teams",
-      "es": "Pregunta 21 sobre Teams",
-      "de": "Frage 21 über Teams",
-      "nl": "Vraag 21 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Teams",
-      "es": "Pregunta 22 sobre Teams",
-      "de": "Frage 22 über Teams",
-      "nl": "Vraag 22 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Teams",
-      "es": "Pregunta 23 sobre Teams",
-      "de": "Frage 23 über Teams",
-      "nl": "Vraag 23 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Teams",
-      "es": "Pregunta 24 sobre Teams",
-      "de": "Frage 24 über Teams",
-      "nl": "Vraag 24 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Teams",
-      "es": "Pregunta 25 sobre Teams",
-      "de": "Frage 25 über Teams",
-      "nl": "Vraag 25 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Teams",
-      "es": "Pregunta 26 sobre Teams",
-      "de": "Frage 26 über Teams",
-      "nl": "Vraag 26 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Teams",
-      "es": "Pregunta 27 sobre Teams",
-      "de": "Frage 27 über Teams",
-      "nl": "Vraag 27 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Teams",
-      "es": "Pregunta 28 sobre Teams",
-      "de": "Frage 28 über Teams",
-      "nl": "Vraag 28 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Teams",
-      "es": "Pregunta 29 sobre Teams",
-      "de": "Frage 29 über Teams",
-      "nl": "Vraag 29 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Teams",
-      "es": "Pregunta 30 sobre Teams",
-      "de": "Frage 30 über Teams",
-      "nl": "Vraag 30 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Teams",
-      "es": "Pregunta 31 sobre Teams",
-      "de": "Frage 31 über Teams",
-      "nl": "Vraag 31 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Teams",
-      "es": "Pregunta 32 sobre Teams",
-      "de": "Frage 32 über Teams",
-      "nl": "Vraag 32 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Teams",
-      "es": "Pregunta 33 sobre Teams",
-      "de": "Frage 33 über Teams",
-      "nl": "Vraag 33 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Teams",
-      "es": "Pregunta 34 sobre Teams",
-      "de": "Frage 34 über Teams",
-      "nl": "Vraag 34 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Teams",
-      "es": "Pregunta 35 sobre Teams",
-      "de": "Frage 35 über Teams",
-      "nl": "Vraag 35 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Teams",
-      "es": "Pregunta 36 sobre Teams",
-      "de": "Frage 36 über Teams",
-      "nl": "Vraag 36 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Teams",
-      "es": "Pregunta 37 sobre Teams",
-      "de": "Frage 37 über Teams",
-      "nl": "Vraag 37 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Teams",
-      "es": "Pregunta 38 sobre Teams",
-      "de": "Frage 38 über Teams",
-      "nl": "Vraag 38 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Teams",
-      "es": "Pregunta 39 sobre Teams",
-      "de": "Frage 39 über Teams",
-      "nl": "Vraag 39 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Teams",
-      "es": "Pregunta 40 sobre Teams",
-      "de": "Frage 40 über Teams",
-      "nl": "Vraag 40 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Teams",
-      "es": "Pregunta 41 sobre Teams",
-      "de": "Frage 41 über Teams",
-      "nl": "Vraag 41 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Teams",
-      "es": "Pregunta 42 sobre Teams",
-      "de": "Frage 42 über Teams",
-      "nl": "Vraag 42 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Teams",
-      "es": "Pregunta 43 sobre Teams",
-      "de": "Frage 43 über Teams",
-      "nl": "Vraag 43 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Teams",
-      "es": "Pregunta 44 sobre Teams",
-      "de": "Frage 44 über Teams",
-      "nl": "Vraag 44 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Teams",
-      "es": "Pregunta 45 sobre Teams",
-      "de": "Frage 45 über Teams",
-      "nl": "Vraag 45 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Teams",
-      "es": "Pregunta 46 sobre Teams",
-      "de": "Frage 46 über Teams",
-      "nl": "Vraag 46 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Teams",
-      "es": "Pregunta 47 sobre Teams",
-      "de": "Frage 47 über Teams",
-      "nl": "Vraag 47 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Teams",
-      "es": "Pregunta 48 sobre Teams",
-      "de": "Frage 48 über Teams",
-      "nl": "Vraag 48 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Teams",
-      "es": "Pregunta 49 sobre Teams",
-      "de": "Frage 49 über Teams",
-      "nl": "Vraag 49 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Teams",
-      "es": "Pregunta 50 sobre Teams",
-      "de": "Frage 50 über Teams",
-      "nl": "Vraag 50 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Teams",
-      "es": "Pregunta 51 sobre Teams",
-      "de": "Frage 51 über Teams",
-      "nl": "Vraag 51 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Teams",
-      "es": "Pregunta 52 sobre Teams",
-      "de": "Frage 52 über Teams",
-      "nl": "Vraag 52 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Teams",
-      "es": "Pregunta 53 sobre Teams",
-      "de": "Frage 53 über Teams",
-      "nl": "Vraag 53 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Teams",
-      "es": "Pregunta 54 sobre Teams",
-      "de": "Frage 54 über Teams",
-      "nl": "Vraag 54 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Teams",
-      "es": "Pregunta 55 sobre Teams",
-      "de": "Frage 55 über Teams",
-      "nl": "Vraag 55 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Teams",
-      "es": "Pregunta 56 sobre Teams",
-      "de": "Frage 56 über Teams",
-      "nl": "Vraag 56 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Teams",
-      "es": "Pregunta 57 sobre Teams",
-      "de": "Frage 57 über Teams",
-      "nl": "Vraag 57 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Teams",
-      "es": "Pregunta 58 sobre Teams",
-      "de": "Frage 58 über Teams",
-      "nl": "Vraag 58 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Teams",
-      "es": "Pregunta 59 sobre Teams",
-      "de": "Frage 59 über Teams",
-      "nl": "Vraag 59 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Teams",
-      "es": "Pregunta 60 sobre Teams",
-      "de": "Frage 60 über Teams",
-      "nl": "Vraag 60 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Teams",
-      "es": "Pregunta 61 sobre Teams",
-      "de": "Frage 61 über Teams",
-      "nl": "Vraag 61 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Teams",
-      "es": "Pregunta 62 sobre Teams",
-      "de": "Frage 62 über Teams",
-      "nl": "Vraag 62 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Teams",
-      "es": "Pregunta 63 sobre Teams",
-      "de": "Frage 63 über Teams",
-      "nl": "Vraag 63 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Teams",
-      "es": "Pregunta 64 sobre Teams",
-      "de": "Frage 64 über Teams",
-      "nl": "Vraag 64 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Teams",
-      "es": "Pregunta 65 sobre Teams",
-      "de": "Frage 65 über Teams",
-      "nl": "Vraag 65 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Teams",
-      "es": "Pregunta 66 sobre Teams",
-      "de": "Frage 66 über Teams",
-      "nl": "Vraag 66 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Teams",
-      "es": "Pregunta 67 sobre Teams",
-      "de": "Frage 67 über Teams",
-      "nl": "Vraag 67 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Teams",
-      "es": "Pregunta 68 sobre Teams",
-      "de": "Frage 68 über Teams",
-      "nl": "Vraag 68 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Teams",
-      "es": "Pregunta 69 sobre Teams",
-      "de": "Frage 69 über Teams",
-      "nl": "Vraag 69 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Teams",
-      "es": "Pregunta 70 sobre Teams",
-      "de": "Frage 70 über Teams",
-      "nl": "Vraag 70 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Teams",
-      "es": "Pregunta 71 sobre Teams",
-      "de": "Frage 71 über Teams",
-      "nl": "Vraag 71 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Teams",
-      "es": "Pregunta 72 sobre Teams",
-      "de": "Frage 72 über Teams",
-      "nl": "Vraag 72 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Teams",
-      "es": "Pregunta 73 sobre Teams",
-      "de": "Frage 73 über Teams",
-      "nl": "Vraag 73 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Teams",
-      "es": "Pregunta 74 sobre Teams",
-      "de": "Frage 74 über Teams",
-      "nl": "Vraag 74 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Teams",
-      "es": "Pregunta 75 sobre Teams",
-      "de": "Frage 75 über Teams",
-      "nl": "Vraag 75 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Teams",
-      "es": "Pregunta 76 sobre Teams",
-      "de": "Frage 76 über Teams",
-      "nl": "Vraag 76 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Teams",
-      "es": "Pregunta 77 sobre Teams",
-      "de": "Frage 77 über Teams",
-      "nl": "Vraag 77 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Teams",
-      "es": "Pregunta 78 sobre Teams",
-      "de": "Frage 78 über Teams",
-      "nl": "Vraag 78 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Teams",
-      "es": "Pregunta 79 sobre Teams",
-      "de": "Frage 79 über Teams",
-      "nl": "Vraag 79 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Teams",
-      "es": "Pregunta 80 sobre Teams",
-      "de": "Frage 80 über Teams",
-      "nl": "Vraag 80 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Teams",
-      "es": "Pregunta 81 sobre Teams",
-      "de": "Frage 81 über Teams",
-      "nl": "Vraag 81 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Teams",
-      "es": "Pregunta 82 sobre Teams",
-      "de": "Frage 82 über Teams",
-      "nl": "Vraag 82 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Teams",
-      "es": "Pregunta 83 sobre Teams",
-      "de": "Frage 83 über Teams",
-      "nl": "Vraag 83 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Teams",
-      "es": "Pregunta 84 sobre Teams",
-      "de": "Frage 84 über Teams",
-      "nl": "Vraag 84 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Teams",
-      "es": "Pregunta 85 sobre Teams",
-      "de": "Frage 85 über Teams",
-      "nl": "Vraag 85 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Teams",
-      "es": "Pregunta 86 sobre Teams",
-      "de": "Frage 86 über Teams",
-      "nl": "Vraag 86 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Teams",
-      "es": "Pregunta 87 sobre Teams",
-      "de": "Frage 87 über Teams",
-      "nl": "Vraag 87 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Teams",
-      "es": "Pregunta 88 sobre Teams",
-      "de": "Frage 88 über Teams",
-      "nl": "Vraag 88 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Teams",
-      "es": "Pregunta 89 sobre Teams",
-      "de": "Frage 89 über Teams",
-      "nl": "Vraag 89 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Teams",
-      "es": "Pregunta 90 sobre Teams",
-      "de": "Frage 90 über Teams",
-      "nl": "Vraag 90 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Teams",
-      "es": "Pregunta 91 sobre Teams",
-      "de": "Frage 91 über Teams",
-      "nl": "Vraag 91 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Teams",
-      "es": "Pregunta 92 sobre Teams",
-      "de": "Frage 92 über Teams",
-      "nl": "Vraag 92 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Teams",
-      "es": "Pregunta 93 sobre Teams",
-      "de": "Frage 93 über Teams",
-      "nl": "Vraag 93 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Teams",
-      "es": "Pregunta 94 sobre Teams",
-      "de": "Frage 94 über Teams",
-      "nl": "Vraag 94 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Teams",
-      "es": "Pregunta 95 sobre Teams",
-      "de": "Frage 95 über Teams",
-      "nl": "Vraag 95 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Teams",
-      "es": "Pregunta 96 sobre Teams",
-      "de": "Frage 96 über Teams",
-      "nl": "Vraag 96 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Teams",
-      "es": "Pregunta 97 sobre Teams",
-      "de": "Frage 97 über Teams",
-      "nl": "Vraag 97 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Teams",
-      "es": "Pregunta 98 sobre Teams",
-      "de": "Frage 98 über Teams",
-      "nl": "Vraag 98 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Teams",
-      "es": "Pregunta 99 sobre Teams",
-      "de": "Frage 99 über Teams",
-      "nl": "Vraag 99 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Teams",
-      "es": "Pregunta 100 sobre Teams",
-      "de": "Frage 100 über Teams",
-      "nl": "Vraag 100 over Teams"
-    },
-    "options": [
-      {
-        "en": "Answer A for Teams",
-        "es": "Respuesta A para Teams",
-        "de": "Antwort A für Teams",
-        "nl": "Antwoord A voor Teams"
-      },
-      {
-        "en": "Answer B for Teams",
-        "es": "Respuesta B para Teams",
-        "de": "Antwort B für Teams",
-        "nl": "Antwoord B voor Teams"
-      },
-      {
-        "en": "Answer C for Teams",
-        "es": "Respuesta C para Teams",
-        "de": "Antwort C für Teams",
-        "nl": "Antwoord C voor Teams"
-      },
-      {
-        "en": "Answer D for Teams",
-        "es": "Respuesta D para Teams",
-        "de": "Antwort D für Teams",
-        "nl": "Antwoord D voor Teams"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Teams.",
-      "es": "Esta es la respuesta correcta sobre Teams.",
-      "de": "Dies ist die richtige Antwort über Teams.",
-      "nl": "Dit is het juiste antwoord over Teams."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who has won the most F1 championships?",
+                            "es": "¿Quién has won the most F1 championships?",
+                            "de": "Wer has won the most F1 championships?",
+                            "nl": "Wie has won the most F1 championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Michael Schumacher",
+                                    "es": "Michael Schumacher",
+                                    "de": "Michael Schumacher",
+                                    "nl": "Michael Schumacher"
+                            },
+                            {
+                                    "en": "Lewis Hamilton",
+                                    "es": "Lewis Hamilton",
+                                    "de": "Lewis Hamilton",
+                                    "nl": "Lewis Hamilton"
+                            },
+                            {
+                                    "en": "Both tied at 7",
+                                    "es": "Both tied at 7",
+                                    "de": "Both tied at 7",
+                                    "nl": "Both tied at 7"
+                            },
+                            {
+                                    "en": "Ayrton Senna",
+                                    "es": "Ayrton Senna",
+                                    "de": "Ayrton Senna",
+                                    "nl": "Ayrton Senna"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "Lewis Hamilton and Michael Schumacher are tied with 7 World Championships each, the most in F1 history.",
+                            "es": "Lewes Hamilton and Michael Schumacher son tied with 7 World Championships each, the most in F1 hest.",
+                            "de": "Lewist Hamilton and Michael Schumacher sind tied with 7 World Championships each, the most in F1 ...",
+                            "nl": "Lewis Hamilton and Michael Schumacher zijn tied with 7 World Championships each, the most in F1 h..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which team has won the most constructors' championships?",
+                            "es": "¿Cuál team has won the most constructors' championships?",
+                            "de": "Welche team has won the most constructors' championships?",
+                            "nl": "Welke team has won the most constructors' championships?"
+                    },
+                    "options": [
+                            {
+                                    "en": "McLaren",
+                                    "es": "McLaren",
+                                    "de": "McLaren",
+                                    "nl": "McLaren"
+                            },
+                            {
+                                    "en": "Ferrari",
+                                    "es": "Ferrari",
+                                    "de": "Ferrari",
+                                    "nl": "Ferrari"
+                            },
+                            {
+                                    "en": "Mercedes",
+                                    "es": "Mercedes",
+                                    "de": "Mercedes",
+                                    "nl": "Mercedes"
+                            },
+                            {
+                                    "en": "Red Bull",
+                                    "es": "Red Bull",
+                                    "de": "Red Bull",
+                                    "nl": "Red Bull"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history.",
+                            "es": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 hestory.",
+                            "de": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 histtory.",
+                            "nl": "Ferrari has won 16 Constructors' Championships, the most of any team in Formula 1 history."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does DRS stand for?",
+                            "es": "¿Qué does DRS stand for?",
+                            "de": "Was does DRS stand for?",
+                            "nl": "Wat does DRS stand for?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Drive Recovery System",
+                                    "es": "Drive Recovery System",
+                                    "de": "Drive Recovery System",
+                                    "nl": "Drive Recovery System"
+                            },
+                            {
+                                    "en": "Drag Reduction System",
+                                    "es": "Drag Reduction System",
+                                    "de": "Drag Reduction System",
+                                    "nl": "Drag Reduction System"
+                            },
+                            {
+                                    "en": "Dynamic Racing System",
+                                    "es": "Dynamic Racing System",
+                                    "de": "Dynamic Racing System",
+                                    "nl": "Dynamic Racing System"
+                            },
+                            {
+                                    "en": "Direct Response System",
+                                    "es": "Direct Response System",
+                                    "de": "Direct Response System",
+                                    "nl": "Direct Response System"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and increase speed.",
+                            "es": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and i.",
+                            "de": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and...",
+                            "nl": "DRS stands for Drag Reduction System, allowing drivers to open their rear wing to reduce drag and..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which circuit hosts the Monaco Grand Prix?",
+                            "es": "¿Cuál circuit hosts the Monaco Grand Prix?",
+                            "de": "Welche circuit hosts the Monaco Grand Prix?",
+                            "nl": "Welke circuit hosts the Monaco Grand Prix?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Monza",
+                                    "es": "Monza",
+                                    "de": "Monza",
+                                    "nl": "Monza"
+                            },
+                            {
+                                    "en": "Circuit de Monaco",
+                                    "es": "Circuit de Monaco",
+                                    "de": "Circuit de Monaco",
+                                    "nl": "Circuit de Monaco"
+                            },
+                            {
+                                    "en": "Silverstone",
+                                    "es": "Silverstone",
+                                    "de": "Silverstone",
+                                    "nl": "Silverstone"
+                            },
+                            {
+                                    "en": "Spa-Francorchamps",
+                                    "es": "Spa-Francorchamps",
+                                    "de": "Spa-Francorchamps",
+                                    "nl": "Spa-Francorchamps"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "es": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "de": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets.",
+                            "nl": "Circuit de Monaco in Monte Carlo hosts the prestigious Monaco Grand Prix through the city streets."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What fuel do F1 cars use?",
+                            "es": "¿Qué fuel do F1 cars use?",
+                            "de": "Was fuel do F1 cars use?",
+                            "nl": "Wat fuel do F1 cars use?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Regular gasoline",
+                                    "es": "Regular gasoline",
+                                    "de": "Regular gasoline",
+                                    "nl": "Regular gasoline"
+                            },
+                            {
+                                    "en": "E10 fuel",
+                                    "es": "E10 fuel",
+                                    "de": "E10 fuel",
+                                    "nl": "E10 fuel"
+                            },
+                            {
+                                    "en": "Diesel",
+                                    "es": "Diesel",
+                                    "de": "Diesel",
+                                    "nl": "Diesel"
+                            },
+                            {
+                                    "en": "Jet fuel",
+                                    "es": "Jet fuel",
+                                    "de": "Jet fuel",
+                                    "nl": "Jet fuel"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specifications.",
+                            "es": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specification.",
+                            "de": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati...",
+                            "nl": "F1 cars use E10 fuel, which contains 10% sustainable ethanol and must meet strict FIA specificati..."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How many wheels does an F1 pit crew change?",
+                            "es": "¿Cómo many wheels does an F1 pit crew change?",
+                            "de": "Wie many wheels does an F1 pit crew change?",
+                            "nl": "Hoe many wheels does an F1 pit crew change?"
+                    },
+                    "options": [
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            },
+                            {
+                                    "en": "6",
+                                    "es": "6",
+                                    "de": "6",
+                                    "nl": "6"
+                            },
+                            {
+                                    "en": "8",
+                                    "es": "8",
+                                    "de": "8",
+                                    "nl": "8"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "es": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "de": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds.",
+                            "nl": "Pit crews change all 4 wheels during a pit stop, often completing the task in under 3 seconds."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the maximum number of drivers per team?",
+                            "es": "¿Cuál es el maximum number of drivers per team?",
+                            "de": "Was ist der maximum number of drivers per team?",
+                            "nl": "Wat is de maximum number of drivers per team?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1",
+                                    "es": "1",
+                                    "de": "1",
+                                    "nl": "1"
+                            },
+                            {
+                                    "en": "2",
+                                    "es": "2",
+                                    "de": "2",
+                                    "nl": "2"
+                            },
+                            {
+                                    "en": "3",
+                                    "es": "3",
+                                    "de": "3",
+                                    "nl": "3"
+                            },
+                            {
+                                    "en": "4",
+                                    "es": "4",
+                                    "de": "4",
+                                    "nl": "4"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "es": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "de": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers.",
+                            "nl": "Each F1 team fields 2 drivers for races, though they may have additional reserve and test drivers."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country hosts the most F1 races historically?",
+                            "es": "¿Cuál country hosts the most F1 races historically?",
+                            "de": "Welche country hosts the most F1 races historically?",
+                            "nl": "Welke country hosts the most F1 races historically?"
+                    },
+                    "options": [
+                            {
+                                    "en": "UK",
+                                    "es": "UK",
+                                    "de": "UK",
+                                    "nl": "UK"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "USA",
+                                    "es": "USA",
+                                    "de": "USA",
+                                    "nl": "USA"
+                            },
+                            {
+                                    "en": "Germany",
+                                    "es": "Alemania",
+                                    "de": "Deutschland",
+                                    "nl": "Duitsland"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "Italy has hosted the most F1 races, with the Italian Grand Prix running since 1950 at Monza.",
+                            "es": "Italy has hosted el most F1 races, with el Italian Grand Prix running since 1950 at Monza.",
+                            "de": "Italy has hosted der most F1 races, with der Italian Grand Prix running since 1950 at Monza.",
+                            "nl": "Italy has hosted de most F1 races, with de Italian Grand Prix running since 1950 at Monza."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What safety device was made mandatory in 2018?",
+                            "es": "¿Qué safety device was made mandatory in 2018?",
+                            "de": "Was safety device was made mandatory in 2018?",
+                            "nl": "Wat safety device was made mandatory in 2018?"
+                    },
+                    "options": [
+                            {
+                                    "en": "HANS device",
+                                    "es": "HANS device",
+                                    "de": "HANS device",
+                                    "nl": "HANS device"
+                            },
+                            {
+                                    "en": "Halo",
+                                    "es": "Halo",
+                                    "de": "Halo",
+                                    "nl": "Halo"
+                            },
+                            {
+                                    "en": "SAFER barrier",
+                                    "es": "SAFER barrier",
+                                    "de": "SAFER barrier",
+                                    "nl": "SAFER barrier"
+                            },
+                            {
+                                    "en": "Air bag",
+                                    "es": "Air bag",
+                                    "de": "Air bag",
+                                    "nl": "Air bag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts.",
+                            "es": "El Halo head protection device became mandatory in 2018 to protect drivers from debres and impacts.",
+                            "de": "Der Halo head protection device became mandatory in 2018 to protect drivers from debrist and impa...",
+                            "nl": "De Halo head protection device became mandatory in 2018 to protect drivers from debris and impacts."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What flag ends the race?",
+                            "es": "¿Qué flag ends the race?",
+                            "de": "Was flag ends the race?",
+                            "nl": "Wat flag ends the race?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Green flag",
+                                    "es": "Green flag",
+                                    "de": "Green flag",
+                                    "nl": "Green flag"
+                            },
+                            {
+                                    "en": "Checkered flag",
+                                    "es": "Checkered flag",
+                                    "de": "Checkered flag",
+                                    "nl": "Checkered flag"
+                            },
+                            {
+                                    "en": "Red flag",
+                                    "es": "Red flag",
+                                    "de": "Red flag",
+                                    "nl": "Red flag"
+                            },
+                            {
+                                    "en": "Yellow flag",
+                                    "es": "Yellow flag",
+                                    "de": "Yellow flag",
+                                    "nl": "Yellow flag"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "The checkered (chequered) flag signals the end of the race when waved at the finish line.",
+                            "es": "El checkered (chequered) flag signals the end of the race when waved at the finesh line.",
+                            "de": "Der checkered (chequered) flag signals the end of the race when waved at the finisth line.",
+                            "nl": "De checkered (chequered) flag signals the end of the race when waved at the finish line."
+                    }
+            }
+    ]
 };

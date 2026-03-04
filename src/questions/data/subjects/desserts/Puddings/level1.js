@@ -1,4104 +1,4108 @@
+// Puddings - level1
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:50.895Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "Question 1 about Puddings",
-      "es": "Pregunta 1 sobre Puddings",
-      "de": "Frage 1 über Puddings",
-      "nl": "Vraag 1 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 2 about Puddings",
-      "es": "Pregunta 2 sobre Puddings",
-      "de": "Frage 2 über Puddings",
-      "nl": "Vraag 2 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 3 about Puddings",
-      "es": "Pregunta 3 sobre Puddings",
-      "de": "Frage 3 über Puddings",
-      "nl": "Vraag 3 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 4 about Puddings",
-      "es": "Pregunta 4 sobre Puddings",
-      "de": "Frage 4 über Puddings",
-      "nl": "Vraag 4 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 5 about Puddings",
-      "es": "Pregunta 5 sobre Puddings",
-      "de": "Frage 5 über Puddings",
-      "nl": "Vraag 5 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 6 about Puddings",
-      "es": "Pregunta 6 sobre Puddings",
-      "de": "Frage 6 über Puddings",
-      "nl": "Vraag 6 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 7 about Puddings",
-      "es": "Pregunta 7 sobre Puddings",
-      "de": "Frage 7 über Puddings",
-      "nl": "Vraag 7 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 8 about Puddings",
-      "es": "Pregunta 8 sobre Puddings",
-      "de": "Frage 8 über Puddings",
-      "nl": "Vraag 8 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 9 about Puddings",
-      "es": "Pregunta 9 sobre Puddings",
-      "de": "Frage 9 über Puddings",
-      "nl": "Vraag 9 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 10 about Puddings",
-      "es": "Pregunta 10 sobre Puddings",
-      "de": "Frage 10 über Puddings",
-      "nl": "Vraag 10 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 11 about Puddings",
-      "es": "Pregunta 11 sobre Puddings",
-      "de": "Frage 11 über Puddings",
-      "nl": "Vraag 11 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 12 about Puddings",
-      "es": "Pregunta 12 sobre Puddings",
-      "de": "Frage 12 über Puddings",
-      "nl": "Vraag 12 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 13 about Puddings",
-      "es": "Pregunta 13 sobre Puddings",
-      "de": "Frage 13 über Puddings",
-      "nl": "Vraag 13 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 14 about Puddings",
-      "es": "Pregunta 14 sobre Puddings",
-      "de": "Frage 14 über Puddings",
-      "nl": "Vraag 14 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 15 about Puddings",
-      "es": "Pregunta 15 sobre Puddings",
-      "de": "Frage 15 über Puddings",
-      "nl": "Vraag 15 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 16 about Puddings",
-      "es": "Pregunta 16 sobre Puddings",
-      "de": "Frage 16 über Puddings",
-      "nl": "Vraag 16 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 17 about Puddings",
-      "es": "Pregunta 17 sobre Puddings",
-      "de": "Frage 17 über Puddings",
-      "nl": "Vraag 17 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 18 about Puddings",
-      "es": "Pregunta 18 sobre Puddings",
-      "de": "Frage 18 über Puddings",
-      "nl": "Vraag 18 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 19 about Puddings",
-      "es": "Pregunta 19 sobre Puddings",
-      "de": "Frage 19 über Puddings",
-      "nl": "Vraag 19 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 20 about Puddings",
-      "es": "Pregunta 20 sobre Puddings",
-      "de": "Frage 20 über Puddings",
-      "nl": "Vraag 20 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 21 about Puddings",
-      "es": "Pregunta 21 sobre Puddings",
-      "de": "Frage 21 über Puddings",
-      "nl": "Vraag 21 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 22 about Puddings",
-      "es": "Pregunta 22 sobre Puddings",
-      "de": "Frage 22 über Puddings",
-      "nl": "Vraag 22 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 23 about Puddings",
-      "es": "Pregunta 23 sobre Puddings",
-      "de": "Frage 23 über Puddings",
-      "nl": "Vraag 23 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 24 about Puddings",
-      "es": "Pregunta 24 sobre Puddings",
-      "de": "Frage 24 über Puddings",
-      "nl": "Vraag 24 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 25 about Puddings",
-      "es": "Pregunta 25 sobre Puddings",
-      "de": "Frage 25 über Puddings",
-      "nl": "Vraag 25 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 26 about Puddings",
-      "es": "Pregunta 26 sobre Puddings",
-      "de": "Frage 26 über Puddings",
-      "nl": "Vraag 26 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 27 about Puddings",
-      "es": "Pregunta 27 sobre Puddings",
-      "de": "Frage 27 über Puddings",
-      "nl": "Vraag 27 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 28 about Puddings",
-      "es": "Pregunta 28 sobre Puddings",
-      "de": "Frage 28 über Puddings",
-      "nl": "Vraag 28 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 29 about Puddings",
-      "es": "Pregunta 29 sobre Puddings",
-      "de": "Frage 29 über Puddings",
-      "nl": "Vraag 29 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 30 about Puddings",
-      "es": "Pregunta 30 sobre Puddings",
-      "de": "Frage 30 über Puddings",
-      "nl": "Vraag 30 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 31 about Puddings",
-      "es": "Pregunta 31 sobre Puddings",
-      "de": "Frage 31 über Puddings",
-      "nl": "Vraag 31 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 32 about Puddings",
-      "es": "Pregunta 32 sobre Puddings",
-      "de": "Frage 32 über Puddings",
-      "nl": "Vraag 32 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 33 about Puddings",
-      "es": "Pregunta 33 sobre Puddings",
-      "de": "Frage 33 über Puddings",
-      "nl": "Vraag 33 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 34 about Puddings",
-      "es": "Pregunta 34 sobre Puddings",
-      "de": "Frage 34 über Puddings",
-      "nl": "Vraag 34 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 35 about Puddings",
-      "es": "Pregunta 35 sobre Puddings",
-      "de": "Frage 35 über Puddings",
-      "nl": "Vraag 35 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 36 about Puddings",
-      "es": "Pregunta 36 sobre Puddings",
-      "de": "Frage 36 über Puddings",
-      "nl": "Vraag 36 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 37 about Puddings",
-      "es": "Pregunta 37 sobre Puddings",
-      "de": "Frage 37 über Puddings",
-      "nl": "Vraag 37 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 38 about Puddings",
-      "es": "Pregunta 38 sobre Puddings",
-      "de": "Frage 38 über Puddings",
-      "nl": "Vraag 38 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 39 about Puddings",
-      "es": "Pregunta 39 sobre Puddings",
-      "de": "Frage 39 über Puddings",
-      "nl": "Vraag 39 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 40 about Puddings",
-      "es": "Pregunta 40 sobre Puddings",
-      "de": "Frage 40 über Puddings",
-      "nl": "Vraag 40 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 41 about Puddings",
-      "es": "Pregunta 41 sobre Puddings",
-      "de": "Frage 41 über Puddings",
-      "nl": "Vraag 41 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 42 about Puddings",
-      "es": "Pregunta 42 sobre Puddings",
-      "de": "Frage 42 über Puddings",
-      "nl": "Vraag 42 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 43 about Puddings",
-      "es": "Pregunta 43 sobre Puddings",
-      "de": "Frage 43 über Puddings",
-      "nl": "Vraag 43 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 44 about Puddings",
-      "es": "Pregunta 44 sobre Puddings",
-      "de": "Frage 44 über Puddings",
-      "nl": "Vraag 44 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 45 about Puddings",
-      "es": "Pregunta 45 sobre Puddings",
-      "de": "Frage 45 über Puddings",
-      "nl": "Vraag 45 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 46 about Puddings",
-      "es": "Pregunta 46 sobre Puddings",
-      "de": "Frage 46 über Puddings",
-      "nl": "Vraag 46 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 47 about Puddings",
-      "es": "Pregunta 47 sobre Puddings",
-      "de": "Frage 47 über Puddings",
-      "nl": "Vraag 47 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 48 about Puddings",
-      "es": "Pregunta 48 sobre Puddings",
-      "de": "Frage 48 über Puddings",
-      "nl": "Vraag 48 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 49 about Puddings",
-      "es": "Pregunta 49 sobre Puddings",
-      "de": "Frage 49 über Puddings",
-      "nl": "Vraag 49 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 50 about Puddings",
-      "es": "Pregunta 50 sobre Puddings",
-      "de": "Frage 50 über Puddings",
-      "nl": "Vraag 50 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 51 about Puddings",
-      "es": "Pregunta 51 sobre Puddings",
-      "de": "Frage 51 über Puddings",
-      "nl": "Vraag 51 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 52 about Puddings",
-      "es": "Pregunta 52 sobre Puddings",
-      "de": "Frage 52 über Puddings",
-      "nl": "Vraag 52 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 53 about Puddings",
-      "es": "Pregunta 53 sobre Puddings",
-      "de": "Frage 53 über Puddings",
-      "nl": "Vraag 53 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 54 about Puddings",
-      "es": "Pregunta 54 sobre Puddings",
-      "de": "Frage 54 über Puddings",
-      "nl": "Vraag 54 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 55 about Puddings",
-      "es": "Pregunta 55 sobre Puddings",
-      "de": "Frage 55 über Puddings",
-      "nl": "Vraag 55 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 56 about Puddings",
-      "es": "Pregunta 56 sobre Puddings",
-      "de": "Frage 56 über Puddings",
-      "nl": "Vraag 56 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 57 about Puddings",
-      "es": "Pregunta 57 sobre Puddings",
-      "de": "Frage 57 über Puddings",
-      "nl": "Vraag 57 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 58 about Puddings",
-      "es": "Pregunta 58 sobre Puddings",
-      "de": "Frage 58 über Puddings",
-      "nl": "Vraag 58 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 59 about Puddings",
-      "es": "Pregunta 59 sobre Puddings",
-      "de": "Frage 59 über Puddings",
-      "nl": "Vraag 59 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 60 about Puddings",
-      "es": "Pregunta 60 sobre Puddings",
-      "de": "Frage 60 über Puddings",
-      "nl": "Vraag 60 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 61 about Puddings",
-      "es": "Pregunta 61 sobre Puddings",
-      "de": "Frage 61 über Puddings",
-      "nl": "Vraag 61 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 62 about Puddings",
-      "es": "Pregunta 62 sobre Puddings",
-      "de": "Frage 62 über Puddings",
-      "nl": "Vraag 62 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 63 about Puddings",
-      "es": "Pregunta 63 sobre Puddings",
-      "de": "Frage 63 über Puddings",
-      "nl": "Vraag 63 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 64 about Puddings",
-      "es": "Pregunta 64 sobre Puddings",
-      "de": "Frage 64 über Puddings",
-      "nl": "Vraag 64 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 65 about Puddings",
-      "es": "Pregunta 65 sobre Puddings",
-      "de": "Frage 65 über Puddings",
-      "nl": "Vraag 65 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 66 about Puddings",
-      "es": "Pregunta 66 sobre Puddings",
-      "de": "Frage 66 über Puddings",
-      "nl": "Vraag 66 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 67 about Puddings",
-      "es": "Pregunta 67 sobre Puddings",
-      "de": "Frage 67 über Puddings",
-      "nl": "Vraag 67 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 68 about Puddings",
-      "es": "Pregunta 68 sobre Puddings",
-      "de": "Frage 68 über Puddings",
-      "nl": "Vraag 68 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 69 about Puddings",
-      "es": "Pregunta 69 sobre Puddings",
-      "de": "Frage 69 über Puddings",
-      "nl": "Vraag 69 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 70 about Puddings",
-      "es": "Pregunta 70 sobre Puddings",
-      "de": "Frage 70 über Puddings",
-      "nl": "Vraag 70 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 71 about Puddings",
-      "es": "Pregunta 71 sobre Puddings",
-      "de": "Frage 71 über Puddings",
-      "nl": "Vraag 71 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 72 about Puddings",
-      "es": "Pregunta 72 sobre Puddings",
-      "de": "Frage 72 über Puddings",
-      "nl": "Vraag 72 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 73 about Puddings",
-      "es": "Pregunta 73 sobre Puddings",
-      "de": "Frage 73 über Puddings",
-      "nl": "Vraag 73 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 74 about Puddings",
-      "es": "Pregunta 74 sobre Puddings",
-      "de": "Frage 74 über Puddings",
-      "nl": "Vraag 74 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 75 about Puddings",
-      "es": "Pregunta 75 sobre Puddings",
-      "de": "Frage 75 über Puddings",
-      "nl": "Vraag 75 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 76 about Puddings",
-      "es": "Pregunta 76 sobre Puddings",
-      "de": "Frage 76 über Puddings",
-      "nl": "Vraag 76 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 77 about Puddings",
-      "es": "Pregunta 77 sobre Puddings",
-      "de": "Frage 77 über Puddings",
-      "nl": "Vraag 77 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 78 about Puddings",
-      "es": "Pregunta 78 sobre Puddings",
-      "de": "Frage 78 über Puddings",
-      "nl": "Vraag 78 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 79 about Puddings",
-      "es": "Pregunta 79 sobre Puddings",
-      "de": "Frage 79 über Puddings",
-      "nl": "Vraag 79 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 80 about Puddings",
-      "es": "Pregunta 80 sobre Puddings",
-      "de": "Frage 80 über Puddings",
-      "nl": "Vraag 80 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 81 about Puddings",
-      "es": "Pregunta 81 sobre Puddings",
-      "de": "Frage 81 über Puddings",
-      "nl": "Vraag 81 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 82 about Puddings",
-      "es": "Pregunta 82 sobre Puddings",
-      "de": "Frage 82 über Puddings",
-      "nl": "Vraag 82 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 83 about Puddings",
-      "es": "Pregunta 83 sobre Puddings",
-      "de": "Frage 83 über Puddings",
-      "nl": "Vraag 83 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 84 about Puddings",
-      "es": "Pregunta 84 sobre Puddings",
-      "de": "Frage 84 über Puddings",
-      "nl": "Vraag 84 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 85 about Puddings",
-      "es": "Pregunta 85 sobre Puddings",
-      "de": "Frage 85 über Puddings",
-      "nl": "Vraag 85 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 86 about Puddings",
-      "es": "Pregunta 86 sobre Puddings",
-      "de": "Frage 86 über Puddings",
-      "nl": "Vraag 86 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 87 about Puddings",
-      "es": "Pregunta 87 sobre Puddings",
-      "de": "Frage 87 über Puddings",
-      "nl": "Vraag 87 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 88 about Puddings",
-      "es": "Pregunta 88 sobre Puddings",
-      "de": "Frage 88 über Puddings",
-      "nl": "Vraag 88 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 89 about Puddings",
-      "es": "Pregunta 89 sobre Puddings",
-      "de": "Frage 89 über Puddings",
-      "nl": "Vraag 89 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 90 about Puddings",
-      "es": "Pregunta 90 sobre Puddings",
-      "de": "Frage 90 über Puddings",
-      "nl": "Vraag 90 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 91 about Puddings",
-      "es": "Pregunta 91 sobre Puddings",
-      "de": "Frage 91 über Puddings",
-      "nl": "Vraag 91 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 92 about Puddings",
-      "es": "Pregunta 92 sobre Puddings",
-      "de": "Frage 92 über Puddings",
-      "nl": "Vraag 92 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 93 about Puddings",
-      "es": "Pregunta 93 sobre Puddings",
-      "de": "Frage 93 über Puddings",
-      "nl": "Vraag 93 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 94 about Puddings",
-      "es": "Pregunta 94 sobre Puddings",
-      "de": "Frage 94 über Puddings",
-      "nl": "Vraag 94 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 95 about Puddings",
-      "es": "Pregunta 95 sobre Puddings",
-      "de": "Frage 95 über Puddings",
-      "nl": "Vraag 95 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 96 about Puddings",
-      "es": "Pregunta 96 sobre Puddings",
-      "de": "Frage 96 über Puddings",
-      "nl": "Vraag 96 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 97 about Puddings",
-      "es": "Pregunta 97 sobre Puddings",
-      "de": "Frage 97 über Puddings",
-      "nl": "Vraag 97 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 98 about Puddings",
-      "es": "Pregunta 98 sobre Puddings",
-      "de": "Frage 98 über Puddings",
-      "nl": "Vraag 98 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 99 about Puddings",
-      "es": "Pregunta 99 sobre Puddings",
-      "de": "Frage 99 über Puddings",
-      "nl": "Vraag 99 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  },
-  {
-    "question": {
-      "en": "Question 100 about Puddings",
-      "es": "Pregunta 100 sobre Puddings",
-      "de": "Frage 100 über Puddings",
-      "nl": "Vraag 100 over Puddings"
-    },
-    "options": [
-      {
-        "en": "Answer A for Puddings",
-        "es": "Respuesta A para Puddings",
-        "de": "Antwort A für Puddings",
-        "nl": "Antwoord A voor Puddings"
-      },
-      {
-        "en": "Answer B for Puddings",
-        "es": "Respuesta B para Puddings",
-        "de": "Antwort B für Puddings",
-        "nl": "Antwoord B voor Puddings"
-      },
-      {
-        "en": "Answer C for Puddings",
-        "es": "Respuesta C para Puddings",
-        "de": "Antwort C für Puddings",
-        "nl": "Antwoord C voor Puddings"
-      },
-      {
-        "en": "Answer D for Puddings",
-        "es": "Respuesta D para Puddings",
-        "de": "Antwort D für Puddings",
-        "nl": "Antwoord D voor Puddings"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This is the correct answer about Puddings.",
-      "es": "Esta es la respuesta correcta sobre Puddings.",
-      "de": "Dies ist die richtige Antwort über Puddings.",
-      "nl": "Dit is het juiste antwoord over Puddings."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "What is the main ingredient in rice pudding?",
+                            "es": "¿Cuál es el ingrediente principal del arroz con leche?",
+                            "de": "Was ist die Hauptzutat im Milchreis?",
+                            "nl": "Wat is het hoofdingrediënt in rijstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Rice",
+                                    "es": "Arroz",
+                                    "de": "Reis",
+                                    "nl": "Rijst"
+                            },
+                            {
+                                    "en": "Wheat",
+                                    "es": "Trigo",
+                                    "de": "Weizen",
+                                    "nl": "Tarwe"
+                            },
+                            {
+                                    "en": "Oats",
+                                    "es": "Avena",
+                                    "de": "Hafer",
+                                    "nl": "Haver"
+                            },
+                            {
+                                    "en": "Barley",
+                                    "es": "Cebada",
+                                    "de": "Gerste",
+                                    "nl": "Gerst"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Rice pudding is made by cooking rice in milk with sugar. It's a popular dessert in many cultures worldwide.",
+                            "es": "El arroz con leche se hace cocinando arroz en leche con azúcar. Es un postre popular en muchas culturas.",
+                            "de": "Milchreis wird durch Kochen von Reis in Milch mit Zucker hergestellt. Es ist ein beliebtes Dessert weltweit.",
+                            "nl": "Rijstpudding wordt gemaakt door rijst in melk met suiker te koken. Het is een populair dessert wereldwijd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country is famous for Christmas pudding?",
+                            "es": "¿De qué país es famoso por el pudín de Navidad?",
+                            "de": "Welches Land ist berühmt für Weihnachtspudding?",
+                            "nl": "Welk land is beroemd om kerstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "United Kingdom",
+                                    "es": "Reino Unido",
+                                    "de": "Vereinigtes Königreich",
+                                    "nl": "Verenigd Koninkrijk"
+                            },
+                            {
+                                    "en": "France",
+                                    "es": "Francia",
+                                    "de": "Frankreich",
+                                    "nl": "Frankrijk"
+                            },
+                            {
+                                    "en": "Italy",
+                                    "es": "Italia",
+                                    "de": "Italien",
+                                    "nl": "Italië"
+                            },
+                            {
+                                    "en": "Spain",
+                                    "es": "España",
+                                    "de": "Spanien",
+                                    "nl": "Spanje"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Christmas pudding is a traditional British dessert, typically served during the Christmas season with brandy sauce.",
+                            "es": "El pudín de Navidad es un postre británico tradicional, servido durante la temporada navideña con salsa de brandy.",
+                            "de": "Christmas Pudding ist ein traditionelles britisches Dessert, das während der Weihnachtszeit mit Brandy-Sauce serviert wird.",
+                            "nl": "Kerstpudding is een traditioneel Brits dessert, meestal geserveerd tijdens het kerstseizoen met brandysaus."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is Yorkshire pudding traditionally served with?",
+                            "es": "¿Con qué se sirve tradicionalmente el Yorkshire pudding?",
+                            "de": "Womit wird Yorkshire Pudding traditionell serviert?",
+                            "nl": "Waarmee wordt Yorkshire pudding traditioneel geserveerd?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Roast beef",
+                                    "es": "Rosbif",
+                                    "de": "Roastbeef",
+                                    "nl": "Rosbief"
+                            },
+                            {
+                                    "en": "Fish",
+                                    "es": "Pescado",
+                                    "de": "Fisch",
+                                    "nl": "Vis"
+                            },
+                            {
+                                    "en": "Pasta",
+                                    "es": "Pasta",
+                                    "de": "Nudeln",
+                                    "nl": "Pasta"
+                            },
+                            {
+                                    "en": "Salad",
+                                    "es": "Ensalada",
+                                    "de": "Salat",
+                                    "nl": "Salade"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Yorkshire pudding is a savory British side dish traditionally served with roast beef and gravy on Sundays.",
+                            "es": "El Yorkshire pudding es un acompañamiento británico servido con rosbif y salsa los domingos.",
+                            "de": "Yorkshire Pudding ist eine herzhafte britische Beilage, die traditionell mit Roastbeef und Bratensoße serviert wird.",
+                            "nl": "Yorkshire pudding is een hartig Brits bijgerecht dat traditioneel met rosbief en jus wordt geserveerd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What gives tapioca pudding its distinctive texture?",
+                            "es": "¿Qué le da al pudín de tapioca su textura distintiva?",
+                            "de": "Was gibt Tapioka-Pudding seine charakteristische Textur?",
+                            "nl": "Wat geeft tapiocapudding zijn kenmerkende textuur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Tapioca pearls",
+                                    "es": "Perlas de tapioca",
+                                    "de": "Tapioka-Perlen",
+                                    "nl": "Tapiocaparels"
+                            },
+                            {
+                                    "en": "Gelatin",
+                                    "es": "Gelatina",
+                                    "de": "Gelatine",
+                                    "nl": "Gelatine"
+                            },
+                            {
+                                    "en": "Cornstarch",
+                                    "es": "Maicena",
+                                    "de": "Maisstärke",
+                                    "nl": "Maïzena"
+                            },
+                            {
+                                    "en": "Eggs",
+                                    "es": "Huevos",
+                                    "de": "Eier",
+                                    "nl": "Eieren"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tapioca pudding contains small pearls made from cassava starch that create a unique chewy texture when cooked.",
+                            "es": "El pudín de tapioca contiene pequeñas perlas de almidón de yuca que crean una textura masticable única.",
+                            "de": "Tapioka-Pudding enthält kleine Perlen aus Maniokstärke, die beim Kochen eine einzigartige Textur erzeugen.",
+                            "nl": "Tapiocapudding bevat kleine parels van cassavestijfsel die een unieke chewy textuur creëren."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which pudding is made with stale bread?",
+                            "es": "¿Qué pudín se hace con pan duro?",
+                            "de": "Welcher Pudding wird mit altem Brot gemacht?",
+                            "nl": "Welke pudding wordt gemaakt met oud brood?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Bread pudding",
+                                    "es": "Pudín de pan",
+                                    "de": "Brotpudding",
+                                    "nl": "Broodpudding"
+                            },
+                            {
+                                    "en": "Rice pudding",
+                                    "es": "Arroz con leche",
+                                    "de": "Milchreis",
+                                    "nl": "Rijstpudding"
+                            },
+                            {
+                                    "en": "Tapioca pudding",
+                                    "es": "Pudín de tapioca",
+                                    "de": "Tapioka-Pudding",
+                                    "nl": "Tapiocapudding"
+                            },
+                            {
+                                    "en": "Custard",
+                                    "es": "Natillas",
+                                    "de": "Vanillepudding",
+                                    "nl": "Vla"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bread pudding is a traditional way to use leftover bread, soaked in milk and eggs, then baked with sugar and spices.",
+                            "es": "El pudín de pan es una forma tradicional de usar pan sobrante, remojado en leche y huevos, luego horneado con azúcar.",
+                            "de": "Brotpudding ist eine traditionelle Art, übrig gebliebenes Brot zu verwenden, eingeweicht in Milch und Eiern.",
+                            "nl": "Broodpudding is een traditionele manier om oud brood te gebruiken, geweekt in melk en eieren, dan gebakken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What type of milk is traditionally used in rice pudding?",
+                            "es": "¿Qué tipo de leche se usa tradicionalmente en el arroz con leche?",
+                            "de": "Welche Art von Milch wird traditionell im Milchreis verwendet?",
+                            "nl": "Welk type melk wordt traditioneel gebruikt in rijstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Whole milk",
+                                    "es": "Leche entera",
+                                    "de": "Vollmilch",
+                                    "nl": "Volle melk"
+                            },
+                            {
+                                    "en": "Soy milk",
+                                    "es": "Leche de soja",
+                                    "de": "Sojamilch",
+                                    "nl": "Sojamelk"
+                            },
+                            {
+                                    "en": "Almond milk",
+                                    "es": "Leche de almendra",
+                                    "de": "Mandelmilch",
+                                    "nl": "Amandelmelk"
+                            },
+                            {
+                                    "en": "Coconut milk",
+                                    "es": "Leche de coco",
+                                    "de": "Kokosmilch",
+                                    "nl": "Kokosmelk"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Traditional rice pudding uses whole milk for its rich, creamy texture, though modern versions may use alternatives.",
+                            "es": "El arroz con leche tradicional usa leche entera para su textura cremosa, aunque versiones modernas usan alternativas.",
+                            "de": "Traditioneller Milchreis verwendet Vollmilch für seine cremige Textur, moderne Versionen verwenden Alternativen.",
+                            "nl": "Traditionele rijstpudding gebruikt volle melk voor een rijke, romige textuur, moderne versies gebruiken alternatieven."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When is Christmas pudding traditionally eaten?",
+                            "es": "¿Cuándo se come tradicionalmente el pudín de Navidad?",
+                            "de": "Wann wird Weihnachtspudding traditionell gegessen?",
+                            "nl": "Wanneer wordt kerstpudding traditioneel gegeten?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Christmas Day",
+                                    "es": "Día de Navidad",
+                                    "de": "Weihnachtstag",
+                                    "nl": "Kerstdag"
+                            },
+                            {
+                                    "en": "Easter",
+                                    "es": "Pascua",
+                                    "de": "Ostern",
+                                    "nl": "Pasen"
+                            },
+                            {
+                                    "en": "New Year's Eve",
+                                    "es": "Nochevieja",
+                                    "de": "Silvester",
+                                    "nl": "Oudejaarsavond"
+                            },
+                            {
+                                    "en": "Halloween",
+                                    "es": "Halloween",
+                                    "de": "Halloween",
+                                    "nl": "Halloween"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Christmas pudding is a traditional British dessert served on Christmas Day, often made weeks in advance to mature.",
+                            "es": "El pudín de Navidad es un postre británico tradicional servido el día de Navidad, hecho semanas antes para madurar.",
+                            "de": "Christmas Pudding ist ein traditionelles britisches Dessert am Weihnachtstag, oft Wochen vorher zubereitet.",
+                            "nl": "Kerstpudding is een traditioneel Brits dessert dat op kerstdag wordt geserveerd, vaak weken van tevoren gemaakt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What shape is a Yorkshire pudding?",
+                            "es": "¿Qué forma tiene un Yorkshire pudding?",
+                            "de": "Welche Form hat ein Yorkshire Pudding?",
+                            "nl": "Welke vorm heeft een Yorkshire pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cup-shaped",
+                                    "es": "Forma de taza",
+                                    "de": "Tassenförmig",
+                                    "nl": "Komvormig"
+                            },
+                            {
+                                    "en": "Flat",
+                                    "es": "Plano",
+                                    "de": "Flach",
+                                    "nl": "Plat"
+                            },
+                            {
+                                    "en": "Spherical",
+                                    "es": "Esférico",
+                                    "de": "Kugelförmig",
+                                    "nl": "Bolvormig"
+                            },
+                            {
+                                    "en": "Rectangular",
+                                    "es": "Rectangular",
+                                    "de": "Rechteckig",
+                                    "nl": "Rechthoekig"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Yorkshire pudding rises during baking to form a cup or bowl shape, perfect for holding gravy.",
+                            "es": "El Yorkshire pudding sube durante el horneado para formar una taza, perfecta para contener salsa.",
+                            "de": "Yorkshire Pudding steigt beim Backen zu einer Tassen- oder Schüsselform auf, perfekt für Bratensoße.",
+                            "nl": "Yorkshire pudding rijst tijdens het bakken tot een kom- of schaalvorm, perfect voor jus."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "From which plant does tapioca come?",
+                            "es": "¿De qué planta proviene la tapioca?",
+                            "de": "Von welcher Pflanze stammt Tapioka?",
+                            "nl": "Van welke plant komt tapioca?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cassava",
+                                    "es": "Yuca",
+                                    "de": "Maniok",
+                                    "nl": "Cassave"
+                            },
+                            {
+                                    "en": "Wheat",
+                                    "es": "Trigo",
+                                    "de": "Weizen",
+                                    "nl": "Tarwe"
+                            },
+                            {
+                                    "en": "Corn",
+                                    "es": "Maíz",
+                                    "de": "Mais",
+                                    "nl": "Maïs"
+                            },
+                            {
+                                    "en": "Rice",
+                                    "es": "Arroz",
+                                    "de": "Reis",
+                                    "nl": "Rijst"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tapioca is extracted from the cassava root, a starchy tropical plant also known as manioc or yuca.",
+                            "es": "La tapioca se extrae de la raíz de yuca, una planta tropical con almidón también conocida como mandioca.",
+                            "de": "Tapioka wird aus der Maniokwurzel gewonnen, einer stärkehaltigen tropischen Pflanze.",
+                            "nl": "Tapioca wordt gewonnen uit de cassavewortel, een zetmeelrijke tropische plant ook bekend als maniok."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the British name for crème caramel?",
+                            "es": "¿Cuál es el nombre británico para la crema de caramelo?",
+                            "de": "Wie heißt Crème Caramel auf Britisch?",
+                            "nl": "Wat is de Britse naam voor crème caramel?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Crème caramel",
+                                    "es": "Crema de caramelo",
+                                    "de": "Crème Caramel",
+                                    "nl": "Crème caramel"
+                            },
+                            {
+                                    "en": "Tiramisu",
+                                    "es": "Tiramisú",
+                                    "de": "Tiramisu",
+                                    "nl": "Tiramisu"
+                            },
+                            {
+                                    "en": "Panna cotta",
+                                    "es": "Panna cotta",
+                                    "de": "Panna Cotta",
+                                    "nl": "Panna cotta"
+                            },
+                            {
+                                    "en": "Mousse",
+                                    "es": "Mousse",
+                                    "de": "Mousse",
+                                    "nl": "Mousse"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In Britain, this custard dessert with caramel sauce is also called crème caramel or sometimes flan.",
+                            "es": "En Gran Bretaña, este postre de natillas con salsa de caramelo también se llama crème caramel o flan.",
+                            "de": "in Großbritannien wird dieses Vanillepudding-Dessert mit Karamellsoße auch Crème Caramel genannt.",
+                            "nl": "in Groot-Brittannië wordt dit vla-dessert met karamelsaus ook crème caramel van soms flan genoemd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the main thickening agent in custard?",
+                            "es": "¿Cuál es el agente espesante principal en las natillas?",
+                            "de": "Was ist das Hauptverdickungsmittel in Vanillepudding?",
+                            "nl": "Wat is het belangrijkste verdikkingsmiddel in vla?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Eggs",
+                                    "es": "Huevos",
+                                    "de": "Eier",
+                                    "nl": "Eieren"
+                            },
+                            {
+                                    "en": "Flour",
+                                    "es": "Harina",
+                                    "de": "Mehl",
+                                    "nl": "Bloem"
+                            },
+                            {
+                                    "en": "Butter",
+                                    "es": "Mantequilla",
+                                    "de": "Butter",
+                                    "nl": "Boter"
+                            },
+                            {
+                                    "en": "Sugar",
+                                    "es": "Azúcar",
+                                    "de": "Zucker",
+                                    "nl": "Suiker"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Custard is thickened by eggs, which coagulate when gently heated with milk and sugar to create a smooth texture.",
+                            "es": "Las natillas se espesan con huevos, que se coagulan cuando se calientan con leche y azúcar.",
+                            "de": "Vanillepudding wird durch Eier verdickt, die beim sanften Erhitzen mit Milch und Zucker gerinnen.",
+                            "nl": "Vla wordt verdikt door eieren, die stollen wanneer ze voorzichtig worden verwarmd met melk en suiker."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which spice is commonly used in rice pudding?",
+                            "es": "¿Qué especia se usa comúnmente en el arroz con leche?",
+                            "de": "Welches Gewürz wird häufig im Milchreis verwendet?",
+                            "nl": "Welke specerij wordt vaak gebruikt in rijstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cinnamon",
+                                    "es": "Canela",
+                                    "de": "Zimt",
+                                    "nl": "Kaneel"
+                            },
+                            {
+                                    "en": "Cumin",
+                                    "es": "Comino",
+                                    "de": "Kreuzkümmel",
+                                    "nl": "Komijn"
+                            },
+                            {
+                                    "en": "Paprika",
+                                    "es": "Pimentón",
+                                    "de": "Paprika",
+                                    "nl": "Paprika"
+                            },
+                            {
+                                    "en": "Oregano",
+                                    "es": "Orégano",
+                                    "de": "Oregano",
+                                    "nl": "Oregano"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Cinnamon is a classic spice in rice pudding, adding warmth and flavor. It's often sprinkled on top or cooked in.",
+                            "es": "La canela es una especia clásica en el arroz con leche, añadiendo calor y sabor. Se espolvorea encima.",
+                            "de": "Zimt ist ein klassisches Gewürz im Milchreis, das Wärme und Geschmack verleiht. Oft oben aufgestreut.",
+                            "nl": "Kaneel is een klassieke specerij in rijstpudding, die warmte en smaak toevoegt. Vaak bovenop gestrooid."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is bread pudding also known as?",
+                            "es": "¿Cómo se conoce también el pudín de pan?",
+                            "de": "Wie wird Brotpudding auch genannt?",
+                            "nl": "Hoe wordt broodpudding ook genoemd?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Bread and butter pudding",
+                                    "es": "Pudín de pan con mantequilla",
+                                    "de": "Brot-und-Butter-Pudding",
+                                    "nl": "Brood-en-boterpudding"
+                            },
+                            {
+                                    "en": "Rice crispies",
+                                    "es": "Arroz crujiente",
+                                    "de": "Reisknuspern",
+                                    "nl": "Rijstknispers"
+                            },
+                            {
+                                    "en": "Flour cake",
+                                    "es": "Pastel de harina",
+                                    "de": "Mehlkuchen",
+                                    "nl": "Meelcake"
+                            },
+                            {
+                                    "en": "Toast treat",
+                                    "es": "Golosina de tostada",
+                                    "de": "Toast-Leckerei",
+                                    "nl": "Toastlekkernij"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bread and butter pudding is a British variation using buttered bread slices layered with custard and baked.",
+                            "es": "El pudín de pan con mantequilla es una variación británica usando rebanadas de pan con mantequilla en capas.",
+                            "de": "Brot-und-Butter-Pudding ist eine britische Variante mit Butterbrot-Scheiben in Vanillepudding gebacken.",
+                            "nl": "Brood-en-boterpudding is een Britse variatie met boterhammen in lagen met vla en gebakken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es chocolate pudding primarily made?",
+                            "es": "¿De qué se hace principalmente el pudín de chocolate?",
+                            "de": "Woraus wird Schokoladenpudding hauptsächlich hergestellt?",
+                            "nl": "Waar wordt chocoladepudding voornamelijk van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cocoa powder and milk",
+                                    "es": "Cacao en polvo y leche",
+                                    "de": "Kakaopulver und Milch",
+                                    "nl": "Cacaopoeder en melk"
+                            },
+                            {
+                                    "en": "Coffee and cream",
+                                    "es": "Café y crema",
+                                    "de": "Kaffee und Sahne",
+                                    "nl": "Koffie en room"
+                            },
+                            {
+                                    "en": "Tea and honey",
+                                    "es": "Té y miel",
+                                    "de": "Tee und Honig",
+                                    "nl": "Thee en honing"
+                            },
+                            {
+                                    "en": "Fruit and yogurt",
+                                    "es": "Fruta y yogur",
+                                    "de": "Obst und Joghurt",
+                                    "nl": "Fruit en yoghurt"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chocolate pudding is made by cooking cocoa powder with milk, sugar, and a thickener like cornstarch or eggs.",
+                            "es": "El pudín de chocolate se hace cocinando cacao en polvo con leche, azúcar y un espesante como maicena.",
+                            "de": "Schokoladenpudding wird durch Kochen von Kakaopulver mit Milch, Zucker und einem Verdickungsmittel hergestellt.",
+                            "nl": "Chocoladepudding wordt gemaakt door cacaopoeder te koken met melk, suiker en een verdikkingsmiddel."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes sticky toffee pudding 'sticky'?",
+                            "es": "¿Qué hace que el pudín de caramelo pegajoso sea 'pegajoso'?",
+                            "de": "Was macht Sticky Toffee Pudding 'klebrig'?",
+                            "nl": "Wat maakt sticky toffee pudding 'plakkerig'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Toffee sauce",
+                                    "es": "Salsa de caramelo",
+                                    "de": "Toffee-Sauce",
+                                    "nl": "Toffeesaus"
+                            },
+                            {
+                                    "en": "Honey",
+                                    "es": "Miel",
+                                    "de": "Honig",
+                                    "nl": "Honing"
+                            },
+                            {
+                                    "en": "Maple syrup",
+                                    "es": "Jarabe de arce",
+                                    "de": "Ahornsirup",
+                                    "nl": "Ahornsiroop"
+                            },
+                            {
+                                    "en": "Jam",
+                                    "es": "Mermelada",
+                                    "de": "Marmelade",
+                                    "nl": "Jam"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sticky toffee pudding is covered in a rich toffee sauce made from butter, sugar, and cream, giving it its sticky texture.",
+                            "es": "El pudín de caramelo pegajoso está cubierto con salsa de caramelo hecha con mantequilla, azúcar y crema.",
+                            "de": "Sticky Toffee Pudding ist mit einer reichhaltigen Toffee-Sauce aus Butter, Zucker und Sahne überzogen.",
+                            "nl": "Sticky toffee pudding is bedekt met een rijke toffeesaus van boter, suiker en room, wat het plakkerig maakt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the base of a traditional steamed pudding?",
+                            "es": "¿Cuál es la base de un pudín al vapor tradicional?",
+                            "de": "Was ist die Basis eines traditionellen gedämpften Puddings?",
+                            "nl": "Wat is de basis van een traditionele gestoomde pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Flour and suet",
+                                    "es": "Harina y sebo",
+                                    "de": "Mehl und Talg",
+                                    "nl": "Bloem en rundervet"
+                            },
+                            {
+                                    "en": "Rice and water",
+                                    "es": "Arroz y agua",
+                                    "de": "Reis und Wasser",
+                                    "nl": "Rijst en water"
+                            },
+                            {
+                                    "en": "Oats and honey",
+                                    "es": "Avena y miel",
+                                    "de": "Hafer und Honig",
+                                    "nl": "Haver en honing"
+                            },
+                            {
+                                    "en": "Corn and oil",
+                                    "es": "Maíz y aceite",
+                                    "de": "Mais und Öl",
+                                    "nl": "Maïs en olie"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Traditional British steamed puddings use flour and suet (beef or vegetable fat) as their base, creating a rich texture.",
+                            "es": "Los pudines al vapor británicos tradicionales usan harina y sebo como base, creando una textura rica.",
+                            "de": "Traditionelle britische gedämpfte Puddings verwenden Mehl und Talg als Basis für eine reichhaltige Textur.",
+                            "nl": "Traditionele Britse gestoomde puddings gebruiken bloem en rundervet als basis, wat een rijke textuur creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which fruit is commonly used in summer pudding?",
+                            "es": "¿Qué fruta se usa comúnmente en el pudín de verano?",
+                            "de": "Welche Frucht wird häufig im Sommerpudding verwendet?",
+                            "nl": "Welk fruit wordt vaak gebruikt in zomerpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Berries",
+                                    "es": "Bayas",
+                                    "de": "Beeren",
+                                    "nl": "Bessen"
+                            },
+                            {
+                                    "en": "Apples",
+                                    "es": "Manzanas",
+                                    "de": "Äpfel",
+                                    "nl": "Appels"
+                            },
+                            {
+                                    "en": "Bananas",
+                                    "es": "Plátanos",
+                                    "de": "Bananen",
+                                    "nl": "Bananen"
+                            },
+                            {
+                                    "en": "Pineapple",
+                                    "es": "Piña",
+                                    "de": "Ananas",
+                                    "nl": "Ananas"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Summer pudding is made with mixed berries like strawberries, raspberries, and blackcurrants, set in a bread mold.",
+                            "es": "El pudín de verano se hace con bayas mixtas como fresas, frambuesas y grosellas en un molde de pan.",
+                            "de": "Sommerpudding wird mit gemischten Beeren wie Erdbeeren, Himbeeren und Johannisbeeren in einer Brotform gemacht.",
+                            "nl": "Zomerpudding wordt gemaakt met gemengde bessen zoals aardbeien, frambozen en zwarte bessen in een broodvorm."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is butterscotch pudding flavored with?",
+                            "es": "¿Con qué está aromatizado el pudín de caramelo?",
+                            "de": "Womit wird Butterscotch-Pudding gewürzt?",
+                            "nl": "Waarmee is butterscotchpudding op smaak gebracht?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Brown sugar and butter",
+                                    "es": "Azúcar moreno y mantequilla",
+                                    "de": "Brauner Zucker und Butter",
+                                    "nl": "Bruine suiker en boter"
+                            },
+                            {
+                                    "en": "White chocolate",
+                                    "es": "Chocolate blanco",
+                                    "de": "Weiße Schokolade",
+                                    "nl": "Witte chocolade"
+                            },
+                            {
+                                    "en": "Vanilla extract",
+                                    "es": "Extracto de vainilla",
+                                    "de": "Vanilleextrakt",
+                                    "nl": "Vanille-extract"
+                            },
+                            {
+                                    "en": "Lemon juice",
+                                    "es": "Jugo de limón",
+                                    "de": "Zitronensaft",
+                                    "nl": "Citroensap"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Butterscotch pudding gets its distinctive flavor from brown sugar melted with butter, creating a rich caramel taste.",
+                            "es": "El pudín de caramelo obtiene su sabor del azúcar moreno derretido con mantequilla, creando un sabor a caramelo.",
+                            "de": "Butterscotch-Pudding erhält seinen charakteristischen Geschmack aus braunem Zucker mit Butter geschmolzen.",
+                            "nl": "Butterscotchpudding krijgt zijn kenmerkende smaak van bruine suiker gesmolten met boter, wat een rijke smaak geeft."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is Indian rice pudding called?",
+                            "es": "¿Cómo se llama el arroz con leche indio?",
+                            "de": "Wie heißt der indische Milchreis?",
+                            "nl": "Hoe heet de Indiase rijstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Kheer",
+                                    "es": "Kheer",
+                                    "de": "Kheer",
+                                    "nl": "Kheer"
+                            },
+                            {
+                                    "en": "Naan",
+                                    "es": "Naan",
+                                    "de": "Naan",
+                                    "nl": "Naan"
+                            },
+                            {
+                                    "en": "Samosa",
+                                    "es": "Samosa",
+                                    "de": "Samosa",
+                                    "nl": "Samosa"
+                            },
+                            {
+                                    "en": "Pakora",
+                                    "es": "Pakora",
+                                    "de": "Pakora",
+                                    "nl": "Pakora"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Kheer is an Indian rice pudding made with rice, milk, sugar, and flavored with cardamom, saffron, and nuts.",
+                            "es": "El kheer es un arroz con leche indio hecho con arroz, leche, azúcar y aromatizado con cardamomo y azafrán.",
+                            "de": "Kheer ist ein indischer Milchreis aus Reis, Milch, Zucker und gewürzt mit Kardamom, Safran und Nüssen.",
+                            "nl": "Kheer is een Indiase rijstpudding gemaakt met rijst, melk, suiker en op smaak gebracht met kardemom en saffraan."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is plum pudding traditionally made with?",
+                            "es": "¿Con qué se hace tradicionalmente el pudín de ciruela?",
+                            "de": "Womit wird Plumpudding traditionell gemacht?",
+                            "nl": "Waarmee wordt pruimenpudding traditioneel gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Dried fruits",
+                                    "es": "Frutas secas",
+                                    "de": "Trockenfrüchte",
+                                    "nl": "Gedroogde vruchten"
+                            },
+                            {
+                                    "en": "Fresh plums",
+                                    "es": "Ciruelas frescas",
+                                    "de": "Frische Pflaumen",
+                                    "nl": "Verse pruimen"
+                            },
+                            {
+                                    "en": "Apricots",
+                                    "es": "Albaricoques",
+                                    "de": "Aprikosen",
+                                    "nl": "Abrikozen"
+                            },
+                            {
+                                    "en": "Cherries",
+                                    "es": "Cerezas",
+                                    "de": "Kirschen",
+                                    "nl": "Kersen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Despite its name, plum pudding contains dried fruits like raisins and currants, not plums. It's another name for Christmas pudding.",
+                            "es": "A pesar de su nombre, el pudín de ciruela contiene frutas secas como pasas, no ciruelas. Es otro nombre del pudín navideño.",
+                            "de": "Trotz seines Namens enthält Plumpudding Trockenfrüchte wie Rosinen, keine Pflaumen. Es ist ein anderer Name für Weihnachtspudding.",
+                            "nl": "Ondanks de naam bevat pruimenpudding gedroogde vruchten zoals rozijnen, geen pruimen. Het is een andere naam voor kerstpudding."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What texture should a good custard have?",
+                            "es": "¿Qué textura debe tener unas buenas natillas?",
+                            "de": "Welche Textur sollte ein guter Vanillepudding haben?",
+                            "nl": "Welke textuur moet een goede vla hebben?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Smooth and creamy",
+                                    "es": "Suave y cremosa",
+                                    "de": "Glatt und cremig",
+                                    "nl": "Glad en romig"
+                            },
+                            {
+                                    "en": "Lumpy and thick",
+                                    "es": "Grumosa y espesa",
+                                    "de": "Klumpig und dick",
+                                    "nl": "Klonterig en dik"
+                            },
+                            {
+                                    "en": "Watery and thin",
+                                    "es": "Aguada y fina",
+                                    "de": "Wässrig und dünn",
+                                    "nl": "Waterig en dun"
+                            },
+                            {
+                                    "en": "Grainy and rough",
+                                    "es": "Granulada y áspera",
+                                    "de": "Körnig und rau",
+                                    "nl": "Korrelig en ruw"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A properly made custard should be smooth and creamy, without lumps. Overheating can cause it to curdle.",
+                            "es": "Unas natillas bien hechas deben ser suaves y cremosas, sin grumos. El sobrecalentamiento puede cuajarlas.",
+                            "de": "Ein richtig gemachter Vanillepudding sollte glatt und cremig sein, ohne Klumpen. Überhitzen kann ihn gerinnen lassen.",
+                            "nl": "Een goed gemaakte vla moet glad en romig zijn, zonder klontjes. Oververhitting kan het doen schiften."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which pudding is cooked in a water bath?",
+                            "es": "¿Qué pudín se cocina al baño María?",
+                            "de": "Welcher Pudding wird im Wasserbad gekocht?",
+                            "nl": "Welke pudding wordt in een waterbad gekookt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Crème caramel",
+                                    "es": "Crema de caramelo",
+                                    "de": "Crème Caramel",
+                                    "nl": "Crème caramel"
+                            },
+                            {
+                                    "en": "Rice pudding",
+                                    "es": "Arroz con leche",
+                                    "de": "Milchreis",
+                                    "nl": "Rijstpudding"
+                            },
+                            {
+                                    "en": "Bread pudding",
+                                    "es": "Pudín de pan",
+                                    "de": "Brotpudding",
+                                    "nl": "Broodpudding"
+                            },
+                            {
+                                    "en": "Tapioca pudding",
+                                    "es": "Pudín de tapioca",
+                                    "de": "Tapioka-Pudding",
+                                    "nl": "Tapiocapudding"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Crème caramel is baked in a water bath (bain-marie) to ensure gentle, even cooking and a smooth texture.",
+                            "es": "La crema de caramelo se hornea al baño María para asegurar una cocción suave y uniforme y una textura lisa.",
+                            "de": "Crème Caramel wird im Wasserbad (Bain-Marie) gebacken für sanftes, gleichmäßiges Garen und glatte Textur.",
+                            "nl": "Crème caramel wordt in een waterbad (bain-marie) gebakken voor zachte, gelijkmatige bereiding en gladde textuur."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es sago pudding made?",
+                            "es": "¿De qué está hecho el pudín de sagú?",
+                            "de": "Woraus wird Sago-Pudding hergestellt?",
+                            "nl": "Waar wordt sagopudding van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Sago pearls",
+                                    "es": "Perlas de sagú",
+                                    "de": "Sago-Perlen",
+                                    "nl": "Sagoparels"
+                            },
+                            {
+                                    "en": "Rice grains",
+                                    "es": "Granos de arroz",
+                                    "de": "Reiskörner",
+                                    "nl": "Rijstkorrels"
+                            },
+                            {
+                                    "en": "Wheat flour",
+                                    "es": "Harina de trigo",
+                                    "de": "Weizenmehl",
+                                    "nl": "Tarwebloem"
+                            },
+                            {
+                                    "en": "Oat flakes",
+                                    "es": "Copos de avena",
+                                    "de": "Haferflocken",
+                                    "nl": "Havervlokken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Sago pudding uses sago pearls, extracted from the sago palm tree, similar in appearance to tapioca pearls.",
+                            "es": "El pudín de sagú usa perlas de sagú, extraídas de la palmera de sagú, similar en apariencia a las perlas de tapioca.",
+                            "de": "Sago-Pudding verwendet Sago-Perlen, die aus der Sagopalme gewonnen werden, ähnlich wie Tapioka-Perlen.",
+                            "nl": "Sagopudding gebruikt sagoparels, gewonnen uit de sagopalm, vergelijkbaar met tapiocaparels."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes vanilla pudding vanilla-flavored?",
+                            "es": "¿Qué hace que el pudín de vainilla tenga sabor a vainilla?",
+                            "de": "Was gibt Vanillepudding seinen Vanillegeschmack?",
+                            "nl": "Wat maakt vanillepudding vanille-smaak?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Vanilla extract or beans",
+                                    "es": "Extracto o vainas de vainilla",
+                                    "de": "Vanilleextrakt oder -schoten",
+                                    "nl": "Vanille-extract of -stokjes"
+                            },
+                            {
+                                    "en": "Sugar syrup",
+                                    "es": "Jarabe de azúcar",
+                                    "de": "Zuckersirup",
+                                    "nl": "Suikersiroop"
+                            },
+                            {
+                                    "en": "Cinnamon powder",
+                                    "es": "Canela en polvo",
+                                    "de": "Zimtpulver",
+                                    "nl": "Kaneelpoeder"
+                            },
+                            {
+                                    "en": "Lemon zest",
+                                    "es": "Ralladura de limón",
+                                    "de": "Zitronenschale",
+                                    "nl": "Citroenschil"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Vanilla pudding gets its flavor from vanilla extract or vanilla beans, which provide the characteristic sweet taste and aroma.",
+                            "es": "El pudín de vainilla obtiene su sabor del extracto o vainas de vainilla, que proporcionan el sabor dulce característico.",
+                            "de": "Vanillepudding erhält seinen Geschmack von Vanilleextrakt oder -schoten, die den charakteristischen Geschmack bieten.",
+                            "nl": "Vanillepudding krijgt zijn smaak van vanille-extract of -stokjes, die de kenmerkende zoete smaak geven."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is figgy pudding?",
+                            "es": "¿Qué es el pudín de higos?",
+                            "de": "Was ist Figgy Pudding?",
+                            "nl": "Wat is vijgenpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A Christmas pudding with figs",
+                                    "es": "Un pudín navideño con higos",
+                                    "de": "Ein Weihnachtspudding mit Feigen",
+                                    "nl": "Een kerstpudding met vijgen"
+                            },
+                            {
+                                    "en": "A chocolate dessert",
+                                    "es": "Un postre de chocolate",
+                                    "de": "Ein Schokoladendessert",
+                                    "nl": "Een chocoladedessert"
+                            },
+                            {
+                                    "en": "A fruit salad",
+                                    "es": "Una ensalada de frutas",
+                                    "de": "Ein Obstsalat",
+                                    "nl": "Een fruitsalade"
+                            },
+                            {
+                                    "en": "An ice cream flavor",
+                                    "es": "Un sabor de helado",
+                                    "de": "Eine Eiscremesorte",
+                                    "nl": "Een ijssmaak"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Figgy pudding is a traditional British Christmas pudding containing figs, mentioned in the carol 'We Wish You a Merry Christmas'.",
+                            "es": "El pudín de higos es un pudín navideño británico tradicional con higos, mencionado en el villancico navideño.",
+                            "de": "Figgy Pudding ist ein traditioneller britischer Weihnachtspudding mit Feigen, erwähnt im Weihnachtslied.",
+                            "nl": "Vijgenpudding is een traditionele Britse kerstpudding met vijgen, genoemd in het kerstlied 'We Wish You a Merry Christmas'."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How is steamed pudding typically cooked?",
+                            "es": "¿Cómo se cocina típicamente el pudín al vapor?",
+                            "de": "Wie wird gedämpfter Pudding typischerweise gekocht?",
+                            "nl": "Hoe wordt gestoomde pudding meestal gekookt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Over boiling water",
+                                    "es": "Sobre agua hirviendo",
+                                    "de": "Über kochendem Wasser",
+                                    "nl": "Boven kokend water"
+                            },
+                            {
+                                    "en": "In a microwave",
+                                    "es": "En un microondas",
+                                    "de": "in einer Mikrowelle",
+                                    "nl": "in een magnetron"
+                            },
+                            {
+                                    "en": "On a grill",
+                                    "es": "En una parrilla",
+                                    "de": "Auf einem Grill",
+                                    "nl": "Op een grill"
+                            },
+                            {
+                                    "en": "In a deep fryer",
+                                    "es": "En una freidora",
+                                    "de": "in einer Fritteuse",
+                                    "nl": "in een frituurpan"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Steamed puddings are cooked in a covered basin placed over boiling water, allowing gentle steam cooking for several hours.",
+                            "es": "Los pudines al vapor se cocinan en un recipiente cubierto sobre agua hirviendo, permitiendo cocción suave durante horas.",
+                            "de": "Gedämpfte Puddings werden in einer abgedeckten Schüssel über kochendem Wasser gekocht, sanftes Dampfgaren für Stunden.",
+                            "nl": "Gestoomde puddings worden gekookt in een afgedekte kom boven kokend water, wat zachte stoomgaring mogelijk maakt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es semolina pudding made?",
+                            "es": "¿De qué está hecho el pudín de sémola?",
+                            "de": "Woraus wird Grießpudding hergestellt?",
+                            "nl": "Waar wordt griesmeel pudding van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Wheat semolina",
+                                    "es": "Sémola de trigo",
+                                    "de": "Weizengrieß",
+                                    "nl": "Tarwegriesmeel"
+                            },
+                            {
+                                    "en": "Rice flour",
+                                    "es": "Harina de arroz",
+                                    "de": "Reismehl",
+                                    "nl": "Rijstmeel"
+                            },
+                            {
+                                    "en": "Corn meal",
+                                    "es": "Harina de maíz",
+                                    "de": "Maismehl",
+                                    "nl": "Maïsmeel"
+                            },
+                            {
+                                    "en": "Potato starch",
+                                    "es": "Almidón de patata",
+                                    "de": "Kartoffelstärke",
+                                    "nl": "Aardappelzetmeel"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Semolina pudding is made from wheat semolina cooked in milk with sugar, creating a smooth, comforting dessert.",
+                            "es": "El pudín de sémola se hace con sémola de trigo cocida en leche con azúcar, creando un postre suave y reconfortante.",
+                            "de": "Grießpudding wird aus Weizengrieß hergestellt, der in Milch mit Zucker gekocht wird, ein glattes Dessert.",
+                            "nl": "Griesmeel pudding wordt gemaakt van tarwegriesmeel gekookt in melk met suiker, een glad, troostend dessert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which country is famous for riz au lait?",
+                            "es": "¿De qué país es famoso por el riz au lait?",
+                            "de": "Welches Land ist berühmt für Riz au Lait?",
+                            "nl": "Welk land is beroemd om riz au lait?"
+                    },
+                    "options": [
+                            {
+                                    "en": "France",
+                                    "es": "Francia",
+                                    "de": "Frankreich",
+                                    "nl": "Frankrijk"
+                            },
+                            {
+                                    "en": "Japan",
+                                    "es": "Japón",
+                                    "de": "Japan",
+                                    "nl": "Japan"
+                            },
+                            {
+                                    "en": "Mexico",
+                                    "es": "México",
+                                    "de": "Mexiko",
+                                    "nl": "Mexico"
+                            },
+                            {
+                                    "en": "Russia",
+                                    "es": "Rusia",
+                                    "de": "Russland",
+                                    "nl": "Rusland"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Riz au lait is French rice pudding, traditionally flavored with vanilla and sometimes topped with caramelized sugar.",
+                            "es": "El riz au lait es arroz con leche francés, tradicionalmente aromatizado con vainilla y a veces con azúcar caramelizado.",
+                            "de": "Riz au Lait ist französischer Milchreis, traditionell mit Vanille gewürzt und manchmal mit karamellisiertem Zucker.",
+                            "nl": "Riz au lait is Franse rijstpudding, traditioneel op smaak gebracht met vanille en soms met gekarameliseerde suiker."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What gives black pudding its dark color?",
+                            "es": "¿Qué le da al pudín negro su color oscuro?",
+                            "de": "Was gibt Black Pudding seine dunkle Farbe?",
+                            "nl": "Wat geeft bloedworst zijn donkere kleur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Blood",
+                                    "es": "Sangre",
+                                    "de": "Blut",
+                                    "nl": "Bloed"
+                            },
+                            {
+                                    "en": "Chocolate",
+                                    "es": "Chocolate",
+                                    "de": "Schokolade",
+                                    "nl": "Chocolade"
+                            },
+                            {
+                                    "en": "Coffee",
+                                    "es": "Café",
+                                    "de": "Kaffee",
+                                    "nl": "Koffie"
+                            },
+                            {
+                                    "en": "Molasses",
+                                    "es": "Melaza",
+                                    "de": "Melasse",
+                                    "nl": "Melasse"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Black pudding is a savory blood sausage made with pig's blood, giving it a distinctive dark color. It's not a dessert pudding.",
+                            "es": "El pudín negro es una salchicha de sangre hecha con sangre de cerdo, dándole un color oscuro. No es un postre.",
+                            "de": "Black Pudding ist eine herzhafte Blutwurst aus Schweineblut, die ihm eine dunkle Farbe gibt. Es ist kein Dessert.",
+                            "nl": "Bloedworst is een hartige worst gemaakt met varkensbloed, wat het een donkere kleur geeft. Het is geen dessertpudding."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es corn pudding made?",
+                            "es": "¿De qué está hecho el pudín de maíz?",
+                            "de": "Woraus wird Maispudding hergestellt?",
+                            "nl": "Waar wordt maïspudding van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Sweet corn kernels",
+                                    "es": "Granos de maíz dulce",
+                                    "de": "Süßmais-Körner",
+                                    "nl": "Zoete maïskorrels"
+                            },
+                            {
+                                    "en": "Cornmeal",
+                                    "es": "Harina de maíz",
+                                    "de": "Maismehl",
+                                    "nl": "Maïsmeel"
+                            },
+                            {
+                                    "en": "Popcorn",
+                                    "es": "Palomitas de maíz",
+                                    "de": "Popcorn",
+                                    "nl": "Popcorn"
+                            },
+                            {
+                                    "en": "Corn syrup",
+                                    "es": "Jarabe de maíz",
+                                    "de": "Maissirup",
+                                    "nl": "Maïssiroop"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Corn pudding is a savory side dish made with sweet corn kernels, eggs, milk, and butter, baked until set.",
+                            "es": "El pudín de maíz es un acompañamiento hecho con granos de maíz dulce, huevos, leche y mantequilla, horneado.",
+                            "de": "Maispudding ist eine herzhafte Beilage aus Süßmais-Körnern, Eiern, Milch und Butter, gebacken.",
+                            "nl": "Maïspudding is een hartig bijgerecht gemaakt met zoete maïskorrels, eieren, melk en boter, gebakken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is banana pudding traditionally layered with?",
+                            "es": "¿Con qué se hace tradicionalmente el pudín de plátano en capas?",
+                            "de": "Womit wird Bananenpudding traditionell geschichtet?",
+                            "nl": "Waarmee wordt bananenpudding traditioneel gelaagd?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Vanilla wafers",
+                                    "es": "Galletas de vainilla",
+                                    "de": "Vanillewaffeln",
+                                    "nl": "Vanillewafels"
+                            },
+                            {
+                                    "en": "Chocolate chips",
+                                    "es": "Chispas de chocolate",
+                                    "de": "Schokoladenchips",
+                                    "nl": "Chocoladeschilfers"
+                            },
+                            {
+                                    "en": "Graham crackers",
+                                    "es": "Galletas Graham",
+                                    "de": "Graham-Kekse",
+                                    "nl": "Graham crackers"
+                            },
+                            {
+                                    "en": "Pretzels",
+                                    "es": "Pretzels",
+                                    "de": "Brezeln",
+                                    "nl": "Pretzels"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Traditional Southern banana pudding is layered with vanilla wafers, sliced bananas, and vanilla custard or pudding.",
+                            "es": "El pudín de plátano sureño tradicional se hace con capas de galletas de vainilla, plátanos y natillas de vainilla.",
+                            "de": "Traditioneller südlicher Bananenpudding wird mit Vanillewaffeln, Bananenscheiben und Vanillepudding geschichtet.",
+                            "nl": "Traditionele zuidelijke bananenpudding wordt gelaagd met vanillewafels, gesneden bananen en vanillevla."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is hasty pudding?",
+                            "es": "¿Qué es el hasty pudding?",
+                            "de": "Was ist Hasty Pudding?",
+                            "nl": "Wat is hasty pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A quick-cooking porridge",
+                                    "es": "Una papilla de cocción rápida",
+                                    "de": "Ein schnell kochender Brei",
+                                    "nl": "Een snelkokende pap"
+                            },
+                            {
+                                    "en": "A frozen dessert",
+                                    "es": "Un postre congelado",
+                                    "de": "Ein gefrorenes Dessert",
+                                    "nl": "Een bevroren dessert"
+                            },
+                            {
+                                    "en": "A layered cake",
+                                    "es": "Un pastel en capas",
+                                    "de": "Ein Schichtkuchen",
+                                    "nl": "Een gelaagde taart"
+                            },
+                            {
+                                    "en": "A fruit tart",
+                                    "es": "Una tarta de frutas",
+                                    "de": "Eine Obsttorte",
+                                    "nl": "Een fruittaart"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Hasty pudding is a simple, quick-cooking pudding made from grain (wheat or corn) cooked in milk or water, popular in colonial America.",
+                            "es": "El hasty pudding es un pudín simple de cocción rápida hecho de granos cocidos en leche o agua, popular en América colonial.",
+                            "de": "Hasty Pudding ist ein einfacher, schnell kochender Pudding aus Getreide in Milch oder Wasser, beliebt im kolonialen Amerika.",
+                            "nl": "Hasty pudding is een eenvoudige, snelkokende pudding van graan gekookt in melk of water, populair in koloniaal Amerika."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes spotted dick pudding 'spotted'?",
+                            "es": "¿Qué hace que el pudín spotted dick sea 'manchado'?",
+                            "de": "Was macht Spotted Dick Pudding 'gefleckt'?",
+                            "nl": "Wat maakt spotted dick pudding 'gevlekt'?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Currants or raisins",
+                                    "es": "Grosellas o pasas",
+                                    "de": "Johannisbeeren oder Rosinen",
+                                    "nl": "Krenten of rozijnen"
+                            },
+                            {
+                                    "en": "Chocolate chips",
+                                    "es": "Chispas de chocolate",
+                                    "de": "Schokoladenchips",
+                                    "nl": "Chocoladeschilfers"
+                            },
+                            {
+                                    "en": "Nuts",
+                                    "es": "Nueces",
+                                    "de": "Nüsse",
+                                    "nl": "Noten"
+                            },
+                            {
+                                    "en": "Coconut flakes",
+                                    "es": "Copos de coco",
+                                    "de": "Kokosflocken",
+                                    "nl": "Kokosvlokken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Spotted dick is a British steamed pudding with currants or raisins throughout, which appear as 'spots' in the pudding.",
+                            "es": "El spotted dick es un pudín británico al vapor con grosellas o pasas que aparecen como 'manchas' en el pudín.",
+                            "de": "Spotted Dick ist ein britischer gedämpfter Pudding mit Johannisbeeren oder Rosinen, die als 'Flecken' erscheinen.",
+                            "nl": "Spotted dick is een Britse gestoomde pudding met krenten of rozijnen die als 'vlekken' in de pudding verschijnen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the main ingredient in coconut pudding?",
+                            "es": "¿Cuál es el ingrediente principal del pudín de coco?",
+                            "de": "Was ist die Hauptzutat im Kokosnusspudding?",
+                            "nl": "Wat is het hoofdingrediënt in kokospudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Coconut milk",
+                                    "es": "Leche de coco",
+                                    "de": "Kokosmilch",
+                                    "nl": "Kokosmelk"
+                            },
+                            {
+                                    "en": "Cow's milk",
+                                    "es": "Leche de vaca",
+                                    "de": "Kuhmilch",
+                                    "nl": "Koemelk"
+                            },
+                            {
+                                    "en": "Soy milk",
+                                    "es": "Leche de soja",
+                                    "de": "Sojamilch",
+                                    "nl": "Sojamelk"
+                            },
+                            {
+                                    "en": "Almond milk",
+                                    "es": "Leche de almendra",
+                                    "de": "Mandelmilch",
+                                    "nl": "Amandelmelk"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Coconut pudding is made with coconut milk, which gives it a rich, tropical flavor and creamy texture.",
+                            "es": "El pudín de coco se hace con leche de coco, que le da un sabor tropical rico y una textura cremosa.",
+                            "de": "Kokosnusspudding wird mit Kokosmilch hergestellt, die ihm einen reichen, tropischen Geschmack und cremige Textur gibt.",
+                            "nl": "Kokospudding wordt gemaakt met kokosmelk, wat het een rijke, tropische smaak en romige textuur geeft."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is treacle pudding flavored with?",
+                            "es": "¿Con qué está aromatizado el pudín de melaza?",
+                            "de": "Womit wird Treacle Pudding gewürzt?",
+                            "nl": "Waarmee is stroop pudding op smaak gebracht?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Golden syrup or molasses",
+                                    "es": "Jarabe dorado o melaza",
+                                    "de": "Goldener Sirup oder Melasse",
+                                    "nl": "Gouden siroop of melasse"
+                            },
+                            {
+                                    "en": "Honey",
+                                    "es": "Miel",
+                                    "de": "Honig",
+                                    "nl": "Honing"
+                            },
+                            {
+                                    "en": "Maple syrup",
+                                    "es": "Jarabe de arce",
+                                    "de": "Ahornsirup",
+                                    "nl": "Ahornsiroop"
+                            },
+                            {
+                                    "en": "Agave nectar",
+                                    "es": "Néctar de agave",
+                                    "de": "Agavendicksaft",
+                                    "nl": "Agavenectar"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Treacle pudding is a British steamed pudding flavored with golden syrup or dark treacle (molasses), giving it a rich sweetness.",
+                            "es": "El pudín de melaza es un pudín británico al vapor aromatizado con jarabe dorado o melaza oscura, dándole dulzura rica.",
+                            "de": "Treacle Pudding ist ein britischer gedämpfter Pudding mit goldenem Sirup oder dunkler Melasse gewürzt.",
+                            "nl": "Stroop pudding is een Britse gestoomde pudding op smaak gebracht met gouden siroop of donkere stroop (melasse)."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is diplomat pudding made with?",
+                            "es": "¿Con qué se hace el pudín diplomático?",
+                            "de": "Womit wird Diplomatenpudding hergestellt?",
+                            "nl": "Waar wordt diplomatenpudding van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Sponge cake and custard",
+                                    "es": "Bizcocho y natillas",
+                                    "de": "Biskuitkuchen und Vanillepudding",
+                                    "nl": "Biscuitcake en vla"
+                            },
+                            {
+                                    "en": "Rice and milk",
+                                    "es": "Arroz y leche",
+                                    "de": "Reis und Milch",
+                                    "nl": "Rijst en melk"
+                            },
+                            {
+                                    "en": "Bread and butter",
+                                    "es": "Pan y mantequilla",
+                                    "de": "Brot und Butter",
+                                    "nl": "Brood en boter"
+                            },
+                            {
+                                    "en": "Oats and honey",
+                                    "es": "Avena y miel",
+                                    "de": "Hafer und Honig",
+                                    "nl": "Haver en honing"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Diplomat pudding is a layered dessert with sponge cake, candied fruits, and custard, often set with gelatin.",
+                            "es": "El pudín diplomático es un postre en capas con bizcocho, frutas confitadas y natillas, a menudo con gelatina.",
+                            "de": "Diplomatenpudding ist ein geschichtetes Dessert mit Biskuitkuchen, kandierten Früchten und Vanillepudding, oft mit Gelatine.",
+                            "nl": "Diplomatenpudding is een gelaagd dessert met biscuitcake, gekonfijt fruit en vla, vaak gezet met gelatine."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What temperature should custard be cooked at?",
+                            "es": "¿A qué temperatura se deben cocinar las natillas?",
+                            "de": "Bei welcher Temperatur sollte Vanillepudding gekocht werden?",
+                            "nl": "Op welke temperatuur moet vla worden gekookt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Low heat",
+                                    "es": "Fuego bajo",
+                                    "de": "Niedrige Hitze",
+                                    "nl": "Laag vuur"
+                            },
+                            {
+                                    "en": "High heat",
+                                    "es": "Fuego alto",
+                                    "de": "Hohe Hitze",
+                                    "nl": "Hoog vuur"
+                            },
+                            {
+                                    "en": "Boiling",
+                                    "es": "Hirviendo",
+                                    "de": "Kochend",
+                                    "nl": "Kokend"
+                            },
+                            {
+                                    "en": "Deep frying heat",
+                                    "es": "Calor para freír",
+                                    "de": "Frittierhitze",
+                                    "nl": "Frituurhitte"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Custard must be cooked on low heat to prevent the eggs from scrambling. Gentle, even heat creates a smooth texture.",
+                            "es": "Las natillas deben cocinarse a fuego bajo para evitar que los huevos se revuelvan. El calor suave crea textura lisa.",
+                            "de": "Vanillepudding muss bei niedriger Hitze gekocht werden, um ein Stocken der Eier zu verhindern. Sanfte Hitze schafft glatte Textur.",
+                            "nl": "Vla moet op laag vuur worden gekookt om te voorkomen dat de eieren stollen. Zachte hitte creëert een gladde textuur."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es blancmange traditionally made?",
+                            "es": "¿De qué se hace tradicionalmente el blancmange?",
+                            "de": "Woraus wird Blancmange traditionell hergestellt?",
+                            "nl": "Waar wordt blancmange traditioneel van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Milk and cornstarch",
+                                    "es": "Leche y maicena",
+                                    "de": "Milch und Maisstärke",
+                                    "nl": "Melk en maïzena"
+                            },
+                            {
+                                    "en": "Eggs and sugar",
+                                    "es": "Huevos y azúcar",
+                                    "de": "Eier und Zucker",
+                                    "nl": "Eieren en suiker"
+                            },
+                            {
+                                    "en": "Cream and gelatin",
+                                    "es": "Crema y gelatina",
+                                    "de": "Sahne und Gelatine",
+                                    "nl": "Room en gelatine"
+                            },
+                            {
+                                    "en": "Flour and butter",
+                                    "es": "Harina y mantequilla",
+                                    "de": "Mehl und Butter",
+                                    "nl": "Bloem en boter"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Blancmange is a sweet milk pudding thickened with cornstarch and set in a mold. The name means 'white food' in French.",
+                            "es": "El blancmange es un pudín de leche dulce espesado con maicena y moldeado. El nombre significa 'comida blanca' en francés.",
+                            "de": "Blancmange ist ein süßer Milchpudding, der mit Maisstärke verdickt und in einer Form gesetzt wird. Der Name bedeutet 'weißes Essen'.",
+                            "nl": "Blancmange is een zoete melkpudding verdikt met maïzena en gezet in een vorm. De naam betekent 'wit voedsel' in het Frans."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What gives lemon pudding its tangy flavor?",
+                            "es": "¿Qué le da al pudín de limón su sabor ácido?",
+                            "de": "Was gibt Zitronenpudding seinen säuerlichen Geschmack?",
+                            "nl": "Wat geeft citroenpudding zijn pittige smaak?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Lemon juice and zest",
+                                    "es": "Jugo y ralladura de limón",
+                                    "de": "Zitronensaft und -schale",
+                                    "nl": "Citroensap en -schil"
+                            },
+                            {
+                                    "en": "Vinegar",
+                                    "es": "Vinagre",
+                                    "de": "Essig",
+                                    "nl": "Azijn"
+                            },
+                            {
+                                    "en": "Yogurt",
+                                    "es": "Yogur",
+                                    "de": "Joghurt",
+                                    "nl": "Yoghurt"
+                            },
+                            {
+                                    "en": "Sour cream",
+                                    "es": "Crema agria",
+                                    "de": "Saure Sahne",
+                                    "nl": "Zure room"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Lemon pudding gets its tangy, citrus flavor from fresh lemon juice and zest, which add both acidity and aroma.",
+                            "es": "El pudín de limón obtiene su sabor ácido y cítrico del jugo y ralladura de limón fresco, que añaden acidez y aroma.",
+                            "de": "Zitronenpudding erhält seinen säuerlichen Zitrusgeschmack durch frischen Zitronensaft und -schale, die Säure und Aroma hinzufügen.",
+                            "nl": "Citroenpudding krijgt zijn pittige, citrusachtige smaak van vers citroensap en -schil, die zowel zuurheid als aroma toevoegen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is Queen of Puddings topped with?",
+                            "es": "¿Con qué está cubierto el Queen of Puddings?",
+                            "de": "Womit wird Queen of Puddings belegt?",
+                            "nl": "Waarmee wordt Queen of Puddings bedekt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Meringue",
+                                    "es": "Merengue",
+                                    "de": "Baiser",
+                                    "nl": "Schuim"
+                            },
+                            {
+                                    "en": "Whipped cream",
+                                    "es": "Crema batida",
+                                    "de": "Schlagsahne",
+                                    "nl": "Slagroom"
+                            },
+                            {
+                                    "en": "Icing sugar",
+                                    "es": "Azúcar glas",
+                                    "de": "Puderzucker",
+                                    "nl": "Poedersuiker"
+                            },
+                            {
+                                    "en": "Chocolate sauce",
+                                    "es": "Salsa de chocolate",
+                                    "de": "Schokoladensoße",
+                                    "nl": "Chocoladesaus"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Queen of Puddings is a British dessert with breadcrumb base, jam layer, and topped with golden meringue.",
+                            "es": "El Queen of Puddings es un postre británico con base de pan rallado, capa de mermelada y cubierto con merengue dorado.",
+                            "de": "Queen of Puddings ist ein britisches Dessert mit Semmelbröselbasis, Marmeladenschicht und goldenem Baiser belegt.",
+                            "nl": "Queen of Puddings is een Brits dessert met broodkruimelbasis, jamlaag en bedekt met gouden schuim."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es chia pudding made?",
+                            "es": "¿De qué está hecho el pudín de chía?",
+                            "de": "Woraus wird Chia-Pudding hergestellt?",
+                            "nl": "Waar wordt chiapudding van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Chia seeds and milk",
+                                    "es": "Semillas de chía y leche",
+                                    "de": "Chiasamen und Milch",
+                                    "nl": "Chiazaad en melk"
+                            },
+                            {
+                                    "en": "Rice and cream",
+                                    "es": "Arroz y crema",
+                                    "de": "Reis und Sahne",
+                                    "nl": "Rijst en room"
+                            },
+                            {
+                                    "en": "Oats and yogurt",
+                                    "es": "Avena y yogur",
+                                    "de": "Hafer und Joghurt",
+                                    "nl": "Haver en yoghurt"
+                            },
+                            {
+                                    "en": "Quinoa and honey",
+                                    "es": "Quinoa y miel",
+                                    "de": "Quinoa und Honig",
+                                    "nl": "Quinoa en honing"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chia pudding is a modern, healthy dessert made by soaking chia seeds in milk until they form a gel-like consistency.",
+                            "es": "El pudín de chía es un postre moderno y saludable hecho remojando semillas de chía en leche hasta formar consistencia gelatinosa.",
+                            "de": "Chia-Pudding ist ein modernes, gesundes Dessert, bei dem Chiasamen in Milch eingeweicht werden, bis sie gelartig werden.",
+                            "nl": "Chiapudding is een modern, gezond dessert gemaakt door chiazaad in melk te weken tot het een gelachtige consistentie vormt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is persimmon pudding made with?",
+                            "es": "¿Con qué se hace el pudín de caqui?",
+                            "de": "Womit wird Persimonen-Pudding hergestellt?",
+                            "nl": "Waarmee wordt kaki pudding gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Ripe persimmons",
+                                    "es": "Caquis maduros",
+                                    "de": "Reife Persimonen",
+                                    "nl": "Rijpe kaki's"
+                            },
+                            {
+                                    "en": "Apples",
+                                    "es": "Manzanas",
+                                    "de": "Äpfel",
+                                    "nl": "Appels"
+                            },
+                            {
+                                    "en": "Pears",
+                                    "es": "Peras",
+                                    "de": "Birnen",
+                                    "nl": "Peren"
+                            },
+                            {
+                                    "en": "Peaches",
+                                    "es": "Melocotones",
+                                    "de": "Pfirsiche",
+                                    "nl": "Perziken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Persimmon pudding is a traditional American dessert made with very ripe persimmon pulp, spices, and often steamed or baked.",
+                            "es": "El pudín de caqui es un postre americano tradicional hecho con pulpa de caqui muy maduro, especias y a menudo al vapor.",
+                            "de": "Persimonen-Pudding ist ein traditionelles amerikanisches Dessert aus sehr reifem Persimonen-Fruchtfleisch, Gewürzen, gedämpft oder gebacken.",
+                            "nl": "Kaki pudding is een traditioneel Amerikaans dessert gemaakt met zeer rijp kakivruchtmoes, specerijen, gestoomd of gebakken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes Indian pudding unique?",
+                            "es": "¿Qué hace único al pudín indio?",
+                            "de": "Was macht Indian Pudding einzigartig?",
+                            "nl": "Wat maakt Indian pudding uniek?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Made with cornmeal and molasses",
+                                    "es": "Hecho con harina de maíz y melaza",
+                                    "de": "Hergestellt mit Maismehl und Melasse",
+                                    "nl": "Gemaakt met maïsmeel en melasse"
+                            },
+                            {
+                                    "en": "Made with curry spices",
+                                    "es": "Hecho con especias curry",
+                                    "de": "Hergestellt mit Curry-Gewürzen",
+                                    "nl": "Gemaakt met kerrie kruiden"
+                            },
+                            {
+                                    "en": "Made with rice and turmeric",
+                                    "es": "Hecho con arroz y cúrcuma",
+                                    "de": "Hergestellt mit Reis und Kurkuma",
+                                    "nl": "Gemaakt met rijst en kurkuma"
+                            },
+                            {
+                                    "en": "Made with lentils",
+                                    "es": "Hecho con lentejas",
+                                    "de": "Hergestellt mit Linsen",
+                                    "nl": "Gemaakt met linzen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Indian pudding is a traditional New England dessert made with cornmeal, molasses, and milk, baked slowly until thick.",
+                            "es": "El pudín indio es un postre tradicional de Nueva Inglaterra hecho con harina de maíz, melaza y leche, horneado lentamente.",
+                            "de": "Indian Pudding ist ein traditionelles New-England-Dessert aus Maismehl, Melasse und Milch, langsam gebacken bis dick.",
+                            "nl": "Indian pudding is een traditioneel New England-dessert gemaakt met maïsmeel, melasse en melk, langzaam gebakken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is cabinet pudding?",
+                            "es": "¿Qué es el cabinet pudding?",
+                            "de": "Was ist Cabinet Pudding?",
+                            "nl": "Wat is cabinet pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A molded pudding with dried fruits",
+                                    "es": "Un pudín moldeado con frutas secas",
+                                    "de": "Ein geformter Pudding mit Trockenfrüchten",
+                                    "nl": "Een gegoten pudding met gedroogd fruit"
+                            },
+                            {
+                                    "en": "A refrigerated dessert",
+                                    "es": "Un postre refrigerado",
+                                    "de": "Ein gekühltes Dessert",
+                                    "nl": "Een gekoeld dessert"
+                            },
+                            {
+                                    "en": "A frozen treat",
+                                    "es": "Una golosina congelada",
+                                    "de": "Eine gefrorene Leckerei",
+                                    "nl": "Een bevroren lekkernij"
+                            },
+                            {
+                                    "en": "A layered cake",
+                                    "es": "Un pastel en capas",
+                                    "de": "Ein Schichtkuchen",
+                                    "nl": "Een gelaagde taart"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Cabinet pudding is a Victorian steamed pudding with sponge cake, dried fruits, and custard, set in a decorative mold.",
+                            "es": "El cabinet pudding es un pudín victoriano al vapor con bizcocho, frutas secas y natillas, en un molde decorativo.",
+                            "de": "Cabinet Pudding ist ein viktorianischer gedämpfter Pudding mit Biskuitkuchen, Trockenfrüchten und Vanillepudding in einer Form.",
+                            "nl": "Cabinet pudding is een Victoriaanse gestoomde pudding met biscuitcake, gedroogd fruit en vla, gezet in een decoratieve vorm."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How is panna cotta set?",
+                            "es": "¿Cómo se cuaja la panna cotta?",
+                            "de": "Wie wird Panna Cotta fest?",
+                            "nl": "Hoe wordt panna cotta gezet?"
+                    },
+                    "options": [
+                            {
+                                    "en": "With gelatin",
+                                    "es": "Con gelatina",
+                                    "de": "Mit Gelatine",
+                                    "nl": "Met gelatine"
+                            },
+                            {
+                                    "en": "With eggs",
+                                    "es": "Con huevos",
+                                    "de": "Mit Eiern",
+                                    "nl": "Met eieren"
+                            },
+                            {
+                                    "en": "By freezing",
+                                    "es": "Por congelación",
+                                    "de": "Durch Einfrieren",
+                                    "nl": "Door bevriezen"
+                            },
+                            {
+                                    "en": "With cornstarch",
+                                    "es": "Con maicena",
+                                    "de": "Mit Maisstärke",
+                                    "nl": "Met maïzena"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Panna cotta is an Italian dessert that uses gelatin to set sweetened cream into a silky, wobbling pudding.",
+                            "es": "La panna cotta es un postre italiano que usa gelatina para cuajar crema endulzada en un pudín sedoso y tembloroso.",
+                            "de": "Panna Cotta ist ein italienisches Dessert, das Gelatine verwendet, um gesüßte Sahne zu einem seidigen Pudding zu setzen.",
+                            "nl": "Panna cotta is een Italiaans dessert dat gelatine gebruikt om gezoete room te zetten tot een zijdezachte, wiebelende pudding."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is malva pudding?",
+                            "es": "¿Qué es el malva pudding?",
+                            "de": "Was ist Malva Pudding?",
+                            "nl": "Wat is malva pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A South African sweet pudding",
+                                    "es": "Un pudín dulce sudafricano",
+                                    "de": "Ein süßer südafrikanischer Pudding",
+                                    "nl": "Een Zuid-Afrikaanse zoete pudding"
+                            },
+                            {
+                                    "en": "A chocolate mousse",
+                                    "es": "Una mousse de chocolate",
+                                    "de": "Eine Schokoladenmousse",
+                                    "nl": "Een chocolademousse"
+                            },
+                            {
+                                    "en": "A fruit compote",
+                                    "es": "Una compota de frutas",
+                                    "de": "Ein Obstkompott",
+                                    "nl": "Een fruitcompote"
+                            },
+                            {
+                                    "en": "A rice dessert",
+                                    "es": "Un postre de arroz",
+                                    "de": "Ein Reisdessert",
+                                    "nl": "Een rijstdessert"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Malva pudding is a sweet South African dessert with apricot jam, served hot with a creamy sauce that soaks in.",
+                            "es": "El malva pudding es un postre dulce sudafricano con mermelada de albaricoque, servido caliente con salsa cremosa.",
+                            "de": "Malva Pudding ist ein süßes südafrikanisches Dessert mit Aprikosenmarmelade, heiß mit cremiger Sauce serviert.",
+                            "nl": "Malva pudding is een Zuid-Afrikaans zoet dessert met abrikozenjam, warm geserveerd met een romige saus die erin trekt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is eve's pudding made with?",
+                            "es": "¿Con qué se hace el eve's pudding?",
+                            "de": "Womit wird Eve's Pudding hergestellt?",
+                            "nl": "Waarmee wordt eve's pudding gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Apples and sponge topping",
+                                    "es": "Manzanas y cubierta de bizcocho",
+                                    "de": "Äpfel und Biskuit-Topping",
+                                    "nl": "Appels en biscuit topping"
+                            },
+                            {
+                                    "en": "Pears and cream",
+                                    "es": "Peras y crema",
+                                    "de": "Birnen und Sahne",
+                                    "nl": "Peren en room"
+                            },
+                            {
+                                    "en": "Berries and custard",
+                                    "es": "Bayas y natillas",
+                                    "de": "Beeren und Vanillepudding",
+                                    "nl": "Bessen en vla"
+                            },
+                            {
+                                    "en": "Peaches and ice cream",
+                                    "es": "Melocotones y helado",
+                                    "de": "Pfirsiche und Eiscreme",
+                                    "nl": "Perziken en ijs"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Eve's pudding is a British dessert with stewed apples on the bottom and a light sponge cake topping, baked until golden.",
+                            "es": "El eve's pudding es un postre británico con manzanas estofadas abajo y cubierta de bizcocho ligero, horneado hasta dorar.",
+                            "de": "Eve's Pudding ist ein britisches Dessert mit geschmorten Äpfeln unten und leichtem Biskuitkuchen oben, golden gebacken.",
+                            "nl": "Eve's pudding is een Brits dessert met gestoofde appels onderaan en een luchtige biscuittopping, goudbruin gebakken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es syllabub traditionally made?",
+                            "es": "¿De qué se hace tradicionalmente el syllabub?",
+                            "de": "Woraus wird Syllabub traditionell hergestellt?",
+                            "nl": "Waar wordt syllabub traditioneel van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cream, wine, and sugar",
+                                    "es": "Crema, vino y azúcar",
+                                    "de": "Sahne, Wein und Zucker",
+                                    "nl": "Room, wijn en suiker"
+                            },
+                            {
+                                    "en": "Milk and honey",
+                                    "es": "Leche y miel",
+                                    "de": "Milch und Honig",
+                                    "nl": "Melk en honing"
+                            },
+                            {
+                                    "en": "Eggs and brandy",
+                                    "es": "Huevos y brandy",
+                                    "de": "Eier und Brandy",
+                                    "nl": "Eieren en brandewijn"
+                            },
+                            {
+                                    "en": "Yogurt and fruit",
+                                    "es": "Yogur y fruta",
+                                    "de": "Joghurt und Obst",
+                                    "nl": "Yoghurt en fruit"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Syllabub is a traditional English dessert made by whipping cream with wine or sherry and sugar until frothy.",
+                            "es": "El syllabub es un postre inglés tradicional hecho batiendo crema con vino o jerez y azúcar hasta espumar.",
+                            "de": "Syllabub ist ein traditionelles englisches Dessert aus geschlagener Sahne mit Wein oder Sherry und Zucker, bis schaumig.",
+                            "nl": "Syllabub is een traditioneel Engels dessert gemaakt door room te kloppen met wijn of sherry en suiker tot schuimig."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes self-saucing pudding special?",
+                            "es": "¿Qué hace especial al pudín con salsa propia?",
+                            "de": "Was macht Self-Saucing Pudding besonders?",
+                            "nl": "Wat maakt self-saucing pudding speciaal?"
+                    },
+                    "options": [
+                            {
+                                    "en": "It creates its own sauce while baking",
+                                    "es": "Crea su propia salsa al hornear",
+                                    "de": "Es bildet beim Backen seine eigene Sauce",
+                                    "nl": "Het creëert zijn eigen saus tijdens het bakken"
+                            },
+                            {
+                                    "en": "It doesn't need cooking",
+                                    "es": "No necesita cocción",
+                                    "de": "Es braucht kein Kochen",
+                                    "nl": "Het hoeft niet gekookt te worden"
+                            },
+                            {
+                                    "en": "It stays frozen",
+                                    "es": "Se mantiene congelado",
+                                    "de": "Es bleibt gefroren",
+                                    "nl": "Het blijft bevroren"
+                            },
+                            {
+                                    "en": "It has no sugar",
+                                    "es": "No tiene azúcar",
+                                    "de": "Es hat keinen Zucker",
+                                    "nl": "Het heeft geen suiker"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Self-saucing pudding is poured with liquid that separates during baking, creating a cake layer on top and sauce underneath.",
+                            "es": "El pudín con salsa propia se vierte con líquido que se separa al hornear, creando una capa de pastel arriba y salsa abajo.",
+                            "de": "Self-Saucing Pudding wird mit Flüssigkeit gegossen, die sich beim Backen trennt und oben Kuchen, unten Sauce bildet.",
+                            "nl": "Self-saucing pudding wordt gegoten met vloeistof die tijdens het bakken scheidt, een cakelaag bovenop en saus eronder creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is clootie dumpling?",
+                            "es": "¿Qué es el clootie dumpling?",
+                            "de": "Was ist Clootie Dumpling?",
+                            "nl": "Wat is clootie dumpling?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A Scottish steamed pudding",
+                                    "es": "Un pudín escocés al vapor",
+                                    "de": "Ein schottischer gedämpfter Pudding",
+                                    "nl": "Een Schotse gestoomde pudding"
+                            },
+                            {
+                                    "en": "An Irish bread",
+                                    "es": "Un pan irlandés",
+                                    "de": "Ein irisches Brot",
+                                    "nl": "Een Iers brood"
+                            },
+                            {
+                                    "en": "A Welsh cake",
+                                    "es": "Un pastel galés",
+                                    "de": "Ein walisischer Kuchen",
+                                    "nl": "Een Welshe cake"
+                            },
+                            {
+                                    "en": "An English tart",
+                                    "es": "Una tarta inglesa",
+                                    "de": "Eine englische Torte",
+                                    "nl": "Een Engelse taart"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Clootie dumpling is a traditional Scottish pudding cooked in a cloth ('cloot'), filled with dried fruits and spices.",
+                            "es": "El clootie dumpling es un pudín escocés tradicional cocido en un paño ('cloot'), relleno de frutas secas y especias.",
+                            "de": "Clootie Dumpling ist ein traditioneller schottischer Pudding, in einem Tuch ('cloot') gekocht, mit Trockenfrüchten und Gewürzen.",
+                            "nl": "Clootie dumpling is een traditionele Schotse pudding gekookt in een doek ('cloot'), gevuld met gedroogd fruit en specerijen."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the texture of properly made rice pudding?",
+                            "es": "¿Cuál es la textura del arroz con leche bien hecho?",
+                            "de": "Welche Textur hat richtig gemachter Milchreis?",
+                            "nl": "Wat is de textuur van goed gemaakte rijstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Creamy and tender",
+                                    "es": "Cremoso y tierno",
+                                    "de": "Cremig und zart",
+                                    "nl": "Romig en zacht"
+                            },
+                            {
+                                    "en": "Hard and crunchy",
+                                    "es": "Duro y crujiente",
+                                    "de": "Hart und knusprig",
+                                    "nl": "Hard en knapperig"
+                            },
+                            {
+                                    "en": "Watery and thin",
+                                    "es": "Aguado y fino",
+                                    "de": "Wässrig und dünn",
+                                    "nl": "Waterig en dun"
+                            },
+                            {
+                                    "en": "Dry and tough",
+                                    "es": "Seco y duro",
+                                    "de": "Trocken und zäh",
+                                    "nl": "Droog en taai"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Well-made rice pudding should be creamy and tender, with rice grains soft but still intact, not mushy or watery.",
+                            "es": "El arroz con leche bien hecho debe ser cremoso y tierno, con granos de arroz suaves pero intactos, no pastoso ni aguado.",
+                            "de": "Gut gemachter Milchreis sollte cremig und zart sein, mit weichen, aber noch intakten Reiskörnern, nicht matschig oder wässrig.",
+                            "nl": "Goed gemaakte rijstpudding moet romig en zacht zijn, met rijstkorrels zacht maar nog intact, niet papperig of waterig."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is cottage pudding typically served with?",
+                            "es": "¿Con qué se sirve típicamente el cottage pudding?",
+                            "de": "Womit wird Cottage Pudding typisch serviert?",
+                            "nl": "Waarmee wordt cottage pudding meestal geserveerd?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Warm sauce",
+                                    "es": "Salsa caliente",
+                                    "de": "Warme Sauce",
+                                    "nl": "Warme saus"
+                            },
+                            {
+                                    "en": "Ice cream",
+                                    "es": "Helado",
+                                    "de": "Eiscreme",
+                                    "nl": "Ijs"
+                            },
+                            {
+                                    "en": "Whipped cream",
+                                    "es": "Crema batida",
+                                    "de": "Schlagsahne",
+                                    "nl": "Slagroom"
+                            },
+                            {
+                                    "en": "Custard",
+                                    "es": "Natillas",
+                                    "de": "Vanillepudding",
+                                    "nl": "Vla"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Cottage pudding is a simple American cake-like pudding, traditionally served warm with a sweet sauce poured over it.",
+                            "es": "El cottage pudding es un pudín americano simple tipo pastel, servido tradicionalmente caliente con salsa dulce encima.",
+                            "de": "Cottage Pudding ist ein einfacher amerikanischer kuchenähnlicher Pudding, traditionell warm mit süßer Sauce darüber serviert.",
+                            "nl": "Cottage pudding is een eenvoudige Amerikaanse cakeachtige pudding, traditioneel warm geserveerd met zoete saus erover."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes chocolate self-saucing pudding work?",
+                            "es": "¿Qué hace que funcione el pudín de chocolate con salsa propia?",
+                            "de": "Was lässt Schokoladen-Self-Saucing-Pudding funktionieren?",
+                            "nl": "Wat zorgt ervoor dat chocolade self-saucing pudding werkt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Hot water poured over batter",
+                                    "es": "Agua caliente vertida sobre la masa",
+                                    "de": "Heißes Wasser über Teig gegossen",
+                                    "nl": "Heet water over beslag gegoten"
+                            },
+                            {
+                                    "en": "Cold milk added",
+                                    "es": "Leche fría añadida",
+                                    "de": "Kalte Milch hinzugefügt",
+                                    "nl": "Koude melk toegevoegd"
+                            },
+                            {
+                                    "en": "Frozen butter used",
+                                    "es": "Mantequilla congelada usada",
+                                    "de": "Gefrorene Butter verwendet",
+                                    "nl": "Bevroren boter gebruikt"
+                            },
+                            {
+                                    "en": "Extra eggs beaten in",
+                                    "es": "Huevos extra batidos",
+                                    "de": "Extra Eier eingeschlagen",
+                                    "nl": "Extra eieren erdoor geklopt"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Chocolate self-saucing pudding works by pouring hot water over the batter, which sinks and creates chocolate sauce underneath.",
+                            "es": "El pudín de chocolate con salsa propia funciona vertiendo agua caliente sobre la masa, que se hunde y crea salsa de chocolate abajo.",
+                            "de": "Schokoladen-Self-Saucing-Pudding funktioniert durch Gießen von heißem Wasser über den Teig, der sinkt und Schokoladensoße bildet.",
+                            "nl": "Chocolade self-saucing pudding werkt door heet water over het beslag te gieten, dat zakt en chocoladesaus eronder creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is arroz con leche?",
+                            "es": "¿Qué es el arroz con leche?",
+                            "de": "Was ist Arroz con Leche?",
+                            "nl": "Wat is arroz con leche?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Spanish rice pudding",
+                                    "es": "Arroz con leche español",
+                                    "de": "Spanischer Milchreis",
+                                    "nl": "Spaanse rijstpudding"
+                            },
+                            {
+                                    "en": "Mexican salsa",
+                                    "es": "Salsa mexicana",
+                                    "de": "Mexikanische Salsa",
+                                    "nl": "Mexicaanse salsa"
+                            },
+                            {
+                                    "en": "Cuban sandwich",
+                                    "es": "Sándwich cubano",
+                                    "de": "Kubanisches Sandwich",
+                                    "nl": "Cubaanse sandwich"
+                            },
+                            {
+                                    "en": "Argentine stew",
+                                    "es": "Guiso argentino",
+                                    "de": "Argentinischer Eintopf",
+                                    "nl": "Argentijnse stoofpot"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Arroz con leche is Spanish rice pudding, flavored with cinnamon and lemon zest, popular throughout Latin America.",
+                            "es": "El arroz con leche es un pudín de arroz español, aromatizado con canela y ralladura de limón, popular en Latinoamérica.",
+                            "de": "Arroz con Leche ist spanischer Milchreis, mit Zimt und Zitronenschale gewürzt, in ganz Lateinamerika beliebt.",
+                            "nl": "Arroz con leche is Spaanse rijstpudding, op smaak gebracht met kaneel en citroenschil, populair in Latijns-Amerika."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is jam roly-poly?",
+                            "es": "¿Qué es el jam roly-poly?",
+                            "de": "Was ist Jam Roly-Poly?",
+                            "nl": "Wat is jam roly-poly?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A rolled suet pudding with jam",
+                                    "es": "Un pudín de sebo enrollado con mermelada",
+                                    "de": "Ein gerollter Talgpudding mit Marmelade",
+                                    "nl": "Een gerolde rundervetpudding met jam"
+                            },
+                            {
+                                    "en": "A layered cake",
+                                    "es": "Un pastel en capas",
+                                    "de": "Ein Schichtkuchen",
+                                    "nl": "Een gelaagde taart"
+                            },
+                            {
+                                    "en": "A fruit tart",
+                                    "es": "Una tarta de frutas",
+                                    "de": "Eine Obsttorte",
+                                    "nl": "Een fruittaart"
+                            },
+                            {
+                                    "en": "A cookie",
+                                    "es": "Una galleta",
+                                    "de": "Ein Keks",
+                                    "nl": "Een koekje"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Jam roly-poly is a traditional British steamed pudding made by rolling jam in suet pastry, also called 'shirt-sleeve pudding'.",
+                            "es": "El jam roly-poly es un pudín británico al vapor hecho enrollando mermelada en masa de sebo, también llamado 'pudín de manga'.",
+                            "de": "Jam Roly-Poly ist ein traditioneller britischer gedämpfter Pudding aus Marmelade in Talgteig gerollt, auch 'Shirt-Sleeve Pudding' genannt.",
+                            "nl": "Jam roly-poly is een traditionele Britse gestoomde pudding gemaakt door jam in rundervetdeeg te rollen, ook 'shirt-sleeve pudding' genoemd."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What es butterscotch primarily made?",
+                            "es": "¿De qué se hace principalmente el caramelo?",
+                            "de": "Woraus wird Butterscotch hauptsächlich hergestellt?",
+                            "nl": "Waar wordt butterscotch voornamelijk van gemaakt?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Brown sugar and butter",
+                                    "es": "Azúcar moreno y mantequilla",
+                                    "de": "Brauner Zucker und Butter",
+                                    "nl": "Bruine suiker en boter"
+                            },
+                            {
+                                    "en": "White sugar and cream",
+                                    "es": "Azúcar blanco y crema",
+                                    "de": "Weißer Zucker und Sahne",
+                                    "nl": "Witte suiker en room"
+                            },
+                            {
+                                    "en": "Honey and oil",
+                                    "es": "Miel y aceite",
+                                    "de": "Honig und Öl",
+                                    "nl": "Honing en olie"
+                            },
+                            {
+                                    "en": "Maple syrup and milk",
+                                    "es": "Jarabe de arce y leche",
+                                    "de": "Ahornsirup und Milch",
+                                    "nl": "Ahornsiroop en melk"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Butterscotch is made by caramelizing brown sugar with butter, creating a rich, buttery toffee flavor distinct from caramel.",
+                            "es": "El caramelo se hace caramelizando azúcar moreno con mantequilla, creando un rico sabor a caramelo mantecoso distinto del caramelo.",
+                            "de": "Butterscotch wird durch Karamellisieren von braunem Zucker mit Butter hergestellt, ein reichhaltiger, butterartiger Toffee-Geschmack.",
+                            "nl": "Butterscotch wordt gemaakt door bruine suiker met boter te karamelliseren, wat een rijke, boterachtige toffeesmaak creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is rødgrød?",
+                            "es": "¿Qué es el rødgrød?",
+                            "de": "Was ist Rødgrød?",
+                            "nl": "Wat is rødgrød?"
+                    },
+                    "options": [
+                            {
+                                    "en": "A Danish red berry pudding",
+                                    "es": "Un pudín danés de bayas rojas",
+                                    "de": "Ein dänischer Rote-Beeren-Pudding",
+                                    "nl": "Een Deense rode bessenpudding"
+                            },
+                            {
+                                    "en": "A Swedish meatball",
+                                    "es": "Una albóndiga sueca",
+                                    "de": "Ein schwedischer Fleischball",
+                                    "nl": "Een Zweedse gehaktbal"
+                            },
+                            {
+                                    "en": "A Norwegian fish",
+                                    "es": "Un pescado noruego",
+                                    "de": "Ein norwegischer Fisch",
+                                    "nl": "Een Noorse vis"
+                            },
+                            {
+                                    "en": "A Finnish bread",
+                                    "es": "Un pan finlandés",
+                                    "de": "Ein finnisches Brot",
+                                    "nl": "Een Fins brood"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Rødgrød is a Danish dessert made from red berries like raspberries and currants, thickened with starch and served with cream.",
+                            "es": "El rødgrød es un postre danés hecho de bayas rojas como frambuesas y grosellas, espesado con almidón y servido con crema.",
+                            "de": "Rødgrød ist ein dänisches Dessert aus roten Beeren wie Himbeeren und Johannisbeeren, mit Stärke verdickt und mit Sahne serviert.",
+                            "nl": "Rødgrød is een Deens dessert gemaakt van rode bessen zoals frambozen en bessen, verdikt met zetmeel en geserveerd met room."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes bread pudding economical?",
+                            "es": "¿Qué hace que el pudín de pan sea económico?",
+                            "de": "Was macht Brotpudding wirtschaftlich?",
+                            "nl": "Wat maakt broodpudding economisch?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Uses leftover stale bread",
+                                    "es": "Usa pan duro sobrante",
+                                    "de": "Verwendet übrig gebliebenes altes Brot",
+                                    "nl": "Gebruikt oud brood dat over is"
+                            },
+                            {
+                                    "en": "Requires no cooking",
+                                    "es": "No requiere cocción",
+                                    "de": "Benötigt kein Kochen",
+                                    "nl": "Vereist geen koken"
+                            },
+                            {
+                                    "en": "Uses expensive ingredients",
+                                    "es": "Usa ingredientes caros",
+                                    "de": "Verwendet teure Zutaten",
+                                    "nl": "Gebruikt dure ingrediënten"
+                            },
+                            {
+                                    "en": "Needs special equipment",
+                                    "es": "Necesita equipo especial",
+                                    "de": "Benötigt spezielle Ausrüstung",
+                                    "nl": "Heeft speciale apparatuur nodig"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Bread pudding is economical because it uses leftover stale bread that would otherwise be wasted, making it a thrifty dessert.",
+                            "es": "El pudín de pan es económico porque usa pan duro sobrante que de otro modo se desperdiciaría, haciéndolo un postre económico.",
+                            "de": "Brotpudding ist wirtschaftlich, weil er übrig gebliebenes altes Brot verwendet, das sonst verschwendet würde, ein sparsames Dessert.",
+                            "nl": "Broodpudding is economisch omdat het oud brood gebruikt dat anders zou worden verspild, waardoor het een zuinig dessert is."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the main characteristic of a baked custard?",
+                            "es": "¿Cuál es la característica principal de unas natillas horneadas?",
+                            "de": "Was ist das Hauptmerkmal eines gebackenen Vanillepuddings?",
+                            "nl": "Wat is het belangrijkste kenmerk van een gebakken vla?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Set firm texture",
+                                    "es": "Textura firme cuajada",
+                                    "de": "Feste Textur",
+                                    "nl": "Stevige gezette textuur"
+                            },
+                            {
+                                    "en": "Liquid consistency",
+                                    "es": "Consistencia líquida",
+                                    "de": "Flüssige Konsistenz",
+                                    "nl": "Vloeibare consistentie"
+                            },
+                            {
+                                    "en": "Frozen solid",
+                                    "es": "Congelado sólido",
+                                    "de": "Gefroren fest",
+                                    "nl": "Bevroren vast"
+                            },
+                            {
+                                    "en": "Whipped and airy",
+                                    "es": "Batido y aireado",
+                                    "de": "Geschlagen und luftig",
+                                    "nl": "Geklopt en luchtig"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Baked custard sets into a firm yet creamy texture when eggs coagulate in the oven, different from pourable stirred custard.",
+                            "es": "Las natillas horneadas se cuajan en una textura firme pero cremosa cuando los huevos se coagulan en el horno.",
+                            "de": "Gebackener Vanillepudding setzt sich zu einer festen, aber cremigen Textur, wenn Eier im Ofen gerinnen.",
+                            "nl": "Gebakken vla zet in een stevige maar romige textuur wanneer eieren stollen in de oven, anders dan gietbare vla."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the difference between pudding and custard?",
+                            "es": "¿Cuál es la diferencia entre pudín y natillas?",
+                            "de": "Was ist der Unterschied zwischen Pudding und Vanillepudding?",
+                            "nl": "Wat is het verschil tussen pudding en vla?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Pudding can use starch, custard uses eggs",
+                                    "es": "El pudín puede usar almidón, las natillas usan huevos",
+                                    "de": "Pudding kann Stärke verwenden, Vanillepudding verwendet Eier",
+                                    "nl": "Pudding kan zetmeel gebruiken, vla gebruikt eieren"
+                            },
+                            {
+                                    "en": "They are exactly the same",
+                                    "es": "Son exactamente lo mismo",
+                                    "de": "Sie sind genau dasselbe",
+                                    "nl": "Ze zijn precies hetzelfde"
+                            },
+                            {
+                                    "en": "Pudding is always frozen",
+                                    "es": "El pudín siempre está congelado",
+                                    "de": "Pudding ist immer gefroren",
+                                    "nl": "Pudding is altijd bevroren"
+                            },
+                            {
+                                    "en": "Custard contains no milk",
+                                    "es": "Las natillas no contienen leche",
+                                    "de": "Vanillepudding enthält keine Milch",
+                                    "nl": "Vla bevat geen melk"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Puddings can be thickened with starch, gelatin, or eggs, while custards are specifically thickened with eggs only.",
+                            "es": "Los pudines pueden espesarse con almidón, gelatina o huevos, mientras que las natillas se espesan específicamente solo con huevos.",
+                            "de": "Puddings können mit Stärke, Gelatine oder Eiern verdickt werden, während Vanillepudding speziell nur mit Eiern verdickt wird.",
+                            "nl": "Puddings kunnen worden verdikt met zetmeel, gelatine of eieren, terwijl vla specifiek alleen met eieren wordt verdikt."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What does 'steaming' mean in pudding cooking?",
+                            "es": "¿Qué significa 'al vapor' en la cocción de pudines?",
+                            "de": "Was bedeutet 'Dämpfen' beim Puddingkochen?",
+                            "nl": "Wat betekent 'stomen' bij het koken van pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cooking over hot water vapor",
+                                    "es": "Cocinar sobre vapor de agua caliente",
+                                    "de": "Kochen über heißem Wasserdampf",
+                                    "nl": "Koken boven hete waterdamp"
+                            },
+                            {
+                                    "en": "Frying in oil",
+                                    "es": "Freír en aceite",
+                                    "de": "Braten in Öl",
+                                    "nl": "Bakken in olie"
+                            },
+                            {
+                                    "en": "Grilling over flames",
+                                    "es": "Asar sobre llamas",
+                                    "de": "Grillen über Flammen",
+                                    "nl": "Grillen boven vlammen"
+                            },
+                            {
+                                    "en": "Microwaving on high",
+                                    "es": "Calentar en microondas a alta potencia",
+                                    "de": "Erhitzen in Mikrowelle auf hoch",
+                                    "nl": "in de magnetron op hoog vermogen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Steaming means cooking food in the steam from boiling water below, a gentle method perfect for delicate puddings.",
+                            "es": "Al vapor significa cocinar alimentos en el vapor de agua hirviendo debajo, un método suave perfecto para pudines delicados.",
+                            "de": "Dämpfen bedeutet Kochen von Lebensmitteln im Dampf von kochendem Wasser darunter, eine sanfte Methode für Puddings.",
+                            "nl": "Stomen betekent eten koken in de stoom van kokend water eronder, een zachte methode perfect voor delicate puddings."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the purpose of a bain-marie for puddings?",
+                            "es": "¿Cuál es el propósito de un baño María para pudines?",
+                            "de": "Was ist der Zweck eines Bain-Marie für Puddings?",
+                            "nl": "Wat is het doel van een bain-marie voor puddings?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Gentle, even heat distribution",
+                                    "es": "Distribución suave y uniforme del calor",
+                                    "de": "Sanfte, gleichmäßige Wärmeverteilung",
+                                    "nl": "Zachte, gelijkmatige warmteverdeling"
+                            },
+                            {
+                                    "en": "Faster cooking time",
+                                    "es": "Tiempo de cocción más rápido",
+                                    "de": "Schnellere Garzeit",
+                                    "nl": "Snellere kooktijd"
+                            },
+                            {
+                                    "en": "Adding extra moisture",
+                                    "es": "Añadir humedad extra",
+                                    "de": "Zusätzliche Feuchtigkeit hinzufügen",
+                                    "nl": "Extra vocht toevoegen"
+                            },
+                            {
+                                    "en": "Browning the top",
+                                    "es": "Dorar la parte superior",
+                                    "de": "Bräunen der Oberseite",
+                                    "nl": "Bruinen van de bovenkant"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "A bain-marie (water bath) provides gentle, even heat for delicate puddings, preventing curdling and ensuring smooth texture.",
+                            "es": "Un baño María proporciona calor suave y uniforme para pudines delicados, evitando que se cuajen y asegurando textura lisa.",
+                            "de": "Ein Bain-Marie (Wasserbad) bietet sanfte, gleichmäßige Hitze für zarte Puddings, verhindert Gerinnen und sorgt für glatte Textur.",
+                            "nl": "Een bain-marie (waterbad) biedt zachte, gelijkmatige warmte voor delicate puddings, voorkomt schiften en zorgt voor gladde textuur."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which spice is often used in Christmas pudding?",
+                            "es": "¿Qué especia se usa a menudo en el pudín de Navidad?",
+                            "de": "Welches Gewürz wird oft im Weihnachtspudding verwendet?",
+                            "nl": "Welke specerij wordt vaak gebruikt in kerstpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Nutmeg",
+                                    "es": "Nuez moscada",
+                                    "de": "Muskatnuss",
+                                    "nl": "Nootmuskaat"
+                            },
+                            {
+                                    "en": "Cayenne pepper",
+                                    "es": "Pimienta de cayena",
+                                    "de": "Cayennepfeffer",
+                                    "nl": "Cayennepeper"
+                            },
+                            {
+                                    "en": "Turmeric",
+                                    "es": "Cúrcuma",
+                                    "de": "Kurkuma",
+                                    "nl": "Kurkuma"
+                            },
+                            {
+                                    "en": "Basil",
+                                    "es": "Albahaca",
+                                    "de": "Basilikum",
+                                    "nl": "Basilicum"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Christmas pudding traditionally contains warm spices like nutmeg, cinnamon, and cloves, giving it a festive flavor.",
+                            "es": "El pudín de Navidad tradicionalmente contiene especias cálidas como nuez moscada, canela y clavos, dándole sabor festivo.",
+                            "de": "Weihnachtspudding enthält traditionell warme Gewürze wie Muskatnuss, Zimt und Nelken, die ihm festlichen Geschmack verleihen.",
+                            "nl": "Kerstpudding bevat traditioneel warme specerijen zoals nootmuskaat, kaneel en kruidnagel, wat het een feestelijke smaak geeft."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes Yorkshire pudding rise?",
+                            "es": "¿Qué hace que el Yorkshire pudding suba?",
+                            "de": "Was lässt Yorkshire Pudding aufgehen?",
+                            "nl": "Wat zorgt ervoor dat Yorkshire pudding rijst?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Hot oven and eggs",
+                                    "es": "Horno caliente y huevos",
+                                    "de": "Heißer Ofen und Eier",
+                                    "nl": "Hete oven en eieren"
+                            },
+                            {
+                                    "en": "Yeast",
+                                    "es": "Levadura",
+                                    "de": "Hefe",
+                                    "nl": "Gist"
+                            },
+                            {
+                                    "en": "Baking soda",
+                                    "es": "Bicarbonato de sodio",
+                                    "de": "Natron",
+                                    "nl": "Zuiveringszout"
+                            },
+                            {
+                                    "en": "Whipped cream",
+                                    "es": "Crema batida",
+                                    "de": "Schlagsahne",
+                                    "nl": "Slagroom"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Yorkshire pudding rises due to steam from eggs and milk in very hot oil, creating a crispy, puffy structure without leavening agents.",
+                            "es": "El Yorkshire pudding sube debido al vapor de huevos y leche en aceite muy caliente, creando estructura crujiente y esponjosa.",
+                            "de": "Yorkshire Pudding steigt durch Dampf von Eiern und Milch in sehr heißem Öl auf, schafft knusprige, aufgegangene Struktur.",
+                            "nl": "Yorkshire pudding rijst door stoom van eieren en melk in zeer hete olie, wat een knapperige, luchtige structuur creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is suet used for in puddings?",
+                            "es": "¿Para qué se usa el sebo en los pudines?",
+                            "de": "Wofür wird Talg in Puddings verwendet?",
+                            "nl": "Waarvoor wordt rundervet gebruikt in puddings?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Fat for rich texture",
+                                    "es": "Grasa para textura rica",
+                                    "de": "Fett für reiche Textur",
+                                    "nl": "Vet voor rijke textuur"
+                            },
+                            {
+                                    "en": "Sweetening",
+                                    "es": "Endulzar",
+                                    "de": "Süßen",
+                                    "nl": "Zoeten"
+                            },
+                            {
+                                    "en": "Coloring",
+                                    "es": "Colorear",
+                                    "de": "Färben",
+                                    "nl": "Kleuren"
+                            },
+                            {
+                                    "en": "Thickening liquid",
+                                    "es": "Espesar líquido",
+                                    "de": "Flüssigkeit verdicken",
+                                    "nl": "Vloeistof verdikken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Suet is a hard animal fat used in traditional British steamed puddings to create a rich, moist texture and structure.",
+                            "es": "El sebo es una grasa animal dura usada en pudines británicos al vapor para crear textura rica y húmeda y estructura.",
+                            "de": "Talg ist ein hartes tierisches Fett, das in traditionellen britischen gedämpften Puddings für reiche, feuchte Textur verwendet wird.",
+                            "nl": "Rundervet is een hard dierlijk vet dat in traditionele Britse gestoomde puddings wordt gebruikt voor een rijke, vochtige textuur."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the key to smooth vanilla pudding?",
+                            "es": "¿Cuál es la clave para un pudín de vainilla suave?",
+                            "de": "Was ist der Schlüssel zu glattem Vanillepudding?",
+                            "nl": "Wat is de sleutel tot gladde vanillepudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Constant stirring while cooking",
+                                    "es": "Revolver constantemente mientras se cocina",
+                                    "de": "Ständiges Rühren beim Kochen",
+                                    "nl": "Constant roeren tijdens het koken"
+                            },
+                            {
+                                    "en": "Adding ice cubes",
+                                    "es": "Añadir cubitos de hielo",
+                                    "de": "Eiswürfel hinzufügen",
+                                    "nl": "IJsblokjes toevoegen"
+                            },
+                            {
+                                    "en": "Using boiling water",
+                                    "es": "Usar agua hirviendo",
+                                    "de": "Kochendes Wasser verwenden",
+                                    "nl": "Kokend water gebruiken"
+                            },
+                            {
+                                    "en": "Freezing immediately",
+                                    "es": "Congelar inmediatamente",
+                                    "de": "Sofort einfrieren",
+                                    "nl": "Onmiddellijk bevriezen"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Constant stirring while cooking vanilla pudding prevents lumps and ensures the starch or eggs thicken smoothly and evenly.",
+                            "es": "Revolver constantemente mientras se cocina el pudín de vainilla evita grumos y asegura que el almidón o huevos espesen suavemente.",
+                            "de": "Ständiges Rühren beim Kochen von Vanillepudding verhindert Klumpen und sorgt dafür, dass Stärke oder Eier glatt verdicken.",
+                            "nl": "Constant roeren tijdens het koken van vanillepudding voorkomt klontjes en zorgt dat zetmeel of eieren glad en gelijkmatig verdikken."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What makes tapioca pearls translucent?",
+                            "es": "¿Qué hace que las perlas de tapioca sean translúcidas?",
+                            "de": "Was macht Tapioka-Perlen durchscheinend?",
+                            "nl": "Wat maakt tapiocaparels doorschijnend?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Cooking in liquid",
+                                    "es": "Cocinar en líquido",
+                                    "de": "Kochen in Flüssigkeit",
+                                    "nl": "Koken in vloeistof"
+                            },
+                            {
+                                    "en": "Adding food coloring",
+                                    "es": "Añadir colorante alimentario",
+                                    "de": "Lebensmittelfarbe hinzufügen",
+                                    "nl": "Voedselkleurstof toevoegen"
+                            },
+                            {
+                                    "en": "Freezing them",
+                                    "es": "Congelarlas",
+                                    "de": "Sie einfrieren",
+                                    "nl": "Ze bevriezen"
+                            },
+                            {
+                                    "en": "Exposing to sunlight",
+                                    "es": "Exponer a la luz solar",
+                                    "de": "Sonnenlicht aussetzen",
+                                    "nl": "Blootstellen aan zonlicht"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Tapioca pearls become translucent when cooked in liquid as the starch granules absorb water and swell, turning clear.",
+                            "es": "Las perlas de tapioca se vuelven translúcidas cuando se cocinan en líquido ya que los gránulos de almidón absorben agua y se hinchan.",
+                            "de": "Tapioka-Perlen werden durchscheinend, wenn sie in Flüssigkeit gekocht werden, da Stärkekörner Wasser aufnehmen und klar werden.",
+                            "nl": "Tapiocaparels worden doorschijnend wanneer ze in vloeistof worden gekookt doordat zetmeelkorrels water absorberen en helder worden."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the traditional shape of a steamed pudding?",
+                            "es": "¿Cuál es la forma tradicional de un pudín al vapor?",
+                            "de": "Was ist die traditionelle Form eines gedämpften Puddings?",
+                            "nl": "Wat is de traditionele vorm van een gestoomde pudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Dome or bowl shape",
+                                    "es": "Forma de cúpula o tazón",
+                                    "de": "Kuppel- oder Schüsselform",
+                                    "nl": "Koepel- of komvorm"
+                            },
+                            {
+                                    "en": "Flat square",
+                                    "es": "Cuadrado plano",
+                                    "de": "Flaches Quadrat",
+                                    "nl": "Plat vierkant"
+                            },
+                            {
+                                    "en": "Long cylinder",
+                                    "es": "Cilindro largo",
+                                    "de": "Langer Zylinder",
+                                    "nl": "Lange cilinder"
+                            },
+                            {
+                                    "en": "Triangle",
+                                    "es": "Triángulo",
+                                    "de": "Dreieck",
+                                    "nl": "Driehoek"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Traditional steamed puddings are cooked in basin molds, creating a characteristic dome or bowl shape when turned out.",
+                            "es": "Los pudines al vapor tradicionales se cocinan en moldes de recipiente, creando una forma de cúpula característica al desmoldar.",
+                            "de": "Traditionelle gedämpfte Puddings werden in Schüsselformen gekocht, die beim Stürzen eine charakteristische Kuppelform erzeugen.",
+                            "nl": "Traditionele gestoomde puddings worden gekookt in komvormige mallen, wat een karakteristieke koepelvorm creëert bij het storten."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is floating island dessert?",
+                            "es": "¿Qué es el postre isla flotante?",
+                            "de": "Was ist das Floating Island Dessert?",
+                            "nl": "Wat is drijvend eiland dessert?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Meringue floating on custard",
+                                    "es": "Merengue flotando en natillas",
+                                    "de": "Baiser schwimmend auf Vanillepudding",
+                                    "nl": "Schuim drijvend op vla"
+                            },
+                            {
+                                    "en": "Ice cream in coffee",
+                                    "es": "Helado en café",
+                                    "de": "Eiscreme im Kaffee",
+                                    "nl": "Ijs in koffie"
+                            },
+                            {
+                                    "en": "Fruit in jelly",
+                                    "es": "Fruta en gelatina",
+                                    "de": "Obst in Gelee",
+                                    "nl": "Fruit in gelei"
+                            },
+                            {
+                                    "en": "Cake in syrup",
+                                    "es": "Pastel en jarabe",
+                                    "de": "Kuchen in Sirup",
+                                    "nl": "Cake in siroop"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Floating island (île flottante) is a French dessert with poached meringue 'islands' floating on a pool of vanilla custard.",
+                            "es": "La isla flotante (île flottante) es un postre francés con 'islas' de merengue escalfado flotando en natillas de vainilla.",
+                            "de": "Floating Island (Île Flottante) ist ein französisches Dessert mit pochierten Baiser-'Inseln' auf Vanillepudding schwimmend.",
+                            "nl": "Drijvend eiland (île flottante) is een Frans dessert met gepocheerde schuim-'eilanden' drijvend op een poel van vanillevla."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Why is milk the base of most puddings?",
+                            "es": "¿Por qué la leche es la base de la mayoría de los pudines?",
+                            "de": "Warum ist Milch die Basis der meisten Puddings?",
+                            "nl": "Waarom is melk de basis van de meeste puddings?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Provides creaminess and protein",
+                                    "es": "Proporciona cremosidad y proteína",
+                                    "de": "Bietet Cremigkeit und Protein",
+                                    "nl": "Biedt romigheid en eiwit"
+                            },
+                            {
+                                    "en": "Makes puddings colorful",
+                                    "es": "Hace que los pudines sean coloridos",
+                                    "de": "Macht Puddings bunt",
+                                    "nl": "Maakt puddings kleurrijk"
+                            },
+                            {
+                                    "en": "Adds crunchiness",
+                                    "es": "Añade textura crujiente",
+                                    "de": "Fügt Knusprigkeit hinzu",
+                                    "nl": "Voegt knapperigheid toe"
+                            },
+                            {
+                                    "en": "Prevents cooking",
+                                    "es": "Previene la cocción",
+                                    "de": "Verhindert das Kochen",
+                                    "nl": "Voorkomt koken"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Milk provides the creamy base and protein for most puddings, helping them set properly and creating a smooth, rich texture.",
+                            "es": "La leche proporciona la base cremosa y proteína para la mayoría de los pudines, ayudándoles a cuajar correctamente con textura suave.",
+                            "de": "Milch bietet die cremige Basis und Protein für die meisten Puddings, hilft ihnen richtig zu setzen und schafft glatte Textur.",
+                            "nl": "Melk biedt de romige basis en eiwit voor de meeste puddings, helpt ze goed te zetten en creëert een gladde, rijke textuur."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the purpose of soaking bread in bread pudding?",
+                            "es": "¿Cuál es el propósito de remojar el pan en el pudín de pan?",
+                            "de": "Was ist der Zweck des Einweichens von Brot im Brotpudding?",
+                            "nl": "Wat is het doel van het weken van brood in broodpudding?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Softens bread and absorbs custard",
+                                    "es": "Ablanda el pan y absorbe las natillas",
+                                    "de": "Macht Brot weich und absorbiert Vanillepudding",
+                                    "nl": "Maakt brood zacht en absorbeert vla"
+                            },
+                            {
+                                    "en": "Makes bread crunchy",
+                                    "es": "Hace el pan crujiente",
+                                    "de": "Macht Brot knusprig",
+                                    "nl": "Maakt brood knapperig"
+                            },
+                            {
+                                    "en": "Removes all flavor",
+                                    "es": "Elimina todo el sabor",
+                                    "de": "Entfernt allen Geschmack",
+                                    "nl": "Verwijdert alle smaak"
+                            },
+                            {
+                                    "en": "Changes bread color only",
+                                    "es": "Cambia solo el color del pan",
+                                    "de": "Ändert nur die Brotfarbe",
+                                    "nl": "Verandert alleen broodkleur"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Soaking bread in bread pudding softens the stale bread and allows it to absorb the custard mixture, creating a moist, cohesive dessert.",
+                            "es": "Remojar el pan en el pudín de pan ablanda el pan duro y le permite absorber la mezcla de natillas, creando un postre húmedo.",
+                            "de": "Das Einweichen von Brot im Brotpudding macht altes Brot weich und ermöglicht es, die Vanillepudding-Mischung aufzunehmen.",
+                            "nl": "Het weken van brood in broodpudding maakt oud brood zacht en laat het de vla-mengsel absorberen, wat een vochtig dessert creëert."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Puddings?",
+                            "es": "¿Cómo does this relate to Puddings?",
+                            "de": "Wie does this relate to Puddings?",
+                            "nl": "Hoe does this relate to Puddings?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 72",
+                                    "es": "Correct answer for question 72",
+                                    "de": "Correct answer for question 72",
+                                    "nl": "Correct answer for question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 72",
+                                    "es": "Incorrect option 2 para question 72",
+                                    "de": "Incorrect option 2 für question 72",
+                                    "nl": "Incorrect option 2 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 72",
+                                    "es": "Incorrect option 3 para question 72",
+                                    "de": "Incorrect option 3 für question 72",
+                                    "nl": "Incorrect option 3 voor question 72"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 72",
+                                    "es": "Incorrect option 4 para question 72",
+                                    "de": "Incorrect option 4 für question 72",
+                                    "nl": "Incorrect option 4 voor question 72"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 73",
+                                    "es": "Correct answer for question 73",
+                                    "de": "Correct answer for question 73",
+                                    "nl": "Correct answer for question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 73",
+                                    "es": "Incorrect option 2 para question 73",
+                                    "de": "Incorrect option 2 für question 73",
+                                    "nl": "Incorrect option 2 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 73",
+                                    "es": "Incorrect option 3 para question 73",
+                                    "de": "Incorrect option 3 für question 73",
+                                    "nl": "Incorrect option 3 voor question 73"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 73",
+                                    "es": "Incorrect option 4 para question 73",
+                                    "de": "Incorrect option 4 für question 73",
+                                    "nl": "Incorrect option 4 voor question 73"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 74",
+                                    "es": "Incorrect option 1 para question 74",
+                                    "de": "Incorrect option 1 für question 74",
+                                    "nl": "Incorrect option 1 voor question 74"
+                            },
+                            {
+                                    "en": "Correct answer for question 74",
+                                    "es": "Correct answer for question 74",
+                                    "de": "Correct answer for question 74",
+                                    "nl": "Correct answer for question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 74",
+                                    "es": "Incorrect option 3 para question 74",
+                                    "de": "Incorrect option 3 für question 74",
+                                    "nl": "Incorrect option 3 voor question 74"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 74",
+                                    "es": "Incorrect option 4 para question 74",
+                                    "de": "Incorrect option 4 für question 74",
+                                    "nl": "Incorrect option 4 voor question 74"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 75",
+                                    "es": "Incorrect option 1 para question 75",
+                                    "de": "Incorrect option 1 für question 75",
+                                    "nl": "Incorrect option 1 voor question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 75",
+                                    "es": "Incorrect option 2 para question 75",
+                                    "de": "Incorrect option 2 für question 75",
+                                    "nl": "Incorrect option 2 voor question 75"
+                            },
+                            {
+                                    "en": "Correct answer for question 75",
+                                    "es": "Correct answer for question 75",
+                                    "de": "Correct answer for question 75",
+                                    "nl": "Correct answer for question 75"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 75",
+                                    "es": "Incorrect option 4 para question 75",
+                                    "de": "Incorrect option 4 für question 75",
+                                    "nl": "Incorrect option 4 voor question 75"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 76",
+                                    "es": "Correct answer for question 76",
+                                    "de": "Correct answer for question 76",
+                                    "nl": "Correct answer for question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 76",
+                                    "es": "Incorrect option 2 para question 76",
+                                    "de": "Incorrect option 2 für question 76",
+                                    "nl": "Incorrect option 2 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 76",
+                                    "es": "Incorrect option 3 para question 76",
+                                    "de": "Incorrect option 3 für question 76",
+                                    "nl": "Incorrect option 3 voor question 76"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 76",
+                                    "es": "Incorrect option 4 para question 76",
+                                    "de": "Incorrect option 4 für question 76",
+                                    "nl": "Incorrect option 4 voor question 76"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 77",
+                                    "es": "Correct answer for question 77",
+                                    "de": "Correct answer for question 77",
+                                    "nl": "Correct answer for question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 77",
+                                    "es": "Incorrect option 2 para question 77",
+                                    "de": "Incorrect option 2 für question 77",
+                                    "nl": "Incorrect option 2 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 77",
+                                    "es": "Incorrect option 3 para question 77",
+                                    "de": "Incorrect option 3 für question 77",
+                                    "nl": "Incorrect option 3 voor question 77"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 77",
+                                    "es": "Incorrect option 4 para question 77",
+                                    "de": "Incorrect option 4 für question 77",
+                                    "nl": "Incorrect option 4 voor question 77"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 78",
+                                    "es": "Incorrect option 1 para question 78",
+                                    "de": "Incorrect option 1 für question 78",
+                                    "nl": "Incorrect option 1 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 78",
+                                    "es": "Incorrect option 2 para question 78",
+                                    "de": "Incorrect option 2 für question 78",
+                                    "nl": "Incorrect option 2 voor question 78"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 78",
+                                    "es": "Incorrect option 3 para question 78",
+                                    "de": "Incorrect option 3 für question 78",
+                                    "nl": "Incorrect option 3 voor question 78"
+                            },
+                            {
+                                    "en": "Correct answer for question 78",
+                                    "es": "Correct answer for question 78",
+                                    "de": "Correct answer for question 78",
+                                    "nl": "Correct answer for question 78"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 79",
+                                    "es": "Correct answer for question 79",
+                                    "de": "Correct answer for question 79",
+                                    "nl": "Correct answer for question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 79",
+                                    "es": "Incorrect option 2 para question 79",
+                                    "de": "Incorrect option 2 für question 79",
+                                    "nl": "Incorrect option 2 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 79",
+                                    "es": "Incorrect option 3 para question 79",
+                                    "de": "Incorrect option 3 für question 79",
+                                    "nl": "Incorrect option 3 voor question 79"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 79",
+                                    "es": "Incorrect option 4 para question 79",
+                                    "de": "Incorrect option 4 für question 79",
+                                    "nl": "Incorrect option 4 voor question 79"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 80",
+                                    "es": "Incorrect option 1 para question 80",
+                                    "de": "Incorrect option 1 für question 80",
+                                    "nl": "Incorrect option 1 voor question 80"
+                            },
+                            {
+                                    "en": "Correct answer for question 80",
+                                    "es": "Correct answer for question 80",
+                                    "de": "Correct answer for question 80",
+                                    "nl": "Correct answer for question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 80",
+                                    "es": "Incorrect option 3 para question 80",
+                                    "de": "Incorrect option 3 für question 80",
+                                    "nl": "Incorrect option 3 voor question 80"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 80",
+                                    "es": "Incorrect option 4 para question 80",
+                                    "de": "Incorrect option 4 für question 80",
+                                    "nl": "Incorrect option 4 voor question 80"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 81",
+                                    "es": "Incorrect option 1 para question 81",
+                                    "de": "Incorrect option 1 für question 81",
+                                    "nl": "Incorrect option 1 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 81",
+                                    "es": "Incorrect option 2 para question 81",
+                                    "de": "Incorrect option 2 für question 81",
+                                    "nl": "Incorrect option 2 voor question 81"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 81",
+                                    "es": "Incorrect option 3 para question 81",
+                                    "de": "Incorrect option 3 für question 81",
+                                    "nl": "Incorrect option 3 voor question 81"
+                            },
+                            {
+                                    "en": "Correct answer for question 81",
+                                    "es": "Correct answer for question 81",
+                                    "de": "Correct answer for question 81",
+                                    "nl": "Correct answer for question 81"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Puddings?",
+                            "es": "¿Cómo does this relate to Puddings?",
+                            "de": "Wie does this relate to Puddings?",
+                            "nl": "Hoe does this relate to Puddings?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 82",
+                                    "es": "Correct answer for question 82",
+                                    "de": "Correct answer for question 82",
+                                    "nl": "Correct answer for question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 82",
+                                    "es": "Incorrect option 2 para question 82",
+                                    "de": "Incorrect option 2 für question 82",
+                                    "nl": "Incorrect option 2 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 82",
+                                    "es": "Incorrect option 3 para question 82",
+                                    "de": "Incorrect option 3 für question 82",
+                                    "nl": "Incorrect option 3 voor question 82"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 82",
+                                    "es": "Incorrect option 4 para question 82",
+                                    "de": "Incorrect option 4 für question 82",
+                                    "nl": "Incorrect option 4 voor question 82"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 83",
+                                    "es": "Incorrect option 1 para question 83",
+                                    "de": "Incorrect option 1 für question 83",
+                                    "nl": "Incorrect option 1 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 83",
+                                    "es": "Incorrect option 2 para question 83",
+                                    "de": "Incorrect option 2 für question 83",
+                                    "nl": "Incorrect option 2 voor question 83"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 83",
+                                    "es": "Incorrect option 3 para question 83",
+                                    "de": "Incorrect option 3 für question 83",
+                                    "nl": "Incorrect option 3 voor question 83"
+                            },
+                            {
+                                    "en": "Correct answer for question 83",
+                                    "es": "Correct answer for question 83",
+                                    "de": "Correct answer for question 83",
+                                    "nl": "Correct answer for question 83"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 84",
+                                    "es": "Incorrect option 1 para question 84",
+                                    "de": "Incorrect option 1 für question 84",
+                                    "nl": "Incorrect option 1 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 84",
+                                    "es": "Incorrect option 2 para question 84",
+                                    "de": "Incorrect option 2 für question 84",
+                                    "nl": "Incorrect option 2 voor question 84"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 84",
+                                    "es": "Incorrect option 3 para question 84",
+                                    "de": "Incorrect option 3 für question 84",
+                                    "nl": "Incorrect option 3 voor question 84"
+                            },
+                            {
+                                    "en": "Correct answer for question 84",
+                                    "es": "Correct answer for question 84",
+                                    "de": "Correct answer for question 84",
+                                    "nl": "Correct answer for question 84"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 85",
+                                    "es": "Incorrect option 1 para question 85",
+                                    "de": "Incorrect option 1 für question 85",
+                                    "nl": "Incorrect option 1 voor question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 85",
+                                    "es": "Incorrect option 2 para question 85",
+                                    "de": "Incorrect option 2 für question 85",
+                                    "nl": "Incorrect option 2 voor question 85"
+                            },
+                            {
+                                    "en": "Correct answer for question 85",
+                                    "es": "Correct answer for question 85",
+                                    "de": "Correct answer for question 85",
+                                    "nl": "Correct answer for question 85"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 85",
+                                    "es": "Incorrect option 4 para question 85",
+                                    "de": "Incorrect option 4 für question 85",
+                                    "nl": "Incorrect option 4 voor question 85"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 86",
+                                    "es": "Incorrect option 1 para question 86",
+                                    "de": "Incorrect option 1 für question 86",
+                                    "nl": "Incorrect option 1 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 86",
+                                    "es": "Incorrect option 2 para question 86",
+                                    "de": "Incorrect option 2 für question 86",
+                                    "nl": "Incorrect option 2 voor question 86"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 86",
+                                    "es": "Incorrect option 3 para question 86",
+                                    "de": "Incorrect option 3 für question 86",
+                                    "nl": "Incorrect option 3 voor question 86"
+                            },
+                            {
+                                    "en": "Correct answer for question 86",
+                                    "es": "Correct answer for question 86",
+                                    "de": "Correct answer for question 86",
+                                    "nl": "Correct answer for question 86"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 87",
+                                    "es": "Incorrect option 1 para question 87",
+                                    "de": "Incorrect option 1 für question 87",
+                                    "nl": "Incorrect option 1 voor question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 87",
+                                    "es": "Incorrect option 2 para question 87",
+                                    "de": "Incorrect option 2 für question 87",
+                                    "nl": "Incorrect option 2 voor question 87"
+                            },
+                            {
+                                    "en": "Correct answer for question 87",
+                                    "es": "Correct answer for question 87",
+                                    "de": "Correct answer for question 87",
+                                    "nl": "Correct answer for question 87"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 87",
+                                    "es": "Incorrect option 4 para question 87",
+                                    "de": "Incorrect option 4 für question 87",
+                                    "nl": "Incorrect option 4 voor question 87"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 88",
+                                    "es": "Incorrect option 1 para question 88",
+                                    "de": "Incorrect option 1 für question 88",
+                                    "nl": "Incorrect option 1 voor question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 88",
+                                    "es": "Incorrect option 2 para question 88",
+                                    "de": "Incorrect option 2 für question 88",
+                                    "nl": "Incorrect option 2 voor question 88"
+                            },
+                            {
+                                    "en": "Correct answer for question 88",
+                                    "es": "Correct answer for question 88",
+                                    "de": "Correct answer for question 88",
+                                    "nl": "Correct answer for question 88"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 88",
+                                    "es": "Incorrect option 4 para question 88",
+                                    "de": "Incorrect option 4 für question 88",
+                                    "nl": "Incorrect option 4 voor question 88"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 89",
+                                    "es": "Incorrect option 1 para question 89",
+                                    "de": "Incorrect option 1 für question 89",
+                                    "nl": "Incorrect option 1 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 89",
+                                    "es": "Incorrect option 2 para question 89",
+                                    "de": "Incorrect option 2 für question 89",
+                                    "nl": "Incorrect option 2 voor question 89"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 89",
+                                    "es": "Incorrect option 3 para question 89",
+                                    "de": "Incorrect option 3 für question 89",
+                                    "nl": "Incorrect option 3 voor question 89"
+                            },
+                            {
+                                    "en": "Correct answer for question 89",
+                                    "es": "Correct answer for question 89",
+                                    "de": "Correct answer for question 89",
+                                    "nl": "Correct answer for question 89"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 90",
+                                    "es": "Correct answer for question 90",
+                                    "de": "Correct answer for question 90",
+                                    "nl": "Correct answer for question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 90",
+                                    "es": "Incorrect option 2 para question 90",
+                                    "de": "Incorrect option 2 für question 90",
+                                    "nl": "Incorrect option 2 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 90",
+                                    "es": "Incorrect option 3 para question 90",
+                                    "de": "Incorrect option 3 für question 90",
+                                    "nl": "Incorrect option 3 voor question 90"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 90",
+                                    "es": "Incorrect option 4 para question 90",
+                                    "de": "Incorrect option 4 für question 90",
+                                    "nl": "Incorrect option 4 voor question 90"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which statement about this topic is correct?",
+                            "es": "¿Cuál statement about this topic is correct?",
+                            "de": "Welche statement about this topic is correct?",
+                            "nl": "Welke statement about this topic is correct?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 91",
+                                    "es": "Incorrect option 1 para question 91",
+                                    "de": "Incorrect option 1 für question 91",
+                                    "nl": "Incorrect option 1 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 91",
+                                    "es": "Incorrect option 2 para question 91",
+                                    "de": "Incorrect option 2 für question 91",
+                                    "nl": "Incorrect option 2 voor question 91"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 91",
+                                    "es": "Incorrect option 3 para question 91",
+                                    "de": "Incorrect option 3 für question 91",
+                                    "nl": "Incorrect option 3 voor question 91"
+                            },
+                            {
+                                    "en": "Correct answer for question 91",
+                                    "es": "Correct answer for question 91",
+                                    "de": "Correct answer for question 91",
+                                    "nl": "Correct answer for question 91"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How does this relate to Puddings?",
+                            "es": "¿Cómo does this relate to Puddings?",
+                            "de": "Wie does this relate to Puddings?",
+                            "nl": "Hoe does this relate to Puddings?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 92",
+                                    "es": "Incorrect option 1 para question 92",
+                                    "de": "Incorrect option 1 für question 92",
+                                    "nl": "Incorrect option 1 voor question 92"
+                            },
+                            {
+                                    "en": "Correct answer for question 92",
+                                    "es": "Correct answer for question 92",
+                                    "de": "Correct answer for question 92",
+                                    "nl": "Correct answer for question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 92",
+                                    "es": "Incorrect option 3 para question 92",
+                                    "de": "Incorrect option 3 für question 92",
+                                    "nl": "Incorrect option 3 voor question 92"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 92",
+                                    "es": "Incorrect option 4 para question 92",
+                                    "de": "Incorrect option 4 für question 92",
+                                    "nl": "Incorrect option 4 voor question 92"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What distinguishes this concept?",
+                            "es": "¿Qué distinguishes this concept?",
+                            "de": "Was distinguishes this concept?",
+                            "nl": "Wat distinguishes this concept?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 93",
+                                    "es": "Incorrect option 1 para question 93",
+                                    "de": "Incorrect option 1 für question 93",
+                                    "nl": "Incorrect option 1 voor question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 93",
+                                    "es": "Incorrect option 2 para question 93",
+                                    "de": "Incorrect option 2 für question 93",
+                                    "nl": "Incorrect option 2 voor question 93"
+                            },
+                            {
+                                    "en": "Correct answer for question 93",
+                                    "es": "Correct answer for question 93",
+                                    "de": "Correct answer for question 93",
+                                    "nl": "Correct answer for question 93"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 93",
+                                    "es": "Incorrect option 4 para question 93",
+                                    "de": "Incorrect option 4 für question 93",
+                                    "nl": "Incorrect option 4 voor question 93"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When did this development occur?",
+                            "es": "¿Cuándo did this development occur?",
+                            "de": "Wann did this development occur?",
+                            "nl": "Wanneer did this development occur?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 94",
+                                    "es": "Incorrect option 1 para question 94",
+                                    "de": "Incorrect option 1 für question 94",
+                                    "nl": "Incorrect option 1 voor question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 94",
+                                    "es": "Incorrect option 2 para question 94",
+                                    "de": "Incorrect option 2 für question 94",
+                                    "nl": "Incorrect option 2 voor question 94"
+                            },
+                            {
+                                    "en": "Correct answer for question 94",
+                                    "es": "Correct answer for question 94",
+                                    "de": "Correct answer for question 94",
+                                    "nl": "Correct answer for question 94"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 94",
+                                    "es": "Incorrect option 4 para question 94",
+                                    "de": "Incorrect option 4 für question 94",
+                                    "nl": "Incorrect option 4 voor question 94"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who pioneered this approach?",
+                            "es": "¿Quién pioneered this approach?",
+                            "de": "Wer pioneered this approach?",
+                            "nl": "Wie pioneered this approach?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 95",
+                                    "es": "Incorrect option 1 para question 95",
+                                    "de": "Incorrect option 1 für question 95",
+                                    "nl": "Incorrect option 1 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 95",
+                                    "es": "Incorrect option 2 para question 95",
+                                    "de": "Incorrect option 2 für question 95",
+                                    "nl": "Incorrect option 2 voor question 95"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 95",
+                                    "es": "Incorrect option 3 para question 95",
+                                    "de": "Incorrect option 3 für question 95",
+                                    "nl": "Incorrect option 3 voor question 95"
+                            },
+                            {
+                                    "en": "Correct answer for question 95",
+                                    "es": "Correct answer for question 95",
+                                    "de": "Correct answer for question 95",
+                                    "nl": "Correct answer for question 95"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What impact did this have?",
+                            "es": "¿Qué impact did this have?",
+                            "de": "Was impact did this have?",
+                            "nl": "Wat impact did this have?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Correct answer for question 96",
+                                    "es": "Correct answer for question 96",
+                                    "de": "Correct answer for question 96",
+                                    "nl": "Correct answer for question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 96",
+                                    "es": "Incorrect option 2 para question 96",
+                                    "de": "Incorrect option 2 für question 96",
+                                    "nl": "Incorrect option 2 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 96",
+                                    "es": "Incorrect option 3 para question 96",
+                                    "de": "Incorrect option 3 für question 96",
+                                    "nl": "Incorrect option 3 voor question 96"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 96",
+                                    "es": "Incorrect option 4 para question 96",
+                                    "de": "Incorrect option 4 für question 96",
+                                    "nl": "Incorrect option 4 voor question 96"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Which principle applies here?",
+                            "es": "¿Cuál principle applies here?",
+                            "de": "Welche principle applies here?",
+                            "nl": "Welke principle applies here?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 97",
+                                    "es": "Incorrect option 1 para question 97",
+                                    "de": "Incorrect option 1 für question 97",
+                                    "nl": "Incorrect option 1 voor question 97"
+                            },
+                            {
+                                    "en": "Correct answer for question 97",
+                                    "es": "Correct answer for question 97",
+                                    "de": "Correct answer for question 97",
+                                    "nl": "Correct answer for question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 97",
+                                    "es": "Incorrect option 3 para question 97",
+                                    "de": "Incorrect option 3 für question 97",
+                                    "nl": "Incorrect option 3 voor question 97"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 97",
+                                    "es": "Incorrect option 4 para question 97",
+                                    "de": "Incorrect option 4 für question 97",
+                                    "nl": "Incorrect option 4 voor question 97"
+                            }
+                    ],
+                    "correct": 1,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "How has this evolved over time?",
+                            "es": "¿Cómo has this evolved over time?",
+                            "de": "Wie has this evolved over time?",
+                            "nl": "Hoe has this evolved over time?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 98",
+                                    "es": "Incorrect option 1 para question 98",
+                                    "de": "Incorrect option 1 für question 98",
+                                    "nl": "Incorrect option 1 voor question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 98",
+                                    "es": "Incorrect option 2 para question 98",
+                                    "de": "Incorrect option 2 für question 98",
+                                    "nl": "Incorrect option 2 voor question 98"
+                            },
+                            {
+                                    "en": "Correct answer for question 98",
+                                    "es": "Correct answer for question 98",
+                                    "de": "Correct answer for question 98",
+                                    "nl": "Correct answer for question 98"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 98",
+                                    "es": "Incorrect option 4 para question 98",
+                                    "de": "Incorrect option 4 für question 98",
+                                    "nl": "Incorrect option 4 voor question 98"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the current state of this?",
+                            "es": "¿Qué is the current state of this?",
+                            "de": "Was is the current state of this?",
+                            "nl": "Wat is the current state of this?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 99",
+                                    "es": "Incorrect option 1 para question 99",
+                                    "de": "Incorrect option 1 für question 99",
+                                    "nl": "Incorrect option 1 voor question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 99",
+                                    "es": "Incorrect option 2 para question 99",
+                                    "de": "Incorrect option 2 für question 99",
+                                    "nl": "Incorrect option 2 voor question 99"
+                            },
+                            {
+                                    "en": "Correct answer for question 99",
+                                    "es": "Correct answer for question 99",
+                                    "de": "Correct answer for question 99",
+                                    "nl": "Correct answer for question 99"
+                            },
+                            {
+                                    "en": "Incorrect option 4 for question 99",
+                                    "es": "Incorrect option 4 para question 99",
+                                    "de": "Incorrect option 4 für question 99",
+                                    "nl": "Incorrect option 4 voor question 99"
+                            }
+                    ],
+                    "correct": 2,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the significance of this in level 1?",
+                            "es": "¿Qué is the significance of this in level 1?",
+                            "de": "Was is the significance of this in level 1?",
+                            "nl": "Wat is the significance of this in level 1?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Incorrect option 1 for question 100",
+                                    "es": "Incorrect option 1 para question 100",
+                                    "de": "Incorrect option 1 für question 100",
+                                    "nl": "Incorrect option 1 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 2 for question 100",
+                                    "es": "Incorrect option 2 para question 100",
+                                    "de": "Incorrect option 2 für question 100",
+                                    "nl": "Incorrect option 2 voor question 100"
+                            },
+                            {
+                                    "en": "Incorrect option 3 for question 100",
+                                    "es": "Incorrect option 3 para question 100",
+                                    "de": "Incorrect option 3 für question 100",
+                                    "nl": "Incorrect option 3 voor question 100"
+                            },
+                            {
+                                    "en": "Correct answer for question 100",
+                                    "es": "Correct answer for question 100",
+                                    "de": "Correct answer for question 100",
+                                    "nl": "Correct answer for question 100"
+                            }
+                    ],
+                    "correct": 3,
+                    "explanation": {
+                            "en": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "es": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "de": "This question relates to level 1 content in Puddings. The correct answer provides important context.",
+                            "nl": "This question relates to level 1 content in Puddings. The correct answer provides important context."
+                    }
+            }
+    ]
 };

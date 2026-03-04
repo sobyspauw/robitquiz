@@ -1,4104 +1,4108 @@
+// Dollar - level2
+// Total questions: 100
+// Quality issues fixed: 2026-03-03T10:18:31.229Z
+
 module.exports = {
-  questions: [
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding basic facts? (Q1)",
-      "es": "What is the value of Dollar con respecto a basic facts? (P1)",
-      "de": "What is the value of Dollar in Bezug auf basic facts? (F1)",
-      "nl": "What is the value of Dollar met betrekking tot basic facts? (V1)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q1).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P1).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F1).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V1)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding basic facts? (Q2)",
-      "es": "What is the symbol for Dollar con respecto a basic facts? (P2)",
-      "de": "What is the symbol for Dollar in Bezug auf basic facts? (F2)",
-      "nl": "What is the symbol for Dollar met betrekking tot basic facts? (V2)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q2).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P2).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F2).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V2)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding basic facts? (Q3)",
-      "es": "Which country uses Dollar con respecto a basic facts? (P3)",
-      "de": "Which country uses Dollar in Bezug auf basic facts? (F3)",
-      "nl": "Which country uses Dollar met betrekking tot basic facts? (V3)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q3).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P3).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F3).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V3)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding basic facts? (Q4)",
-      "es": "When was it established Dollar con respecto a basic facts? (P4)",
-      "de": "When was it established Dollar in Bezug auf basic facts? (F4)",
-      "nl": "When was it established Dollar met betrekking tot basic facts? (V4)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q4).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P4).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F4).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V4)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding basic facts? (Q5)",
-      "es": "How many cents in Dollar con respecto a basic facts? (P5)",
-      "de": "How many cents in Dollar in Bezug auf basic facts? (F5)",
-      "nl": "How many cents in Dollar met betrekking tot basic facts? (V5)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q5).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P5).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F5).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V5)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding basic facts? (Q6)",
-      "es": "Largest bill denomination Dollar con respecto a basic facts? (P6)",
-      "de": "Largest bill denomination Dollar in Bezug auf basic facts? (F6)",
-      "nl": "Largest bill denomination Dollar met betrekking tot basic facts? (V6)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q6).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P6).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F6).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V6)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding basic facts? (Q7)",
-      "es": "Is it a reserve currency Dollar con respecto a basic facts? (P7)",
-      "de": "Is it a reserve currency Dollar in Bezug auf basic facts? (F7)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot basic facts? (V7)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q7).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P7).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F7).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V7)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding basic facts? (Q8)",
-      "es": "Exchange rate mechanism Dollar con respecto a basic facts? (P8)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf basic facts? (F8)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot basic facts? (V8)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q8).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P8).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F8).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V8)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding basic facts? (Q9)",
-      "es": "Central bank name Dollar con respecto a basic facts? (P9)",
-      "de": "Central bank name Dollar in Bezug auf basic facts? (F9)",
-      "nl": "Central bank name Dollar met betrekking tot basic facts? (V9)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q9).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P9).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F9).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V9)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding basic facts? (Q10)",
-      "es": "Historical inflation rate Dollar con respecto a basic facts? (P10)",
-      "de": "Historical inflation rate Dollar in Bezug auf basic facts? (F10)",
-      "nl": "Historical inflation rate Dollar met betrekking tot basic facts? (V10)"
-    },
-    "options": [
-      {
-        "en": "Option B for Dollar - basic facts aspect",
-        "es": "Opción B para Dollar - aspecto basic facts",
-        "de": "Option B für Dollar - basic facts Aspekt",
-        "nl": "Optie B voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option C for Dollar - basic facts aspect",
-        "es": "Opción C para Dollar - aspecto basic facts",
-        "de": "Option C für Dollar - basic facts Aspekt",
-        "nl": "Optie C voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option A for Dollar - basic facts aspect",
-        "es": "Opción A para Dollar - aspecto basic facts",
-        "de": "Option A für Dollar - basic facts Aspekt",
-        "nl": "Optie A voor Dollar - basic facts aspect"
-      },
-      {
-        "en": "Option D for Dollar - basic facts aspect",
-        "es": "Opción D para Dollar - aspecto basic facts",
-        "de": "Option D für Dollar - basic facts Aspekt",
-        "nl": "Optie D voor Dollar - basic facts aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's basic facts is verified and educational (Level 2, Q10).",
-      "es": "Este hecho sobre basic facts de Dollar es verificado y educativo (Nivel 2, P10).",
-      "de": "Diese Tatsache über basic facts von Dollar ist verifiziert und lehrreich (Stufe 2, F10).",
-      "nl": "Dit feit over basic facts van Dollar is geverifieerd en educatief (Niveau 2, V10)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding history? (Q11)",
-      "es": "What is the value of Dollar con respecto a history? (P11)",
-      "de": "What is the value of Dollar in Bezug auf history? (F11)",
-      "nl": "What is the value of Dollar met betrekking tot history? (V11)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q11).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P11).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F11).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V11)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding history? (Q12)",
-      "es": "What is the symbol for Dollar con respecto a history? (P12)",
-      "de": "What is the symbol for Dollar in Bezug auf history? (F12)",
-      "nl": "What is the symbol for Dollar met betrekking tot history? (V12)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q12).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P12).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F12).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V12)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding history? (Q13)",
-      "es": "Which country uses Dollar con respecto a history? (P13)",
-      "de": "Which country uses Dollar in Bezug auf history? (F13)",
-      "nl": "Which country uses Dollar met betrekking tot history? (V13)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      },
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q13).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P13).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F13).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V13)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding history? (Q14)",
-      "es": "When was it established Dollar con respecto a history? (P14)",
-      "de": "When was it established Dollar in Bezug auf history? (F14)",
-      "nl": "When was it established Dollar met betrekking tot history? (V14)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q14).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P14).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F14).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V14)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding history? (Q15)",
-      "es": "How many cents in Dollar con respecto a history? (P15)",
-      "de": "How many cents in Dollar in Bezug auf history? (F15)",
-      "nl": "How many cents in Dollar met betrekking tot history? (V15)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q15).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P15).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F15).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V15)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding history? (Q16)",
-      "es": "Largest bill denomination Dollar con respecto a history? (P16)",
-      "de": "Largest bill denomination Dollar in Bezug auf history? (F16)",
-      "nl": "Largest bill denomination Dollar met betrekking tot history? (V16)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q16).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P16).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F16).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V16)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding history? (Q17)",
-      "es": "Is it a reserve currency Dollar con respecto a history? (P17)",
-      "de": "Is it a reserve currency Dollar in Bezug auf history? (F17)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot history? (V17)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q17).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P17).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F17).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V17)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding history? (Q18)",
-      "es": "Exchange rate mechanism Dollar con respecto a history? (P18)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf history? (F18)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot history? (V18)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q18).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P18).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F18).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V18)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding history? (Q19)",
-      "es": "Central bank name Dollar con respecto a history? (P19)",
-      "de": "Central bank name Dollar in Bezug auf history? (F19)",
-      "nl": "Central bank name Dollar met betrekking tot history? (V19)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q19).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P19).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F19).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V19)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding history? (Q20)",
-      "es": "Historical inflation rate Dollar con respecto a history? (P20)",
-      "de": "Historical inflation rate Dollar in Bezug auf history? (F20)",
-      "nl": "Historical inflation rate Dollar met betrekking tot history? (V20)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - history aspect",
-        "es": "Opción A para Dollar - aspecto history",
-        "de": "Option A für Dollar - history Aspekt",
-        "nl": "Optie A voor Dollar - history aspect"
-      },
-      {
-        "en": "Option B for Dollar - history aspect",
-        "es": "Opción B para Dollar - aspecto history",
-        "de": "Option B für Dollar - history Aspekt",
-        "nl": "Optie B voor Dollar - history aspect"
-      },
-      {
-        "en": "Option C for Dollar - history aspect",
-        "es": "Opción C para Dollar - aspecto history",
-        "de": "Option C für Dollar - history Aspekt",
-        "nl": "Optie C voor Dollar - history aspect"
-      },
-      {
-        "en": "Option D for Dollar - history aspect",
-        "es": "Opción D para Dollar - aspecto history",
-        "de": "Option D für Dollar - history Aspekt",
-        "nl": "Optie D voor Dollar - history aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's history is verified and educational (Level 2, Q20).",
-      "es": "Este hecho sobre history de Dollar es verificado y educativo (Nivel 2, P20).",
-      "de": "Diese Tatsache über history von Dollar ist verifiziert und lehrreich (Stufe 2, F20).",
-      "nl": "Dit feit over history van Dollar is geverifieerd en educatief (Niveau 2, V20)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding characteristics? (Q21)",
-      "es": "What is the value of Dollar con respecto a characteristics? (P21)",
-      "de": "What is the value of Dollar in Bezug auf characteristics? (F21)",
-      "nl": "What is the value of Dollar met betrekking tot characteristics? (V21)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q21).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P21).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F21).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V21)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding characteristics? (Q22)",
-      "es": "What is the symbol for Dollar con respecto a characteristics? (P22)",
-      "de": "What is the symbol for Dollar in Bezug auf characteristics? (F22)",
-      "nl": "What is the symbol for Dollar met betrekking tot characteristics? (V22)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q22).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P22).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F22).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V22)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding characteristics? (Q23)",
-      "es": "Which country uses Dollar con respecto a characteristics? (P23)",
-      "de": "Which country uses Dollar in Bezug auf characteristics? (F23)",
-      "nl": "Which country uses Dollar met betrekking tot characteristics? (V23)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q23).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P23).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F23).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V23)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding characteristics? (Q24)",
-      "es": "When was it established Dollar con respecto a characteristics? (P24)",
-      "de": "When was it established Dollar in Bezug auf characteristics? (F24)",
-      "nl": "When was it established Dollar met betrekking tot characteristics? (V24)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q24).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P24).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F24).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V24)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding characteristics? (Q25)",
-      "es": "How many cents in Dollar con respecto a characteristics? (P25)",
-      "de": "How many cents in Dollar in Bezug auf characteristics? (F25)",
-      "nl": "How many cents in Dollar met betrekking tot characteristics? (V25)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q25).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P25).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F25).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V25)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding characteristics? (Q26)",
-      "es": "Largest bill denomination Dollar con respecto a characteristics? (P26)",
-      "de": "Largest bill denomination Dollar in Bezug auf characteristics? (F26)",
-      "nl": "Largest bill denomination Dollar met betrekking tot characteristics? (V26)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q26).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P26).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F26).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V26)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding characteristics? (Q27)",
-      "es": "Is it a reserve currency Dollar con respecto a characteristics? (P27)",
-      "de": "Is it a reserve currency Dollar in Bezug auf characteristics? (F27)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot characteristics? (V27)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q27).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P27).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F27).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V27)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding characteristics? (Q28)",
-      "es": "Exchange rate mechanism Dollar con respecto a characteristics? (P28)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf characteristics? (F28)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot characteristics? (V28)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q28).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P28).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F28).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V28)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding characteristics? (Q29)",
-      "es": "Central bank name Dollar con respecto a characteristics? (P29)",
-      "de": "Central bank name Dollar in Bezug auf characteristics? (F29)",
-      "nl": "Central bank name Dollar met betrekking tot characteristics? (V29)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q29).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P29).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F29).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V29)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding characteristics? (Q30)",
-      "es": "Historical inflation rate Dollar con respecto a characteristics? (P30)",
-      "de": "Historical inflation rate Dollar in Bezug auf characteristics? (F30)",
-      "nl": "Historical inflation rate Dollar met betrekking tot characteristics? (V30)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - characteristics aspect",
-        "es": "Opción A para Dollar - aspecto characteristics",
-        "de": "Option A für Dollar - characteristics Aspekt",
-        "nl": "Optie A voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option B for Dollar - characteristics aspect",
-        "es": "Opción B para Dollar - aspecto characteristics",
-        "de": "Option B für Dollar - characteristics Aspekt",
-        "nl": "Optie B voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option C for Dollar - characteristics aspect",
-        "es": "Opción C para Dollar - aspecto characteristics",
-        "de": "Option C für Dollar - characteristics Aspekt",
-        "nl": "Optie C voor Dollar - characteristics aspect"
-      },
-      {
-        "en": "Option D for Dollar - characteristics aspect",
-        "es": "Opción D para Dollar - aspecto characteristics",
-        "de": "Option D für Dollar - characteristics Aspekt",
-        "nl": "Optie D voor Dollar - characteristics aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's characteristics is verified and educational (Level 2, Q30).",
-      "es": "Este hecho sobre characteristics de Dollar es verificado y educativo (Nivel 2, P30).",
-      "de": "Diese Tatsache über characteristics von Dollar ist verifiziert und lehrreich (Stufe 2, F30).",
-      "nl": "Dit feit over characteristics van Dollar is geverifieerd en educatief (Niveau 2, V30)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding significance? (Q31)",
-      "es": "What is the value of Dollar con respecto a significance? (P31)",
-      "de": "What is the value of Dollar in Bezug auf significance? (F31)",
-      "nl": "What is the value of Dollar met betrekking tot significance? (V31)"
-    },
-    "options": [
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q31).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P31).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F31).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V31)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding significance? (Q32)",
-      "es": "What is the symbol for Dollar con respecto a significance? (P32)",
-      "de": "What is the symbol for Dollar in Bezug auf significance? (F32)",
-      "nl": "What is the symbol for Dollar met betrekking tot significance? (V32)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q32).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P32).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F32).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V32)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding significance? (Q33)",
-      "es": "Which country uses Dollar con respecto a significance? (P33)",
-      "de": "Which country uses Dollar in Bezug auf significance? (F33)",
-      "nl": "Which country uses Dollar met betrekking tot significance? (V33)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q33).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P33).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F33).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V33)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding significance? (Q34)",
-      "es": "When was it established Dollar con respecto a significance? (P34)",
-      "de": "When was it established Dollar in Bezug auf significance? (F34)",
-      "nl": "When was it established Dollar met betrekking tot significance? (V34)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q34).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P34).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F34).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V34)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding significance? (Q35)",
-      "es": "How many cents in Dollar con respecto a significance? (P35)",
-      "de": "How many cents in Dollar in Bezug auf significance? (F35)",
-      "nl": "How many cents in Dollar met betrekking tot significance? (V35)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q35).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P35).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F35).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V35)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding significance? (Q36)",
-      "es": "Largest bill denomination Dollar con respecto a significance? (P36)",
-      "de": "Largest bill denomination Dollar in Bezug auf significance? (F36)",
-      "nl": "Largest bill denomination Dollar met betrekking tot significance? (V36)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q36).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P36).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F36).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V36)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding significance? (Q37)",
-      "es": "Is it a reserve currency Dollar con respecto a significance? (P37)",
-      "de": "Is it a reserve currency Dollar in Bezug auf significance? (F37)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot significance? (V37)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q37).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P37).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F37).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V37)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding significance? (Q38)",
-      "es": "Exchange rate mechanism Dollar con respecto a significance? (P38)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf significance? (F38)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot significance? (V38)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q38).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P38).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F38).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V38)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding significance? (Q39)",
-      "es": "Central bank name Dollar con respecto a significance? (P39)",
-      "de": "Central bank name Dollar in Bezug auf significance? (F39)",
-      "nl": "Central bank name Dollar met betrekking tot significance? (V39)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q39).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P39).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F39).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V39)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding significance? (Q40)",
-      "es": "Historical inflation rate Dollar con respecto a significance? (P40)",
-      "de": "Historical inflation rate Dollar in Bezug auf significance? (F40)",
-      "nl": "Historical inflation rate Dollar met betrekking tot significance? (V40)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - significance aspect",
-        "es": "Opción D para Dollar - aspecto significance",
-        "de": "Option D für Dollar - significance Aspekt",
-        "nl": "Optie D voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option A for Dollar - significance aspect",
-        "es": "Opción A para Dollar - aspecto significance",
-        "de": "Option A für Dollar - significance Aspekt",
-        "nl": "Optie A voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option B for Dollar - significance aspect",
-        "es": "Opción B para Dollar - aspecto significance",
-        "de": "Option B für Dollar - significance Aspekt",
-        "nl": "Optie B voor Dollar - significance aspect"
-      },
-      {
-        "en": "Option C for Dollar - significance aspect",
-        "es": "Opción C para Dollar - aspecto significance",
-        "de": "Option C für Dollar - significance Aspekt",
-        "nl": "Optie C voor Dollar - significance aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's significance is verified and educational (Level 2, Q40).",
-      "es": "Este hecho sobre significance de Dollar es verificado y educativo (Nivel 2, P40).",
-      "de": "Diese Tatsache über significance von Dollar ist verifiziert und lehrreich (Stufe 2, F40).",
-      "nl": "Dit feit over significance van Dollar is geverifieerd en educatief (Niveau 2, V40)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding modern relevance? (Q41)",
-      "es": "What is the value of Dollar con respecto a modern relevance? (P41)",
-      "de": "What is the value of Dollar in Bezug auf modern relevance? (F41)",
-      "nl": "What is the value of Dollar met betrekking tot modern relevance? (V41)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q41).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P41).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F41).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V41)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding modern relevance? (Q42)",
-      "es": "What is the symbol for Dollar con respecto a modern relevance? (P42)",
-      "de": "What is the symbol for Dollar in Bezug auf modern relevance? (F42)",
-      "nl": "What is the symbol for Dollar met betrekking tot modern relevance? (V42)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q42).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P42).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F42).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V42)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding modern relevance? (Q43)",
-      "es": "Which country uses Dollar con respecto a modern relevance? (P43)",
-      "de": "Which country uses Dollar in Bezug auf modern relevance? (F43)",
-      "nl": "Which country uses Dollar met betrekking tot modern relevance? (V43)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q43).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P43).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F43).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V43)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding modern relevance? (Q44)",
-      "es": "When was it established Dollar con respecto a modern relevance? (P44)",
-      "de": "When was it established Dollar in Bezug auf modern relevance? (F44)",
-      "nl": "When was it established Dollar met betrekking tot modern relevance? (V44)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q44).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P44).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F44).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V44)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding modern relevance? (Q45)",
-      "es": "How many cents in Dollar con respecto a modern relevance? (P45)",
-      "de": "How many cents in Dollar in Bezug auf modern relevance? (F45)",
-      "nl": "How many cents in Dollar met betrekking tot modern relevance? (V45)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q45).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P45).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F45).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V45)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding modern relevance? (Q46)",
-      "es": "Largest bill denomination Dollar con respecto a modern relevance? (P46)",
-      "de": "Largest bill denomination Dollar in Bezug auf modern relevance? (F46)",
-      "nl": "Largest bill denomination Dollar met betrekking tot modern relevance? (V46)"
-    },
-    "options": [
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q46).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P46).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F46).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V46)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding modern relevance? (Q47)",
-      "es": "Is it a reserve currency Dollar con respecto a modern relevance? (P47)",
-      "de": "Is it a reserve currency Dollar in Bezug auf modern relevance? (F47)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot modern relevance? (V47)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q47).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P47).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F47).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V47)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding modern relevance? (Q48)",
-      "es": "Exchange rate mechanism Dollar con respecto a modern relevance? (P48)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf modern relevance? (F48)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot modern relevance? (V48)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q48).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P48).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F48).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V48)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding modern relevance? (Q49)",
-      "es": "Central bank name Dollar con respecto a modern relevance? (P49)",
-      "de": "Central bank name Dollar in Bezug auf modern relevance? (F49)",
-      "nl": "Central bank name Dollar met betrekking tot modern relevance? (V49)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q49).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P49).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F49).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V49)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding modern relevance? (Q50)",
-      "es": "Historical inflation rate Dollar con respecto a modern relevance? (P50)",
-      "de": "Historical inflation rate Dollar in Bezug auf modern relevance? (F50)",
-      "nl": "Historical inflation rate Dollar met betrekking tot modern relevance? (V50)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - modern relevance aspect",
-        "es": "Opción A para Dollar - aspecto modern relevance",
-        "de": "Option A für Dollar - modern relevance Aspekt",
-        "nl": "Optie A voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option B for Dollar - modern relevance aspect",
-        "es": "Opción B para Dollar - aspecto modern relevance",
-        "de": "Option B für Dollar - modern relevance Aspekt",
-        "nl": "Optie B voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option C for Dollar - modern relevance aspect",
-        "es": "Opción C para Dollar - aspecto modern relevance",
-        "de": "Option C für Dollar - modern relevance Aspekt",
-        "nl": "Optie C voor Dollar - modern relevance aspect"
-      },
-      {
-        "en": "Option D for Dollar - modern relevance aspect",
-        "es": "Opción D para Dollar - aspecto modern relevance",
-        "de": "Option D für Dollar - modern relevance Aspekt",
-        "nl": "Optie D voor Dollar - modern relevance aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's modern relevance is verified and educational (Level 2, Q50).",
-      "es": "Este hecho sobre modern relevance de Dollar es verificado y educativo (Nivel 2, P50).",
-      "de": "Diese Tatsache über modern relevance von Dollar ist verifiziert und lehrreich (Stufe 2, F50).",
-      "nl": "Dit feit over modern relevance van Dollar is geverifieerd en educatief (Niveau 2, V50)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding cultural impact? (Q51)",
-      "es": "What is the value of Dollar con respecto a cultural impact? (P51)",
-      "de": "What is the value of Dollar in Bezug auf cultural impact? (F51)",
-      "nl": "What is the value of Dollar met betrekking tot cultural impact? (V51)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q51).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P51).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F51).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V51)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding cultural impact? (Q52)",
-      "es": "What is the symbol for Dollar con respecto a cultural impact? (P52)",
-      "de": "What is the symbol for Dollar in Bezug auf cultural impact? (F52)",
-      "nl": "What is the symbol for Dollar met betrekking tot cultural impact? (V52)"
-    },
-    "options": [
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q52).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P52).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F52).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V52)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding cultural impact? (Q53)",
-      "es": "Which country uses Dollar con respecto a cultural impact? (P53)",
-      "de": "Which country uses Dollar in Bezug auf cultural impact? (F53)",
-      "nl": "Which country uses Dollar met betrekking tot cultural impact? (V53)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q53).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P53).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F53).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V53)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding cultural impact? (Q54)",
-      "es": "When was it established Dollar con respecto a cultural impact? (P54)",
-      "de": "When was it established Dollar in Bezug auf cultural impact? (F54)",
-      "nl": "When was it established Dollar met betrekking tot cultural impact? (V54)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q54).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P54).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F54).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V54)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding cultural impact? (Q55)",
-      "es": "How many cents in Dollar con respecto a cultural impact? (P55)",
-      "de": "How many cents in Dollar in Bezug auf cultural impact? (F55)",
-      "nl": "How many cents in Dollar met betrekking tot cultural impact? (V55)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q55).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P55).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F55).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V55)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding cultural impact? (Q56)",
-      "es": "Largest bill denomination Dollar con respecto a cultural impact? (P56)",
-      "de": "Largest bill denomination Dollar in Bezug auf cultural impact? (F56)",
-      "nl": "Largest bill denomination Dollar met betrekking tot cultural impact? (V56)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q56).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P56).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F56).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V56)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding cultural impact? (Q57)",
-      "es": "Is it a reserve currency Dollar con respecto a cultural impact? (P57)",
-      "de": "Is it a reserve currency Dollar in Bezug auf cultural impact? (F57)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot cultural impact? (V57)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q57).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P57).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F57).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V57)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding cultural impact? (Q58)",
-      "es": "Exchange rate mechanism Dollar con respecto a cultural impact? (P58)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf cultural impact? (F58)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot cultural impact? (V58)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q58).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P58).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F58).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V58)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding cultural impact? (Q59)",
-      "es": "Central bank name Dollar con respecto a cultural impact? (P59)",
-      "de": "Central bank name Dollar in Bezug auf cultural impact? (F59)",
-      "nl": "Central bank name Dollar met betrekking tot cultural impact? (V59)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q59).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P59).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F59).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V59)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding cultural impact? (Q60)",
-      "es": "Historical inflation rate Dollar con respecto a cultural impact? (P60)",
-      "de": "Historical inflation rate Dollar in Bezug auf cultural impact? (F60)",
-      "nl": "Historical inflation rate Dollar met betrekking tot cultural impact? (V60)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - cultural impact aspect",
-        "es": "Opción A para Dollar - aspecto cultural impact",
-        "de": "Option A für Dollar - cultural impact Aspekt",
-        "nl": "Optie A voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option B for Dollar - cultural impact aspect",
-        "es": "Opción B para Dollar - aspecto cultural impact",
-        "de": "Option B für Dollar - cultural impact Aspekt",
-        "nl": "Optie B voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option C for Dollar - cultural impact aspect",
-        "es": "Opción C para Dollar - aspecto cultural impact",
-        "de": "Option C für Dollar - cultural impact Aspekt",
-        "nl": "Optie C voor Dollar - cultural impact aspect"
-      },
-      {
-        "en": "Option D for Dollar - cultural impact aspect",
-        "es": "Opción D para Dollar - aspecto cultural impact",
-        "de": "Option D für Dollar - cultural impact Aspekt",
-        "nl": "Optie D voor Dollar - cultural impact aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's cultural impact is verified and educational (Level 2, Q60).",
-      "es": "Este hecho sobre cultural impact de Dollar es verificado y educativo (Nivel 2, P60).",
-      "de": "Diese Tatsache über cultural impact von Dollar ist verifiziert und lehrreich (Stufe 2, F60).",
-      "nl": "Dit feit over cultural impact van Dollar is geverifieerd en educatief (Niveau 2, V60)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding technical details? (Q61)",
-      "es": "What is the value of Dollar con respecto a technical details? (P61)",
-      "de": "What is the value of Dollar in Bezug auf technical details? (F61)",
-      "nl": "What is the value of Dollar met betrekking tot technical details? (V61)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q61).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P61).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F61).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V61)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding technical details? (Q62)",
-      "es": "What is the symbol for Dollar con respecto a technical details? (P62)",
-      "de": "What is the symbol for Dollar in Bezug auf technical details? (F62)",
-      "nl": "What is the symbol for Dollar met betrekking tot technical details? (V62)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q62).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P62).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F62).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V62)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding technical details? (Q63)",
-      "es": "Which country uses Dollar con respecto a technical details? (P63)",
-      "de": "Which country uses Dollar in Bezug auf technical details? (F63)",
-      "nl": "Which country uses Dollar met betrekking tot technical details? (V63)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q63).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P63).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F63).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V63)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding technical details? (Q64)",
-      "es": "When was it established Dollar con respecto a technical details? (P64)",
-      "de": "When was it established Dollar in Bezug auf technical details? (F64)",
-      "nl": "When was it established Dollar met betrekking tot technical details? (V64)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q64).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P64).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F64).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V64)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding technical details? (Q65)",
-      "es": "How many cents in Dollar con respecto a technical details? (P65)",
-      "de": "How many cents in Dollar in Bezug auf technical details? (F65)",
-      "nl": "How many cents in Dollar met betrekking tot technical details? (V65)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q65).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P65).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F65).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V65)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding technical details? (Q66)",
-      "es": "Largest bill denomination Dollar con respecto a technical details? (P66)",
-      "de": "Largest bill denomination Dollar in Bezug auf technical details? (F66)",
-      "nl": "Largest bill denomination Dollar met betrekking tot technical details? (V66)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q66).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P66).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F66).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V66)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding technical details? (Q67)",
-      "es": "Is it a reserve currency Dollar con respecto a technical details? (P67)",
-      "de": "Is it a reserve currency Dollar in Bezug auf technical details? (F67)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot technical details? (V67)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q67).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P67).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F67).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V67)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding technical details? (Q68)",
-      "es": "Exchange rate mechanism Dollar con respecto a technical details? (P68)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf technical details? (F68)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot technical details? (V68)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q68).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P68).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F68).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V68)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding technical details? (Q69)",
-      "es": "Central bank name Dollar con respecto a technical details? (P69)",
-      "de": "Central bank name Dollar in Bezug auf technical details? (F69)",
-      "nl": "Central bank name Dollar met betrekking tot technical details? (V69)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q69).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P69).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F69).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V69)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding technical details? (Q70)",
-      "es": "Historical inflation rate Dollar con respecto a technical details? (P70)",
-      "de": "Historical inflation rate Dollar in Bezug auf technical details? (F70)",
-      "nl": "Historical inflation rate Dollar met betrekking tot technical details? (V70)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - technical details aspect",
-        "es": "Opción D para Dollar - aspecto technical details",
-        "de": "Option D für Dollar - technical details Aspekt",
-        "nl": "Optie D voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option C for Dollar - technical details aspect",
-        "es": "Opción C para Dollar - aspecto technical details",
-        "de": "Option C für Dollar - technical details Aspekt",
-        "nl": "Optie C voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option B for Dollar - technical details aspect",
-        "es": "Opción B para Dollar - aspecto technical details",
-        "de": "Option B für Dollar - technical details Aspekt",
-        "nl": "Optie B voor Dollar - technical details aspect"
-      },
-      {
-        "en": "Option A for Dollar - technical details aspect",
-        "es": "Opción A para Dollar - aspecto technical details",
-        "de": "Option A für Dollar - technical details Aspekt",
-        "nl": "Optie A voor Dollar - technical details aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's technical details is verified and educational (Level 2, Q70).",
-      "es": "Este hecho sobre technical details de Dollar es verificado y educativo (Nivel 2, P70).",
-      "de": "Diese Tatsache über technical details von Dollar ist verifiziert und lehrreich (Stufe 2, F70).",
-      "nl": "Dit feit over technical details van Dollar is geverifieerd en educatief (Niveau 2, V70)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding comparisons? (Q71)",
-      "es": "What is the value of Dollar con respecto a comparisons? (P71)",
-      "de": "What is the value of Dollar in Bezug auf comparisons? (F71)",
-      "nl": "What is the value of Dollar met betrekking tot comparisons? (V71)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q71).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P71).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F71).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V71)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding comparisons? (Q72)",
-      "es": "What is the symbol for Dollar con respecto a comparisons? (P72)",
-      "de": "What is the symbol for Dollar in Bezug auf comparisons? (F72)",
-      "nl": "What is the symbol for Dollar met betrekking tot comparisons? (V72)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q72).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P72).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F72).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V72)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding comparisons? (Q73)",
-      "es": "Which country uses Dollar con respecto a comparisons? (P73)",
-      "de": "Which country uses Dollar in Bezug auf comparisons? (F73)",
-      "nl": "Which country uses Dollar met betrekking tot comparisons? (V73)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q73).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P73).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F73).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V73)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding comparisons? (Q74)",
-      "es": "When was it established Dollar con respecto a comparisons? (P74)",
-      "de": "When was it established Dollar in Bezug auf comparisons? (F74)",
-      "nl": "When was it established Dollar met betrekking tot comparisons? (V74)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q74).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P74).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F74).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V74)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding comparisons? (Q75)",
-      "es": "How many cents in Dollar con respecto a comparisons? (P75)",
-      "de": "How many cents in Dollar in Bezug auf comparisons? (F75)",
-      "nl": "How many cents in Dollar met betrekking tot comparisons? (V75)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q75).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P75).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F75).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V75)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding comparisons? (Q76)",
-      "es": "Largest bill denomination Dollar con respecto a comparisons? (P76)",
-      "de": "Largest bill denomination Dollar in Bezug auf comparisons? (F76)",
-      "nl": "Largest bill denomination Dollar met betrekking tot comparisons? (V76)"
-    },
-    "options": [
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q76).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P76).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F76).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V76)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding comparisons? (Q77)",
-      "es": "Is it a reserve currency Dollar con respecto a comparisons? (P77)",
-      "de": "Is it a reserve currency Dollar in Bezug auf comparisons? (F77)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot comparisons? (V77)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q77).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P77).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F77).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V77)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding comparisons? (Q78)",
-      "es": "Exchange rate mechanism Dollar con respecto a comparisons? (P78)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf comparisons? (F78)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot comparisons? (V78)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q78).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P78).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F78).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V78)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding comparisons? (Q79)",
-      "es": "Central bank name Dollar con respecto a comparisons? (P79)",
-      "de": "Central bank name Dollar in Bezug auf comparisons? (F79)",
-      "nl": "Central bank name Dollar met betrekking tot comparisons? (V79)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q79).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P79).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F79).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V79)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding comparisons? (Q80)",
-      "es": "Historical inflation rate Dollar con respecto a comparisons? (P80)",
-      "de": "Historical inflation rate Dollar in Bezug auf comparisons? (F80)",
-      "nl": "Historical inflation rate Dollar met betrekking tot comparisons? (V80)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - comparisons aspect",
-        "es": "Opción A para Dollar - aspecto comparisons",
-        "de": "Option A für Dollar - comparisons Aspekt",
-        "nl": "Optie A voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option B for Dollar - comparisons aspect",
-        "es": "Opción B para Dollar - aspecto comparisons",
-        "de": "Option B für Dollar - comparisons Aspekt",
-        "nl": "Optie B voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option C for Dollar - comparisons aspect",
-        "es": "Opción C para Dollar - aspecto comparisons",
-        "de": "Option C für Dollar - comparisons Aspekt",
-        "nl": "Optie C voor Dollar - comparisons aspect"
-      },
-      {
-        "en": "Option D for Dollar - comparisons aspect",
-        "es": "Opción D para Dollar - aspecto comparisons",
-        "de": "Option D für Dollar - comparisons Aspekt",
-        "nl": "Optie D voor Dollar - comparisons aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's comparisons is verified and educational (Level 2, Q80).",
-      "es": "Este hecho sobre comparisons de Dollar es verificado y educativo (Nivel 2, P80).",
-      "de": "Diese Tatsache über comparisons von Dollar ist verifiziert und lehrreich (Stufe 2, F80).",
-      "nl": "Dit feit over comparisons van Dollar is geverifieerd en educatief (Niveau 2, V80)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding notable examples? (Q81)",
-      "es": "What is the value of Dollar con respecto a notable examples? (P81)",
-      "de": "What is the value of Dollar in Bezug auf notable examples? (F81)",
-      "nl": "What is the value of Dollar met betrekking tot notable examples? (V81)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q81).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P81).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F81).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V81)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding notable examples? (Q82)",
-      "es": "What is the symbol for Dollar con respecto a notable examples? (P82)",
-      "de": "What is the symbol for Dollar in Bezug auf notable examples? (F82)",
-      "nl": "What is the symbol for Dollar met betrekking tot notable examples? (V82)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q82).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P82).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F82).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V82)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding notable examples? (Q83)",
-      "es": "Which country uses Dollar con respecto a notable examples? (P83)",
-      "de": "Which country uses Dollar in Bezug auf notable examples? (F83)",
-      "nl": "Which country uses Dollar met betrekking tot notable examples? (V83)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q83).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P83).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F83).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V83)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding notable examples? (Q84)",
-      "es": "When was it established Dollar con respecto a notable examples? (P84)",
-      "de": "When was it established Dollar in Bezug auf notable examples? (F84)",
-      "nl": "When was it established Dollar met betrekking tot notable examples? (V84)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q84).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P84).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F84).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V84)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding notable examples? (Q85)",
-      "es": "How many cents in Dollar con respecto a notable examples? (P85)",
-      "de": "How many cents in Dollar in Bezug auf notable examples? (F85)",
-      "nl": "How many cents in Dollar met betrekking tot notable examples? (V85)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q85).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P85).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F85).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V85)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding notable examples? (Q86)",
-      "es": "Largest bill denomination Dollar con respecto a notable examples? (P86)",
-      "de": "Largest bill denomination Dollar in Bezug auf notable examples? (F86)",
-      "nl": "Largest bill denomination Dollar met betrekking tot notable examples? (V86)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q86).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P86).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F86).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V86)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding notable examples? (Q87)",
-      "es": "Is it a reserve currency Dollar con respecto a notable examples? (P87)",
-      "de": "Is it a reserve currency Dollar in Bezug auf notable examples? (F87)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot notable examples? (V87)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q87).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P87).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F87).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V87)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding notable examples? (Q88)",
-      "es": "Exchange rate mechanism Dollar con respecto a notable examples? (P88)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf notable examples? (F88)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot notable examples? (V88)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q88).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P88).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F88).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V88)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding notable examples? (Q89)",
-      "es": "Central bank name Dollar con respecto a notable examples? (P89)",
-      "de": "Central bank name Dollar in Bezug auf notable examples? (F89)",
-      "nl": "Central bank name Dollar met betrekking tot notable examples? (V89)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q89).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P89).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F89).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V89)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding notable examples? (Q90)",
-      "es": "Historical inflation rate Dollar con respecto a notable examples? (P90)",
-      "de": "Historical inflation rate Dollar in Bezug auf notable examples? (F90)",
-      "nl": "Historical inflation rate Dollar met betrekking tot notable examples? (V90)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - notable examples aspect",
-        "es": "Opción A para Dollar - aspecto notable examples",
-        "de": "Option A für Dollar - notable examples Aspekt",
-        "nl": "Optie A voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option B for Dollar - notable examples aspect",
-        "es": "Opción B para Dollar - aspecto notable examples",
-        "de": "Option B für Dollar - notable examples Aspekt",
-        "nl": "Optie B voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option C for Dollar - notable examples aspect",
-        "es": "Opción C para Dollar - aspecto notable examples",
-        "de": "Option C für Dollar - notable examples Aspekt",
-        "nl": "Optie C voor Dollar - notable examples aspect"
-      },
-      {
-        "en": "Option D for Dollar - notable examples aspect",
-        "es": "Opción D para Dollar - aspecto notable examples",
-        "de": "Option D für Dollar - notable examples Aspekt",
-        "nl": "Optie D voor Dollar - notable examples aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's notable examples is verified and educational (Level 2, Q90).",
-      "es": "Este hecho sobre notable examples de Dollar es verificado y educativo (Nivel 2, P90).",
-      "de": "Diese Tatsache über notable examples von Dollar ist verifiziert und lehrreich (Stufe 2, F90).",
-      "nl": "Dit feit over notable examples van Dollar is geverifieerd en educatief (Niveau 2, V90)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the value of Dollar regarding future trends? (Q91)",
-      "es": "What is the value of Dollar con respecto a future trends? (P91)",
-      "de": "What is the value of Dollar in Bezug auf future trends? (F91)",
-      "nl": "What is the value of Dollar met betrekking tot future trends? (V91)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q91).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P91).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F91).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V91)."
-    }
-  },
-  {
-    "question": {
-      "en": "What is the symbol for Dollar regarding future trends? (Q92)",
-      "es": "What is the symbol for Dollar con respecto a future trends? (P92)",
-      "de": "What is the symbol for Dollar in Bezug auf future trends? (F92)",
-      "nl": "What is the symbol for Dollar met betrekking tot future trends? (V92)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q92).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P92).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F92).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V92)."
-    }
-  },
-  {
-    "question": {
-      "en": "Which country uses Dollar regarding future trends? (Q93)",
-      "es": "Which country uses Dollar con respecto a future trends? (P93)",
-      "de": "Which country uses Dollar in Bezug auf future trends? (F93)",
-      "nl": "Which country uses Dollar met betrekking tot future trends? (V93)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q93).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P93).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F93).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V93)."
-    }
-  },
-  {
-    "question": {
-      "en": "When was it established Dollar regarding future trends? (Q94)",
-      "es": "When was it established Dollar con respecto a future trends? (P94)",
-      "de": "When was it established Dollar in Bezug auf future trends? (F94)",
-      "nl": "When was it established Dollar met betrekking tot future trends? (V94)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q94).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P94).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F94).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V94)."
-    }
-  },
-  {
-    "question": {
-      "en": "How many cents in Dollar regarding future trends? (Q95)",
-      "es": "How many cents in Dollar con respecto a future trends? (P95)",
-      "de": "How many cents in Dollar in Bezug auf future trends? (F95)",
-      "nl": "How many cents in Dollar met betrekking tot future trends? (V95)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q95).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P95).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F95).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V95)."
-    }
-  },
-  {
-    "question": {
-      "en": "Largest bill denomination Dollar regarding future trends? (Q96)",
-      "es": "Largest bill denomination Dollar con respecto a future trends? (P96)",
-      "de": "Largest bill denomination Dollar in Bezug auf future trends? (F96)",
-      "nl": "Largest bill denomination Dollar met betrekking tot future trends? (V96)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q96).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P96).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F96).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V96)."
-    }
-  },
-  {
-    "question": {
-      "en": "Is it a reserve currency Dollar regarding future trends? (Q97)",
-      "es": "Is it a reserve currency Dollar con respecto a future trends? (P97)",
-      "de": "Is it a reserve currency Dollar in Bezug auf future trends? (F97)",
-      "nl": "Is it a reserve currency Dollar met betrekking tot future trends? (V97)"
-    },
-    "options": [
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q97).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P97).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F97).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V97)."
-    }
-  },
-  {
-    "question": {
-      "en": "Exchange rate mechanism Dollar regarding future trends? (Q98)",
-      "es": "Exchange rate mechanism Dollar con respecto a future trends? (P98)",
-      "de": "Exchange rate mechanism Dollar in Bezug auf future trends? (F98)",
-      "nl": "Exchange rate mechanism Dollar met betrekking tot future trends? (V98)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q98).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P98).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F98).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V98)."
-    }
-  },
-  {
-    "question": {
-      "en": "Central bank name Dollar regarding future trends? (Q99)",
-      "es": "Central bank name Dollar con respecto a future trends? (P99)",
-      "de": "Central bank name Dollar in Bezug auf future trends? (F99)",
-      "nl": "Central bank name Dollar met betrekking tot future trends? (V99)"
-    },
-    "options": [
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q99).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P99).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F99).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V99)."
-    }
-  },
-  {
-    "question": {
-      "en": "Historical inflation rate Dollar regarding future trends? (Q100)",
-      "es": "Historical inflation rate Dollar con respecto a future trends? (P100)",
-      "de": "Historical inflation rate Dollar in Bezug auf future trends? (F100)",
-      "nl": "Historical inflation rate Dollar met betrekking tot future trends? (V100)"
-    },
-    "options": [
-      {
-        "en": "Option C for Dollar - future trends aspect",
-        "es": "Opción C para Dollar - aspecto future trends",
-        "de": "Option C für Dollar - future trends Aspekt",
-        "nl": "Optie C voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option B for Dollar - future trends aspect",
-        "es": "Opción B para Dollar - aspecto future trends",
-        "de": "Option B für Dollar - future trends Aspekt",
-        "nl": "Optie B voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option A for Dollar - future trends aspect",
-        "es": "Opción A para Dollar - aspecto future trends",
-        "de": "Option A für Dollar - future trends Aspekt",
-        "nl": "Optie A voor Dollar - future trends aspect"
-      },
-      {
-        "en": "Option D for Dollar - future trends aspect",
-        "es": "Opción D para Dollar - aspecto future trends",
-        "de": "Option D für Dollar - future trends Aspekt",
-        "nl": "Optie D voor Dollar - future trends aspect"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "This fact about Dollar's future trends is verified and educational (Level 2, Q100).",
-      "es": "Este hecho sobre future trends de Dollar es verificado y educativo (Nivel 2, P100).",
-      "de": "Diese Tatsache über future trends von Dollar ist verifiziert und lehrreich (Stufe 2, F100).",
-      "nl": "Dit feit over future trends van Dollar is geverifieerd en educatief (Niveau 2, V100)."
-    }
-  }
-]
+    questions: [
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the ten dollar bill?",
+                            "es": "¿Quién is on the ten dollar bill?",
+                            "de": "Wer is on the ten dollar bill?",
+                            "nl": "Wie is on the ten dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Thomas Jefferson",
+                                    "es": "Thomas Jefferson",
+                                    "de": "Thomas Jefferson",
+                                    "nl": "Thomas Jefferson"
+                            },
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Alexander Hamilton, first Secretary of the Treasury, is on the ten dollar bill.",
+                            "es": "Alexander Hamilton, first Secretary de el Treasury, es on el ten dollar bill.",
+                            "de": "Alexander Hamilton, first Secretary von der Treasury, ist on der ten dollar bill.",
+                            "nl": "Alexander Hamilton, first Secretary van de Treasury, is on de ten dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the twenty dollar bill?",
+                            "es": "¿Quién is on the twenty dollar bill?",
+                            "de": "Wer is on the twenty dollar bill?",
+                            "nl": "Wie is on the twenty dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Andrew Jackson",
+                                    "es": "Andrew Jackson",
+                                    "de": "Andrew Jackson",
+                                    "nl": "Andrew Jackson"
+                            },
+                            {
+                                    "en": "Ulysses Grant",
+                                    "es": "Ulysses Grant",
+                                    "de": "Ulysses Grant",
+                                    "nl": "Ulysses Grant"
+                            },
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Andrew Jackson, the 7th President, appears on the twenty dollar bill.",
+                            "es": "Andrew Jackson, el 7th President, appears on el twenty dollar bill.",
+                            "de": "Andrew Jackson, der 7th President, appears on der twenty dollar bill.",
+                            "nl": "Andrew Jackson, de 7th President, appears on de twenty dollar bill."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "Who is on the hundred dollar bill?",
+                            "es": "¿Quién is on the hundred dollar bill?",
+                            "de": "Wer is on the hundred dollar bill?",
+                            "nl": "Wie is on the hundred dollar bill?"
+                    },
+                    "options": [
+                            {
+                                    "en": "Benjamin Franklin",
+                                    "es": "Benjamin Franklin",
+                                    "de": "Benjamin Franklin",
+                                    "nl": "Benjamin Franklin"
+                            },
+                            {
+                                    "en": "George Washington",
+                                    "es": "George Washington",
+                                    "de": "George Washington",
+                                    "nl": "George Washington"
+                            },
+                            {
+                                    "en": "Abraham Lincoln",
+                                    "es": "Abraham Lincoln",
+                                    "de": "Abraham Lincoln",
+                                    "nl": "Abraham Lincoln"
+                            },
+                            {
+                                    "en": "Alexander Hamilton",
+                                    "es": "Alexander Hamilton",
+                                    "de": "Alexander Hamilton",
+                                    "nl": "Alexander Hamilton"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "es": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "de": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills.",
+                            "nl": "Benjamin Franklin is on the hundred dollar bill, the only non-president on common bills."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "What is the motto on US currency?",
+                            "es": "¿Qué is the motto on US currency?",
+                            "de": "Was is the motto on US currency?",
+                            "nl": "Wat is the motto on US currency?"
+                    },
+                    "options": [
+                            {
+                                    "en": "In God We Trust",
+                                    "es": "en God We Trust",
+                                    "de": "in God We Trust",
+                                    "nl": "in God We Trust"
+                            },
+                            {
+                                    "en": "E Pluribus Unum",
+                                    "es": "E Pluribus Unum",
+                                    "de": "E Pluribus Unum",
+                                    "nl": "E Pluribus Unum"
+                            },
+                            {
+                                    "en": "Liberty and Justice",
+                                    "es": "Liberty and Justice",
+                                    "de": "Liberty and Justice",
+                                    "nl": "Liberty and Justice"
+                            },
+                            {
+                                    "en": "United We Stand",
+                                    "es": "United We Stand",
+                                    "de": "United We Stand",
+                                    "nl": "United We Stand"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "In God We Trust became the official US motto in 1956 and appears on all currency.",
+                            "es": "en God We Trust became el official US motto en 1956 y appears on all currency.",
+                            "de": "in God We Trust became der official US motto in 1956 und appears on all currency.",
+                            "nl": "in God We Trust became de official US motto in 1956 en appears on all currency."
+                    }
+            },
+            {
+                    "question": {
+                            "en": "When was the Federal Reserve created?",
+                            "es": "¿Cuándo was the Federal Reserve created?",
+                            "de": "Wann was the Federal Reserve created?",
+                            "nl": "Wanneer was the Federal Reserve created?"
+                    },
+                    "options": [
+                            {
+                                    "en": "1913",
+                                    "es": "1913",
+                                    "de": "1913",
+                                    "nl": "1913"
+                            },
+                            {
+                                    "en": "1776",
+                                    "es": "1776",
+                                    "de": "1776",
+                                    "nl": "1776"
+                            },
+                            {
+                                    "en": "1865",
+                                    "es": "1865",
+                                    "de": "1865",
+                                    "nl": "1865"
+                            },
+                            {
+                                    "en": "1945",
+                                    "es": "1945",
+                                    "de": "1945",
+                                    "nl": "1945"
+                            }
+                    ],
+                    "correct": 0,
+                    "explanation": {
+                            "en": "The Federal Reserve System was created in 1913 to serve as the central bank.",
+                            "es": "el Federal Reserve System was created en 1913 to serve as el central bank.",
+                            "de": "der Federal Reserve System was created in 1913 to serve as der central bank.",
+                            "nl": "de Federal Reserve System was created in 1913 to serve as de central bank."
+                    }
+            }
+    ]
 };
