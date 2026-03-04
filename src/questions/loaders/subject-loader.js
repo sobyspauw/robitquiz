@@ -81,16 +81,17 @@ window.mainTopics = {
     unlockCost: 0,
     folder: "ai",
     subcategories: [
-      { id: 'ai-ethiek', name: { en: "AI Ethics", es: "Ética de IA", de: "KI-Ethik", nl: "AI Ethiek" }, icon: "⚖️", folder: "AI ethiek" },
-      { id: 'ai-geschiedenis', name: { en: "AI History", es: "Historia de IA", de: "KI-Geschichte", nl: "AI Geschiedenis" }, icon: "📚", folder: "AI geschiedenis" },
-      { id: 'ai-gaming', name: { en: "AI in Gaming", es: "IA en Juegos", de: "KI im Gaming", nl: "AI in Gaming" }, icon: "🎮", folder: "AI in gaming" },
-      { id: 'ai-transport', name: { en: "AI in Transport", es: "IA en Transporte", de: "KI im Transport", nl: "AI in Transport" }, icon: "🚗", folder: "AI in transport" },
-      { id: 'ai-toekomst', name: { en: "AI Future", es: "Futuro de IA", de: "KI-Zukunft", nl: "AI Toekomst" }, icon: "🔮", folder: "AI toekomst" },
+      { id: 'ai-ethics', name: { en: "AI Ethics", es: "Ética de IA", de: "KI-Ethik", nl: "AI Ethiek" }, icon: "⚖️", folder: "AI Ethics" },
+      { id: 'ai-history', name: { en: "AI History", es: "Historia de IA", de: "KI-Geschichte", nl: "AI Geschiedenis" }, icon: "📚", folder: "AI History" },
+      { id: 'ai-gaming', name: { en: "AI in Gaming", es: "IA en Juegos", de: "KI im Gaming", nl: "AI in Gaming" }, icon: "🎮", folder: "AI in Gaming" },
+      { id: 'ai-transport', name: { en: "AI in Transport", es: "IA en Transporte", de: "KI im Transport", nl: "AI in Transport" }, icon: "🚗", folder: "AI in Transport" },
+      { id: 'famous-ai-systems', name: { en: "Famous AI Systems", es: "Sistemas de IA Famosos", de: "Berühmte KI-Systeme", nl: "Bekende AI-systemen" }, icon: "🏆", folder: "Famous AI Systems" },
       { id: 'computer-vision', name: { en: "Computer Vision", es: "Visión por Computadora", de: "Computer Vision", nl: "Computer Vision" }, icon: "👁️", folder: "Computer vision" },
       { id: 'deep-learning', name: { en: "Deep Learning", es: "Aprendizaje Profundo", de: "Deep Learning", nl: "Deep Learning" }, icon: "🧠", folder: "Deep learning" },
       { id: 'machine-learning', name: { en: "Machine Learning", es: "Aprendizaje Automático", de: "Maschinelles Lernen", nl: "Machine Learning" }, icon: "🤖", folder: "Machine learning" },
-      { id: 'nlp', name: { en: "Natural Language Processing", es: "Procesamiento de Lenguaje Natural", de: "Natürliche Sprachverarbeitung", nl: "Natuurlijke Taalverwerking" }, icon: "💬", folder: "Natuurlijke taalverwerking" },
-      { id: 'neural-networks', name: { en: "Neural Networks", es: "Redes Neuronales", de: "Neuronale Netze", nl: "Neurale Netwerken" }, icon: "🕸️", folder: "Neurale netwerken" }
+      { id: 'nlp', name: { en: "Natural Language Processing", es: "Procesamiento de Lenguaje Natural", de: "Natürliche Sprachverarbeitung", nl: "Natuurlijke Taalverwerking" }, icon: "💬", folder: "Natural Language Processing" },
+      { id: 'reinforcement-learning', name: { en: "Reinforcement Learning", es: "Aprendizaje por Refuerzo", de: "Verstärkungslernen", nl: "Reinforcement Learning" }, icon: "🎯", folder: "Reinforcement Learning" },
+      { id: 'robotics', name: { en: "Robotics", es: "Robótica", de: "Robotik", nl: "Robotica" }, icon: "🤖", folder: "Robotics" }
     ]
   },
   'egypt': {
@@ -146,7 +147,10 @@ window.mainTopics = {
       { id: 'accidents-safety', name: { en: "Accidents & Safety", es: "Accidentes y Seguridad", de: "Unfälle & Sicherheit", nl: "Ongevallen & Safety" }, icon: "⚠️", folder: "Ongevallen & safety" },
       { id: 'records', name: { en: "Records", es: "Récords", de: "Rekorde", nl: "Records" }, icon: "📊", folder: "Records" },
       { id: 'rivaliteiten', name: { en: "Rivalries", es: "Rivalidades", de: "Rivalitäten", nl: "Rivaliteiten" }, icon: "⚔️", folder: "Rivaliteiten" },
-      { id: 'teams', name: { en: "Teams", es: "Equipos", de: "Teams", nl: "Teams" }, icon: "🏁", folder: "Teams" }
+      { id: 'teams', name: { en: "Teams", es: "Equipos", de: "Teams", nl: "Teams" }, icon: "🏁", folder: "Teams" },
+      { id: 'famous-races', name: { en: "Famous Races", es: "Carreras Famosas", de: "Berühmte Rennen", nl: "Beroemde Races" }, icon: "🏁", folder: "Famous Races" },
+      { id: 'pitstop-strategies', name: { en: "Pitstop Strategies", es: "Estrategias de Pitstop", de: "Boxenstopp-Strategien", nl: "Pitstop Strategieën" }, icon: "⚙️", folder: "Pitstop strategieën" },
+      { id: 'recordhouders', name: { en: "Record Holders", es: "Poseedores de Récords", de: "Rekordhalter", nl: "Recordhouders" }, icon: "🥇", folder: "Recordhouders" }
     ]
   },
   'board-games': {
@@ -165,7 +169,10 @@ window.mainTopics = {
       { id: 'monopoly', name: { en: "Monopoly", es: "Monopoly", de: "Monopoly", nl: "Monopoly" }, icon: "🏠", folder: "Monopoly" },
       { id: 'risk', name: { en: "Risk", es: "Risk", de: "Risiko", nl: "Risk" }, icon: "🌍", folder: "Risk" },
       { id: 'scrabble', name: { en: "Scrabble", es: "Scrabble", de: "Scrabble", nl: "Scrabble" }, icon: "🔤", folder: "Scrabble" },
-      { id: 'stratego', name: { en: "Stratego", es: "Stratego", de: "Stratego", nl: "Stratego" }, icon: "⚔️", folder: "Stratego" }
+      { id: 'stratego', name: { en: "Stratego", es: "Stratego", de: "Stratego", nl: "Stratego" }, icon: "⚔️", folder: "Stratego" },
+      { id: 'go', name: { en: "Go", es: "Go", de: "Go", nl: "Go" }, icon: "⚫", folder: "Go" },
+      { id: 'settlers-catan', name: { en: "Settlers of Catan", es: "Colonos de Catán", de: "Die Siedler von Catan", nl: "Kolonisten van Catan" }, icon: "🏝️", folder: "Settlers of Catan" },
+      { id: 'trivial-pursuit', name: { en: "Trivial Pursuit", es: "Trivial Pursuit", de: "Trivial Pursuit", nl: "Trivial Pursuit" }, icon: "🧩", folder: "Trivial Pursuit" }
     ]
   },
   'books': {
