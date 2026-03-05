@@ -171,7 +171,6 @@ window.mainTopics = {
       { id: 'scrabble', name: { en: "Scrabble", es: "Scrabble", de: "Scrabble", nl: "Scrabble" }, icon: "🔤", folder: "Scrabble" },
       { id: 'stratego', name: { en: "Stratego", es: "Stratego", de: "Stratego", nl: "Stratego" }, icon: "⚔️", folder: "Stratego" },
       { id: 'go', name: { en: "Go", es: "Go", de: "Go", nl: "Go" }, icon: "⚫", folder: "Go" },
-      { id: 'settlers-catan', name: { en: "Settlers of Catan", es: "Colonos de Catán", de: "Die Siedler von Catan", nl: "Kolonisten van Catan" }, icon: "🏝️", folder: "Settlers of Catan" },
       { id: 'trivial-pursuit', name: { en: "Trivial Pursuit", es: "Trivial Pursuit", de: "Trivial Pursuit", nl: "Trivial Pursuit" }, icon: "🧩", folder: "Trivial Pursuit" }
     ]
   },
