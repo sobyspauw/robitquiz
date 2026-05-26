@@ -1,4108 +1,4107 @@
 // Velociraptors - level4
 // Total questions: 100
-// Quality issues fixed: 2026-03-03T10:19:05.162Z
 
 module.exports = {
     questions: [
-            {
-                    "question": {
-                            "en": "What was the actual size of a Velociraptor?",
-                            "es": "¿Cuál era el tamaño real de un Velociraptor?",
-                            "de": "Was war die tatsächliche Größe eines Velociraptors?",
-                            "nl": "Wat was de werkelijke grootte van een Velociraptor?"
-                    },
-                    "options": [
-                            {
-                                    "en": "About 2 meters long, 0.5 meters tall",
-                                    "es": "Unos 2 metros de largo, 0.5 metros de alto",
-                                    "de": "Etwa 2 Meter lang, 0,5 Meter hoch",
-                                    "nl": "Ongeveer 2 meter lang, 0,5 meter hoog"
-                            },
-                            {
-                                    "en": "6 meters long, 2 meters tall",
-                                    "es": "6 metros de largo, 2 metros de alto",
-                                    "de": "6 Meter lang, 2 Meter hoch",
-                                    "nl": "6 meter lang, 2 meter hoog"
-                            },
-                            {
-                                    "en": "10 meters long, 3 meters tall",
-                                    "es": "10 metros de largo, 3 metros de alto",
-                                    "de": "10 Meter lang, 3 Meter hoch",
-                                    "nl": "10 meter lang, 3 meter hoog"
-                            },
-                            {
-                                    "en": "1 meter long, 0.3 meters tall",
-                                    "es": "1 metro de largo, 0.3 metros de alto",
-                                    "de": "1 Meter lang, 0,3 Meter hoch",
-                                    "nl": "1 meter lang, 0,3 meter hoog"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Real Velociraptors were much smaller than depicted in movies, about the size of a turkey, measuring.",
-                            "es": "Los Velociraptors reales eran mucho más pequeños que en las películas, del tamaño de un pavo.",
-                            "de": "Echte Velociraptoren waren viel kleiner als in Filmen dargestellt, etwa so groß wie ein Truthahn.",
-                            "nl": "Echte Velociraptors waren veel kleiner dan in films afgebeeld, ongeveer zo groot als een kalkoen."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What evidence proved Velociraptors had feathers?",
-                            "es": "¿Qué evidencia demostró que los Velociraptors tenían plumas?",
-                            "de": "Welcher Beweis zeigte, dass Velociraptoren Federn hatten?",
-                            "nl": "Welk bewijs toonde aan dat Velociraptors veren hadden?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Quill knobs on their forearm bones",
-                                    "es": "Protuberancias de plumas en sus huesos del antebrazo",
-                                    "de": "Federkiele an ihren Unterarmknochen",
-                                    "nl": "Schachtknobbels op hun onderarmbotten"
-                            },
-                            {
-                                    "en": "Fossilized feather impressions",
-                                    "es": "Impresiones de plumas fosilizadas",
-                                    "de": "Versteinerte Federabdrücke",
-                                    "nl": "Gefossiliseerde veerafdrukken"
-                            },
-                            {
-                                    "en": "DNA analysis",
-                                    "es": "Análisis de ADN",
-                                    "de": "DNA-Analyse",
-                                    "nl": "DNA-analyse"
-                            },
-                            {
-                                    "en": "Cave paintings",
-                                    "es": "Pinturas rupestres",
-                                    "de": "Höhlenmalereien",
-                                    "nl": "Grotschilderingen"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "In 2007, scientists discovered quill knobs on a Velociraptor's ulna , proving they had feathers.",
-                            "es": "En 2007, los científicos descubrieron protuberancias de plumas en el cúbito de un Velociraptor, demostrando que tenían plumas.",
-                            "de": "2007 entdeckten Wissenschaftler Federkiele an der Elle eines Velociraptors, was bewies, dass sie Federn hatten.",
-                            "nl": "in 2007 ontdekten wetenschappers schachtknobbels op de ellepijp van een Velociraptor, wat bewees dat ze veren hadden."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What was the purpose of the Velociraptor's famous sickle claw?",
-                            "es": "¿Cuál era el propósito de la famosa garra en forma de hoz del Velociraptor?",
-                            "de": "Was war der Zweck der berühmten Sichelkralle des Velociraptors?",
-                            "nl": "Wat was het doel van de beroemde sikkelvormige klauw van de Velociraptor?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Pinning prey and climbing",
-                                    "es": "Sujetar presas y escalar",
-                                    "de": "Beute festhalten und klettern",
-                                    "nl": "Prooi vasthouden en klimmen"
-                            },
-                            {
-                                    "en": "Only for slashing",
-                                    "es": "Solo para cortar",
-                                    "de": "Nur zum Aufschlitzen",
-                                    "nl": "Alleen voor snijden"
-                            },
-                            {
-                                    "en": "Digging burrows",
-                                    "es": "Cavar madrigueras",
-                                    "de": "Höhlen graben",
-                                    "nl": "Holen graven"
-                            },
-                            {
-                                    "en": "Display only",
-                                    "es": "Solo para exhibición",
-                                    "de": "Nur zur Schau",
-                                    "nl": "Alleen voor vertoon"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "The enlarged second toe claw was likely used for pinning down prey and climbing.",
-                            "es": "La garra agrandada del segundo dedo probablemente se usaba para sujetar presas y escalar.",
-                            "de": "Die vergrößerte zweite Zehenkralle wurde wahrscheinlich zum Festhalten von Beute und zum Klettern verwendet.",
-                            "nl": "De vergrote tweede teenklauw werd waarschijnlijk gebruikt voor het vasthouden van prooi en klimmen."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Where does the name 'Velociraptor' come from?",
-                            "es": "¿De dónde viene el nombre 'Velociraptor'?",
-                            "de": "Woher kommt der Name 'Velociraptor'?",
-                            "nl": "Waar komt de naam 'Velociraptor' vandaan?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Latin for 'swift thief'",
-                                    "es": "Latín para 'ladrón veloz'",
-                                    "de": "Lateinisch für 'schneller Dieb'",
-                                    "nl": "Latijn voor 'snelle dief'"
-                            },
-                            {
-                                    "en": "Greek for 'fast hunter'",
-                                    "es": "Griego para 'cazador rápido'",
-                                    "de": "Griechisch für 'schneller Jäger'",
-                                    "nl": "Grieks voor 'snelle jager'"
-                            },
-                            {
-                                    "en": "Mongolian for 'desert runner'",
-                                    "es": "Mongol para 'corredor del desierto'",
-                                    "de": "Mongolisch für 'Wüstenläufer'",
-                                    "nl": "Mongools voor 'woestijnloper'"
-                            },
-                            {
-                                    "en": "Chinese for 'claw dragon'",
-                                    "es": "Chino para 'dragón con garras'",
-                                    "de": "Chinesisch für 'Klauendrache'",
-                                    "nl": "Chinees voor 'klauwdraak'"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Velociraptor means 'swift thief' from the Latin words 'velox' and 'raptor' .",
-                            "es": "Velociraptor significa 'ladrón veloz' de las palabras latinas 'velox' y 'raptor' .",
-                            "de": "Velociraptor bedeutet 'schneller Dieb' aus den lateinischen Wörtern 'velox' und 'raptor' .",
-                            "nl": "Velociraptor betekent 'snelle dief' van de Latijnse woorden 'velox' en 'raptor' ."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What famous fossil shows a Velociraptor locked in combat?",
-                            "es": "¿Qué fósil famoso muestra a un Velociraptor en combate?",
-                            "de": "Welches berühmte Fossil zeigt einen Velociraptor im Kampf?",
-                            "nl": "Welk beroemd fossiel toont een Velociraptor in gevecht?"
-                    },
-                    "options": [
-                            {
-                                    "en": "The Fighting Dinosaurs with Protoceratops",
-                                    "es": "Los Dinosaurios Luchadores con Protoceratops",
-                                    "de": "Die kämpfenden Dinosaurier mit Protoceratops",
-                                    "nl": "De Vechtende Dinosaurussen met Protoceratops"
-                            },
-                            {
-                                    "en": "Battle with T-Rex",
-                                    "es": "Batalla con T-Rex",
-                                    "de": "Kampf mit T-Rex",
-                                    "nl": "Gevecht met T-Rex"
-                            },
-                            {
-                                    "en": "Hunting Gallimimus",
-                                    "es": "Cazando Gallimimus",
-                                    "de": "Jagd auf Gallimimus",
-                                    "nl": "Jagend op Gallimimus"
-                            },
-                            {
-                                    "en": "Fighting another Velociraptor",
-                                    "es": "Luchando con otro Velociraptor",
-                                    "de": "Kampf mit einem anderen Velociraptor",
-                                    "nl": "Vechtend met een andere Velociraptor"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "The 'Fighting Dinosaurs' fossil from Mongolia shows a Velociraptor and Protoceratops locked in.",
-                            "es": "El fósil 'Dinosaurios Luchadores' de Mongolia muestra un Velociraptor y Protoceratops en combate.",
-                            "de": "Das Fossil 'Kämpfende Dinosaurier' aus der Mongolei zeigt einen Velociraptor und Protoceratops im.",
-                            "nl": "Het 'Vechtende Dinosaurussen' fossiel uit Mongolië toont een Velociraptor en Protoceratops in."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 6",
-                                    "es": "Incorrect option 1 para question 6",
-                                    "de": "Incorrect option 1 für question 6",
-                                    "nl": "Incorrect option 1 voor question 6"
-                            },
-                            {
-                                    "en": "Correct answer for question 6",
-                                    "es": "Correct answer for question 6",
-                                    "de": "Correct answer for question 6",
-                                    "nl": "Correct answer for question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 6",
-                                    "es": "Incorrect option 3 para question 6",
-                                    "de": "Incorrect option 3 für question 6",
-                                    "nl": "Incorrect option 3 voor question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 6",
-                                    "es": "Incorrect option 4 para question 6",
-                                    "de": "Incorrect option 4 für question 6",
-                                    "nl": "Incorrect option 4 voor question 6"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 7",
-                                    "es": "Incorrect option 1 para question 7",
-                                    "de": "Incorrect option 1 für question 7",
-                                    "nl": "Incorrect option 1 voor question 7"
-                            },
-                            {
-                                    "en": "Correct answer for question 7",
-                                    "es": "Correct answer for question 7",
-                                    "de": "Correct answer for question 7",
-                                    "nl": "Correct answer for question 7"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 7",
-                                    "es": "Incorrect option 3 para question 7",
-                                    "de": "Incorrect option 3 für question 7",
-                                    "nl": "Incorrect option 3 voor question 7"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 7",
-                                    "es": "Incorrect option 4 para question 7",
-                                    "de": "Incorrect option 4 für question 7",
-                                    "nl": "Incorrect option 4 voor question 7"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 8",
-                                    "es": "Incorrect option 1 para question 8",
-                                    "de": "Incorrect option 1 für question 8",
-                                    "nl": "Incorrect option 1 voor question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 8",
-                                    "es": "Incorrect option 2 para question 8",
-                                    "de": "Incorrect option 2 für question 8",
-                                    "nl": "Incorrect option 2 voor question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 8",
-                                    "es": "Incorrect option 3 para question 8",
-                                    "de": "Incorrect option 3 für question 8",
-                                    "nl": "Incorrect option 3 voor question 8"
-                            },
-                            {
-                                    "en": "Correct answer for question 8",
-                                    "es": "Correct answer for question 8",
-                                    "de": "Correct answer for question 8",
-                                    "nl": "Correct answer for question 8"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 9",
-                                    "es": "Incorrect option 1 para question 9",
-                                    "de": "Incorrect option 1 für question 9",
-                                    "nl": "Incorrect option 1 voor question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 9",
-                                    "es": "Incorrect option 2 para question 9",
-                                    "de": "Incorrect option 2 für question 9",
-                                    "nl": "Incorrect option 2 voor question 9"
-                            },
-                            {
-                                    "en": "Correct answer for question 9",
-                                    "es": "Correct answer for question 9",
-                                    "de": "Correct answer for question 9",
-                                    "nl": "Correct answer for question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 9",
-                                    "es": "Incorrect option 4 para question 9",
-                                    "de": "Incorrect option 4 für question 9",
-                                    "nl": "Incorrect option 4 voor question 9"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 10",
-                                    "es": "Correct answer for question 10",
-                                    "de": "Correct answer for question 10",
-                                    "nl": "Correct answer for question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 10",
-                                    "es": "Incorrect option 2 para question 10",
-                                    "de": "Incorrect option 2 für question 10",
-                                    "nl": "Incorrect option 2 voor question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 10",
-                                    "es": "Incorrect option 3 para question 10",
-                                    "de": "Incorrect option 3 für question 10",
-                                    "nl": "Incorrect option 3 voor question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 10",
-                                    "es": "Incorrect option 4 para question 10",
-                                    "de": "Incorrect option 4 für question 10",
-                                    "nl": "Incorrect option 4 voor question 10"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 11",
-                                    "es": "Correct answer for question 11",
-                                    "de": "Correct answer for question 11",
-                                    "nl": "Correct answer for question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 11",
-                                    "es": "Incorrect option 2 para question 11",
-                                    "de": "Incorrect option 2 für question 11",
-                                    "nl": "Incorrect option 2 voor question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 11",
-                                    "es": "Incorrect option 3 para question 11",
-                                    "de": "Incorrect option 3 für question 11",
-                                    "nl": "Incorrect option 3 voor question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 11",
-                                    "es": "Incorrect option 4 para question 11",
-                                    "de": "Incorrect option 4 für question 11",
-                                    "nl": "Incorrect option 4 voor question 11"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 12",
-                                    "es": "Incorrect option 1 para question 12",
-                                    "de": "Incorrect option 1 für question 12",
-                                    "nl": "Incorrect option 1 voor question 12"
-                            },
-                            {
-                                    "en": "Correct answer for question 12",
-                                    "es": "Correct answer for question 12",
-                                    "de": "Correct answer for question 12",
-                                    "nl": "Correct answer for question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 12",
-                                    "es": "Incorrect option 3 para question 12",
-                                    "de": "Incorrect option 3 für question 12",
-                                    "nl": "Incorrect option 3 voor question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 12",
-                                    "es": "Incorrect option 4 para question 12",
-                                    "de": "Incorrect option 4 für question 12",
-                                    "nl": "Incorrect option 4 voor question 12"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 13",
-                                    "es": "Incorrect option 1 para question 13",
-                                    "de": "Incorrect option 1 für question 13",
-                                    "nl": "Incorrect option 1 voor question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 13",
-                                    "es": "Incorrect option 2 para question 13",
-                                    "de": "Incorrect option 2 für question 13",
-                                    "nl": "Incorrect option 2 voor question 13"
-                            },
-                            {
-                                    "en": "Correct answer for question 13",
-                                    "es": "Correct answer for question 13",
-                                    "de": "Correct answer for question 13",
-                                    "nl": "Correct answer for question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 13",
-                                    "es": "Incorrect option 4 para question 13",
-                                    "de": "Incorrect option 4 für question 13",
-                                    "nl": "Incorrect option 4 voor question 13"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 14",
-                                    "es": "Incorrect option 1 para question 14",
-                                    "de": "Incorrect option 1 für question 14",
-                                    "nl": "Incorrect option 1 voor question 14"
-                            },
-                            {
-                                    "en": "Correct answer for question 14",
-                                    "es": "Correct answer for question 14",
-                                    "de": "Correct answer for question 14",
-                                    "nl": "Correct answer for question 14"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 14",
-                                    "es": "Incorrect option 3 para question 14",
-                                    "de": "Incorrect option 3 für question 14",
-                                    "nl": "Incorrect option 3 voor question 14"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 14",
-                                    "es": "Incorrect option 4 para question 14",
-                                    "de": "Incorrect option 4 für question 14",
-                                    "nl": "Incorrect option 4 voor question 14"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 15",
-                                    "es": "Incorrect option 1 para question 15",
-                                    "de": "Incorrect option 1 für question 15",
-                                    "nl": "Incorrect option 1 voor question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 15",
-                                    "es": "Incorrect option 2 para question 15",
-                                    "de": "Incorrect option 2 für question 15",
-                                    "nl": "Incorrect option 2 voor question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 15",
-                                    "es": "Incorrect option 3 para question 15",
-                                    "de": "Incorrect option 3 für question 15",
-                                    "nl": "Incorrect option 3 voor question 15"
-                            },
-                            {
-                                    "en": "Correct answer for question 15",
-                                    "es": "Correct answer for question 15",
-                                    "de": "Correct answer for question 15",
-                                    "nl": "Correct answer for question 15"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 16",
-                                    "es": "Incorrect option 1 para question 16",
-                                    "de": "Incorrect option 1 für question 16",
-                                    "nl": "Incorrect option 1 voor question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 16",
-                                    "es": "Incorrect option 2 para question 16",
-                                    "de": "Incorrect option 2 für question 16",
-                                    "nl": "Incorrect option 2 voor question 16"
-                            },
-                            {
-                                    "en": "Correct answer for question 16",
-                                    "es": "Correct answer for question 16",
-                                    "de": "Correct answer for question 16",
-                                    "nl": "Correct answer for question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 16",
-                                    "es": "Incorrect option 4 para question 16",
-                                    "de": "Incorrect option 4 für question 16",
-                                    "nl": "Incorrect option 4 voor question 16"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 17",
-                                    "es": "Incorrect option 1 para question 17",
-                                    "de": "Incorrect option 1 für question 17",
-                                    "nl": "Incorrect option 1 voor question 17"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 17",
-                                    "es": "Incorrect option 2 para question 17",
-                                    "de": "Incorrect option 2 für question 17",
-                                    "nl": "Incorrect option 2 voor question 17"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 17",
-                                    "es": "Incorrect option 3 para question 17",
-                                    "de": "Incorrect option 3 für question 17",
-                                    "nl": "Incorrect option 3 voor question 17"
-                            },
-                            {
-                                    "en": "Correct answer for question 17",
-                                    "es": "Correct answer for question 17",
-                                    "de": "Correct answer for question 17",
-                                    "nl": "Correct answer for question 17"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 18",
-                                    "es": "Incorrect option 1 para question 18",
-                                    "de": "Incorrect option 1 für question 18",
-                                    "nl": "Incorrect option 1 voor question 18"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 18",
-                                    "es": "Incorrect option 2 para question 18",
-                                    "de": "Incorrect option 2 für question 18",
-                                    "nl": "Incorrect option 2 voor question 18"
-                            },
-                            {
-                                    "en": "Correct answer for question 18",
-                                    "es": "Correct answer for question 18",
-                                    "de": "Correct answer for question 18",
-                                    "nl": "Correct answer for question 18"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 18",
-                                    "es": "Incorrect option 4 para question 18",
-                                    "de": "Incorrect option 4 für question 18",
-                                    "nl": "Incorrect option 4 voor question 18"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 19",
-                                    "es": "Incorrect option 1 para question 19",
-                                    "de": "Incorrect option 1 für question 19",
-                                    "nl": "Incorrect option 1 voor question 19"
-                            },
-                            {
-                                    "en": "Correct answer for question 19",
-                                    "es": "Correct answer for question 19",
-                                    "de": "Correct answer for question 19",
-                                    "nl": "Correct answer for question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 19",
-                                    "es": "Incorrect option 3 para question 19",
-                                    "de": "Incorrect option 3 für question 19",
-                                    "nl": "Incorrect option 3 voor question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 19",
-                                    "es": "Incorrect option 4 para question 19",
-                                    "de": "Incorrect option 4 für question 19",
-                                    "nl": "Incorrect option 4 voor question 19"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 20",
-                                    "es": "Incorrect option 1 para question 20",
-                                    "de": "Incorrect option 1 für question 20",
-                                    "nl": "Incorrect option 1 voor question 20"
-                            },
-                            {
-                                    "en": "Correct answer for question 20",
-                                    "es": "Correct answer for question 20",
-                                    "de": "Correct answer for question 20",
-                                    "nl": "Correct answer for question 20"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 20",
-                                    "es": "Incorrect option 3 para question 20",
-                                    "de": "Incorrect option 3 für question 20",
-                                    "nl": "Incorrect option 3 voor question 20"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 20",
-                                    "es": "Incorrect option 4 para question 20",
-                                    "de": "Incorrect option 4 für question 20",
-                                    "nl": "Incorrect option 4 voor question 20"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 21",
-                                    "es": "Incorrect option 1 para question 21",
-                                    "de": "Incorrect option 1 für question 21",
-                                    "nl": "Incorrect option 1 voor question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 21",
-                                    "es": "Incorrect option 2 para question 21",
-                                    "de": "Incorrect option 2 für question 21",
-                                    "nl": "Incorrect option 2 voor question 21"
-                            },
-                            {
-                                    "en": "Correct answer for question 21",
-                                    "es": "Correct answer for question 21",
-                                    "de": "Correct answer for question 21",
-                                    "nl": "Correct answer for question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 21",
-                                    "es": "Incorrect option 4 para question 21",
-                                    "de": "Incorrect option 4 für question 21",
-                                    "nl": "Incorrect option 4 voor question 21"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 22",
-                                    "es": "Incorrect option 1 para question 22",
-                                    "de": "Incorrect option 1 für question 22",
-                                    "nl": "Incorrect option 1 voor question 22"
-                            },
-                            {
-                                    "en": "Correct answer for question 22",
-                                    "es": "Correct answer for question 22",
-                                    "de": "Correct answer for question 22",
-                                    "nl": "Correct answer for question 22"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 22",
-                                    "es": "Incorrect option 3 para question 22",
-                                    "de": "Incorrect option 3 für question 22",
-                                    "nl": "Incorrect option 3 voor question 22"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 22",
-                                    "es": "Incorrect option 4 para question 22",
-                                    "de": "Incorrect option 4 für question 22",
-                                    "nl": "Incorrect option 4 voor question 22"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 23",
-                                    "es": "Incorrect option 1 para question 23",
-                                    "de": "Incorrect option 1 für question 23",
-                                    "nl": "Incorrect option 1 voor question 23"
-                            },
-                            {
-                                    "en": "Correct answer for question 23",
-                                    "es": "Correct answer for question 23",
-                                    "de": "Correct answer for question 23",
-                                    "nl": "Correct answer for question 23"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 23",
-                                    "es": "Incorrect option 3 para question 23",
-                                    "de": "Incorrect option 3 für question 23",
-                                    "nl": "Incorrect option 3 voor question 23"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 23",
-                                    "es": "Incorrect option 4 para question 23",
-                                    "de": "Incorrect option 4 für question 23",
-                                    "nl": "Incorrect option 4 voor question 23"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 24",
-                                    "es": "Incorrect option 1 para question 24",
-                                    "de": "Incorrect option 1 für question 24",
-                                    "nl": "Incorrect option 1 voor question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 24",
-                                    "es": "Incorrect option 2 para question 24",
-                                    "de": "Incorrect option 2 für question 24",
-                                    "nl": "Incorrect option 2 voor question 24"
-                            },
-                            {
-                                    "en": "Correct answer for question 24",
-                                    "es": "Correct answer for question 24",
-                                    "de": "Correct answer for question 24",
-                                    "nl": "Correct answer for question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 24",
-                                    "es": "Incorrect option 4 para question 24",
-                                    "de": "Incorrect option 4 für question 24",
-                                    "nl": "Incorrect option 4 voor question 24"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 25",
-                                    "es": "Correct answer for question 25",
-                                    "de": "Correct answer for question 25",
-                                    "nl": "Correct answer for question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 25",
-                                    "es": "Incorrect option 2 para question 25",
-                                    "de": "Incorrect option 2 für question 25",
-                                    "nl": "Incorrect option 2 voor question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 25",
-                                    "es": "Incorrect option 3 para question 25",
-                                    "de": "Incorrect option 3 für question 25",
-                                    "nl": "Incorrect option 3 voor question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 25",
-                                    "es": "Incorrect option 4 para question 25",
-                                    "de": "Incorrect option 4 für question 25",
-                                    "nl": "Incorrect option 4 voor question 25"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 26",
-                                    "es": "Incorrect option 1 para question 26",
-                                    "de": "Incorrect option 1 für question 26",
-                                    "nl": "Incorrect option 1 voor question 26"
-                            },
-                            {
-                                    "en": "Correct answer for question 26",
-                                    "es": "Correct answer for question 26",
-                                    "de": "Correct answer for question 26",
-                                    "nl": "Correct answer for question 26"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 26",
-                                    "es": "Incorrect option 3 para question 26",
-                                    "de": "Incorrect option 3 für question 26",
-                                    "nl": "Incorrect option 3 voor question 26"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 26",
-                                    "es": "Incorrect option 4 para question 26",
-                                    "de": "Incorrect option 4 für question 26",
-                                    "nl": "Incorrect option 4 voor question 26"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 27",
-                                    "es": "Incorrect option 1 para question 27",
-                                    "de": "Incorrect option 1 für question 27",
-                                    "nl": "Incorrect option 1 voor question 27"
-                            },
-                            {
-                                    "en": "Correct answer for question 27",
-                                    "es": "Correct answer for question 27",
-                                    "de": "Correct answer for question 27",
-                                    "nl": "Correct answer for question 27"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 27",
-                                    "es": "Incorrect option 3 para question 27",
-                                    "de": "Incorrect option 3 für question 27",
-                                    "nl": "Incorrect option 3 voor question 27"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 27",
-                                    "es": "Incorrect option 4 para question 27",
-                                    "de": "Incorrect option 4 für question 27",
-                                    "nl": "Incorrect option 4 voor question 27"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 28",
-                                    "es": "Correct answer for question 28",
-                                    "de": "Correct answer for question 28",
-                                    "nl": "Correct answer for question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 28",
-                                    "es": "Incorrect option 2 para question 28",
-                                    "de": "Incorrect option 2 für question 28",
-                                    "nl": "Incorrect option 2 voor question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 28",
-                                    "es": "Incorrect option 3 para question 28",
-                                    "de": "Incorrect option 3 für question 28",
-                                    "nl": "Incorrect option 3 voor question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 28",
-                                    "es": "Incorrect option 4 para question 28",
-                                    "de": "Incorrect option 4 für question 28",
-                                    "nl": "Incorrect option 4 voor question 28"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 29",
-                                    "es": "Correct answer for question 29",
-                                    "de": "Correct answer for question 29",
-                                    "nl": "Correct answer for question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 29",
-                                    "es": "Incorrect option 2 para question 29",
-                                    "de": "Incorrect option 2 für question 29",
-                                    "nl": "Incorrect option 2 voor question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 29",
-                                    "es": "Incorrect option 3 para question 29",
-                                    "de": "Incorrect option 3 für question 29",
-                                    "nl": "Incorrect option 3 voor question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 29",
-                                    "es": "Incorrect option 4 para question 29",
-                                    "de": "Incorrect option 4 für question 29",
-                                    "nl": "Incorrect option 4 voor question 29"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 30",
-                                    "es": "Incorrect option 1 para question 30",
-                                    "de": "Incorrect option 1 für question 30",
-                                    "nl": "Incorrect option 1 voor question 30"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 30",
-                                    "es": "Incorrect option 2 para question 30",
-                                    "de": "Incorrect option 2 für question 30",
-                                    "nl": "Incorrect option 2 voor question 30"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 30",
-                                    "es": "Incorrect option 3 para question 30",
-                                    "de": "Incorrect option 3 für question 30",
-                                    "nl": "Incorrect option 3 voor question 30"
-                            },
-                            {
-                                    "en": "Correct answer for question 30",
-                                    "es": "Correct answer for question 30",
-                                    "de": "Correct answer for question 30",
-                                    "nl": "Correct answer for question 30"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 31",
-                                    "es": "Correct answer for question 31",
-                                    "de": "Correct answer for question 31",
-                                    "nl": "Correct answer for question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 31",
-                                    "es": "Incorrect option 2 para question 31",
-                                    "de": "Incorrect option 2 für question 31",
-                                    "nl": "Incorrect option 2 voor question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 31",
-                                    "es": "Incorrect option 3 para question 31",
-                                    "de": "Incorrect option 3 für question 31",
-                                    "nl": "Incorrect option 3 voor question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 31",
-                                    "es": "Incorrect option 4 para question 31",
-                                    "de": "Incorrect option 4 für question 31",
-                                    "nl": "Incorrect option 4 voor question 31"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 32",
-                                    "es": "Incorrect option 1 para question 32",
-                                    "de": "Incorrect option 1 für question 32",
-                                    "nl": "Incorrect option 1 voor question 32"
-                            },
-                            {
-                                    "en": "Correct answer for question 32",
-                                    "es": "Correct answer for question 32",
-                                    "de": "Correct answer for question 32",
-                                    "nl": "Correct answer for question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 32",
-                                    "es": "Incorrect option 3 para question 32",
-                                    "de": "Incorrect option 3 für question 32",
-                                    "nl": "Incorrect option 3 voor question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 32",
-                                    "es": "Incorrect option 4 para question 32",
-                                    "de": "Incorrect option 4 für question 32",
-                                    "nl": "Incorrect option 4 voor question 32"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 33",
-                                    "es": "Incorrect option 1 para question 33",
-                                    "de": "Incorrect option 1 für question 33",
-                                    "nl": "Incorrect option 1 voor question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 33",
-                                    "es": "Incorrect option 2 para question 33",
-                                    "de": "Incorrect option 2 für question 33",
-                                    "nl": "Incorrect option 2 voor question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 33",
-                                    "es": "Incorrect option 3 para question 33",
-                                    "de": "Incorrect option 3 für question 33",
-                                    "nl": "Incorrect option 3 voor question 33"
-                            },
-                            {
-                                    "en": "Correct answer for question 33",
-                                    "es": "Correct answer for question 33",
-                                    "de": "Correct answer for question 33",
-                                    "nl": "Correct answer for question 33"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 34",
-                                    "es": "Incorrect option 1 para question 34",
-                                    "de": "Incorrect option 1 für question 34",
-                                    "nl": "Incorrect option 1 voor question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 34",
-                                    "es": "Incorrect option 2 para question 34",
-                                    "de": "Incorrect option 2 für question 34",
-                                    "nl": "Incorrect option 2 voor question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 34",
-                                    "es": "Incorrect option 3 para question 34",
-                                    "de": "Incorrect option 3 für question 34",
-                                    "nl": "Incorrect option 3 voor question 34"
-                            },
-                            {
-                                    "en": "Correct answer for question 34",
-                                    "es": "Correct answer for question 34",
-                                    "de": "Correct answer for question 34",
-                                    "nl": "Correct answer for question 34"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 35",
-                                    "es": "Incorrect option 1 para question 35",
-                                    "de": "Incorrect option 1 für question 35",
-                                    "nl": "Incorrect option 1 voor question 35"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 35",
-                                    "es": "Incorrect option 2 para question 35",
-                                    "de": "Incorrect option 2 für question 35",
-                                    "nl": "Incorrect option 2 voor question 35"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 35",
-                                    "es": "Incorrect option 3 para question 35",
-                                    "de": "Incorrect option 3 für question 35",
-                                    "nl": "Incorrect option 3 voor question 35"
-                            },
-                            {
-                                    "en": "Correct answer for question 35",
-                                    "es": "Correct answer for question 35",
-                                    "de": "Correct answer for question 35",
-                                    "nl": "Correct answer for question 35"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 36",
-                                    "es": "Incorrect option 1 para question 36",
-                                    "de": "Incorrect option 1 für question 36",
-                                    "nl": "Incorrect option 1 voor question 36"
-                            },
-                            {
-                                    "en": "Correct answer for question 36",
-                                    "es": "Correct answer for question 36",
-                                    "de": "Correct answer for question 36",
-                                    "nl": "Correct answer for question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 36",
-                                    "es": "Incorrect option 3 para question 36",
-                                    "de": "Incorrect option 3 für question 36",
-                                    "nl": "Incorrect option 3 voor question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 36",
-                                    "es": "Incorrect option 4 para question 36",
-                                    "de": "Incorrect option 4 für question 36",
-                                    "nl": "Incorrect option 4 voor question 36"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 37",
-                                    "es": "Incorrect option 1 para question 37",
-                                    "de": "Incorrect option 1 für question 37",
-                                    "nl": "Incorrect option 1 voor question 37"
-                            },
-                            {
-                                    "en": "Correct answer for question 37",
-                                    "es": "Correct answer for question 37",
-                                    "de": "Correct answer for question 37",
-                                    "nl": "Correct answer for question 37"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 37",
-                                    "es": "Incorrect option 3 para question 37",
-                                    "de": "Incorrect option 3 für question 37",
-                                    "nl": "Incorrect option 3 voor question 37"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 37",
-                                    "es": "Incorrect option 4 para question 37",
-                                    "de": "Incorrect option 4 für question 37",
-                                    "nl": "Incorrect option 4 voor question 37"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 38",
-                                    "es": "Correct answer for question 38",
-                                    "de": "Correct answer for question 38",
-                                    "nl": "Correct answer for question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 38",
-                                    "es": "Incorrect option 2 para question 38",
-                                    "de": "Incorrect option 2 für question 38",
-                                    "nl": "Incorrect option 2 voor question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 38",
-                                    "es": "Incorrect option 3 para question 38",
-                                    "de": "Incorrect option 3 für question 38",
-                                    "nl": "Incorrect option 3 voor question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 38",
-                                    "es": "Incorrect option 4 para question 38",
-                                    "de": "Incorrect option 4 für question 38",
-                                    "nl": "Incorrect option 4 voor question 38"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 39",
-                                    "es": "Incorrect option 1 para question 39",
-                                    "de": "Incorrect option 1 für question 39",
-                                    "nl": "Incorrect option 1 voor question 39"
-                            },
-                            {
-                                    "en": "Correct answer for question 39",
-                                    "es": "Correct answer for question 39",
-                                    "de": "Correct answer for question 39",
-                                    "nl": "Correct answer for question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 39",
-                                    "es": "Incorrect option 3 para question 39",
-                                    "de": "Incorrect option 3 für question 39",
-                                    "nl": "Incorrect option 3 voor question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 39",
-                                    "es": "Incorrect option 4 para question 39",
-                                    "de": "Incorrect option 4 für question 39",
-                                    "nl": "Incorrect option 4 voor question 39"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 40",
-                                    "es": "Incorrect option 1 para question 40",
-                                    "de": "Incorrect option 1 für question 40",
-                                    "nl": "Incorrect option 1 voor question 40"
-                            },
-                            {
-                                    "en": "Correct answer for question 40",
-                                    "es": "Correct answer for question 40",
-                                    "de": "Correct answer for question 40",
-                                    "nl": "Correct answer for question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 40",
-                                    "es": "Incorrect option 3 para question 40",
-                                    "de": "Incorrect option 3 für question 40",
-                                    "nl": "Incorrect option 3 voor question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 40",
-                                    "es": "Incorrect option 4 para question 40",
-                                    "de": "Incorrect option 4 für question 40",
-                                    "nl": "Incorrect option 4 voor question 40"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 41",
-                                    "es": "Correct answer for question 41",
-                                    "de": "Correct answer for question 41",
-                                    "nl": "Correct answer for question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 41",
-                                    "es": "Incorrect option 2 para question 41",
-                                    "de": "Incorrect option 2 für question 41",
-                                    "nl": "Incorrect option 2 voor question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 41",
-                                    "es": "Incorrect option 3 para question 41",
-                                    "de": "Incorrect option 3 für question 41",
-                                    "nl": "Incorrect option 3 voor question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 41",
-                                    "es": "Incorrect option 4 para question 41",
-                                    "de": "Incorrect option 4 für question 41",
-                                    "nl": "Incorrect option 4 voor question 41"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 42",
-                                    "es": "Incorrect option 1 para question 42",
-                                    "de": "Incorrect option 1 für question 42",
-                                    "nl": "Incorrect option 1 voor question 42"
-                            },
-                            {
-                                    "en": "Correct answer for question 42",
-                                    "es": "Correct answer for question 42",
-                                    "de": "Correct answer for question 42",
-                                    "nl": "Correct answer for question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 42",
-                                    "es": "Incorrect option 3 para question 42",
-                                    "de": "Incorrect option 3 für question 42",
-                                    "nl": "Incorrect option 3 voor question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 42",
-                                    "es": "Incorrect option 4 para question 42",
-                                    "de": "Incorrect option 4 für question 42",
-                                    "nl": "Incorrect option 4 voor question 42"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 43",
-                                    "es": "Incorrect option 1 para question 43",
-                                    "de": "Incorrect option 1 für question 43",
-                                    "nl": "Incorrect option 1 voor question 43"
-                            },
-                            {
-                                    "en": "Correct answer for question 43",
-                                    "es": "Correct answer for question 43",
-                                    "de": "Correct answer for question 43",
-                                    "nl": "Correct answer for question 43"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 43",
-                                    "es": "Incorrect option 3 para question 43",
-                                    "de": "Incorrect option 3 für question 43",
-                                    "nl": "Incorrect option 3 voor question 43"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 43",
-                                    "es": "Incorrect option 4 para question 43",
-                                    "de": "Incorrect option 4 für question 43",
-                                    "nl": "Incorrect option 4 voor question 43"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 44",
-                                    "es": "Correct answer for question 44",
-                                    "de": "Correct answer for question 44",
-                                    "nl": "Correct answer for question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 44",
-                                    "es": "Incorrect option 2 para question 44",
-                                    "de": "Incorrect option 2 für question 44",
-                                    "nl": "Incorrect option 2 voor question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 44",
-                                    "es": "Incorrect option 3 para question 44",
-                                    "de": "Incorrect option 3 für question 44",
-                                    "nl": "Incorrect option 3 voor question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 44",
-                                    "es": "Incorrect option 4 para question 44",
-                                    "de": "Incorrect option 4 für question 44",
-                                    "nl": "Incorrect option 4 voor question 44"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 45",
-                                    "es": "Incorrect option 1 para question 45",
-                                    "de": "Incorrect option 1 für question 45",
-                                    "nl": "Incorrect option 1 voor question 45"
-                            },
-                            {
-                                    "en": "Correct answer for question 45",
-                                    "es": "Correct answer for question 45",
-                                    "de": "Correct answer for question 45",
-                                    "nl": "Correct answer for question 45"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 45",
-                                    "es": "Incorrect option 3 para question 45",
-                                    "de": "Incorrect option 3 für question 45",
-                                    "nl": "Incorrect option 3 voor question 45"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 45",
-                                    "es": "Incorrect option 4 para question 45",
-                                    "de": "Incorrect option 4 für question 45",
-                                    "nl": "Incorrect option 4 voor question 45"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 46",
-                                    "es": "Incorrect option 1 para question 46",
-                                    "de": "Incorrect option 1 für question 46",
-                                    "nl": "Incorrect option 1 voor question 46"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 46",
-                                    "es": "Incorrect option 2 para question 46",
-                                    "de": "Incorrect option 2 für question 46",
-                                    "nl": "Incorrect option 2 voor question 46"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 46",
-                                    "es": "Incorrect option 3 para question 46",
-                                    "de": "Incorrect option 3 für question 46",
-                                    "nl": "Incorrect option 3 voor question 46"
-                            },
-                            {
-                                    "en": "Correct answer for question 46",
-                                    "es": "Correct answer for question 46",
-                                    "de": "Correct answer for question 46",
-                                    "nl": "Correct answer for question 46"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 47",
-                                    "es": "Correct answer for question 47",
-                                    "de": "Correct answer for question 47",
-                                    "nl": "Correct answer for question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 47",
-                                    "es": "Incorrect option 2 para question 47",
-                                    "de": "Incorrect option 2 für question 47",
-                                    "nl": "Incorrect option 2 voor question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 47",
-                                    "es": "Incorrect option 3 para question 47",
-                                    "de": "Incorrect option 3 für question 47",
-                                    "nl": "Incorrect option 3 voor question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 47",
-                                    "es": "Incorrect option 4 para question 47",
-                                    "de": "Incorrect option 4 für question 47",
-                                    "nl": "Incorrect option 4 voor question 47"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 48",
-                                    "es": "Incorrect option 1 para question 48",
-                                    "de": "Incorrect option 1 für question 48",
-                                    "nl": "Incorrect option 1 voor question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 48",
-                                    "es": "Incorrect option 2 para question 48",
-                                    "de": "Incorrect option 2 für question 48",
-                                    "nl": "Incorrect option 2 voor question 48"
-                            },
-                            {
-                                    "en": "Correct answer for question 48",
-                                    "es": "Correct answer for question 48",
-                                    "de": "Correct answer for question 48",
-                                    "nl": "Correct answer for question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 48",
-                                    "es": "Incorrect option 4 para question 48",
-                                    "de": "Incorrect option 4 für question 48",
-                                    "nl": "Incorrect option 4 voor question 48"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 49",
-                                    "es": "Incorrect option 1 para question 49",
-                                    "de": "Incorrect option 1 für question 49",
-                                    "nl": "Incorrect option 1 voor question 49"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 49",
-                                    "es": "Incorrect option 2 para question 49",
-                                    "de": "Incorrect option 2 für question 49",
-                                    "nl": "Incorrect option 2 voor question 49"
-                            },
-                            {
-                                    "en": "Correct answer for question 49",
-                                    "es": "Correct answer for question 49",
-                                    "de": "Correct answer for question 49",
-                                    "nl": "Correct answer for question 49"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 49",
-                                    "es": "Incorrect option 4 para question 49",
-                                    "de": "Incorrect option 4 für question 49",
-                                    "nl": "Incorrect option 4 voor question 49"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 50",
-                                    "es": "Incorrect option 1 para question 50",
-                                    "de": "Incorrect option 1 für question 50",
-                                    "nl": "Incorrect option 1 voor question 50"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 50",
-                                    "es": "Incorrect option 2 para question 50",
-                                    "de": "Incorrect option 2 für question 50",
-                                    "nl": "Incorrect option 2 voor question 50"
-                            },
-                            {
-                                    "en": "Correct answer for question 50",
-                                    "es": "Correct answer for question 50",
-                                    "de": "Correct answer for question 50",
-                                    "nl": "Correct answer for question 50"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 50",
-                                    "es": "Incorrect option 4 para question 50",
-                                    "de": "Incorrect option 4 für question 50",
-                                    "nl": "Incorrect option 4 voor question 50"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 51",
-                                    "es": "Incorrect option 1 para question 51",
-                                    "de": "Incorrect option 1 für question 51",
-                                    "nl": "Incorrect option 1 voor question 51"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 51",
-                                    "es": "Incorrect option 2 para question 51",
-                                    "de": "Incorrect option 2 für question 51",
-                                    "nl": "Incorrect option 2 voor question 51"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 51",
-                                    "es": "Incorrect option 3 para question 51",
-                                    "de": "Incorrect option 3 für question 51",
-                                    "nl": "Incorrect option 3 voor question 51"
-                            },
-                            {
-                                    "en": "Correct answer for question 51",
-                                    "es": "Correct answer for question 51",
-                                    "de": "Correct answer for question 51",
-                                    "nl": "Correct answer for question 51"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 52",
-                                    "es": "Correct answer for question 52",
-                                    "de": "Correct answer for question 52",
-                                    "nl": "Correct answer for question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 52",
-                                    "es": "Incorrect option 2 para question 52",
-                                    "de": "Incorrect option 2 für question 52",
-                                    "nl": "Incorrect option 2 voor question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 52",
-                                    "es": "Incorrect option 3 para question 52",
-                                    "de": "Incorrect option 3 für question 52",
-                                    "nl": "Incorrect option 3 voor question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 52",
-                                    "es": "Incorrect option 4 para question 52",
-                                    "de": "Incorrect option 4 für question 52",
-                                    "nl": "Incorrect option 4 voor question 52"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 53",
-                                    "es": "Incorrect option 1 para question 53",
-                                    "de": "Incorrect option 1 für question 53",
-                                    "nl": "Incorrect option 1 voor question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 53",
-                                    "es": "Incorrect option 2 para question 53",
-                                    "de": "Incorrect option 2 für question 53",
-                                    "nl": "Incorrect option 2 voor question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 53",
-                                    "es": "Incorrect option 3 para question 53",
-                                    "de": "Incorrect option 3 für question 53",
-                                    "nl": "Incorrect option 3 voor question 53"
-                            },
-                            {
-                                    "en": "Correct answer for question 53",
-                                    "es": "Correct answer for question 53",
-                                    "de": "Correct answer for question 53",
-                                    "nl": "Correct answer for question 53"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 54",
-                                    "es": "Incorrect option 1 para question 54",
-                                    "de": "Incorrect option 1 für question 54",
-                                    "nl": "Incorrect option 1 voor question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 54",
-                                    "es": "Incorrect option 2 para question 54",
-                                    "de": "Incorrect option 2 für question 54",
-                                    "nl": "Incorrect option 2 voor question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 54",
-                                    "es": "Incorrect option 3 para question 54",
-                                    "de": "Incorrect option 3 für question 54",
-                                    "nl": "Incorrect option 3 voor question 54"
-                            },
-                            {
-                                    "en": "Correct answer for question 54",
-                                    "es": "Correct answer for question 54",
-                                    "de": "Correct answer for question 54",
-                                    "nl": "Correct answer for question 54"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 55",
-                                    "es": "Incorrect option 1 para question 55",
-                                    "de": "Incorrect option 1 für question 55",
-                                    "nl": "Incorrect option 1 voor question 55"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 55",
-                                    "es": "Incorrect option 2 para question 55",
-                                    "de": "Incorrect option 2 für question 55",
-                                    "nl": "Incorrect option 2 voor question 55"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 55",
-                                    "es": "Incorrect option 3 para question 55",
-                                    "de": "Incorrect option 3 für question 55",
-                                    "nl": "Incorrect option 3 voor question 55"
-                            },
-                            {
-                                    "en": "Correct answer for question 55",
-                                    "es": "Correct answer for question 55",
-                                    "de": "Correct answer for question 55",
-                                    "nl": "Correct answer for question 55"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 56",
-                                    "es": "Incorrect option 1 para question 56",
-                                    "de": "Incorrect option 1 für question 56",
-                                    "nl": "Incorrect option 1 voor question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 56",
-                                    "es": "Incorrect option 2 para question 56",
-                                    "de": "Incorrect option 2 für question 56",
-                                    "nl": "Incorrect option 2 voor question 56"
-                            },
-                            {
-                                    "en": "Correct answer for question 56",
-                                    "es": "Correct answer for question 56",
-                                    "de": "Correct answer for question 56",
-                                    "nl": "Correct answer for question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 56",
-                                    "es": "Incorrect option 4 para question 56",
-                                    "de": "Incorrect option 4 für question 56",
-                                    "nl": "Incorrect option 4 voor question 56"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 57",
-                                    "es": "Incorrect option 1 para question 57",
-                                    "de": "Incorrect option 1 für question 57",
-                                    "nl": "Incorrect option 1 voor question 57"
-                            },
-                            {
-                                    "en": "Correct answer for question 57",
-                                    "es": "Correct answer for question 57",
-                                    "de": "Correct answer for question 57",
-                                    "nl": "Correct answer for question 57"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 57",
-                                    "es": "Incorrect option 3 para question 57",
-                                    "de": "Incorrect option 3 für question 57",
-                                    "nl": "Incorrect option 3 voor question 57"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 57",
-                                    "es": "Incorrect option 4 para question 57",
-                                    "de": "Incorrect option 4 für question 57",
-                                    "nl": "Incorrect option 4 voor question 57"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 58",
-                                    "es": "Incorrect option 1 para question 58",
-                                    "de": "Incorrect option 1 für question 58",
-                                    "nl": "Incorrect option 1 voor question 58"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 58",
-                                    "es": "Incorrect option 2 para question 58",
-                                    "de": "Incorrect option 2 für question 58",
-                                    "nl": "Incorrect option 2 voor question 58"
-                            },
-                            {
-                                    "en": "Correct answer for question 58",
-                                    "es": "Correct answer for question 58",
-                                    "de": "Correct answer for question 58",
-                                    "nl": "Correct answer for question 58"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 58",
-                                    "es": "Incorrect option 4 para question 58",
-                                    "de": "Incorrect option 4 für question 58",
-                                    "nl": "Incorrect option 4 voor question 58"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 59",
-                                    "es": "Correct answer for question 59",
-                                    "de": "Correct answer for question 59",
-                                    "nl": "Correct answer for question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 59",
-                                    "es": "Incorrect option 2 para question 59",
-                                    "de": "Incorrect option 2 für question 59",
-                                    "nl": "Incorrect option 2 voor question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 59",
-                                    "es": "Incorrect option 3 para question 59",
-                                    "de": "Incorrect option 3 für question 59",
-                                    "nl": "Incorrect option 3 voor question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 59",
-                                    "es": "Incorrect option 4 para question 59",
-                                    "de": "Incorrect option 4 für question 59",
-                                    "nl": "Incorrect option 4 voor question 59"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 60",
-                                    "es": "Incorrect option 1 para question 60",
-                                    "de": "Incorrect option 1 für question 60",
-                                    "nl": "Incorrect option 1 voor question 60"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 60",
-                                    "es": "Incorrect option 2 para question 60",
-                                    "de": "Incorrect option 2 für question 60",
-                                    "nl": "Incorrect option 2 voor question 60"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 60",
-                                    "es": "Incorrect option 3 para question 60",
-                                    "de": "Incorrect option 3 für question 60",
-                                    "nl": "Incorrect option 3 voor question 60"
-                            },
-                            {
-                                    "en": "Correct answer for question 60",
-                                    "es": "Correct answer for question 60",
-                                    "de": "Correct answer for question 60",
-                                    "nl": "Correct answer for question 60"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 61",
-                                    "es": "Incorrect option 1 para question 61",
-                                    "de": "Incorrect option 1 für question 61",
-                                    "nl": "Incorrect option 1 voor question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 61",
-                                    "es": "Incorrect option 2 para question 61",
-                                    "de": "Incorrect option 2 für question 61",
-                                    "nl": "Incorrect option 2 voor question 61"
-                            },
-                            {
-                                    "en": "Correct answer for question 61",
-                                    "es": "Correct answer for question 61",
-                                    "de": "Correct answer for question 61",
-                                    "nl": "Correct answer for question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 61",
-                                    "es": "Incorrect option 4 para question 61",
-                                    "de": "Incorrect option 4 für question 61",
-                                    "nl": "Incorrect option 4 voor question 61"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 62",
-                                    "es": "Incorrect option 1 para question 62",
-                                    "de": "Incorrect option 1 für question 62",
-                                    "nl": "Incorrect option 1 voor question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 62",
-                                    "es": "Incorrect option 2 para question 62",
-                                    "de": "Incorrect option 2 für question 62",
-                                    "nl": "Incorrect option 2 voor question 62"
-                            },
-                            {
-                                    "en": "Correct answer for question 62",
-                                    "es": "Correct answer for question 62",
-                                    "de": "Correct answer for question 62",
-                                    "nl": "Correct answer for question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 62",
-                                    "es": "Incorrect option 4 para question 62",
-                                    "de": "Incorrect option 4 für question 62",
-                                    "nl": "Incorrect option 4 voor question 62"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 63",
-                                    "es": "Correct answer for question 63",
-                                    "de": "Correct answer for question 63",
-                                    "nl": "Correct answer for question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 63",
-                                    "es": "Incorrect option 2 para question 63",
-                                    "de": "Incorrect option 2 für question 63",
-                                    "nl": "Incorrect option 2 voor question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 63",
-                                    "es": "Incorrect option 3 para question 63",
-                                    "de": "Incorrect option 3 für question 63",
-                                    "nl": "Incorrect option 3 voor question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 63",
-                                    "es": "Incorrect option 4 para question 63",
-                                    "de": "Incorrect option 4 für question 63",
-                                    "nl": "Incorrect option 4 voor question 63"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 64",
-                                    "es": "Incorrect option 1 para question 64",
-                                    "de": "Incorrect option 1 für question 64",
-                                    "nl": "Incorrect option 1 voor question 64"
-                            },
-                            {
-                                    "en": "Correct answer for question 64",
-                                    "es": "Correct answer for question 64",
-                                    "de": "Correct answer for question 64",
-                                    "nl": "Correct answer for question 64"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 64",
-                                    "es": "Incorrect option 3 para question 64",
-                                    "de": "Incorrect option 3 für question 64",
-                                    "nl": "Incorrect option 3 voor question 64"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 64",
-                                    "es": "Incorrect option 4 para question 64",
-                                    "de": "Incorrect option 4 für question 64",
-                                    "nl": "Incorrect option 4 voor question 64"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 65",
-                                    "es": "Incorrect option 1 para question 65",
-                                    "de": "Incorrect option 1 für question 65",
-                                    "nl": "Incorrect option 1 voor question 65"
-                            },
-                            {
-                                    "en": "Correct answer for question 65",
-                                    "es": "Correct answer for question 65",
-                                    "de": "Correct answer for question 65",
-                                    "nl": "Correct answer for question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 65",
-                                    "es": "Incorrect option 3 para question 65",
-                                    "de": "Incorrect option 3 für question 65",
-                                    "nl": "Incorrect option 3 voor question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 65",
-                                    "es": "Incorrect option 4 para question 65",
-                                    "de": "Incorrect option 4 für question 65",
-                                    "nl": "Incorrect option 4 voor question 65"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 66",
-                                    "es": "Correct answer for question 66",
-                                    "de": "Correct answer for question 66",
-                                    "nl": "Correct answer for question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 66",
-                                    "es": "Incorrect option 2 para question 66",
-                                    "de": "Incorrect option 2 für question 66",
-                                    "nl": "Incorrect option 2 voor question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 66",
-                                    "es": "Incorrect option 3 para question 66",
-                                    "de": "Incorrect option 3 für question 66",
-                                    "nl": "Incorrect option 3 voor question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 66",
-                                    "es": "Incorrect option 4 para question 66",
-                                    "de": "Incorrect option 4 für question 66",
-                                    "nl": "Incorrect option 4 voor question 66"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 67",
-                                    "es": "Correct answer for question 67",
-                                    "de": "Correct answer for question 67",
-                                    "nl": "Correct answer for question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 67",
-                                    "es": "Incorrect option 2 para question 67",
-                                    "de": "Incorrect option 2 für question 67",
-                                    "nl": "Incorrect option 2 voor question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 67",
-                                    "es": "Incorrect option 3 para question 67",
-                                    "de": "Incorrect option 3 für question 67",
-                                    "nl": "Incorrect option 3 voor question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 67",
-                                    "es": "Incorrect option 4 para question 67",
-                                    "de": "Incorrect option 4 für question 67",
-                                    "nl": "Incorrect option 4 voor question 67"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 68",
-                                    "es": "Incorrect option 1 para question 68",
-                                    "de": "Incorrect option 1 für question 68",
-                                    "nl": "Incorrect option 1 voor question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 68",
-                                    "es": "Incorrect option 2 para question 68",
-                                    "de": "Incorrect option 2 für question 68",
-                                    "nl": "Incorrect option 2 voor question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 68",
-                                    "es": "Incorrect option 3 para question 68",
-                                    "de": "Incorrect option 3 für question 68",
-                                    "nl": "Incorrect option 3 voor question 68"
-                            },
-                            {
-                                    "en": "Correct answer for question 68",
-                                    "es": "Correct answer for question 68",
-                                    "de": "Correct answer for question 68",
-                                    "nl": "Correct answer for question 68"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 69",
-                                    "es": "Correct answer for question 69",
-                                    "de": "Correct answer for question 69",
-                                    "nl": "Correct answer for question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 69",
-                                    "es": "Incorrect option 2 para question 69",
-                                    "de": "Incorrect option 2 für question 69",
-                                    "nl": "Incorrect option 2 voor question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 69",
-                                    "es": "Incorrect option 3 para question 69",
-                                    "de": "Incorrect option 3 für question 69",
-                                    "nl": "Incorrect option 3 voor question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 69",
-                                    "es": "Incorrect option 4 para question 69",
-                                    "de": "Incorrect option 4 für question 69",
-                                    "nl": "Incorrect option 4 voor question 69"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 70",
-                                    "es": "Incorrect option 1 para question 70",
-                                    "de": "Incorrect option 1 für question 70",
-                                    "nl": "Incorrect option 1 voor question 70"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 70",
-                                    "es": "Incorrect option 2 para question 70",
-                                    "de": "Incorrect option 2 für question 70",
-                                    "nl": "Incorrect option 2 voor question 70"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 70",
-                                    "es": "Incorrect option 3 para question 70",
-                                    "de": "Incorrect option 3 für question 70",
-                                    "nl": "Incorrect option 3 voor question 70"
-                            },
-                            {
-                                    "en": "Correct answer for question 70",
-                                    "es": "Correct answer for question 70",
-                                    "de": "Correct answer for question 70",
-                                    "nl": "Correct answer for question 70"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 71",
-                                    "es": "Incorrect option 1 para question 71",
-                                    "de": "Incorrect option 1 für question 71",
-                                    "nl": "Incorrect option 1 voor question 71"
-                            },
-                            {
-                                    "en": "Correct answer for question 71",
-                                    "es": "Correct answer for question 71",
-                                    "de": "Correct answer for question 71",
-                                    "nl": "Correct answer for question 71"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 71",
-                                    "es": "Incorrect option 3 para question 71",
-                                    "de": "Incorrect option 3 für question 71",
-                                    "nl": "Incorrect option 3 voor question 71"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 71",
-                                    "es": "Incorrect option 4 para question 71",
-                                    "de": "Incorrect option 4 für question 71",
-                                    "nl": "Incorrect option 4 voor question 71"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 72",
-                                    "es": "Incorrect option 1 para question 72",
-                                    "de": "Incorrect option 1 für question 72",
-                                    "nl": "Incorrect option 1 voor question 72"
-                            },
-                            {
-                                    "en": "Correct answer for question 72",
-                                    "es": "Correct answer for question 72",
-                                    "de": "Correct answer for question 72",
-                                    "nl": "Correct answer for question 72"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 72",
-                                    "es": "Incorrect option 3 para question 72",
-                                    "de": "Incorrect option 3 für question 72",
-                                    "nl": "Incorrect option 3 voor question 72"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 72",
-                                    "es": "Incorrect option 4 para question 72",
-                                    "de": "Incorrect option 4 für question 72",
-                                    "nl": "Incorrect option 4 voor question 72"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 73",
-                                    "es": "Incorrect option 1 para question 73",
-                                    "de": "Incorrect option 1 für question 73",
-                                    "nl": "Incorrect option 1 voor question 73"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 73",
-                                    "es": "Incorrect option 2 para question 73",
-                                    "de": "Incorrect option 2 für question 73",
-                                    "nl": "Incorrect option 2 voor question 73"
-                            },
-                            {
-                                    "en": "Correct answer for question 73",
-                                    "es": "Correct answer for question 73",
-                                    "de": "Correct answer for question 73",
-                                    "nl": "Correct answer for question 73"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 73",
-                                    "es": "Incorrect option 4 para question 73",
-                                    "de": "Incorrect option 4 für question 73",
-                                    "nl": "Incorrect option 4 voor question 73"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 74",
-                                    "es": "Correct answer for question 74",
-                                    "de": "Correct answer for question 74",
-                                    "nl": "Correct answer for question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 74",
-                                    "es": "Incorrect option 2 para question 74",
-                                    "de": "Incorrect option 2 für question 74",
-                                    "nl": "Incorrect option 2 voor question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 74",
-                                    "es": "Incorrect option 3 para question 74",
-                                    "de": "Incorrect option 3 für question 74",
-                                    "nl": "Incorrect option 3 voor question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 74",
-                                    "es": "Incorrect option 4 para question 74",
-                                    "de": "Incorrect option 4 für question 74",
-                                    "nl": "Incorrect option 4 voor question 74"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 75",
-                                    "es": "Incorrect option 1 para question 75",
-                                    "de": "Incorrect option 1 für question 75",
-                                    "nl": "Incorrect option 1 voor question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 75",
-                                    "es": "Incorrect option 2 para question 75",
-                                    "de": "Incorrect option 2 für question 75",
-                                    "nl": "Incorrect option 2 voor question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 75",
-                                    "es": "Incorrect option 3 para question 75",
-                                    "de": "Incorrect option 3 für question 75",
-                                    "nl": "Incorrect option 3 voor question 75"
-                            },
-                            {
-                                    "en": "Correct answer for question 75",
-                                    "es": "Correct answer for question 75",
-                                    "de": "Correct answer for question 75",
-                                    "nl": "Correct answer for question 75"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 76",
-                                    "es": "Incorrect option 1 para question 76",
-                                    "de": "Incorrect option 1 für question 76",
-                                    "nl": "Incorrect option 1 voor question 76"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 76",
-                                    "es": "Incorrect option 2 para question 76",
-                                    "de": "Incorrect option 2 für question 76",
-                                    "nl": "Incorrect option 2 voor question 76"
-                            },
-                            {
-                                    "en": "Correct answer for question 76",
-                                    "es": "Correct answer for question 76",
-                                    "de": "Correct answer for question 76",
-                                    "nl": "Correct answer for question 76"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 76",
-                                    "es": "Incorrect option 4 para question 76",
-                                    "de": "Incorrect option 4 für question 76",
-                                    "nl": "Incorrect option 4 voor question 76"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 77",
-                                    "es": "Incorrect option 1 para question 77",
-                                    "de": "Incorrect option 1 für question 77",
-                                    "nl": "Incorrect option 1 voor question 77"
-                            },
-                            {
-                                    "en": "Correct answer for question 77",
-                                    "es": "Correct answer for question 77",
-                                    "de": "Correct answer for question 77",
-                                    "nl": "Correct answer for question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 77",
-                                    "es": "Incorrect option 3 para question 77",
-                                    "de": "Incorrect option 3 für question 77",
-                                    "nl": "Incorrect option 3 voor question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 77",
-                                    "es": "Incorrect option 4 para question 77",
-                                    "de": "Incorrect option 4 für question 77",
-                                    "nl": "Incorrect option 4 voor question 77"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 78",
-                                    "es": "Incorrect option 1 para question 78",
-                                    "de": "Incorrect option 1 für question 78",
-                                    "nl": "Incorrect option 1 voor question 78"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 78",
-                                    "es": "Incorrect option 2 para question 78",
-                                    "de": "Incorrect option 2 für question 78",
-                                    "nl": "Incorrect option 2 voor question 78"
-                            },
-                            {
-                                    "en": "Correct answer for question 78",
-                                    "es": "Correct answer for question 78",
-                                    "de": "Correct answer for question 78",
-                                    "nl": "Correct answer for question 78"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 78",
-                                    "es": "Incorrect option 4 para question 78",
-                                    "de": "Incorrect option 4 für question 78",
-                                    "nl": "Incorrect option 4 voor question 78"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 79",
-                                    "es": "Incorrect option 1 para question 79",
-                                    "de": "Incorrect option 1 für question 79",
-                                    "nl": "Incorrect option 1 voor question 79"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 79",
-                                    "es": "Incorrect option 2 para question 79",
-                                    "de": "Incorrect option 2 für question 79",
-                                    "nl": "Incorrect option 2 voor question 79"
-                            },
-                            {
-                                    "en": "Correct answer for question 79",
-                                    "es": "Correct answer for question 79",
-                                    "de": "Correct answer for question 79",
-                                    "nl": "Correct answer for question 79"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 79",
-                                    "es": "Incorrect option 4 para question 79",
-                                    "de": "Incorrect option 4 für question 79",
-                                    "nl": "Incorrect option 4 voor question 79"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 80",
-                                    "es": "Incorrect option 1 para question 80",
-                                    "de": "Incorrect option 1 für question 80",
-                                    "nl": "Incorrect option 1 voor question 80"
-                            },
-                            {
-                                    "en": "Correct answer for question 80",
-                                    "es": "Correct answer for question 80",
-                                    "de": "Correct answer for question 80",
-                                    "nl": "Correct answer for question 80"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 80",
-                                    "es": "Incorrect option 3 para question 80",
-                                    "de": "Incorrect option 3 für question 80",
-                                    "nl": "Incorrect option 3 voor question 80"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 80",
-                                    "es": "Incorrect option 4 para question 80",
-                                    "de": "Incorrect option 4 für question 80",
-                                    "nl": "Incorrect option 4 voor question 80"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 81",
-                                    "es": "Correct answer for question 81",
-                                    "de": "Correct answer for question 81",
-                                    "nl": "Correct answer for question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 81",
-                                    "es": "Incorrect option 2 para question 81",
-                                    "de": "Incorrect option 2 für question 81",
-                                    "nl": "Incorrect option 2 voor question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 81",
-                                    "es": "Incorrect option 3 para question 81",
-                                    "de": "Incorrect option 3 für question 81",
-                                    "nl": "Incorrect option 3 voor question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 81",
-                                    "es": "Incorrect option 4 para question 81",
-                                    "de": "Incorrect option 4 für question 81",
-                                    "nl": "Incorrect option 4 voor question 81"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 82",
-                                    "es": "Incorrect option 1 para question 82",
-                                    "de": "Incorrect option 1 für question 82",
-                                    "nl": "Incorrect option 1 voor question 82"
-                            },
-                            {
-                                    "en": "Correct answer for question 82",
-                                    "es": "Correct answer for question 82",
-                                    "de": "Correct answer for question 82",
-                                    "nl": "Correct answer for question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 82",
-                                    "es": "Incorrect option 3 para question 82",
-                                    "de": "Incorrect option 3 für question 82",
-                                    "nl": "Incorrect option 3 voor question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 82",
-                                    "es": "Incorrect option 4 para question 82",
-                                    "de": "Incorrect option 4 für question 82",
-                                    "nl": "Incorrect option 4 voor question 82"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 83",
-                                    "es": "Correct answer for question 83",
-                                    "de": "Correct answer for question 83",
-                                    "nl": "Correct answer for question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 83",
-                                    "es": "Incorrect option 2 para question 83",
-                                    "de": "Incorrect option 2 für question 83",
-                                    "nl": "Incorrect option 2 voor question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 83",
-                                    "es": "Incorrect option 3 para question 83",
-                                    "de": "Incorrect option 3 für question 83",
-                                    "nl": "Incorrect option 3 voor question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 83",
-                                    "es": "Incorrect option 4 para question 83",
-                                    "de": "Incorrect option 4 für question 83",
-                                    "nl": "Incorrect option 4 voor question 83"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 84",
-                                    "es": "Incorrect option 1 para question 84",
-                                    "de": "Incorrect option 1 für question 84",
-                                    "nl": "Incorrect option 1 voor question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 84",
-                                    "es": "Incorrect option 2 para question 84",
-                                    "de": "Incorrect option 2 für question 84",
-                                    "nl": "Incorrect option 2 voor question 84"
-                            },
-                            {
-                                    "en": "Correct answer for question 84",
-                                    "es": "Correct answer for question 84",
-                                    "de": "Correct answer for question 84",
-                                    "nl": "Correct answer for question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 84",
-                                    "es": "Incorrect option 4 para question 84",
-                                    "de": "Incorrect option 4 für question 84",
-                                    "nl": "Incorrect option 4 voor question 84"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 85",
-                                    "es": "Correct answer for question 85",
-                                    "de": "Correct answer for question 85",
-                                    "nl": "Correct answer for question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 85",
-                                    "es": "Incorrect option 2 para question 85",
-                                    "de": "Incorrect option 2 für question 85",
-                                    "nl": "Incorrect option 2 voor question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 85",
-                                    "es": "Incorrect option 3 para question 85",
-                                    "de": "Incorrect option 3 für question 85",
-                                    "nl": "Incorrect option 3 voor question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 85",
-                                    "es": "Incorrect option 4 para question 85",
-                                    "de": "Incorrect option 4 für question 85",
-                                    "nl": "Incorrect option 4 voor question 85"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 86",
-                                    "es": "Incorrect option 1 para question 86",
-                                    "de": "Incorrect option 1 für question 86",
-                                    "nl": "Incorrect option 1 voor question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 86",
-                                    "es": "Incorrect option 2 para question 86",
-                                    "de": "Incorrect option 2 für question 86",
-                                    "nl": "Incorrect option 2 voor question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 86",
-                                    "es": "Incorrect option 3 para question 86",
-                                    "de": "Incorrect option 3 für question 86",
-                                    "nl": "Incorrect option 3 voor question 86"
-                            },
-                            {
-                                    "en": "Correct answer for question 86",
-                                    "es": "Correct answer for question 86",
-                                    "de": "Correct answer for question 86",
-                                    "nl": "Correct answer for question 86"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 87",
-                                    "es": "Incorrect option 1 para question 87",
-                                    "de": "Incorrect option 1 für question 87",
-                                    "nl": "Incorrect option 1 voor question 87"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 87",
-                                    "es": "Incorrect option 2 para question 87",
-                                    "de": "Incorrect option 2 für question 87",
-                                    "nl": "Incorrect option 2 voor question 87"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 87",
-                                    "es": "Incorrect option 3 para question 87",
-                                    "de": "Incorrect option 3 für question 87",
-                                    "nl": "Incorrect option 3 voor question 87"
-                            },
-                            {
-                                    "en": "Correct answer for question 87",
-                                    "es": "Correct answer for question 87",
-                                    "de": "Correct answer for question 87",
-                                    "nl": "Correct answer for question 87"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 88",
-                                    "es": "Incorrect option 1 para question 88",
-                                    "de": "Incorrect option 1 für question 88",
-                                    "nl": "Incorrect option 1 voor question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 88",
-                                    "es": "Incorrect option 2 para question 88",
-                                    "de": "Incorrect option 2 für question 88",
-                                    "nl": "Incorrect option 2 voor question 88"
-                            },
-                            {
-                                    "en": "Correct answer for question 88",
-                                    "es": "Correct answer for question 88",
-                                    "de": "Correct answer for question 88",
-                                    "nl": "Correct answer for question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 88",
-                                    "es": "Incorrect option 4 para question 88",
-                                    "de": "Incorrect option 4 für question 88",
-                                    "nl": "Incorrect option 4 voor question 88"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 89",
-                                    "es": "Correct answer for question 89",
-                                    "de": "Correct answer for question 89",
-                                    "nl": "Correct answer for question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 89",
-                                    "es": "Incorrect option 2 para question 89",
-                                    "de": "Incorrect option 2 für question 89",
-                                    "nl": "Incorrect option 2 voor question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 89",
-                                    "es": "Incorrect option 3 para question 89",
-                                    "de": "Incorrect option 3 für question 89",
-                                    "nl": "Incorrect option 3 voor question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 89",
-                                    "es": "Incorrect option 4 para question 89",
-                                    "de": "Incorrect option 4 für question 89",
-                                    "nl": "Incorrect option 4 voor question 89"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 90",
-                                    "es": "Incorrect option 1 para question 90",
-                                    "de": "Incorrect option 1 für question 90",
-                                    "nl": "Incorrect option 1 voor question 90"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 90",
-                                    "es": "Incorrect option 2 para question 90",
-                                    "de": "Incorrect option 2 für question 90",
-                                    "nl": "Incorrect option 2 voor question 90"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 90",
-                                    "es": "Incorrect option 3 para question 90",
-                                    "de": "Incorrect option 3 für question 90",
-                                    "nl": "Incorrect option 3 voor question 90"
-                            },
-                            {
-                                    "en": "Correct answer for question 90",
-                                    "es": "Correct answer for question 90",
-                                    "de": "Correct answer for question 90",
-                                    "nl": "Correct answer for question 90"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 91",
-                                    "es": "Incorrect option 1 para question 91",
-                                    "de": "Incorrect option 1 für question 91",
-                                    "nl": "Incorrect option 1 voor question 91"
-                            },
-                            {
-                                    "en": "Correct answer for question 91",
-                                    "es": "Correct answer for question 91",
-                                    "de": "Correct answer for question 91",
-                                    "nl": "Correct answer for question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 91",
-                                    "es": "Incorrect option 3 para question 91",
-                                    "de": "Incorrect option 3 für question 91",
-                                    "nl": "Incorrect option 3 voor question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 91",
-                                    "es": "Incorrect option 4 para question 91",
-                                    "de": "Incorrect option 4 für question 91",
-                                    "nl": "Incorrect option 4 voor question 91"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Velociraptors?",
-                            "es": "¿Cómo does this relate to Velociraptors?",
-                            "de": "Wie does this relate to Velociraptors?",
-                            "nl": "Hoe does this relate to Velociraptors?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 92",
-                                    "es": "Incorrect option 1 para question 92",
-                                    "de": "Incorrect option 1 für question 92",
-                                    "nl": "Incorrect option 1 voor question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 92",
-                                    "es": "Incorrect option 2 para question 92",
-                                    "de": "Incorrect option 2 für question 92",
-                                    "nl": "Incorrect option 2 voor question 92"
-                            },
-                            {
-                                    "en": "Correct answer for question 92",
-                                    "es": "Correct answer for question 92",
-                                    "de": "Correct answer for question 92",
-                                    "nl": "Correct answer for question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 92",
-                                    "es": "Incorrect option 4 para question 92",
-                                    "de": "Incorrect option 4 für question 92",
-                                    "nl": "Incorrect option 4 voor question 92"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 93",
-                                    "es": "Incorrect option 1 para question 93",
-                                    "de": "Incorrect option 1 für question 93",
-                                    "nl": "Incorrect option 1 voor question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 93",
-                                    "es": "Incorrect option 2 para question 93",
-                                    "de": "Incorrect option 2 für question 93",
-                                    "nl": "Incorrect option 2 voor question 93"
-                            },
-                            {
-                                    "en": "Correct answer for question 93",
-                                    "es": "Correct answer for question 93",
-                                    "de": "Correct answer for question 93",
-                                    "nl": "Correct answer for question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 93",
-                                    "es": "Incorrect option 4 para question 93",
-                                    "de": "Incorrect option 4 für question 93",
-                                    "nl": "Incorrect option 4 voor question 93"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 94",
-                                    "es": "Incorrect option 1 para question 94",
-                                    "de": "Incorrect option 1 für question 94",
-                                    "nl": "Incorrect option 1 voor question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 94",
-                                    "es": "Incorrect option 2 para question 94",
-                                    "de": "Incorrect option 2 für question 94",
-                                    "nl": "Incorrect option 2 voor question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 94",
-                                    "es": "Incorrect option 3 para question 94",
-                                    "de": "Incorrect option 3 für question 94",
-                                    "nl": "Incorrect option 3 voor question 94"
-                            },
-                            {
-                                    "en": "Correct answer for question 94",
-                                    "es": "Correct answer for question 94",
-                                    "de": "Correct answer for question 94",
-                                    "nl": "Correct answer for question 94"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 95",
-                                    "es": "Incorrect option 1 para question 95",
-                                    "de": "Incorrect option 1 für question 95",
-                                    "nl": "Incorrect option 1 voor question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 95",
-                                    "es": "Incorrect option 2 para question 95",
-                                    "de": "Incorrect option 2 für question 95",
-                                    "nl": "Incorrect option 2 voor question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 95",
-                                    "es": "Incorrect option 3 para question 95",
-                                    "de": "Incorrect option 3 für question 95",
-                                    "nl": "Incorrect option 3 voor question 95"
-                            },
-                            {
-                                    "en": "Correct answer for question 95",
-                                    "es": "Correct answer for question 95",
-                                    "de": "Correct answer for question 95",
-                                    "nl": "Correct answer for question 95"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 96",
-                                    "es": "Incorrect option 1 para question 96",
-                                    "de": "Incorrect option 1 für question 96",
-                                    "nl": "Incorrect option 1 voor question 96"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 96",
-                                    "es": "Incorrect option 2 para question 96",
-                                    "de": "Incorrect option 2 für question 96",
-                                    "nl": "Incorrect option 2 voor question 96"
-                            },
-                            {
-                                    "en": "Correct answer for question 96",
-                                    "es": "Correct answer for question 96",
-                                    "de": "Correct answer for question 96",
-                                    "nl": "Correct answer for question 96"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 96",
-                                    "es": "Incorrect option 4 para question 96",
-                                    "de": "Incorrect option 4 für question 96",
-                                    "nl": "Incorrect option 4 voor question 96"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 97",
-                                    "es": "Incorrect option 1 para question 97",
-                                    "de": "Incorrect option 1 für question 97",
-                                    "nl": "Incorrect option 1 voor question 97"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 97",
-                                    "es": "Incorrect option 2 para question 97",
-                                    "de": "Incorrect option 2 für question 97",
-                                    "nl": "Incorrect option 2 voor question 97"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 97",
-                                    "es": "Incorrect option 3 para question 97",
-                                    "de": "Incorrect option 3 für question 97",
-                                    "nl": "Incorrect option 3 voor question 97"
-                            },
-                            {
-                                    "en": "Correct answer for question 97",
-                                    "es": "Correct answer for question 97",
-                                    "de": "Correct answer for question 97",
-                                    "nl": "Correct answer for question 97"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 98",
-                                    "es": "Correct answer for question 98",
-                                    "de": "Correct answer for question 98",
-                                    "nl": "Correct answer for question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 98",
-                                    "es": "Incorrect option 2 para question 98",
-                                    "de": "Incorrect option 2 für question 98",
-                                    "nl": "Incorrect option 2 voor question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 98",
-                                    "es": "Incorrect option 3 para question 98",
-                                    "de": "Incorrect option 3 für question 98",
-                                    "nl": "Incorrect option 3 voor question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 98",
-                                    "es": "Incorrect option 4 para question 98",
-                                    "de": "Incorrect option 4 für question 98",
-                                    "nl": "Incorrect option 4 voor question 98"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 99",
-                                    "es": "Incorrect option 1 para question 99",
-                                    "de": "Incorrect option 1 für question 99",
-                                    "nl": "Incorrect option 1 voor question 99"
-                            },
-                            {
-                                    "en": "Correct answer for question 99",
-                                    "es": "Correct answer for question 99",
-                                    "de": "Correct answer for question 99",
-                                    "nl": "Correct answer for question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 99",
-                                    "es": "Incorrect option 3 para question 99",
-                                    "de": "Incorrect option 3 für question 99",
-                                    "nl": "Incorrect option 3 voor question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 99",
-                                    "es": "Incorrect option 4 para question 99",
-                                    "de": "Incorrect option 4 für question 99",
-                                    "nl": "Incorrect option 4 voor question 99"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 4?",
-                            "es": "¿Qué is the significance of this in level 4?",
-                            "de": "Was is the significance of this in level 4?",
-                            "nl": "Wat is the significance of this in level 4?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 100",
-                                    "es": "Incorrect option 1 para question 100",
-                                    "de": "Incorrect option 1 für question 100",
-                                    "nl": "Incorrect option 1 voor question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 100",
-                                    "es": "Incorrect option 2 para question 100",
-                                    "de": "Incorrect option 2 für question 100",
-                                    "nl": "Incorrect option 2 voor question 100"
-                            },
-                            {
-                                    "en": "Correct answer for question 100",
-                                    "es": "Correct answer for question 100",
-                                    "de": "Correct answer for question 100",
-                                    "nl": "Correct answer for question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 100",
-                                    "es": "Incorrect option 4 para question 100",
-                                    "de": "Incorrect option 4 für question 100",
-                                    "nl": "Incorrect option 4 voor question 100"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
-                            "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
-                    }
+        {
+            "question": {
+                "en": "What was the actual size of a Velociraptor?",
+                "es": "¿Cuál era el tamaño real de un Velociraptor?",
+                "de": "Was war die tatsächliche Größe eines Velociraptors?",
+                "nl": "Wat was de werkelijke grootte van een Velociraptor?"
+            },
+            "options": [
+                {
+                    "en": "About 2 meters long, 0.5 meters tall",
+                    "es": "Unos 2 metros de largo, 0.5 metros de alto",
+                    "de": "Etwa 2 Meter lang, 0,5 Meter hoch",
+                    "nl": "Ongeveer 2 meter lang, 0,5 meter hoog"
+                },
+                {
+                    "en": "6 meters long, 2 meters tall",
+                    "es": "6 metros de largo, 2 metros de alto",
+                    "de": "6 Meter lang, 2 Meter hoch",
+                    "nl": "6 meter lang, 2 meter hoog"
+                },
+                {
+                    "en": "10 meters long, 3 meters tall",
+                    "es": "10 metros de largo, 3 metros de alto",
+                    "de": "10 Meter lang, 3 Meter hoch",
+                    "nl": "10 meter lang, 3 meter hoog"
+                },
+                {
+                    "en": "1 meter long, 0.3 meters tall",
+                    "es": "1 metro de largo, 0.3 metros de alto",
+                    "de": "1 Meter lang, 0,3 Meter hoch",
+                    "nl": "1 meter lang, 0,3 meter hoog"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Real Velociraptors were much smaller than depicted in movies, about the size of a turkey, measuring.",
+                "es": "Los Velociraptors reales eran mucho más pequeños que en las películas, del tamaño de un pavo.",
+                "de": "Echte Velociraptoren waren viel kleiner als in Filmen dargestellt, etwa so groß wie ein Truthahn.",
+                "nl": "Echte Velociraptors waren veel kleiner dan in films afgebeeld, ongeveer zo groot als een kalkoen."
             }
+        },
+        {
+            "question": {
+                "en": "What evidence proved Velociraptors had feathers?",
+                "es": "¿Qué evidencia demostró que los Velociraptors tenían plumas?",
+                "de": "Welcher Beweis zeigte, dass Velociraptoren Federn hatten?",
+                "nl": "Welk bewijs toonde aan dat Velociraptors veren hadden?"
+            },
+            "options": [
+                {
+                    "en": "Quill knobs on their forearm bones",
+                    "es": "Protuberancias de plumas en sus huesos del antebrazo",
+                    "de": "Federkiele an ihren Unterarmknochen",
+                    "nl": "Schachtknobbels op hun onderarmbotten"
+                },
+                {
+                    "en": "Fossilized feather impressions",
+                    "es": "Impresiones de plumas fosilizadas",
+                    "de": "Versteinerte Federabdrücke",
+                    "nl": "Gefossiliseerde veerafdrukken"
+                },
+                {
+                    "en": "DNA analysis",
+                    "es": "Análisis de ADN",
+                    "de": "DNA-Analyse",
+                    "nl": "DNA-analyse"
+                },
+                {
+                    "en": "Cave paintings",
+                    "es": "Pinturas rupestres",
+                    "de": "Höhlenmalereien",
+                    "nl": "Grotschilderingen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "In 2007, scientists discovered quill knobs on a Velociraptor's ulna , proving they had feathers.",
+                "es": "En 2007, los científicos descubrieron protuberancias de plumas en el cúbito de un Velociraptor, demostrando que tenían plumas.",
+                "de": "2007 entdeckten Wissenschaftler Federkiele an der Elle eines Velociraptors, was bewies, dass sie Federn hatten.",
+                "nl": "in 2007 ontdekten wetenschappers schachtknobbels op de ellepijp van een Velociraptor, wat bewees dat ze veren hadden."
+            }
+        },
+        {
+            "question": {
+                "en": "What was the purpose of the Velociraptor's famous sickle claw?",
+                "es": "¿Cuál era el propósito de la famosa garra en forma de hoz del Velociraptor?",
+                "de": "Was war der Zweck der berühmten Sichelkralle des Velociraptors?",
+                "nl": "Wat was het doel van de beroemde sikkelvormige klauw van de Velociraptor?"
+            },
+            "options": [
+                {
+                    "en": "Pinning prey and climbing",
+                    "es": "Sujetar presas y escalar",
+                    "de": "Beute festhalten und klettern",
+                    "nl": "Prooi vasthouden en klimmen"
+                },
+                {
+                    "en": "Only for slashing",
+                    "es": "Solo para cortar",
+                    "de": "Nur zum Aufschlitzen",
+                    "nl": "Alleen voor snijden"
+                },
+                {
+                    "en": "Digging burrows",
+                    "es": "Cavar madrigueras",
+                    "de": "Höhlen graben",
+                    "nl": "Holen graven"
+                },
+                {
+                    "en": "Display only",
+                    "es": "Solo para exhibición",
+                    "de": "Nur zur Schau",
+                    "nl": "Alleen voor vertoon"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "The enlarged second toe claw was likely used for pinning down prey and climbing.",
+                "es": "La garra agrandada del segundo dedo probablemente se usaba para sujetar presas y escalar.",
+                "de": "Die vergrößerte zweite Zehenkralle wurde wahrscheinlich zum Festhalten von Beute und zum Klettern verwendet.",
+                "nl": "De vergrote tweede teenklauw werd waarschijnlijk gebruikt voor het vasthouden van prooi en klimmen."
+            }
+        },
+        {
+            "question": {
+                "en": "Where does the name 'Velociraptor' come from?",
+                "es": "¿De dónde viene el nombre 'Velociraptor'?",
+                "de": "Woher kommt der Name 'Velociraptor'?",
+                "nl": "Waar komt de naam 'Velociraptor' vandaan?"
+            },
+            "options": [
+                {
+                    "en": "Latin for 'swift thief'",
+                    "es": "Latín para 'ladrón veloz'",
+                    "de": "Lateinisch für 'schneller Dieb'",
+                    "nl": "Latijn voor 'snelle dief'"
+                },
+                {
+                    "en": "Greek for 'fast hunter'",
+                    "es": "Griego para 'cazador rápido'",
+                    "de": "Griechisch für 'schneller Jäger'",
+                    "nl": "Grieks voor 'snelle jager'"
+                },
+                {
+                    "en": "Mongolian for 'desert runner'",
+                    "es": "Mongol para 'corredor del desierto'",
+                    "de": "Mongolisch für 'Wüstenläufer'",
+                    "nl": "Mongools voor 'woestijnloper'"
+                },
+                {
+                    "en": "Chinese for 'claw dragon'",
+                    "es": "Chino para 'dragón con garras'",
+                    "de": "Chinesisch für 'Klauendrache'",
+                    "nl": "Chinees voor 'klauwdraak'"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Velociraptor means 'swift thief' from the Latin words 'velox' and 'raptor' .",
+                "es": "Velociraptor significa 'ladrón veloz' de las palabras latinas 'velox' y 'raptor' .",
+                "de": "Velociraptor bedeutet 'schneller Dieb' aus den lateinischen Wörtern 'velox' und 'raptor' .",
+                "nl": "Velociraptor betekent 'snelle dief' van de Latijnse woorden 'velox' en 'raptor' ."
+            }
+        },
+        {
+            "question": {
+                "en": "What famous fossil shows a Velociraptor locked in combat?",
+                "es": "¿Qué fósil famoso muestra a un Velociraptor en combate?",
+                "de": "Welches berühmte Fossil zeigt einen Velociraptor im Kampf?",
+                "nl": "Welk beroemd fossiel toont een Velociraptor in gevecht?"
+            },
+            "options": [
+                {
+                    "en": "The Fighting Dinosaurs with Protoceratops",
+                    "es": "Los Dinosaurios Luchadores con Protoceratops",
+                    "de": "Die kämpfenden Dinosaurier mit Protoceratops",
+                    "nl": "De Vechtende Dinosaurussen met Protoceratops"
+                },
+                {
+                    "en": "Battle with T-Rex",
+                    "es": "Batalla con T-Rex",
+                    "de": "Kampf mit T-Rex",
+                    "nl": "Gevecht met T-Rex"
+                },
+                {
+                    "en": "Hunting Gallimimus",
+                    "es": "Cazando Gallimimus",
+                    "de": "Jagd auf Gallimimus",
+                    "nl": "Jagend op Gallimimus"
+                },
+                {
+                    "en": "Fighting another Velociraptor",
+                    "es": "Luchando con otro Velociraptor",
+                    "de": "Kampf mit einem anderen Velociraptor",
+                    "nl": "Vechtend met een andere Velociraptor"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "The 'Fighting Dinosaurs' fossil from Mongolia shows a Velociraptor and Protoceratops locked in.",
+                "es": "El fósil 'Dinosaurios Luchadores' de Mongolia muestra un Velociraptor y Protoceratops en combate.",
+                "de": "Das Fossil 'Kämpfende Dinosaurier' aus der Mongolei zeigt einen Velociraptor und Protoceratops im.",
+                "nl": "Het 'Vechtende Dinosaurussen' fossiel uit Mongolië toont een Velociraptor en Protoceratops in."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 4 for question 6",
+                    "es": "Incorrect option 4 para question 6",
+                    "de": "Incorrect option 4 für question 6",
+                    "nl": "Incorrect option 4 voor question 6"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 3 for question 7",
+                    "es": "Incorrect option 3 para question 7",
+                    "de": "Incorrect option 3 für question 7",
+                    "nl": "Incorrect option 3 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 9",
+                    "es": "Incorrect option 1 para question 9",
+                    "de": "Incorrect option 1 für question 9",
+                    "nl": "Incorrect option 1 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 4?",
+                "es": "¿Qué is the significance of this in level 4?",
+                "de": "Was is the significance of this in level 4?",
+                "nl": "Wat is the significance of this in level 4?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 4 for question 10",
+                    "es": "Incorrect option 4 para question 10",
+                    "de": "Incorrect option 4 für question 10",
+                    "nl": "Incorrect option 4 voor question 10"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 2 for question 11",
+                    "es": "Incorrect option 2 para question 11",
+                    "de": "Incorrect option 2 für question 11",
+                    "nl": "Incorrect option 2 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Velociraptors?",
+                "es": "¿Cómo does this relate to Velociraptors?",
+                "de": "Wie does this relate to Velociraptors?",
+                "nl": "Hoe does this relate to Velociraptors?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 12",
+                    "es": "Incorrect option 1 para question 12",
+                    "de": "Incorrect option 1 für question 12",
+                    "nl": "Incorrect option 1 voor question 12"
+                },
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 13",
+                    "es": "Incorrect option 1 para question 13",
+                    "de": "Incorrect option 1 für question 13",
+                    "nl": "Incorrect option 1 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                },
+                {
+                    "en": "Incorrect option 3 for question 14",
+                    "es": "Incorrect option 3 para question 14",
+                    "de": "Incorrect option 3 für question 14",
+                    "nl": "Incorrect option 3 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 4 for question 14",
+                    "es": "Incorrect option 4 para question 14",
+                    "de": "Incorrect option 4 für question 14",
+                    "nl": "Incorrect option 4 voor question 14"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 15",
+                    "es": "Incorrect option 1 para question 15",
+                    "de": "Incorrect option 1 für question 15",
+                    "nl": "Incorrect option 1 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 2 for question 15",
+                    "es": "Incorrect option 2 para question 15",
+                    "de": "Incorrect option 2 für question 15",
+                    "nl": "Incorrect option 2 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Velociraptors. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Velociraptors. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Deinonychus have?",
+                "es": "¿Qué dientes tenía el Deinonico?",
+                "de": "Welche Zähne hatte Deinonychus?",
+                "nl": "Welke tanden had Deinonychus?"
+            },
+            "options": [
+                {
+                    "en": "recurved serrated teeth",
+                    "es": "dientes serrados curvados",
+                    "de": "zurückgebogene gezahnte Zähne",
+                    "nl": "teruggebogen getande tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Deinonychus had recurved serrated teeth.",
+                "es": "Deinonico tenía dientes serrados curvados.",
+                "de": "Deinonychus hatte zurückgebogene gezahnte Zähne.",
+                "nl": "Deinonychus had teruggebogen getande tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Allosaurus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Alosaurio?",
+                "de": "Wo wurden Fossilien von Allosaurus gefunden?",
+                "nl": "Waar zijn fossielen van Allosaurus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Allosaurus fossils were found in North America.",
+                "es": "Alosaurio fósiles fueron encontrados en América del Norte.",
+                "de": "Allosaurus-Fossilien wurden in Nordamerika gefunden.",
+                "nl": "Allosaurus-fossielen werden gevonden in Noord-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Tyrannosaurus Rex?",
+                "es": "¿Cuánto pesaba el Tiranosaurio Rex?",
+                "de": "Wie schwer war Tyrannosaurus Rex?",
+                "nl": "Hoe zwaar was Tyrannosaurus Rex?"
+            },
+            "options": [
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "8 tons",
+                    "es": "8 tons",
+                    "de": "8 tons",
+                    "nl": "8 tons"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Tyrannosaurus Rex weighed about 8 tons.",
+                "es": "Tiranosaurio Rex pesaba unos 8 tons.",
+                "de": "Tyrannosaurus Rex wog etwa 8 tons.",
+                "nl": "Tyrannosaurus Rex woog ongeveer 8 tons."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Ceratosaurus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Ceratosaurio?",
+                "de": "Wo wurden Fossilien von Ceratosaurus gefunden?",
+                "nl": "Waar zijn fossielen van Ceratosaurus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Ceratosaurus fossils were found in North America.",
+                "es": "Ceratosaurio fósiles fueron encontrados en América del Norte.",
+                "de": "Ceratosaurus-Fossilien wurden in Nordamerika gefunden.",
+                "nl": "Ceratosaurus-fossielen werden gevonden in Noord-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Compsognathus unique?",
+                "es": "¿Qué hacía único al Compsognathus?",
+                "de": "Was machte Compsognathus einzigartig?",
+                "nl": "Wat maakte Compsognathus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its one of the smallest dinosaurs",
+                    "es": "Su uno de los dinosaurios más pequeños",
+                    "de": "Seine/ihre einer der kleinsten Dinosaurier",
+                    "nl": "Zijn een van de kleinste dinosaurussen"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Compsognathus was unique because of its one of the smallest dinosaurs.",
+                "es": "Compsognathus era único por su uno de los dinosaurios más pequeños.",
+                "de": "Compsognathus war einzigartig wegen einer der kleinsten Dinosaurier.",
+                "nl": "Compsognathus was uniek vanwege een van de kleinste dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Carnotaurus belong to?",
+                "es": "¿A qué grupo pertenece Carnotauro?",
+                "de": "Zu welcher Gruppe gehört Carnotaurus?",
+                "nl": "Tot welke groep behoort Carnotaurus?"
+            },
+            "options": [
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Carnotaurus belongs to the velociraptor dinosaurs.",
+                "es": "Carnotauro pertenece a los velociraptores.",
+                "de": "Carnotaurus gehört zu den Velociraptoren.",
+                "nl": "Carnotaurus behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Ceratosaurus known for?",
+                "es": "¿Por qué era conocido el Ceratosaurio?",
+                "de": "Wofür war Ceratosaurus bekannt?",
+                "nl": "Waar was Ceratosaurus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "prominent nose horn",
+                    "es": "cuerno nasal prominente",
+                    "de": "markantes Nasenhorn",
+                    "nl": "opvallende neushoorn"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Ceratosaurus was known for having prominent nose horn.",
+                "es": "Ceratosaurio era conocido por tener cuerno nasal prominente.",
+                "de": "Ceratosaurus war bekannt für markantes Nasenhorn.",
+                "nl": "Ceratosaurus was bekend om opvallende neushoorn."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Spinosaurus have?",
+                "es": "¿Qué dientes tenía el Espinosaurio?",
+                "de": "Welche Zähne hatte Spinosaurus?",
+                "nl": "Welke tanden had Spinosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "conical teeth for catching fish",
+                    "es": "dientes cónicos para atrapar peces",
+                    "de": "konische Zähne zum Fischfang",
+                    "nl": "kegelvormige tanden om vis te vangen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Spinosaurus had conical teeth for catching fish.",
+                "es": "Espinosaurio tenía dientes cónicos para atrapar peces.",
+                "de": "Spinosaurus hatte konische Zähne zum Fischfang.",
+                "nl": "Spinosaurus had kegelvormige tanden om vis te vangen."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Spinosaurus unique?",
+                "es": "¿Qué hacía único al Espinosaurio?",
+                "de": "Was machte Spinosaurus einzigartig?",
+                "nl": "Wat maakte Spinosaurus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its large sail on its back",
+                    "es": "Su gran vela en su espalda",
+                    "de": "Seine/ihre großes Segel auf dem Rücken",
+                    "nl": "Zijn groot zeil op zijn rug"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Spinosaurus was unique because of its large sail on its back.",
+                "es": "Espinosaurio era único por su gran vela en su espalda.",
+                "de": "Spinosaurus war einzigartig wegen großes Segel auf dem Rücken.",
+                "nl": "Spinosaurus was uniek vanwege groot zeil op zijn rug."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Tyrannosaurus Rex have?",
+                "es": "¿Qué dientes tenía el Tiranosaurio Rex?",
+                "de": "Welche Zähne hatte Tyrannosaurus Rex?",
+                "nl": "Welke tanden had Tyrannosaurus Rex?"
+            },
+            "options": [
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "banana-sized serrated teeth",
+                    "es": "dientes serrados del tamaño de un plátano",
+                    "de": "bananengroße gezahnte Zähne",
+                    "nl": "banaangrote getande tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Tyrannosaurus Rex had banana-sized serrated teeth.",
+                "es": "Tiranosaurio Rex tenía dientes serrados del tamaño de un plátano.",
+                "de": "Tyrannosaurus Rex hatte bananengroße gezahnte Zähne.",
+                "nl": "Tyrannosaurus Rex had banaangrote getande tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Deinonychus unique?",
+                "es": "¿Qué hacía único al Deinonico?",
+                "de": "Was machte Deinonychus einzigartig?",
+                "nl": "Wat maakte Deinonychus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its large retractable claw",
+                    "es": "Su gran garra retráctil",
+                    "de": "Seine/ihre große einziehbare Kralle",
+                    "nl": "Zijn grote intrekbare klauw"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Deinonychus was unique because of its large retractable claw.",
+                "es": "Deinonico era único por su gran garra retráctil.",
+                "de": "Deinonychus war einzigartig wegen große einziehbare Kralle.",
+                "nl": "Deinonychus was uniek vanwege grote intrekbare klauw."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Deinonychus known for?",
+                "es": "¿Por qué era conocido el Deinonico?",
+                "de": "Wofür war Deinonychus bekannt?",
+                "nl": "Waar was Deinonychus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "large retractable claw",
+                    "es": "gran garra retráctil",
+                    "de": "große einziehbare Kralle",
+                    "nl": "grote intrekbare klauw"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Deinonychus was known for having large retractable claw.",
+                "es": "Deinonico era conocido por tener gran garra retráctil.",
+                "de": "Deinonychus war bekannt für große einziehbare Kralle.",
+                "nl": "Deinonychus was bekend om grote intrekbare klauw."
+            }
+        },
+        {
+            "question": {
+                "en": "How long ago did dinosaurs go extinct?",
+                "es": "¿Hace cuánto se extinguieron los dinosaurios?",
+                "de": "Wie lange ist das Aussterben der Dinosaurier her?",
+                "nl": "Hoe lang geleden stierven dinosaurussen uit?"
+            },
+            "options": [
+                {
+                    "en": "About 66 million years ago",
+                    "es": "Hace unos 66 millones de años",
+                    "de": "Vor etwa 66 Millionen Jahren",
+                    "nl": "Ongeveer 66 miljoen jaar geleden"
+                },
+                {
+                    "en": "About 1 million years ago",
+                    "es": "Hace un millón de años",
+                    "de": "Vor 1 Million Jahren",
+                    "nl": "Ongeveer 1 miljoen jaar geleden"
+                },
+                {
+                    "en": "About 1000 years ago",
+                    "es": "Hace mil años",
+                    "de": "Vor 1000 Jahren",
+                    "nl": "Ongeveer 1000 jaar geleden"
+                },
+                {
+                    "en": "They are not extinct",
+                    "es": "No están extintos",
+                    "de": "Sie sind nicht ausgestorben",
+                    "nl": "Ze zijn niet uitgestorven"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dinosaurs went extinct about 66 million years ago.",
+                "es": "Los dinosaurios se extinguieron hace 66 millones de años.",
+                "de": "Dinosaurier starben vor 66 Millionen Jahren aus.",
+                "nl": "Dinosaurussen stierven 66 miljoen jaar geleden uit."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Giganotosaurus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Giganotosaurio?",
+                "de": "Wo wurden Fossilien von Giganotosaurus gefunden?",
+                "nl": "Waar zijn fossielen van Giganotosaurus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Giganotosaurus fossils were found in South America.",
+                "es": "Giganotosaurio fósiles fueron encontrados en América del Sur.",
+                "de": "Giganotosaurus-Fossilien wurden in Südamerika gefunden.",
+                "nl": "Giganotosaurus-fossielen werden gevonden in Zuid-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Megalosaurus known for?",
+                "es": "¿Por qué era conocido el Megalosaurio?",
+                "de": "Wofür war Megalosaurus bekannt?",
+                "nl": "Waar was Megalosaurus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "first dinosaur ever named",
+                    "es": "primer dinosaurio nombrado",
+                    "de": "erster benannter Dinosaurier",
+                    "nl": "eerste benoemde dinosaurus"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Megalosaurus was known for having first dinosaur ever named.",
+                "es": "Megalosaurio era conocido por tener primer dinosaurio nombrado.",
+                "de": "Megalosaurus war bekannt für erster benannter Dinosaurier.",
+                "nl": "Megalosaurus was bekend om eerste benoemde dinosaurus."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Tyrannosaurus Rex eat?",
+                "es": "¿Qué comía el Tiranosaurio Rex?",
+                "de": "Was fraß Tyrannosaurus Rex?",
+                "nl": "Wat at Tyrannosaurus Rex?"
+            },
+            "options": [
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "large dinosaurs",
+                    "es": "dinosaurios grandes",
+                    "de": "große Dinosaurier",
+                    "nl": "grote dinosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Tyrannosaurus Rex ate large dinosaurs.",
+                "es": "Tiranosaurio Rex comía dinosaurios grandes.",
+                "de": "Tyrannosaurus Rex fraß große Dinosaurier.",
+                "nl": "Tyrannosaurus Rex at grote dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Carnotaurus is true?",
+                "es": "¿Qué dato sobre el Carnotauro es verdadero?",
+                "de": "Welcher Fakt über Carnotaurus stimmt?",
+                "nl": "Welk feit over Carnotaurus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It had bull-like horns above eyes",
+                    "es": "Tenía cuernos de toro sobre los ojos",
+                    "de": "Es hatte stierhafte Hörner über den Augen",
+                    "nl": "Het had stierachtige hoorns boven de ogen"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Carnotaurus is known for having bull-like horns above eyes.",
+                "es": "Carnotauro es conocido por tener cuernos de toro sobre los ojos.",
+                "de": "Carnotaurus ist bekannt für stierhafte Hörner über den Augen.",
+                "nl": "Carnotaurus is bekend om stierachtige hoorns boven de ogen."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Allosaurus?",
+                "es": "¿Cuánto pesaba el Alosaurio?",
+                "de": "Wie schwer war Allosaurus?",
+                "nl": "Hoe zwaar was Allosaurus?"
+            },
+            "options": [
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "2 tons",
+                    "es": "2 tons",
+                    "de": "2 tons",
+                    "nl": "2 tons"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "10 tons",
+                    "es": "10 tons",
+                    "de": "10 tons",
+                    "nl": "10 tons"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Allosaurus weighed about 2 tons.",
+                "es": "Alosaurio pesaba unos 2 tons.",
+                "de": "Allosaurus wog etwa 2 tons.",
+                "nl": "Allosaurus woog ongeveer 2 tons."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Giganotosaurus eat?",
+                "es": "¿Qué comía el Giganotosaurio?",
+                "de": "Was fraß Giganotosaurus?",
+                "nl": "Wat at Giganotosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "large sauropods",
+                    "es": "grandes saurópodos",
+                    "de": "große Sauropoden",
+                    "nl": "grote sauropoden"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Giganotosaurus ate large sauropods.",
+                "es": "Giganotosaurio comía grandes saurópodos.",
+                "de": "Giganotosaurus fraß große Sauropoden.",
+                "nl": "Giganotosaurus at grote sauropoden."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Megalosaurus?",
+                "es": "¿Cuánto medía el Megalosaurio?",
+                "de": "Wie lang war Megalosaurus?",
+                "nl": "Hoe lang was Megalosaurus?"
+            },
+            "options": [
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "9 meters",
+                    "es": "9 meters",
+                    "de": "9 meters",
+                    "nl": "9 meters"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Megalosaurus was approximately 9 meters long.",
+                "es": "Megalosaurio medía aproximadamente 9 meters.",
+                "de": "Megalosaurus war ungefähr 9 meters lang.",
+                "nl": "Megalosaurus was ongeveer 9 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Velociraptor?",
+                "es": "¿Cuánto medía el Velociraptor?",
+                "de": "Wie lang war Velociraptor?",
+                "nl": "Hoe lang was Velociraptor?"
+            },
+            "options": [
+                {
+                    "en": "2 meters",
+                    "es": "2 meters",
+                    "de": "2 meters",
+                    "nl": "2 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Velociraptor was approximately 2 meters long.",
+                "es": "Velociraptor medía aproximadamente 2 meters.",
+                "de": "Velociraptor war ungefähr 2 meters lang.",
+                "nl": "Velociraptor was ongeveer 2 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Giganotosaurus belong to?",
+                "es": "¿A qué grupo pertenece Giganotosaurio?",
+                "de": "Zu welcher Gruppe gehört Giganotosaurus?",
+                "nl": "Tot welke groep behoort Giganotosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Giganotosaurus belongs to the velociraptor dinosaurs.",
+                "es": "Giganotosaurio pertenece a los velociraptores.",
+                "de": "Giganotosaurus gehört zu den Velociraptoren.",
+                "nl": "Giganotosaurus behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Velociraptor unique?",
+                "es": "¿Qué hacía único al Velociraptor?",
+                "de": "Was machte Velociraptor einzigartig?",
+                "nl": "Wat maakte Velociraptor uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its sickle-shaped claw on each foot",
+                    "es": "Su garra en forma de hoz en cada pie",
+                    "de": "Seine/ihre sichelförmige Kralle an jedem Fuß",
+                    "nl": "Zijn sikkelvormige klauw aan elke voet"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Velociraptor was unique because of its sickle-shaped claw on each foot.",
+                "es": "Velociraptor era único por su garra en forma de hoz en cada pie.",
+                "de": "Velociraptor war einzigartig wegen sichelförmige Kralle an jedem Fuß.",
+                "nl": "Velociraptor was uniek vanwege sikkelvormige klauw aan elke voet."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Velociraptor live?",
+                "es": "¿Cuándo vivió el Velociraptor?",
+                "de": "Wann lebte Velociraptor?",
+                "nl": "Wanneer leefde Velociraptor?"
+            },
+            "options": [
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Velociraptor lived during the Late Cretaceous.",
+                "es": "Velociraptor vivió durante el Cretácico tardío.",
+                "de": "Velociraptor lebte während Obere Kreide.",
+                "nl": "Velociraptor leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "What scientist studies dinosaurs?",
+                "es": "¿Qué científico estudia dinosaurios?",
+                "de": "Welcher Wissenschaftler studiert Dinosaurier?",
+                "nl": "Welke wetenschapper bestudeert dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Paleontologist",
+                    "es": "Paleontólogo",
+                    "de": "Paläontologe",
+                    "nl": "Paleontoloog"
+                },
+                {
+                    "en": "Biologist",
+                    "es": "Biólogo",
+                    "de": "Biologe",
+                    "nl": "Bioloog"
+                },
+                {
+                    "en": "Astronomer",
+                    "es": "Astrónomo",
+                    "de": "Astronom",
+                    "nl": "Astronoom"
+                },
+                {
+                    "en": "Chemist",
+                    "es": "Químico",
+                    "de": "Chemiker",
+                    "nl": "Chemicus"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Paleontologists study fossils and ancient life including dinosaurs.",
+                "es": "Los paleontólogos estudian fósiles y vida antigua incluyendo dinosaurios.",
+                "de": "Paläontologen studieren Fossilien und urzeitliches Leben.",
+                "nl": "Paleontologen bestuderen fossielen en prehistorisch leven."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Velociraptor have?",
+                "es": "¿Qué dientes tenía el Velociraptor?",
+                "de": "Welche Zähne hatte Velociraptor?",
+                "nl": "Welke tanden had Velociraptor?"
+            },
+            "options": [
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "small sharp serrated teeth",
+                    "es": "dientes pequeños afilados serrados",
+                    "de": "kleine scharfe gezahnte Zähne",
+                    "nl": "kleine scherpe getande tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Velociraptor had small sharp serrated teeth.",
+                "es": "Velociraptor tenía dientes pequeños afilados serrados.",
+                "de": "Velociraptor hatte kleine scharfe gezahnte Zähne.",
+                "nl": "Velociraptor had kleine scherpe getande tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What does the word dinosaur mean?",
+                "es": "¿Qué significa la palabra dinosaurio?",
+                "de": "Was bedeutet das Wort Dinosaurier?",
+                "nl": "Wat betekent het woord dinosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Ancient monster",
+                    "es": "Monstruo antiguo",
+                    "de": "Altes Monster",
+                    "nl": "Oud monster"
+                },
+                {
+                    "en": "Giant beast",
+                    "es": "Bestia gigante",
+                    "de": "Riesentier",
+                    "nl": "Reuzendier"
+                },
+                {
+                    "en": "Terrible lizard",
+                    "es": "Lagarto terrible",
+                    "de": "Schreckliche Echse",
+                    "nl": "Verschrikkelijke hagedis"
+                },
+                {
+                    "en": "Old bones",
+                    "es": "Huesos viejos",
+                    "de": "Alte Knochen",
+                    "nl": "Oude botten"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Dinosaur means terrible lizard in Greek.",
+                "es": "Dinosaurio significa lagarto terrible en griego.",
+                "de": "Dinosaurier bedeutet auf Griechisch schreckliche Echse.",
+                "nl": "Dinosaurus betekent verschrikkelijke hagedis in het Grieks."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Allosaurus belong to?",
+                "es": "¿A qué grupo pertenece Alosaurio?",
+                "de": "Zu welcher Gruppe gehört Allosaurus?",
+                "nl": "Tot welke groep behoort Allosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Allosaurus belongs to the velociraptor dinosaurs.",
+                "es": "Alosaurio pertenece a los velociraptores.",
+                "de": "Allosaurus gehört zu den Velociraptoren.",
+                "nl": "Allosaurus behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Baryonyx belong to?",
+                "es": "¿A qué grupo pertenece Baryonyx?",
+                "de": "Zu welcher Gruppe gehört Baryonyx?",
+                "nl": "Tot welke groep behoort Baryonyx?"
+            },
+            "options": [
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Baryonyx belongs to the velociraptor dinosaurs.",
+                "es": "Baryonyx pertenece a los velociraptores.",
+                "de": "Baryonyx gehört zu den Velociraptoren.",
+                "nl": "Baryonyx behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Giganotosaurus?",
+                "es": "¿Cuánto medía el Giganotosaurio?",
+                "de": "Wie lang war Giganotosaurus?",
+                "nl": "Hoe lang was Giganotosaurus?"
+            },
+            "options": [
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "13 meters",
+                    "es": "13 meters",
+                    "de": "13 meters",
+                    "nl": "13 meters"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Giganotosaurus was approximately 13 meters long.",
+                "es": "Giganotosaurio medía aproximadamente 13 meters.",
+                "de": "Giganotosaurus war ungefähr 13 meters lang.",
+                "nl": "Giganotosaurus was ongeveer 13 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Carnotaurus?",
+                "es": "¿Cuánto medía el Carnotauro?",
+                "de": "Wie lang war Carnotaurus?",
+                "nl": "Hoe lang was Carnotaurus?"
+            },
+            "options": [
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "8 meters",
+                    "es": "8 meters",
+                    "de": "8 meters",
+                    "nl": "8 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Carnotaurus was approximately 8 meters long.",
+                "es": "Carnotauro medía aproximadamente 8 meters.",
+                "de": "Carnotaurus war ungefähr 8 meters lang.",
+                "nl": "Carnotaurus was ongeveer 8 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Carnotaurus eat?",
+                "es": "¿Qué comía el Carnotauro?",
+                "de": "Was fraß Carnotaurus?",
+                "nl": "Wat at Carnotaurus?"
+            },
+            "options": [
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "medium-sized dinosaurs",
+                    "es": "dinosaurios medianos",
+                    "de": "mittelgroße Dinosaurier",
+                    "nl": "middelgrote dinosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Carnotaurus ate medium-sized dinosaurs.",
+                "es": "Carnotauro comía dinosaurios medianos.",
+                "de": "Carnotaurus fraß mittelgroße Dinosaurier.",
+                "nl": "Carnotaurus at middelgrote dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Tyrannosaurus Rex known for?",
+                "es": "¿Por qué era conocido el Tiranosaurio Rex?",
+                "de": "Wofür war Tyrannosaurus Rex bekannt?",
+                "nl": "Waar was Tyrannosaurus Rex bekend om?"
+            },
+            "options": [
+                {
+                    "en": "tiny arms and massive jaws",
+                    "es": "brazos diminutos y mandíbulas masivas",
+                    "de": "winzige Arme und massive Kiefer",
+                    "nl": "kleine armpjes en massieve kaken"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Tyrannosaurus Rex was known for having tiny arms and massive jaws.",
+                "es": "Tiranosaurio Rex era conocido por tener brazos diminutos y mandíbulas masivas.",
+                "de": "Tyrannosaurus Rex war bekannt für winzige Arme und massive Kiefer.",
+                "nl": "Tyrannosaurus Rex was bekend om kleine armpjes en massieve kaken."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Carnotaurus live?",
+                "es": "¿Cuándo vivió el Carnotauro?",
+                "de": "Wann lebte Carnotaurus?",
+                "nl": "Wanneer leefde Carnotaurus?"
+            },
+            "options": [
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Carnotaurus lived during the Late Cretaceous.",
+                "es": "Carnotauro vivió durante el Cretácico tardío.",
+                "de": "Carnotaurus lebte während Obere Kreide.",
+                "nl": "Carnotaurus leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Compsognathus?",
+                "es": "¿Cuánto medía el Compsognathus?",
+                "de": "Wie lang war Compsognathus?",
+                "nl": "Hoe lang was Compsognathus?"
+            },
+            "options": [
+                {
+                    "en": "10 meters",
+                    "es": "10 meters",
+                    "de": "10 meters",
+                    "nl": "10 meters"
+                },
+                {
+                    "en": "3 meters",
+                    "es": "3 meters",
+                    "de": "3 meters",
+                    "nl": "3 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "20 meters",
+                    "es": "20 meters",
+                    "de": "20 meters",
+                    "nl": "20 meters"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Compsognathus was approximately 1 meter long.",
+                "es": "Compsognathus medía aproximadamente 1 meter.",
+                "de": "Compsognathus war ungefähr 1 meter lang.",
+                "nl": "Compsognathus was ongeveer 1 meter lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a coprolite?",
+                "es": "¿Qué es un coprolito?",
+                "de": "Was ist ein Koprolith?",
+                "nl": "Wat is een coproliet?"
+            },
+            "options": [
+                {
+                    "en": "A fossilized plant",
+                    "es": "Una planta fosilizada",
+                    "de": "Eine versteinerte Pflanze",
+                    "nl": "Een gefossiliseerde plant"
+                },
+                {
+                    "en": "A type of mineral",
+                    "es": "Un tipo de mineral",
+                    "de": "Eine Art Mineral",
+                    "nl": "Een soort mineraal"
+                },
+                {
+                    "en": "A dinosaur skull",
+                    "es": "Un cráneo",
+                    "de": "Ein Schädel",
+                    "nl": "Een schedel"
+                },
+                {
+                    "en": "Fossilized dinosaur droppings",
+                    "es": "Excrementos fosilizados",
+                    "de": "Versteinerter Dinosaurierkot",
+                    "nl": "Gefossiliseerde uitwerpselen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Coprolites are fossilized droppings revealing dinosaur diet info.",
+                "es": "Los coprolitos son excrementos fosilizados que revelan la dieta.",
+                "de": "Koprolithen sind versteinerter Kot der die Ernährung verrät.",
+                "nl": "Coprolieten zijn gefossiliseerde uitwerpselen die dieetinfo onthullen."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Baryonyx is true?",
+                "es": "¿Qué dato sobre el Baryonyx es verdadero?",
+                "de": "Welcher Fakt über Baryonyx stimmt?",
+                "nl": "Welk feit over Baryonyx is waar?"
+            },
+            "options": [
+                {
+                    "en": "It had large claw on its hand",
+                    "es": "Tenía gran garra en su mano",
+                    "de": "Es hatte große Kralle an der Hand",
+                    "nl": "Het had grote klauw aan de hand"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Baryonyx is known for having large claw on its hand.",
+                "es": "Baryonyx es conocido por tener gran garra en su mano.",
+                "de": "Baryonyx ist bekannt für große Kralle an der Hand.",
+                "nl": "Baryonyx is bekend om grote klauw aan de hand."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Ceratosaurus?",
+                "es": "¿Cuánto medía el Ceratosaurio?",
+                "de": "Wie lang war Ceratosaurus?",
+                "nl": "Hoe lang was Ceratosaurus?"
+            },
+            "options": [
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "6 meters",
+                    "es": "6 meters",
+                    "de": "6 meters",
+                    "nl": "6 meters"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Ceratosaurus was approximately 6 meters long.",
+                "es": "Ceratosaurio medía aproximadamente 6 meters.",
+                "de": "Ceratosaurus war ungefähr 6 meters lang.",
+                "nl": "Ceratosaurus was ongeveer 6 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Tyrannosaurus Rex belong to?",
+                "es": "¿A qué grupo pertenece Tiranosaurio Rex?",
+                "de": "Zu welcher Gruppe gehört Tyrannosaurus Rex?",
+                "nl": "Tot welke groep behoort Tyrannosaurus Rex?"
+            },
+            "options": [
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Tyrannosaurus Rex belongs to the velociraptor dinosaurs.",
+                "es": "Tiranosaurio Rex pertenece a los velociraptores.",
+                "de": "Tyrannosaurus Rex gehört zu den Velociraptoren.",
+                "nl": "Tyrannosaurus Rex behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Giganotosaurus live?",
+                "es": "¿Cuándo vivió el Giganotosaurio?",
+                "de": "Wann lebte Giganotosaurus?",
+                "nl": "Wanneer leefde Giganotosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Giganotosaurus lived during the Late Cretaceous.",
+                "es": "Giganotosaurio vivió durante el Cretácico tardío.",
+                "de": "Giganotosaurus lebte während Obere Kreide.",
+                "nl": "Giganotosaurus leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Deinonychus?",
+                "es": "¿Cuánto pesaba el Deinonico?",
+                "de": "Wie schwer war Deinonychus?",
+                "nl": "Hoe zwaar was Deinonychus?"
+            },
+            "options": [
+                {
+                    "en": "73 kg",
+                    "es": "73 kg",
+                    "de": "73 kg",
+                    "nl": "73 kg"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Deinonychus weighed about 73 kg.",
+                "es": "Deinonico pesaba unos 73 kg.",
+                "de": "Deinonychus wog etwa 73 kg.",
+                "nl": "Deinonychus woog ongeveer 73 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Dilophosaurus?",
+                "es": "¿Cuánto pesaba el Dilofosaurio?",
+                "de": "Wie schwer war Dilophosaurus?",
+                "nl": "Hoe zwaar was Dilophosaurus?"
+            },
+            "options": [
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "400 kg",
+                    "es": "400 kg",
+                    "de": "400 kg",
+                    "nl": "400 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Dilophosaurus weighed about 400 kg.",
+                "es": "Dilofosaurio pesaba unos 400 kg.",
+                "de": "Dilophosaurus wog etwa 400 kg.",
+                "nl": "Dilophosaurus woog ongeveer 400 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Dilophosaurus unique?",
+                "es": "¿Qué hacía único al Dilofosaurio?",
+                "de": "Was machte Dilophosaurus einzigartig?",
+                "nl": "Wat maakte Dilophosaurus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its double crest on its head",
+                    "es": "Su doble cresta en su cabeza",
+                    "de": "Seine/ihre Doppelkamm auf dem Kopf",
+                    "nl": "Zijn dubbele kam op het hoofd"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Dilophosaurus was unique because of its double crest on its head.",
+                "es": "Dilofosaurio era único por su doble cresta en su cabeza.",
+                "de": "Dilophosaurus war einzigartig wegen Doppelkamm auf dem Kopf.",
+                "nl": "Dilophosaurus was uniek vanwege dubbele kam op het hoofd."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Dilophosaurus belong to?",
+                "es": "¿A qué grupo pertenece Dilofosaurio?",
+                "de": "Zu welcher Gruppe gehört Dilophosaurus?",
+                "nl": "Tot welke groep behoort Dilophosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Dilophosaurus belongs to the velociraptor dinosaurs.",
+                "es": "Dilofosaurio pertenece a los velociraptores.",
+                "de": "Dilophosaurus gehört zu den Velociraptoren.",
+                "nl": "Dilophosaurus behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "What modern animals descend from dinosaurs?",
+                "es": "¿Qué animales modernos descienden de dinosaurios?",
+                "de": "Welche modernen Tiere stammen von Dinosauriern ab?",
+                "nl": "Welke moderne dieren stammen af van dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Birds",
+                    "es": "Aves",
+                    "de": "Vögel",
+                    "nl": "Vogels"
+                },
+                {
+                    "en": "Crocodiles",
+                    "es": "Cocodrilos",
+                    "de": "Krokodile",
+                    "nl": "Krokodillen"
+                },
+                {
+                    "en": "Lizards",
+                    "es": "Lagartos",
+                    "de": "Eidechsen",
+                    "nl": "Hagedissen"
+                },
+                {
+                    "en": "Snakes",
+                    "es": "Serpientes",
+                    "de": "Schlangen",
+                    "nl": "Slangen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Birds are direct descendants of theropod dinosaurs.",
+                "es": "Las aves son descendientes directos de dinosaurios terópodos.",
+                "de": "Vögel sind direkte Nachfahren theropoder Dinosaurier.",
+                "nl": "Vogels zijn directe afstammelingen van theropode dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Baryonyx live?",
+                "es": "¿Cuándo vivió el Baryonyx?",
+                "de": "Wann lebte Baryonyx?",
+                "nl": "Wanneer leefde Baryonyx?"
+            },
+            "options": [
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Cretaceous",
+                    "es": "Cretácico temprano",
+                    "de": "Untere Kreide",
+                    "nl": "Vroeg-Krijt"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Baryonyx lived during the Early Cretaceous.",
+                "es": "Baryonyx vivió durante el Cretácico temprano.",
+                "de": "Baryonyx lebte während Untere Kreide.",
+                "nl": "Baryonyx leefde tijdens het Vroeg-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Dilophosaurus known for?",
+                "es": "¿Por qué era conocido el Dilofosaurio?",
+                "de": "Wofür war Dilophosaurus bekannt?",
+                "nl": "Waar was Dilophosaurus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "double crest on its head",
+                    "es": "doble cresta en su cabeza",
+                    "de": "Doppelkamm auf dem Kopf",
+                    "nl": "dubbele kam op het hoofd"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Dilophosaurus was known for having double crest on its head.",
+                "es": "Dilofosaurio era conocido por tener doble cresta en su cabeza.",
+                "de": "Dilophosaurus war bekannt für Doppelkamm auf dem Kopf.",
+                "nl": "Dilophosaurus was bekend om dubbele kam op het hoofd."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Tyrannosaurus Rex unique?",
+                "es": "¿Qué hacía único al Tiranosaurio Rex?",
+                "de": "Was machte Tyrannosaurus Rex einzigartig?",
+                "nl": "Wat maakte Tyrannosaurus Rex uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its tiny arms and massive jaws",
+                    "es": "Su brazos diminutos y mandíbulas masivas",
+                    "de": "Seine/ihre winzige Arme und massive Kiefer",
+                    "nl": "Zijn kleine armpjes en massieve kaken"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Tyrannosaurus Rex was unique because of its tiny arms and massive jaws.",
+                "es": "Tiranosaurio Rex era único por su brazos diminutos y mandíbulas masivas.",
+                "de": "Tyrannosaurus Rex war einzigartig wegen winzige Arme und massive Kiefer.",
+                "nl": "Tyrannosaurus Rex was uniek vanwege kleine armpjes en massieve kaken."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Ceratosaurus live?",
+                "es": "¿Cuándo vivió el Ceratosaurio?",
+                "de": "Wann lebte Ceratosaurus?",
+                "nl": "Wanneer leefde Ceratosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Late Jurassic",
+                    "es": "Jurásico tardío",
+                    "de": "Oberer Jura",
+                    "nl": "Laat-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Ceratosaurus lived during the Late Jurassic.",
+                "es": "Ceratosaurio vivió durante el Jurásico tardío.",
+                "de": "Ceratosaurus lebte während Oberer Jura.",
+                "nl": "Ceratosaurus leefde tijdens het Laat-Jura."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Compsognathus belong to?",
+                "es": "¿A qué grupo pertenece Compsognathus?",
+                "de": "Zu welcher Gruppe gehört Compsognathus?",
+                "nl": "Tot welke groep behoort Compsognathus?"
+            },
+            "options": [
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "velociraptor dinosaurs",
+                    "es": "velociraptores",
+                    "de": "Velociraptoren",
+                    "nl": "velociraptors"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Compsognathus belongs to the velociraptor dinosaurs.",
+                "es": "Compsognathus pertenece a los velociraptores.",
+                "de": "Compsognathus gehört zu den Velociraptoren.",
+                "nl": "Compsognathus behoort tot de velociraptors."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Ceratosaurus have?",
+                "es": "¿Qué dientes tenía el Ceratosaurio?",
+                "de": "Welche Zähne hatte Ceratosaurus?",
+                "nl": "Welke tanden had Ceratosaurus?"
+            },
+            "options": [
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "large blade-shaped teeth",
+                    "es": "dientes grandes en forma de hoja",
+                    "de": "große klingenförmige Zähne",
+                    "nl": "grote mesachtige tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Ceratosaurus had large blade-shaped teeth.",
+                "es": "Ceratosaurio tenía dientes grandes en forma de hoja.",
+                "de": "Ceratosaurus hatte große klingenförmige Zähne.",
+                "nl": "Ceratosaurus had grote mesachtige tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Compsognathus known for?",
+                "es": "¿Por qué era conocido el Compsognathus?",
+                "de": "Wofür war Compsognathus bekannt?",
+                "nl": "Waar was Compsognathus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "one of the smallest dinosaurs",
+                    "es": "uno de los dinosaurios más pequeños",
+                    "de": "einer der kleinsten Dinosaurier",
+                    "nl": "een van de kleinste dinosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Compsognathus was known for having one of the smallest dinosaurs.",
+                "es": "Compsognathus era conocido por tener uno de los dinosaurios más pequeños.",
+                "de": "Compsognathus war bekannt für einer der kleinsten Dinosaurier.",
+                "nl": "Compsognathus was bekend om een van de kleinste dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Allosaurus?",
+                "es": "¿Cuánto medía el Alosaurio?",
+                "de": "Wie lang war Allosaurus?",
+                "nl": "Hoe lang was Allosaurus?"
+            },
+            "options": [
+                {
+                    "en": "9 meters",
+                    "es": "9 meters",
+                    "de": "9 meters",
+                    "nl": "9 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Allosaurus was approximately 9 meters long.",
+                "es": "Alosaurio medía aproximadamente 9 meters.",
+                "de": "Allosaurus war ungefähr 9 meters lang.",
+                "nl": "Allosaurus was ongeveer 9 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Carnotaurus known for?",
+                "es": "¿Por qué era conocido el Carnotauro?",
+                "de": "Wofür war Carnotaurus bekannt?",
+                "nl": "Waar was Carnotaurus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "bull-like horns above eyes",
+                    "es": "cuernos de toro sobre los ojos",
+                    "de": "stierhafte Hörner über den Augen",
+                    "nl": "stierachtige hoorns boven de ogen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Carnotaurus was known for having bull-like horns above eyes.",
+                "es": "Carnotauro era conocido por tener cuernos de toro sobre los ojos.",
+                "de": "Carnotaurus war bekannt für stierhafte Hörner über den Augen.",
+                "nl": "Carnotaurus was bekend om stierachtige hoorns boven de ogen."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Tyrannosaurus Rex fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Tiranosaurio Rex?",
+                "de": "Wo wurden Fossilien von Tyrannosaurus Rex gefunden?",
+                "nl": "Waar zijn fossielen van Tyrannosaurus Rex gevonden?"
+            },
+            "options": [
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Tyrannosaurus Rex fossils were found in North America.",
+                "es": "Tiranosaurio Rex fósiles fueron encontrados en América del Norte.",
+                "de": "Tyrannosaurus Rex-Fossilien wurden in Nordamerika gefunden.",
+                "nl": "Tyrannosaurus Rex-fossielen werden gevonden in Noord-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Velociraptor known for?",
+                "es": "¿Por qué era conocido el Velociraptor?",
+                "de": "Wofür war Velociraptor bekannt?",
+                "nl": "Waar was Velociraptor bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "sickle-shaped claw on each foot",
+                    "es": "garra en forma de hoz en cada pie",
+                    "de": "sichelförmige Kralle an jedem Fuß",
+                    "nl": "sikkelvormige klauw aan elke voet"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Velociraptor was known for having sickle-shaped claw on each foot.",
+                "es": "Velociraptor era conocido por tener garra en forma de hoz en cada pie.",
+                "de": "Velociraptor war bekannt für sichelförmige Kralle an jedem Fuß.",
+                "nl": "Velociraptor was bekend om sikkelvormige klauw aan elke voet."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Megalosaurus unique?",
+                "es": "¿Qué hacía único al Megalosaurio?",
+                "de": "Was machte Megalosaurus einzigartig?",
+                "nl": "Wat maakte Megalosaurus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its first dinosaur ever named",
+                    "es": "Su primer dinosaurio nombrado",
+                    "de": "Seine/ihre erster benannter Dinosaurier",
+                    "nl": "Zijn eerste benoemde dinosaurus"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Megalosaurus was unique because of its first dinosaur ever named.",
+                "es": "Megalosaurio era único por su primer dinosaurio nombrado.",
+                "de": "Megalosaurus war einzigartig wegen erster benannter Dinosaurier.",
+                "nl": "Megalosaurus was uniek vanwege eerste benoemde dinosaurus."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Carnotaurus unique?",
+                "es": "¿Qué hacía único al Carnotauro?",
+                "de": "Was machte Carnotaurus einzigartig?",
+                "nl": "Wat maakte Carnotaurus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its bull-like horns above eyes",
+                    "es": "Su cuernos de toro sobre los ojos",
+                    "de": "Seine/ihre stierhafte Hörner über den Augen",
+                    "nl": "Zijn stierachtige hoorns boven de ogen"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Carnotaurus was unique because of its bull-like horns above eyes.",
+                "es": "Carnotauro era único por su cuernos de toro sobre los ojos.",
+                "de": "Carnotaurus war einzigartig wegen stierhafte Hörner über den Augen.",
+                "nl": "Carnotaurus was uniek vanwege stierachtige hoorns boven de ogen."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Megalosaurus is true?",
+                "es": "¿Qué dato sobre el Megalosaurio es verdadero?",
+                "de": "Welcher Fakt über Megalosaurus stimmt?",
+                "nl": "Welk feit over Megalosaurus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It had first dinosaur ever named",
+                    "es": "Tenía primer dinosaurio nombrado",
+                    "de": "Es hatte erster benannter Dinosaurier",
+                    "nl": "Het had eerste benoemde dinosaurus"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Megalosaurus is known for having first dinosaur ever named.",
+                "es": "Megalosaurio es conocido por tener primer dinosaurio nombrado.",
+                "de": "Megalosaurus ist bekannt für erster benannter Dinosaurier.",
+                "nl": "Megalosaurus is bekend om eerste benoemde dinosaurus."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Allosaurus is true?",
+                "es": "¿Qué dato sobre el Alosaurio es verdadero?",
+                "de": "Welcher Fakt über Allosaurus stimmt?",
+                "nl": "Welk feit over Allosaurus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It had large skull with bony ridges",
+                    "es": "Tenía cráneo grande con crestas óseas",
+                    "de": "Es hatte großer Schädel mit knöchernen Graten",
+                    "nl": "Het had grote schedel met benige richels"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Allosaurus is known for having large skull with bony ridges.",
+                "es": "Alosaurio es conocido por tener cráneo grande con crestas óseas.",
+                "de": "Allosaurus ist bekannt für großer Schädel mit knöchernen Graten.",
+                "nl": "Allosaurus is bekend om grote schedel met benige richels."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Spinosaurus is true?",
+                "es": "¿Qué dato sobre el Espinosaurio es verdadero?",
+                "de": "Welcher Fakt über Spinosaurus stimmt?",
+                "nl": "Welk feit over Spinosaurus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It had large sail on its back",
+                    "es": "Tenía gran vela en su espalda",
+                    "de": "Es hatte großes Segel auf dem Rücken",
+                    "nl": "Het had groot zeil op zijn rug"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Spinosaurus is known for having large sail on its back.",
+                "es": "Espinosaurio es conocido por tener gran vela en su espalda.",
+                "de": "Spinosaurus ist bekannt für großes Segel auf dem Rücken.",
+                "nl": "Spinosaurus is bekend om groot zeil op zijn rug."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Baryonyx have?",
+                "es": "¿Qué dientes tenía el Baryonyx?",
+                "de": "Welche Zähne hatte Baryonyx?",
+                "nl": "Welke tanden had Baryonyx?"
+            },
+            "options": [
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "crocodile-like teeth",
+                    "es": "dientes de cocodrilo",
+                    "de": "krokodilähnliche Zähne",
+                    "nl": "krokodilachtige tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Baryonyx had crocodile-like teeth.",
+                "es": "Baryonyx tenía dientes de cocodrilo.",
+                "de": "Baryonyx hatte krokodilähnliche Zähne.",
+                "nl": "Baryonyx had krokodilachtige tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Tyrannosaurus Rex is true?",
+                "es": "¿Qué dato sobre el Tiranosaurio Rex es verdadero?",
+                "de": "Welcher Fakt über Tyrannosaurus Rex stimmt?",
+                "nl": "Welk feit over Tyrannosaurus Rex is waar?"
+            },
+            "options": [
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It had tiny arms and massive jaws",
+                    "es": "Tenía brazos diminutos y mandíbulas masivas",
+                    "de": "Es hatte winzige Arme und massive Kiefer",
+                    "nl": "Het had kleine armpjes en massieve kaken"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Tyrannosaurus Rex is known for having tiny arms and massive jaws.",
+                "es": "Tiranosaurio Rex es conocido por tener brazos diminutos y mandíbulas masivas.",
+                "de": "Tyrannosaurus Rex ist bekannt für winzige Arme und massive Kiefer.",
+                "nl": "Tyrannosaurus Rex is bekend om kleine armpjes en massieve kaken."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Compsognathus eat?",
+                "es": "¿Qué comía el Compsognathus?",
+                "de": "Was fraß Compsognathus?",
+                "nl": "Wat at Compsognathus?"
+            },
+            "options": [
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "insects and lizards",
+                    "es": "insectos y lagartos",
+                    "de": "Insekten und Eidechsen",
+                    "nl": "insecten en hagedissen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Compsognathus ate insects and lizards.",
+                "es": "Compsognathus comía insectos y lagartos.",
+                "de": "Compsognathus fraß Insekten und Eidechsen.",
+                "nl": "Compsognathus at insecten en hagedissen."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Dilophosaurus eat?",
+                "es": "¿Qué comía el Dilofosaurio?",
+                "de": "Was fraß Dilophosaurus?",
+                "nl": "Wat at Dilophosaurus?"
+            },
+            "options": [
+                {
+                    "en": "small animals and fish",
+                    "es": "animales pequeños y peces",
+                    "de": "kleine Tiere und Fische",
+                    "nl": "kleine dieren en vissen"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dilophosaurus ate small animals and fish.",
+                "es": "Dilofosaurio comía animales pequeños y peces.",
+                "de": "Dilophosaurus fraß kleine Tiere und Fische.",
+                "nl": "Dilophosaurus at kleine dieren en vissen."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Deinonychus live?",
+                "es": "¿Cuándo vivió el Deinonico?",
+                "de": "Wann lebte Deinonychus?",
+                "nl": "Wanneer leefde Deinonychus?"
+            },
+            "options": [
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Cretaceous",
+                    "es": "Cretácico temprano",
+                    "de": "Untere Kreide",
+                    "nl": "Vroeg-Krijt"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Deinonychus lived during the Early Cretaceous.",
+                "es": "Deinonico vivió durante el Cretácico temprano.",
+                "de": "Deinonychus lebte während Untere Kreide.",
+                "nl": "Deinonychus leefde tijdens het Vroeg-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Compsognathus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Compsognathus?",
+                "de": "Wo wurden Fossilien von Compsognathus gefunden?",
+                "nl": "Waar zijn fossielen van Compsognathus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Compsognathus fossils were found in Europe.",
+                "es": "Compsognathus fósiles fueron encontrados en Europa.",
+                "de": "Compsognathus-Fossilien wurden in Europa gefunden.",
+                "nl": "Compsognathus-fossielen werden gevonden in Europa."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Megalosaurus live?",
+                "es": "¿Cuándo vivió el Megalosaurio?",
+                "de": "Wann lebte Megalosaurus?",
+                "nl": "Wanneer leefde Megalosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Late Jurassic",
+                    "es": "Jurásico tardío",
+                    "de": "Oberer Jura",
+                    "nl": "Laat-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Megalosaurus lived during the Middle Jurassic.",
+                "es": "Megalosaurio vivió durante el Jurásico medio.",
+                "de": "Megalosaurus lebte während Mittlerer Jura.",
+                "nl": "Megalosaurus leefde tijdens het Midden-Jura."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Ceratosaurus unique?",
+                "es": "¿Qué hacía único al Ceratosaurio?",
+                "de": "Was machte Ceratosaurus einzigartig?",
+                "nl": "Wat maakte Ceratosaurus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its prominent nose horn",
+                    "es": "Su cuerno nasal prominente",
+                    "de": "Seine/ihre markantes Nasenhorn",
+                    "nl": "Zijn opvallende neushoorn"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Ceratosaurus was unique because of its prominent nose horn.",
+                "es": "Ceratosaurio era único por su cuerno nasal prominente.",
+                "de": "Ceratosaurus war einzigartig wegen markantes Nasenhorn.",
+                "nl": "Ceratosaurus was uniek vanwege opvallende neushoorn."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Baryonyx unique?",
+                "es": "¿Qué hacía único al Baryonyx?",
+                "de": "Was machte Baryonyx einzigartig?",
+                "nl": "Wat maakte Baryonyx uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its large claw on its hand",
+                    "es": "Su gran garra en su mano",
+                    "de": "Seine/ihre große Kralle an der Hand",
+                    "nl": "Zijn grote klauw aan de hand"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Baryonyx was unique because of its large claw on its hand.",
+                "es": "Baryonyx era único por su gran garra en su mano.",
+                "de": "Baryonyx war einzigartig wegen große Kralle an der Hand.",
+                "nl": "Baryonyx was uniek vanwege grote klauw aan de hand."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Megalosaurus have?",
+                "es": "¿Qué dientes tenía el Megalosaurio?",
+                "de": "Welche Zähne hatte Megalosaurus?",
+                "nl": "Welke tanden had Megalosaurus?"
+            },
+            "options": [
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "curved sharp teeth",
+                    "es": "dientes curvos afilados",
+                    "de": "gebogene scharfe Zähne",
+                    "nl": "gebogen scherpe tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Megalosaurus had curved sharp teeth.",
+                "es": "Megalosaurio tenía dientes curvos afilados.",
+                "de": "Megalosaurus hatte gebogene scharfe Zähne.",
+                "nl": "Megalosaurus had gebogen scherpe tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Giganotosaurus is true?",
+                "es": "¿Qué dato sobre el Giganotosaurio es verdadero?",
+                "de": "Welcher Fakt über Giganotosaurus stimmt?",
+                "nl": "Welk feit over Giganotosaurus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It had one of the largest land predators",
+                    "es": "Tenía uno de los mayores depredadores terrestres",
+                    "de": "Es hatte einer der größten Landraubtiere",
+                    "nl": "Het had een van de grootste landroofdieren"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Giganotosaurus is known for having one of the largest land predators.",
+                "es": "Giganotosaurio es conocido por tener uno de los mayores depredadores terrestres.",
+                "de": "Giganotosaurus ist bekannt für einer der größten Landraubtiere.",
+                "nl": "Giganotosaurus is bekend om een van de grootste landroofdieren."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Megalosaurus eat?",
+                "es": "¿Qué comía el Megalosaurio?",
+                "de": "Was fraß Megalosaurus?",
+                "nl": "Wat at Megalosaurus?"
+            },
+            "options": [
+                {
+                    "en": "other dinosaurs",
+                    "es": "otros dinosaurios",
+                    "de": "andere Dinosaurier",
+                    "nl": "andere dinosaurussen"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Megalosaurus ate other dinosaurs.",
+                "es": "Megalosaurio comía otros dinosaurios.",
+                "de": "Megalosaurus fraß andere Dinosaurier.",
+                "nl": "Megalosaurus at andere dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Baryonyx eat?",
+                "es": "¿Qué comía el Baryonyx?",
+                "de": "Was fraß Baryonyx?",
+                "nl": "Wat at Baryonyx?"
+            },
+            "options": [
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "fish",
+                    "es": "peces",
+                    "de": "Fische",
+                    "nl": "vissen"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Baryonyx ate fish.",
+                "es": "Baryonyx comía peces.",
+                "de": "Baryonyx fraß Fische.",
+                "nl": "Baryonyx at vissen."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Compsognathus have?",
+                "es": "¿Qué dientes tenía el Compsognathus?",
+                "de": "Welche Zähne hatte Compsognathus?",
+                "nl": "Welke tanden had Compsognathus?"
+            },
+            "options": [
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "tiny sharp teeth",
+                    "es": "dientes diminutos y afilados",
+                    "de": "winzige scharfe Zähne",
+                    "nl": "piepkleine scherpe tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Compsognathus had tiny sharp teeth.",
+                "es": "Compsognathus tenía dientes diminutos y afilados.",
+                "de": "Compsognathus hatte winzige scharfe Zähne.",
+                "nl": "Compsognathus had piepkleine scherpe tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Spinosaurus?",
+                "es": "¿Cuánto pesaba el Espinosaurio?",
+                "de": "Wie schwer war Spinosaurus?",
+                "nl": "Hoe zwaar was Spinosaurus?"
+            },
+            "options": [
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "7 tons",
+                    "es": "7 tons",
+                    "de": "7 tons",
+                    "nl": "7 tons"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Spinosaurus weighed about 7 tons.",
+                "es": "Espinosaurio pesaba unos 7 tons.",
+                "de": "Spinosaurus wog etwa 7 tons.",
+                "nl": "Spinosaurus woog ongeveer 7 tons."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Deinonychus?",
+                "es": "¿Cuánto medía el Deinonico?",
+                "de": "Wie lang war Deinonychus?",
+                "nl": "Hoe lang was Deinonychus?"
+            },
+            "options": [
+                {
+                    "en": "3.4 meters",
+                    "es": "3.4 meters",
+                    "de": "3.4 meters",
+                    "nl": "3.4 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Deinonychus was approximately 3.4 meters long.",
+                "es": "Deinonico medía aproximadamente 3.4 meters.",
+                "de": "Deinonychus war ungefähr 3.4 meters lang.",
+                "nl": "Deinonychus was ongeveer 3.4 meters lang."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Spinosaurus live?",
+                "es": "¿Cuándo vivió el Espinosaurio?",
+                "de": "Wann lebte Spinosaurus?",
+                "nl": "Wanneer leefde Spinosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Spinosaurus lived during the Late Cretaceous.",
+                "es": "Espinosaurio vivió durante el Cretácico tardío.",
+                "de": "Spinosaurus lebte während Obere Kreide.",
+                "nl": "Spinosaurus leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Dilophosaurus have?",
+                "es": "¿Qué dientes tenía el Dilofosaurio?",
+                "de": "Welche Zähne hatte Dilophosaurus?",
+                "nl": "Welke tanden had Dilophosaurus?"
+            },
+            "options": [
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "long thin teeth",
+                    "es": "dientes largos y delgados",
+                    "de": "lange dünne Zähne",
+                    "nl": "lange dunne tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Dilophosaurus had long thin teeth.",
+                "es": "Dilofosaurio tenía dientes largos y delgados.",
+                "de": "Dilophosaurus hatte lange dünne Zähne.",
+                "nl": "Dilophosaurus had lange dunne tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What era did most dinosaurs live in?",
+                "es": "¿En qué era vivieron la mayoría de los dinosaurios?",
+                "de": "In welcher Ära lebten die meisten Dinosaurier?",
+                "nl": "In welk tijdperk leefden de meeste dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Precambrian",
+                    "es": "Precámbrico",
+                    "de": "Präkambrium",
+                    "nl": "Precambrium"
+                },
+                {
+                    "en": "Cenozoic Era",
+                    "es": "Era Cenozoica",
+                    "de": "Känozoikum",
+                    "nl": "Cenozoïcum"
+                },
+                {
+                    "en": "Paleozoic Era",
+                    "es": "Era Paleozoica",
+                    "de": "Paläozoikum",
+                    "nl": "Paleozoïcum"
+                },
+                {
+                    "en": "Mesozoic Era",
+                    "es": "Era Mesozoica",
+                    "de": "Mesozoikum",
+                    "nl": "Mesozoïcum"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Most dinosaurs lived during the Mesozoic Era.",
+                "es": "La mayoría de dinosaurios vivió durante la Era Mesozoica.",
+                "de": "Die meisten Dinosaurier lebten im Mesozoikum.",
+                "nl": "De meeste dinosaurussen leefden in het Mesozoïcum."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Megalosaurus?",
+                "es": "¿Cuánto pesaba el Megalosaurio?",
+                "de": "Wie schwer war Megalosaurus?",
+                "nl": "Hoe zwaar was Megalosaurus?"
+            },
+            "options": [
+                {
+                    "en": "1 ton",
+                    "es": "1 ton",
+                    "de": "1 ton",
+                    "nl": "1 ton"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Megalosaurus weighed about 1 ton.",
+                "es": "Megalosaurio pesaba unos 1 ton.",
+                "de": "Megalosaurus wog etwa 1 ton.",
+                "nl": "Megalosaurus woog ongeveer 1 ton."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Giganotosaurus?",
+                "es": "¿Cuánto pesaba el Giganotosaurio?",
+                "de": "Wie schwer war Giganotosaurus?",
+                "nl": "Hoe zwaar was Giganotosaurus?"
+            },
+            "options": [
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "6 tons",
+                    "es": "6 tons",
+                    "de": "6 tons",
+                    "nl": "6 tons"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Giganotosaurus weighed about 6 tons.",
+                "es": "Giganotosaurio pesaba unos 6 tons.",
+                "de": "Giganotosaurus wog etwa 6 tons.",
+                "nl": "Giganotosaurus woog ongeveer 6 tons."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Ceratosaurus is true?",
+                "es": "¿Qué dato sobre el Ceratosaurio es verdadero?",
+                "de": "Welcher Fakt über Ceratosaurus stimmt?",
+                "nl": "Welk feit over Ceratosaurus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It had prominent nose horn",
+                    "es": "Tenía cuerno nasal prominente",
+                    "de": "Es hatte markantes Nasenhorn",
+                    "nl": "Het had opvallende neushoorn"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Ceratosaurus is known for having prominent nose horn.",
+                "es": "Ceratosaurio es conocido por tener cuerno nasal prominente.",
+                "de": "Ceratosaurus ist bekannt für markantes Nasenhorn.",
+                "nl": "Ceratosaurus is bekend om opvallende neushoorn."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Baryonyx known for?",
+                "es": "¿Por qué era conocido el Baryonyx?",
+                "de": "Wofür war Baryonyx bekannt?",
+                "nl": "Waar was Baryonyx bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "large claw on its hand",
+                    "es": "gran garra en su mano",
+                    "de": "große Kralle an der Hand",
+                    "nl": "grote klauw aan de hand"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Baryonyx was known for having large claw on its hand.",
+                "es": "Baryonyx era conocido por tener gran garra en su mano.",
+                "de": "Baryonyx war bekannt für große Kralle an der Hand.",
+                "nl": "Baryonyx was bekend om grote klauw aan de hand."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Velociraptor?",
+                "es": "¿Cuánto pesaba el Velociraptor?",
+                "de": "Wie schwer war Velociraptor?",
+                "nl": "Hoe zwaar was Velociraptor?"
+            },
+            "options": [
+                {
+                    "en": "15 kg",
+                    "es": "15 kg",
+                    "de": "15 kg",
+                    "nl": "15 kg"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Velociraptor weighed about 15 kg.",
+                "es": "Velociraptor pesaba unos 15 kg.",
+                "de": "Velociraptor wog etwa 15 kg.",
+                "nl": "Velociraptor woog ongeveer 15 kg."
+            }
+        }
     ]
 };

@@ -1,4 +1,4 @@
-// AI in gaming - level3
+// AI in Gaming - level3
 // Total questions: 100
 
 module.exports = {
@@ -36,21 +36,27 @@ module.exports = {
                     "nl": "Een fysica-simulatie-algoritme"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
-                "en": "What is the A* pathfinding algorithm used for in games?",
-                "es": "¿Para qué se utiliza el algoritmo de búsqueda de rutas A* en los juegos?",
-                "de": "Wofür wird der A*-Pfadfindungsalgorithmus in Spielen verwendet?",
-                "nl": "Waarvoor wordt het A* pathfinding-algoritme in games gebruikt?"
+                "en": "How do game characters find their way around obstacles?",
+                "es": "¿Cómo encuentran su camino los personajes del juego alrededor de obstáculos?",
+                "de": "Wie finden Spielcharaktere ihren Weg um Hindernisse herum?",
+                "nl": "Hoe vinden gamekarakters hun weg rond obstakels?"
             },
             "options": [
                 {
-                    "en": "Finding the shortest path between two points efficiently",
-                    "es": "Encontrar el camino más corto entre dos puntos de manera eficiente",
-                    "de": "Effizientes Finden des kürzesten Weges zwischen zwei Punkten",
-                    "nl": "Het efficiënt vinden van het kortste pad tussen twee punten"
+                    "en": "Using pathfinding to navigate around walls and objects",
+                    "es": "Usando búsqueda de rutas para navegar alrededor de paredes y objetos",
+                    "de": "Wegfindung nutzen um Wände und Objekte zu umgehen",
+                    "nl": "Pathfinding gebruiken om rond muren en objecten te navigeren"
                 },
                 {
                     "en": "Generating random terrain",
@@ -71,7 +77,13 @@ module.exports = {
                     "nl": "Het beheren van game-opslagbestanden"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Game characters use pathfinding systems to calculate routes around obstacles. This allows them to navigate complex environments and reach their destinations intelligently.",
+                "es": "Los personajes del juego usan sistemas de búsqueda de rutas para calcular rutas alrededor de obstáculos. Esto les permite navegar entornos complejos y alcanzar sus destinos inteligentemente.",
+                "de": "Spielcharaktere verwenden Wegfindungssysteme, um Routen um Hindernisse zu berechnen. Dies ermöglicht ihnen, komplexe Umgebungen zu navigieren und ihre Ziele intelligent zu erreichen.",
+                "nl": "Gamekarakters gebruiken pathfinding-systemen om routes rond obstakels te berekenen. Dit stelt hen in staat om complexe omgevingen te navigeren en hun bestemming intelligent te bereiken."
+            }
         },
         {
             "question": {
@@ -84,8 +96,8 @@ module.exports = {
                 {
                     "en": "A model where AI can be in one of several states and transitions between them",
                     "es": "Un modelo donde la IA puede estar en uno de varios estados y transitar entre ellos",
-                    "de": "Ein Modell, bei dem KI sich in einem von mehreren Zuständen befinden und zwischen ihnen wechseln kann",
-                    "nl": "Een model waarbij AI zich in één van meerdere toestanden kan bevinden en daartussen kan overschakelen"
+                    "de": "Ein Modell wo KI in einem von mehreren Zuständen sein und zwischen ihnen wechseln kann",
+                    "nl": "Een model waar AI in een van meerdere toestanden kan zijn en daartussen kan overgaan"
                 },
                 {
                     "en": "A hardware component for game consoles",
@@ -106,7 +118,13 @@ module.exports = {
                     "nl": "Een netwerkprotocol voor multiplayer games"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "FSMs organize AI behavior into distinct states (like patrol, chase, attack) with rules for transitioning between them. This makes complex behaviors manageable.",
+                "es": "Las FSM organizan el comportamiento de IA en estados distintos (como patrullar, perseguir, atacar) con reglas para transitar entre ellos. Esto hace manejables comportamientos complejos.",
+                "de": "FSMs organisieren KI-Verhalten in unterschiedliche Zustände (wie Patrouille, Verfolgung, Angriff) mit Regeln für Übergänge. Dies macht komplexe Verhaltensweisen handhabbar.",
+                "nl": "FSMs organiseren AI-gedrag in verschillende toestanden (zoals patrouilleren, achtervolgen, aanvallen) met regels voor overgangen. Dit maakt complex gedrag beheersbaar."
+            }
         },
         {
             "question": {
@@ -141,7 +159,13 @@ module.exports = {
                     "nl": "Eenvoudigere implementatie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
@@ -176,7 +200,13 @@ module.exports = {
                     "nl": "Een bestandscompressie-algoritme"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Utility systems assign numerical scores to different actions based on current conditions, allowing AI to choose the most beneficial action dynamically.",
+                "es": "Los sistemas de utilidad asignan puntuaciones numéricas a diferentes acciones según las condiciones actuales, permitiendo que la IA elija la acción más beneficiosa dinámicamente.",
+                "de": "Nutzensysteme weisen verschiedenen Aktionen basierend auf aktuellen Bedingungen numerische Werte zu, wodurch KI dynamisch die vorteilhafteste Aktion wählen kann.",
+                "nl": "Utiliteitssystemen kennen numerieke scores toe aan verschillende acties op basis van huidige omstandigheden, waardoor AI dynamisch de meest gunstige actie kan kiezen."
+            }
         },
         {
             "question": {
@@ -211,7 +241,13 @@ module.exports = {
                     "nl": "De framerate van het spel"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "The remaining distance to the goal is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "The remaining distance to the goal es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "The remaining distance to the goal ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "The remaining distance to the goal is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -246,7 +282,13 @@ module.exports = {
                     "nl": "Het optimaliseren van texture-loading"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Defining walkable areas for AI pathfinding in 3D environments is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Defining walkable areas for AI pathfinding in 3D environments es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Defining walkable areas for AI pathfinding in 3D environments ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Defining walkable areas for AI pathfinding in 3D environments is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -281,7 +323,13 @@ module.exports = {
                     "nl": "Een knooppunt dat de uitvoering pauzeert"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
@@ -316,7 +364,13 @@ module.exports = {
                     "nl": "Het beheren van game-moeilijkheidsinstellingen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Representing spatial control and strategic positioning is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Representing spatial control and strategic positioning es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Representing spatial control and strategic positioning ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Representing spatial control and strategic positioning is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -351,7 +405,13 @@ module.exports = {
                     "nl": "Een knooppunt dat multiplayer-acties synchroniseert"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
@@ -366,7 +426,7 @@ module.exports = {
                     "es": "Algoritmos de movimiento para personajes autónomos",
                     "de": "Bewegungsalgorithmen für autonome Charaktere",
                     "nl": "Bewegingsalgoritmen voor autonome personages"
-            },
+                },
                 {
                     "en": "User interface navigation controls",
                     "es": "Controles de navegación de interfaz de usuario",
@@ -386,7 +446,13 @@ module.exports = {
                     "nl": "Voertuigfysica-simulatie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Movement algorithms for autonomous characters is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Movement algorithms for autonomous characters es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Movement algorithms for autonomous characters ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Movement algorithms for autonomous characters is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -421,21 +487,27 @@ module.exports = {
                     "nl": "Een geheugenoptimalisatiestrategie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "An AI planning system that builds action sequences to achieve goals is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "An AI planning system that builds action sequences to achieve goals es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "An AI planning system that builds action sequences to achieve goals ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "An AI planning system that builds action sequences to achieve goals is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
-                "en": "What is the main purpose of Dijkstra's algorithm in games?",
-                "es": "¿Cuál es el propósito principal del algoritmo de Dijkstra en los juegos?",
-                "de": "Was ist der Hauptzweck des Dijkstra-Algorithmus in Spielen?",
-                "nl": "Wat is het hoofddoel van Dijkstra's algoritme in games?"
+                "en": "How do games calculate the best route for multiple destinations?",
+                "es": "¿Cómo calculan los juegos la mejor ruta para múltiples destinos?",
+                "de": "Wie berechnen Spiele die beste Route für mehrere Ziele?",
+                "nl": "Hoe berekenen games de beste route voor meerdere bestemmingen?"
             },
             "options": [
                 {
-                    "en": "Finding shortest paths from one point to all others",
-                    "es": "Encontrar los caminos más cortos desde un punto a todos los demás",
-                    "de": "Kürzeste Wege von einem Punkt zu allen anderen finden",
-                    "nl": "Het vinden van kortste paden van één punt naar alle anderen"
+                    "en": "By finding the shortest path to each destination efficiently",
+                    "es": "Encontrando el camino más corto a cada destino eficientemente",
+                    "de": "Indem der kürzeste Weg zu jedem Ziel effizient gefunden wird",
+                    "nl": "Door efficiënt het kortste pad naar elke bestemming te vinden"
                 },
                 {
                     "en": "Generating random dungeons",
@@ -456,7 +528,13 @@ module.exports = {
                     "nl": "Het comprimeren van game-assets"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Games use smart routing systems that can calculate the shortest paths to multiple destinations at once. This helps NPCs navigate efficiently when they need to visit several locations.",
+                "es": "Los juegos usan sistemas de enrutamiento inteligentes que pueden calcular los caminos más cortos a múltiples destinos a la vez. Esto ayuda a los NPCs a navegar eficientemente cuando necesitan visitar varias ubicaciones.",
+                "de": "Spiele verwenden intelligente Routing-Systeme, die die kürzesten Wege zu mehreren Zielen gleichzeitig berechnen können. Dies hilft NPCs effizient zu navigieren, wenn sie mehrere Orte besuchen müssen.",
+                "nl": "Games gebruiken slimme routeringssystemen die de kortste paden naar meerdere bestemmingen tegelijk kunnen berekenen. Dit helpt NPC's efficiënt te navigeren wanneer ze meerdere locaties moeten bezoeken."
+            }
         },
         {
             "question": {
@@ -491,7 +569,13 @@ module.exports = {
                     "nl": "Een game-instellingen menu"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "A shared memory space for AI components to communicate is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A shared memory space for AI components to communicate es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A shared memory space for AI components to communicate ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A shared memory space for AI components to communicate is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -526,7 +610,13 @@ module.exports = {
                     "nl": "Het creëren van particle-effecten"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Simulating realistic movement and behavior of large groups is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Simulating realistic movement and behavior of large groups es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Simulating realistic movement and behavior of large groups ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Simulating realistic movement and behavior of large groups is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -561,7 +651,13 @@ module.exports = {
                     "nl": "Het creëren van UI-elementen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
@@ -596,21 +692,27 @@ module.exports = {
                     "nl": "Weersimulatie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Group movement based on separation, alignment, and cohesion rules is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Group movement based on separation, alignment, and cohesion rules es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Group movement based on separation, alignment, and cohesion rules ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Group movement based on separation, alignment, and cohesion rules is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
-                "en": "What is the minimax algorithm primarily used for?",
-                "es": "¿Para qué se utiliza principalmente el algoritmo minimax?",
-                "de": "Wofür wird der Minimax-Algorithmus hauptsächlich verwendet?",
-                "nl": "Waarvoor wordt het minimax-algoritme voornamelijk gebruikt?"
+                "en": "How do computer opponents make smart decisions in board games?",
+                "es": "¿Cómo toman decisiones inteligentes los oponentes de computadora en juegos de mesa?",
+                "de": "Wie treffen Computergegner kluge Entscheidungen in Brettspielen?",
+                "nl": "Hoe nemen computer-tegenstanders slimme beslissingen in bordspellen?"
             },
             "options": [
                 {
-                    "en": "Decision-making in turn-based strategy games",
-                    "es": "Toma de decisiones en juegos de estrategia por turnos",
-                    "de": "Entscheidungsfindung in rundenbasierten Strategiespielen",
-                    "nl": "Besluitvorming in turn-based strategiespellen"
+                    "en": "By thinking ahead and choosing the best moves",
+                    "es": "Pensando por adelantado y eligiendo los mejores movimientos",
+                    "de": "Durch Vorausdenken und Wahl der besten Züge",
+                    "nl": "Door vooruit te denken en de beste zetten te kiezen"
                 },
                 {
                     "en": "Graphics rendering optimization",
@@ -631,7 +733,13 @@ module.exports = {
                     "nl": "Netwerkpakket-routing"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Computer opponents analyze possible future moves and their outcomes to select the best strategy. This allows them to play challenging games like chess and checkers effectively.",
+                "es": "Los oponentes de computadora analizan posibles movimientos futuros y sus resultados para seleccionar la mejor estrategia. Esto les permite jugar juegos desafiantes como ajedrez y damas efectivamente.",
+                "de": "Computergegner analysieren mögliche zukünftige Züge und ihre Ergebnisse, um die beste Strategie zu wählen. Dies ermöglicht es ihnen, herausfordernde Spiele wie Schach und Dame effektiv zu spielen.",
+                "nl": "Computer-tegenstanders analyseren mogelijke toekomstige zetten en hun uitkomsten om de beste strategie te selecteren. Dit stelt hen in staat om uitdagende spellen zoals schaken en dammen effectief te spelen."
+            }
         },
         {
             "question": {
@@ -666,7 +774,13 @@ module.exports = {
                     "nl": "Vooraf berekende pad-opslag"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Pathfinding that adapts to changing environments is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Pathfinding that adapts to changing environments es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Pathfinding that adapts to changing environments ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Pathfinding that adapts to changing environments is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -701,7 +815,13 @@ module.exports = {
                     "nl": "Het verminderen van netwerklatentie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Optimizing minimax by eliminating unnecessary branches is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Optimizing minimax by eliminating unnecessary branches es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Optimizing minimax by eliminating unnecessary branches ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Optimizing minimax by eliminating unnecessary branches is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -736,7 +856,13 @@ module.exports = {
                     "nl": "Een level-ontwerptool"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "A tree structure where each node represents a decision or test is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A tree structure where each node represents a decision or test es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A tree structure where each node represents a decision or test ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A tree structure where each node represents a decision or test is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -771,7 +897,13 @@ module.exports = {
                     "nl": "Alleen kortste pad-berekening"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Pathfinding that considers combat positioning and cover is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Pathfinding that considers combat positioning and cover es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Pathfinding that considers combat positioning and cover ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Pathfinding that considers combat positioning and cover is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -806,7 +938,13 @@ module.exports = {
                     "nl": "Een menu-organisatiestructuur"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "A multi-level pathfinding approach for large maps is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A multi-level pathfinding approach for large maps es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A multi-level pathfinding approach for large maps ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A multi-level pathfinding approach for large maps is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -841,7 +979,13 @@ module.exports = {
                     "nl": "Een menu-navigatie helper"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "A movement system that combines multiple directional influences is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A movement system that combines multiple directional influences es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A movement system that combines multiple directional influences ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A movement system that combines multiple directional influences is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -876,7 +1020,13 @@ module.exports = {
                     "nl": "Het verwerken van audiobestanden"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Simulating how AI agents sense their environment is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Simulating how AI agents sense their environment es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Simulating how AI agents sense their environment ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Simulating how AI agents sense their environment is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -911,7 +1061,13 @@ module.exports = {
                     "nl": "Het beheren van game-opslagen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Coordinating multiple units to move in specific patterns is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Coordinating multiple units to move in specific patterns es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Coordinating multiple units to move in specific patterns ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Coordinating multiple units to move in specific patterns is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -946,7 +1102,13 @@ module.exports = {
                     "nl": "Stilstaan en wachten"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Movement between designated waypoints in a loop is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Movement between designated waypoints in a loop es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Movement between designated waypoints in a loop ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Movement between designated waypoints in a loop is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -981,7 +1143,13 @@ module.exports = {
                     "nl": "Het vertragen van game-snelheid"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Preventing abilities from being used too frequently is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Preventing abilities from being used too frequently es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Preventing abilities from being used too frequently ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Preventing abilities from being used too frequently is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1016,7 +1184,13 @@ module.exports = {
                     "nl": "Het afspelen van waarschuwingsgeluiden"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Evaluating which targets pose the greatest danger is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Evaluating which targets pose the greatest danger es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Evaluating which targets pose the greatest danger ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Evaluating which targets pose the greatest danger is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1051,7 +1225,13 @@ module.exports = {
                     "nl": "Het tekenen van UI-elementen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Determining if an AI can see a target without obstructions is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Determining if an AI can see a target without obstructions es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Determining if an AI can see a target without obstructions ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Determining if an AI can see a target without obstructions is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1086,7 +1266,13 @@ module.exports = {
                     "nl": "Het meten van kaartgrootte"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Assessing positions for protection from enemy fire is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Assessing positions for protection from enemy fire es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Assessing positions for protection from enemy fire ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Assessing positions for protection from enemy fire is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1121,7 +1307,13 @@ module.exports = {
                     "nl": "Het balanceren van game-moeilijkheid"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Controlling which player or target an AI focuses on is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Controlling which player or target an AI focuses on es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Controlling which player or target an AI focuses on ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Controlling which player or target an AI focuses on is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1156,7 +1348,13 @@ module.exports = {
                     "nl": "Een geluidsmix-techniek"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
@@ -1191,7 +1389,13 @@ module.exports = {
                     "nl": "Camera-pad opname"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Movement along predefined points in the game world is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Movement along predefined points in the game world es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Movement along predefined points in the game world ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Movement along predefined points in the game world is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1226,7 +1430,13 @@ module.exports = {
                     "nl": "Het beheren van game-grenzen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Techniques to prevent AI from colliding with objects is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Techniques to prevent AI from colliding with objects es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Techniques to prevent AI from colliding with objects ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Techniques to prevent AI from colliding with objects is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1261,7 +1471,13 @@ module.exports = {
                     "nl": "Het verlengen van game-duur"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Adjusting AI capabilities to match player skill level is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Adjusting AI capabilities to match player skill level es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Adjusting AI capabilities to match player skill level ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Adjusting AI capabilities to match player skill level is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1296,7 +1512,13 @@ module.exports = {
                     "nl": "Willekeurige actieselectie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Making decisions based on immediate environmental conditions is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Making decisions based on immediate environmental conditions es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Making decisions based on immediate environmental conditions ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Making decisions based on immediate environmental conditions is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1331,7 +1553,13 @@ module.exports = {
                     "nl": "Visuele blur-effecten"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Logic that handles degrees of truth rather than binary true/false is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Logic that handles degrees of truth rather than binary true/false es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Logic that handles degrees of truth rather than binary true/false ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Logic that handles degrees of truth rather than binary true/false is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1366,7 +1594,13 @@ module.exports = {
                     "nl": "Het scheiden van audiokanalen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Efficiently organizing space to speed up queries and searches is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Efficiently organizing space to speed up queries and searches es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Efficiently organizing space to speed up queries and searches ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Efficiently organizing space to speed up queries and searches is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1401,7 +1635,13 @@ module.exports = {
                     "nl": "Speler-rankingsystemen"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Managing multiple AI agents to work together tactically is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Managing multiple AI agents to work together tactically es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Managing multiple AI agents to work together tactically ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Managing multiple AI agents to work together tactically is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1436,7 +1676,13 @@ module.exports = {
                     "nl": "Tutorial-sequenties"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Complex behaviors arising from simple AI rules interacting is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Complex behaviors arising from simple AI rules interacting es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Complex behaviors arising from simple AI rules interacting ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Complex behaviors arising from simple AI rules interacting is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1471,7 +1717,13 @@ module.exports = {
                     "nl": "Het beheren van wapen-inventaris"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Calculating where a moving target will be when the shot arrives is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Calculating where a moving target will be when the shot arrives es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Calculating where a moving target will be when the shot arrives ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Calculating where a moving target will be when the shot arrives is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1506,7 +1758,13 @@ module.exports = {
                     "nl": "Het zoneren van moeilijkheidsgebieden"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "AI that strategically claims and defends areas of the map is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI that strategically claims and defends areas of the map es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI that strategically claims and defends areas of the map ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI that strategically claims and defends areas of the map is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1541,7 +1799,13 @@ module.exports = {
                     "nl": "Het optimaliseren van netwerkbandbreedte"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "AI that collects, allocates, and spends game resources efficiently is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI that collects, allocates, and spends game resources efficiently es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI that collects, allocates, and spends game resources efficiently ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI that collects, allocates, and spends game resources efficiently is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1576,7 +1840,13 @@ module.exports = {
                     "nl": "Resolutie-schaling technologie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "AI that modifies its behavior based on player actions and patterns is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI that modifies its behavior based on player actions and patterns es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI that modifies its behavior based on player actions and patterns ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI that modifies its behavior based on player actions and patterns is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1611,7 +1881,13 @@ module.exports = {
                     "nl": "Het beheren van speler-respawn timers"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Systems that control when, where, and how many enemies appear is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Systems that control when, where, and how many enemies appear es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Systems that control when, where, and how many enemies appear ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Systems that control when, where, and how many enemies appear is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1646,7 +1922,13 @@ module.exports = {
                     "nl": "Het beheren van wapen-loadouts"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "AI that chooses advantageous positions during combat is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI that chooses advantageous positions during combat es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI that chooses advantageous positions during combat ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI that chooses advantageous positions during combat is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1681,7 +1963,13 @@ module.exports = {
                     "nl": "Het tonen van grafische fouten"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Displaying AI decision-making processes for developers to analyze is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Displaying AI decision-making processes for developers to analyze es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Displaying AI decision-making processes for developers to analyze ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Displaying AI decision-making processes for developers to analyze is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1716,7 +2004,13 @@ module.exports = {
                     "nl": "Opgeslagen game-voortgang"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Behavior trees are hierarchical structures used in game AI to organize decision-making. They allow complex behaviors to be built from simple, reusable components.",
+                "es": "Los árboles de comportamiento son estructuras jerárquicas usadas en IA de juegos para organizar la toma de decisiones. Permiten construir comportamientos complejos desde componentes simples y reutilizables.",
+                "de": "Verhaltensbäume sind hierarchische Strukturen in Spiele-KI zur Organisation von Entscheidungen. Sie ermöglichen komplexe Verhaltensweisen aus einfachen, wiederverwendbaren Komponenten.",
+                "nl": "Gedragsbomen zijn hiërarchische structuren gebruikt in game AI om besluitvorming te organiseren. Ze maken complexe gedragingen mogelijk vanuit eenvoudige, herbruikbare componenten."
+            }
         },
         {
             "question": {
@@ -1751,7 +2045,13 @@ module.exports = {
                     "nl": "Frontale aanvalstactieken"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "AI maneuvering to attack from the sides or rear is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI maneuvering to attack from the sides or rear es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI maneuvering to attack from the sides or rear ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI maneuvering to attack from the sides or rear is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1786,7 +2086,13 @@ module.exports = {
                     "nl": "Het beheren van netwerkvertraging"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Adjusting how quickly AI responds to stimuli for balanced gameplay is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Adjusting how quickly AI responds to stimuli for balanced gameplay es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Adjusting how quickly AI responds to stimuli for balanced gameplay ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Adjusting how quickly AI responds to stimuli for balanced gameplay is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1821,7 +2127,13 @@ module.exports = {
                     "nl": "Het beheren van munitiebesparing"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "AI shooting to keep enemies pinned down without necessarily hitting them is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI shooting to keep enemies pinned down without necessarily hitting them es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI shooting to keep enemies pinned down without necessarily hitting them ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI shooting to keep enemies pinned down without necessarily hitting them is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
         },
         {
             "question": {
@@ -1856,7 +2168,1940 @@ module.exports = {
                     "nl": "Wind-fysica simulatie"
                 }
             ],
-            "correctAnswer": 0
+            "correct": 0,
+            "explanation": {
+                "en": "Attacking while maintaining distance from a pursuing enemy is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Attacking while maintaining distance from a pursuing enemy es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Attacking while maintaining distance from a pursuing enemy ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Attacking while maintaining distance from a pursuing enemy is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is neural network pruning?",
+                "es": "¿Qué es la poda de redes neuronales?",
+                "de": "Was ist neuronales Netzwerk-Pruning?",
+                "nl": "Wat is neuraal netwerk pruning?"
+            },
+            "options": [
+                {
+                    "en": "Removing unnecessary connections",
+                    "es": "Eliminar conexiones innecesarias",
+                    "de": "Unnötige Verbindungen entfernen",
+                    "nl": "Onnodige verbindingen verwijderen"
+                },
+                {
+                    "en": "Growing the network",
+                    "es": "Hacer crecer la red",
+                    "de": "Das Netzwerk vergrößern",
+                    "nl": "Het netwerk laten groeien"
+                },
+                {
+                    "en": "Adding more layers",
+                    "es": "Agregar más capas",
+                    "de": "Mehr Schichten hinzufügen",
+                    "nl": "Meer lagen toevoegen"
+                },
+                {
+                    "en": "Increasing training time",
+                    "es": "Aumentar el tiempo de entrenamiento",
+                    "de": "Trainingszeit erhöhen",
+                    "nl": "Trainingstijd verhogen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Removing unnecessary connections is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Removing unnecessary connections es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Removing unnecessary connections ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Removing unnecessary connections is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is reinforcement learning?",
+                "es": "¿Qué es el aprendizaje por refuerzo?",
+                "de": "Was ist Verstärkungslernen?",
+                "nl": "Wat is reinforcement learning?"
+            },
+            "options": [
+                {
+                    "en": "Learning through rewards and penalties",
+                    "es": "Aprender mediante recompensas y penalizaciones",
+                    "de": "Lernen durch Belohnungen und Strafen",
+                    "nl": "Leren via beloningen en straffen"
+                },
+                {
+                    "en": "Strengthening neural connections",
+                    "es": "Fortalecimiento de conexiones neuronales",
+                    "de": "Stärkung neuronaler Verbindungen",
+                    "nl": "Versterking van neurale verbindingen"
+                },
+                {
+                    "en": "Training with more data",
+                    "es": "Entrenar con más datos",
+                    "de": "Training mit mehr Daten",
+                    "nl": "Trainen met meer data"
+                },
+                {
+                    "en": "Reinforcing game rules",
+                    "es": "Reforzar reglas del juego",
+                    "de": "Spielregeln verstärken",
+                    "nl": "Gameregels versterken"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Learning through rewards and penalties is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Learning through rewards and penalties es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Learning through rewards and penalties ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Learning through rewards and penalties is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a game tree?",
+                "es": "¿Qué es un árbol de juego?",
+                "de": "Was ist ein Spielbaum?",
+                "nl": "Wat is een spelboom?"
+            },
+            "options": [
+                {
+                    "en": "Visual representation of possible moves",
+                    "es": "Representación visual de movimientos posibles",
+                    "de": "Visuelle Darstellung möglicher Züge",
+                    "nl": "Visuele weergave van mogelijke zetten"
+                },
+                {
+                    "en": "Tree graphics in games",
+                    "es": "Gráficos de árboles en juegos",
+                    "de": "Baumgrafiken in Spielen",
+                    "nl": "Boomgraphics in games"
+                },
+                {
+                    "en": "Family tree of characters",
+                    "es": "Árbol genealógico de personajes",
+                    "de": "Stammbaum der Charaktere",
+                    "nl": "Stamboom van karakters"
+                },
+                {
+                    "en": "Level progression system",
+                    "es": "Sistema de progresión de niveles",
+                    "de": "Level-Fortschrittssystem",
+                    "nl": "Level progressiesysteem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Visual representation of possible moves is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Visual representation of possible moves es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Visual representation of possible moves ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Visual representation of possible moves is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is enemy AI scaling?",
+                "es": "¿Qué es el escalado de IA enemiga?",
+                "de": "Was ist Feind-KI-Skalierung?",
+                "nl": "Wat is vijand-AI schaling?"
+            },
+            "options": [
+                {
+                    "en": "Adjusting enemy difficulty with player progress",
+                    "es": "Ajustar dificultad enemiga con progreso del jugador",
+                    "de": "Anpassung der Feindschwierigkeit an Spielerfortschritt",
+                    "nl": "Vijandmoeilijkheid aanpassen aan spelervoortgang"
+                },
+                {
+                    "en": "Making enemies bigger",
+                    "es": "Hacer enemigos más grandes",
+                    "de": "Feinde größer machen",
+                    "nl": "Vijanden groter maken"
+                },
+                {
+                    "en": "Increasing enemy speed",
+                    "es": "Aumentar velocidad de enemigos",
+                    "de": "Feindgeschwindigkeit erhöhen",
+                    "nl": "Vijandsnelheid verhogen"
+                },
+                {
+                    "en": "Adding more enemies",
+                    "es": "Agregar más enemigos",
+                    "de": "Mehr Feinde hinzufügen",
+                    "nl": "Meer vijanden toevoegen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Adjusting enemy difficulty with player progress is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Adjusting enemy difficulty with player progress es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Adjusting enemy difficulty with player progress ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Adjusting enemy difficulty with player progress is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is procedural content generation?",
+                "es": "¿Qué es la generación procedimental de contenido?",
+                "de": "Was ist prozedurale Inhaltsgenerierung?",
+                "nl": "Wat is procedurele content generatie?"
+            },
+            "options": [
+                {
+                    "en": "Automatically creating game content",
+                    "es": "Crear contenido de juego automáticamente",
+                    "de": "Automatisches Erstellen von Spielinhalten",
+                    "nl": "Automatisch game-content creëren"
+                },
+                {
+                    "en": "Following procedures",
+                    "es": "Seguir procedimientos",
+                    "de": "Prozeduren folgen",
+                    "nl": "Procedures volgen"
+                },
+                {
+                    "en": "Manual level design",
+                    "es": "Diseño manual de niveles",
+                    "de": "Manuelles Level-Design",
+                    "nl": "Handmatig level ontwerp"
+                },
+                {
+                    "en": "Copying existing content",
+                    "es": "Copiar contenido existente",
+                    "de": "Vorhandene Inhalte kopieren",
+                    "nl": "Bestaande content kopiëren"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Automatically creating game content is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Automatically creating game content es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Automatically creating game content ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Automatically creating game content is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What are NPCs in gaming?",
+                "es": "¿Qué son los NPCs en videojuegos?",
+                "de": "Was sind NPCs in Spielen?",
+                "nl": "Wat zijn NPCs in gaming?"
+            },
+            "options": [
+                {
+                    "en": "Non-player characters controlled by AI",
+                    "es": "Personajes no jugadores controlados por IA",
+                    "de": "Nicht-Spieler-Charaktere gesteuert von KI",
+                    "nl": "Niet-speler karakters bestuurd door AI"
+                },
+                {
+                    "en": "Network processing centers",
+                    "es": "Centros de procesamiento de red",
+                    "de": "Netzwerkverarbeitungszentren",
+                    "nl": "Netwerk verwerkingscentra"
+                },
+                {
+                    "en": "New player characters",
+                    "es": "Nuevos personajes de jugador",
+                    "de": "Neue Spielercharaktere",
+                    "nl": "Nieuwe spelerkarakters"
+                },
+                {
+                    "en": "Network protocol controls",
+                    "es": "Controles de protocolo de red",
+                    "de": "Netzwerkprotokoll-Kontrollen",
+                    "nl": "Netwerk protocol controles"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Non-player characters controlled by AI is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Non-player characters controlled by AI es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Non-player characters controlled by AI ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Non-player characters controlled by AI is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is adaptive difficulty?",
+                "es": "¿Qué es la dificultad adaptativa?",
+                "de": "Was ist adaptive Schwierigkeit?",
+                "nl": "Wat is adaptieve moeilijkheid?"
+            },
+            "options": [
+                {
+                    "en": "Game difficulty adjusting to player skill",
+                    "es": "Dificultad del juego ajustándose a habilidad del jugador",
+                    "de": "Spielschwierigkeit passt sich Spielerfähigkeit an",
+                    "nl": "Game-moeilijkheid past zich aan spelervaardigheid aan"
+                },
+                {
+                    "en": "Fixed difficulty levels",
+                    "es": "Niveles de dificultad fijos",
+                    "de": "Feste Schwierigkeitsstufen",
+                    "nl": "Vaste moeilijkheidsniveaus"
+                },
+                {
+                    "en": "Increasing difficulty only",
+                    "es": "Solo aumentar dificultad",
+                    "de": "Nur steigende Schwierigkeit",
+                    "nl": "Alleen toenemende moeilijkheid"
+                },
+                {
+                    "en": "Difficulty settings menu",
+                    "es": "Menú de configuración de dificultad",
+                    "de": "Schwierigkeitseinstellungsmenü",
+                    "nl": "Moeilijkheidsinstellingen menu"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Game difficulty adjusting to player skill is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Game difficulty adjusting to player skill es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Game difficulty adjusting to player skill ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Game difficulty adjusting to player skill is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a boss AI pattern?",
+                "es": "¿Qué es un patrón de IA de jefe?",
+                "de": "Was ist ein Boss-KI-Muster?",
+                "nl": "Wat is een boss AI-patroon?"
+            },
+            "options": [
+                {
+                    "en": "Predictable attack sequences",
+                    "es": "Secuencias de ataque predecibles",
+                    "de": "Vorhersehbare Angriffssequenzen",
+                    "nl": "Voorspelbare aanvalssequenties"
+                },
+                {
+                    "en": "Random behavior",
+                    "es": "Comportamiento aleatorio",
+                    "de": "Zufälliges Verhalten",
+                    "nl": "Willekeurig gedrag"
+                },
+                {
+                    "en": "Static positioning",
+                    "es": "Posicionamiento estático",
+                    "de": "Statische Positionierung",
+                    "nl": "Statische positionering"
+                },
+                {
+                    "en": "Invincible state",
+                    "es": "Estado invencible",
+                    "de": "Unbesiegbarer Zustand",
+                    "nl": "Onkwetsbare staat"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Predictable attack sequences is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Predictable attack sequences es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Predictable attack sequences ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Predictable attack sequences is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is player modeling?",
+                "es": "¿Qué es el modelado del jugador?",
+                "de": "Was ist Spielermodellierung?",
+                "nl": "Wat is spelermodellering?"
+            },
+            "options": [
+                {
+                    "en": "AI learning player behavior",
+                    "es": "IA aprendiendo comportamiento del jugador",
+                    "de": "KI lernt Spielerverhalten",
+                    "nl": "AI leert spelergedrag"
+                },
+                {
+                    "en": "Creating player avatars",
+                    "es": "Crear avatares de jugador",
+                    "de": "Spieler-Avatare erstellen",
+                    "nl": "Speler avatars creëren"
+                },
+                {
+                    "en": "3D character modeling",
+                    "es": "Modelado 3D de personajes",
+                    "de": "3D-Charaktermodellierung",
+                    "nl": "3D karakter modellering"
+                },
+                {
+                    "en": "Player statistics",
+                    "es": "Estadísticas del jugador",
+                    "de": "Spielerstatistiken",
+                    "nl": "Speler statistieken"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI learning player behavior is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI learning player behavior es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI learning player behavior ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI learning player behavior is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is an AI state machine?",
+                "es": "¿Qué es una máquina de estados de IA?",
+                "de": "Was ist eine KI-Zustandsmaschine?",
+                "nl": "Wat is een AI-toestandsmachine?"
+            },
+            "options": [
+                {
+                    "en": "System switching between different AI behaviors",
+                    "es": "Sistema cambiando entre comportamientos de IA diferentes",
+                    "de": "System wechselt zwischen verschiedenen KI-Verhaltensweisen",
+                    "nl": "Systeem schakelt tussen verschillende AI-gedragingen"
+                },
+                {
+                    "en": "Physical machine learning hardware",
+                    "es": "Hardware de aprendizaje automático físico",
+                    "de": "Physische Maschinenlern-Hardware",
+                    "nl": "Fysieke machine learning hardware"
+                },
+                {
+                    "en": "Network state tracker",
+                    "es": "Rastreador de estado de red",
+                    "de": "Netzwerkzustands-Tracker",
+                    "nl": "Netwerk status tracker"
+                },
+                {
+                    "en": "Save state system",
+                    "es": "Sistema de estado guardado",
+                    "de": "Speicherzustand-System",
+                    "nl": "Save state systeem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "System switching between different AI behaviors is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "System switching between different AI behaviors es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "System switching between different AI behaviors ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "System switching between different AI behaviors is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is companion AI?",
+                "es": "¿Qué es la IA de compañero?",
+                "de": "Was ist Begleiter-KI?",
+                "nl": "Wat is companion AI?"
+            },
+            "options": [
+                {
+                    "en": "AI-controlled allies that help players",
+                    "es": "Aliados controlados por IA que ayudan a jugadores",
+                    "de": "KI-gesteuerte Verbündete die Spielern helfen",
+                    "nl": "AI-bestuurde bondgenoten die spelers helpen"
+                },
+                {
+                    "en": "Friend list system",
+                    "es": "Sistema de lista de amigos",
+                    "de": "Freundeslisten-System",
+                    "nl": "Vriendenlijst systeem"
+                },
+                {
+                    "en": "Multiplayer teammates",
+                    "es": "Compañeros de equipo multijugador",
+                    "de": "Mehrspieler-Teamkollegen",
+                    "nl": "Multiplayer teamgenoten"
+                },
+                {
+                    "en": "Social media integration",
+                    "es": "Integración de redes sociales",
+                    "de": "Social-Media-Integration",
+                    "nl": "Social media integratie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI-controlled allies that help players is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI-controlled allies that help players es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI-controlled allies that help players ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI-controlled allies that help players is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is rubber-banding in racing games?",
+                "es": "¿Qué es el rubber-banding en juegos de carreras?",
+                "de": "Was ist Rubber-Banding in Rennspielen?",
+                "nl": "Wat is rubber-banding in racegames?"
+            },
+            "options": [
+                {
+                    "en": "AI opponents speeding up when behind",
+                    "es": "Oponentes IA acelerando cuando están atrás",
+                    "de": "KI-Gegner beschleunigen wenn hinten",
+                    "nl": "AI-tegenstanders versnellen wanneer achter"
+                },
+                {
+                    "en": "Elastic collision physics",
+                    "es": "Física de colisión elástica",
+                    "de": "Elastische Kollisionsphysik",
+                    "nl": "Elastische botsing fysica"
+                },
+                {
+                    "en": "Track boundary system",
+                    "es": "Sistema de límites de pista",
+                    "de": "Streckengrenz-System",
+                    "nl": "Baan grens systeem"
+                },
+                {
+                    "en": "Tire grip mechanics",
+                    "es": "Mecánicas de agarre de neumáticos",
+                    "de": "Reifengriff-Mechaniken",
+                    "nl": "Bandgrip mechanismen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI opponents speeding up when behind is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI opponents speeding up when behind es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI opponents speeding up when behind ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI opponents speeding up when behind is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is fog of war in strategy games?",
+                "es": "¿Qué es la niebla de guerra en juegos de estrategia?",
+                "de": "Was ist Nebel des Krieges in Strategiespielen?",
+                "nl": "Wat is mist van oorlog in strategiegames?"
+            },
+            "options": [
+                {
+                    "en": "Hidden areas not yet explored",
+                    "es": "Áreas ocultas aún no exploradas",
+                    "de": "Versteckte noch nicht erforschte Bereiche",
+                    "nl": "Verborgen gebieden nog niet verkend"
+                },
+                {
+                    "en": "Weather effects",
+                    "es": "Efectos climáticos",
+                    "de": "Wettereffekte",
+                    "nl": "Weerseffecten"
+                },
+                {
+                    "en": "Smoke grenades",
+                    "es": "Granadas de humo",
+                    "de": "Rauchgranaten",
+                    "nl": "Rookgranaten"
+                },
+                {
+                    "en": "Visual blur filter",
+                    "es": "Filtro de desenfoque visual",
+                    "de": "Visueller Unschärfe-Filter",
+                    "nl": "Visueel blur filter"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Hidden areas not yet explored is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Hidden areas not yet explored es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Hidden areas not yet explored ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Hidden areas not yet explored is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is an aggro system?",
+                "es": "¿Qué es un sistema de aggro?",
+                "de": "Was ist ein Aggro-System?",
+                "nl": "Wat is een aggro systeem?"
+            },
+            "options": [
+                {
+                    "en": "System determining which player enemies attack",
+                    "es": "Sistema determinando qué jugador atacan enemigos",
+                    "de": "System das bestimmt welchen Spieler Feinde angreifen",
+                    "nl": "Systeem bepaalt welke speler vijanden aanvallen"
+                },
+                {
+                    "en": "Aggressive behavior mode",
+                    "es": "Modo de comportamiento agresivo",
+                    "de": "Aggressiver Verhaltensmodus",
+                    "nl": "Agressieve gedragsmodus"
+                },
+                {
+                    "en": "Anger management mechanic",
+                    "es": "Mecánica de manejo de ira",
+                    "de": "Wutmanagement-Mechanik",
+                    "nl": "Woede management mechanisme"
+                },
+                {
+                    "en": "Attack animation system",
+                    "es": "Sistema de animación de ataque",
+                    "de": "Angriffsanimations-System",
+                    "nl": "Aanval animatie systeem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "System determining which player enemies attack is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "System determining which player enemies attack es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "System determining which player enemies attack ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "System determining which player enemies attack is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is AI director in gaming?",
+                "es": "¿Qué es el director de IA en videojuegos?",
+                "de": "Was ist KI-Regisseur in Spielen?",
+                "nl": "Wat is AI director in gaming?"
+            },
+            "options": [
+                {
+                    "en": "System controlling pacing and tension",
+                    "es": "Sistema controlando ritmo y tensión",
+                    "de": "System das Tempo und Spannung steuert",
+                    "nl": "Systeem bestuurt tempo en spanning"
+                },
+                {
+                    "en": "Game development manager",
+                    "es": "Gerente de desarrollo de juegos",
+                    "de": "Spielentwicklungs-Manager",
+                    "nl": "Game ontwikkeling manager"
+                },
+                {
+                    "en": "Camera control system",
+                    "es": "Sistema de control de cámara",
+                    "de": "Kamera-Kontrollsystem",
+                    "nl": "Camera besturingssysteem"
+                },
+                {
+                    "en": "AI training supervisor",
+                    "es": "Supervisor de entrenamiento de IA",
+                    "de": "KI-Trainings-Supervisor",
+                    "nl": "AI training supervisor"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "System controlling pacing and tension is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "System controlling pacing and tension es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "System controlling pacing and tension ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "System controlling pacing and tension is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is scripted AI?",
+                "es": "¿Qué es la IA con script?",
+                "de": "Was ist geskriptete KI?",
+                "nl": "Wat is gescripte AI?"
+            },
+            "options": [
+                {
+                    "en": "Pre-programmed behavior sequences",
+                    "es": "Secuencias de comportamiento preprogramadas",
+                    "de": "Vorprogrammierte Verhaltenssequenzen",
+                    "nl": "Vooraf geprogrammeerde gedragssequenties"
+                },
+                {
+                    "en": "Written dialogue",
+                    "es": "Diálogo escrito",
+                    "de": "Geschriebener Dialog",
+                    "nl": "Geschreven dialoog"
+                },
+                {
+                    "en": "Code documentation",
+                    "es": "Documentación de código",
+                    "de": "Code-Dokumentation",
+                    "nl": "Code documentatie"
+                },
+                {
+                    "en": "Story scripts",
+                    "es": "Guiones de historia",
+                    "de": "Story-Skripte",
+                    "nl": "Verhaal scripts"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pre-programmed behavior sequences is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Pre-programmed behavior sequences es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Pre-programmed behavior sequences ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Pre-programmed behavior sequences is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is spawn camping prevention?",
+                "es": "¿Qué es la prevención de spawn camping?",
+                "de": "Was ist Spawn-Camping-Prävention?",
+                "nl": "Wat is spawn camping preventie?"
+            },
+            "options": [
+                {
+                    "en": "Protecting players from spawn point attacks",
+                    "es": "Proteger jugadores de ataques en punto de aparición",
+                    "de": "Spieler vor Spawn-Punkt-Angriffen schützen",
+                    "nl": "Spelers beschermen tegen spawn punt aanvallen"
+                },
+                {
+                    "en": "Campsite spawning system",
+                    "es": "Sistema de aparición de campamentos",
+                    "de": "Lagerplatz-Spawn-System",
+                    "nl": "Kampeerplaats spawn systeem"
+                },
+                {
+                    "en": "Random respawn timing",
+                    "es": "Tiempo de reaparición aleatorio",
+                    "de": "Zufälliges Respawn-Timing",
+                    "nl": "Willekeurige respawn timing"
+                },
+                {
+                    "en": "Enemy detection radius",
+                    "es": "Radio de detección de enemigos",
+                    "de": "Feinderkennungsradius",
+                    "nl": "Vijand detectieradius"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Protecting players from spawn point attacks is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Protecting players from spawn point attacks es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Protecting players from spawn point attacks ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Protecting players from spawn point attacks is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is cheating detection AI?",
+                "es": "¿Qué es la IA de detección de trampas?",
+                "de": "Was ist Betrugserkennungs-KI?",
+                "nl": "Wat is cheating detectie AI?"
+            },
+            "options": [
+                {
+                    "en": "Systems identifying unfair player behavior",
+                    "es": "Sistemas identificando comportamiento injusto de jugadores",
+                    "de": "Systeme die unfaires Spielerverhalten identifizieren",
+                    "nl": "Systemen identificeren oneerlijk spelergedrag"
+                },
+                {
+                    "en": "Anti-virus software",
+                    "es": "Software antivirus",
+                    "de": "Antiviren-Software",
+                    "nl": "Antivirus software"
+                },
+                {
+                    "en": "Code verification",
+                    "es": "Verificación de código",
+                    "de": "Code-Verifizierung",
+                    "nl": "Code verificatie"
+                },
+                {
+                    "en": "Player reporting system",
+                    "es": "Sistema de reporte de jugadores",
+                    "de": "Spieler-Meldesystem",
+                    "nl": "Speler rapportage systeem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Systems identifying unfair player behavior is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Systems identifying unfair player behavior es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Systems identifying unfair player behavior ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Systems identifying unfair player behavior is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is stealth AI detection?",
+                "es": "¿Qué es la detección de IA furtiva?",
+                "de": "Was ist Stealth-KI-Erkennung?",
+                "nl": "Wat is stealth AI-detectie?"
+            },
+            "options": [
+                {
+                    "en": "AI detecting hidden players",
+                    "es": "IA detectando jugadores ocultos",
+                    "de": "KI erkennt versteckte Spieler",
+                    "nl": "AI detecteert verborgen spelers"
+                },
+                {
+                    "en": "Invisible enemies",
+                    "es": "Enemigos invisibles",
+                    "de": "Unsichtbare Feinde",
+                    "nl": "Onzichtbare vijanden"
+                },
+                {
+                    "en": "Radar systems",
+                    "es": "Sistemas de radar",
+                    "de": "Radarsysteme",
+                    "nl": "Radar systemen"
+                },
+                {
+                    "en": "Camera visibility",
+                    "es": "Visibilidad de cámara",
+                    "de": "Kamera-Sichtbarkeit",
+                    "nl": "Camera zichtbaarheid"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI detecting hidden players is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI detecting hidden players es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI detecting hidden players ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI detecting hidden players is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is environmental awareness in AI?",
+                "es": "¿Qué es la conciencia ambiental en IA?",
+                "de": "Was ist Umgebungsbewusstsein in KI?",
+                "nl": "Wat is omgevingsbewustzijn in AI?"
+            },
+            "options": [
+                {
+                    "en": "AI understanding and using surroundings",
+                    "es": "IA entendiendo y usando el entorno",
+                    "de": "KI versteht und nutzt Umgebung",
+                    "nl": "AI begrijpt en gebruikt omgeving"
+                },
+                {
+                    "en": "Eco-friendly gaming",
+                    "es": "Gaming ecológico",
+                    "de": "Umweltfreundliches Gaming",
+                    "nl": "Milieuvriendelijk gamen"
+                },
+                {
+                    "en": "Weather simulation",
+                    "es": "Simulación climática",
+                    "de": "Wettersimulation",
+                    "nl": "Weer simulatie"
+                },
+                {
+                    "en": "Graphics settings",
+                    "es": "Configuración de gráficos",
+                    "de": "Grafik-Einstellungen",
+                    "nl": "Graphics instellingen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI understanding and using surroundings is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI understanding and using surroundings es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI understanding and using surroundings ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI understanding and using surroundings is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is teamwork AI coordination?",
+                "es": "¿Qué es la coordinación de IA de trabajo en equipo?",
+                "de": "Was ist Teamwork-KI-Koordination?",
+                "nl": "Wat is teamwork AI-coördinatie?"
+            },
+            "options": [
+                {
+                    "en": "Multiple AI agents working together",
+                    "es": "Múltiples agentes de IA trabajando juntos",
+                    "de": "Mehrere KI-Agenten arbeiten zusammen",
+                    "nl": "Meerdere AI-agenten werken samen"
+                },
+                {
+                    "en": "Team selection menu",
+                    "es": "Menú de selección de equipo",
+                    "de": "Teamauswahl-Menü",
+                    "nl": "Team selectie menu"
+                },
+                {
+                    "en": "Cooperative game mode",
+                    "es": "Modo de juego cooperativo",
+                    "de": "Kooperativer Spielmodus",
+                    "nl": "Coöperatieve game modus"
+                },
+                {
+                    "en": "Voice chat system",
+                    "es": "Sistema de chat de voz",
+                    "de": "Sprachchat-System",
+                    "nl": "Spraakchat systeem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Multiple AI agents working together is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Multiple AI agents working together es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Multiple AI agents working together ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Multiple AI agents working together is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is learning AI in games?",
+                "es": "¿Qué es la IA de aprendizaje en juegos?",
+                "de": "Was ist lernende KI in Spielen?",
+                "nl": "Wat is lerende AI in games?"
+            },
+            "options": [
+                {
+                    "en": "AI improving from player interactions",
+                    "es": "IA mejorando de interacciones con jugadores",
+                    "de": "KI verbessert sich durch Spielerinteraktionen",
+                    "nl": "AI verbetert van spelerinteracties"
+                },
+                {
+                    "en": "Educational games",
+                    "es": "Juegos educativos",
+                    "de": "Lernspiele",
+                    "nl": "Educatieve games"
+                },
+                {
+                    "en": "Tutorial systems",
+                    "es": "Sistemas de tutorial",
+                    "de": "Tutorial-Systeme",
+                    "nl": "Tutorial systemen"
+                },
+                {
+                    "en": "Knowledge base",
+                    "es": "Base de conocimiento",
+                    "de": "Wissensdatenbank",
+                    "nl": "Kennisbank"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI improving from player interactions is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI improving from player interactions es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI improving from player interactions ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI improving from player interactions is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is combat AI range management?",
+                "es": "¿Qué es la gestión de rango de IA de combate?",
+                "de": "Was ist Kampf-KI-Reichweitenverwaltung?",
+                "nl": "Wat is gevechts-AI bereikbeheer?"
+            },
+            "options": [
+                {
+                    "en": "AI positioning at optimal attack distance",
+                    "es": "Posicionamiento de IA a distancia óptima de ataque",
+                    "de": "KI-Positionierung auf optimaler Angriffsdistanz",
+                    "nl": "AI positionering op optimale aanvalsafstand"
+                },
+                {
+                    "en": "Shooting range simulation",
+                    "es": "Simulación de campo de tiro",
+                    "de": "Schießstand-Simulation",
+                    "nl": "Schietbaan simulatie"
+                },
+                {
+                    "en": "Damage calculation",
+                    "es": "Cálculo de daño",
+                    "de": "Schadensberechnung",
+                    "nl": "Schade berekening"
+                },
+                {
+                    "en": "Weapon selection",
+                    "es": "Selección de armas",
+                    "de": "Waffenauswahl",
+                    "nl": "Wapen selectie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI positioning at optimal attack distance is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI positioning at optimal attack distance es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI positioning at optimal attack distance ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI positioning at optimal attack distance is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is AI reaction delay?",
+                "es": "¿Qué es el retraso de reacción de IA?",
+                "de": "Was ist KI-Reaktionsverzögerung?",
+                "nl": "Wat is AI-reactievertraging?"
+            },
+            "options": [
+                {
+                    "en": "Intentional pause before AI responds",
+                    "es": "Pausa intencional antes que IA responda",
+                    "de": "Absichtliche Pause bevor KI reagiert",
+                    "nl": "Opzettelijke pauze voordat AI reageert"
+                },
+                {
+                    "en": "Network latency",
+                    "es": "Latencia de red",
+                    "de": "Netzwerklatenz",
+                    "nl": "Netwerk vertraging"
+                },
+                {
+                    "en": "Processing speed",
+                    "es": "Velocidad de procesamiento",
+                    "de": "Verarbeitungsgeschwindigkeit",
+                    "nl": "Verwerkingssnelheid"
+                },
+                {
+                    "en": "Loading time",
+                    "es": "Tiempo de carga",
+                    "de": "Ladezeit",
+                    "nl": "Laadtijd"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Intentional pause before AI responds is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Intentional pause before AI responds es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Intentional pause before AI responds ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Intentional pause before AI responds is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is priority targeting in AI?",
+                "es": "¿Qué es el objetivo prioritario en IA?",
+                "de": "Was ist Prioritäts-Targeting in KI?",
+                "nl": "Wat is prioriteit targeting in AI?"
+            },
+            "options": [
+                {
+                    "en": "AI choosing most important targets first",
+                    "es": "IA eligiendo objetivos más importantes primero",
+                    "de": "KI wählt wichtigste Ziele zuerst",
+                    "nl": "AI kiest belangrijkste doelen eerst"
+                },
+                {
+                    "en": "First target acquired",
+                    "es": "Primer objetivo adquirido",
+                    "de": "Erstes erworbenes Ziel",
+                    "nl": "Eerste doel verworven"
+                },
+                {
+                    "en": "Random target selection",
+                    "es": "Selección aleatoria de objetivos",
+                    "de": "Zufällige Zielauswahl",
+                    "nl": "Willekeurige doel selectie"
+                },
+                {
+                    "en": "Closest enemy only",
+                    "es": "Solo enemigo más cercano",
+                    "de": "Nur nächster Feind",
+                    "nl": "Alleen dichtstbijzijnde vijand"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI choosing most important targets first is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI choosing most important targets first es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI choosing most important targets first ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI choosing most important targets first is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is AI memory in games?",
+                "es": "¿Qué es la memoria de IA en juegos?",
+                "de": "Was ist KI-Gedächtnis in Spielen?",
+                "nl": "Wat is AI-geheugen in games?"
+            },
+            "options": [
+                {
+                    "en": "AI remembering past player actions",
+                    "es": "IA recordando acciones pasadas del jugador",
+                    "de": "KI erinnert sich an vergangene Spieleraktionen",
+                    "nl": "AI onthoudt eerdere speleracties"
+                },
+                {
+                    "en": "RAM requirements",
+                    "es": "Requisitos de RAM",
+                    "de": "RAM-Anforderungen",
+                    "nl": "RAM vereisten"
+                },
+                {
+                    "en": "Save game data",
+                    "es": "Datos de juego guardado",
+                    "de": "Spielstand-Daten",
+                    "nl": "Save game data"
+                },
+                {
+                    "en": "Cache memory",
+                    "es": "Memoria caché",
+                    "de": "Cache-Speicher",
+                    "nl": "Cache geheugen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI remembering past player actions is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI remembering past player actions es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI remembering past player actions ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI remembering past player actions is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is pursuit AI behavior?",
+                "es": "¿Qué es el comportamiento de persecución de IA?",
+                "de": "Was ist Verfolgungs-KI-Verhalten?",
+                "nl": "Wat is achtervolging AI-gedrag?"
+            },
+            "options": [
+                {
+                    "en": "AI chasing fleeing players",
+                    "es": "IA persiguiendo jugadores que huyen",
+                    "de": "KI verfolgt fliehende Spieler",
+                    "nl": "AI achtervolgt vluchtende spelers"
+                },
+                {
+                    "en": "Quest objectives",
+                    "es": "Objetivos de misión",
+                    "de": "Quest-Ziele",
+                    "nl": "Quest doelen"
+                },
+                {
+                    "en": "Achievement hunting",
+                    "es": "Caza de logros",
+                    "de": "Achievement-Jagd",
+                    "nl": "Prestatie jagen"
+                },
+                {
+                    "en": "Following waypoints",
+                    "es": "Seguir puntos de referencia",
+                    "de": "Wegpunkte folgen",
+                    "nl": "Waypoints volgen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI chasing fleeing players is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI chasing fleeing players es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI chasing fleeing players ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI chasing fleeing players is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is ambush AI tactics?",
+                "es": "¿Qué son las tácticas de emboscada de IA?",
+                "de": "Was sind Hinterhalt-KI-Taktiken?",
+                "nl": "Wat zijn hinderlaag AI-tactieken?"
+            },
+            "options": [
+                {
+                    "en": "AI hiding and surprising players",
+                    "es": "IA ocultándose y sorprendiendo jugadores",
+                    "de": "KI versteckt sich und überrascht Spieler",
+                    "nl": "AI verbergt zich en verrast spelers"
+                },
+                {
+                    "en": "Bush camping mechanics",
+                    "es": "Mecánicas de campamento en arbustos",
+                    "de": "Busch-Camping-Mechaniken",
+                    "nl": "Struik camping mechanismen"
+                },
+                {
+                    "en": "Stealth missions",
+                    "es": "Misiones furtivas",
+                    "de": "Stealth-Missionen",
+                    "nl": "Stealth missies"
+                },
+                {
+                    "en": "Trap placement",
+                    "es": "Colocación de trampas",
+                    "de": "Fallenpla tzierung",
+                    "nl": "Val plaatsing"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI hiding and surprising players is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI hiding and surprising players es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI hiding and surprising players ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI hiding and surprising players is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is retreat AI behavior?",
+                "es": "¿Qué es el comportamiento de retirada de IA?",
+                "de": "Was ist Rückzugs-KI-Verhalten?",
+                "nl": "Wat is terugtrek AI-gedrag?"
+            },
+            "options": [
+                {
+                    "en": "AI withdrawing when in danger",
+                    "es": "IA retirándose cuando está en peligro",
+                    "de": "KI zieht sich zurück wenn in Gefahr",
+                    "nl": "AI trekt zich terug bij gevaar"
+                },
+                {
+                    "en": "Running away randomly",
+                    "es": "Huir aleatoriamente",
+                    "de": "Zufällig weglaufen",
+                    "nl": "Willekeurig wegrennen"
+                },
+                {
+                    "en": "Surrendering mechanic",
+                    "es": "Mecánica de rendición",
+                    "de": "Kapitulations-Mechanik",
+                    "nl": "Overgave mechanisme"
+                },
+                {
+                    "en": "Teleporting away",
+                    "es": "Teletransportarse lejos",
+                    "de": "Wegteleportieren",
+                    "nl": "Wegteleporteren"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI withdrawing when in danger is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI withdrawing when in danger es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI withdrawing when in danger ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI withdrawing when in danger is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is AI emotion simulation?",
+                "es": "¿Qué es la simulación de emociones de IA?",
+                "de": "Was ist KI-Emotionssimulation?",
+                "nl": "Wat is AI-emotiesimulatie?"
+            },
+            "options": [
+                {
+                    "en": "AI displaying human-like feelings",
+                    "es": "IA mostrando sentimientos similares a humanos",
+                    "de": "KI zeigt menschenähnliche Gefühle",
+                    "nl": "AI toont mensachtige gevoelens"
+                },
+                {
+                    "en": "Facial expressions",
+                    "es": "Expresiones faciales",
+                    "de": "Gesichtsausdrücke",
+                    "nl": "Gezichtsuitdrukkingen"
+                },
+                {
+                    "en": "Sound effects",
+                    "es": "Efectos de sonido",
+                    "de": "Soundeffekte",
+                    "nl": "Geluidseffecten"
+                },
+                {
+                    "en": "Mood lighting",
+                    "es": "Iluminación ambiental",
+                    "de": "Stimmungsbeleuchtung",
+                    "nl": "Sfeerverlichting"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI displaying human-like feelings is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI displaying human-like feelings es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI displaying human-like feelings ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI displaying human-like feelings is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is dynamic AI difficulty?",
+                "es": "¿Qué es la dificultad dinámica de IA?",
+                "de": "Was ist dynamische KI-Schwierigkeit?",
+                "nl": "Wat is dynamische AI-moeilijkheid?"
+            },
+            "options": [
+                {
+                    "en": "AI adjusting challenge in real-time",
+                    "es": "IA ajustando desafío en tiempo real",
+                    "de": "KI passt Herausforderung in Echtzeit an",
+                    "nl": "AI past uitdaging in real-time aan"
+                },
+                {
+                    "en": "Fixed difficulty settings",
+                    "es": "Configuración de dificultad fija",
+                    "de": "Feste Schwierigkeitseinstellungen",
+                    "nl": "Vaste moeilijkheidsinstellingen"
+                },
+                {
+                    "en": "Progressive challenges",
+                    "es": "Desafíos progresivos",
+                    "de": "Progressive Herausforderungen",
+                    "nl": "Progressieve uitdagingen"
+                },
+                {
+                    "en": "Skill tree system",
+                    "es": "Sistema de árbol de habilidades",
+                    "de": "Fertigkeitsbaum-System",
+                    "nl": "Vaardigheidsbomsysteem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "AI adjusting challenge in real-time is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "AI adjusting challenge in real-time es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "AI adjusting challenge in real-time ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "AI adjusting challenge in real-time is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is squad-based AI command?",
+                "es": "¿Qué es el comando de IA basado en escuadrones?",
+                "de": "Was ist Squad-basierter KI-Befehl?",
+                "nl": "Wat is squad-gebaseerde AI-commando?"
+            },
+            "options": [
+                {
+                    "en": "Controlling groups of AI units together",
+                    "es": "Controlar grupos de unidades de IA juntas",
+                    "de": "Gruppen von KI-Einheiten zusammen steuern",
+                    "nl": "Groepen AI-eenheden samen besturen"
+                },
+                {
+                    "en": "Military simulation",
+                    "es": "Simulación militar",
+                    "de": "Militärsimulation",
+                    "nl": "Militaire simulatie"
+                },
+                {
+                    "en": "Voice commands",
+                    "es": "Comandos de voz",
+                    "de": "Sprachbefehle",
+                    "nl": "Spraakcommando's"
+                },
+                {
+                    "en": "Team selection",
+                    "es": "Selección de equipo",
+                    "de": "Teamauswahl",
+                    "nl": "Team selectie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Controlling groups of AI units together is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Controlling groups of AI units together es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Controlling groups of AI units together ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Controlling groups of AI units together is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is Monte Carlo Tree Search (MCTS) in game AI?",
+                "es": "¿Qué es la Búsqueda de Árbol Monte Carlo (MCTS) en IA de juegos?",
+                "de": "Was ist Monte Carlo Tree Search (MCTS) in Spiele-KI?",
+                "nl": "Wat is Monte Carlo Tree Search (MCTS) in game AI?"
+            },
+            "options": [
+                {
+                    "en": "A search algorithm that explores game states using random simulations",
+                    "es": "Un algoritmo de búsqueda que explora estados del juego usando simulaciones aleatorias",
+                    "de": "Ein Suchalgorithmus, der Spielzustände durch zufällige Simulationen erkundet",
+                    "nl": "Een zoekalgoritme dat game-toestanden verkent met willekeurige simulaties"
+                },
+                {
+                    "en": "A graphics rendering technique",
+                    "es": "Una técnica de renderizado gráfico",
+                    "de": "Eine Grafik-Rendering-Technik",
+                    "nl": "Een grafische renderingtechniek"
+                },
+                {
+                    "en": "A networking protocol",
+                    "es": "Un protocolo de red",
+                    "de": "Ein Netzwerkprotokoll",
+                    "nl": "Een netwerkprotocol"
+                },
+                {
+                    "en": "A sound synthesis method",
+                    "es": "Un método de síntesis de sonido",
+                    "de": "Eine Klangsynthesemethode",
+                    "nl": "Een geluidssynthese methode"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "MCTS uses random sampling to explore possible game states and builds a tree of outcomes. It is particularly effective for turn-based strategy games and was key to AlphaGo's success.",
+                "es": "MCTS usa muestreo aleatorio para explorar posibles estados del juego y construye un árbol de resultados. Es particularmente efectivo para juegos de estrategia por turnos y fue clave en el éxito de AlphaGo.",
+                "de": "MCTS verwendet zufällige Stichproben zur Erkundung möglicher Spielzustände und baut einen Baum von Ergebnissen auf. Es ist besonders effektiv für rundenbasierte Strategiespiele und war entscheidend für AlphaGos Erfolg.",
+                "nl": "MCTS gebruikt willekeurige steekproeven om mogelijke speltoestanden te verkennen en bouwt een boom van uitkomsten. Het is bijzonder effectief voor turn-based strategiespellen en was essentieel voor AlphaGo's succes."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a goal-oriented action planner (GOAP) in game AI?",
+                "es": "¿Qué es un planificador de acciones orientado a objetivos (GOAP) en IA de juegos?",
+                "de": "Was ist ein zielorientierter Aktionsplaner (GOAP) in Spiele-KI?",
+                "nl": "Wat is een doelgerichte actie planner (GOAP) in game AI?"
+            },
+            "options": [
+                {
+                    "en": "A system that plans sequences of actions to achieve goals",
+                    "es": "Un sistema que planifica secuencias de acciones para lograr objetivos",
+                    "de": "Ein System, das Aktionssequenzen zur Zielerreichung plant",
+                    "nl": "Een systeem dat actie-sequenties plant om doelen te bereiken"
+                },
+                {
+                    "en": "A graphics optimization tool",
+                    "es": "Una herramienta de optimización gráfica",
+                    "de": "Ein Grafik-Optimierungswerkzeug",
+                    "nl": "Een grafische optimalisatie tool"
+                },
+                {
+                    "en": "A player matchmaking system",
+                    "es": "Un sistema de emparejamiento de jugadores",
+                    "de": "Ein Spieler-Matchmaking-System",
+                    "nl": "Een speler matchmaking systeem"
+                },
+                {
+                    "en": "A save game manager",
+                    "es": "Un gestor de guardado de juego",
+                    "de": "Ein Spielstand-Manager",
+                    "nl": "Een game opslag manager"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "A system that plans sequences of actions to achieve goals is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A system that plans sequences of actions to achieve goals es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A system that plans sequences of actions to achieve goals ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A system that plans sequences of actions to achieve goals is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is influence mapping in game AI?",
+                "es": "¿Qué es el mapeo de influencia en la IA de juegos?",
+                "de": "Was ist Einfluss-Mapping in Spiele-KI?",
+                "nl": "Wat is influence mapping in game AI?"
+            },
+            "options": [
+                {
+                    "en": "A spatial representation showing control and threat levels across game areas",
+                    "es": "Una representación espacial que muestra niveles de control y amenaza en áreas del juego",
+                    "de": "Eine räumliche Darstellung, die Kontroll- und Bedrohungsstufen in Spielbereichen zeigt",
+                    "nl": "Een ruimtelijke representatie die controle en dreiging levels toont over game gebieden"
+                },
+                {
+                    "en": "A player ranking system",
+                    "es": "Un sistema de clasificación de jugadores",
+                    "de": "Ein Spieler-Rangsystem",
+                    "nl": "Een speler ranglijst systeem"
+                },
+                {
+                    "en": "A texture mapping technique",
+                    "es": "Una técnica de mapeo de texturas",
+                    "de": "Eine Textur-Mapping-Technik",
+                    "nl": "Een texture mapping techniek"
+                },
+                {
+                    "en": "A sound localization system",
+                    "es": "Un sistema de localización de sonido",
+                    "de": "Ein Klangortungssystem",
+                    "nl": "Een geluidslokalisatie systeem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "A spatial representation showing control and threat levels across game areas is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A spatial representation showing control and threat levels across game areas es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A spatial representation showing control and threat levels across game areas ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A spatial representation showing control and threat levels across game areas is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a Markov decision process (MDP) in game AI?",
+                "es": "¿Qué es un proceso de decisión de Markov (MDP) en IA de juegos?",
+                "de": "Was ist ein Markov-Entscheidungsprozess (MDP) in Spiele-KI?",
+                "nl": "Wat is een Markov beslissingsproces (MDP) in game AI?"
+            },
+            "options": [
+                {
+                    "en": "A mathematical framework for modeling decision-making with uncertain outcomes",
+                    "es": "Un marco matemático para modelar toma de decisiones con resultados inciertos",
+                    "de": "Ein mathematischer Rahmen zur Modellierung von Entscheidungen mit unsicheren Ergebnissen",
+                    "nl": "Een wiskundig raamwerk voor het modelleren van besluitvorming met onzekere uitkomsten"
+                },
+                {
+                    "en": "A graphics pipeline stage",
+                    "es": "Una etapa del pipeline gráfico",
+                    "de": "Eine Grafik-Pipeline-Stufe",
+                    "nl": "Een grafische pipeline fase"
+                },
+                {
+                    "en": "A save file format",
+                    "es": "Un formato de archivo de guardado",
+                    "de": "Ein Spielstand-Dateiformat",
+                    "nl": "Een opslag bestandsformaat"
+                },
+                {
+                    "en": "A multiplayer protocol",
+                    "es": "Un protocolo multijugador",
+                    "de": "Ein Multiplayer-Protokoll",
+                    "nl": "Een multiplayer protocol"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "A mathematical framework for modeling decision-making with uncertain outcomes is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A mathematical framework for modeling decision-making with uncertain outcomes es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A mathematical framework for modeling decision-making with uncertain outcomes ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A mathematical framework for modeling decision-making with uncertain outcomes is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is dynamic difficulty adjustment (DDA) in games?",
+                "es": "¿Qué es el ajuste dinámico de dificultad (DDA) en juegos?",
+                "de": "Was ist dynamische Schwierigkeitsanpassung (DDA) in Spielen?",
+                "nl": "Wat is dynamische moeilijkheidsaanpassing (DDA) in games?"
+            },
+            "options": [
+                {
+                    "en": "Automatically adjusting game difficulty based on player performance",
+                    "es": "Ajustar automáticamente la dificultad del juego según el rendimiento del jugador",
+                    "de": "Automatisches Anpassen der Spielschwierigkeit basierend auf Spielerleistung",
+                    "nl": "Automatisch aanpassen van game-moeilijkheid op basis van speler prestaties"
+                },
+                {
+                    "en": "Manual difficulty selection",
+                    "es": "Selección manual de dificultad",
+                    "de": "Manuelle Schwierigkeitsauswahl",
+                    "nl": "Handmatige moeilijkheid selectie"
+                },
+                {
+                    "en": "Level design process",
+                    "es": "Proceso de diseño de niveles",
+                    "de": "Level-Design-Prozess",
+                    "nl": "Level ontwerp proces"
+                },
+                {
+                    "en": "Graphics quality settings",
+                    "es": "Configuración de calidad gráfica",
+                    "de": "Grafikqualitätseinstellungen",
+                    "nl": "Grafische kwaliteit instellingen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Automatically adjusting game difficulty based on player performance is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Automatically adjusting game difficulty based on player performance es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Automatically adjusting game difficulty based on player performance ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Automatically adjusting game difficulty based on player performance is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a navigation mesh (navmesh) in game AI?",
+                "es": "¿Qué es una malla de navegación (navmesh) en IA de juegos?",
+                "de": "Was ist ein Navigations-Mesh (Navmesh) in Spiele-KI?",
+                "nl": "Wat is een navigatie mesh (navmesh) in game AI?"
+            },
+            "options": [
+                {
+                    "en": "A 3D mesh defining walkable areas for AI pathfinding",
+                    "es": "Una malla 3D que define áreas transitables para búsqueda de rutas de IA",
+                    "de": "Ein 3D-Mesh, das begehbare Bereiche für KI-Pfadfindung definiert",
+                    "nl": "Een 3D mesh die begaanbare gebieden definieert voor AI pathfinding"
+                },
+                {
+                    "en": "A texture for terrain",
+                    "es": "Una textura para terreno",
+                    "de": "Eine Textur für Gelände",
+                    "nl": "Een texture voor terrein"
+                },
+                {
+                    "en": "A collision detection system",
+                    "es": "Un sistema de detección de colisiones",
+                    "de": "Ein Kollisionserkennungssystem",
+                    "nl": "Een botsingsdetectie systeem"
+                },
+                {
+                    "en": "A lighting calculation method",
+                    "es": "Un método de cálculo de iluminación",
+                    "de": "Eine Lichtberechnungsmethode",
+                    "nl": "Een lichtberekening methode"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "A 3D mesh defining walkable areas for AI pathfinding is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A 3D mesh defining walkable areas for AI pathfinding es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A 3D mesh defining walkable areas for AI pathfinding ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A 3D mesh defining walkable areas for AI pathfinding is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is emergent behavior in game AI?",
+                "es": "¿Qué es el comportamiento emergente en la IA de juegos?",
+                "de": "Was ist emergentes Verhalten in Spiele-KI?",
+                "nl": "Wat is emergent gedrag in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Complex behaviors arising from simple AI rules interacting",
+                    "es": "Comportamientos complejos que surgen de reglas simples de IA interactuando",
+                    "de": "Komplexe Verhaltensweisen, die aus interagierenden einfachen KI-Regeln entstehen",
+                    "nl": "Complex gedrag dat ontstaat uit simpele AI-regels die interacteren"
+                },
+                {
+                    "en": "Pre-scripted behaviors",
+                    "es": "Comportamientos pre-programados",
+                    "de": "Vorprogrammierte Verhaltensweisen",
+                    "nl": "Vooraf gescript gedrag"
+                },
+                {
+                    "en": "Random movements",
+                    "es": "Movimientos aleatorios",
+                    "de": "Zufällige Bewegungen",
+                    "nl": "Willekeurige bewegingen"
+                },
+                {
+                    "en": "Player-controlled actions",
+                    "es": "Acciones controladas por jugador",
+                    "de": "Spielergesteuerte Aktionen",
+                    "nl": "Speler gecontroleerde acties"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Complex behaviors arising from simple AI rules interacting is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Complex behaviors arising from simple AI rules interacting es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Complex behaviors arising from simple AI rules interacting ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Complex behaviors arising from simple AI rules interacting is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a blackboard system in game AI?",
+                "es": "¿Qué es un sistema de pizarra en la IA de juegos?",
+                "de": "Was ist ein Blackboard-System in Spiele-KI?",
+                "nl": "Wat is een blackboard systeem in game AI?"
+            },
+            "options": [
+                {
+                    "en": "A shared data structure for AI components to communicate",
+                    "es": "Una estructura de datos compartida para que componentes de IA se comuniquen",
+                    "de": "Eine gemeinsame Datenstruktur für Kommunikation zwischen KI-Komponenten",
+                    "nl": "Een gedeelde datastructuur voor AI-componenten om te communiceren"
+                },
+                {
+                    "en": "A teaching tool",
+                    "es": "Una herramienta de enseñanza",
+                    "de": "Ein Lehrwerkzeug",
+                    "nl": "Een onderwijs tool"
+                },
+                {
+                    "en": "A graphics technique",
+                    "es": "Una técnica gráfica",
+                    "de": "Eine Grafiktechnik",
+                    "nl": "Een grafische techniek"
+                },
+                {
+                    "en": "A debugging interface",
+                    "es": "Una interfaz de depuración",
+                    "de": "Eine Debug-Schnittstelle",
+                    "nl": "Een debug interface"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "A shared data structure for AI components to communicate is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "A shared data structure for AI components to communicate es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "A shared data structure for AI components to communicate ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "A shared data structure for AI components to communicate is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is crowd simulation in game AI?",
+                "es": "¿Qué es la simulación de multitudes en la IA de juegos?",
+                "de": "Was ist Menschenmengensimulation in Spiele-KI?",
+                "nl": "Wat is menigte simulatie in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Simulating realistic behavior of large groups of characters",
+                    "es": "Simular comportamiento realista de grandes grupos de personajes",
+                    "de": "Simulation realistischen Verhaltens großer Charaktergruppen",
+                    "nl": "Het simuleren van realistisch gedrag van grote groepen karakters"
+                },
+                {
+                    "en": "Audio mixing",
+                    "es": "Mezcla de audio",
+                    "de": "Audio-Mixing",
+                    "nl": "Audio mixing"
+                },
+                {
+                    "en": "Network traffic management",
+                    "es": "Gestión de tráfico de red",
+                    "de": "Netzwerkverkehrsmanagement",
+                    "nl": "Netwerk verkeer beheer"
+                },
+                {
+                    "en": "Texture compression",
+                    "es": "Compresión de texturas",
+                    "de": "Textur-Kompression",
+                    "nl": "Texture compressie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Simulating realistic behavior of large groups of characters is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Simulating realistic behavior of large groups of characters es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Simulating realistic behavior of large groups of characters ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Simulating realistic behavior of large groups of characters is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is strategic reasoning in game AI?",
+                "es": "¿Qué es el razonamiento estratégico en la IA de juegos?",
+                "de": "Was ist strategisches Denken in Spiele-KI?",
+                "nl": "Wat is strategisch redeneren in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Long-term planning and decision-making considering multiple objectives",
+                    "es": "Planificación a largo plazo y toma de decisiones considerando múltiples objetivos",
+                    "de": "Langfristige Planung und Entscheidungsfindung unter Berücksichtigung mehrerer Ziele",
+                    "nl": "Lange termijn planning en besluitvorming met meerdere doelstellingen in overweging"
+                },
+                {
+                    "en": "Random choice selection",
+                    "es": "Selección de elección aleatoria",
+                    "de": "Zufällige Auswahlwahl",
+                    "nl": "Willekeurige keuze selectie"
+                },
+                {
+                    "en": "Graphics optimization",
+                    "es": "Optimización gráfica",
+                    "de": "Grafik-Optimierung",
+                    "nl": "Grafische optimalisatie"
+                },
+                {
+                    "en": "Sound design",
+                    "es": "Diseño de sonido",
+                    "de": "Klangdesign",
+                    "nl": "Geluid ontwerp"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Long-term planning and decision-making considering multiple objectives is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Long-term planning and decision-making considering multiple objectives es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Long-term planning and decision-making considering multiple objectives ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Long-term planning and decision-making considering multiple objectives is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is agent-based modeling in game AI?",
+                "es": "¿Qué es el modelado basado en agentes en la IA de juegos?",
+                "de": "Was ist agentenbasierte Modellierung in Spiele-KI?",
+                "nl": "Wat is agent-gebaseerde modellering in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Simulating complex systems through individual autonomous agents",
+                    "es": "Simular sistemas complejos a través de agentes autónomos individuales",
+                    "de": "Simulation komplexer Systeme durch individuelle autonome Agenten",
+                    "nl": "Het simuleren van complexe systemen door individuele autonome agenten"
+                },
+                {
+                    "en": "Hiring voice actors",
+                    "es": "Contratar actores de voz",
+                    "de": "Synchronsprecher engagieren",
+                    "nl": "Stemacteurs inhuren"
+                },
+                {
+                    "en": "Creating promotional materials",
+                    "es": "Crear materiales promocionales",
+                    "de": "Werbematerialien erstellen",
+                    "nl": "Promotie materialen creëren"
+                },
+                {
+                    "en": "Testing hardware compatibility",
+                    "es": "Probar compatibilidad de hardware",
+                    "de": "Hardware-Kompatibilität testen",
+                    "nl": "Hardware compatibiliteit testen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Simulating complex systems through individual autonomous agents is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Simulating complex systems through individual autonomous agents es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Simulating complex systems through individual autonomous agents ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Simulating complex systems through individual autonomous agents is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is perception modeling in game AI?",
+                "es": "¿Qué es el modelado de percepción en la IA de juegos?",
+                "de": "Was ist Wahrnehmungsmodellierung in Spiele-KI?",
+                "nl": "Wat is perceptie modellering in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Simulating how AI characters sense their environment",
+                    "es": "Simular cómo los personajes de IA perciben su entorno",
+                    "de": "Simulation, wie KI-Charaktere ihre Umgebung wahrnehmen",
+                    "nl": "Het simuleren van hoe AI-karakters hun omgeving waarnemen"
+                },
+                {
+                    "en": "Player opinion surveys",
+                    "es": "Encuestas de opinión de jugadores",
+                    "de": "Spieler-Meinungsumfragen",
+                    "nl": "Speler opinie enquêtes"
+                },
+                {
+                    "en": "Graphics quality settings",
+                    "es": "Configuración de calidad gráfica",
+                    "de": "Grafikqualitätseinstellungen",
+                    "nl": "Grafische kwaliteit instellingen"
+                },
+                {
+                    "en": "Music composition",
+                    "es": "Composición musical",
+                    "de": "Musikalische Komposition",
+                    "nl": "Muziek compositie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Simulating how AI characters sense their environment is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Simulating how AI characters sense their environment es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Simulating how AI characters sense their environment ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Simulating how AI characters sense their environment is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is tactical pathfinding in game AI?",
+                "es": "¿Qué es la búsqueda de rutas tácticas en la IA de juegos?",
+                "de": "Was ist taktische Pfadfindung in Spiele-KI?",
+                "nl": "Wat is tactische pathfinding in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Pathfinding that considers tactical factors like cover and visibility",
+                    "es": "Búsqueda de rutas que considera factores tácticos como cobertura y visibilidad",
+                    "de": "Pfadfindung, die taktische Faktoren wie Deckung und Sichtbarkeit berücksichtigt",
+                    "nl": "Pathfinding die tactische factoren zoals dekking en zichtbaarheid overweegt"
+                },
+                {
+                    "en": "Simple straight-line movement",
+                    "es": "Movimiento simple en línea recta",
+                    "de": "Einfache geradlinige Bewegung",
+                    "nl": "Simpele rechte lijn beweging"
+                },
+                {
+                    "en": "Random wandering",
+                    "es": "Vagabundeo aleatorio",
+                    "de": "Zufälliges Umherwandern",
+                    "nl": "Willekeurig ronddwalen"
+                },
+                {
+                    "en": "Teleportation",
+                    "es": "Teletransportación",
+                    "de": "Teleportation",
+                    "nl": "Teleportatie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pathfinding that considers tactical factors like cover and visibility is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Pathfinding that considers tactical factors like cover and visibility es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Pathfinding that considers tactical factors like cover and visibility ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Pathfinding that considers tactical factors like cover and visibility is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is spatial reasoning in game AI?",
+                "es": "¿Qué es el razonamiento espacial en la IA de juegos?",
+                "de": "Was ist räumliches Denken in Spiele-KI?",
+                "nl": "Wat is ruimtelijk redeneren in game AI?"
+            },
+            "options": [
+                {
+                    "en": "Understanding and reasoning about 3D space, positions, and relationships",
+                    "es": "Comprender y razonar sobre espacio 3D, posiciones y relaciones",
+                    "de": "Verstehen und Denken über 3D-Raum, Positionen und Beziehungen",
+                    "nl": "Het begrijpen en redeneren over 3D-ruimte, posities en relaties"
+                },
+                {
+                    "en": "Memory allocation",
+                    "es": "Asignación de memoria",
+                    "de": "Speicherzuweisung",
+                    "nl": "Geheugen toewijzing"
+                },
+                {
+                    "en": "File organization",
+                    "es": "Organización de archivos",
+                    "de": "Dateiorganisation",
+                    "nl": "Bestand organisatie"
+                },
+                {
+                    "en": "Network routing",
+                    "es": "Enrutamiento de red",
+                    "de": "Netzwerk-Routing",
+                    "nl": "Netwerk routing"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Understanding and reasoning about 3D space, positions, and relationships is correct. This concept is fundamental in game AI development and is widely used in modern game engines to create intelligent, responsive NPC behavior.",
+                "es": "Understanding and reasoning about 3D space, positions, and relationships es correcto. Este concepto es fundamental en el desarrollo de IA de juegos y se usa ampliamente en motores de juegos modernos para crear comportamiento de NPC inteligente y receptivo.",
+                "de": "Understanding and reasoning about 3D space, positions, and relationships ist richtig. Dieses Konzept ist grundlegend in der Spiele-KI-Entwicklung und wird weithin in modernen Spiel-Engines verwendet, um intelligentes, reaktives NPC-Verhalten zu schaffen.",
+                "nl": "Understanding and reasoning about 3D space, positions, and relationships is correct. Dit concept is fundamenteel in game AI-ontwikkeling en wordt veel gebruikt in moderne game engines om intelligent, responsief NPC-gedrag te creëren."
+            }
+        },
+        {
+            "question": {
+                "en": "What is alpha-beta pruning in game AI?",
+                "es": "Que es la poda alfa-beta en IA de juegos?",
+                "de": "Was ist Alpha-Beta-Pruning in Spiele-KI?",
+                "nl": "Wat is alpha-beta snoei in game-AI?"
+            },
+            "options": [
+                {
+                    "en": "An optimization that skips unnecessary game tree branches",
+                    "es": "Una optimizacion que omite ramas innecesarias del arbol",
+                    "de": "Eine Optimierung die unnoetige Spielbaumzweige ueberspringt",
+                    "nl": "Een optimalisatie die onnodige spelboomtakken overslaat"
+                },
+                {
+                    "en": "A graphics rendering technique",
+                    "es": "Una tecnica de renderizado de graficos",
+                    "de": "Eine Grafikrendering-Technik",
+                    "nl": "Een grafische renderingtechniek"
+                },
+                {
+                    "en": "A game testing method",
+                    "es": "Un metodo de prueba de juegos",
+                    "de": "Eine Spieltestmethode",
+                    "nl": "Een game-testmethode"
+                },
+                {
+                    "en": "A character animation system",
+                    "es": "Un sistema de animacion de personajes",
+                    "de": "Ein Charakteranimationssystem",
+                    "nl": "Een personage-animatiesysteem"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Alpha-beta pruning optimizes minimax search by eliminating branches that cannot affect the final decision, making game AI much faster.",
+                "es": "La poda alfa-beta optimiza la busqueda minimax eliminando ramas que no afectan la decision final, haciendo la IA mas rapida.",
+                "de": "Alpha-Beta-Pruning optimiert die Minimax-Suche durch Eliminierung von Zweigen, die die endgueltige Entscheidung nicht beeinflussen.",
+                "nl": "Alpha-beta snoei optimaliseert minimax-zoeken door takken te elimineren die de uiteindelijke beslissing niet beinvloeden, waardoor game-AI veel sneller wordt."
+            }
         }
     ]
 };

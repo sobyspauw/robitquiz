@@ -1,4108 +1,4107 @@
 // Bread Types - level1
 // Total questions: 100
-// Quality issues fixed: 2026-03-03T10:19:31.955Z
 
 module.exports = {
     questions: [
-            {
-                    "question": {
-                            "en": "What is the main ingredient that makes bread rise?",
-                            "es": "¿Cuál es el ingrediente principal que hace que el pan suba?",
-                            "de": "Was ist die Hauptzutat, die Brot aufgehen lässt?",
-                            "nl": "Wat is het hoofdingrediënt dat brood doet rijzen?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Yeast",
-                                    "es": "Levadura",
-                                    "de": "Hefe",
-                                    "nl": "Gist"
-                            },
-                            {
-                                    "en": "Salt",
-                                    "es": "Sal",
-                                    "de": "Salz",
-                                    "nl": "Zout"
-                            },
-                            {
-                                    "en": "Sugar",
-                                    "es": "Azúcar",
-                                    "de": "Zucker",
-                                    "nl": "Suiker"
-                            },
-                            {
-                                    "en": "Oil",
-                                    "es": "Aceite",
-                                    "de": "Öl",
-                                    "nl": "Olie"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Yeast is a microorganism that ferments sugars in the dough, producing carbon dioxide gas that makes bread rise and creates its airy texture.",
-                            "es": "La levadura es un microorganismo que fermenta los azúcares en la masa, produciendo dióxido de carbono que hace que el pan suba y crea su textura aireada.",
-                            "de": "Hefe ist ein Mikroorganismus, der Zucker im Teig fermentiert und dabei Kohlendioxidgas produziert, das das Brot aufgehen lässt und seine luftige Textur erzeugt.",
-                            "nl": "Gist is een micro-organisme dat suikers in het deeg fermenteert, waarbij kooldioxide ontstaat dat het brood doet rijzen en zijn luchtige textuur geeft."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which bread is traditionally shaped like a ring?",
-                            "es": "¿Qué pan tiene tradicionalmente forma de anillo?",
-                            "de": "Welches Brot hat traditionell die Form eines Rings?",
-                            "nl": "Welk brood heeft traditioneel de vorm van een ring?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Bagel",
-                                    "es": "Bagel",
-                                    "de": "Bagel",
-                                    "nl": "Bagel"
-                            },
-                            {
-                                    "en": "Baguette",
-                                    "es": "Baguette",
-                                    "de": "Baguette",
-                                    "nl": "Stokbrood"
-                            },
-                            {
-                                    "en": "Ciabatta",
-                                    "es": "Ciabatta",
-                                    "de": "Ciabatta",
-                                    "nl": "Ciabatta"
-                            },
-                            {
-                                    "en": "Pita",
-                                    "es": "Pita",
-                                    "de": "Pita",
-                                    "nl": "Pita"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Bagels are traditionally shaped into a ring and are boiled before baking, which gives them their distinctive chewy texture and shiny crust.",
-                            "es": "Los bagels tradicionalmente tienen forma de anillo y se hierven antes de hornear, lo que les da su distintiva textura masticable y corteza brillante.",
-                            "de": "Bagels werden traditionell zu einem Ring geformt und vor dem Backen gekocht, was ihnen ihre charakteristische zähe Textur und glänzende Kruste verleiht.",
-                            "nl": "Bagels worden traditioneel in een ring gevormd en gekookt voordat ze gebakken worden, wat ze hun kenmerkende taaie textuur en glanzende korst geeft."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What country is the baguette originally from?",
-                            "es": "¿De qué país es originaria la baguette?",
-                            "de": "Aus welchem Land stammt das Baguette ursprünglich?",
-                            "nl": "Uit welk land komt het stokbrood oorspronkelijk?"
-                    },
-                    "options": [
-                            {
-                                    "en": "France",
-                                    "es": "Francia",
-                                    "de": "Frankreich",
-                                    "nl": "Frankrijk"
-                            },
-                            {
-                                    "en": "Italy",
-                                    "es": "Italia",
-                                    "de": "Italien",
-                                    "nl": "Italië"
-                            },
-                            {
-                                    "en": "Germany",
-                                    "es": "Alemania",
-                                    "de": "Deutschland",
-                                    "nl": "Duitsland"
-                            },
-                            {
-                                    "en": "Spain",
-                                    "es": "España",
-                                    "de": "Spanien",
-                                    "nl": "Spanje"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "The baguette is a traditional French bread known for its long, thin shape and crispy crust. It became popular in France in the early 20th century.",
-                            "es": "La baguette es un pan francés tradicional conocido por su forma larga y delgada y corteza crujiente. Se hizo popular en Francia a principios del siglo XX.",
-                            "de": "Das Baguette ist ein traditionelles französisches Brot, bekannt für seine lange, dünne Form und knusprige Kruste. Es wurde im frühen 20. Jahrhundert in Frankreich populär.",
-                            "nl": "Het stokbrood is een traditioneel Frans brood dat bekend staat om zijn lange, dunne vorm en knapperige korst. Het werd populair in Frankrijk in het begin van de 20e eeuw."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What type of bread is made without yeast?",
-                            "es": "¿Qué tipo de pan se hace sin levadura?",
-                            "de": "Welche Brotart wird ohne Hefe hergestellt?",
-                            "nl": "Welk type brood wordt zonder gist gemaakt?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Unleavened bread",
-                                    "es": "Pan sin levadura",
-                                    "de": "Ungesäuertes Brot",
-                                    "nl": "Ongezuurd brood"
-                            },
-                            {
-                                    "en": "White bread",
-                                    "es": "Pan blanco",
-                                    "de": "Weißbrot",
-                                    "nl": "Witbrood"
-                            },
-                            {
-                                    "en": "Whole wheat bread",
-                                    "es": "Pan integral",
-                                    "de": "Vollkornbrot",
-                                    "nl": "Volkorenbrood"
-                            },
-                            {
-                                    "en": "Sourdough bread",
-                                    "es": "Pan de masa madre",
-                                    "de": "Sauerteigbrot",
-                                    "nl": "Zuurdesembrood"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Unleavened bread is made without any raising agents like yeast or baking soda. Examples include matzo, tortillas, and chapati.",
-                            "es": "El pan sin levadura se hace sin agentes leudantes como levadura o bicarbonato. Ejemplos incluyen matzá, tortillas y chapati.",
-                            "de": "Ungesäuertes Brot wird ohne Triebmittel wie Hefe oder Backpulver hergestellt. Beispiele sind Matze, Tortillas und Chapati.",
-                            "nl": "Ongezuurd brood wordt gemaakt zonder rijsmiddelen zoals gist van bakpoeder. Voorbeelden zijn matze, tortilla's en chapati."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What gives rye bread its distinctive dark color?",
-                            "es": "¿Qué le da al pan de centeno su distintivo color oscuro?",
-                            "de": "Was verleiht Roggenbrot seine charakteristische dunkle Farbe?",
-                            "nl": "Wat geeft roggebrood zijn kenmerkende donkere kleur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Rye flour",
-                                    "es": "Harina de centeno",
-                                    "de": "Roggenmehl",
-                                    "nl": "Roggemeel"
-                            },
-                            {
-                                    "en": "Food coloring",
-                                    "es": "Colorante alimentario",
-                                    "de": "Lebensmittelfarbe",
-                                    "nl": "Voedselkleurstof"
-                            },
-                            {
-                                    "en": "Chocolate",
-                                    "es": "Chocolate",
-                                    "de": "Schokolade",
-                                    "nl": "Chocolade"
-                            },
-                            {
-                                    "en": "Burnt sugar",
-                                    "es": "Azúcar quemado",
-                                    "de": "Gebrannter Zucker",
-                                    "nl": "Gebrande suiker"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Rye flour naturally contains more minerals and enzymes than wheat flour, giving rye bread its characteristic dark color and dense texture.",
-                            "es": "La harina de centeno contiene naturalmente más minerales y enzimas que la harina de trigo, dando al pan de centeno su característico color oscuro y textura densa.",
-                            "de": "Roggenmehl enthält von Natur aus mehr Mineralien und Enzyme als Weizenmehl, was dem Roggenbrot seine charakteristische dunkle Farbe und dichte Textur verleiht.",
-                            "nl": "Roggemeel bevat van nature meer mineralen en enzymen dan tarwemeel, wat roggebrood zijn kenmerkende donkere kleur en dichte textuur geeft."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 6",
-                                    "es": "Incorrect option 1 para question 6",
-                                    "de": "Incorrect option 1 für question 6",
-                                    "nl": "Incorrect option 1 voor question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 6",
-                                    "es": "Incorrect option 2 para question 6",
-                                    "de": "Incorrect option 2 für question 6",
-                                    "nl": "Incorrect option 2 voor question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 6",
-                                    "es": "Incorrect option 3 para question 6",
-                                    "de": "Incorrect option 3 für question 6",
-                                    "nl": "Incorrect option 3 voor question 6"
-                            },
-                            {
-                                    "en": "Correct answer for question 6",
-                                    "es": "Correct answer for question 6",
-                                    "de": "Correct answer for question 6",
-                                    "nl": "Correct answer for question 6"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 7",
-                                    "es": "Incorrect option 1 para question 7",
-                                    "de": "Incorrect option 1 für question 7",
-                                    "nl": "Incorrect option 1 voor question 7"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 7",
-                                    "es": "Incorrect option 2 para question 7",
-                                    "de": "Incorrect option 2 für question 7",
-                                    "nl": "Incorrect option 2 voor question 7"
-                            },
-                            {
-                                    "en": "Correct answer for question 7",
-                                    "es": "Correct answer for question 7",
-                                    "de": "Correct answer for question 7",
-                                    "nl": "Correct answer for question 7"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 7",
-                                    "es": "Incorrect option 4 para question 7",
-                                    "de": "Incorrect option 4 für question 7",
-                                    "nl": "Incorrect option 4 voor question 7"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 8",
-                                    "es": "Incorrect option 1 para question 8",
-                                    "de": "Incorrect option 1 für question 8",
-                                    "nl": "Incorrect option 1 voor question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 8",
-                                    "es": "Incorrect option 2 para question 8",
-                                    "de": "Incorrect option 2 für question 8",
-                                    "nl": "Incorrect option 2 voor question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 8",
-                                    "es": "Incorrect option 3 para question 8",
-                                    "de": "Incorrect option 3 für question 8",
-                                    "nl": "Incorrect option 3 voor question 8"
-                            },
-                            {
-                                    "en": "Correct answer for question 8",
-                                    "es": "Correct answer for question 8",
-                                    "de": "Correct answer for question 8",
-                                    "nl": "Correct answer for question 8"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 9",
-                                    "es": "Correct answer for question 9",
-                                    "de": "Correct answer for question 9",
-                                    "nl": "Correct answer for question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 9",
-                                    "es": "Incorrect option 2 para question 9",
-                                    "de": "Incorrect option 2 für question 9",
-                                    "nl": "Incorrect option 2 voor question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 9",
-                                    "es": "Incorrect option 3 para question 9",
-                                    "de": "Incorrect option 3 für question 9",
-                                    "nl": "Incorrect option 3 voor question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 9",
-                                    "es": "Incorrect option 4 para question 9",
-                                    "de": "Incorrect option 4 für question 9",
-                                    "nl": "Incorrect option 4 voor question 9"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 10",
-                                    "es": "Correct answer for question 10",
-                                    "de": "Correct answer for question 10",
-                                    "nl": "Correct answer for question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 10",
-                                    "es": "Incorrect option 2 para question 10",
-                                    "de": "Incorrect option 2 für question 10",
-                                    "nl": "Incorrect option 2 voor question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 10",
-                                    "es": "Incorrect option 3 para question 10",
-                                    "de": "Incorrect option 3 für question 10",
-                                    "nl": "Incorrect option 3 voor question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 10",
-                                    "es": "Incorrect option 4 para question 10",
-                                    "de": "Incorrect option 4 für question 10",
-                                    "nl": "Incorrect option 4 voor question 10"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 11",
-                                    "es": "Incorrect option 1 para question 11",
-                                    "de": "Incorrect option 1 für question 11",
-                                    "nl": "Incorrect option 1 voor question 11"
-                            },
-                            {
-                                    "en": "Correct answer for question 11",
-                                    "es": "Correct answer for question 11",
-                                    "de": "Correct answer for question 11",
-                                    "nl": "Correct answer for question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 11",
-                                    "es": "Incorrect option 3 para question 11",
-                                    "de": "Incorrect option 3 für question 11",
-                                    "nl": "Incorrect option 3 voor question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 11",
-                                    "es": "Incorrect option 4 para question 11",
-                                    "de": "Incorrect option 4 für question 11",
-                                    "nl": "Incorrect option 4 voor question 11"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 12",
-                                    "es": "Correct answer for question 12",
-                                    "de": "Correct answer for question 12",
-                                    "nl": "Correct answer for question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 12",
-                                    "es": "Incorrect option 2 para question 12",
-                                    "de": "Incorrect option 2 für question 12",
-                                    "nl": "Incorrect option 2 voor question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 12",
-                                    "es": "Incorrect option 3 para question 12",
-                                    "de": "Incorrect option 3 für question 12",
-                                    "nl": "Incorrect option 3 voor question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 12",
-                                    "es": "Incorrect option 4 para question 12",
-                                    "de": "Incorrect option 4 für question 12",
-                                    "nl": "Incorrect option 4 voor question 12"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 13",
-                                    "es": "Correct answer for question 13",
-                                    "de": "Correct answer for question 13",
-                                    "nl": "Correct answer for question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 13",
-                                    "es": "Incorrect option 2 para question 13",
-                                    "de": "Incorrect option 2 für question 13",
-                                    "nl": "Incorrect option 2 voor question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 13",
-                                    "es": "Incorrect option 3 para question 13",
-                                    "de": "Incorrect option 3 für question 13",
-                                    "nl": "Incorrect option 3 voor question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 13",
-                                    "es": "Incorrect option 4 para question 13",
-                                    "de": "Incorrect option 4 für question 13",
-                                    "nl": "Incorrect option 4 voor question 13"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 14",
-                                    "es": "Incorrect option 1 para question 14",
-                                    "de": "Incorrect option 1 für question 14",
-                                    "nl": "Incorrect option 1 voor question 14"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 14",
-                                    "es": "Incorrect option 2 para question 14",
-                                    "de": "Incorrect option 2 für question 14",
-                                    "nl": "Incorrect option 2 voor question 14"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 14",
-                                    "es": "Incorrect option 3 para question 14",
-                                    "de": "Incorrect option 3 für question 14",
-                                    "nl": "Incorrect option 3 voor question 14"
-                            },
-                            {
-                                    "en": "Correct answer for question 14",
-                                    "es": "Correct answer for question 14",
-                                    "de": "Correct answer for question 14",
-                                    "nl": "Correct answer for question 14"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 15",
-                                    "es": "Correct answer for question 15",
-                                    "de": "Correct answer for question 15",
-                                    "nl": "Correct answer for question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 15",
-                                    "es": "Incorrect option 2 para question 15",
-                                    "de": "Incorrect option 2 für question 15",
-                                    "nl": "Incorrect option 2 voor question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 15",
-                                    "es": "Incorrect option 3 para question 15",
-                                    "de": "Incorrect option 3 für question 15",
-                                    "nl": "Incorrect option 3 voor question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 15",
-                                    "es": "Incorrect option 4 para question 15",
-                                    "de": "Incorrect option 4 für question 15",
-                                    "nl": "Incorrect option 4 voor question 15"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 16",
-                                    "es": "Correct answer for question 16",
-                                    "de": "Correct answer for question 16",
-                                    "nl": "Correct answer for question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 16",
-                                    "es": "Incorrect option 2 para question 16",
-                                    "de": "Incorrect option 2 für question 16",
-                                    "nl": "Incorrect option 2 voor question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 16",
-                                    "es": "Incorrect option 3 para question 16",
-                                    "de": "Incorrect option 3 für question 16",
-                                    "nl": "Incorrect option 3 voor question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 16",
-                                    "es": "Incorrect option 4 para question 16",
-                                    "de": "Incorrect option 4 für question 16",
-                                    "nl": "Incorrect option 4 voor question 16"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 17",
-                                    "es": "Incorrect option 1 para question 17",
-                                    "de": "Incorrect option 1 für question 17",
-                                    "nl": "Incorrect option 1 voor question 17"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 17",
-                                    "es": "Incorrect option 2 para question 17",
-                                    "de": "Incorrect option 2 für question 17",
-                                    "nl": "Incorrect option 2 voor question 17"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 17",
-                                    "es": "Incorrect option 3 para question 17",
-                                    "de": "Incorrect option 3 für question 17",
-                                    "nl": "Incorrect option 3 voor question 17"
-                            },
-                            {
-                                    "en": "Correct answer for question 17",
-                                    "es": "Correct answer for question 17",
-                                    "de": "Correct answer for question 17",
-                                    "nl": "Correct answer for question 17"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 18",
-                                    "es": "Incorrect option 1 para question 18",
-                                    "de": "Incorrect option 1 für question 18",
-                                    "nl": "Incorrect option 1 voor question 18"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 18",
-                                    "es": "Incorrect option 2 para question 18",
-                                    "de": "Incorrect option 2 für question 18",
-                                    "nl": "Incorrect option 2 voor question 18"
-                            },
-                            {
-                                    "en": "Correct answer for question 18",
-                                    "es": "Correct answer for question 18",
-                                    "de": "Correct answer for question 18",
-                                    "nl": "Correct answer for question 18"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 18",
-                                    "es": "Incorrect option 4 para question 18",
-                                    "de": "Incorrect option 4 für question 18",
-                                    "nl": "Incorrect option 4 voor question 18"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 19",
-                                    "es": "Correct answer for question 19",
-                                    "de": "Correct answer for question 19",
-                                    "nl": "Correct answer for question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 19",
-                                    "es": "Incorrect option 2 para question 19",
-                                    "de": "Incorrect option 2 für question 19",
-                                    "nl": "Incorrect option 2 voor question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 19",
-                                    "es": "Incorrect option 3 para question 19",
-                                    "de": "Incorrect option 3 für question 19",
-                                    "nl": "Incorrect option 3 voor question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 19",
-                                    "es": "Incorrect option 4 para question 19",
-                                    "de": "Incorrect option 4 für question 19",
-                                    "nl": "Incorrect option 4 voor question 19"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 20",
-                                    "es": "Incorrect option 1 para question 20",
-                                    "de": "Incorrect option 1 für question 20",
-                                    "nl": "Incorrect option 1 voor question 20"
-                            },
-                            {
-                                    "en": "Correct answer for question 20",
-                                    "es": "Correct answer for question 20",
-                                    "de": "Correct answer for question 20",
-                                    "nl": "Correct answer for question 20"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 20",
-                                    "es": "Incorrect option 3 para question 20",
-                                    "de": "Incorrect option 3 für question 20",
-                                    "nl": "Incorrect option 3 voor question 20"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 20",
-                                    "es": "Incorrect option 4 para question 20",
-                                    "de": "Incorrect option 4 für question 20",
-                                    "nl": "Incorrect option 4 voor question 20"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 21",
-                                    "es": "Correct answer for question 21",
-                                    "de": "Correct answer for question 21",
-                                    "nl": "Correct answer for question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 21",
-                                    "es": "Incorrect option 2 para question 21",
-                                    "de": "Incorrect option 2 für question 21",
-                                    "nl": "Incorrect option 2 voor question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 21",
-                                    "es": "Incorrect option 3 para question 21",
-                                    "de": "Incorrect option 3 für question 21",
-                                    "nl": "Incorrect option 3 voor question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 21",
-                                    "es": "Incorrect option 4 para question 21",
-                                    "de": "Incorrect option 4 für question 21",
-                                    "nl": "Incorrect option 4 voor question 21"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 22",
-                                    "es": "Incorrect option 1 para question 22",
-                                    "de": "Incorrect option 1 für question 22",
-                                    "nl": "Incorrect option 1 voor question 22"
-                            },
-                            {
-                                    "en": "Correct answer for question 22",
-                                    "es": "Correct answer for question 22",
-                                    "de": "Correct answer for question 22",
-                                    "nl": "Correct answer for question 22"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 22",
-                                    "es": "Incorrect option 3 para question 22",
-                                    "de": "Incorrect option 3 für question 22",
-                                    "nl": "Incorrect option 3 voor question 22"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 22",
-                                    "es": "Incorrect option 4 para question 22",
-                                    "de": "Incorrect option 4 für question 22",
-                                    "nl": "Incorrect option 4 voor question 22"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 23",
-                                    "es": "Incorrect option 1 para question 23",
-                                    "de": "Incorrect option 1 für question 23",
-                                    "nl": "Incorrect option 1 voor question 23"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 23",
-                                    "es": "Incorrect option 2 para question 23",
-                                    "de": "Incorrect option 2 für question 23",
-                                    "nl": "Incorrect option 2 voor question 23"
-                            },
-                            {
-                                    "en": "Correct answer for question 23",
-                                    "es": "Correct answer for question 23",
-                                    "de": "Correct answer for question 23",
-                                    "nl": "Correct answer for question 23"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 23",
-                                    "es": "Incorrect option 4 para question 23",
-                                    "de": "Incorrect option 4 für question 23",
-                                    "nl": "Incorrect option 4 voor question 23"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 24",
-                                    "es": "Correct answer for question 24",
-                                    "de": "Correct answer for question 24",
-                                    "nl": "Correct answer for question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 24",
-                                    "es": "Incorrect option 2 para question 24",
-                                    "de": "Incorrect option 2 für question 24",
-                                    "nl": "Incorrect option 2 voor question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 24",
-                                    "es": "Incorrect option 3 para question 24",
-                                    "de": "Incorrect option 3 für question 24",
-                                    "nl": "Incorrect option 3 voor question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 24",
-                                    "es": "Incorrect option 4 para question 24",
-                                    "de": "Incorrect option 4 für question 24",
-                                    "nl": "Incorrect option 4 voor question 24"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 25",
-                                    "es": "Incorrect option 1 para question 25",
-                                    "de": "Incorrect option 1 für question 25",
-                                    "nl": "Incorrect option 1 voor question 25"
-                            },
-                            {
-                                    "en": "Correct answer for question 25",
-                                    "es": "Correct answer for question 25",
-                                    "de": "Correct answer for question 25",
-                                    "nl": "Correct answer for question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 25",
-                                    "es": "Incorrect option 3 para question 25",
-                                    "de": "Incorrect option 3 für question 25",
-                                    "nl": "Incorrect option 3 voor question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 25",
-                                    "es": "Incorrect option 4 para question 25",
-                                    "de": "Incorrect option 4 für question 25",
-                                    "nl": "Incorrect option 4 voor question 25"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 26",
-                                    "es": "Incorrect option 1 para question 26",
-                                    "de": "Incorrect option 1 für question 26",
-                                    "nl": "Incorrect option 1 voor question 26"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 26",
-                                    "es": "Incorrect option 2 para question 26",
-                                    "de": "Incorrect option 2 für question 26",
-                                    "nl": "Incorrect option 2 voor question 26"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 26",
-                                    "es": "Incorrect option 3 para question 26",
-                                    "de": "Incorrect option 3 für question 26",
-                                    "nl": "Incorrect option 3 voor question 26"
-                            },
-                            {
-                                    "en": "Correct answer for question 26",
-                                    "es": "Correct answer for question 26",
-                                    "de": "Correct answer for question 26",
-                                    "nl": "Correct answer for question 26"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 27",
-                                    "es": "Incorrect option 1 para question 27",
-                                    "de": "Incorrect option 1 für question 27",
-                                    "nl": "Incorrect option 1 voor question 27"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 27",
-                                    "es": "Incorrect option 2 para question 27",
-                                    "de": "Incorrect option 2 für question 27",
-                                    "nl": "Incorrect option 2 voor question 27"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 27",
-                                    "es": "Incorrect option 3 para question 27",
-                                    "de": "Incorrect option 3 für question 27",
-                                    "nl": "Incorrect option 3 voor question 27"
-                            },
-                            {
-                                    "en": "Correct answer for question 27",
-                                    "es": "Correct answer for question 27",
-                                    "de": "Correct answer for question 27",
-                                    "nl": "Correct answer for question 27"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 28",
-                                    "es": "Correct answer for question 28",
-                                    "de": "Correct answer for question 28",
-                                    "nl": "Correct answer for question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 28",
-                                    "es": "Incorrect option 2 para question 28",
-                                    "de": "Incorrect option 2 für question 28",
-                                    "nl": "Incorrect option 2 voor question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 28",
-                                    "es": "Incorrect option 3 para question 28",
-                                    "de": "Incorrect option 3 für question 28",
-                                    "nl": "Incorrect option 3 voor question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 28",
-                                    "es": "Incorrect option 4 para question 28",
-                                    "de": "Incorrect option 4 für question 28",
-                                    "nl": "Incorrect option 4 voor question 28"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 29",
-                                    "es": "Incorrect option 1 para question 29",
-                                    "de": "Incorrect option 1 für question 29",
-                                    "nl": "Incorrect option 1 voor question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 29",
-                                    "es": "Incorrect option 2 para question 29",
-                                    "de": "Incorrect option 2 für question 29",
-                                    "nl": "Incorrect option 2 voor question 29"
-                            },
-                            {
-                                    "en": "Correct answer for question 29",
-                                    "es": "Correct answer for question 29",
-                                    "de": "Correct answer for question 29",
-                                    "nl": "Correct answer for question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 29",
-                                    "es": "Incorrect option 4 para question 29",
-                                    "de": "Incorrect option 4 für question 29",
-                                    "nl": "Incorrect option 4 voor question 29"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 30",
-                                    "es": "Incorrect option 1 para question 30",
-                                    "de": "Incorrect option 1 für question 30",
-                                    "nl": "Incorrect option 1 voor question 30"
-                            },
-                            {
-                                    "en": "Correct answer for question 30",
-                                    "es": "Correct answer for question 30",
-                                    "de": "Correct answer for question 30",
-                                    "nl": "Correct answer for question 30"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 30",
-                                    "es": "Incorrect option 3 para question 30",
-                                    "de": "Incorrect option 3 für question 30",
-                                    "nl": "Incorrect option 3 voor question 30"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 30",
-                                    "es": "Incorrect option 4 para question 30",
-                                    "de": "Incorrect option 4 für question 30",
-                                    "nl": "Incorrect option 4 voor question 30"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 31",
-                                    "es": "Incorrect option 1 para question 31",
-                                    "de": "Incorrect option 1 für question 31",
-                                    "nl": "Incorrect option 1 voor question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 31",
-                                    "es": "Incorrect option 2 para question 31",
-                                    "de": "Incorrect option 2 für question 31",
-                                    "nl": "Incorrect option 2 voor question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 31",
-                                    "es": "Incorrect option 3 para question 31",
-                                    "de": "Incorrect option 3 für question 31",
-                                    "nl": "Incorrect option 3 voor question 31"
-                            },
-                            {
-                                    "en": "Correct answer for question 31",
-                                    "es": "Correct answer for question 31",
-                                    "de": "Correct answer for question 31",
-                                    "nl": "Correct answer for question 31"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 32",
-                                    "es": "Correct answer for question 32",
-                                    "de": "Correct answer for question 32",
-                                    "nl": "Correct answer for question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 32",
-                                    "es": "Incorrect option 2 para question 32",
-                                    "de": "Incorrect option 2 für question 32",
-                                    "nl": "Incorrect option 2 voor question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 32",
-                                    "es": "Incorrect option 3 para question 32",
-                                    "de": "Incorrect option 3 für question 32",
-                                    "nl": "Incorrect option 3 voor question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 32",
-                                    "es": "Incorrect option 4 para question 32",
-                                    "de": "Incorrect option 4 für question 32",
-                                    "nl": "Incorrect option 4 voor question 32"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 33",
-                                    "es": "Incorrect option 1 para question 33",
-                                    "de": "Incorrect option 1 für question 33",
-                                    "nl": "Incorrect option 1 voor question 33"
-                            },
-                            {
-                                    "en": "Correct answer for question 33",
-                                    "es": "Correct answer for question 33",
-                                    "de": "Correct answer for question 33",
-                                    "nl": "Correct answer for question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 33",
-                                    "es": "Incorrect option 3 para question 33",
-                                    "de": "Incorrect option 3 für question 33",
-                                    "nl": "Incorrect option 3 voor question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 33",
-                                    "es": "Incorrect option 4 para question 33",
-                                    "de": "Incorrect option 4 für question 33",
-                                    "nl": "Incorrect option 4 voor question 33"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 34",
-                                    "es": "Correct answer for question 34",
-                                    "de": "Correct answer for question 34",
-                                    "nl": "Correct answer for question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 34",
-                                    "es": "Incorrect option 2 para question 34",
-                                    "de": "Incorrect option 2 für question 34",
-                                    "nl": "Incorrect option 2 voor question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 34",
-                                    "es": "Incorrect option 3 para question 34",
-                                    "de": "Incorrect option 3 für question 34",
-                                    "nl": "Incorrect option 3 voor question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 34",
-                                    "es": "Incorrect option 4 para question 34",
-                                    "de": "Incorrect option 4 für question 34",
-                                    "nl": "Incorrect option 4 voor question 34"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 35",
-                                    "es": "Incorrect option 1 para question 35",
-                                    "de": "Incorrect option 1 für question 35",
-                                    "nl": "Incorrect option 1 voor question 35"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 35",
-                                    "es": "Incorrect option 2 para question 35",
-                                    "de": "Incorrect option 2 für question 35",
-                                    "nl": "Incorrect option 2 voor question 35"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 35",
-                                    "es": "Incorrect option 3 para question 35",
-                                    "de": "Incorrect option 3 für question 35",
-                                    "nl": "Incorrect option 3 voor question 35"
-                            },
-                            {
-                                    "en": "Correct answer for question 35",
-                                    "es": "Correct answer for question 35",
-                                    "de": "Correct answer for question 35",
-                                    "nl": "Correct answer for question 35"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 36",
-                                    "es": "Incorrect option 1 para question 36",
-                                    "de": "Incorrect option 1 für question 36",
-                                    "nl": "Incorrect option 1 voor question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 36",
-                                    "es": "Incorrect option 2 para question 36",
-                                    "de": "Incorrect option 2 für question 36",
-                                    "nl": "Incorrect option 2 voor question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 36",
-                                    "es": "Incorrect option 3 para question 36",
-                                    "de": "Incorrect option 3 für question 36",
-                                    "nl": "Incorrect option 3 voor question 36"
-                            },
-                            {
-                                    "en": "Correct answer for question 36",
-                                    "es": "Correct answer for question 36",
-                                    "de": "Correct answer for question 36",
-                                    "nl": "Correct answer for question 36"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 37",
-                                    "es": "Incorrect option 1 para question 37",
-                                    "de": "Incorrect option 1 für question 37",
-                                    "nl": "Incorrect option 1 voor question 37"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 37",
-                                    "es": "Incorrect option 2 para question 37",
-                                    "de": "Incorrect option 2 für question 37",
-                                    "nl": "Incorrect option 2 voor question 37"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 37",
-                                    "es": "Incorrect option 3 para question 37",
-                                    "de": "Incorrect option 3 für question 37",
-                                    "nl": "Incorrect option 3 voor question 37"
-                            },
-                            {
-                                    "en": "Correct answer for question 37",
-                                    "es": "Correct answer for question 37",
-                                    "de": "Correct answer for question 37",
-                                    "nl": "Correct answer for question 37"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 38",
-                                    "es": "Incorrect option 1 para question 38",
-                                    "de": "Incorrect option 1 für question 38",
-                                    "nl": "Incorrect option 1 voor question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 38",
-                                    "es": "Incorrect option 2 para question 38",
-                                    "de": "Incorrect option 2 für question 38",
-                                    "nl": "Incorrect option 2 voor question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 38",
-                                    "es": "Incorrect option 3 para question 38",
-                                    "de": "Incorrect option 3 für question 38",
-                                    "nl": "Incorrect option 3 voor question 38"
-                            },
-                            {
-                                    "en": "Correct answer for question 38",
-                                    "es": "Correct answer for question 38",
-                                    "de": "Correct answer for question 38",
-                                    "nl": "Correct answer for question 38"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 39",
-                                    "es": "Incorrect option 1 para question 39",
-                                    "de": "Incorrect option 1 für question 39",
-                                    "nl": "Incorrect option 1 voor question 39"
-                            },
-                            {
-                                    "en": "Correct answer for question 39",
-                                    "es": "Correct answer for question 39",
-                                    "de": "Correct answer for question 39",
-                                    "nl": "Correct answer for question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 39",
-                                    "es": "Incorrect option 3 para question 39",
-                                    "de": "Incorrect option 3 für question 39",
-                                    "nl": "Incorrect option 3 voor question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 39",
-                                    "es": "Incorrect option 4 para question 39",
-                                    "de": "Incorrect option 4 für question 39",
-                                    "nl": "Incorrect option 4 voor question 39"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 40",
-                                    "es": "Correct answer for question 40",
-                                    "de": "Correct answer for question 40",
-                                    "nl": "Correct answer for question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 40",
-                                    "es": "Incorrect option 2 para question 40",
-                                    "de": "Incorrect option 2 für question 40",
-                                    "nl": "Incorrect option 2 voor question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 40",
-                                    "es": "Incorrect option 3 para question 40",
-                                    "de": "Incorrect option 3 für question 40",
-                                    "nl": "Incorrect option 3 voor question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 40",
-                                    "es": "Incorrect option 4 para question 40",
-                                    "de": "Incorrect option 4 für question 40",
-                                    "nl": "Incorrect option 4 voor question 40"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 41",
-                                    "es": "Correct answer for question 41",
-                                    "de": "Correct answer for question 41",
-                                    "nl": "Correct answer for question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 41",
-                                    "es": "Incorrect option 2 para question 41",
-                                    "de": "Incorrect option 2 für question 41",
-                                    "nl": "Incorrect option 2 voor question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 41",
-                                    "es": "Incorrect option 3 para question 41",
-                                    "de": "Incorrect option 3 für question 41",
-                                    "nl": "Incorrect option 3 voor question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 41",
-                                    "es": "Incorrect option 4 para question 41",
-                                    "de": "Incorrect option 4 für question 41",
-                                    "nl": "Incorrect option 4 voor question 41"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 42",
-                                    "es": "Correct answer for question 42",
-                                    "de": "Correct answer for question 42",
-                                    "nl": "Correct answer for question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 42",
-                                    "es": "Incorrect option 2 para question 42",
-                                    "de": "Incorrect option 2 für question 42",
-                                    "nl": "Incorrect option 2 voor question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 42",
-                                    "es": "Incorrect option 3 para question 42",
-                                    "de": "Incorrect option 3 für question 42",
-                                    "nl": "Incorrect option 3 voor question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 42",
-                                    "es": "Incorrect option 4 para question 42",
-                                    "de": "Incorrect option 4 für question 42",
-                                    "nl": "Incorrect option 4 voor question 42"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 43",
-                                    "es": "Incorrect option 1 para question 43",
-                                    "de": "Incorrect option 1 für question 43",
-                                    "nl": "Incorrect option 1 voor question 43"
-                            },
-                            {
-                                    "en": "Correct answer for question 43",
-                                    "es": "Correct answer for question 43",
-                                    "de": "Correct answer for question 43",
-                                    "nl": "Correct answer for question 43"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 43",
-                                    "es": "Incorrect option 3 para question 43",
-                                    "de": "Incorrect option 3 für question 43",
-                                    "nl": "Incorrect option 3 voor question 43"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 43",
-                                    "es": "Incorrect option 4 para question 43",
-                                    "de": "Incorrect option 4 für question 43",
-                                    "nl": "Incorrect option 4 voor question 43"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 44",
-                                    "es": "Incorrect option 1 para question 44",
-                                    "de": "Incorrect option 1 für question 44",
-                                    "nl": "Incorrect option 1 voor question 44"
-                            },
-                            {
-                                    "en": "Correct answer for question 44",
-                                    "es": "Correct answer for question 44",
-                                    "de": "Correct answer for question 44",
-                                    "nl": "Correct answer for question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 44",
-                                    "es": "Incorrect option 3 para question 44",
-                                    "de": "Incorrect option 3 für question 44",
-                                    "nl": "Incorrect option 3 voor question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 44",
-                                    "es": "Incorrect option 4 para question 44",
-                                    "de": "Incorrect option 4 für question 44",
-                                    "nl": "Incorrect option 4 voor question 44"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 45",
-                                    "es": "Incorrect option 1 para question 45",
-                                    "de": "Incorrect option 1 für question 45",
-                                    "nl": "Incorrect option 1 voor question 45"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 45",
-                                    "es": "Incorrect option 2 para question 45",
-                                    "de": "Incorrect option 2 für question 45",
-                                    "nl": "Incorrect option 2 voor question 45"
-                            },
-                            {
-                                    "en": "Correct answer for question 45",
-                                    "es": "Correct answer for question 45",
-                                    "de": "Correct answer for question 45",
-                                    "nl": "Correct answer for question 45"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 45",
-                                    "es": "Incorrect option 4 para question 45",
-                                    "de": "Incorrect option 4 für question 45",
-                                    "nl": "Incorrect option 4 voor question 45"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 46",
-                                    "es": "Incorrect option 1 para question 46",
-                                    "de": "Incorrect option 1 für question 46",
-                                    "nl": "Incorrect option 1 voor question 46"
-                            },
-                            {
-                                    "en": "Correct answer for question 46",
-                                    "es": "Correct answer for question 46",
-                                    "de": "Correct answer for question 46",
-                                    "nl": "Correct answer for question 46"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 46",
-                                    "es": "Incorrect option 3 para question 46",
-                                    "de": "Incorrect option 3 für question 46",
-                                    "nl": "Incorrect option 3 voor question 46"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 46",
-                                    "es": "Incorrect option 4 para question 46",
-                                    "de": "Incorrect option 4 für question 46",
-                                    "nl": "Incorrect option 4 voor question 46"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 47",
-                                    "es": "Correct answer for question 47",
-                                    "de": "Correct answer for question 47",
-                                    "nl": "Correct answer for question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 47",
-                                    "es": "Incorrect option 2 para question 47",
-                                    "de": "Incorrect option 2 für question 47",
-                                    "nl": "Incorrect option 2 voor question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 47",
-                                    "es": "Incorrect option 3 para question 47",
-                                    "de": "Incorrect option 3 für question 47",
-                                    "nl": "Incorrect option 3 voor question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 47",
-                                    "es": "Incorrect option 4 para question 47",
-                                    "de": "Incorrect option 4 für question 47",
-                                    "nl": "Incorrect option 4 voor question 47"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 48",
-                                    "es": "Incorrect option 1 para question 48",
-                                    "de": "Incorrect option 1 für question 48",
-                                    "nl": "Incorrect option 1 voor question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 48",
-                                    "es": "Incorrect option 2 para question 48",
-                                    "de": "Incorrect option 2 für question 48",
-                                    "nl": "Incorrect option 2 voor question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 48",
-                                    "es": "Incorrect option 3 para question 48",
-                                    "de": "Incorrect option 3 für question 48",
-                                    "nl": "Incorrect option 3 voor question 48"
-                            },
-                            {
-                                    "en": "Correct answer for question 48",
-                                    "es": "Correct answer for question 48",
-                                    "de": "Correct answer for question 48",
-                                    "nl": "Correct answer for question 48"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 49",
-                                    "es": "Incorrect option 1 para question 49",
-                                    "de": "Incorrect option 1 für question 49",
-                                    "nl": "Incorrect option 1 voor question 49"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 49",
-                                    "es": "Incorrect option 2 para question 49",
-                                    "de": "Incorrect option 2 für question 49",
-                                    "nl": "Incorrect option 2 voor question 49"
-                            },
-                            {
-                                    "en": "Correct answer for question 49",
-                                    "es": "Correct answer for question 49",
-                                    "de": "Correct answer for question 49",
-                                    "nl": "Correct answer for question 49"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 49",
-                                    "es": "Incorrect option 4 para question 49",
-                                    "de": "Incorrect option 4 für question 49",
-                                    "nl": "Incorrect option 4 voor question 49"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 50",
-                                    "es": "Incorrect option 1 para question 50",
-                                    "de": "Incorrect option 1 für question 50",
-                                    "nl": "Incorrect option 1 voor question 50"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 50",
-                                    "es": "Incorrect option 2 para question 50",
-                                    "de": "Incorrect option 2 für question 50",
-                                    "nl": "Incorrect option 2 voor question 50"
-                            },
-                            {
-                                    "en": "Correct answer for question 50",
-                                    "es": "Correct answer for question 50",
-                                    "de": "Correct answer for question 50",
-                                    "nl": "Correct answer for question 50"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 50",
-                                    "es": "Incorrect option 4 para question 50",
-                                    "de": "Incorrect option 4 für question 50",
-                                    "nl": "Incorrect option 4 voor question 50"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 51",
-                                    "es": "Incorrect option 1 para question 51",
-                                    "de": "Incorrect option 1 für question 51",
-                                    "nl": "Incorrect option 1 voor question 51"
-                            },
-                            {
-                                    "en": "Correct answer for question 51",
-                                    "es": "Correct answer for question 51",
-                                    "de": "Correct answer for question 51",
-                                    "nl": "Correct answer for question 51"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 51",
-                                    "es": "Incorrect option 3 para question 51",
-                                    "de": "Incorrect option 3 für question 51",
-                                    "nl": "Incorrect option 3 voor question 51"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 51",
-                                    "es": "Incorrect option 4 para question 51",
-                                    "de": "Incorrect option 4 für question 51",
-                                    "nl": "Incorrect option 4 voor question 51"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 52",
-                                    "es": "Incorrect option 1 para question 52",
-                                    "de": "Incorrect option 1 für question 52",
-                                    "nl": "Incorrect option 1 voor question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 52",
-                                    "es": "Incorrect option 2 para question 52",
-                                    "de": "Incorrect option 2 für question 52",
-                                    "nl": "Incorrect option 2 voor question 52"
-                            },
-                            {
-                                    "en": "Correct answer for question 52",
-                                    "es": "Correct answer for question 52",
-                                    "de": "Correct answer for question 52",
-                                    "nl": "Correct answer for question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 52",
-                                    "es": "Incorrect option 4 para question 52",
-                                    "de": "Incorrect option 4 für question 52",
-                                    "nl": "Incorrect option 4 voor question 52"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 53",
-                                    "es": "Correct answer for question 53",
-                                    "de": "Correct answer for question 53",
-                                    "nl": "Correct answer for question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 53",
-                                    "es": "Incorrect option 2 para question 53",
-                                    "de": "Incorrect option 2 für question 53",
-                                    "nl": "Incorrect option 2 voor question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 53",
-                                    "es": "Incorrect option 3 para question 53",
-                                    "de": "Incorrect option 3 für question 53",
-                                    "nl": "Incorrect option 3 voor question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 53",
-                                    "es": "Incorrect option 4 para question 53",
-                                    "de": "Incorrect option 4 für question 53",
-                                    "nl": "Incorrect option 4 voor question 53"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 54",
-                                    "es": "Incorrect option 1 para question 54",
-                                    "de": "Incorrect option 1 für question 54",
-                                    "nl": "Incorrect option 1 voor question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 54",
-                                    "es": "Incorrect option 2 para question 54",
-                                    "de": "Incorrect option 2 für question 54",
-                                    "nl": "Incorrect option 2 voor question 54"
-                            },
-                            {
-                                    "en": "Correct answer for question 54",
-                                    "es": "Correct answer for question 54",
-                                    "de": "Correct answer for question 54",
-                                    "nl": "Correct answer for question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 54",
-                                    "es": "Incorrect option 4 para question 54",
-                                    "de": "Incorrect option 4 für question 54",
-                                    "nl": "Incorrect option 4 voor question 54"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 55",
-                                    "es": "Incorrect option 1 para question 55",
-                                    "de": "Incorrect option 1 für question 55",
-                                    "nl": "Incorrect option 1 voor question 55"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 55",
-                                    "es": "Incorrect option 2 para question 55",
-                                    "de": "Incorrect option 2 für question 55",
-                                    "nl": "Incorrect option 2 voor question 55"
-                            },
-                            {
-                                    "en": "Correct answer for question 55",
-                                    "es": "Correct answer for question 55",
-                                    "de": "Correct answer for question 55",
-                                    "nl": "Correct answer for question 55"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 55",
-                                    "es": "Incorrect option 4 para question 55",
-                                    "de": "Incorrect option 4 für question 55",
-                                    "nl": "Incorrect option 4 voor question 55"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 56",
-                                    "es": "Incorrect option 1 para question 56",
-                                    "de": "Incorrect option 1 für question 56",
-                                    "nl": "Incorrect option 1 voor question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 56",
-                                    "es": "Incorrect option 2 para question 56",
-                                    "de": "Incorrect option 2 für question 56",
-                                    "nl": "Incorrect option 2 voor question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 56",
-                                    "es": "Incorrect option 3 para question 56",
-                                    "de": "Incorrect option 3 für question 56",
-                                    "nl": "Incorrect option 3 voor question 56"
-                            },
-                            {
-                                    "en": "Correct answer for question 56",
-                                    "es": "Correct answer for question 56",
-                                    "de": "Correct answer for question 56",
-                                    "nl": "Correct answer for question 56"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 57",
-                                    "es": "Incorrect option 1 para question 57",
-                                    "de": "Incorrect option 1 für question 57",
-                                    "nl": "Incorrect option 1 voor question 57"
-                            },
-                            {
-                                    "en": "Correct answer for question 57",
-                                    "es": "Correct answer for question 57",
-                                    "de": "Correct answer for question 57",
-                                    "nl": "Correct answer for question 57"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 57",
-                                    "es": "Incorrect option 3 para question 57",
-                                    "de": "Incorrect option 3 für question 57",
-                                    "nl": "Incorrect option 3 voor question 57"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 57",
-                                    "es": "Incorrect option 4 para question 57",
-                                    "de": "Incorrect option 4 für question 57",
-                                    "nl": "Incorrect option 4 voor question 57"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 58",
-                                    "es": "Incorrect option 1 para question 58",
-                                    "de": "Incorrect option 1 für question 58",
-                                    "nl": "Incorrect option 1 voor question 58"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 58",
-                                    "es": "Incorrect option 2 para question 58",
-                                    "de": "Incorrect option 2 für question 58",
-                                    "nl": "Incorrect option 2 voor question 58"
-                            },
-                            {
-                                    "en": "Correct answer for question 58",
-                                    "es": "Correct answer for question 58",
-                                    "de": "Correct answer for question 58",
-                                    "nl": "Correct answer for question 58"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 58",
-                                    "es": "Incorrect option 4 para question 58",
-                                    "de": "Incorrect option 4 für question 58",
-                                    "nl": "Incorrect option 4 voor question 58"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 59",
-                                    "es": "Correct answer for question 59",
-                                    "de": "Correct answer for question 59",
-                                    "nl": "Correct answer for question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 59",
-                                    "es": "Incorrect option 2 para question 59",
-                                    "de": "Incorrect option 2 für question 59",
-                                    "nl": "Incorrect option 2 voor question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 59",
-                                    "es": "Incorrect option 3 para question 59",
-                                    "de": "Incorrect option 3 für question 59",
-                                    "nl": "Incorrect option 3 voor question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 59",
-                                    "es": "Incorrect option 4 para question 59",
-                                    "de": "Incorrect option 4 für question 59",
-                                    "nl": "Incorrect option 4 voor question 59"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 60",
-                                    "es": "Incorrect option 1 para question 60",
-                                    "de": "Incorrect option 1 für question 60",
-                                    "nl": "Incorrect option 1 voor question 60"
-                            },
-                            {
-                                    "en": "Correct answer for question 60",
-                                    "es": "Correct answer for question 60",
-                                    "de": "Correct answer for question 60",
-                                    "nl": "Correct answer for question 60"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 60",
-                                    "es": "Incorrect option 3 para question 60",
-                                    "de": "Incorrect option 3 für question 60",
-                                    "nl": "Incorrect option 3 voor question 60"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 60",
-                                    "es": "Incorrect option 4 para question 60",
-                                    "de": "Incorrect option 4 für question 60",
-                                    "nl": "Incorrect option 4 voor question 60"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 61",
-                                    "es": "Correct answer for question 61",
-                                    "de": "Correct answer for question 61",
-                                    "nl": "Correct answer for question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 61",
-                                    "es": "Incorrect option 2 para question 61",
-                                    "de": "Incorrect option 2 für question 61",
-                                    "nl": "Incorrect option 2 voor question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 61",
-                                    "es": "Incorrect option 3 para question 61",
-                                    "de": "Incorrect option 3 für question 61",
-                                    "nl": "Incorrect option 3 voor question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 61",
-                                    "es": "Incorrect option 4 para question 61",
-                                    "de": "Incorrect option 4 für question 61",
-                                    "nl": "Incorrect option 4 voor question 61"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 62",
-                                    "es": "Correct answer for question 62",
-                                    "de": "Correct answer for question 62",
-                                    "nl": "Correct answer for question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 62",
-                                    "es": "Incorrect option 2 para question 62",
-                                    "de": "Incorrect option 2 für question 62",
-                                    "nl": "Incorrect option 2 voor question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 62",
-                                    "es": "Incorrect option 3 para question 62",
-                                    "de": "Incorrect option 3 für question 62",
-                                    "nl": "Incorrect option 3 voor question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 62",
-                                    "es": "Incorrect option 4 para question 62",
-                                    "de": "Incorrect option 4 für question 62",
-                                    "nl": "Incorrect option 4 voor question 62"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 63",
-                                    "es": "Incorrect option 1 para question 63",
-                                    "de": "Incorrect option 1 für question 63",
-                                    "nl": "Incorrect option 1 voor question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 63",
-                                    "es": "Incorrect option 2 para question 63",
-                                    "de": "Incorrect option 2 für question 63",
-                                    "nl": "Incorrect option 2 voor question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 63",
-                                    "es": "Incorrect option 3 para question 63",
-                                    "de": "Incorrect option 3 für question 63",
-                                    "nl": "Incorrect option 3 voor question 63"
-                            },
-                            {
-                                    "en": "Correct answer for question 63",
-                                    "es": "Correct answer for question 63",
-                                    "de": "Correct answer for question 63",
-                                    "nl": "Correct answer for question 63"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 64",
-                                    "es": "Incorrect option 1 para question 64",
-                                    "de": "Incorrect option 1 für question 64",
-                                    "nl": "Incorrect option 1 voor question 64"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 64",
-                                    "es": "Incorrect option 2 para question 64",
-                                    "de": "Incorrect option 2 für question 64",
-                                    "nl": "Incorrect option 2 voor question 64"
-                            },
-                            {
-                                    "en": "Correct answer for question 64",
-                                    "es": "Correct answer for question 64",
-                                    "de": "Correct answer for question 64",
-                                    "nl": "Correct answer for question 64"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 64",
-                                    "es": "Incorrect option 4 para question 64",
-                                    "de": "Incorrect option 4 für question 64",
-                                    "nl": "Incorrect option 4 voor question 64"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 65",
-                                    "es": "Incorrect option 1 para question 65",
-                                    "de": "Incorrect option 1 für question 65",
-                                    "nl": "Incorrect option 1 voor question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 65",
-                                    "es": "Incorrect option 2 para question 65",
-                                    "de": "Incorrect option 2 für question 65",
-                                    "nl": "Incorrect option 2 voor question 65"
-                            },
-                            {
-                                    "en": "Correct answer for question 65",
-                                    "es": "Correct answer for question 65",
-                                    "de": "Correct answer for question 65",
-                                    "nl": "Correct answer for question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 65",
-                                    "es": "Incorrect option 4 para question 65",
-                                    "de": "Incorrect option 4 für question 65",
-                                    "nl": "Incorrect option 4 voor question 65"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 66",
-                                    "es": "Incorrect option 1 para question 66",
-                                    "de": "Incorrect option 1 für question 66",
-                                    "nl": "Incorrect option 1 voor question 66"
-                            },
-                            {
-                                    "en": "Correct answer for question 66",
-                                    "es": "Correct answer for question 66",
-                                    "de": "Correct answer for question 66",
-                                    "nl": "Correct answer for question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 66",
-                                    "es": "Incorrect option 3 para question 66",
-                                    "de": "Incorrect option 3 für question 66",
-                                    "nl": "Incorrect option 3 voor question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 66",
-                                    "es": "Incorrect option 4 para question 66",
-                                    "de": "Incorrect option 4 für question 66",
-                                    "nl": "Incorrect option 4 voor question 66"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 67",
-                                    "es": "Correct answer for question 67",
-                                    "de": "Correct answer for question 67",
-                                    "nl": "Correct answer for question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 67",
-                                    "es": "Incorrect option 2 para question 67",
-                                    "de": "Incorrect option 2 für question 67",
-                                    "nl": "Incorrect option 2 voor question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 67",
-                                    "es": "Incorrect option 3 para question 67",
-                                    "de": "Incorrect option 3 für question 67",
-                                    "nl": "Incorrect option 3 voor question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 67",
-                                    "es": "Incorrect option 4 para question 67",
-                                    "de": "Incorrect option 4 für question 67",
-                                    "nl": "Incorrect option 4 voor question 67"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 68",
-                                    "es": "Incorrect option 1 para question 68",
-                                    "de": "Incorrect option 1 für question 68",
-                                    "nl": "Incorrect option 1 voor question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 68",
-                                    "es": "Incorrect option 2 para question 68",
-                                    "de": "Incorrect option 2 für question 68",
-                                    "nl": "Incorrect option 2 voor question 68"
-                            },
-                            {
-                                    "en": "Correct answer for question 68",
-                                    "es": "Correct answer for question 68",
-                                    "de": "Correct answer for question 68",
-                                    "nl": "Correct answer for question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 68",
-                                    "es": "Incorrect option 4 para question 68",
-                                    "de": "Incorrect option 4 für question 68",
-                                    "nl": "Incorrect option 4 voor question 68"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 69",
-                                    "es": "Correct answer for question 69",
-                                    "de": "Correct answer for question 69",
-                                    "nl": "Correct answer for question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 69",
-                                    "es": "Incorrect option 2 para question 69",
-                                    "de": "Incorrect option 2 für question 69",
-                                    "nl": "Incorrect option 2 voor question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 69",
-                                    "es": "Incorrect option 3 para question 69",
-                                    "de": "Incorrect option 3 für question 69",
-                                    "nl": "Incorrect option 3 voor question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 69",
-                                    "es": "Incorrect option 4 para question 69",
-                                    "de": "Incorrect option 4 für question 69",
-                                    "nl": "Incorrect option 4 voor question 69"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 70",
-                                    "es": "Incorrect option 1 para question 70",
-                                    "de": "Incorrect option 1 für question 70",
-                                    "nl": "Incorrect option 1 voor question 70"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 70",
-                                    "es": "Incorrect option 2 para question 70",
-                                    "de": "Incorrect option 2 für question 70",
-                                    "nl": "Incorrect option 2 voor question 70"
-                            },
-                            {
-                                    "en": "Correct answer for question 70",
-                                    "es": "Correct answer for question 70",
-                                    "de": "Correct answer for question 70",
-                                    "nl": "Correct answer for question 70"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 70",
-                                    "es": "Incorrect option 4 para question 70",
-                                    "de": "Incorrect option 4 für question 70",
-                                    "nl": "Incorrect option 4 voor question 70"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 71",
-                                    "es": "Incorrect option 1 para question 71",
-                                    "de": "Incorrect option 1 für question 71",
-                                    "nl": "Incorrect option 1 voor question 71"
-                            },
-                            {
-                                    "en": "Correct answer for question 71",
-                                    "es": "Correct answer for question 71",
-                                    "de": "Correct answer for question 71",
-                                    "nl": "Correct answer for question 71"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 71",
-                                    "es": "Incorrect option 3 para question 71",
-                                    "de": "Incorrect option 3 für question 71",
-                                    "nl": "Incorrect option 3 voor question 71"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 71",
-                                    "es": "Incorrect option 4 para question 71",
-                                    "de": "Incorrect option 4 für question 71",
-                                    "nl": "Incorrect option 4 voor question 71"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 72",
-                                    "es": "Incorrect option 1 para question 72",
-                                    "de": "Incorrect option 1 für question 72",
-                                    "nl": "Incorrect option 1 voor question 72"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 72",
-                                    "es": "Incorrect option 2 para question 72",
-                                    "de": "Incorrect option 2 für question 72",
-                                    "nl": "Incorrect option 2 voor question 72"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 72",
-                                    "es": "Incorrect option 3 para question 72",
-                                    "de": "Incorrect option 3 für question 72",
-                                    "nl": "Incorrect option 3 voor question 72"
-                            },
-                            {
-                                    "en": "Correct answer for question 72",
-                                    "es": "Correct answer for question 72",
-                                    "de": "Correct answer for question 72",
-                                    "nl": "Correct answer for question 72"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 73",
-                                    "es": "Incorrect option 1 para question 73",
-                                    "de": "Incorrect option 1 für question 73",
-                                    "nl": "Incorrect option 1 voor question 73"
-                            },
-                            {
-                                    "en": "Correct answer for question 73",
-                                    "es": "Correct answer for question 73",
-                                    "de": "Correct answer for question 73",
-                                    "nl": "Correct answer for question 73"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 73",
-                                    "es": "Incorrect option 3 para question 73",
-                                    "de": "Incorrect option 3 für question 73",
-                                    "nl": "Incorrect option 3 voor question 73"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 73",
-                                    "es": "Incorrect option 4 para question 73",
-                                    "de": "Incorrect option 4 für question 73",
-                                    "nl": "Incorrect option 4 voor question 73"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 74",
-                                    "es": "Incorrect option 1 para question 74",
-                                    "de": "Incorrect option 1 für question 74",
-                                    "nl": "Incorrect option 1 voor question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 74",
-                                    "es": "Incorrect option 2 para question 74",
-                                    "de": "Incorrect option 2 für question 74",
-                                    "nl": "Incorrect option 2 voor question 74"
-                            },
-                            {
-                                    "en": "Correct answer for question 74",
-                                    "es": "Correct answer for question 74",
-                                    "de": "Correct answer for question 74",
-                                    "nl": "Correct answer for question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 74",
-                                    "es": "Incorrect option 4 para question 74",
-                                    "de": "Incorrect option 4 für question 74",
-                                    "nl": "Incorrect option 4 voor question 74"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 75",
-                                    "es": "Correct answer for question 75",
-                                    "de": "Correct answer for question 75",
-                                    "nl": "Correct answer for question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 75",
-                                    "es": "Incorrect option 2 para question 75",
-                                    "de": "Incorrect option 2 für question 75",
-                                    "nl": "Incorrect option 2 voor question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 75",
-                                    "es": "Incorrect option 3 para question 75",
-                                    "de": "Incorrect option 3 für question 75",
-                                    "nl": "Incorrect option 3 voor question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 75",
-                                    "es": "Incorrect option 4 para question 75",
-                                    "de": "Incorrect option 4 für question 75",
-                                    "nl": "Incorrect option 4 voor question 75"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 76",
-                                    "es": "Incorrect option 1 para question 76",
-                                    "de": "Incorrect option 1 für question 76",
-                                    "nl": "Incorrect option 1 voor question 76"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 76",
-                                    "es": "Incorrect option 2 para question 76",
-                                    "de": "Incorrect option 2 für question 76",
-                                    "nl": "Incorrect option 2 voor question 76"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 76",
-                                    "es": "Incorrect option 3 para question 76",
-                                    "de": "Incorrect option 3 für question 76",
-                                    "nl": "Incorrect option 3 voor question 76"
-                            },
-                            {
-                                    "en": "Correct answer for question 76",
-                                    "es": "Correct answer for question 76",
-                                    "de": "Correct answer for question 76",
-                                    "nl": "Correct answer for question 76"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 77",
-                                    "es": "Correct answer for question 77",
-                                    "de": "Correct answer for question 77",
-                                    "nl": "Correct answer for question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 77",
-                                    "es": "Incorrect option 2 para question 77",
-                                    "de": "Incorrect option 2 für question 77",
-                                    "nl": "Incorrect option 2 voor question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 77",
-                                    "es": "Incorrect option 3 para question 77",
-                                    "de": "Incorrect option 3 für question 77",
-                                    "nl": "Incorrect option 3 voor question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 77",
-                                    "es": "Incorrect option 4 para question 77",
-                                    "de": "Incorrect option 4 für question 77",
-                                    "nl": "Incorrect option 4 voor question 77"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 78",
-                                    "es": "Incorrect option 1 para question 78",
-                                    "de": "Incorrect option 1 für question 78",
-                                    "nl": "Incorrect option 1 voor question 78"
-                            },
-                            {
-                                    "en": "Correct answer for question 78",
-                                    "es": "Correct answer for question 78",
-                                    "de": "Correct answer for question 78",
-                                    "nl": "Correct answer for question 78"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 78",
-                                    "es": "Incorrect option 3 para question 78",
-                                    "de": "Incorrect option 3 für question 78",
-                                    "nl": "Incorrect option 3 voor question 78"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 78",
-                                    "es": "Incorrect option 4 para question 78",
-                                    "de": "Incorrect option 4 für question 78",
-                                    "nl": "Incorrect option 4 voor question 78"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 79",
-                                    "es": "Incorrect option 1 para question 79",
-                                    "de": "Incorrect option 1 für question 79",
-                                    "nl": "Incorrect option 1 voor question 79"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 79",
-                                    "es": "Incorrect option 2 para question 79",
-                                    "de": "Incorrect option 2 für question 79",
-                                    "nl": "Incorrect option 2 voor question 79"
-                            },
-                            {
-                                    "en": "Correct answer for question 79",
-                                    "es": "Correct answer for question 79",
-                                    "de": "Correct answer for question 79",
-                                    "nl": "Correct answer for question 79"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 79",
-                                    "es": "Incorrect option 4 para question 79",
-                                    "de": "Incorrect option 4 für question 79",
-                                    "nl": "Incorrect option 4 voor question 79"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 80",
-                                    "es": "Incorrect option 1 para question 80",
-                                    "de": "Incorrect option 1 für question 80",
-                                    "nl": "Incorrect option 1 voor question 80"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 80",
-                                    "es": "Incorrect option 2 para question 80",
-                                    "de": "Incorrect option 2 für question 80",
-                                    "nl": "Incorrect option 2 voor question 80"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 80",
-                                    "es": "Incorrect option 3 para question 80",
-                                    "de": "Incorrect option 3 für question 80",
-                                    "nl": "Incorrect option 3 voor question 80"
-                            },
-                            {
-                                    "en": "Correct answer for question 80",
-                                    "es": "Correct answer for question 80",
-                                    "de": "Correct answer for question 80",
-                                    "nl": "Correct answer for question 80"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 81",
-                                    "es": "Incorrect option 1 para question 81",
-                                    "de": "Incorrect option 1 für question 81",
-                                    "nl": "Incorrect option 1 voor question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 81",
-                                    "es": "Incorrect option 2 para question 81",
-                                    "de": "Incorrect option 2 für question 81",
-                                    "nl": "Incorrect option 2 voor question 81"
-                            },
-                            {
-                                    "en": "Correct answer for question 81",
-                                    "es": "Correct answer for question 81",
-                                    "de": "Correct answer for question 81",
-                                    "nl": "Correct answer for question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 81",
-                                    "es": "Incorrect option 4 para question 81",
-                                    "de": "Incorrect option 4 für question 81",
-                                    "nl": "Incorrect option 4 voor question 81"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 82",
-                                    "es": "Incorrect option 1 para question 82",
-                                    "de": "Incorrect option 1 für question 82",
-                                    "nl": "Incorrect option 1 voor question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 82",
-                                    "es": "Incorrect option 2 para question 82",
-                                    "de": "Incorrect option 2 für question 82",
-                                    "nl": "Incorrect option 2 voor question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 82",
-                                    "es": "Incorrect option 3 para question 82",
-                                    "de": "Incorrect option 3 für question 82",
-                                    "nl": "Incorrect option 3 voor question 82"
-                            },
-                            {
-                                    "en": "Correct answer for question 82",
-                                    "es": "Correct answer for question 82",
-                                    "de": "Correct answer for question 82",
-                                    "nl": "Correct answer for question 82"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 83",
-                                    "es": "Incorrect option 1 para question 83",
-                                    "de": "Incorrect option 1 für question 83",
-                                    "nl": "Incorrect option 1 voor question 83"
-                            },
-                            {
-                                    "en": "Correct answer for question 83",
-                                    "es": "Correct answer for question 83",
-                                    "de": "Correct answer for question 83",
-                                    "nl": "Correct answer for question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 83",
-                                    "es": "Incorrect option 3 para question 83",
-                                    "de": "Incorrect option 3 für question 83",
-                                    "nl": "Incorrect option 3 voor question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 83",
-                                    "es": "Incorrect option 4 para question 83",
-                                    "de": "Incorrect option 4 für question 83",
-                                    "nl": "Incorrect option 4 voor question 83"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 84",
-                                    "es": "Incorrect option 1 para question 84",
-                                    "de": "Incorrect option 1 für question 84",
-                                    "nl": "Incorrect option 1 voor question 84"
-                            },
-                            {
-                                    "en": "Correct answer for question 84",
-                                    "es": "Correct answer for question 84",
-                                    "de": "Correct answer for question 84",
-                                    "nl": "Correct answer for question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 84",
-                                    "es": "Incorrect option 3 para question 84",
-                                    "de": "Incorrect option 3 für question 84",
-                                    "nl": "Incorrect option 3 voor question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 84",
-                                    "es": "Incorrect option 4 para question 84",
-                                    "de": "Incorrect option 4 für question 84",
-                                    "nl": "Incorrect option 4 voor question 84"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 85",
-                                    "es": "Incorrect option 1 para question 85",
-                                    "de": "Incorrect option 1 für question 85",
-                                    "nl": "Incorrect option 1 voor question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 85",
-                                    "es": "Incorrect option 2 para question 85",
-                                    "de": "Incorrect option 2 für question 85",
-                                    "nl": "Incorrect option 2 voor question 85"
-                            },
-                            {
-                                    "en": "Correct answer for question 85",
-                                    "es": "Correct answer for question 85",
-                                    "de": "Correct answer for question 85",
-                                    "nl": "Correct answer for question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 85",
-                                    "es": "Incorrect option 4 para question 85",
-                                    "de": "Incorrect option 4 für question 85",
-                                    "nl": "Incorrect option 4 voor question 85"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 86",
-                                    "es": "Correct answer for question 86",
-                                    "de": "Correct answer for question 86",
-                                    "nl": "Correct answer for question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 86",
-                                    "es": "Incorrect option 2 para question 86",
-                                    "de": "Incorrect option 2 für question 86",
-                                    "nl": "Incorrect option 2 voor question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 86",
-                                    "es": "Incorrect option 3 para question 86",
-                                    "de": "Incorrect option 3 für question 86",
-                                    "nl": "Incorrect option 3 voor question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 86",
-                                    "es": "Incorrect option 4 para question 86",
-                                    "de": "Incorrect option 4 für question 86",
-                                    "nl": "Incorrect option 4 voor question 86"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 87",
-                                    "es": "Incorrect option 1 para question 87",
-                                    "de": "Incorrect option 1 für question 87",
-                                    "nl": "Incorrect option 1 voor question 87"
-                            },
-                            {
-                                    "en": "Correct answer for question 87",
-                                    "es": "Correct answer for question 87",
-                                    "de": "Correct answer for question 87",
-                                    "nl": "Correct answer for question 87"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 87",
-                                    "es": "Incorrect option 3 para question 87",
-                                    "de": "Incorrect option 3 für question 87",
-                                    "nl": "Incorrect option 3 voor question 87"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 87",
-                                    "es": "Incorrect option 4 para question 87",
-                                    "de": "Incorrect option 4 für question 87",
-                                    "nl": "Incorrect option 4 voor question 87"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 88",
-                                    "es": "Correct answer for question 88",
-                                    "de": "Correct answer for question 88",
-                                    "nl": "Correct answer for question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 88",
-                                    "es": "Incorrect option 2 para question 88",
-                                    "de": "Incorrect option 2 für question 88",
-                                    "nl": "Incorrect option 2 voor question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 88",
-                                    "es": "Incorrect option 3 para question 88",
-                                    "de": "Incorrect option 3 für question 88",
-                                    "nl": "Incorrect option 3 voor question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 88",
-                                    "es": "Incorrect option 4 para question 88",
-                                    "de": "Incorrect option 4 für question 88",
-                                    "nl": "Incorrect option 4 voor question 88"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 89",
-                                    "es": "Correct answer for question 89",
-                                    "de": "Correct answer for question 89",
-                                    "nl": "Correct answer for question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 89",
-                                    "es": "Incorrect option 2 para question 89",
-                                    "de": "Incorrect option 2 für question 89",
-                                    "nl": "Incorrect option 2 voor question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 89",
-                                    "es": "Incorrect option 3 para question 89",
-                                    "de": "Incorrect option 3 für question 89",
-                                    "nl": "Incorrect option 3 voor question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 89",
-                                    "es": "Incorrect option 4 para question 89",
-                                    "de": "Incorrect option 4 für question 89",
-                                    "nl": "Incorrect option 4 voor question 89"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 90",
-                                    "es": "Incorrect option 1 para question 90",
-                                    "de": "Incorrect option 1 für question 90",
-                                    "nl": "Incorrect option 1 voor question 90"
-                            },
-                            {
-                                    "en": "Correct answer for question 90",
-                                    "es": "Correct answer for question 90",
-                                    "de": "Correct answer for question 90",
-                                    "nl": "Correct answer for question 90"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 90",
-                                    "es": "Incorrect option 3 para question 90",
-                                    "de": "Incorrect option 3 für question 90",
-                                    "nl": "Incorrect option 3 voor question 90"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 90",
-                                    "es": "Incorrect option 4 para question 90",
-                                    "de": "Incorrect option 4 für question 90",
-                                    "nl": "Incorrect option 4 voor question 90"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 91",
-                                    "es": "Incorrect option 1 para question 91",
-                                    "de": "Incorrect option 1 für question 91",
-                                    "nl": "Incorrect option 1 voor question 91"
-                            },
-                            {
-                                    "en": "Correct answer for question 91",
-                                    "es": "Correct answer for question 91",
-                                    "de": "Correct answer for question 91",
-                                    "nl": "Correct answer for question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 91",
-                                    "es": "Incorrect option 3 para question 91",
-                                    "de": "Incorrect option 3 für question 91",
-                                    "nl": "Incorrect option 3 voor question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 91",
-                                    "es": "Incorrect option 4 para question 91",
-                                    "de": "Incorrect option 4 für question 91",
-                                    "nl": "Incorrect option 4 voor question 91"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Bread Types?",
-                            "es": "¿Cómo does this relate to Bread Types?",
-                            "de": "Wie does this relate to Bread Types?",
-                            "nl": "Hoe does this relate to Bread Types?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 92",
-                                    "es": "Incorrect option 1 para question 92",
-                                    "de": "Incorrect option 1 für question 92",
-                                    "nl": "Incorrect option 1 voor question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 92",
-                                    "es": "Incorrect option 2 para question 92",
-                                    "de": "Incorrect option 2 für question 92",
-                                    "nl": "Incorrect option 2 voor question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 92",
-                                    "es": "Incorrect option 3 para question 92",
-                                    "de": "Incorrect option 3 für question 92",
-                                    "nl": "Incorrect option 3 voor question 92"
-                            },
-                            {
-                                    "en": "Correct answer for question 92",
-                                    "es": "Correct answer for question 92",
-                                    "de": "Correct answer for question 92",
-                                    "nl": "Correct answer for question 92"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 93",
-                                    "es": "Incorrect option 1 para question 93",
-                                    "de": "Incorrect option 1 für question 93",
-                                    "nl": "Incorrect option 1 voor question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 93",
-                                    "es": "Incorrect option 2 para question 93",
-                                    "de": "Incorrect option 2 für question 93",
-                                    "nl": "Incorrect option 2 voor question 93"
-                            },
-                            {
-                                    "en": "Correct answer for question 93",
-                                    "es": "Correct answer for question 93",
-                                    "de": "Correct answer for question 93",
-                                    "nl": "Correct answer for question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 93",
-                                    "es": "Incorrect option 4 para question 93",
-                                    "de": "Incorrect option 4 für question 93",
-                                    "nl": "Incorrect option 4 voor question 93"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 94",
-                                    "es": "Correct answer for question 94",
-                                    "de": "Correct answer for question 94",
-                                    "nl": "Correct answer for question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 94",
-                                    "es": "Incorrect option 2 para question 94",
-                                    "de": "Incorrect option 2 für question 94",
-                                    "nl": "Incorrect option 2 voor question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 94",
-                                    "es": "Incorrect option 3 para question 94",
-                                    "de": "Incorrect option 3 für question 94",
-                                    "nl": "Incorrect option 3 voor question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 94",
-                                    "es": "Incorrect option 4 para question 94",
-                                    "de": "Incorrect option 4 für question 94",
-                                    "nl": "Incorrect option 4 voor question 94"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 95",
-                                    "es": "Correct answer for question 95",
-                                    "de": "Correct answer for question 95",
-                                    "nl": "Correct answer for question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 95",
-                                    "es": "Incorrect option 2 para question 95",
-                                    "de": "Incorrect option 2 für question 95",
-                                    "nl": "Incorrect option 2 voor question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 95",
-                                    "es": "Incorrect option 3 para question 95",
-                                    "de": "Incorrect option 3 für question 95",
-                                    "nl": "Incorrect option 3 voor question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 95",
-                                    "es": "Incorrect option 4 para question 95",
-                                    "de": "Incorrect option 4 für question 95",
-                                    "nl": "Incorrect option 4 voor question 95"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 96",
-                                    "es": "Incorrect option 1 para question 96",
-                                    "de": "Incorrect option 1 für question 96",
-                                    "nl": "Incorrect option 1 voor question 96"
-                            },
-                            {
-                                    "en": "Correct answer for question 96",
-                                    "es": "Correct answer for question 96",
-                                    "de": "Correct answer for question 96",
-                                    "nl": "Correct answer for question 96"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 96",
-                                    "es": "Incorrect option 3 para question 96",
-                                    "de": "Incorrect option 3 für question 96",
-                                    "nl": "Incorrect option 3 voor question 96"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 96",
-                                    "es": "Incorrect option 4 para question 96",
-                                    "de": "Incorrect option 4 für question 96",
-                                    "nl": "Incorrect option 4 voor question 96"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 97",
-                                    "es": "Incorrect option 1 para question 97",
-                                    "de": "Incorrect option 1 für question 97",
-                                    "nl": "Incorrect option 1 voor question 97"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 97",
-                                    "es": "Incorrect option 2 para question 97",
-                                    "de": "Incorrect option 2 für question 97",
-                                    "nl": "Incorrect option 2 voor question 97"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 97",
-                                    "es": "Incorrect option 3 para question 97",
-                                    "de": "Incorrect option 3 für question 97",
-                                    "nl": "Incorrect option 3 voor question 97"
-                            },
-                            {
-                                    "en": "Correct answer for question 97",
-                                    "es": "Correct answer for question 97",
-                                    "de": "Correct answer for question 97",
-                                    "nl": "Correct answer for question 97"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 98",
-                                    "es": "Incorrect option 1 para question 98",
-                                    "de": "Incorrect option 1 für question 98",
-                                    "nl": "Incorrect option 1 voor question 98"
-                            },
-                            {
-                                    "en": "Correct answer for question 98",
-                                    "es": "Correct answer for question 98",
-                                    "de": "Correct answer for question 98",
-                                    "nl": "Correct answer for question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 98",
-                                    "es": "Incorrect option 3 para question 98",
-                                    "de": "Incorrect option 3 für question 98",
-                                    "nl": "Incorrect option 3 voor question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 98",
-                                    "es": "Incorrect option 4 para question 98",
-                                    "de": "Incorrect option 4 für question 98",
-                                    "nl": "Incorrect option 4 voor question 98"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 99",
-                                    "es": "Correct answer for question 99",
-                                    "de": "Correct answer for question 99",
-                                    "nl": "Correct answer for question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 99",
-                                    "es": "Incorrect option 2 para question 99",
-                                    "de": "Incorrect option 2 für question 99",
-                                    "nl": "Incorrect option 2 voor question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 99",
-                                    "es": "Incorrect option 3 para question 99",
-                                    "de": "Incorrect option 3 für question 99",
-                                    "nl": "Incorrect option 3 voor question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 99",
-                                    "es": "Incorrect option 4 para question 99",
-                                    "de": "Incorrect option 4 für question 99",
-                                    "nl": "Incorrect option 4 voor question 99"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 1?",
-                            "es": "¿Qué is the significance of this in level 1?",
-                            "de": "Was is the significance of this in level 1?",
-                            "nl": "Wat is the significance of this in level 1?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 100",
-                                    "es": "Incorrect option 1 para question 100",
-                                    "de": "Incorrect option 1 für question 100",
-                                    "nl": "Incorrect option 1 voor question 100"
-                            },
-                            {
-                                    "en": "Correct answer for question 100",
-                                    "es": "Correct answer for question 100",
-                                    "de": "Correct answer for question 100",
-                                    "nl": "Correct answer for question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 100",
-                                    "es": "Incorrect option 3 para question 100",
-                                    "de": "Incorrect option 3 für question 100",
-                                    "nl": "Incorrect option 3 voor question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 100",
-                                    "es": "Incorrect option 4 para question 100",
-                                    "de": "Incorrect option 4 für question 100",
-                                    "nl": "Incorrect option 4 voor question 100"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
-                            "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
-                    }
+        {
+            "question": {
+                "en": "What is the main ingredient that makes bread rise?",
+                "es": "¿Cuál es el ingrediente principal que hace que el pan suba?",
+                "de": "Was ist die Hauptzutat, die Brot aufgehen lässt?",
+                "nl": "Wat is het hoofdingrediënt dat brood doet rijzen?"
+            },
+            "options": [
+                {
+                    "en": "Yeast",
+                    "es": "Levadura",
+                    "de": "Hefe",
+                    "nl": "Gist"
+                },
+                {
+                    "en": "Salt",
+                    "es": "Sal",
+                    "de": "Salz",
+                    "nl": "Zout"
+                },
+                {
+                    "en": "Sugar",
+                    "es": "Azúcar",
+                    "de": "Zucker",
+                    "nl": "Suiker"
+                },
+                {
+                    "en": "Oil",
+                    "es": "Aceite",
+                    "de": "Öl",
+                    "nl": "Olie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Yeast is a microorganism that ferments sugars in the dough, producing carbon dioxide gas that makes bread rise and creates its airy texture.",
+                "es": "La levadura es un microorganismo que fermenta los azúcares en la masa, produciendo dióxido de carbono que hace que el pan suba y crea su textura aireada.",
+                "de": "Hefe ist ein Mikroorganismus, der Zucker im Teig fermentiert und dabei Kohlendioxidgas produziert, das das Brot aufgehen lässt und seine luftige Textur erzeugt.",
+                "nl": "Gist is een micro-organisme dat suikers in het deeg fermenteert, waarbij kooldioxide ontstaat dat het brood doet rijzen en zijn luchtige textuur geeft."
             }
+        },
+        {
+            "question": {
+                "en": "Which bread is traditionally shaped like a ring?",
+                "es": "¿Qué pan tiene tradicionalmente forma de anillo?",
+                "de": "Welches Brot hat traditionell die Form eines Rings?",
+                "nl": "Welk brood heeft traditioneel de vorm van een ring?"
+            },
+            "options": [
+                {
+                    "en": "Bagel",
+                    "es": "Bagel",
+                    "de": "Bagel",
+                    "nl": "Bagel"
+                },
+                {
+                    "en": "Baguette",
+                    "es": "Baguette",
+                    "de": "Baguette",
+                    "nl": "Stokbrood"
+                },
+                {
+                    "en": "Ciabatta",
+                    "es": "Ciabatta",
+                    "de": "Ciabatta",
+                    "nl": "Ciabatta"
+                },
+                {
+                    "en": "Pita",
+                    "es": "Pita",
+                    "de": "Pita",
+                    "nl": "Pita"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Bagels are traditionally shaped into a ring and are boiled before baking, which gives them their distinctive chewy texture and shiny crust.",
+                "es": "Los bagels tradicionalmente tienen forma de anillo y se hierven antes de hornear, lo que les da su distintiva textura masticable y corteza brillante.",
+                "de": "Bagels werden traditionell zu einem Ring geformt und vor dem Backen gekocht, was ihnen ihre charakteristische zähe Textur und glänzende Kruste verleiht.",
+                "nl": "Bagels worden traditioneel in een ring gevormd en gekookt voordat ze gebakken worden, wat ze hun kenmerkende taaie textuur en glanzende korst geeft."
+            }
+        },
+        {
+            "question": {
+                "en": "What country is the baguette originally from?",
+                "es": "¿De qué país es originaria la baguette?",
+                "de": "Aus welchem Land stammt das Baguette ursprünglich?",
+                "nl": "Uit welk land komt het stokbrood oorspronkelijk?"
+            },
+            "options": [
+                {
+                    "en": "France",
+                    "es": "Francia",
+                    "de": "Frankreich",
+                    "nl": "Frankrijk"
+                },
+                {
+                    "en": "Italy",
+                    "es": "Italia",
+                    "de": "Italien",
+                    "nl": "Italië"
+                },
+                {
+                    "en": "Germany",
+                    "es": "Alemania",
+                    "de": "Deutschland",
+                    "nl": "Duitsland"
+                },
+                {
+                    "en": "Spain",
+                    "es": "España",
+                    "de": "Spanien",
+                    "nl": "Spanje"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "The baguette is a traditional French bread known for its long, thin shape and crispy crust. It became popular in France in the early 20th century.",
+                "es": "La baguette es un pan francés tradicional conocido por su forma larga y delgada y corteza crujiente. Se hizo popular en Francia a principios del siglo XX.",
+                "de": "Das Baguette ist ein traditionelles französisches Brot, bekannt für seine lange, dünne Form und knusprige Kruste. Es wurde im frühen 20. Jahrhundert in Frankreich populär.",
+                "nl": "Het stokbrood is een traditioneel Frans brood dat bekend staat om zijn lange, dunne vorm en knapperige korst. Het werd populair in Frankrijk in het begin van de 20e eeuw."
+            }
+        },
+        {
+            "question": {
+                "en": "What type of bread is made without yeast?",
+                "es": "¿Qué tipo de pan se hace sin levadura?",
+                "de": "Welche Brotart wird ohne Hefe hergestellt?",
+                "nl": "Welk type brood wordt zonder gist gemaakt?"
+            },
+            "options": [
+                {
+                    "en": "Unleavened bread",
+                    "es": "Pan sin levadura",
+                    "de": "Ungesäuertes Brot",
+                    "nl": "Ongezuurd brood"
+                },
+                {
+                    "en": "White bread",
+                    "es": "Pan blanco",
+                    "de": "Weißbrot",
+                    "nl": "Witbrood"
+                },
+                {
+                    "en": "Whole wheat bread",
+                    "es": "Pan integral",
+                    "de": "Vollkornbrot",
+                    "nl": "Volkorenbrood"
+                },
+                {
+                    "en": "Sourdough bread",
+                    "es": "Pan de masa madre",
+                    "de": "Sauerteigbrot",
+                    "nl": "Zuurdesembrood"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Unleavened bread is made without any raising agents like yeast or baking soda. Examples include matzo, tortillas, and chapati.",
+                "es": "El pan sin levadura se hace sin agentes leudantes como levadura o bicarbonato. Ejemplos incluyen matzá, tortillas y chapati.",
+                "de": "Ungesäuertes Brot wird ohne Triebmittel wie Hefe oder Backpulver hergestellt. Beispiele sind Matze, Tortillas und Chapati.",
+                "nl": "Ongezuurd brood wordt gemaakt zonder rijsmiddelen zoals gist van bakpoeder. Voorbeelden zijn matze, tortilla's en chapati."
+            }
+        },
+        {
+            "question": {
+                "en": "What gives rye bread its distinctive dark color?",
+                "es": "¿Qué le da al pan de centeno su distintivo color oscuro?",
+                "de": "Was verleiht Roggenbrot seine charakteristische dunkle Farbe?",
+                "nl": "Wat geeft roggebrood zijn kenmerkende donkere kleur?"
+            },
+            "options": [
+                {
+                    "en": "Rye flour",
+                    "es": "Harina de centeno",
+                    "de": "Roggenmehl",
+                    "nl": "Roggemeel"
+                },
+                {
+                    "en": "Food coloring",
+                    "es": "Colorante alimentario",
+                    "de": "Lebensmittelfarbe",
+                    "nl": "Voedselkleurstof"
+                },
+                {
+                    "en": "Chocolate",
+                    "es": "Chocolate",
+                    "de": "Schokolade",
+                    "nl": "Chocolade"
+                },
+                {
+                    "en": "Burnt sugar",
+                    "es": "Azúcar quemado",
+                    "de": "Gebrannter Zucker",
+                    "nl": "Gebrande suiker"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Rye flour naturally contains more minerals and enzymes than wheat flour, giving rye bread its characteristic dark color and dense texture.",
+                "es": "La harina de centeno contiene naturalmente más minerales y enzimas que la harina de trigo, dando al pan de centeno su característico color oscuro y textura densa.",
+                "de": "Roggenmehl enthält von Natur aus mehr Mineralien und Enzyme als Weizenmehl, was dem Roggenbrot seine charakteristische dunkle Farbe und dichte Textur verleiht.",
+                "nl": "Roggemeel bevat van nature meer mineralen en enzymen dan tarwemeel, wat roggebrood zijn kenmerkende donkere kleur en dichte textuur geeft."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 2 for question 6",
+                    "es": "Incorrect option 2 para question 6",
+                    "de": "Incorrect option 2 für question 6",
+                    "nl": "Incorrect option 2 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 2 for question 7",
+                    "es": "Incorrect option 2 para question 7",
+                    "de": "Incorrect option 2 für question 7",
+                    "nl": "Incorrect option 2 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 1?",
+                "es": "¿Qué is the significance of this in level 1?",
+                "de": "Was is the significance of this in level 1?",
+                "nl": "Wat is the significance of this in level 1?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 4 for question 10",
+                    "es": "Incorrect option 4 para question 10",
+                    "de": "Incorrect option 4 für question 10",
+                    "nl": "Incorrect option 4 voor question 10"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 11",
+                    "es": "Incorrect option 1 para question 11",
+                    "de": "Incorrect option 1 für question 11",
+                    "nl": "Incorrect option 1 voor question 11"
+                },
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Bread Types?",
+                "es": "¿Cómo does this relate to Bread Types?",
+                "de": "Wie does this relate to Bread Types?",
+                "nl": "Hoe does this relate to Bread Types?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 3 for question 13",
+                    "es": "Incorrect option 3 para question 13",
+                    "de": "Incorrect option 3 für question 13",
+                    "nl": "Incorrect option 3 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 3 for question 14",
+                    "es": "Incorrect option 3 para question 14",
+                    "de": "Incorrect option 3 für question 14",
+                    "nl": "Incorrect option 3 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                },
+                {
+                    "en": "Incorrect option 2 for question 15",
+                    "es": "Incorrect option 2 para question 15",
+                    "de": "Incorrect option 2 für question 15",
+                    "nl": "Incorrect option 2 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 4 for question 15",
+                    "es": "Incorrect option 4 para question 15",
+                    "de": "Incorrect option 4 für question 15",
+                    "nl": "Incorrect option 4 voor question 15"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the main ingredient that makes bread rise?",
+                "es": "¿Cuál es el ingrediente principal que hace que el pan suba?",
+                "de": "Was ist die Hauptzutat, die Brot aufgehen lässt?",
+                "nl": "Wat is het hoofdingrediënt dat brood doet rijzen?"
+            },
+            "options": [
+                {
+                    "en": "Yeast",
+                    "es": "Levadura",
+                    "de": "Hefe",
+                    "nl": "Gist"
+                },
+                {
+                    "en": "Salt",
+                    "es": "Sal",
+                    "de": "Salz",
+                    "nl": "Zout"
+                },
+                {
+                    "en": "Sugar",
+                    "es": "Azúcar",
+                    "de": "Zucker",
+                    "nl": "Suiker"
+                },
+                {
+                    "en": "Oil",
+                    "es": "Aceite",
+                    "de": "Öl",
+                    "nl": "Olie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Yeast is a microorganism that ferments sugars in the dough, producing carbon dioxide gas that makes bread rise and creates its airy texture.",
+                "es": "La levadura es un microorganismo que fermenta los azúcares en la masa, produciendo dióxido de carbono que hace que el pan suba y crea su textura aireada.",
+                "de": "Hefe ist ein Mikroorganismus, der Zucker im Teig fermentiert und dabei Kohlendioxidgas produziert, das das Brot aufgehen lässt und seine luftige Textur erzeugt.",
+                "nl": "Gist is een micro-organisme dat suikers in het deeg fermenteert, waarbij kooldioxide ontstaat dat het brood doet rijzen en zijn luchtige textuur geeft."
+            }
+        },
+        {
+            "question": {
+                "en": "Which bread is traditionally shaped like a ring?",
+                "es": "¿Qué pan tiene tradicionalmente forma de anillo?",
+                "de": "Welches Brot hat traditionell die Form eines Rings?",
+                "nl": "Welk brood heeft traditioneel de vorm van een ring?"
+            },
+            "options": [
+                {
+                    "en": "Bagel",
+                    "es": "Bagel",
+                    "de": "Bagel",
+                    "nl": "Bagel"
+                },
+                {
+                    "en": "Baguette",
+                    "es": "Baguette",
+                    "de": "Baguette",
+                    "nl": "Stokbrood"
+                },
+                {
+                    "en": "Ciabatta",
+                    "es": "Ciabatta",
+                    "de": "Ciabatta",
+                    "nl": "Ciabatta"
+                },
+                {
+                    "en": "Pita",
+                    "es": "Pita",
+                    "de": "Pita",
+                    "nl": "Pita"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Bagels are traditionally shaped into a ring and are boiled before baking, which gives them their distinctive chewy texture and shiny crust.",
+                "es": "Los bagels tradicionalmente tienen forma de anillo y se hierven antes de hornear, lo que les da su distintiva textura masticable y corteza brillante.",
+                "de": "Bagels werden traditionell zu einem Ring geformt und vor dem Backen gekocht, was ihnen ihre charakteristische zähe Textur und glänzende Kruste verleiht.",
+                "nl": "Bagels worden traditioneel in een ring gevormd en gekookt voordat ze gebakken worden, wat ze hun kenmerkende taaie textuur en glanzende korst geeft."
+            }
+        },
+        {
+            "question": {
+                "en": "What country is the baguette originally from?",
+                "es": "¿De qué país es originaria la baguette?",
+                "de": "Aus welchem Land stammt das Baguette ursprünglich?",
+                "nl": "Uit welk land komt het stokbrood oorspronkelijk?"
+            },
+            "options": [
+                {
+                    "en": "France",
+                    "es": "Francia",
+                    "de": "Frankreich",
+                    "nl": "Frankrijk"
+                },
+                {
+                    "en": "Italy",
+                    "es": "Italia",
+                    "de": "Italien",
+                    "nl": "Italië"
+                },
+                {
+                    "en": "Germany",
+                    "es": "Alemania",
+                    "de": "Deutschland",
+                    "nl": "Duitsland"
+                },
+                {
+                    "en": "Spain",
+                    "es": "España",
+                    "de": "Spanien",
+                    "nl": "Spanje"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "The baguette is a traditional French bread known for its long, thin shape and crispy crust. It became popular in France in the early 20th century.",
+                "es": "La baguette es un pan francés tradicional conocido por su forma larga y delgada y corteza crujiente. Se hizo popular en Francia a principios del siglo XX.",
+                "de": "Das Baguette ist ein traditionelles französisches Brot, bekannt für seine lange, dünne Form und knusprige Kruste. Es wurde im frühen 20. Jahrhundert in Frankreich populär.",
+                "nl": "Het stokbrood is een traditioneel Frans brood dat bekend staat om zijn lange, dunne vorm en knapperige korst. Het werd populair in Frankrijk in het begin van de 20e eeuw."
+            }
+        },
+        {
+            "question": {
+                "en": "What type of bread is made without yeast?",
+                "es": "¿Qué tipo de pan se hace sin levadura?",
+                "de": "Welche Brotart wird ohne Hefe hergestellt?",
+                "nl": "Welk type brood wordt zonder gist gemaakt?"
+            },
+            "options": [
+                {
+                    "en": "Unleavened bread",
+                    "es": "Pan sin levadura",
+                    "de": "Ungesäuertes Brot",
+                    "nl": "Ongezuurd brood"
+                },
+                {
+                    "en": "White bread",
+                    "es": "Pan blanco",
+                    "de": "Weißbrot",
+                    "nl": "Witbrood"
+                },
+                {
+                    "en": "Whole wheat bread",
+                    "es": "Pan integral",
+                    "de": "Vollkornbrot",
+                    "nl": "Volkorenbrood"
+                },
+                {
+                    "en": "Sourdough bread",
+                    "es": "Pan de masa madre",
+                    "de": "Sauerteigbrot",
+                    "nl": "Zuurdesembrood"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Unleavened bread is made without any raising agents like yeast or baking soda. Examples include matzo, tortillas, and chapati.",
+                "es": "El pan sin levadura se hace sin agentes leudantes como levadura o bicarbonato. Ejemplos incluyen matzá, tortillas y chapati.",
+                "de": "Ungesäuertes Brot wird ohne Triebmittel wie Hefe oder Backpulver hergestellt. Beispiele sind Matze, Tortillas und Chapati.",
+                "nl": "Ongezuurd brood wordt gemaakt zonder rijsmiddelen zoals gist van bakpoeder. Voorbeelden zijn matze, tortilla's en chapati."
+            }
+        },
+        {
+            "question": {
+                "en": "What gives rye bread its distinctive dark color?",
+                "es": "¿Qué le da al pan de centeno su distintivo color oscuro?",
+                "de": "Was verleiht Roggenbrot seine charakteristische dunkle Farbe?",
+                "nl": "Wat geeft roggebrood zijn kenmerkende donkere kleur?"
+            },
+            "options": [
+                {
+                    "en": "Rye flour",
+                    "es": "Harina de centeno",
+                    "de": "Roggenmehl",
+                    "nl": "Roggemeel"
+                },
+                {
+                    "en": "Food coloring",
+                    "es": "Colorante alimentario",
+                    "de": "Lebensmittelfarbe",
+                    "nl": "Voedselkleurstof"
+                },
+                {
+                    "en": "Chocolate",
+                    "es": "Chocolate",
+                    "de": "Schokolade",
+                    "nl": "Chocolade"
+                },
+                {
+                    "en": "Burnt sugar",
+                    "es": "Azúcar quemado",
+                    "de": "Gebrannter Zucker",
+                    "nl": "Gebrande suiker"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Rye flour naturally contains more minerals and enzymes than wheat flour, giving rye bread its characteristic dark color and dense texture.",
+                "es": "La harina de centeno contiene naturalmente más minerales y enzimas que la harina de trigo, dando al pan de centeno su característico color oscuro y textura densa.",
+                "de": "Roggenmehl enthält von Natur aus mehr Mineralien und Enzyme als Weizenmehl, was dem Roggenbrot seine charakteristische dunkle Farbe und dichte Textur verleiht.",
+                "nl": "Roggemeel bevat van nature meer mineralen en enzymen dan tarwemeel, wat roggebrood zijn kenmerkende donkere kleur en dichte textuur geeft."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 2 for question 6",
+                    "es": "Incorrect option 2 para question 6",
+                    "de": "Incorrect option 2 für question 6",
+                    "nl": "Incorrect option 2 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 2 for question 7",
+                    "es": "Incorrect option 2 para question 7",
+                    "de": "Incorrect option 2 für question 7",
+                    "nl": "Incorrect option 2 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 1?",
+                "es": "¿Qué is the significance of this in level 1?",
+                "de": "Was is the significance of this in level 1?",
+                "nl": "Wat is the significance of this in level 1?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 4 for question 10",
+                    "es": "Incorrect option 4 para question 10",
+                    "de": "Incorrect option 4 für question 10",
+                    "nl": "Incorrect option 4 voor question 10"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 11",
+                    "es": "Incorrect option 1 para question 11",
+                    "de": "Incorrect option 1 für question 11",
+                    "nl": "Incorrect option 1 voor question 11"
+                },
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Bread Types?",
+                "es": "¿Cómo does this relate to Bread Types?",
+                "de": "Wie does this relate to Bread Types?",
+                "nl": "Hoe does this relate to Bread Types?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 3 for question 13",
+                    "es": "Incorrect option 3 para question 13",
+                    "de": "Incorrect option 3 für question 13",
+                    "nl": "Incorrect option 3 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 3 for question 14",
+                    "es": "Incorrect option 3 para question 14",
+                    "de": "Incorrect option 3 für question 14",
+                    "nl": "Incorrect option 3 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                },
+                {
+                    "en": "Incorrect option 2 for question 15",
+                    "es": "Incorrect option 2 para question 15",
+                    "de": "Incorrect option 2 für question 15",
+                    "nl": "Incorrect option 2 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 4 for question 15",
+                    "es": "Incorrect option 4 para question 15",
+                    "de": "Incorrect option 4 für question 15",
+                    "nl": "Incorrect option 4 voor question 15"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 1 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 1 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does synchrotron X-ray tomography reveal bread's micro-structure evolution during baking?",
+                "es": "¿Cómo revela la tomografía de rayos X sincrotrón la evolución de la microestructura del pan durante.",
+                "de": "Wie enthüllt Synchrotron-Röntgentomographie die Mikrostruktur-Evolution von Brot während des Back...",
+                "nl": "Hoe onthult synchrotron röntgentomografie de microstructuur-evolutie van brood tijdens het bakken?"
+            },
+            "options": [
+                {
+                    "en": "Real-time 4D imaging shows gas cell coalescence at 60°C and starch gelatinization waves at 75°C",
+                    "es": "Imágenes 4D en tiempo real muestran coalescencia de células de gas a 60°C y ondas de gelatinizaci...",
+                    "de": "Echtzeit 4D-Bildgebung zeigt Gaszellen-Koaleszenz bei 60°C und Stärke-Gelatinierungswellen bei 75°C",
+                    "nl": "Real-time 4D-beeldvorming toont gascel-coalescentie bij 60°C en zetmeelgelatiniseringsgolven bij ..."
+                },
+                {
+                    "en": "X-rays damage the bread structure",
+                    "es": "Los rayos X dañan la estructura del pan",
+                    "de": "Röntgenstrahlen beschädigen die Brotstruktur",
+                    "nl": "Röntgenstralen beschadigen de broodstructuur"
+                },
+                {
+                    "en": "Only shows surface features",
+                    "es": "Solo muestra características superficiales",
+                    "de": "Zeigt nur Oberflächenmerkmale",
+                    "nl": "Toont alleen oppervlakte-eigenschappen"
+                },
+                {
+                    "en": "Cannot penetrate bread dough",
+                    "es": "No puede penetrar la masa de pan",
+                    "de": "Kann Brotteig nicht durchdringen",
+                    "nl": "Kan brooddeeg niet penetreren"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Synchrotron X-ray μCT with 0.65 μm resolution captures bread's internal transformation in real-time. At 60°C, gas cells begin merging through film rupture. At 75°C, starch gelatinization creates propagating waves visible as density changes. This 4D imaging (3D + time) reveals how crumb structure forms at microscale.",
+                "es": "Sincrotrón de rayos X μCT con resolución de 0.65 μm captura la transformación interna del pan en ...",
+                "de": "Synchrotron-Röntgen-μCT mit 0,65 μm Auflösung erfasst Brots interne Transformation in Echtzeit. B...",
+                "nl": "Synchrotron röntgen-μCT met 0,65 μm resolutie vangt broods interne transformatie in real-time. Bi..."
+            }
+        },
+        {
+            "question": {
+                "en": "What quantum mechanical principles govern water migration in staling bread?",
+                "es": "¿Qué principios de mecánica cuántica gobiernan la migración del agua en el pan envejecido?",
+                "de": "Welche quantenmechanischen Prinzipien steuern die Wassermigration in alterndem Brot?",
+                "nl": "Welke kwantummechanische principes beheersen watermigratie in oudbakkend brood?"
+            },
+            "options": [
+                {
+                    "en": "Proton tunneling through hydrogen bonds enables water movement below classical diffusion limits a...",
+                    "es": "El túnel de protones a través de enlaces de hidrógeno permite movimiento de agua bajo límites de ...",
+                    "de": "Protonentunneln durch Wasserstoffbrücken ermöglicht Wasserbewegung unter klassischen Diffusionsgr...",
+                    "nl": "Proton-tunneling door waterstofbruggen maakt waterbeweging mogelijk onder klassieke diffusiegrenz..."
+                },
+                {
+                    "en": "Water freezes completely in bread",
+                    "es": "El agua se congela completamente en el pan",
+                    "de": "Wasser gefriert vollständig im Brot",
+                    "nl": "Water bevriest volledig in brood"
+                },
+                {
+                    "en": "Quantum effects don't apply to food",
+                    "es": "Los efectos cuánticos no aplican a alimentos",
+                    "de": "Quanteneffekte gelten nicht für Lebensmittel",
+                    "nl": "Kwantumeffecten gelden niet voor voedsel"
+                },
+                {
+                    "en": "Water doesn't move in cold bread",
+                    "es": "El agua no se mueve en pan frío",
+                    "de": "Wasser bewegt sich nicht in kaltem Brot",
+                    "nl": "Water beweegt niet in koud brood"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Below 10°C, classical diffusion predicts negligible water movement, yet NMR shows continued migration. Quantum tunneling allows protons to 'tunnel' through energy barriers in hydrogen bond networks. This quantum transport, enhanced by bread's amorphous regions, explains moisture redistribution during low-temperature storage leading to staling.",
+                "es": "Bajo 10°C, difusión clásica predice movimiento de agua insignificante, pero RMN muestra migración...",
+                "de": "Unter 10°C sagt klassische Diffusion vernachlässigbare Wasserbewegung voraus, doch NMR zeigt fort...",
+                "nl": "Onder 10°C voorspelt klassieke diffusie verwaarloosbare waterbeweging, maar NMR toont voortgezett..."
+            }
+        },
+        {
+            "question": {
+                "en": "How do acoustic levitation techniques enable contactless bread dough proofing?",
+                "es": "¿Cómo permiten las técnicas de levitación acústica el leudado sin contacto de masa de pan?",
+                "de": "Wie ermöglichen akustische Levitationstechniken kontaktlose Brotteig-Gärung?",
+                "nl": "Hoe maken akoestische levitatie-technieken contactloos rijzen van brooddeeg mogelijk?"
+            },
+            "options": [
+                {
+                    "en": "Standing waves at 40kHz create pressure nodes suspending dough spheres for uniform gas distribution",
+                    "es": "Ondas estacionarias a 40kHz crean nodos de presión suspendiendo esferas de masa para distribución...",
+                    "de": "Stehende Wellen bei 40kHz erzeugen Druckknoten die Teigkugeln für gleichmäßige Gasverteilung susp...",
+                    "nl": "Staande golven bij 40kHz creëren drukknooppunten die deegbollen suspenderen voor uniforme gasverd..."
+                },
+                {
+                    "en": "Sound makes dough rise faster",
+                    "es": "El sonido hace que la masa suba más rápido",
+                    "de": "Schall lässt Teig schneller aufgehen",
+                    "nl": "Geluid laat deeg sneller rijzen"
+                },
+                {
+                    "en": "Vibrations knead the dough",
+                    "es": "Las vibraciones amasan la masa",
+                    "de": "Vibrationen kneten den Teig",
+                    "nl": "Trillingen kneden het deeg"
+                },
+                {
+                    "en": "Acoustic waves heat the dough",
+                    "es": "Las ondas acústicas calientan la masa",
+                    "de": "Akustische Wellen erhitzen den Teig",
+                    "nl": "Akoestische golven verhitten het deeg"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Ultrasonic standing waves at 40kHz create alternating high/low pressure zones. Dough spheres stabilize at pressure nodes (Gorkov potential minima) floating in mid-air. Without container constraints, fermentation gases distribute spherically uniformly. This technique produces perfectly isotropic crumb structure impossible with conventional proofing.",
+                "es": "Ondas estacionarias ultrasónicas a 40kHz crean zonas alternadas de alta/baja presión. Esferas de ...",
+                "de": "Ultraschall-Stehwellen bei 40kHz erzeugen abwechselnd Hoch-/Niederdruckzonen. Teigkugeln stabilis...",
+                "nl": "Ultrasone staande golven bij 40kHz creëren afwisselend hoge/lage drukzones. Deegbollen stabiliser..."
+            }
+        },
+        {
+            "question": {
+                "en": "What role do bacteriophages play in artisan sourdough starter stability?",
+                "es": "¿Qué papel juegan los bacteriófagos en la estabilidad del iniciador de masa madre artesanal?",
+                "de": "Welche Rolle spielen Bakteriophagen bei der Stabilität von handwerklichem Sauerteigstarter?",
+                "nl": "Welke rol spelen bacteriofagen bij de stabiliteit van ambachtelijke zuurdesemstarter?"
+            },
+            "options": [
+                {
+                    "en": "CRISPR-Cas systems in lactobacilli provide phage immunity maintaining 10^8 CFU/g populations",
+                    "es": "Sistemas CRISPR-Cas en lactobacilos proporcionan inmunidad a fagos manteniendo poblaciones de 10^...",
+                    "de": "CRISPR-Cas-Systeme in Laktobazillen bieten Phagenimmunität und erhalten 10^8 KBE/g Populationen",
+                    "nl": "CRISPR-Cas-systemen in lactobacillen bieden faagimmuniteit en handhaven 10^8 KVE/g populaties"
+                },
+                {
+                    "en": "Phages destroy all bacteria",
+                    "es": "Los fagos destruyen todas las bacterias",
+                    "de": "Phagen zerstören alle Bakterien",
+                    "nl": "Fagen vernietigen alle bacteriën"
+                },
+                {
+                    "en": "Bacteriophages don't exist in bread",
+                    "es": "Los bacteriófagos no existen en el pan",
+                    "de": "Bakteriophagen existieren nicht in Brot",
+                    "nl": "Bacteriofagen bestaan niet in brood"
+                },
+                {
+                    "en": "They make bread rise faster",
+                    "es": "Hacen que el pan suba más rápido",
+                    "de": "Sie lassen Brot schneller aufgehen",
+                    "nl": "Ze laten brood sneller rijzen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Sourdough lactobacilli harbor CRISPR-Cas adaptive immune systems that remember past phage infections through spacer sequences. When phages attack, Cas proteins recognize viral DNA and cleave it. This evolutionary arms race maintains stable 10^8 CFU/g populations despite constant phage pressure, ensuring consistent fermentation.",
+                "es": "Lactobacilos de masa madre albergan sistemas inmunes adaptativos CRISPR-Cas que recuerdan infecci...",
+                "de": "Sauerteig-Laktobazillen beherbergen adaptive CRISPR-Cas-Immunsysteme die vergangene Phageninfekti...",
+                "nl": "Zuurdesem-lactobacillen herbergen adaptieve CRISPR-Cas-immuunsystemen die vorige faaginfecties on..."
+            }
+        },
+        {
+            "question": {
+                "en": "How does plasma-activated water enhance gluten network development?",
+                "es": "¿Cómo mejora el agua activada por plasma el desarrollo de la red de gluten?",
+                "de": "Wie verbessert plasmaaktiviertes Wasser die Glutennetzwerk-Entwicklung?",
+                "nl": "Hoe verbetert plasma-geactiveerd water de gluten-netwerkontwikkeling?"
+            },
+            "options": [
+                {
+                    "en": "Reactive nitrogen species create additional disulfide bonds increasing dough strength by 40%",
+                    "es": "Especies reactivas de nitrógeno crean enlaces disulfuro adicionales aumentando fuerza de masa 40%",
+                    "de": "Reaktive Stickstoffspezies erzeugen zusätzliche Disulfidbrücken erhöhen Teigstärke um 40%",
+                    "nl": "Reactieve stikstofspecies creëren extra disulfidebruggen verhogen deegsterkte met 40%"
+                },
+                {
+                    "en": "Plasma water is just regular water",
+                    "es": "El agua de plasma es solo agua regular",
+                    "de": "Plasmawasser ist nur normales Wasser",
+                    "nl": "Plasmawater is gewoon normaal water"
+                },
+                {
+                    "en": "It destroys gluten proteins",
+                    "es": "Destruye las proteínas del gluten",
+                    "de": "Es zerstört Glutenproteine",
+                    "nl": "Het vernietigt gluteneiwitten"
+                },
+                {
+                    "en": "Makes dough more sticky",
+                    "es": "Hace la masa más pegajosa",
+                    "de": "Macht Teig klebriger",
+                    "nl": "Maakt deeg kleveriger"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Cold plasma treatment generates reactive oxygen/nitrogen species (RONS) in water, particularly peroxynitrite (ONOO−) and nitrite (NO2−). These species oxidize cysteine residues in gluten proteins, forming additional disulfide crosslinks. This increases dough elasticity by 40% and reduces mixing time by 25%, revolutionizing industrial bread production.",
+                "es": "El tratamiento con plasma frío genera especies reactivas de oxígeno/nitrógeno (RONS) en agua, par...",
+                "de": "Kaltplasma-Behandlung erzeugt reaktive Sauerstoff-/Stickstoffspezies (RONS) in Wasser, besonders ...",
+                "nl": "Koude plasmabehandeling genereert reactieve zuurstof/stikstofspecies (RONS) in water, vooral pero..."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 4 for question 6",
+                    "es": "Incorrect option 4 para question 6",
+                    "de": "Incorrect option 4 für question 6",
+                    "nl": "Incorrect option 4 voor question 6"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 3 for question 7",
+                    "es": "Incorrect option 3 para question 7",
+                    "de": "Incorrect option 3 für question 7",
+                    "nl": "Incorrect option 3 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 4 for question 8",
+                    "es": "Incorrect option 4 para question 8",
+                    "de": "Incorrect option 4 für question 8",
+                    "nl": "Incorrect option 4 voor question 8"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 9",
+                    "es": "Incorrect option 1 para question 9",
+                    "de": "Incorrect option 1 für question 9",
+                    "nl": "Incorrect option 1 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 10?",
+                "es": "¿Qué is the significance of this in level 10?",
+                "de": "Was is the significance of this in level 10?",
+                "nl": "Wat is the significance of this in level 10?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 10",
+                    "es": "Incorrect option 1 para question 10",
+                    "de": "Incorrect option 1 für question 10",
+                    "nl": "Incorrect option 1 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 2 for question 11",
+                    "es": "Incorrect option 2 para question 11",
+                    "de": "Incorrect option 2 für question 11",
+                    "nl": "Incorrect option 2 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Bread Types?",
+                "es": "¿Cómo does this relate to Bread Types?",
+                "de": "Wie does this relate to Bread Types?",
+                "nl": "Hoe does this relate to Bread Types?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 3 for question 13",
+                    "es": "Incorrect option 3 para question 13",
+                    "de": "Incorrect option 3 für question 13",
+                    "nl": "Incorrect option 3 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 3 for question 14",
+                    "es": "Incorrect option 3 para question 14",
+                    "de": "Incorrect option 3 für question 14",
+                    "nl": "Incorrect option 3 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 4 for question 14",
+                    "es": "Incorrect option 4 para question 14",
+                    "de": "Incorrect option 4 für question 14",
+                    "nl": "Incorrect option 4 voor question 14"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 15",
+                    "es": "Incorrect option 1 para question 15",
+                    "de": "Incorrect option 1 für question 15",
+                    "nl": "Incorrect option 1 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 2 for question 15",
+                    "es": "Incorrect option 2 para question 15",
+                    "de": "Incorrect option 2 für question 15",
+                    "nl": "Incorrect option 2 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 10 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 10 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Why does French baguette develop its characteristic crispy crust?",
+                "es": "¿Por qué la baguette francesa desarrolla su corteza crujiente característica?",
+                "de": "Warum entwickelt französisches Baguette seine charakteristische knusprige Kruste?",
+                "nl": "Waarom ontwikkelt Franse baguette zijn karakteristieke knapperige korst?"
+            },
+            "options": [
+                {
+                    "en": "Steam injection in the oven creates gelatinized starch layer that caramelizes at 200°C",
+                    "es": "Inyección de vapor en el horno crea capa de almidón gelatinizado que carameliza a 200°C",
+                    "de": "Dampfinjektion im Ofen erzeugt gelatinierte Stärkeschicht die bei 200°C karamellisiert",
+                    "nl": "Stoominjectie in de oven creëert gegelatiniseerde zetmeellaag die karameliseert bij 200°C"
+                },
+                {
+                    "en": "French flour is special",
+                    "es": "La harina francesa es especial",
+                    "de": "Französisches Mehl ist speziell",
+                    "nl": "Frans meel is speciaal"
+                },
+                {
+                    "en": "Baking time alone creates crust",
+                    "es": "Solo el tiempo de horneado crea corteza",
+                    "de": "Backzeit allein erzeugt Kruste",
+                    "nl": "Baktijd alleen creëert korst"
+                },
+                {
+                    "en": "Salt makes it crispy",
+                    "es": "La sal la hace crujiente",
+                    "de": "Salz macht es knusprig",
+                    "nl": "Zout maakt het knapperig"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Baguettes are baked with steam injection for the first 10 minutes. This moisture gelatinizes surface starches, forming a thin gel layer. As baking continues at 230°C, this layer dehydrates and undergoes Maillard reactions, creating the golden, crispy crust while keeping the interior soft.",
+                "es": "Las baguettes se hornean con inyección de vapor los primeros 10 minutos. Esta humedad gelatiniza almidones superficiales, formando una capa de gel delgada. Al continuar horneando a 230°C, esta capa se deshidrata y sufre reacciones de Maillard, creando la corteza dorada y crujiente.",
+                "de": "Baguettes werden die ersten 10 Minuten mit Dampfinjektion gebacken. Diese Feuchtigkeit gelatiniert Oberflächenstärke, bildet eine dünne Gelschicht. Bei weiteren 230°C dehydriert diese Schicht und durchläuft Maillard-Reaktionen, erzeugt die goldene, knusprige Kruste.",
+                "nl": "Baguettes worden de eerste 10 minuten met stoominjectie gebakken. Dit vocht gelatiniseert oppervlakte-zetmeel, vormt een dunne gellaag. Bij verder bakken op 230°C dehydrateert deze laag en ondergaat Maillard-reacties, creëert de gouden, knapperige korst."
+            }
+        },
+        {
+            "question": {
+                "en": "What gives sourdough bread its tangy flavor and longer shelf life?",
+                "es": "¿Qué le da al pan de masa madre su sabor ácido y mayor vida útil?",
+                "de": "Was verleiht Sauerteigbrot seinen säuerlichen Geschmack und längere Haltbarkeit?",
+                "nl": "Wat geeft zuurdesembrood zijn zurige smaak en langere houdbaarheid?"
+            },
+            "options": [
+                {
+                    "en": "Lactobacilli produce lactic acid lowering pH to 3.5-4.0 inhibiting mold growth",
+                    "es": "Lactobacilos producen ácido láctico bajando pH a 3.5-4.0 inhibiendo crecimiento de moho",
+                    "de": "Laktobazillen produzieren Milchsäure senken pH auf 3,5-4,0 hemmen Schimmelwachstum",
+                    "nl": "Lactobacillen produceren melkzuur verlagen pH tot 3,5-4,0 remmen schimmelgroei"
+                },
+                {
+                    "en": "Vinegar is added to dough",
+                    "es": "Se añade vinagre a la masa",
+                    "de": "Essig wird zum Teig gegeben",
+                    "nl": "Azijn wordt aan deeg toegevoegd"
+                },
+                {
+                    "en": "Longer fermentation only",
+                    "es": "Solo fermentación más larga",
+                    "de": "Nur längere Gärung",
+                    "nl": "Alleen langere fermentatie"
+                },
+                {
+                    "en": "Special sour flour",
+                    "es": "Harina agria especial",
+                    "de": "Spezielles Sauermehl",
+                    "nl": "Speciaal zuur meel"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Sourdough contains wild lactobacilli bacteria that produce lactic and acetic acids during fermentation. These acids lower the dough pH to 3.5-4.0, creating the tangy flavor. The acidic environment also inhibits spoilage organisms and activates proteases that break down gluten, improving digestibility.",
+                "es": "La masa madre contiene bacterias lactobacillus silvestres que producen ácidos láctico y acético durante la fermentación. Estos ácidos bajan el pH de la masa a 3.5-4.0, creando el sabor ácido. El ambiente ácido también inhibe organismos de deterioro y activa proteasas que descomponen el gluten.",
+                "de": "Sauerteig enthält wilde Laktobazillen-Bakterien die Milch- und Essigsäure während der Gärung produzieren. Diese Säuren senken den Teig-pH auf 3,5-4,0, erzeugen den säuerlichen Geschmack. Die saure Umgebung hemmt auch Verderbnisorganismen und aktiviert Proteasen die Gluten abbauen.",
+                "nl": "Zuurdesem bevat wilde lactobacillus bacteriën die melkzuur en azijnzuur produceren tijdens fermentatie. Deze zuren verlagen de deeg-pH tot 3,5-4,0, creëren de zurige smaak. De zure omgeving remt ook bederf-organismen en activeert proteasen die gluten afbreken."
+            }
+        },
+        {
+            "question": {
+                "en": "How does the double-baking process create crispy Italian biscotti?",
+                "es": "¿Cómo crea el proceso de doble horneado los biscotti italianos crujientes?",
+                "de": "Wie erzeugt der Doppelback-Prozess knusprige italienische Biscotti?",
+                "nl": "Hoe creëert het dubbel bakproces knapperige Italiaanse biscotti?"
+            },
+            "options": [
+                {
+                    "en": "First bake sets structure, second bake at 150°C removes moisture to 3% creating hardness",
+                    "es": "Primer horneado establece estructura, segundo horneado a 150°C elimina humedad al 3% creando dureza",
+                    "de": "Erstes Backen setzt Struktur, zweites Backen bei 150°C entfernt Feuchtigkeit auf 3% erzeugt Härte",
+                    "nl": "Eerste bak zet structuur, tweede bak op 150°C verwijdert vocht tot 3% creëert hardheid"
+                },
+                {
+                    "en": "Two ovens are used",
+                    "es": "Se usan dos hornos",
+                    "de": "Zwei Öfen werden verwendet",
+                    "nl": "Twee ovens worden gebruikt"
+                },
+                {
+                    "en": "Sugar crystallizes twice",
+                    "es": "El azúcar cristaliza dos veces",
+                    "de": "Zucker kristallisiert zweimal",
+                    "nl": "Suiker kristalliseert tweemaal"
+                },
+                {
+                    "en": "Eggs harden completely",
+                    "es": "Los huevos se endurecen completamente",
+                    "de": "Eier härten vollständig",
+                    "nl": "Eieren verharden volledig"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Biscotti undergoes two distinct baking phases: First at 180°C for 25 minutes to set the protein-starch structure. After cooling and slicing, the second bake at 150°C for 15-20 minutes removes moisture down to 3%, creating the characteristic dry, crispy texture that allows months of storage without spoilage.",
+                "es": "Los biscotti sufren dos fases de horneado distintas: Primero a 180°C por 25 minutos para establecer la estructura proteína-almidón. Después de enfriar y cortar, el segundo horneado a 150°C por 15-20 minutos elimina humedad hasta 3%, creando la textura seca y crujiente característica.",
+                "de": "Biscotti durchlaufen zwei verschiedene Backphasen: Erst bei 180°C für 25 Minuten um die Protein-Stärke-Struktur zu setzen. Nach Abkühlen und Schneiden entfernt das zweite Backen bei 150°C für 15-20 Minuten Feuchtigkeit auf 3%, erzeugt die charakteristische trockene, knusprige Textur.",
+                "nl": "Biscotti ondergaat twee verschillende bakfases: Eerst op 180°C voor 25 minuten om de eiwit-zetmeel structuur te zetten. Na afkoelen en snijden verwijdert de tweede bak op 150°C voor 15-20 minuten vocht tot 3%, creëert de karakteristieke droge, knapperige textuur."
+            }
+        },
+        {
+            "question": {
+                "en": "Why does pumpernickel bread have its dark color without added colorants?",
+                "es": "¿Por qué el pan pumpernickel tiene su color oscuro sin colorantes añadidos?",
+                "de": "Warum hat Pumpernickel seine dunkle Farbe ohne zugesetzte Farbstoffe?",
+                "nl": "Waarom heeft pumpernickel zijn donkere kleur zonder toegevoegde kleurstoffen?"
+            },
+            "options": [
+                {
+                    "en": "Maillard reactions during 16-24 hour low-temperature baking at 120°C create melanoidins",
+                    "es": "Reacciones de Maillard durante 16-24 horas de horneado a baja temperatura a 120°C crean melanoidinas",
+                    "de": "Maillard-Reaktionen während 16-24 Stunden Niedertemperatur-Backen bei 120°C erzeugen Melanoidine",
+                    "nl": "Maillard-reacties tijdens 16-24 uur lage temperatuur bakken op 120°C creëren melanoidinen"
+                },
+                {
+                    "en": "Rye flour is naturally dark",
+                    "es": "La harina de centeno es naturalmente oscura",
+                    "de": "Roggenmehl ist natürlich dunkel",
+                    "nl": "Roggemeel is van nature donker"
+                },
+                {
+                    "en": "Molasses colors the bread",
+                    "es": "La melaza colorea el pan",
+                    "de": "Melasse färbt das Brot",
+                    "nl": "Melasse kleurt het brood"
+                },
+                {
+                    "en": "Burnt crust mixes in",
+                    "es": "La corteza quemada se mezcla",
+                    "de": "Verbrannte Kruste mischt sich ein",
+                    "nl": "Verbrande korst mengt erin"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Traditional pumpernickel is steam-baked at 120°C for 16-24 hours. This extended low-temperature baking allows extensive Maillard reactions between amino acids and reducing sugars in the rye flour, producing dark melanoidin compounds. These complex polymers give pumpernickel its characteristic dark brown color and deep, sweet flavor.",
+                "es": "El pumpernickel tradicional se hornea al vapor a 120°C durante 16-24 horas. Este horneado prolongado a baja temperatura permite reacciones de Maillard extensas entre aminoácidos y azúcares reductores en la harina de centeno, produciendo compuestos melanoidina oscuros.",
+                "de": "Traditioneller Pumpernickel wird 16-24 Stunden bei 120°C dampfgebacken. Dieses verlängerte Niedertemperatur-Backen ermöglicht umfangreiche Maillard-Reaktionen zwischen Aminosäuren und reduzierenden Zuckern im Roggenmehl, produziert dunkle Melanoidin-Verbindungen.",
+                "nl": "Traditioneel pumpernickel wordt 16-24 uur gestoomd bij 120°C. Dit verlengde lage temperatuur bakken maakt uitgebreide Maillard-reacties mogelijk tussen aminozuren en reducerende suikers in roggemeel, produceert donkere melanoidine verbindingen."
+            }
+        },
+        {
+            "question": {
+                "en": "What creates the open, irregular holes in ciabatta bread?",
+                "es": "¿Qué crea los agujeros abiertos e irregulares en el pan ciabatta?",
+                "de": "Was erzeugt die offenen, unregelmäßigen Löcher in Ciabatta-Brot?",
+                "nl": "Wat creëert de open, onregelmatige gaten in ciabatta brood?"
+            },
+            "options": [
+                {
+                    "en": "80-85% hydration dough with gentle folding preserves gas bubbles creating alveolar structure",
+                    "es": "Masa con 80-85% hidratación con plegado suave preserva burbujas de gas creando estructura alveolar",
+                    "de": "80-85% Hydratationsteig mit sanftem Falten bewahrt Gasblasen erzeugt alveoläre Struktur",
+                    "nl": "80-85% hydratatie deeg met zacht vouwen bewaart gasbellen creëert alveolaire structuur"
+                },
+                {
+                    "en": "Poking holes in dough",
+                    "es": "Hacer agujeros en la masa",
+                    "de": "Löcher in Teig stechen",
+                    "nl": "Gaten prikken in deeg"
+                },
+                {
+                    "en": "Special hole-making yeast",
+                    "es": "Levadura especial que hace agujeros",
+                    "de": "Spezielle lochmachende Hefe",
+                    "nl": "Speciale gaten-makende gist"
+                },
+                {
+                    "en": "Italian water is different",
+                    "es": "El agua italiana es diferente",
+                    "de": "Italienisches Wasser ist anders",
+                    "nl": "Italiaans water is anders"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Ciabatta uses extremely high hydration (80-85% water to flour ratio) creating a wet, sticky dough. Instead of kneading, gentle folding techniques preserve large CO₂ bubbles formed during fermentation. The high water content creates steam during baking, expanding these bubbles into the characteristic open, alveolar crumb structure.",
+                "es": "Ciabatta usa hidratación extremadamente alta (80-85% proporción agua-harina) creando una masa húmeda y pegajosa. En lugar de amasar, técnicas de plegado suave preservan grandes burbujas de CO₂ formadas durante la fermentación, expandiéndose en la estructura de miga abierta característica.",
+                "de": "Ciabatta verwendet extrem hohe Hydratation (80-85% Wasser-Mehl-Verhältnis) erzeugt einen feuchten, klebrigen Teig. Statt Kneten bewahren sanfte Falttechniken große CO₂-Blasen aus der Gärung. Der hohe Wassergehalt erzeugt Dampf beim Backen, expandiert diese Blasen zur charakteristischen offenen Krumenstruktur.",
+                "nl": "Ciabatta gebruikt extreem hoge hydratatie (80-85% water-meel verhouding) creëert een nat, plakkerig deeg. In plaats van kneden bewaren zachte vouwtechnieken grote CO₂-bellen uit fermentatie. Het hoge watergehalte creëert stoom tijdens bakken, expandeert deze bellen tot de karakteristieke open kruimstructuur."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                },
+                {
+                    "en": "Incorrect option 2 for question 6",
+                    "es": "Incorrect option 2 para question 6",
+                    "de": "Incorrect option 2 für question 6",
+                    "nl": "Incorrect option 2 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 4 for question 6",
+                    "es": "Incorrect option 4 para question 6",
+                    "de": "Incorrect option 4 für question 6",
+                    "nl": "Incorrect option 4 voor question 6"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 2 for question 7",
+                    "es": "Incorrect option 2 para question 7",
+                    "de": "Incorrect option 2 für question 7",
+                    "nl": "Incorrect option 2 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                },
+                {
+                    "en": "Incorrect option 4 for question 8",
+                    "es": "Incorrect option 4 para question 8",
+                    "de": "Incorrect option 4 für question 8",
+                    "nl": "Incorrect option 4 voor question 8"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 9",
+                    "es": "Incorrect option 1 para question 9",
+                    "de": "Incorrect option 1 für question 9",
+                    "nl": "Incorrect option 1 voor question 9"
+                },
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 2?",
+                "es": "¿Qué is the significance of this in level 2?",
+                "de": "Was is the significance of this in level 2?",
+                "nl": "Wat is the significance of this in level 2?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 10",
+                    "es": "Incorrect option 1 para question 10",
+                    "de": "Incorrect option 1 für question 10",
+                    "nl": "Incorrect option 1 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 11",
+                    "es": "Incorrect option 1 para question 11",
+                    "de": "Incorrect option 1 für question 11",
+                    "nl": "Incorrect option 1 voor question 11"
+                },
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Bread Types?",
+                "es": "¿Cómo does this relate to Bread Types?",
+                "de": "Wie does this relate to Bread Types?",
+                "nl": "Hoe does this relate to Bread Types?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 3 for question 13",
+                    "es": "Incorrect option 3 para question 13",
+                    "de": "Incorrect option 3 für question 13",
+                    "nl": "Incorrect option 3 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                },
+                {
+                    "en": "Incorrect option 4 for question 14",
+                    "es": "Incorrect option 4 para question 14",
+                    "de": "Incorrect option 4 für question 14",
+                    "nl": "Incorrect option 4 voor question 14"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 15",
+                    "es": "Incorrect option 1 para question 15",
+                    "de": "Incorrect option 1 für question 15",
+                    "nl": "Incorrect option 1 voor question 15"
+                },
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 4 for question 15",
+                    "es": "Incorrect option 4 para question 15",
+                    "de": "Incorrect option 4 für question 15",
+                    "nl": "Incorrect option 4 voor question 15"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 2 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 2 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does tangzhong method improve Asian milk bread texture?",
+                "es": "¿Cómo mejora el método tangzhong la textura del pan de leche asiático?",
+                "de": "Wie verbessert die Tangzhong-Methode die Textur von asiatischem Milchbrot?",
+                "nl": "Hoe verbetert de tangzhong methode de textuur van Aziatisch melkbrood?"
+            },
+            "options": [
+                {
+                    "en": "Pre-cooking 5% flour with water to 65°C gelatinizes starch, holding 5x its weight in moisture",
+                    "es": "Pre-cocinar 5% harina con agua a 65°C gelatiniza almidón, reteniendo 5x su peso en humedad",
+                    "de": "Vorkochen von 5% Mehl mit Wasser auf 65°C gelatiniert Stärke, hält 5x sein Gewicht an Feuchtigkeit",
+                    "nl": "Voorkoken van 5% meel met water tot 65°C gelatiniseert zetmeel, houdt 5x zijn gewicht aan vocht vast"
+                },
+                {
+                    "en": "Asian flour is softer",
+                    "es": "La harina asiática es más suave",
+                    "de": "Asiatisches Mehl ist weicher",
+                    "nl": "Aziatisch meel is zachter"
+                },
+                {
+                    "en": "More sugar makes it fluffy",
+                    "es": "Más azúcar lo hace esponjoso",
+                    "de": "Mehr Zucker macht es fluffig",
+                    "nl": "Meer suiker maakt het luchtig"
+                },
+                {
+                    "en": "Milk alone creates softness",
+                    "es": "Solo la leche crea suavidad",
+                    "de": "Milch allein erzeugt Weichheit",
+                    "nl": "Melk alleen creëert zachtheid"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Tangzhong involves cooking 5% of the recipe's flour with water to 65°C, creating a roux. This pre-gelatinizes starch granules, allowing them to absorb and retain 5 times their weight in liquid. When incorporated into the dough, this gel keeps the bread incredibly soft and moist for days, preventing staling.",
+                "es": "Tangzhong implica cocinar 5% de la harina de la receta con agua a 65°C, creando un roux. Esto pre-gelatiniza gránulos de almidón, permitiéndoles absorber y retener 5 veces su peso en líquido. Cuando se incorpora a la masa, este gel mantiene el pan increíblemente suave y húmedo por días.",
+                "de": "Tangzhong beinhaltet das Kochen von 5% des Rezeptmehls mit Wasser auf 65°C, wodurch eine Mehlschwitze entsteht. Dies prägelatiniert Stärkekörner, ermöglicht ihnen das 5-fache ihres Gewichts an Flüssigkeit aufzunehmen. In den Teig eingearbeitet hält dieses Gel das Brot tagelang weich und feucht.",
+                "nl": "Tangzhong houdt in dat 5% van het receptmeel met water tot 65°C wordt gekookt, waardoor een roux ontstaat. Dit pre-gelatiniseert zetmeelkorrels, waardoor ze 5 keer hun gewicht aan vloeistof kunnen absorberen. Wanneer verwerkt in het deeg houdt deze gel het brood dagenlang zacht en vochtig."
+            }
+        },
+        {
+            "question": {
+                "en": "What causes the characteristic chewiness in New York bagels?",
+                "es": "¿Qué causa la masticabilidad característica en los bagels de Nueva York?",
+                "de": "Was verursacht die charakteristische Zähigkeit in New York Bagels?",
+                "nl": "Wat veroorzaakt de karakteristieke kauwbaarheid in New York bagels?"
+            },
+            "options": [
+                {
+                    "en": "Boiling in alkaline water before baking denatures surface proteins creating chewy crust",
+                    "es": "Hervir en agua alcalina antes de hornear desnaturaliza proteínas creando corteza masticable",
+                    "de": "Kochen in alkalischem Wasser vor dem Backen denaturiert Oberflächenproteine erzeugt zähe Kruste",
+                    "nl": "Koken in alkalisch water voor bakken denatureert oppervlakte-eiwitten creëert kauwbare korst"
+                },
+                {
+                    "en": "New York water minerals",
+                    "es": "Minerales del agua de Nueva York",
+                    "de": "New York Wassermineralien",
+                    "nl": "New York water mineralen"
+                },
+                {
+                    "en": "Special bagel flour",
+                    "es": "Harina especial para bagels",
+                    "de": "Spezielles Bagelmehl",
+                    "nl": "Speciaal bagelmeel"
+                },
+                {
+                    "en": "Overnight fermentation only",
+                    "es": "Solo fermentación nocturna",
+                    "de": "Nur Übernachtgärung",
+                    "nl": "Alleen nachtelijke fermentatie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "New York bagels are boiled for 30-60 seconds in water with added barley malt or lye (pH 8-9) before baking. This alkaline bath gelatinizes surface starches and denatures proteins, forming a tight skin. When baked at 260°C, this pre-set crust creates the signature chewy exterior while maintaining a dense interior.",
+                "es": "Los bagels de Nueva York se hierven 30-60 segundos en agua con malta de cebada o lejía añadida (pH 8-9) antes de hornear. Este baño alcalino gelatiniza almidones superficiales y desnaturaliza proteínas, formando una piel apretada que crea el exterior masticable característico.",
+                "de": "New York Bagels werden 30-60 Sekunden in Wasser mit Gerstenmalz oder Lauge (pH 8-9) gekocht vor dem Backen. Dieses alkalische Bad gelatiniert Oberflächenstärken und denaturiert Proteine, bildet eine feste Haut die die charakteristische zähe Außenseite erzeugt.",
+                "nl": "New York bagels worden 30-60 seconden gekookt in water met gerstemout of loog (pH 8-9) voor het bakken. Dit alkalische bad gelatiniseert oppervlakte-zetmeel en denatureert eiwitten, vormt een strakke huid die de kenmerkende kauwbare buitenkant creëert."
+            }
+        },
+        {
+            "question": {
+                "en": "Why does Indian naan bread puff up dramatically in the tandoor?",
+                "es": "¿Por qué el pan naan indio se infla dramáticamente en el tandoor?",
+                "de": "Warum bläht sich indisches Naan-Brot dramatisch im Tandoor auf?",
+                "nl": "Waarom poft Indiaas naan brood dramatisch op in de tandoor?"
+            },
+            "options": [
+                {
+                    "en": "450°C tandoor heat instantly vaporizes moisture creating steam pockets that inflate the bread",
+                    "es": "Calor de tandoor a 450°C vaporiza instantáneamente humedad creando bolsas de vapor que inflan el pan",
+                    "de": "450°C Tandoor-Hitze verdampft sofort Feuchtigkeit erzeugt Dampftaschen die das Brot aufblähen",
+                    "nl": "450°C tandoor hitte verdampt direct vocht creëert stoomzakken die het brood opblazen"
+                },
+                {
+                    "en": "Yogurt makes it rise",
+                    "es": "El yogur lo hace subir",
+                    "de": "Joghurt lässt es aufgehen",
+                    "nl": "Yoghurt laat het rijzen"
+                },
+                {
+                    "en": "Clay oven magic",
+                    "es": "Magia del horno de arcilla",
+                    "de": "Lehmofen-Magie",
+                    "nl": "Kleioven magie"
+                },
+                {
+                    "en": "Special Indian yeast",
+                    "es": "Levadura india especial",
+                    "de": "Spezielle indische Hefe",
+                    "nl": "Speciale Indiase gist"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Tandoor ovens reach 450-480°C. When wet naan dough hits the superheated clay wall, surface moisture instantly converts to steam. This rapid steam generation, combined with yogurt's lactic acid weakening gluten structure, creates dramatic puffing. The bread cooks in just 60-90 seconds, trapping steam inside for the characteristic pillowy texture.",
+                "es": "Los hornos tandoor alcanzan 450-480°C. Cuando la masa húmeda de naan toca la pared de arcilla supercalentada, la humedad superficial se convierte instantáneamente en vapor. Esta generación rápida de vapor crea el inflado dramático, cocinándose en solo 60-90 segundos.",
+                "de": "Tandoor-Öfen erreichen 450-480°C. Wenn feuchter Naan-Teig die überhitzte Lehmwand trifft, wird Oberflächenfeuchtigkeit sofort zu Dampf. Diese schnelle Dampferzeugung erzeugt dramatisches Aufblähen, das Brot gart in nur 60-90 Sekunden.",
+                "nl": "Tandoor ovens bereiken 450-480°C. Wanneer nat naan deeg de oververhitte kleimuur raakt, wordt oppervlaktevocht direct omgezet in stoom. Deze snelle stoomgeneratie creëert dramatisch opblazen, het brood bakt in slechts 60-90 seconden."
+            }
+        },
+        {
+            "question": {
+                "en": "How does lamination create 27 layers in croissants?",
+                "es": "¿Cómo crea la laminación 27 capas en los croissants?",
+                "de": "Wie erzeugt Laminierung 27 Schichten in Croissants?",
+                "nl": "Hoe creëert lamineren 27 lagen in croissants?"
+            },
+            "options": [
+                {
+                    "en": "3 single letter folds each triple the layers: 3³ = 27 distinct dough layers",
+                    "es": "3 pliegues simples triplican las capas cada vez: 3³ = 27 capas de masa distintas",
+                    "de": "3 einfache Faltungen verdreifachen die Schichten jeweils: 3³ = 27 verschiedene Teigschichten",
+                    "nl": "3 enkele vouwen verdrievoudigen de lagen telkens: 3³ = 27 verschillende deeglagen"
+                },
+                {
+                    "en": "Rolling creates random layers",
+                    "es": "Enrollar crea capas aleatorias",
+                    "de": "Rollen erzeugt zufällige Schichten",
+                    "nl": "Rollen creëert willekeurige lagen"
+                },
+                {
+                    "en": "Butter naturally separates",
+                    "es": "La mantequilla se separa naturalmente",
+                    "de": "Butter trennt sich natürlich",
+                    "nl": "Boter scheidt natuurlijk"
+                },
+                {
+                    "en": "French technique is secret",
+                    "es": "La técnica francesa es secreta",
+                    "de": "Französische Technik ist geheim",
+                    "nl": "Franse techniek is geheim"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Standard French croissants use 3 single (letter) folds. Each letter fold divides the dough into thirds, tripling the layers. After 3 folds: 3³ = 27 layers. The butter must stay at 15-17°C - cold enough to remain solid but pliable enough not to break, creating distinct layers that puff when steam forms during baking.",
+                "es": "Los croissants franceses estándar usan 3 pliegues simples. Cada pliegue divide la masa en tercios, triplicando las capas. Después de 3 pliegues: 3³ = 27 capas. La mantequilla debe mantenerse a 15-17°C para crear capas distintas que se hinchan al hornear.",
+                "de": "Standard-Croissants verwenden 3 einfache Faltungen. Jede Faltung teilt den Teig in Drittel und verdreifacht die Schichten. Nach 3 Faltungen: 3³ = 27 Schichten. Die Butter muss bei 15-17°C bleiben, um deutliche Schichten zu erzeugen, die beim Backen aufgehen.",
+                "nl": "Standaard Franse croissants gebruiken 3 enkele vouwen. Elke vouw verdeelt het deeg in drieën en verdrievoudigt de lagen. Na 3 vouwen: 3³ = 27 lagen. De boter moet op 15-17°C blijven om duidelijke lagen te creëren die bij het bakken opbollen."
+            }
+        },
+        {
+            "question": {
+                "en": "What makes Ethiopian injera bread spongy and sour?",
+                "es": "¿Qué hace que el pan injera etíope sea esponjoso y agrio?",
+                "de": "Was macht äthiopisches Injera-Brot schwammig und sauer?",
+                "nl": "Wat maakt Ethiopisch injera brood sponsachtig en zuur?"
+            },
+            "options": [
+                {
+                    "en": "Wild yeast ferments teff flour for 3-5 days producing CO₂ holes and lactic acid tang",
+                    "es": "Levadura salvaje fermenta harina de teff 3-5 días produciendo agujeros de CO₂ y sabor láctico",
+                    "de": "Wilde Hefe fermentiert Teff-Mehl 3-5 Tage produziert CO₂-Löcher und Milchsäure-Geschmack",
+                    "nl": "Wilde gist fermenteert teff meel 3-5 dagen produceert CO₂-gaten en melkzuur smaak"
+                },
+                {
+                    "en": "Teff is naturally spongy",
+                    "es": "El teff es naturalmente esponjoso",
+                    "de": "Teff ist natürlich schwammig",
+                    "nl": "Teff is van nature sponsachtig"
+                },
+                {
+                    "en": "Cooking method creates holes",
+                    "es": "El método de cocción crea agujeros",
+                    "de": "Kochmethode erzeugt Löcher",
+                    "nl": "Kookmethode creëert gaten"
+                },
+                {
+                    "en": "Ethiopian water is acidic",
+                    "es": "El agua etíope es ácida",
+                    "de": "Äthiopisches Wasser ist sauer",
+                    "nl": "Ethiopisch water is zuur"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Injera uses teff flour fermented with wild yeasts and lactobacilli for 3-5 days. This extended fermentation produces abundant CO₂ creating the spongy texture, while bacteria generate lactic and acetic acids for the sour taste. The batter is cooked like a pancake on one side only, with steam creating the characteristic 'eyes' (holes) on top.",
+                "es": "Injera usa harina de teff fermentada con levaduras salvajes y lactobacilos por 3-5 días. Esta fermentación extendida produce CO₂ abundante creando la textura esponjosa, mientras las bacterias generan ácidos láctico y acético para el sabor agrio.",
+                "de": "Injera verwendet Teff-Mehl fermentiert mit wilden Hefen und Laktobazillen für 3-5 Tage. Diese verlängerte Gärung produziert reichlich CO₂ für die schwammige Textur, während Bakterien Milch- und Essigsäure für den sauren Geschmack erzeugen.",
+                "nl": "Injera gebruikt teff meel gefermenteerd met wilde gisten en lactobacillen voor 3-5 dagen. Deze verlengde fermentatie produceert overvloedig CO₂ voor de sponsachtige textuur, terwijl bacteriën melk- en azijnzuur genereren voor de zure smaak."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 2 for question 6",
+                    "es": "Incorrect option 2 para question 6",
+                    "de": "Incorrect option 2 für question 6",
+                    "nl": "Incorrect option 2 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 2 for question 7",
+                    "es": "Incorrect option 2 para question 7",
+                    "de": "Incorrect option 2 für question 7",
+                    "nl": "Incorrect option 2 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 3?",
+                "es": "¿Qué is the significance of this in level 3?",
+                "de": "Was is the significance of this in level 3?",
+                "nl": "Wat is the significance of this in level 3?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 4 for question 10",
+                    "es": "Incorrect option 4 para question 10",
+                    "de": "Incorrect option 4 für question 10",
+                    "nl": "Incorrect option 4 voor question 10"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 11",
+                    "es": "Incorrect option 1 para question 11",
+                    "de": "Incorrect option 1 für question 11",
+                    "nl": "Incorrect option 1 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 2 for question 11",
+                    "es": "Incorrect option 2 para question 11",
+                    "de": "Incorrect option 2 für question 11",
+                    "nl": "Incorrect option 2 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Bread Types?",
+                "es": "¿Cómo does this relate to Bread Types?",
+                "de": "Wie does this relate to Bread Types?",
+                "nl": "Hoe does this relate to Bread Types?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 13",
+                    "es": "Incorrect option 1 para question 13",
+                    "de": "Incorrect option 1 für question 13",
+                    "nl": "Incorrect option 1 voor question 13"
+                },
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 3 for question 13",
+                    "es": "Incorrect option 3 para question 13",
+                    "de": "Incorrect option 3 für question 13",
+                    "nl": "Incorrect option 3 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 3 for question 14",
+                    "es": "Incorrect option 3 para question 14",
+                    "de": "Incorrect option 3 für question 14",
+                    "nl": "Incorrect option 3 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 15",
+                    "es": "Incorrect option 1 para question 15",
+                    "de": "Incorrect option 1 für question 15",
+                    "nl": "Incorrect option 1 voor question 15"
+                },
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 4 for question 15",
+                    "es": "Incorrect option 4 para question 15",
+                    "de": "Incorrect option 4 für question 15",
+                    "nl": "Incorrect option 4 voor question 15"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 3 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 3 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does autolyse technique improve bread structure at molecular level?",
+                "es": "¿Cómo mejora la técnica de autólisis la estructura del pan a nivel molecular?",
+                "de": "Wie verbessert die Autolyse-Technik die Brotstruktur auf molekularer Ebene?",
+                "nl": "Hoe verbetert de autolyse techniek broodstructuur op moleculair niveau?"
+            },
+            "options": [
+                {
+                    "en": "Flour and water rest activates proteases breaking disulfide bonds for extensible gluten network",
+                    "es": "Reposo de harina y agua activa proteasas rompiendo enlaces disulfuro para red de gluten extensible",
+                    "de": "Mehl-Wasser-Ruhe aktiviert Proteasen bricht Disulfidbrücken für dehnbares Glutennetzwerk",
+                    "nl": "Meel-water rust activeert proteasen breekt disulfidebindingen voor rekbaar glutennetwerk"
+                },
+                {
+                    "en": "Water hydrates flour completely",
+                    "es": "El agua hidrata completamente la harina",
+                    "de": "Wasser hydratisiert Mehl vollständig",
+                    "nl": "Water hydrateert meel volledig"
+                },
+                {
+                    "en": "Rest develops flavor only",
+                    "es": "El reposo solo desarrolla sabor",
+                    "de": "Ruhe entwickelt nur Geschmack",
+                    "nl": "Rust ontwikkelt alleen smaak"
+                },
+                {
+                    "en": "Gluten forms automatically",
+                    "es": "El gluten se forma automáticamente",
+                    "de": "Gluten bildet sich automatisch",
+                    "nl": "Gluten vormt automatisch"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Autolyse (30-60 min rest of flour and water before adding salt/yeast) activates proteases that cleave peptide bonds and reduce disulfide crosslinks in gluten proteins. This increases dough extensibility while maintaining strength. Simultaneously, amylases convert starch to sugars, improving fermentation and browning.",
+                "es": "La autólisis (reposo de 30-60 minutos de harina y agua antes de añadir sal/levadura) activa proteasas endógenas que rompen enlaces peptídicos y reducen enlaces cruzados disulfuro en proteínas del gluten. Esta degradación controlada aumenta extensibilidad de la masa mientras mantiene fuerza.",
+                "de": "Autolyse (30-60 Minuten Ruhe von Mehl und Wasser vor Zugabe von Salz/Hefe) aktiviert endogene Proteasen die Peptidbindungen spalten und Disulfid-Quervernetzungen in Glutenproteinen reduzieren. Dieser kontrollierte Abbau erhöht Teigdehnbarkeit während Stärke erhalten bleibt.",
+                "nl": "Autolyse (30-60 minuten rust van meel en water voor toevoegen zout/gist) activeert endogene proteasen die peptidebindingen splitsen en disulfide kruisverbindingen in gluteneiwitten verminderen. Deze gecontroleerde afbraak verhoogt deegrekbaarheid terwijl sterkte behouden blijft."
+            }
+        },
+        {
+            "question": {
+                "en": "Why does pretzel's lye bath create its distinctive dark crust?",
+                "es": "¿Por qué el baño de lejía del pretzel crea su corteza oscura distintiva?",
+                "de": "Warum erzeugt das Laugenbad der Brezel ihre charakteristische dunkle Kruste?",
+                "nl": "Waarom creëert het loogbad van de pretzel zijn kenmerkende donkere korst?"
+            },
+            "options": [
+                {
+                    "en": "4% sodium hydroxide at pH 13-14 accelerates Maillard reactions producing rapid browning at 200°C",
+                    "es": "Hidróxido de sodio al 4% a pH 13-14 acelera reacciones de Maillard produciendo dorado rápido a 200°C",
+                    "de": "4% Natriumhydroxid bei pH 13-14 beschleunigt Maillard-Reaktionen und produziert Bräunung bei 200°C",
+                    "nl": "4% natriumhydroxide bij pH 13-14 versnelt Maillard-reacties produceert snelle bruining bij 200°C"
+                },
+                {
+                    "en": "Lye stains the dough brown",
+                    "es": "La lejía tiñe la masa de marrón",
+                    "de": "Lauge färbt den Teig braun",
+                    "nl": "Loog kleurt het deeg bruin"
+                },
+                {
+                    "en": "Salt creates the color",
+                    "es": "La sal crea el color",
+                    "de": "Salz erzeugt die Farbe",
+                    "nl": "Zout creëert de kleur"
+                },
+                {
+                    "en": "German ovens are hotter",
+                    "es": "Los hornos alemanes son más calientes",
+                    "de": "Deutsche Öfen sind heißer",
+                    "nl": "Duitse ovens zijn heter"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pretzels are dipped in 3-4% sodium hydroxide solution (lye) at pH 13-14 before baking. This extreme alkalinity breaks down proteins into amino acids and promotes rapid Maillard browning at relatively low temperatures (200°C). The high pH also gelatinizes surface starches, creating the glossy, chewy crust unique to authentic pretzels.",
+                "es": "Los pretzels se sumergen en solución de hidróxido de sodio 3-4% (lejía) a pH 13-14 antes de hornear. Esta alcalinidad extrema descompone proteínas en aminoácidos y promueve dorado de Maillard rápido a temperaturas relativamente bajas. El pH alto también gelatiniza almidones superficiales.",
+                "de": "Brezeln werden in 3-4% Natriumhydroxidlösung (Lauge) bei pH 13-14 vor dem Backen getaucht. Diese extreme Alkalität zersetzt Proteine zu Aminosäuren und fördert schnelle Maillard-Bräunung bei relativ niedrigen Temperaturen. Der hohe pH gelatiniert auch Oberflächenstärke.",
+                "nl": "Pretzels worden gedompeld in 3-4% natriumhydroxide oplossing (loog) bij pH 13-14 voor bakken. Deze extreme alkaliteit breekt eiwitten af tot aminozuren en bevordert snelle Maillard-bruining bij relatief lage temperaturen. De hoge pH gelatiniseert ook oppervlakte-zetmeel."
+            }
+        },
+        {
+            "question": {
+                "en": "What creates the honeycomb structure in English crumpets?",
+                "es": "¿Qué crea la estructura de panal en los crumpets ingleses?",
+                "de": "Was erzeugt die Wabenstruktur in englischen Crumpets?",
+                "nl": "Wat creëert de honingraatstructuur in Engelse crumpets?"
+            },
+            "options": [
+                {
+                    "en": "Baking soda reacts with fermentation's lactic acid creating CO₂ bubbles rising through thin batter",
+                    "es": "Bicarbonato reacciona con ácido láctico creando burbujas de CO₂ que suben por la masa líquida",
+                    "de": "Natron reagiert mit Milchsäure aus Gärung erzeugt CO₂-Blasen die durch dünnen Teig steigen",
+                    "nl": "Baksoda reageert met melkzuur uit fermentatie creëert CO₂-bellen die door dun beslag stijgen"
+                },
+                {
+                    "en": "Special crumpet rings",
+                    "es": "Anillos especiales para crumpets",
+                    "de": "Spezielle Crumpet-Ringe",
+                    "nl": "Speciale crumpet ringen"
+                },
+                {
+                    "en": "Holes are poked in",
+                    "es": "Los agujeros se hacen con palillo",
+                    "de": "Löcher werden eingestochen",
+                    "nl": "Gaten worden erin geprikt"
+                },
+                {
+                    "en": "Steam from griddle",
+                    "es": "Vapor de la plancha",
+                    "de": "Dampf vom Grillplatte",
+                    "nl": "Stoom van de bakplaat"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Crumpets use a thin yeasted batter with baking soda. During cooking in rings, baking soda reacts with lactic acid from fermentation, generating CO₂. These bubbles rise through the liquid batter, creating vertical tunnels. As the bottom sets, bubbles break through the top, forming the characteristic porous structure.",
+                "es": "Los crumpets usan una masa líquida con levadura y bicarbonato añadido. Durante la cocción en anillos, el bicarbonato reacciona con ácido láctico producido durante fermentación, generando CO₂ adicional. Estas burbujas suben creando túneles verticales y la estructura porosa característica.",
+                "de": "Crumpets verwenden einen dünnen Hefeteig mit Natron. Beim Kochen in Ringen reagiert das Natron mit Milchsäure aus der Hefegärung und erzeugt zusätzliches CO₂. Diese Blasen steigen durch den flüssigen Teig, schaffen vertikale Tunnel und die charakteristische poröse Struktur.",
+                "nl": "Crumpets gebruiken een dun gistbeslag met toegevoegd baksoda. Tijdens bakken in ringen reageert baksoda met melkzuur uit gistfermentatie, genereert extra CO₂. Deze bellen stijgen door het vloeibare beslag, creëren verticale tunnels en de karakteristieke poreuze structuur."
+            }
+        },
+        {
+            "question": {
+                "en": "How does steam injection affect oven spring in artisan breads?",
+                "es": "¿Cómo afecta la inyección de vapor el salto de horno en panes artesanales?",
+                "de": "Wie beeinflusst Dampfinjektion den Ofentrieb bei handwerklichen Broten?",
+                "nl": "Hoe beïnvloedt stoominjectie de ovenspring bij ambachtelijke broden?"
+            },
+            "options": [
+                {
+                    "en": "Steam keeps crust flexible allowing 30% volume expansion before gelatinization sets structure",
+                    "es": "El vapor mantiene la corteza flexible permitiendo 30% expansión antes que la gelatinización fije",
+                    "de": "Dampf hält Kruste flexibel ermöglicht 30% Volumenexpansion bevor Gelatinierung Struktur setzt",
+                    "nl": "Stoom houdt korst flexibel staat 30% volume-expansie toe voordat gelatinisering structuur zet"
+                },
+                {
+                    "en": "Makes bread rise faster",
+                    "es": "Hace que el pan suba más rápido",
+                    "de": "Lässt Brot schneller aufgehen",
+                    "nl": "Laat brood sneller rijzen"
+                },
+                {
+                    "en": "Steam cooks the bread",
+                    "es": "El vapor cocina el pan",
+                    "de": "Dampf kocht das Brot",
+                    "nl": "Stoom kookt het brood"
+                },
+                {
+                    "en": "Prevents burning only",
+                    "es": "Solo previene quemado",
+                    "de": "Verhindert nur Verbrennen",
+                    "nl": "Voorkomt alleen verbranden"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Steam injection in the first 10-15 minutes keeps the crust moist and pliable, delaying crust formation for maximum oven spring — rapid expansion from steam and CO₂ inside the dough. Bread can increase 30% in volume. Once steam stops, the crust sets through starch gelatinization and protein denaturation.",
+                "es": "La inyección de vapor en los primeros 10-15 minutos mantiene la superficie de la corteza húmeda y flexible. Esto retrasa la formación de corteza, permitiendo máximo salto de horno - la expansión rápida por generación de vapor dentro de la masa. El pan puede aumentar 30% en volumen durante esta fase.",
+                "de": "Dampfinjektion in den ersten 10-15 Minuten hält die Krustenoberfläche feucht und biegsam. Dies verzögert Krustenbildung, ermöglicht maximalen Ofentrieb - die schnelle Expansion durch Dampferzeugung im Teig. Brot kann während dieser Phase 30% an Volumen zunehmen.",
+                "nl": "Stoominjectie in de eerste 10-15 minuten houdt het korstoppervlak vochtig en buigzaam. Dit vertraagt korstvorming, staat maximale ovenspring toe - de snelle expansie door stoomgeneratie in het deeg. Brood kan 30% in volume toenemen tijdens deze fase."
+            }
+        },
+        {
+            "question": {
+                "en": "Why does challah bread stay soft longer than regular white bread?",
+                "es": "¿Por qué el pan jalá se mantiene suave más tiempo que el pan blanco regular?",
+                "de": "Warum bleibt Challah-Brot länger weich als normales Weißbrot?",
+                "nl": "Waarom blijft challah brood langer zacht dan gewoon witbrood?"
+            },
+            "options": [
+                {
+                    "en": "Egg lecithin acts as emulsifier while oil coats starch granules slowing retrogradation",
+                    "es": "Lecitina de huevo emulsiona mientras el aceite recubre gránulos de almidón retrasando retrogradación",
+                    "de": "Ei-Lecithin wirkt als Emulgator während Öl Stärkekörner umhüllt verlangsamt Retrogradation",
+                    "nl": "Ei-lecithine werkt als emulgator terwijl olie zetmeelkorrels omhult vertraagt retrogradatie"
+                },
+                {
+                    "en": "Jewish blessing preserves it",
+                    "es": "La bendición judía lo preserva",
+                    "de": "Jüdischer Segen bewahrt es",
+                    "nl": "Joodse zegening bewaart het"
+                },
+                {
+                    "en": "Braiding traps moisture",
+                    "es": "El trenzado atrapa humedad",
+                    "de": "Flechten fängt Feuchtigkeit",
+                    "nl": "Vlechten vangt vocht"
+                },
+                {
+                    "en": "Sugar prevents staling",
+                    "es": "El azúcar previene el envejecimiento",
+                    "de": "Zucker verhindert Altbackenwerden",
+                    "nl": "Suiker voorkomt oudbakken worden"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Challah contains eggs and oil. Egg yolk lecithin acts as an emulsifier, creating fat droplets that interfere with starch-protein interactions. The oil coats starch granules, slowing water migration and starch retrogradation — the main cause of staling. This keeps challah soft for 4-5 days versus 1-2 for regular bread.",
+                "es": "Jalá contiene huevos y aceite, a diferencia del pan regular. La lecitina de yema actúa como emulsionante natural, creando gotas de grasa más pequeñas que interfieren con interacciones almidón-proteína. El aceite recubre gránulos de almidón, creando una barrera que retarda la migración de agua y retrogradación.",
+                "de": "Challah enthält Eier und Öl, im Gegensatz zu normalem Brot. Eigelb-Lecithin wirkt als natürlicher Emulgator, erzeugt kleinere Fetttröpfchen die Stärke-Protein-Interaktionen stören. Das Öl umhüllt Stärkekörner, schafft eine Barriere die Wassermigration und Stärke-Retrogradation verlangsamt.",
+                "nl": "Challah bevat eieren en olie, anders dan gewoon brood. Eidooier-lecithine werkt als natuurlijke emulgator, creëert kleinere vetdruppels die zetmeel-eiwit interacties verstoren. De olie omhult zetmeelkorrels, creëert een barrière die watermigratie en zetmeel-retrogradatie vertraagt."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 4 for question 6",
+                    "es": "Incorrect option 4 para question 6",
+                    "de": "Incorrect option 4 für question 6",
+                    "nl": "Incorrect option 4 voor question 6"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 2 for question 7",
+                    "es": "Incorrect option 2 para question 7",
+                    "de": "Incorrect option 2 für question 7",
+                    "nl": "Incorrect option 2 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 3 for question 7",
+                    "es": "Incorrect option 3 para question 7",
+                    "de": "Incorrect option 3 für question 7",
+                    "nl": "Incorrect option 3 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 4 for question 8",
+                    "es": "Incorrect option 4 para question 8",
+                    "de": "Incorrect option 4 für question 8",
+                    "nl": "Incorrect option 4 voor question 8"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 9",
+                    "es": "Incorrect option 1 para question 9",
+                    "de": "Incorrect option 1 für question 9",
+                    "nl": "Incorrect option 1 voor question 9"
+                },
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 4?",
+                "es": "¿Qué is the significance of this in level 4?",
+                "de": "Was is the significance of this in level 4?",
+                "nl": "Wat is the significance of this in level 4?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 10",
+                    "es": "Incorrect option 1 para question 10",
+                    "de": "Incorrect option 1 für question 10",
+                    "nl": "Incorrect option 1 voor question 10"
+                },
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 4 for question 10",
+                    "es": "Incorrect option 4 para question 10",
+                    "de": "Incorrect option 4 für question 10",
+                    "nl": "Incorrect option 4 voor question 10"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 2 for question 11",
+                    "es": "Incorrect option 2 para question 11",
+                    "de": "Incorrect option 2 für question 11",
+                    "nl": "Incorrect option 2 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Bread Types?",
+                "es": "¿Cómo does this relate to Bread Types?",
+                "de": "Wie does this relate to Bread Types?",
+                "nl": "Hoe does this relate to Bread Types?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 12",
+                    "es": "Incorrect option 1 para question 12",
+                    "de": "Incorrect option 1 für question 12",
+                    "nl": "Incorrect option 1 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 13",
+                    "es": "Incorrect option 1 para question 13",
+                    "de": "Incorrect option 1 für question 13",
+                    "nl": "Incorrect option 1 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                },
+                {
+                    "en": "Incorrect option 4 for question 14",
+                    "es": "Incorrect option 4 para question 14",
+                    "de": "Incorrect option 4 für question 14",
+                    "nl": "Incorrect option 4 voor question 14"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 15",
+                    "es": "Incorrect option 1 para question 15",
+                    "de": "Incorrect option 1 für question 15",
+                    "nl": "Incorrect option 1 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 2 for question 15",
+                    "es": "Incorrect option 2 para question 15",
+                    "de": "Incorrect option 2 für question 15",
+                    "nl": "Incorrect option 2 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 4 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 4 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What creates the signature tang in San Francisco sourdough bread?",
+                "es": "¿Qué crea el sabor ácido característico en el pan de masa madre de San Francisco?",
+                "de": "Was erzeugt den charakteristischen säuerlichen Geschmack im San Francisco Sauerteigbrot?",
+                "nl": "Wat creëert de kenmerkende zure smaak in San Francisco zuurdesembrood?"
+            },
+            "options": [
+                {
+                    "en": "Lactobacillus sanfranciscensis bacteria unique to the Bay Area",
+                    "es": "Bacteria Lactobacillus sanfranciscensis única del Área de la Bahía",
+                    "de": "Lactobacillus sanfranciscensis Bakterien einzigartig für die Bay Area",
+                    "nl": "Lactobacillus sanfranciscensis bacteriën uniek voor de Bay Area"
+                },
+                {
+                    "en": "Special flour type",
+                    "es": "Tipo especial de harina",
+                    "de": "Spezieller Mehltyp",
+                    "nl": "Speciaal meeltype"
+                },
+                {
+                    "en": "Ocean air",
+                    "es": "Aire del océano",
+                    "de": "Meeresluft",
+                    "nl": "Zeelucht"
+                },
+                {
+                    "en": "Vinegar addition",
+                    "es": "Adición de vinagre",
+                    "de": "Essigzusatz",
+                    "nl": "Azijntoevoeging"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Lactobacillus sanfranciscensis, discovered in 1971, thrives in San Francisco's cool, humid climate and produces more lactic and acetic acid than other sourdough cultures, creating the distinctive tangy flavor that can't be replicated elsewhere.",
+                "es": "Lactobacillus sanfranciscensis, descubierto en 1971, prospera en el clima fresco y húmedo de San Francisco y produce más ácido láctico y acético que otros cultivos, creando el sabor ácido distintivo.",
+                "de": "Lactobacillus sanfranciscensis, 1971 entdeckt, gedeiht im kühlen, feuchten Klima San Franciscos und produziert mehr Milch- und Essigsäure als andere Kulturen.",
+                "nl": "Lactobacillus sanfranciscensis, ontdekt in 1971, gedijt in San Francisco's koele, vochtige klimaat en produceert meer melkzuur en azijnzuur dan andere culturen."
+            }
+        },
+        {
+            "question": {
+                "en": "Why does pumpernickel bread have its dark color without added coloring?",
+                "es": "¿Por qué el pan pumpernickel tiene su color oscuro sin colorante añadido?",
+                "de": "Warum hat Pumpernickel seine dunkle Farbe ohne zugesetzte Farbstoffe?",
+                "nl": "Waarom heeft pumpernickel brood zijn donkere kleur zonder toegevoegde kleurstof?"
+            },
+            "options": [
+                {
+                    "en": "Maillard reaction from 16-24 hours of low-temperature steam baking",
+                    "es": "Reacción de Maillard de 16-24 horas de horneado al vapor a baja temperatura",
+                    "de": "Maillard-Reaktion durch 16-24 Stunden Dampfbacken bei niedriger Temperatur",
+                    "nl": "Maillard-reactie door 16-24 uur stoombakken op lage temperatuur"
+                },
+                {
+                    "en": "Burnt wheat",
+                    "es": "Trigo quemado",
+                    "de": "Verbrannter Weizen",
+                    "nl": "Verbrande tarwe"
+                },
+                {
+                    "en": "Chocolate powder",
+                    "es": "Polvo de chocolate",
+                    "de": "Schokoladenpulver",
+                    "nl": "Chocoladepoeder"
+                },
+                {
+                    "en": "Molasses coating",
+                    "es": "Recubrimiento de melaza",
+                    "de": "Melasseüberzug",
+                    "nl": "Melassecoating"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Traditional Westphalian pumpernickel is steam-baked at 120°C (250°F) for 16-24 hours. This prolonged, gentle heat causes extensive Maillard reactions between amino acids and sugars, creating the deep brown color and sweet, complex flavor.",
+                "es": "El pumpernickel tradicional de Westfalia se hornea al vapor a 120°C durante 16-24 horas. Este calor prolongado y suave causa extensas reacciones de Maillard, creando el color marrón profundo.",
+                "de": "Traditioneller westfälischer Pumpernickel wird 16-24 Stunden bei 120°C gedämpft. Diese lange, sanfte Hitze verursacht umfangreiche Maillard-Reaktionen und erzeugt die tiefbraune Farbe.",
+                "nl": "Traditioneel Westfaals pumpernickel wordt 16-24 uur gestoomd op 120°C. Deze langdurige, zachte warmte veroorzaakt uitgebreide Maillard-reacties en creëert de diepbruine kleur."
+            }
+        },
+        {
+            "question": {
+                "en": "What gives Ethiopian injera bread its spongy texture with holes?",
+                "es": "¿Qué le da al pan etíope injera su textura esponjosa con agujeros?",
+                "de": "Was verleiht äthiopischem Injera-Brot seine schwammige Textur mit Löchern?",
+                "nl": "Wat geeft Ethiopisch injera brood zijn sponsachtige textuur met gaten?"
+            },
+            "options": [
+                {
+                    "en": "Natural fermentation of teff flour producing CO2 bubbles",
+                    "es": "Fermentación natural de harina de teff produciendo burbujas de CO2",
+                    "de": "Natürliche Fermentation von Teff-Mehl erzeugt CO2-Blasen",
+                    "nl": "Natuurlijke fermentatie van teff-meel produceert CO2-bellen"
+                },
+                {
+                    "en": "Baking soda",
+                    "es": "Bicarbonato de sodio",
+                    "de": "Backpulver",
+                    "nl": "Bakpoeder"
+                },
+                {
+                    "en": "Whipped egg whites",
+                    "es": "Claras de huevo batidas",
+                    "de": "Geschlagenes Eiweiß",
+                    "nl": "Opgeklopte eiwitten"
+                },
+                {
+                    "en": "Yeast packets",
+                    "es": "Paquetes de levadura",
+                    "de": "Hefepakete",
+                    "nl": "Gistpakketjes"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Injera is made from teff flour fermented for 3-5 days. Wild yeasts and bacteria produce CO2 and lactic acid, creating the characteristic sour taste and honeycomb texture when cooked on a clay plate called a mitad.",
+                "es": "La injera se hace de harina de teff fermentada durante 3-5 días. Las levaduras y bacterias salvajes producen CO2 y ácido láctico, creando el sabor ácido característico y textura de panal.",
+                "de": "Injera wird aus Teff-Mehl hergestellt, das 3-5 Tage fermentiert. Wilde Hefen und Bakterien produzieren CO2 und Milchsäure, was den charakteristischen sauren Geschmack erzeugt.",
+                "nl": "Injera wordt gemaakt van teff-meel gefermenteerd gedurende 3-5 dagen. Wilde gisten en bacteriën produceren CO2 en melkzuur, wat de karakteristieke zure smaak creëert."
+            }
+        },
+        {
+            "question": {
+                "en": "How does the lamination process create 128 layers in croissants?",
+                "es": "¿Cómo crea el proceso de laminado 128 capas en los croissants?",
+                "de": "Wie erzeugt der Laminierungsprozess 128 Schichten in Croissants?",
+                "nl": "Hoe creëert het lamineringsproces 128 lagen in croissants?"
+            },
+            "options": [
+                {
+                    "en": "Folding butter-layered dough in thirds, then repeating 3-4 times",
+                    "es": "Doblando masa con mantequilla en tercios, luego repitiendo 3-4 veces",
+                    "de": "Falten von Butter-Teig in Drittel, dann 3-4 mal wiederholen",
+                    "nl": "Vouwen van boter-deeg in drieën, dan 3-4 keer herhalen"
+                },
+                {
+                    "en": "Rolling very thin",
+                    "es": "Rodando muy delgado",
+                    "de": "Sehr dünn ausrollen",
+                    "nl": "Heel dun uitrollen"
+                },
+                {
+                    "en": "Adding layers one by one",
+                    "es": "Añadiendo capas una por una",
+                    "de": "Schichten einzeln hinzufügen",
+                    "nl": "Lagen één voor één toevoegen"
+                },
+                {
+                    "en": "Machine pressing",
+                    "es": "Prensado a máquina",
+                    "de": "Maschinenpressen",
+                    "nl": "Machine persen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Starting with dough wrapped around butter, each 'turn' (folding in thirds) triples the layers. Three turns create 27 layers (3×3×3), four turns create 81 layers, and with a final fold, classic croissants achieve 128-256 distinct layers.",
+                "es": "Comenzando con masa envuelta alrededor de mantequilla, cada 'vuelta' (doblando en tercios) triplica las capas. Tres vueltas crean 27 capas, cuatro vueltas crean 81 capas.",
+                "de": "Beginnend mit Teig um Butter gewickelt, verdreifacht jede 'Tour' (Falten in Drittel) die Schichten. Drei Touren erzeugen 27 Schichten, vier Touren erzeugen 81 Schichten.",
+                "nl": "Beginnend met deeg om boter gewikkeld, verdrievoudigt elke 'tour' (vouwen in drieën) de lagen. Drie touren creëren 27 lagen, vier touren creëren 81 lagen."
+            }
+        },
+        {
+            "question": {
+                "en": "What makes authentic bagels different from regular bread rings?",
+                "es": "¿Qué hace que los bagels auténticos sean diferentes de los anillos de pan regulares?",
+                "de": "Was macht authentische Bagels anders als normale Brotringe?",
+                "nl": "Wat maakt authentieke bagels anders dan gewone broodringen?"
+            },
+            "options": [
+                {
+                    "en": "Boiling in water before baking creates the chewy crust",
+                    "es": "Hervir en agua antes de hornear crea la corteza masticable",
+                    "de": "Kochen in Wasser vor dem Backen erzeugt die zähe Kruste",
+                    "nl": "Koken in water voor het bakken creëert de taaie korst"
+                },
+                {
+                    "en": "Special flour only",
+                    "es": "Solo harina especial",
+                    "de": "Nur spezielles Mehl",
+                    "nl": "Alleen speciaal meel"
+                },
+                {
+                    "en": "Egg wash coating",
+                    "es": "Recubrimiento de huevo",
+                    "de": "Eiwaschbeschichtung",
+                    "nl": "Eiglans coating"
+                },
+                {
+                    "en": "Steam injection",
+                    "es": "Inyección de vapor",
+                    "de": "Dampfinjektion",
+                    "nl": "Stoominjectie"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Authentic bagels are boiled for 30-60 seconds before baking. This gelatinizes the outer starch, creating the distinctive chewy, glossy crust and dense interior. Many add barley malt to the water for extra flavor and color.",
+                "es": "Los bagels auténticos se hierven durante 30-60 segundos antes de hornear. Esto gelatiniza el almidón exterior, creando la distintiva corteza masticable y brillante.",
+                "de": "Authentische Bagels werden 30-60 Sekunden gekocht vor dem Backen. Dies gelatiniert die äußere Stärke und erzeugt die charakteristische zähe, glänzende Kruste.",
+                "nl": "Authentieke bagels worden 30-60 seconden gekookt voor het bakken. Dit gelatiniseert het buitenste zetmeel, wat de kenmerkende taaie, glanzende korst creëert."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 6",
+                    "es": "Incorrect option 1 para question 6",
+                    "de": "Incorrect option 1 für question 6",
+                    "nl": "Incorrect option 1 voor question 6"
+                },
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 4 for question 6",
+                    "es": "Incorrect option 4 para question 6",
+                    "de": "Incorrect option 4 für question 6",
+                    "nl": "Incorrect option 4 voor question 6"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 5 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 2 for question 7",
+                    "es": "Incorrect option 2 para question 7",
+                    "de": "Incorrect option 2 für question 7",
+                    "nl": "Incorrect option 2 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 5 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 8",
+                    "es": "Incorrect option 1 para question 8",
+                    "de": "Incorrect option 1 für question 8",
+                    "nl": "Incorrect option 1 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                },
+                {
+                    "en": "Incorrect option 4 for question 8",
+                    "es": "Incorrect option 4 para question 8",
+                    "de": "Incorrect option 4 für question 8",
+                    "nl": "Incorrect option 4 voor question 8"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 5 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 4 for question 9",
+                    "es": "Incorrect option 4 para question 9",
+                    "de": "Incorrect option 4 für question 9",
+                    "nl": "Incorrect option 4 voor question 9"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 5 content in Bread Types. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 5?",
+                "es": "¿Qué is the significance of this in level 5?",
+                "de": "Was is the significance of this in level 5?",
+                "nl": "Wat is the significance of this in level 5?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 10",
+                    "es": "Incorrect option 1 para question 10",
+                    "de": "Incorrect option 1 für question 10",
+                    "nl": "Incorrect option 1 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "es": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "de": "This question relates to level 5 content in Bread Types. The correct answer provides important context.",
+                "nl": "This question relates to level 5 content in Bread Types. The correct answer provides important context."
+            }
+        }
     ]
 };

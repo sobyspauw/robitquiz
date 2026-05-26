@@ -1,4108 +1,4107 @@
 // Pterosaurs - level6
 // Total questions: 100
-// Quality issues fixed: 2026-03-03T10:19:02.052Z
 
 module.exports = {
     questions: [
-            {
-                    "question": {
-                            "en": "What unique respiratory system did pterosaurs have?",
-                            "es": "¿Qué sistema respiratorio único tenían los pterosaurios?",
-                            "de": "Welches einzigartige Atmungssystem hatten Flugsaurier?",
-                            "nl": "Welk uniek ademhalingssysteem hadden pterosauriërs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Air sacs connected to hollow bones like modern birds",
-                                    "es": "Sacos aéreos conectados a huesos huecos como aves modernas",
-                                    "de": "Luftsäcke verbunden mit hohlen Knochen wie moderne Vögel",
-                                    "nl": "Luchtzakken verbonden met holle botten zoals moderne vogels"
-                            },
-                            {
-                                    "en": "Gills for underwater breathing",
-                                    "es": "Branquias para respiración subacuática",
-                                    "de": "Kiemen für Unterwasseratmung",
-                                    "nl": "Kieuwen voor onderwater ademen"
-                            },
-                            {
-                                    "en": "Simple lungs like lizards",
-                                    "es": "Pulmones simples como lagartos",
-                                    "de": "Einfache Lungen wie Echsen",
-                                    "nl": "Simpele longen zoals hagedissen"
-                            },
-                            {
-                                    "en": "Skin breathing like amphibians",
-                                    "es": "Respiración cutánea como anfibios",
-                                    "de": "Hautatmung wie Amphibien",
-                                    "nl": "Huidademhaling zoals amfibieën"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Pterosaurs had a complex respiratory system with air sacs extending into their bones, making them extremely light yet strong. This system, similar to modern birds, allowed efficient oxygen exchange during flight and helped regulate body temperature.",
-                            "es": "Los pterosaurios tenían un sistema respiratorio complejo con sacos aéreos que se extendían en sus...",
-                            "de": "Flugsaurier hatten ein komplexes Atmungssystem mit Luftsäcken, die sich in ihre Knochen erstreckt...",
-                            "nl": "Pterosauriërs hadden een complex ademhalingssysteem met luchtzakken die zich uitstrekten in hun b..."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How did Quetzalcoatlus launch into flight despite weighing 250kg?",
-                            "es": "¿Cómo despegaba Quetzalcoatlus al vuelo pesando 250kg?",
-                            "de": "Wie startete Quetzalcoatlus trotz 250kg Gewicht in den Flug?",
-                            "nl": "Hoe lanceerde Quetzalcoatlus zich ondanks 250kg gewicht?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Quadrupedal vault using powerful forelimbs to catapult upward",
-                                    "es": "Salto cuadrúpedo usando extremidades delanteras poderosas para catapultarse",
-                                    "de": "Vierbeiniger Sprung mit kräftigen Vordergliedmaßen zum Katapultieren",
-                                    "nl": "Viervoetige sprong met krachtige voorpoten om omhoog te katapulteren"
-                            },
-                            {
-                                    "en": "Running takeoff like airplanes",
-                                    "es": "Despegue corriendo como aviones",
-                                    "de": "Laufender Start wie Flugzeuge",
-                                    "nl": "Rennende start zoals vliegtuigen"
-                            },
-                            {
-                                    "en": "Jumping from cliffs only",
-                                    "es": "Saltando solo desde acantilados",
-                                    "de": "Nur von Klippen springen",
-                                    "nl": "Alleen springen van kliffen"
-                            },
-                            {
-                                    "en": "Gliding from trees",
-                                    "es": "Planeando desde árboles",
-                                    "de": "Von Bäumen gleiten",
-                                    "nl": "Glijden vanaf bomen"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Quetzalcoatlus used a quadrupedal launch technique, crouching on all fours then explosively pushing off with its incredibly strong forelimbs. This generated enough force to launch its massive body directly into powered flight without needing a runway.",
-                            "es": "Quetzalcoatlus usaba una técnica de lanzamiento cuadrúpedo, agachándose en cuatro patas y luego e...",
-                            "de": "Quetzalcoatlus nutzte eine vierbeinige Starttechnik, hockte auf allen Vieren und stieß sich dann ...",
-                            "nl": "Quetzalcoatlus gebruikte een viervoetige lanceertechniek, hurkend op vier poten en zich dan explo..."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What was pycnofibers and their function in pterosaurs?",
-                            "es": "¿Qué eran las picnofibras y su función en pterosaurios?",
-                            "de": "Was waren Pycnofasern und ihre Funktion bei Flugsauriern?",
-                            "nl": "Wat waren pycnofibers en hun functie bij pterosauriërs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Hair-like filaments for insulation and aerodynamics",
-                                    "es": "Filamentos similares al pelo para aislamiento y aerodinámica",
-                                    "de": "Haarähnliche Filamente für Isolation und Aerodynamik",
-                                    "nl": "Haarachtige filamenten voor isolatie en aerodynamica"
-                            },
-                            {
-                                    "en": "Feathers for flight",
-                                    "es": "Plumas para volar",
-                                    "de": "Federn zum Fliegen",
-                                    "nl": "Veren voor vliegen"
-                            },
-                            {
-                                    "en": "Scales for protection",
-                                    "es": "Escamas para protección",
-                                    "de": "Schuppen zum Schutz",
-                                    "nl": "Schubben voor bescherming"
-                            },
-                            {
-                                    "en": "Bone structures",
-                                    "es": "Estructuras óseas",
-                                    "de": "Knochenstrukturen",
-                                    "nl": "Botstructuren"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Pycnofibers were hair-like structures covering pterosaur bodies, providing insulation for temperature regulation and possibly improving aerodynamics. Recent studies suggest they may have been colored, with some pterosaurs having striped or patterned pycnofibers.",
-                            "es": "Las picnofibras eran estructuras similares al pelo que cubrían los cuerpos de pterosaurios, propo...",
-                            "de": "Pycnofasern waren haarähnliche Strukturen, die Flugsaurierkörper bedeckten und Isolation für Temp...",
-                            "nl": "Pycnofibers waren haarachtige structuren die pterosauriërlichamen bedekten, isolatie boden voor t..."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How did pterosaur wing membranes differ from bat wings?",
-                            "es": "¿Cómo diferían las membranas alares de pterosaurios de las alas de murciélago?",
-                            "de": "Wie unterschieden sich Flugsaurier-Flügelmembranen von Fledermausflügeln?",
-                            "nl": "Hoe verschilden pterosauriër vleugelmembranen van vleermuisvleugels?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Reinforced with actinofibrils and attached to single elongated finger",
-                                    "es": "Reforzadas con actinofibrilos y unidas a un solo dedo alargado",
-                                    "de": "Mit Aktinofibrillen verstärkt und an einzelnem verlängertem Finger befestigt",
-                                    "nl": "Versterkt met actinofibrillen en bevestigd aan één verlengde vinger"
-                            },
-                            {
-                                    "en": "Stretched between all fingers",
-                                    "es": "Estiradas entre todos los dedos",
-                                    "de": "Zwischen allen Fingern gespannt",
-                                    "nl": "Gespannen tussen alle vingers"
-                            },
-                            {
-                                    "en": "Made of feathers",
-                                    "es": "Hechas de plumas",
-                                    "de": "Aus Federn gemacht",
-                                    "nl": "Gemaakt van veren"
-                            },
-                            {
-                                    "en": "Identical to bat wings",
-                                    "es": "Idénticas a las alas de murciélago",
-                                    "de": "Identisch mit Fledermausflügeln",
-                                    "nl": "Identiek aan vleermuisvleugels"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Pterosaur wing membranes were supported by a single hyper-elongated fourth finger and reinforced with microscopic fibers called actinofibrils, providing strength and elasticity. Unlike bats which use all fingers, this design allowed precise wing shape control.",
-                            "es": "Las membranas alares de pterosaurios estaban soportadas por un único cuarto dedo hiper-alargado y...",
-                            "de": "Flugsaurier-Flügelmembranen wurden von einem einzelnen, extrem verlängerten vierten Finger gestüt...",
-                            "nl": "Pterosauriër vleugelmembranen werden ondersteund door één hyper-verlengde vierde vinger en verste..."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What evidence suggests some pterosaurs were nocturnal?",
-                            "es": "¿Qué evidencia sugiere que algunos pterosaurios eran nocturnos?",
-                            "de": "Welche Beweise deuten darauf hin, dass einige Flugsaurier nachtaktiv waren?",
-                            "nl": "Welk bewijs suggereert dat sommige pterosauriërs nachtdieren waren?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Large eye sockets and scleral rings indicating night vision",
-                                    "es": "Grandes cuencas oculares y anillos esclerales indicando visión nocturna",
-                                    "de": "Große Augenhöhlen und Skleralringe die auf Nachtsicht hindeuten",
-                                    "nl": "Grote oogkassen en sclerale ringen die nachtzicht aangeven"
-                            },
-                            {
-                                    "en": "Small eyes",
-                                    "es": "Ojos pequeños",
-                                    "de": "Kleine Augen",
-                                    "nl": "Kleine ogen"
-                            },
-                            {
-                                    "en": "Dark coloration",
-                                    "es": "Coloración oscura",
-                                    "de": "Dunkle Färbung",
-                                    "nl": "Donkere kleuring"
-                            },
-                            {
-                                    "en": "Cave fossils",
-                                    "es": "Fósiles en cuevas",
-                                    "de": "Höhlenfossilien",
-                                    "nl": "Grot fossielen"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "Several pterosaur species had exceptionally large eye sockets relative to skull size and preserved scleral rings (eye bones) that indicate large pupils. These adaptations, similar to modern nocturnal birds, suggest they hunted at night or in low-light conditions.",
-                            "es": "Varias especies de pterosaurios tenían cuencas oculares excepcionalmente grandes relativas al tam...",
-                            "de": "Mehrere Flugsaurierarten hatten außergewöhnlich große Augenhöhlen im Verhältnis zur Schädelgröße ...",
-                            "nl": "Verschillende pterosauriërsoorten hadden uitzonderlijk grote oogkassen relatief tot schedelgroott..."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 6",
-                                    "es": "Correct answer for question 6",
-                                    "de": "Correct answer for question 6",
-                                    "nl": "Correct answer for question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 6",
-                                    "es": "Incorrect option 2 para question 6",
-                                    "de": "Incorrect option 2 für question 6",
-                                    "nl": "Incorrect option 2 voor question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 6",
-                                    "es": "Incorrect option 3 para question 6",
-                                    "de": "Incorrect option 3 für question 6",
-                                    "nl": "Incorrect option 3 voor question 6"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 6",
-                                    "es": "Incorrect option 4 para question 6",
-                                    "de": "Incorrect option 4 für question 6",
-                                    "nl": "Incorrect option 4 voor question 6"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 7",
-                                    "es": "Incorrect option 1 para question 7",
-                                    "de": "Incorrect option 1 für question 7",
-                                    "nl": "Incorrect option 1 voor question 7"
-                            },
-                            {
-                                    "en": "Correct answer for question 7",
-                                    "es": "Correct answer for question 7",
-                                    "de": "Correct answer for question 7",
-                                    "nl": "Correct answer for question 7"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 7",
-                                    "es": "Incorrect option 3 para question 7",
-                                    "de": "Incorrect option 3 für question 7",
-                                    "nl": "Incorrect option 3 voor question 7"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 7",
-                                    "es": "Incorrect option 4 para question 7",
-                                    "de": "Incorrect option 4 für question 7",
-                                    "nl": "Incorrect option 4 voor question 7"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 8",
-                                    "es": "Correct answer for question 8",
-                                    "de": "Correct answer for question 8",
-                                    "nl": "Correct answer for question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 8",
-                                    "es": "Incorrect option 2 para question 8",
-                                    "de": "Incorrect option 2 für question 8",
-                                    "nl": "Incorrect option 2 voor question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 8",
-                                    "es": "Incorrect option 3 para question 8",
-                                    "de": "Incorrect option 3 für question 8",
-                                    "nl": "Incorrect option 3 voor question 8"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 8",
-                                    "es": "Incorrect option 4 para question 8",
-                                    "de": "Incorrect option 4 für question 8",
-                                    "nl": "Incorrect option 4 voor question 8"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 9",
-                                    "es": "Incorrect option 1 para question 9",
-                                    "de": "Incorrect option 1 für question 9",
-                                    "nl": "Incorrect option 1 voor question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 9",
-                                    "es": "Incorrect option 2 para question 9",
-                                    "de": "Incorrect option 2 für question 9",
-                                    "nl": "Incorrect option 2 voor question 9"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 9",
-                                    "es": "Incorrect option 3 para question 9",
-                                    "de": "Incorrect option 3 für question 9",
-                                    "nl": "Incorrect option 3 voor question 9"
-                            },
-                            {
-                                    "en": "Correct answer for question 9",
-                                    "es": "Correct answer for question 9",
-                                    "de": "Correct answer for question 9",
-                                    "nl": "Correct answer for question 9"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 10",
-                                    "es": "Incorrect option 1 para question 10",
-                                    "de": "Incorrect option 1 für question 10",
-                                    "nl": "Incorrect option 1 voor question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 10",
-                                    "es": "Incorrect option 2 para question 10",
-                                    "de": "Incorrect option 2 für question 10",
-                                    "nl": "Incorrect option 2 voor question 10"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 10",
-                                    "es": "Incorrect option 3 para question 10",
-                                    "de": "Incorrect option 3 für question 10",
-                                    "nl": "Incorrect option 3 voor question 10"
-                            },
-                            {
-                                    "en": "Correct answer for question 10",
-                                    "es": "Correct answer for question 10",
-                                    "de": "Correct answer for question 10",
-                                    "nl": "Correct answer for question 10"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 11",
-                                    "es": "Incorrect option 1 para question 11",
-                                    "de": "Incorrect option 1 für question 11",
-                                    "nl": "Incorrect option 1 voor question 11"
-                            },
-                            {
-                                    "en": "Correct answer for question 11",
-                                    "es": "Correct answer for question 11",
-                                    "de": "Correct answer for question 11",
-                                    "nl": "Correct answer for question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 11",
-                                    "es": "Incorrect option 3 para question 11",
-                                    "de": "Incorrect option 3 für question 11",
-                                    "nl": "Incorrect option 3 voor question 11"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 11",
-                                    "es": "Incorrect option 4 para question 11",
-                                    "de": "Incorrect option 4 für question 11",
-                                    "nl": "Incorrect option 4 voor question 11"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 12",
-                                    "es": "Correct answer for question 12",
-                                    "de": "Correct answer for question 12",
-                                    "nl": "Correct answer for question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 12",
-                                    "es": "Incorrect option 2 para question 12",
-                                    "de": "Incorrect option 2 für question 12",
-                                    "nl": "Incorrect option 2 voor question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 12",
-                                    "es": "Incorrect option 3 para question 12",
-                                    "de": "Incorrect option 3 für question 12",
-                                    "nl": "Incorrect option 3 voor question 12"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 12",
-                                    "es": "Incorrect option 4 para question 12",
-                                    "de": "Incorrect option 4 für question 12",
-                                    "nl": "Incorrect option 4 voor question 12"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 13",
-                                    "es": "Correct answer for question 13",
-                                    "de": "Correct answer for question 13",
-                                    "nl": "Correct answer for question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 13",
-                                    "es": "Incorrect option 2 para question 13",
-                                    "de": "Incorrect option 2 für question 13",
-                                    "nl": "Incorrect option 2 voor question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 13",
-                                    "es": "Incorrect option 3 para question 13",
-                                    "de": "Incorrect option 3 für question 13",
-                                    "nl": "Incorrect option 3 voor question 13"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 13",
-                                    "es": "Incorrect option 4 para question 13",
-                                    "de": "Incorrect option 4 für question 13",
-                                    "nl": "Incorrect option 4 voor question 13"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 14",
-                                    "es": "Incorrect option 1 para question 14",
-                                    "de": "Incorrect option 1 für question 14",
-                                    "nl": "Incorrect option 1 voor question 14"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 14",
-                                    "es": "Incorrect option 2 para question 14",
-                                    "de": "Incorrect option 2 für question 14",
-                                    "nl": "Incorrect option 2 voor question 14"
-                            },
-                            {
-                                    "en": "Correct answer for question 14",
-                                    "es": "Correct answer for question 14",
-                                    "de": "Correct answer for question 14",
-                                    "nl": "Correct answer for question 14"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 14",
-                                    "es": "Incorrect option 4 para question 14",
-                                    "de": "Incorrect option 4 für question 14",
-                                    "nl": "Incorrect option 4 voor question 14"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 15",
-                                    "es": "Incorrect option 1 para question 15",
-                                    "de": "Incorrect option 1 für question 15",
-                                    "nl": "Incorrect option 1 voor question 15"
-                            },
-                            {
-                                    "en": "Correct answer for question 15",
-                                    "es": "Correct answer for question 15",
-                                    "de": "Correct answer for question 15",
-                                    "nl": "Correct answer for question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 15",
-                                    "es": "Incorrect option 3 para question 15",
-                                    "de": "Incorrect option 3 für question 15",
-                                    "nl": "Incorrect option 3 voor question 15"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 15",
-                                    "es": "Incorrect option 4 para question 15",
-                                    "de": "Incorrect option 4 für question 15",
-                                    "nl": "Incorrect option 4 voor question 15"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 16",
-                                    "es": "Incorrect option 1 para question 16",
-                                    "de": "Incorrect option 1 für question 16",
-                                    "nl": "Incorrect option 1 voor question 16"
-                            },
-                            {
-                                    "en": "Correct answer for question 16",
-                                    "es": "Correct answer for question 16",
-                                    "de": "Correct answer for question 16",
-                                    "nl": "Correct answer for question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 16",
-                                    "es": "Incorrect option 3 para question 16",
-                                    "de": "Incorrect option 3 für question 16",
-                                    "nl": "Incorrect option 3 voor question 16"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 16",
-                                    "es": "Incorrect option 4 para question 16",
-                                    "de": "Incorrect option 4 für question 16",
-                                    "nl": "Incorrect option 4 voor question 16"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 17",
-                                    "es": "Incorrect option 1 para question 17",
-                                    "de": "Incorrect option 1 für question 17",
-                                    "nl": "Incorrect option 1 voor question 17"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 17",
-                                    "es": "Incorrect option 2 para question 17",
-                                    "de": "Incorrect option 2 für question 17",
-                                    "nl": "Incorrect option 2 voor question 17"
-                            },
-                            {
-                                    "en": "Correct answer for question 17",
-                                    "es": "Correct answer for question 17",
-                                    "de": "Correct answer for question 17",
-                                    "nl": "Correct answer for question 17"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 17",
-                                    "es": "Incorrect option 4 para question 17",
-                                    "de": "Incorrect option 4 für question 17",
-                                    "nl": "Incorrect option 4 voor question 17"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 18",
-                                    "es": "Incorrect option 1 para question 18",
-                                    "de": "Incorrect option 1 für question 18",
-                                    "nl": "Incorrect option 1 voor question 18"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 18",
-                                    "es": "Incorrect option 2 para question 18",
-                                    "de": "Incorrect option 2 für question 18",
-                                    "nl": "Incorrect option 2 voor question 18"
-                            },
-                            {
-                                    "en": "Correct answer for question 18",
-                                    "es": "Correct answer for question 18",
-                                    "de": "Correct answer for question 18",
-                                    "nl": "Correct answer for question 18"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 18",
-                                    "es": "Incorrect option 4 para question 18",
-                                    "de": "Incorrect option 4 für question 18",
-                                    "nl": "Incorrect option 4 voor question 18"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 19",
-                                    "es": "Incorrect option 1 para question 19",
-                                    "de": "Incorrect option 1 für question 19",
-                                    "nl": "Incorrect option 1 voor question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 19",
-                                    "es": "Incorrect option 2 para question 19",
-                                    "de": "Incorrect option 2 für question 19",
-                                    "nl": "Incorrect option 2 voor question 19"
-                            },
-                            {
-                                    "en": "Correct answer for question 19",
-                                    "es": "Correct answer for question 19",
-                                    "de": "Correct answer for question 19",
-                                    "nl": "Correct answer for question 19"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 19",
-                                    "es": "Incorrect option 4 para question 19",
-                                    "de": "Incorrect option 4 für question 19",
-                                    "nl": "Incorrect option 4 voor question 19"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 20",
-                                    "es": "Incorrect option 1 para question 20",
-                                    "de": "Incorrect option 1 für question 20",
-                                    "nl": "Incorrect option 1 voor question 20"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 20",
-                                    "es": "Incorrect option 2 para question 20",
-                                    "de": "Incorrect option 2 für question 20",
-                                    "nl": "Incorrect option 2 voor question 20"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 20",
-                                    "es": "Incorrect option 3 para question 20",
-                                    "de": "Incorrect option 3 für question 20",
-                                    "nl": "Incorrect option 3 voor question 20"
-                            },
-                            {
-                                    "en": "Correct answer for question 20",
-                                    "es": "Correct answer for question 20",
-                                    "de": "Correct answer for question 20",
-                                    "nl": "Correct answer for question 20"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 21",
-                                    "es": "Incorrect option 1 para question 21",
-                                    "de": "Incorrect option 1 für question 21",
-                                    "nl": "Incorrect option 1 voor question 21"
-                            },
-                            {
-                                    "en": "Correct answer for question 21",
-                                    "es": "Correct answer for question 21",
-                                    "de": "Correct answer for question 21",
-                                    "nl": "Correct answer for question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 21",
-                                    "es": "Incorrect option 3 para question 21",
-                                    "de": "Incorrect option 3 für question 21",
-                                    "nl": "Incorrect option 3 voor question 21"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 21",
-                                    "es": "Incorrect option 4 para question 21",
-                                    "de": "Incorrect option 4 für question 21",
-                                    "nl": "Incorrect option 4 voor question 21"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 22",
-                                    "es": "Incorrect option 1 para question 22",
-                                    "de": "Incorrect option 1 für question 22",
-                                    "nl": "Incorrect option 1 voor question 22"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 22",
-                                    "es": "Incorrect option 2 para question 22",
-                                    "de": "Incorrect option 2 für question 22",
-                                    "nl": "Incorrect option 2 voor question 22"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 22",
-                                    "es": "Incorrect option 3 para question 22",
-                                    "de": "Incorrect option 3 für question 22",
-                                    "nl": "Incorrect option 3 voor question 22"
-                            },
-                            {
-                                    "en": "Correct answer for question 22",
-                                    "es": "Correct answer for question 22",
-                                    "de": "Correct answer for question 22",
-                                    "nl": "Correct answer for question 22"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 23",
-                                    "es": "Incorrect option 1 para question 23",
-                                    "de": "Incorrect option 1 für question 23",
-                                    "nl": "Incorrect option 1 voor question 23"
-                            },
-                            {
-                                    "en": "Correct answer for question 23",
-                                    "es": "Correct answer for question 23",
-                                    "de": "Correct answer for question 23",
-                                    "nl": "Correct answer for question 23"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 23",
-                                    "es": "Incorrect option 3 para question 23",
-                                    "de": "Incorrect option 3 für question 23",
-                                    "nl": "Incorrect option 3 voor question 23"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 23",
-                                    "es": "Incorrect option 4 para question 23",
-                                    "de": "Incorrect option 4 für question 23",
-                                    "nl": "Incorrect option 4 voor question 23"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 24",
-                                    "es": "Correct answer for question 24",
-                                    "de": "Correct answer for question 24",
-                                    "nl": "Correct answer for question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 24",
-                                    "es": "Incorrect option 2 para question 24",
-                                    "de": "Incorrect option 2 für question 24",
-                                    "nl": "Incorrect option 2 voor question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 24",
-                                    "es": "Incorrect option 3 para question 24",
-                                    "de": "Incorrect option 3 für question 24",
-                                    "nl": "Incorrect option 3 voor question 24"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 24",
-                                    "es": "Incorrect option 4 para question 24",
-                                    "de": "Incorrect option 4 für question 24",
-                                    "nl": "Incorrect option 4 voor question 24"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 25",
-                                    "es": "Correct answer for question 25",
-                                    "de": "Correct answer for question 25",
-                                    "nl": "Correct answer for question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 25",
-                                    "es": "Incorrect option 2 para question 25",
-                                    "de": "Incorrect option 2 für question 25",
-                                    "nl": "Incorrect option 2 voor question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 25",
-                                    "es": "Incorrect option 3 para question 25",
-                                    "de": "Incorrect option 3 für question 25",
-                                    "nl": "Incorrect option 3 voor question 25"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 25",
-                                    "es": "Incorrect option 4 para question 25",
-                                    "de": "Incorrect option 4 für question 25",
-                                    "nl": "Incorrect option 4 voor question 25"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 26",
-                                    "es": "Incorrect option 1 para question 26",
-                                    "de": "Incorrect option 1 für question 26",
-                                    "nl": "Incorrect option 1 voor question 26"
-                            },
-                            {
-                                    "en": "Correct answer for question 26",
-                                    "es": "Correct answer for question 26",
-                                    "de": "Correct answer for question 26",
-                                    "nl": "Correct answer for question 26"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 26",
-                                    "es": "Incorrect option 3 para question 26",
-                                    "de": "Incorrect option 3 für question 26",
-                                    "nl": "Incorrect option 3 voor question 26"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 26",
-                                    "es": "Incorrect option 4 para question 26",
-                                    "de": "Incorrect option 4 für question 26",
-                                    "nl": "Incorrect option 4 voor question 26"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 27",
-                                    "es": "Incorrect option 1 para question 27",
-                                    "de": "Incorrect option 1 für question 27",
-                                    "nl": "Incorrect option 1 voor question 27"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 27",
-                                    "es": "Incorrect option 2 para question 27",
-                                    "de": "Incorrect option 2 für question 27",
-                                    "nl": "Incorrect option 2 voor question 27"
-                            },
-                            {
-                                    "en": "Correct answer for question 27",
-                                    "es": "Correct answer for question 27",
-                                    "de": "Correct answer for question 27",
-                                    "nl": "Correct answer for question 27"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 27",
-                                    "es": "Incorrect option 4 para question 27",
-                                    "de": "Incorrect option 4 für question 27",
-                                    "nl": "Incorrect option 4 voor question 27"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 28",
-                                    "es": "Incorrect option 1 para question 28",
-                                    "de": "Incorrect option 1 für question 28",
-                                    "nl": "Incorrect option 1 voor question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 28",
-                                    "es": "Incorrect option 2 para question 28",
-                                    "de": "Incorrect option 2 für question 28",
-                                    "nl": "Incorrect option 2 voor question 28"
-                            },
-                            {
-                                    "en": "Correct answer for question 28",
-                                    "es": "Correct answer for question 28",
-                                    "de": "Correct answer for question 28",
-                                    "nl": "Correct answer for question 28"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 28",
-                                    "es": "Incorrect option 4 para question 28",
-                                    "de": "Incorrect option 4 für question 28",
-                                    "nl": "Incorrect option 4 voor question 28"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 29",
-                                    "es": "Correct answer for question 29",
-                                    "de": "Correct answer for question 29",
-                                    "nl": "Correct answer for question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 29",
-                                    "es": "Incorrect option 2 para question 29",
-                                    "de": "Incorrect option 2 für question 29",
-                                    "nl": "Incorrect option 2 voor question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 29",
-                                    "es": "Incorrect option 3 para question 29",
-                                    "de": "Incorrect option 3 für question 29",
-                                    "nl": "Incorrect option 3 voor question 29"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 29",
-                                    "es": "Incorrect option 4 para question 29",
-                                    "de": "Incorrect option 4 für question 29",
-                                    "nl": "Incorrect option 4 voor question 29"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 30",
-                                    "es": "Incorrect option 1 para question 30",
-                                    "de": "Incorrect option 1 für question 30",
-                                    "nl": "Incorrect option 1 voor question 30"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 30",
-                                    "es": "Incorrect option 2 para question 30",
-                                    "de": "Incorrect option 2 für question 30",
-                                    "nl": "Incorrect option 2 voor question 30"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 30",
-                                    "es": "Incorrect option 3 para question 30",
-                                    "de": "Incorrect option 3 für question 30",
-                                    "nl": "Incorrect option 3 voor question 30"
-                            },
-                            {
-                                    "en": "Correct answer for question 30",
-                                    "es": "Correct answer for question 30",
-                                    "de": "Correct answer for question 30",
-                                    "nl": "Correct answer for question 30"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 31",
-                                    "es": "Incorrect option 1 para question 31",
-                                    "de": "Incorrect option 1 für question 31",
-                                    "nl": "Incorrect option 1 voor question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 31",
-                                    "es": "Incorrect option 2 para question 31",
-                                    "de": "Incorrect option 2 für question 31",
-                                    "nl": "Incorrect option 2 voor question 31"
-                            },
-                            {
-                                    "en": "Correct answer for question 31",
-                                    "es": "Correct answer for question 31",
-                                    "de": "Correct answer for question 31",
-                                    "nl": "Correct answer for question 31"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 31",
-                                    "es": "Incorrect option 4 para question 31",
-                                    "de": "Incorrect option 4 für question 31",
-                                    "nl": "Incorrect option 4 voor question 31"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 32",
-                                    "es": "Incorrect option 1 para question 32",
-                                    "de": "Incorrect option 1 für question 32",
-                                    "nl": "Incorrect option 1 voor question 32"
-                            },
-                            {
-                                    "en": "Correct answer for question 32",
-                                    "es": "Correct answer for question 32",
-                                    "de": "Correct answer for question 32",
-                                    "nl": "Correct answer for question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 32",
-                                    "es": "Incorrect option 3 para question 32",
-                                    "de": "Incorrect option 3 für question 32",
-                                    "nl": "Incorrect option 3 voor question 32"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 32",
-                                    "es": "Incorrect option 4 para question 32",
-                                    "de": "Incorrect option 4 für question 32",
-                                    "nl": "Incorrect option 4 voor question 32"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 33",
-                                    "es": "Correct answer for question 33",
-                                    "de": "Correct answer for question 33",
-                                    "nl": "Correct answer for question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 33",
-                                    "es": "Incorrect option 2 para question 33",
-                                    "de": "Incorrect option 2 für question 33",
-                                    "nl": "Incorrect option 2 voor question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 33",
-                                    "es": "Incorrect option 3 para question 33",
-                                    "de": "Incorrect option 3 für question 33",
-                                    "nl": "Incorrect option 3 voor question 33"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 33",
-                                    "es": "Incorrect option 4 para question 33",
-                                    "de": "Incorrect option 4 für question 33",
-                                    "nl": "Incorrect option 4 voor question 33"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 34",
-                                    "es": "Correct answer for question 34",
-                                    "de": "Correct answer for question 34",
-                                    "nl": "Correct answer for question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 34",
-                                    "es": "Incorrect option 2 para question 34",
-                                    "de": "Incorrect option 2 für question 34",
-                                    "nl": "Incorrect option 2 voor question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 34",
-                                    "es": "Incorrect option 3 para question 34",
-                                    "de": "Incorrect option 3 für question 34",
-                                    "nl": "Incorrect option 3 voor question 34"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 34",
-                                    "es": "Incorrect option 4 para question 34",
-                                    "de": "Incorrect option 4 für question 34",
-                                    "nl": "Incorrect option 4 voor question 34"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 35",
-                                    "es": "Incorrect option 1 para question 35",
-                                    "de": "Incorrect option 1 für question 35",
-                                    "nl": "Incorrect option 1 voor question 35"
-                            },
-                            {
-                                    "en": "Correct answer for question 35",
-                                    "es": "Correct answer for question 35",
-                                    "de": "Correct answer for question 35",
-                                    "nl": "Correct answer for question 35"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 35",
-                                    "es": "Incorrect option 3 para question 35",
-                                    "de": "Incorrect option 3 für question 35",
-                                    "nl": "Incorrect option 3 voor question 35"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 35",
-                                    "es": "Incorrect option 4 para question 35",
-                                    "de": "Incorrect option 4 für question 35",
-                                    "nl": "Incorrect option 4 voor question 35"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 36",
-                                    "es": "Correct answer for question 36",
-                                    "de": "Correct answer for question 36",
-                                    "nl": "Correct answer for question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 36",
-                                    "es": "Incorrect option 2 para question 36",
-                                    "de": "Incorrect option 2 für question 36",
-                                    "nl": "Incorrect option 2 voor question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 36",
-                                    "es": "Incorrect option 3 para question 36",
-                                    "de": "Incorrect option 3 für question 36",
-                                    "nl": "Incorrect option 3 voor question 36"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 36",
-                                    "es": "Incorrect option 4 para question 36",
-                                    "de": "Incorrect option 4 für question 36",
-                                    "nl": "Incorrect option 4 voor question 36"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 37",
-                                    "es": "Incorrect option 1 para question 37",
-                                    "de": "Incorrect option 1 für question 37",
-                                    "nl": "Incorrect option 1 voor question 37"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 37",
-                                    "es": "Incorrect option 2 para question 37",
-                                    "de": "Incorrect option 2 für question 37",
-                                    "nl": "Incorrect option 2 voor question 37"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 37",
-                                    "es": "Incorrect option 3 para question 37",
-                                    "de": "Incorrect option 3 für question 37",
-                                    "nl": "Incorrect option 3 voor question 37"
-                            },
-                            {
-                                    "en": "Correct answer for question 37",
-                                    "es": "Correct answer for question 37",
-                                    "de": "Correct answer for question 37",
-                                    "nl": "Correct answer for question 37"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 38",
-                                    "es": "Incorrect option 1 para question 38",
-                                    "de": "Incorrect option 1 für question 38",
-                                    "nl": "Incorrect option 1 voor question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 38",
-                                    "es": "Incorrect option 2 para question 38",
-                                    "de": "Incorrect option 2 für question 38",
-                                    "nl": "Incorrect option 2 voor question 38"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 38",
-                                    "es": "Incorrect option 3 para question 38",
-                                    "de": "Incorrect option 3 für question 38",
-                                    "nl": "Incorrect option 3 voor question 38"
-                            },
-                            {
-                                    "en": "Correct answer for question 38",
-                                    "es": "Correct answer for question 38",
-                                    "de": "Correct answer for question 38",
-                                    "nl": "Correct answer for question 38"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 39",
-                                    "es": "Correct answer for question 39",
-                                    "de": "Correct answer for question 39",
-                                    "nl": "Correct answer for question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 39",
-                                    "es": "Incorrect option 2 para question 39",
-                                    "de": "Incorrect option 2 für question 39",
-                                    "nl": "Incorrect option 2 voor question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 39",
-                                    "es": "Incorrect option 3 para question 39",
-                                    "de": "Incorrect option 3 für question 39",
-                                    "nl": "Incorrect option 3 voor question 39"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 39",
-                                    "es": "Incorrect option 4 para question 39",
-                                    "de": "Incorrect option 4 für question 39",
-                                    "nl": "Incorrect option 4 voor question 39"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 40",
-                                    "es": "Correct answer for question 40",
-                                    "de": "Correct answer for question 40",
-                                    "nl": "Correct answer for question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 40",
-                                    "es": "Incorrect option 2 para question 40",
-                                    "de": "Incorrect option 2 für question 40",
-                                    "nl": "Incorrect option 2 voor question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 40",
-                                    "es": "Incorrect option 3 para question 40",
-                                    "de": "Incorrect option 3 für question 40",
-                                    "nl": "Incorrect option 3 voor question 40"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 40",
-                                    "es": "Incorrect option 4 para question 40",
-                                    "de": "Incorrect option 4 für question 40",
-                                    "nl": "Incorrect option 4 voor question 40"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 41",
-                                    "es": "Correct answer for question 41",
-                                    "de": "Correct answer for question 41",
-                                    "nl": "Correct answer for question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 41",
-                                    "es": "Incorrect option 2 para question 41",
-                                    "de": "Incorrect option 2 für question 41",
-                                    "nl": "Incorrect option 2 voor question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 41",
-                                    "es": "Incorrect option 3 para question 41",
-                                    "de": "Incorrect option 3 für question 41",
-                                    "nl": "Incorrect option 3 voor question 41"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 41",
-                                    "es": "Incorrect option 4 para question 41",
-                                    "de": "Incorrect option 4 für question 41",
-                                    "nl": "Incorrect option 4 voor question 41"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 42",
-                                    "es": "Incorrect option 1 para question 42",
-                                    "de": "Incorrect option 1 für question 42",
-                                    "nl": "Incorrect option 1 voor question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 42",
-                                    "es": "Incorrect option 2 para question 42",
-                                    "de": "Incorrect option 2 für question 42",
-                                    "nl": "Incorrect option 2 voor question 42"
-                            },
-                            {
-                                    "en": "Correct answer for question 42",
-                                    "es": "Correct answer for question 42",
-                                    "de": "Correct answer for question 42",
-                                    "nl": "Correct answer for question 42"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 42",
-                                    "es": "Incorrect option 4 para question 42",
-                                    "de": "Incorrect option 4 für question 42",
-                                    "nl": "Incorrect option 4 voor question 42"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 43",
-                                    "es": "Incorrect option 1 para question 43",
-                                    "de": "Incorrect option 1 für question 43",
-                                    "nl": "Incorrect option 1 voor question 43"
-                            },
-                            {
-                                    "en": "Correct answer for question 43",
-                                    "es": "Correct answer for question 43",
-                                    "de": "Correct answer for question 43",
-                                    "nl": "Correct answer for question 43"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 43",
-                                    "es": "Incorrect option 3 para question 43",
-                                    "de": "Incorrect option 3 für question 43",
-                                    "nl": "Incorrect option 3 voor question 43"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 43",
-                                    "es": "Incorrect option 4 para question 43",
-                                    "de": "Incorrect option 4 für question 43",
-                                    "nl": "Incorrect option 4 voor question 43"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 44",
-                                    "es": "Incorrect option 1 para question 44",
-                                    "de": "Incorrect option 1 für question 44",
-                                    "nl": "Incorrect option 1 voor question 44"
-                            },
-                            {
-                                    "en": "Correct answer for question 44",
-                                    "es": "Correct answer for question 44",
-                                    "de": "Correct answer for question 44",
-                                    "nl": "Correct answer for question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 44",
-                                    "es": "Incorrect option 3 para question 44",
-                                    "de": "Incorrect option 3 für question 44",
-                                    "nl": "Incorrect option 3 voor question 44"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 44",
-                                    "es": "Incorrect option 4 para question 44",
-                                    "de": "Incorrect option 4 für question 44",
-                                    "nl": "Incorrect option 4 voor question 44"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 45",
-                                    "es": "Incorrect option 1 para question 45",
-                                    "de": "Incorrect option 1 für question 45",
-                                    "nl": "Incorrect option 1 voor question 45"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 45",
-                                    "es": "Incorrect option 2 para question 45",
-                                    "de": "Incorrect option 2 für question 45",
-                                    "nl": "Incorrect option 2 voor question 45"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 45",
-                                    "es": "Incorrect option 3 para question 45",
-                                    "de": "Incorrect option 3 für question 45",
-                                    "nl": "Incorrect option 3 voor question 45"
-                            },
-                            {
-                                    "en": "Correct answer for question 45",
-                                    "es": "Correct answer for question 45",
-                                    "de": "Correct answer for question 45",
-                                    "nl": "Correct answer for question 45"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 46",
-                                    "es": "Incorrect option 1 para question 46",
-                                    "de": "Incorrect option 1 für question 46",
-                                    "nl": "Incorrect option 1 voor question 46"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 46",
-                                    "es": "Incorrect option 2 para question 46",
-                                    "de": "Incorrect option 2 für question 46",
-                                    "nl": "Incorrect option 2 voor question 46"
-                            },
-                            {
-                                    "en": "Correct answer for question 46",
-                                    "es": "Correct answer for question 46",
-                                    "de": "Correct answer for question 46",
-                                    "nl": "Correct answer for question 46"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 46",
-                                    "es": "Incorrect option 4 para question 46",
-                                    "de": "Incorrect option 4 für question 46",
-                                    "nl": "Incorrect option 4 voor question 46"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 47",
-                                    "es": "Incorrect option 1 para question 47",
-                                    "de": "Incorrect option 1 für question 47",
-                                    "nl": "Incorrect option 1 voor question 47"
-                            },
-                            {
-                                    "en": "Correct answer for question 47",
-                                    "es": "Correct answer for question 47",
-                                    "de": "Correct answer for question 47",
-                                    "nl": "Correct answer for question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 47",
-                                    "es": "Incorrect option 3 para question 47",
-                                    "de": "Incorrect option 3 für question 47",
-                                    "nl": "Incorrect option 3 voor question 47"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 47",
-                                    "es": "Incorrect option 4 para question 47",
-                                    "de": "Incorrect option 4 für question 47",
-                                    "nl": "Incorrect option 4 voor question 47"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 48",
-                                    "es": "Correct answer for question 48",
-                                    "de": "Correct answer for question 48",
-                                    "nl": "Correct answer for question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 48",
-                                    "es": "Incorrect option 2 para question 48",
-                                    "de": "Incorrect option 2 für question 48",
-                                    "nl": "Incorrect option 2 voor question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 48",
-                                    "es": "Incorrect option 3 para question 48",
-                                    "de": "Incorrect option 3 für question 48",
-                                    "nl": "Incorrect option 3 voor question 48"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 48",
-                                    "es": "Incorrect option 4 para question 48",
-                                    "de": "Incorrect option 4 für question 48",
-                                    "nl": "Incorrect option 4 voor question 48"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 49",
-                                    "es": "Incorrect option 1 para question 49",
-                                    "de": "Incorrect option 1 für question 49",
-                                    "nl": "Incorrect option 1 voor question 49"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 49",
-                                    "es": "Incorrect option 2 para question 49",
-                                    "de": "Incorrect option 2 für question 49",
-                                    "nl": "Incorrect option 2 voor question 49"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 49",
-                                    "es": "Incorrect option 3 para question 49",
-                                    "de": "Incorrect option 3 für question 49",
-                                    "nl": "Incorrect option 3 voor question 49"
-                            },
-                            {
-                                    "en": "Correct answer for question 49",
-                                    "es": "Correct answer for question 49",
-                                    "de": "Correct answer for question 49",
-                                    "nl": "Correct answer for question 49"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 50",
-                                    "es": "Incorrect option 1 para question 50",
-                                    "de": "Incorrect option 1 für question 50",
-                                    "nl": "Incorrect option 1 voor question 50"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 50",
-                                    "es": "Incorrect option 2 para question 50",
-                                    "de": "Incorrect option 2 für question 50",
-                                    "nl": "Incorrect option 2 voor question 50"
-                            },
-                            {
-                                    "en": "Correct answer for question 50",
-                                    "es": "Correct answer for question 50",
-                                    "de": "Correct answer for question 50",
-                                    "nl": "Correct answer for question 50"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 50",
-                                    "es": "Incorrect option 4 para question 50",
-                                    "de": "Incorrect option 4 für question 50",
-                                    "nl": "Incorrect option 4 voor question 50"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 51",
-                                    "es": "Incorrect option 1 para question 51",
-                                    "de": "Incorrect option 1 für question 51",
-                                    "nl": "Incorrect option 1 voor question 51"
-                            },
-                            {
-                                    "en": "Correct answer for question 51",
-                                    "es": "Correct answer for question 51",
-                                    "de": "Correct answer for question 51",
-                                    "nl": "Correct answer for question 51"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 51",
-                                    "es": "Incorrect option 3 para question 51",
-                                    "de": "Incorrect option 3 für question 51",
-                                    "nl": "Incorrect option 3 voor question 51"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 51",
-                                    "es": "Incorrect option 4 para question 51",
-                                    "de": "Incorrect option 4 für question 51",
-                                    "nl": "Incorrect option 4 voor question 51"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 52",
-                                    "es": "Incorrect option 1 para question 52",
-                                    "de": "Incorrect option 1 für question 52",
-                                    "nl": "Incorrect option 1 voor question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 52",
-                                    "es": "Incorrect option 2 para question 52",
-                                    "de": "Incorrect option 2 für question 52",
-                                    "nl": "Incorrect option 2 voor question 52"
-                            },
-                            {
-                                    "en": "Correct answer for question 52",
-                                    "es": "Correct answer for question 52",
-                                    "de": "Correct answer for question 52",
-                                    "nl": "Correct answer for question 52"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 52",
-                                    "es": "Incorrect option 4 para question 52",
-                                    "de": "Incorrect option 4 für question 52",
-                                    "nl": "Incorrect option 4 voor question 52"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 53",
-                                    "es": "Incorrect option 1 para question 53",
-                                    "de": "Incorrect option 1 für question 53",
-                                    "nl": "Incorrect option 1 voor question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 53",
-                                    "es": "Incorrect option 2 para question 53",
-                                    "de": "Incorrect option 2 für question 53",
-                                    "nl": "Incorrect option 2 voor question 53"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 53",
-                                    "es": "Incorrect option 3 para question 53",
-                                    "de": "Incorrect option 3 für question 53",
-                                    "nl": "Incorrect option 3 voor question 53"
-                            },
-                            {
-                                    "en": "Correct answer for question 53",
-                                    "es": "Correct answer for question 53",
-                                    "de": "Correct answer for question 53",
-                                    "nl": "Correct answer for question 53"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 54",
-                                    "es": "Correct answer for question 54",
-                                    "de": "Correct answer for question 54",
-                                    "nl": "Correct answer for question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 54",
-                                    "es": "Incorrect option 2 para question 54",
-                                    "de": "Incorrect option 2 für question 54",
-                                    "nl": "Incorrect option 2 voor question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 54",
-                                    "es": "Incorrect option 3 para question 54",
-                                    "de": "Incorrect option 3 für question 54",
-                                    "nl": "Incorrect option 3 voor question 54"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 54",
-                                    "es": "Incorrect option 4 para question 54",
-                                    "de": "Incorrect option 4 für question 54",
-                                    "nl": "Incorrect option 4 voor question 54"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 55",
-                                    "es": "Incorrect option 1 para question 55",
-                                    "de": "Incorrect option 1 für question 55",
-                                    "nl": "Incorrect option 1 voor question 55"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 55",
-                                    "es": "Incorrect option 2 para question 55",
-                                    "de": "Incorrect option 2 für question 55",
-                                    "nl": "Incorrect option 2 voor question 55"
-                            },
-                            {
-                                    "en": "Correct answer for question 55",
-                                    "es": "Correct answer for question 55",
-                                    "de": "Correct answer for question 55",
-                                    "nl": "Correct answer for question 55"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 55",
-                                    "es": "Incorrect option 4 para question 55",
-                                    "de": "Incorrect option 4 für question 55",
-                                    "nl": "Incorrect option 4 voor question 55"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 56",
-                                    "es": "Correct answer for question 56",
-                                    "de": "Correct answer for question 56",
-                                    "nl": "Correct answer for question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 56",
-                                    "es": "Incorrect option 2 para question 56",
-                                    "de": "Incorrect option 2 für question 56",
-                                    "nl": "Incorrect option 2 voor question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 56",
-                                    "es": "Incorrect option 3 para question 56",
-                                    "de": "Incorrect option 3 für question 56",
-                                    "nl": "Incorrect option 3 voor question 56"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 56",
-                                    "es": "Incorrect option 4 para question 56",
-                                    "de": "Incorrect option 4 für question 56",
-                                    "nl": "Incorrect option 4 voor question 56"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 57",
-                                    "es": "Incorrect option 1 para question 57",
-                                    "de": "Incorrect option 1 für question 57",
-                                    "nl": "Incorrect option 1 voor question 57"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 57",
-                                    "es": "Incorrect option 2 para question 57",
-                                    "de": "Incorrect option 2 für question 57",
-                                    "nl": "Incorrect option 2 voor question 57"
-                            },
-                            {
-                                    "en": "Correct answer for question 57",
-                                    "es": "Correct answer for question 57",
-                                    "de": "Correct answer for question 57",
-                                    "nl": "Correct answer for question 57"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 57",
-                                    "es": "Incorrect option 4 para question 57",
-                                    "de": "Incorrect option 4 für question 57",
-                                    "nl": "Incorrect option 4 voor question 57"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 58",
-                                    "es": "Incorrect option 1 para question 58",
-                                    "de": "Incorrect option 1 für question 58",
-                                    "nl": "Incorrect option 1 voor question 58"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 58",
-                                    "es": "Incorrect option 2 para question 58",
-                                    "de": "Incorrect option 2 für question 58",
-                                    "nl": "Incorrect option 2 voor question 58"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 58",
-                                    "es": "Incorrect option 3 para question 58",
-                                    "de": "Incorrect option 3 für question 58",
-                                    "nl": "Incorrect option 3 voor question 58"
-                            },
-                            {
-                                    "en": "Correct answer for question 58",
-                                    "es": "Correct answer for question 58",
-                                    "de": "Correct answer for question 58",
-                                    "nl": "Correct answer for question 58"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 59",
-                                    "es": "Incorrect option 1 para question 59",
-                                    "de": "Incorrect option 1 für question 59",
-                                    "nl": "Incorrect option 1 voor question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 59",
-                                    "es": "Incorrect option 2 para question 59",
-                                    "de": "Incorrect option 2 für question 59",
-                                    "nl": "Incorrect option 2 voor question 59"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 59",
-                                    "es": "Incorrect option 3 para question 59",
-                                    "de": "Incorrect option 3 für question 59",
-                                    "nl": "Incorrect option 3 voor question 59"
-                            },
-                            {
-                                    "en": "Correct answer for question 59",
-                                    "es": "Correct answer for question 59",
-                                    "de": "Correct answer for question 59",
-                                    "nl": "Correct answer for question 59"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 60",
-                                    "es": "Incorrect option 1 para question 60",
-                                    "de": "Incorrect option 1 für question 60",
-                                    "nl": "Incorrect option 1 voor question 60"
-                            },
-                            {
-                                    "en": "Correct answer for question 60",
-                                    "es": "Correct answer for question 60",
-                                    "de": "Correct answer for question 60",
-                                    "nl": "Correct answer for question 60"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 60",
-                                    "es": "Incorrect option 3 para question 60",
-                                    "de": "Incorrect option 3 für question 60",
-                                    "nl": "Incorrect option 3 voor question 60"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 60",
-                                    "es": "Incorrect option 4 para question 60",
-                                    "de": "Incorrect option 4 für question 60",
-                                    "nl": "Incorrect option 4 voor question 60"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 61",
-                                    "es": "Incorrect option 1 para question 61",
-                                    "de": "Incorrect option 1 für question 61",
-                                    "nl": "Incorrect option 1 voor question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 61",
-                                    "es": "Incorrect option 2 para question 61",
-                                    "de": "Incorrect option 2 für question 61",
-                                    "nl": "Incorrect option 2 voor question 61"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 61",
-                                    "es": "Incorrect option 3 para question 61",
-                                    "de": "Incorrect option 3 für question 61",
-                                    "nl": "Incorrect option 3 voor question 61"
-                            },
-                            {
-                                    "en": "Correct answer for question 61",
-                                    "es": "Correct answer for question 61",
-                                    "de": "Correct answer for question 61",
-                                    "nl": "Correct answer for question 61"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 62",
-                                    "es": "Incorrect option 1 para question 62",
-                                    "de": "Incorrect option 1 für question 62",
-                                    "nl": "Incorrect option 1 voor question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 62",
-                                    "es": "Incorrect option 2 para question 62",
-                                    "de": "Incorrect option 2 für question 62",
-                                    "nl": "Incorrect option 2 voor question 62"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 62",
-                                    "es": "Incorrect option 3 para question 62",
-                                    "de": "Incorrect option 3 für question 62",
-                                    "nl": "Incorrect option 3 voor question 62"
-                            },
-                            {
-                                    "en": "Correct answer for question 62",
-                                    "es": "Correct answer for question 62",
-                                    "de": "Correct answer for question 62",
-                                    "nl": "Correct answer for question 62"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 63",
-                                    "es": "Incorrect option 1 para question 63",
-                                    "de": "Incorrect option 1 für question 63",
-                                    "nl": "Incorrect option 1 voor question 63"
-                            },
-                            {
-                                    "en": "Correct answer for question 63",
-                                    "es": "Correct answer for question 63",
-                                    "de": "Correct answer for question 63",
-                                    "nl": "Correct answer for question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 63",
-                                    "es": "Incorrect option 3 para question 63",
-                                    "de": "Incorrect option 3 für question 63",
-                                    "nl": "Incorrect option 3 voor question 63"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 63",
-                                    "es": "Incorrect option 4 para question 63",
-                                    "de": "Incorrect option 4 für question 63",
-                                    "nl": "Incorrect option 4 voor question 63"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 64",
-                                    "es": "Incorrect option 1 para question 64",
-                                    "de": "Incorrect option 1 für question 64",
-                                    "nl": "Incorrect option 1 voor question 64"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 64",
-                                    "es": "Incorrect option 2 para question 64",
-                                    "de": "Incorrect option 2 für question 64",
-                                    "nl": "Incorrect option 2 voor question 64"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 64",
-                                    "es": "Incorrect option 3 para question 64",
-                                    "de": "Incorrect option 3 für question 64",
-                                    "nl": "Incorrect option 3 voor question 64"
-                            },
-                            {
-                                    "en": "Correct answer for question 64",
-                                    "es": "Correct answer for question 64",
-                                    "de": "Correct answer for question 64",
-                                    "nl": "Correct answer for question 64"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 65",
-                                    "es": "Correct answer for question 65",
-                                    "de": "Correct answer for question 65",
-                                    "nl": "Correct answer for question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 65",
-                                    "es": "Incorrect option 2 para question 65",
-                                    "de": "Incorrect option 2 für question 65",
-                                    "nl": "Incorrect option 2 voor question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 65",
-                                    "es": "Incorrect option 3 para question 65",
-                                    "de": "Incorrect option 3 für question 65",
-                                    "nl": "Incorrect option 3 voor question 65"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 65",
-                                    "es": "Incorrect option 4 para question 65",
-                                    "de": "Incorrect option 4 für question 65",
-                                    "nl": "Incorrect option 4 voor question 65"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 66",
-                                    "es": "Incorrect option 1 para question 66",
-                                    "de": "Incorrect option 1 für question 66",
-                                    "nl": "Incorrect option 1 voor question 66"
-                            },
-                            {
-                                    "en": "Correct answer for question 66",
-                                    "es": "Correct answer for question 66",
-                                    "de": "Correct answer for question 66",
-                                    "nl": "Correct answer for question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 66",
-                                    "es": "Incorrect option 3 para question 66",
-                                    "de": "Incorrect option 3 für question 66",
-                                    "nl": "Incorrect option 3 voor question 66"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 66",
-                                    "es": "Incorrect option 4 para question 66",
-                                    "de": "Incorrect option 4 für question 66",
-                                    "nl": "Incorrect option 4 voor question 66"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 67",
-                                    "es": "Incorrect option 1 para question 67",
-                                    "de": "Incorrect option 1 für question 67",
-                                    "nl": "Incorrect option 1 voor question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 67",
-                                    "es": "Incorrect option 2 para question 67",
-                                    "de": "Incorrect option 2 für question 67",
-                                    "nl": "Incorrect option 2 voor question 67"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 67",
-                                    "es": "Incorrect option 3 para question 67",
-                                    "de": "Incorrect option 3 für question 67",
-                                    "nl": "Incorrect option 3 voor question 67"
-                            },
-                            {
-                                    "en": "Correct answer for question 67",
-                                    "es": "Correct answer for question 67",
-                                    "de": "Correct answer for question 67",
-                                    "nl": "Correct answer for question 67"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 68",
-                                    "es": "Correct answer for question 68",
-                                    "de": "Correct answer for question 68",
-                                    "nl": "Correct answer for question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 68",
-                                    "es": "Incorrect option 2 para question 68",
-                                    "de": "Incorrect option 2 für question 68",
-                                    "nl": "Incorrect option 2 voor question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 68",
-                                    "es": "Incorrect option 3 para question 68",
-                                    "de": "Incorrect option 3 für question 68",
-                                    "nl": "Incorrect option 3 voor question 68"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 68",
-                                    "es": "Incorrect option 4 para question 68",
-                                    "de": "Incorrect option 4 für question 68",
-                                    "nl": "Incorrect option 4 voor question 68"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 69",
-                                    "es": "Correct answer for question 69",
-                                    "de": "Correct answer for question 69",
-                                    "nl": "Correct answer for question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 69",
-                                    "es": "Incorrect option 2 para question 69",
-                                    "de": "Incorrect option 2 für question 69",
-                                    "nl": "Incorrect option 2 voor question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 69",
-                                    "es": "Incorrect option 3 para question 69",
-                                    "de": "Incorrect option 3 für question 69",
-                                    "nl": "Incorrect option 3 voor question 69"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 69",
-                                    "es": "Incorrect option 4 para question 69",
-                                    "de": "Incorrect option 4 für question 69",
-                                    "nl": "Incorrect option 4 voor question 69"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 70",
-                                    "es": "Incorrect option 1 para question 70",
-                                    "de": "Incorrect option 1 für question 70",
-                                    "nl": "Incorrect option 1 voor question 70"
-                            },
-                            {
-                                    "en": "Correct answer for question 70",
-                                    "es": "Correct answer for question 70",
-                                    "de": "Correct answer for question 70",
-                                    "nl": "Correct answer for question 70"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 70",
-                                    "es": "Incorrect option 3 para question 70",
-                                    "de": "Incorrect option 3 für question 70",
-                                    "nl": "Incorrect option 3 voor question 70"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 70",
-                                    "es": "Incorrect option 4 para question 70",
-                                    "de": "Incorrect option 4 für question 70",
-                                    "nl": "Incorrect option 4 voor question 70"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 71",
-                                    "es": "Incorrect option 1 para question 71",
-                                    "de": "Incorrect option 1 für question 71",
-                                    "nl": "Incorrect option 1 voor question 71"
-                            },
-                            {
-                                    "en": "Correct answer for question 71",
-                                    "es": "Correct answer for question 71",
-                                    "de": "Correct answer for question 71",
-                                    "nl": "Correct answer for question 71"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 71",
-                                    "es": "Incorrect option 3 para question 71",
-                                    "de": "Incorrect option 3 für question 71",
-                                    "nl": "Incorrect option 3 voor question 71"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 71",
-                                    "es": "Incorrect option 4 para question 71",
-                                    "de": "Incorrect option 4 für question 71",
-                                    "nl": "Incorrect option 4 voor question 71"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 72",
-                                    "es": "Incorrect option 1 para question 72",
-                                    "de": "Incorrect option 1 für question 72",
-                                    "nl": "Incorrect option 1 voor question 72"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 72",
-                                    "es": "Incorrect option 2 para question 72",
-                                    "de": "Incorrect option 2 für question 72",
-                                    "nl": "Incorrect option 2 voor question 72"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 72",
-                                    "es": "Incorrect option 3 para question 72",
-                                    "de": "Incorrect option 3 für question 72",
-                                    "nl": "Incorrect option 3 voor question 72"
-                            },
-                            {
-                                    "en": "Correct answer for question 72",
-                                    "es": "Correct answer for question 72",
-                                    "de": "Correct answer for question 72",
-                                    "nl": "Correct answer for question 72"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 73",
-                                    "es": "Incorrect option 1 para question 73",
-                                    "de": "Incorrect option 1 für question 73",
-                                    "nl": "Incorrect option 1 voor question 73"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 73",
-                                    "es": "Incorrect option 2 para question 73",
-                                    "de": "Incorrect option 2 für question 73",
-                                    "nl": "Incorrect option 2 voor question 73"
-                            },
-                            {
-                                    "en": "Correct answer for question 73",
-                                    "es": "Correct answer for question 73",
-                                    "de": "Correct answer for question 73",
-                                    "nl": "Correct answer for question 73"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 73",
-                                    "es": "Incorrect option 4 para question 73",
-                                    "de": "Incorrect option 4 für question 73",
-                                    "nl": "Incorrect option 4 voor question 73"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 74",
-                                    "es": "Incorrect option 1 para question 74",
-                                    "de": "Incorrect option 1 für question 74",
-                                    "nl": "Incorrect option 1 voor question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 74",
-                                    "es": "Incorrect option 2 para question 74",
-                                    "de": "Incorrect option 2 für question 74",
-                                    "nl": "Incorrect option 2 voor question 74"
-                            },
-                            {
-                                    "en": "Correct answer for question 74",
-                                    "es": "Correct answer for question 74",
-                                    "de": "Correct answer for question 74",
-                                    "nl": "Correct answer for question 74"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 74",
-                                    "es": "Incorrect option 4 para question 74",
-                                    "de": "Incorrect option 4 für question 74",
-                                    "nl": "Incorrect option 4 voor question 74"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 75",
-                                    "es": "Incorrect option 1 para question 75",
-                                    "de": "Incorrect option 1 für question 75",
-                                    "nl": "Incorrect option 1 voor question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 75",
-                                    "es": "Incorrect option 2 para question 75",
-                                    "de": "Incorrect option 2 für question 75",
-                                    "nl": "Incorrect option 2 voor question 75"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 75",
-                                    "es": "Incorrect option 3 para question 75",
-                                    "de": "Incorrect option 3 für question 75",
-                                    "nl": "Incorrect option 3 voor question 75"
-                            },
-                            {
-                                    "en": "Correct answer for question 75",
-                                    "es": "Correct answer for question 75",
-                                    "de": "Correct answer for question 75",
-                                    "nl": "Correct answer for question 75"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 76",
-                                    "es": "Incorrect option 1 para question 76",
-                                    "de": "Incorrect option 1 für question 76",
-                                    "nl": "Incorrect option 1 voor question 76"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 76",
-                                    "es": "Incorrect option 2 para question 76",
-                                    "de": "Incorrect option 2 für question 76",
-                                    "nl": "Incorrect option 2 voor question 76"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 76",
-                                    "es": "Incorrect option 3 para question 76",
-                                    "de": "Incorrect option 3 für question 76",
-                                    "nl": "Incorrect option 3 voor question 76"
-                            },
-                            {
-                                    "en": "Correct answer for question 76",
-                                    "es": "Correct answer for question 76",
-                                    "de": "Correct answer for question 76",
-                                    "nl": "Correct answer for question 76"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 77",
-                                    "es": "Correct answer for question 77",
-                                    "de": "Correct answer for question 77",
-                                    "nl": "Correct answer for question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 77",
-                                    "es": "Incorrect option 2 para question 77",
-                                    "de": "Incorrect option 2 für question 77",
-                                    "nl": "Incorrect option 2 voor question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 77",
-                                    "es": "Incorrect option 3 para question 77",
-                                    "de": "Incorrect option 3 für question 77",
-                                    "nl": "Incorrect option 3 voor question 77"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 77",
-                                    "es": "Incorrect option 4 para question 77",
-                                    "de": "Incorrect option 4 für question 77",
-                                    "nl": "Incorrect option 4 voor question 77"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 78",
-                                    "es": "Incorrect option 1 para question 78",
-                                    "de": "Incorrect option 1 für question 78",
-                                    "nl": "Incorrect option 1 voor question 78"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 78",
-                                    "es": "Incorrect option 2 para question 78",
-                                    "de": "Incorrect option 2 für question 78",
-                                    "nl": "Incorrect option 2 voor question 78"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 78",
-                                    "es": "Incorrect option 3 para question 78",
-                                    "de": "Incorrect option 3 für question 78",
-                                    "nl": "Incorrect option 3 voor question 78"
-                            },
-                            {
-                                    "en": "Correct answer for question 78",
-                                    "es": "Correct answer for question 78",
-                                    "de": "Correct answer for question 78",
-                                    "nl": "Correct answer for question 78"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 79",
-                                    "es": "Incorrect option 1 para question 79",
-                                    "de": "Incorrect option 1 für question 79",
-                                    "nl": "Incorrect option 1 voor question 79"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 79",
-                                    "es": "Incorrect option 2 para question 79",
-                                    "de": "Incorrect option 2 für question 79",
-                                    "nl": "Incorrect option 2 voor question 79"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 79",
-                                    "es": "Incorrect option 3 para question 79",
-                                    "de": "Incorrect option 3 für question 79",
-                                    "nl": "Incorrect option 3 voor question 79"
-                            },
-                            {
-                                    "en": "Correct answer for question 79",
-                                    "es": "Correct answer for question 79",
-                                    "de": "Correct answer for question 79",
-                                    "nl": "Correct answer for question 79"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 80",
-                                    "es": "Incorrect option 1 para question 80",
-                                    "de": "Incorrect option 1 für question 80",
-                                    "nl": "Incorrect option 1 voor question 80"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 80",
-                                    "es": "Incorrect option 2 para question 80",
-                                    "de": "Incorrect option 2 für question 80",
-                                    "nl": "Incorrect option 2 voor question 80"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 80",
-                                    "es": "Incorrect option 3 para question 80",
-                                    "de": "Incorrect option 3 für question 80",
-                                    "nl": "Incorrect option 3 voor question 80"
-                            },
-                            {
-                                    "en": "Correct answer for question 80",
-                                    "es": "Correct answer for question 80",
-                                    "de": "Correct answer for question 80",
-                                    "nl": "Correct answer for question 80"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 81",
-                                    "es": "Incorrect option 1 para question 81",
-                                    "de": "Incorrect option 1 für question 81",
-                                    "nl": "Incorrect option 1 voor question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 81",
-                                    "es": "Incorrect option 2 para question 81",
-                                    "de": "Incorrect option 2 für question 81",
-                                    "nl": "Incorrect option 2 voor question 81"
-                            },
-                            {
-                                    "en": "Correct answer for question 81",
-                                    "es": "Correct answer for question 81",
-                                    "de": "Correct answer for question 81",
-                                    "nl": "Correct answer for question 81"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 81",
-                                    "es": "Incorrect option 4 para question 81",
-                                    "de": "Incorrect option 4 für question 81",
-                                    "nl": "Incorrect option 4 voor question 81"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 82",
-                                    "es": "Correct answer for question 82",
-                                    "de": "Correct answer for question 82",
-                                    "nl": "Correct answer for question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 82",
-                                    "es": "Incorrect option 2 para question 82",
-                                    "de": "Incorrect option 2 für question 82",
-                                    "nl": "Incorrect option 2 voor question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 82",
-                                    "es": "Incorrect option 3 para question 82",
-                                    "de": "Incorrect option 3 für question 82",
-                                    "nl": "Incorrect option 3 voor question 82"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 82",
-                                    "es": "Incorrect option 4 para question 82",
-                                    "de": "Incorrect option 4 für question 82",
-                                    "nl": "Incorrect option 4 voor question 82"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 83",
-                                    "es": "Correct answer for question 83",
-                                    "de": "Correct answer for question 83",
-                                    "nl": "Correct answer for question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 83",
-                                    "es": "Incorrect option 2 para question 83",
-                                    "de": "Incorrect option 2 für question 83",
-                                    "nl": "Incorrect option 2 voor question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 83",
-                                    "es": "Incorrect option 3 para question 83",
-                                    "de": "Incorrect option 3 für question 83",
-                                    "nl": "Incorrect option 3 voor question 83"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 83",
-                                    "es": "Incorrect option 4 para question 83",
-                                    "de": "Incorrect option 4 für question 83",
-                                    "nl": "Incorrect option 4 voor question 83"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 84",
-                                    "es": "Correct answer for question 84",
-                                    "de": "Correct answer for question 84",
-                                    "nl": "Correct answer for question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 84",
-                                    "es": "Incorrect option 2 para question 84",
-                                    "de": "Incorrect option 2 für question 84",
-                                    "nl": "Incorrect option 2 voor question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 84",
-                                    "es": "Incorrect option 3 para question 84",
-                                    "de": "Incorrect option 3 für question 84",
-                                    "nl": "Incorrect option 3 voor question 84"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 84",
-                                    "es": "Incorrect option 4 para question 84",
-                                    "de": "Incorrect option 4 für question 84",
-                                    "nl": "Incorrect option 4 voor question 84"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 85",
-                                    "es": "Incorrect option 1 para question 85",
-                                    "de": "Incorrect option 1 für question 85",
-                                    "nl": "Incorrect option 1 voor question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 85",
-                                    "es": "Incorrect option 2 para question 85",
-                                    "de": "Incorrect option 2 für question 85",
-                                    "nl": "Incorrect option 2 voor question 85"
-                            },
-                            {
-                                    "en": "Correct answer for question 85",
-                                    "es": "Correct answer for question 85",
-                                    "de": "Correct answer for question 85",
-                                    "nl": "Correct answer for question 85"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 85",
-                                    "es": "Incorrect option 4 para question 85",
-                                    "de": "Incorrect option 4 für question 85",
-                                    "nl": "Incorrect option 4 voor question 85"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 86",
-                                    "es": "Incorrect option 1 para question 86",
-                                    "de": "Incorrect option 1 für question 86",
-                                    "nl": "Incorrect option 1 voor question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 86",
-                                    "es": "Incorrect option 2 para question 86",
-                                    "de": "Incorrect option 2 für question 86",
-                                    "nl": "Incorrect option 2 voor question 86"
-                            },
-                            {
-                                    "en": "Correct answer for question 86",
-                                    "es": "Correct answer for question 86",
-                                    "de": "Correct answer for question 86",
-                                    "nl": "Correct answer for question 86"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 86",
-                                    "es": "Incorrect option 4 para question 86",
-                                    "de": "Incorrect option 4 für question 86",
-                                    "nl": "Incorrect option 4 voor question 86"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 87",
-                                    "es": "Incorrect option 1 para question 87",
-                                    "de": "Incorrect option 1 für question 87",
-                                    "nl": "Incorrect option 1 voor question 87"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 87",
-                                    "es": "Incorrect option 2 para question 87",
-                                    "de": "Incorrect option 2 für question 87",
-                                    "nl": "Incorrect option 2 voor question 87"
-                            },
-                            {
-                                    "en": "Correct answer for question 87",
-                                    "es": "Correct answer for question 87",
-                                    "de": "Correct answer for question 87",
-                                    "nl": "Correct answer for question 87"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 87",
-                                    "es": "Incorrect option 4 para question 87",
-                                    "de": "Incorrect option 4 für question 87",
-                                    "nl": "Incorrect option 4 voor question 87"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 88",
-                                    "es": "Incorrect option 1 para question 88",
-                                    "de": "Incorrect option 1 für question 88",
-                                    "nl": "Incorrect option 1 voor question 88"
-                            },
-                            {
-                                    "en": "Correct answer for question 88",
-                                    "es": "Correct answer for question 88",
-                                    "de": "Correct answer for question 88",
-                                    "nl": "Correct answer for question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 88",
-                                    "es": "Incorrect option 3 para question 88",
-                                    "de": "Incorrect option 3 für question 88",
-                                    "nl": "Incorrect option 3 voor question 88"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 88",
-                                    "es": "Incorrect option 4 para question 88",
-                                    "de": "Incorrect option 4 für question 88",
-                                    "nl": "Incorrect option 4 voor question 88"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 89",
-                                    "es": "Correct answer for question 89",
-                                    "de": "Correct answer for question 89",
-                                    "nl": "Correct answer for question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 89",
-                                    "es": "Incorrect option 2 para question 89",
-                                    "de": "Incorrect option 2 für question 89",
-                                    "nl": "Incorrect option 2 voor question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 89",
-                                    "es": "Incorrect option 3 para question 89",
-                                    "de": "Incorrect option 3 für question 89",
-                                    "nl": "Incorrect option 3 voor question 89"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 89",
-                                    "es": "Incorrect option 4 para question 89",
-                                    "de": "Incorrect option 4 für question 89",
-                                    "nl": "Incorrect option 4 voor question 89"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 90",
-                                    "es": "Incorrect option 1 para question 90",
-                                    "de": "Incorrect option 1 für question 90",
-                                    "nl": "Incorrect option 1 voor question 90"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 90",
-                                    "es": "Incorrect option 2 para question 90",
-                                    "de": "Incorrect option 2 für question 90",
-                                    "nl": "Incorrect option 2 voor question 90"
-                            },
-                            {
-                                    "en": "Correct answer for question 90",
-                                    "es": "Correct answer for question 90",
-                                    "de": "Correct answer for question 90",
-                                    "nl": "Correct answer for question 90"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 90",
-                                    "es": "Incorrect option 4 para question 90",
-                                    "de": "Incorrect option 4 für question 90",
-                                    "nl": "Incorrect option 4 voor question 90"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which statement about this topic is correct?",
-                            "es": "¿Cuál statement about this topic is correct?",
-                            "de": "Welche statement about this topic is correct?",
-                            "nl": "Welke statement about this topic is correct?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 91",
-                                    "es": "Correct answer for question 91",
-                                    "de": "Correct answer for question 91",
-                                    "nl": "Correct answer for question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 91",
-                                    "es": "Incorrect option 2 para question 91",
-                                    "de": "Incorrect option 2 für question 91",
-                                    "nl": "Incorrect option 2 voor question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 91",
-                                    "es": "Incorrect option 3 para question 91",
-                                    "de": "Incorrect option 3 für question 91",
-                                    "nl": "Incorrect option 3 voor question 91"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 91",
-                                    "es": "Incorrect option 4 para question 91",
-                                    "de": "Incorrect option 4 für question 91",
-                                    "nl": "Incorrect option 4 voor question 91"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How does this relate to Pterosaurs?",
-                            "es": "¿Cómo does this relate to Pterosaurs?",
-                            "de": "Wie does this relate to Pterosaurs?",
-                            "nl": "Hoe does this relate to Pterosaurs?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 92",
-                                    "es": "Correct answer for question 92",
-                                    "de": "Correct answer for question 92",
-                                    "nl": "Correct answer for question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 92",
-                                    "es": "Incorrect option 2 para question 92",
-                                    "de": "Incorrect option 2 für question 92",
-                                    "nl": "Incorrect option 2 voor question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 92",
-                                    "es": "Incorrect option 3 para question 92",
-                                    "de": "Incorrect option 3 für question 92",
-                                    "nl": "Incorrect option 3 voor question 92"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 92",
-                                    "es": "Incorrect option 4 para question 92",
-                                    "de": "Incorrect option 4 für question 92",
-                                    "nl": "Incorrect option 4 voor question 92"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What distinguishes this concept?",
-                            "es": "¿Qué distinguishes this concept?",
-                            "de": "Was distinguishes this concept?",
-                            "nl": "Wat distinguishes this concept?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 93",
-                                    "es": "Correct answer for question 93",
-                                    "de": "Correct answer for question 93",
-                                    "nl": "Correct answer for question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 93",
-                                    "es": "Incorrect option 2 para question 93",
-                                    "de": "Incorrect option 2 für question 93",
-                                    "nl": "Incorrect option 2 voor question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 93",
-                                    "es": "Incorrect option 3 para question 93",
-                                    "de": "Incorrect option 3 für question 93",
-                                    "nl": "Incorrect option 3 voor question 93"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 93",
-                                    "es": "Incorrect option 4 para question 93",
-                                    "de": "Incorrect option 4 für question 93",
-                                    "nl": "Incorrect option 4 voor question 93"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "When did this development occur?",
-                            "es": "¿Cuándo did this development occur?",
-                            "de": "Wann did this development occur?",
-                            "nl": "Wanneer did this development occur?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 94",
-                                    "es": "Incorrect option 1 para question 94",
-                                    "de": "Incorrect option 1 für question 94",
-                                    "nl": "Incorrect option 1 voor question 94"
-                            },
-                            {
-                                    "en": "Correct answer for question 94",
-                                    "es": "Correct answer for question 94",
-                                    "de": "Correct answer for question 94",
-                                    "nl": "Correct answer for question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 94",
-                                    "es": "Incorrect option 3 para question 94",
-                                    "de": "Incorrect option 3 für question 94",
-                                    "nl": "Incorrect option 3 voor question 94"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 94",
-                                    "es": "Incorrect option 4 para question 94",
-                                    "de": "Incorrect option 4 für question 94",
-                                    "nl": "Incorrect option 4 voor question 94"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Who pioneered this approach?",
-                            "es": "¿Quién pioneered this approach?",
-                            "de": "Wer pioneered this approach?",
-                            "nl": "Wie pioneered this approach?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 95",
-                                    "es": "Incorrect option 1 para question 95",
-                                    "de": "Incorrect option 1 für question 95",
-                                    "nl": "Incorrect option 1 voor question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 95",
-                                    "es": "Incorrect option 2 para question 95",
-                                    "de": "Incorrect option 2 für question 95",
-                                    "nl": "Incorrect option 2 voor question 95"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 95",
-                                    "es": "Incorrect option 3 para question 95",
-                                    "de": "Incorrect option 3 für question 95",
-                                    "nl": "Incorrect option 3 voor question 95"
-                            },
-                            {
-                                    "en": "Correct answer for question 95",
-                                    "es": "Correct answer for question 95",
-                                    "de": "Correct answer for question 95",
-                                    "nl": "Correct answer for question 95"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What impact did this have?",
-                            "es": "¿Qué impact did this have?",
-                            "de": "Was impact did this have?",
-                            "nl": "Wat impact did this have?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 96",
-                                    "es": "Incorrect option 1 para question 96",
-                                    "de": "Incorrect option 1 für question 96",
-                                    "nl": "Incorrect option 1 voor question 96"
-                            },
-                            {
-                                    "en": "Correct answer for question 96",
-                                    "es": "Correct answer for question 96",
-                                    "de": "Correct answer for question 96",
-                                    "nl": "Correct answer for question 96"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 96",
-                                    "es": "Incorrect option 3 para question 96",
-                                    "de": "Incorrect option 3 für question 96",
-                                    "nl": "Incorrect option 3 voor question 96"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 96",
-                                    "es": "Incorrect option 4 para question 96",
-                                    "de": "Incorrect option 4 für question 96",
-                                    "nl": "Incorrect option 4 voor question 96"
-                            }
-                    ],
-                    "correct": 1,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "Which principle applies here?",
-                            "es": "¿Cuál principle applies here?",
-                            "de": "Welche principle applies here?",
-                            "nl": "Welke principle applies here?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 97",
-                                    "es": "Incorrect option 1 para question 97",
-                                    "de": "Incorrect option 1 für question 97",
-                                    "nl": "Incorrect option 1 voor question 97"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 97",
-                                    "es": "Incorrect option 2 para question 97",
-                                    "de": "Incorrect option 2 für question 97",
-                                    "nl": "Incorrect option 2 voor question 97"
-                            },
-                            {
-                                    "en": "Correct answer for question 97",
-                                    "es": "Correct answer for question 97",
-                                    "de": "Correct answer for question 97",
-                                    "nl": "Correct answer for question 97"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 97",
-                                    "es": "Incorrect option 4 para question 97",
-                                    "de": "Incorrect option 4 für question 97",
-                                    "nl": "Incorrect option 4 voor question 97"
-                            }
-                    ],
-                    "correct": 2,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "How has this evolved over time?",
-                            "es": "¿Cómo has this evolved over time?",
-                            "de": "Wie has this evolved over time?",
-                            "nl": "Hoe has this evolved over time?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 98",
-                                    "es": "Incorrect option 1 para question 98",
-                                    "de": "Incorrect option 1 für question 98",
-                                    "nl": "Incorrect option 1 voor question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 98",
-                                    "es": "Incorrect option 2 para question 98",
-                                    "de": "Incorrect option 2 für question 98",
-                                    "nl": "Incorrect option 2 voor question 98"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 98",
-                                    "es": "Incorrect option 3 para question 98",
-                                    "de": "Incorrect option 3 für question 98",
-                                    "nl": "Incorrect option 3 voor question 98"
-                            },
-                            {
-                                    "en": "Correct answer for question 98",
-                                    "es": "Correct answer for question 98",
-                                    "de": "Correct answer for question 98",
-                                    "nl": "Correct answer for question 98"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the current state of this?",
-                            "es": "¿Qué is the current state of this?",
-                            "de": "Was is the current state of this?",
-                            "nl": "Wat is the current state of this?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Incorrect option 1 for question 99",
-                                    "es": "Incorrect option 1 para question 99",
-                                    "de": "Incorrect option 1 für question 99",
-                                    "nl": "Incorrect option 1 voor question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 99",
-                                    "es": "Incorrect option 2 para question 99",
-                                    "de": "Incorrect option 2 für question 99",
-                                    "nl": "Incorrect option 2 voor question 99"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 99",
-                                    "es": "Incorrect option 3 para question 99",
-                                    "de": "Incorrect option 3 für question 99",
-                                    "nl": "Incorrect option 3 voor question 99"
-                            },
-                            {
-                                    "en": "Correct answer for question 99",
-                                    "es": "Correct answer for question 99",
-                                    "de": "Correct answer for question 99",
-                                    "nl": "Correct answer for question 99"
-                            }
-                    ],
-                    "correct": 3,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
-            },
-            {
-                    "question": {
-                            "en": "What is the significance of this in level 6?",
-                            "es": "¿Qué is the significance of this in level 6?",
-                            "de": "Was is the significance of this in level 6?",
-                            "nl": "Wat is the significance of this in level 6?"
-                    },
-                    "options": [
-                            {
-                                    "en": "Correct answer for question 100",
-                                    "es": "Correct answer for question 100",
-                                    "de": "Correct answer for question 100",
-                                    "nl": "Correct answer for question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 2 for question 100",
-                                    "es": "Incorrect option 2 para question 100",
-                                    "de": "Incorrect option 2 für question 100",
-                                    "nl": "Incorrect option 2 voor question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 3 for question 100",
-                                    "es": "Incorrect option 3 para question 100",
-                                    "de": "Incorrect option 3 für question 100",
-                                    "nl": "Incorrect option 3 voor question 100"
-                            },
-                            {
-                                    "en": "Incorrect option 4 for question 100",
-                                    "es": "Incorrect option 4 para question 100",
-                                    "de": "Incorrect option 4 für question 100",
-                                    "nl": "Incorrect option 4 voor question 100"
-                            }
-                    ],
-                    "correct": 0,
-                    "explanation": {
-                            "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
-                            "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
-                    }
+        {
+            "question": {
+                "en": "What unique respiratory system did pterosaurs have?",
+                "es": "¿Qué sistema respiratorio único tenían los pterosaurios?",
+                "de": "Welches einzigartige Atmungssystem hatten Flugsaurier?",
+                "nl": "Welk uniek ademhalingssysteem hadden pterosauriërs?"
+            },
+            "options": [
+                {
+                    "en": "Air sacs connected to hollow bones like modern birds",
+                    "es": "Sacos aéreos conectados a huesos huecos como aves modernas",
+                    "de": "Luftsäcke verbunden mit hohlen Knochen wie moderne Vögel",
+                    "nl": "Luchtzakken verbonden met holle botten zoals moderne vogels"
+                },
+                {
+                    "en": "Gills for underwater breathing",
+                    "es": "Branquias para respiración subacuática",
+                    "de": "Kiemen für Unterwasseratmung",
+                    "nl": "Kieuwen voor onderwater ademen"
+                },
+                {
+                    "en": "Simple lungs like lizards",
+                    "es": "Pulmones simples como lagartos",
+                    "de": "Einfache Lungen wie Echsen",
+                    "nl": "Simpele longen zoals hagedissen"
+                },
+                {
+                    "en": "Skin breathing like amphibians",
+                    "es": "Respiración cutánea como anfibios",
+                    "de": "Hautatmung wie Amphibien",
+                    "nl": "Huidademhaling zoals amfibieën"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterosaurs had a complex respiratory system with air sacs extending into their bones, making them extremely light yet strong. This system, similar to modern birds, allowed efficient oxygen exchange during flight and helped regulate body temperature.",
+                "es": "Los pterosaurios tenían un sistema respiratorio complejo con sacos aéreos que se extendían en sus...",
+                "de": "Flugsaurier hatten ein komplexes Atmungssystem mit Luftsäcken, die sich in ihre Knochen erstreckt...",
+                "nl": "Pterosauriërs hadden een complex ademhalingssysteem met luchtzakken die zich uitstrekten in hun b..."
             }
+        },
+        {
+            "question": {
+                "en": "How did Quetzalcoatlus launch into flight despite weighing 250kg?",
+                "es": "¿Cómo despegaba Quetzalcoatlus al vuelo pesando 250kg?",
+                "de": "Wie startete Quetzalcoatlus trotz 250kg Gewicht in den Flug?",
+                "nl": "Hoe lanceerde Quetzalcoatlus zich ondanks 250kg gewicht?"
+            },
+            "options": [
+                {
+                    "en": "Quadrupedal vault using powerful forelimbs to catapult upward",
+                    "es": "Salto cuadrúpedo usando extremidades delanteras poderosas para catapultarse",
+                    "de": "Vierbeiniger Sprung mit kräftigen Vordergliedmaßen zum Katapultieren",
+                    "nl": "Viervoetige sprong met krachtige voorpoten om omhoog te katapulteren"
+                },
+                {
+                    "en": "Running takeoff like airplanes",
+                    "es": "Despegue corriendo como aviones",
+                    "de": "Laufender Start wie Flugzeuge",
+                    "nl": "Rennende start zoals vliegtuigen"
+                },
+                {
+                    "en": "Jumping from cliffs only",
+                    "es": "Saltando solo desde acantilados",
+                    "de": "Nur von Klippen springen",
+                    "nl": "Alleen springen van kliffen"
+                },
+                {
+                    "en": "Gliding from trees",
+                    "es": "Planeando desde árboles",
+                    "de": "Von Bäumen gleiten",
+                    "nl": "Glijden vanaf bomen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Quetzalcoatlus used a quadrupedal launch technique, crouching on all fours then explosively pushing off with its incredibly strong forelimbs. This generated enough force to launch its massive body directly into powered flight without needing a runway.",
+                "es": "Quetzalcoatlus usaba una técnica de lanzamiento cuadrúpedo, agachándose en cuatro patas y luego e...",
+                "de": "Quetzalcoatlus nutzte eine vierbeinige Starttechnik, hockte auf allen Vieren und stieß sich dann ...",
+                "nl": "Quetzalcoatlus gebruikte een viervoetige lanceertechniek, hurkend op vier poten en zich dan explo..."
+            }
+        },
+        {
+            "question": {
+                "en": "What was pycnofibers and their function in pterosaurs?",
+                "es": "¿Qué eran las picnofibras y su función en pterosaurios?",
+                "de": "Was waren Pycnofasern und ihre Funktion bei Flugsauriern?",
+                "nl": "Wat waren pycnofibers en hun functie bij pterosauriërs?"
+            },
+            "options": [
+                {
+                    "en": "Hair-like filaments for insulation and aerodynamics",
+                    "es": "Filamentos similares al pelo para aislamiento y aerodinámica",
+                    "de": "Haarähnliche Filamente für Isolation und Aerodynamik",
+                    "nl": "Haarachtige filamenten voor isolatie en aerodynamica"
+                },
+                {
+                    "en": "Feathers for flight",
+                    "es": "Plumas para volar",
+                    "de": "Federn zum Fliegen",
+                    "nl": "Veren voor vliegen"
+                },
+                {
+                    "en": "Scales for protection",
+                    "es": "Escamas para protección",
+                    "de": "Schuppen zum Schutz",
+                    "nl": "Schubben voor bescherming"
+                },
+                {
+                    "en": "Bone structures",
+                    "es": "Estructuras óseas",
+                    "de": "Knochenstrukturen",
+                    "nl": "Botstructuren"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pycnofibers were hair-like structures covering pterosaur bodies, providing insulation for temperature regulation and possibly improving aerodynamics. Recent studies suggest they may have been colored, with some pterosaurs having striped or patterned pycnofibers.",
+                "es": "Las picnofibras eran estructuras similares al pelo que cubrían los cuerpos de pterosaurios, propo...",
+                "de": "Pycnofasern waren haarähnliche Strukturen, die Flugsaurierkörper bedeckten und Isolation für Temp...",
+                "nl": "Pycnofibers waren haarachtige structuren die pterosauriërlichamen bedekten, isolatie boden voor t..."
+            }
+        },
+        {
+            "question": {
+                "en": "How did pterosaur wing membranes differ from bat wings?",
+                "es": "¿Cómo diferían las membranas alares de pterosaurios de las alas de murciélago?",
+                "de": "Wie unterschieden sich Flugsaurier-Flügelmembranen von Fledermausflügeln?",
+                "nl": "Hoe verschilden pterosauriër vleugelmembranen van vleermuisvleugels?"
+            },
+            "options": [
+                {
+                    "en": "Reinforced with actinofibrils and attached to single elongated finger",
+                    "es": "Reforzadas con actinofibrilos y unidas a un solo dedo alargado",
+                    "de": "Mit Aktinofibrillen verstärkt und an einzelnem verlängertem Finger befestigt",
+                    "nl": "Versterkt met actinofibrillen en bevestigd aan één verlengde vinger"
+                },
+                {
+                    "en": "Stretched between all fingers",
+                    "es": "Estiradas entre todos los dedos",
+                    "de": "Zwischen allen Fingern gespannt",
+                    "nl": "Gespannen tussen alle vingers"
+                },
+                {
+                    "en": "Made of feathers",
+                    "es": "Hechas de plumas",
+                    "de": "Aus Federn gemacht",
+                    "nl": "Gemaakt van veren"
+                },
+                {
+                    "en": "Identical to bat wings",
+                    "es": "Idénticas a las alas de murciélago",
+                    "de": "Identisch mit Fledermausflügeln",
+                    "nl": "Identiek aan vleermuisvleugels"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterosaur wing membranes were supported by a single hyper-elongated fourth finger and reinforced with microscopic fibers called actinofibrils, providing strength and elasticity. Unlike bats which use all fingers, this design allowed precise wing shape control.",
+                "es": "Las membranas alares de pterosaurios estaban soportadas por un único cuarto dedo hiper-alargado y...",
+                "de": "Flugsaurier-Flügelmembranen wurden von einem einzelnen, extrem verlängerten vierten Finger gestüt...",
+                "nl": "Pterosauriër vleugelmembranen werden ondersteund door één hyper-verlengde vierde vinger en verste..."
+            }
+        },
+        {
+            "question": {
+                "en": "What evidence suggests some pterosaurs were nocturnal?",
+                "es": "¿Qué evidencia sugiere que algunos pterosaurios eran nocturnos?",
+                "de": "Welche Beweise deuten darauf hin, dass einige Flugsaurier nachtaktiv waren?",
+                "nl": "Welk bewijs suggereert dat sommige pterosauriërs nachtdieren waren?"
+            },
+            "options": [
+                {
+                    "en": "Large eye sockets and scleral rings indicating night vision",
+                    "es": "Grandes cuencas oculares y anillos esclerales indicando visión nocturna",
+                    "de": "Große Augenhöhlen und Skleralringe die auf Nachtsicht hindeuten",
+                    "nl": "Grote oogkassen en sclerale ringen die nachtzicht aangeven"
+                },
+                {
+                    "en": "Small eyes",
+                    "es": "Ojos pequeños",
+                    "de": "Kleine Augen",
+                    "nl": "Kleine ogen"
+                },
+                {
+                    "en": "Dark coloration",
+                    "es": "Coloración oscura",
+                    "de": "Dunkle Färbung",
+                    "nl": "Donkere kleuring"
+                },
+                {
+                    "en": "Cave fossils",
+                    "es": "Fósiles en cuevas",
+                    "de": "Höhlenfossilien",
+                    "nl": "Grot fossielen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Several pterosaur species had exceptionally large eye sockets relative to skull size and preserved scleral rings (eye bones) that indicate large pupils. These adaptations, similar to modern nocturnal birds, suggest they hunted at night or in low-light conditions.",
+                "es": "Varias especies de pterosaurios tenían cuencas oculares excepcionalmente grandes relativas al tam...",
+                "de": "Mehrere Flugsaurierarten hatten außergewöhnlich große Augenhöhlen im Verhältnis zur Schädelgröße ...",
+                "nl": "Verschillende pterosauriërsoorten hadden uitzonderlijk grote oogkassen relatief tot schedelgroott..."
+            }
+        },
+        {
+            "question": {
+                "en": "What impact did this have?",
+                "es": "¿Qué impact did this have?",
+                "de": "Was impact did this have?",
+                "nl": "Wat impact did this have?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 6",
+                    "es": "Correct answer for question 6",
+                    "de": "Correct answer for question 6",
+                    "nl": "Correct answer for question 6"
+                },
+                {
+                    "en": "Incorrect option 2 for question 6",
+                    "es": "Incorrect option 2 para question 6",
+                    "de": "Incorrect option 2 für question 6",
+                    "nl": "Incorrect option 2 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 3 for question 6",
+                    "es": "Incorrect option 3 para question 6",
+                    "de": "Incorrect option 3 für question 6",
+                    "nl": "Incorrect option 3 voor question 6"
+                },
+                {
+                    "en": "Incorrect option 4 for question 6",
+                    "es": "Incorrect option 4 para question 6",
+                    "de": "Incorrect option 4 für question 6",
+                    "nl": "Incorrect option 4 voor question 6"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which principle applies here?",
+                "es": "¿Cuál principle applies here?",
+                "de": "Welche principle applies here?",
+                "nl": "Welke principle applies here?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 7",
+                    "es": "Incorrect option 1 para question 7",
+                    "de": "Incorrect option 1 für question 7",
+                    "nl": "Incorrect option 1 voor question 7"
+                },
+                {
+                    "en": "Correct answer for question 7",
+                    "es": "Correct answer for question 7",
+                    "de": "Correct answer for question 7",
+                    "nl": "Correct answer for question 7"
+                },
+                {
+                    "en": "Incorrect option 3 for question 7",
+                    "es": "Incorrect option 3 para question 7",
+                    "de": "Incorrect option 3 für question 7",
+                    "nl": "Incorrect option 3 voor question 7"
+                },
+                {
+                    "en": "Incorrect option 4 for question 7",
+                    "es": "Incorrect option 4 para question 7",
+                    "de": "Incorrect option 4 für question 7",
+                    "nl": "Incorrect option 4 voor question 7"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How has this evolved over time?",
+                "es": "¿Cómo has this evolved over time?",
+                "de": "Wie has this evolved over time?",
+                "nl": "Hoe has this evolved over time?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 8",
+                    "es": "Correct answer for question 8",
+                    "de": "Correct answer for question 8",
+                    "nl": "Correct answer for question 8"
+                },
+                {
+                    "en": "Incorrect option 2 for question 8",
+                    "es": "Incorrect option 2 para question 8",
+                    "de": "Incorrect option 2 für question 8",
+                    "nl": "Incorrect option 2 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 3 for question 8",
+                    "es": "Incorrect option 3 para question 8",
+                    "de": "Incorrect option 3 für question 8",
+                    "nl": "Incorrect option 3 voor question 8"
+                },
+                {
+                    "en": "Incorrect option 4 for question 8",
+                    "es": "Incorrect option 4 para question 8",
+                    "de": "Incorrect option 4 für question 8",
+                    "nl": "Incorrect option 4 voor question 8"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the current state of this?",
+                "es": "¿Qué is the current state of this?",
+                "de": "Was is the current state of this?",
+                "nl": "Wat is the current state of this?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 9",
+                    "es": "Incorrect option 1 para question 9",
+                    "de": "Incorrect option 1 für question 9",
+                    "nl": "Incorrect option 1 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 2 for question 9",
+                    "es": "Incorrect option 2 para question 9",
+                    "de": "Incorrect option 2 für question 9",
+                    "nl": "Incorrect option 2 voor question 9"
+                },
+                {
+                    "en": "Incorrect option 3 for question 9",
+                    "es": "Incorrect option 3 para question 9",
+                    "de": "Incorrect option 3 für question 9",
+                    "nl": "Incorrect option 3 voor question 9"
+                },
+                {
+                    "en": "Correct answer for question 9",
+                    "es": "Correct answer for question 9",
+                    "de": "Correct answer for question 9",
+                    "nl": "Correct answer for question 9"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the significance of this in level 6?",
+                "es": "¿Qué is the significance of this in level 6?",
+                "de": "Was is the significance of this in level 6?",
+                "nl": "Wat is the significance of this in level 6?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 10",
+                    "es": "Incorrect option 1 para question 10",
+                    "de": "Incorrect option 1 für question 10",
+                    "nl": "Incorrect option 1 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 2 for question 10",
+                    "es": "Incorrect option 2 para question 10",
+                    "de": "Incorrect option 2 für question 10",
+                    "nl": "Incorrect option 2 voor question 10"
+                },
+                {
+                    "en": "Incorrect option 3 for question 10",
+                    "es": "Incorrect option 3 para question 10",
+                    "de": "Incorrect option 3 für question 10",
+                    "nl": "Incorrect option 3 voor question 10"
+                },
+                {
+                    "en": "Correct answer for question 10",
+                    "es": "Correct answer for question 10",
+                    "de": "Correct answer for question 10",
+                    "nl": "Correct answer for question 10"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Which statement about this topic is correct?",
+                "es": "¿Cuál statement about this topic is correct?",
+                "de": "Welche statement about this topic is correct?",
+                "nl": "Welke statement about this topic is correct?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 11",
+                    "es": "Incorrect option 1 para question 11",
+                    "de": "Incorrect option 1 für question 11",
+                    "nl": "Incorrect option 1 voor question 11"
+                },
+                {
+                    "en": "Correct answer for question 11",
+                    "es": "Correct answer for question 11",
+                    "de": "Correct answer for question 11",
+                    "nl": "Correct answer for question 11"
+                },
+                {
+                    "en": "Incorrect option 3 for question 11",
+                    "es": "Incorrect option 3 para question 11",
+                    "de": "Incorrect option 3 für question 11",
+                    "nl": "Incorrect option 3 voor question 11"
+                },
+                {
+                    "en": "Incorrect option 4 for question 11",
+                    "es": "Incorrect option 4 para question 11",
+                    "de": "Incorrect option 4 für question 11",
+                    "nl": "Incorrect option 4 voor question 11"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "How does this relate to Pterosaurs?",
+                "es": "¿Cómo does this relate to Pterosaurs?",
+                "de": "Wie does this relate to Pterosaurs?",
+                "nl": "Hoe does this relate to Pterosaurs?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 12",
+                    "es": "Correct answer for question 12",
+                    "de": "Correct answer for question 12",
+                    "nl": "Correct answer for question 12"
+                },
+                {
+                    "en": "Incorrect option 2 for question 12",
+                    "es": "Incorrect option 2 para question 12",
+                    "de": "Incorrect option 2 für question 12",
+                    "nl": "Incorrect option 2 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 3 for question 12",
+                    "es": "Incorrect option 3 para question 12",
+                    "de": "Incorrect option 3 für question 12",
+                    "nl": "Incorrect option 3 voor question 12"
+                },
+                {
+                    "en": "Incorrect option 4 for question 12",
+                    "es": "Incorrect option 4 para question 12",
+                    "de": "Incorrect option 4 für question 12",
+                    "nl": "Incorrect option 4 voor question 12"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "What distinguishes this concept?",
+                "es": "¿Qué distinguishes this concept?",
+                "de": "Was distinguishes this concept?",
+                "nl": "Wat distinguishes this concept?"
+            },
+            "options": [
+                {
+                    "en": "Correct answer for question 13",
+                    "es": "Correct answer for question 13",
+                    "de": "Correct answer for question 13",
+                    "nl": "Correct answer for question 13"
+                },
+                {
+                    "en": "Incorrect option 2 for question 13",
+                    "es": "Incorrect option 2 para question 13",
+                    "de": "Incorrect option 2 für question 13",
+                    "nl": "Incorrect option 2 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 3 for question 13",
+                    "es": "Incorrect option 3 para question 13",
+                    "de": "Incorrect option 3 für question 13",
+                    "nl": "Incorrect option 3 voor question 13"
+                },
+                {
+                    "en": "Incorrect option 4 for question 13",
+                    "es": "Incorrect option 4 para question 13",
+                    "de": "Incorrect option 4 für question 13",
+                    "nl": "Incorrect option 4 voor question 13"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "When did this development occur?",
+                "es": "¿Cuándo did this development occur?",
+                "de": "Wann did this development occur?",
+                "nl": "Wanneer did this development occur?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 14",
+                    "es": "Incorrect option 1 para question 14",
+                    "de": "Incorrect option 1 für question 14",
+                    "nl": "Incorrect option 1 voor question 14"
+                },
+                {
+                    "en": "Incorrect option 2 for question 14",
+                    "es": "Incorrect option 2 para question 14",
+                    "de": "Incorrect option 2 für question 14",
+                    "nl": "Incorrect option 2 voor question 14"
+                },
+                {
+                    "en": "Correct answer for question 14",
+                    "es": "Correct answer for question 14",
+                    "de": "Correct answer for question 14",
+                    "nl": "Correct answer for question 14"
+                },
+                {
+                    "en": "Incorrect option 4 for question 14",
+                    "es": "Incorrect option 4 para question 14",
+                    "de": "Incorrect option 4 für question 14",
+                    "nl": "Incorrect option 4 voor question 14"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Who pioneered this approach?",
+                "es": "¿Quién pioneered this approach?",
+                "de": "Wer pioneered this approach?",
+                "nl": "Wie pioneered this approach?"
+            },
+            "options": [
+                {
+                    "en": "Incorrect option 1 for question 15",
+                    "es": "Incorrect option 1 para question 15",
+                    "de": "Incorrect option 1 für question 15",
+                    "nl": "Incorrect option 1 voor question 15"
+                },
+                {
+                    "en": "Correct answer for question 15",
+                    "es": "Correct answer for question 15",
+                    "de": "Correct answer for question 15",
+                    "nl": "Correct answer for question 15"
+                },
+                {
+                    "en": "Incorrect option 3 for question 15",
+                    "es": "Incorrect option 3 para question 15",
+                    "de": "Incorrect option 3 für question 15",
+                    "nl": "Incorrect option 3 voor question 15"
+                },
+                {
+                    "en": "Incorrect option 4 for question 15",
+                    "es": "Incorrect option 4 para question 15",
+                    "de": "Incorrect option 4 für question 15",
+                    "nl": "Incorrect option 4 voor question 15"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "es": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "de": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context.",
+                "nl": "This question relates to level 6 content in Pterosaurs. The correct answer provides important context."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Hatzegopteryx fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Hatzegopteryx?",
+                "de": "Wo wurden Fossilien von Hatzegopteryx gefunden?",
+                "nl": "Waar zijn fossielen van Hatzegopteryx gevonden?"
+            },
+            "options": [
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Hatzegopteryx fossils were found in Europe.",
+                "es": "Hatzegopteryx fósiles fueron encontrados en Europa.",
+                "de": "Hatzegopteryx-Fossilien wurden in Europa gefunden.",
+                "nl": "Hatzegopteryx-fossielen werden gevonden in Europa."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Hatzegopteryx?",
+                "es": "¿Cuánto medía el Hatzegopteryx?",
+                "de": "Wie lang war Hatzegopteryx?",
+                "nl": "Hoe lang was Hatzegopteryx?"
+            },
+            "options": [
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "10m wingspan",
+                    "es": "10m wingspan",
+                    "de": "10m wingspan",
+                    "nl": "10m wingspan"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Hatzegopteryx was approximately 10m wingspan long.",
+                "es": "Hatzegopteryx medía aproximadamente 10m wingspan.",
+                "de": "Hatzegopteryx war ungefähr 10m wingspan lang.",
+                "nl": "Hatzegopteryx was ongeveer 10m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "How long ago did dinosaurs go extinct?",
+                "es": "¿Hace cuánto se extinguieron los dinosaurios?",
+                "de": "Wie lange ist das Aussterben der Dinosaurier her?",
+                "nl": "Hoe lang geleden stierven dinosaurussen uit?"
+            },
+            "options": [
+                {
+                    "en": "About 66 million years ago",
+                    "es": "Hace unos 66 millones de años",
+                    "de": "Vor etwa 66 Millionen Jahren",
+                    "nl": "Ongeveer 66 miljoen jaar geleden"
+                },
+                {
+                    "en": "About 1 million years ago",
+                    "es": "Hace un millón de años",
+                    "de": "Vor 1 Million Jahren",
+                    "nl": "Ongeveer 1 miljoen jaar geleden"
+                },
+                {
+                    "en": "About 1000 years ago",
+                    "es": "Hace mil años",
+                    "de": "Vor 1000 Jahren",
+                    "nl": "Ongeveer 1000 jaar geleden"
+                },
+                {
+                    "en": "They are not extinct",
+                    "es": "No están extintos",
+                    "de": "Sie sind nicht ausgestorben",
+                    "nl": "Ze zijn niet uitgestorven"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dinosaurs went extinct about 66 million years ago.",
+                "es": "Los dinosaurios se extinguieron hace 66 millones de años.",
+                "de": "Dinosaurier starben vor 66 Millionen Jahren aus.",
+                "nl": "Dinosaurussen stierven 66 miljoen jaar geleden uit."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Tapejara fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Tapejara?",
+                "de": "Wo wurden Fossilien von Tapejara gefunden?",
+                "nl": "Waar zijn fossielen van Tapejara gevonden?"
+            },
+            "options": [
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Tapejara fossils were found in South America.",
+                "es": "Tapejara fósiles fueron encontrados en América del Sur.",
+                "de": "Tapejara-Fossilien wurden in Südamerika gefunden.",
+                "nl": "Tapejara-fossielen werden gevonden in Zuid-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Pterodactylus eat?",
+                "es": "¿Qué comía el Pterodáctilo?",
+                "de": "Was fraß Pterodactylus?",
+                "nl": "Wat at Pterodactylus?"
+            },
+            "options": [
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "fish and small animals",
+                    "es": "peces y animales pequeños",
+                    "de": "Fische und kleine Tiere",
+                    "nl": "vissen en kleine dieren"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Pterodactylus ate fish and small animals.",
+                "es": "Pterodáctilo comía peces y animales pequeños.",
+                "de": "Pterodactylus fraß Fische und kleine Tiere.",
+                "nl": "Pterodactylus at vissen en kleine dieren."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Tapejara is true?",
+                "es": "¿Qué dato sobre el Tapejara es verdadero?",
+                "de": "Welcher Fakt über Tapejara stimmt?",
+                "nl": "Welk feit over Tapejara is waar?"
+            },
+            "options": [
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It had elaborate colorful head crest",
+                    "es": "Tenía cresta elaborada y colorida",
+                    "de": "Es hatte aufwändiger farbiger Kopfkamm",
+                    "nl": "Het had uitgebreide kleurrijke kopkam"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Tapejara is known for having elaborate colorful head crest.",
+                "es": "Tapejara es conocido por tener cresta elaborada y colorida.",
+                "de": "Tapejara ist bekannt für aufwändiger farbiger Kopfkamm.",
+                "nl": "Tapejara is bekend om uitgebreide kleurrijke kopkam."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Pterodactylus live?",
+                "es": "¿Cuándo vivió el Pterodáctilo?",
+                "de": "Wann lebte Pterodactylus?",
+                "nl": "Wanneer leefde Pterodactylus?"
+            },
+            "options": [
+                {
+                    "en": "Late Jurassic",
+                    "es": "Jurásico tardío",
+                    "de": "Oberer Jura",
+                    "nl": "Laat-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterodactylus lived during the Late Jurassic.",
+                "es": "Pterodáctilo vivió durante el Jurásico tardío.",
+                "de": "Pterodactylus lebte während Oberer Jura.",
+                "nl": "Pterodactylus leefde tijdens het Laat-Jura."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Quetzalcoatlus known for?",
+                "es": "¿Por qué era conocido el Quetzalcoatlus?",
+                "de": "Wofür war Quetzalcoatlus bekannt?",
+                "nl": "Waar was Quetzalcoatlus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "largest flying animal ever",
+                    "es": "animal volador más grande de la historia",
+                    "de": "größtes fliegendes Tier aller Zeiten",
+                    "nl": "grootste vliegend dier ooit"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Quetzalcoatlus was known for having largest flying animal ever.",
+                "es": "Quetzalcoatlus era conocido por tener animal volador más grande de la historia.",
+                "de": "Quetzalcoatlus war bekannt für größtes fliegendes Tier aller Zeiten.",
+                "nl": "Quetzalcoatlus was bekend om grootste vliegend dier ooit."
+            }
+        },
+        {
+            "question": {
+                "en": "What scientist studies dinosaurs?",
+                "es": "¿Qué científico estudia dinosaurios?",
+                "de": "Welcher Wissenschaftler studiert Dinosaurier?",
+                "nl": "Welke wetenschapper bestudeert dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Astronomer",
+                    "es": "Astrónomo",
+                    "de": "Astronom",
+                    "nl": "Astronoom"
+                },
+                {
+                    "en": "Biologist",
+                    "es": "Biólogo",
+                    "de": "Biologe",
+                    "nl": "Bioloog"
+                },
+                {
+                    "en": "Paleontologist",
+                    "es": "Paleontólogo",
+                    "de": "Paläontologe",
+                    "nl": "Paleontoloog"
+                },
+                {
+                    "en": "Chemist",
+                    "es": "Químico",
+                    "de": "Chemiker",
+                    "nl": "Chemicus"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Paleontologists study fossils and ancient life including dinosaurs.",
+                "es": "Los paleontólogos estudian fósiles y vida antigua incluyendo dinosaurios.",
+                "de": "Paläontologen studieren Fossilien und urzeitliches Leben.",
+                "nl": "Paleontologen bestuderen fossielen en prehistorisch leven."
+            }
+        },
+        {
+            "question": {
+                "en": "What does the word dinosaur mean?",
+                "es": "¿Qué significa la palabra dinosaurio?",
+                "de": "Was bedeutet das Wort Dinosaurier?",
+                "nl": "Wat betekent het woord dinosaurus?"
+            },
+            "options": [
+                {
+                    "en": "Old bones",
+                    "es": "Huesos viejos",
+                    "de": "Alte Knochen",
+                    "nl": "Oude botten"
+                },
+                {
+                    "en": "Giant beast",
+                    "es": "Bestia gigante",
+                    "de": "Riesentier",
+                    "nl": "Reuzendier"
+                },
+                {
+                    "en": "Ancient monster",
+                    "es": "Monstruo antiguo",
+                    "de": "Altes Monster",
+                    "nl": "Oud monster"
+                },
+                {
+                    "en": "Terrible lizard",
+                    "es": "Lagarto terrible",
+                    "de": "Schreckliche Echse",
+                    "nl": "Verschrikkelijke hagedis"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Dinosaur means terrible lizard in Greek.",
+                "es": "Dinosaurio significa lagarto terrible en griego.",
+                "de": "Dinosaurier bedeutet auf Griechisch schreckliche Echse.",
+                "nl": "Dinosaurus betekent verschrikkelijke hagedis in het Grieks."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Dimorphodon live?",
+                "es": "¿Cuándo vivió el Dimorfodón?",
+                "de": "Wann lebte Dimorphodon?",
+                "nl": "Wanneer leefde Dimorphodon?"
+            },
+            "options": [
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                },
+                {
+                    "en": "Late Jurassic",
+                    "es": "Jurásico tardío",
+                    "de": "Oberer Jura",
+                    "nl": "Laat-Jura"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dimorphodon lived during the Early Jurassic.",
+                "es": "Dimorfodón vivió durante el Jurásico temprano.",
+                "de": "Dimorphodon lebte während Unterer Jura.",
+                "nl": "Dimorphodon leefde tijdens het Vroeg-Jura."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Pteranodon fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Pteranodón?",
+                "de": "Wo wurden Fossilien von Pteranodon gefunden?",
+                "nl": "Waar zijn fossielen van Pteranodon gevonden?"
+            },
+            "options": [
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Pteranodon fossils were found in North America.",
+                "es": "Pteranodón fósiles fueron encontrados en América del Norte.",
+                "de": "Pteranodon-Fossilien wurden in Nordamerika gefunden.",
+                "nl": "Pteranodon-fossielen werden gevonden in Noord-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Anhanguera belong to?",
+                "es": "¿A qué grupo pertenece Anhanguera?",
+                "de": "Zu welcher Gruppe gehört Anhanguera?",
+                "nl": "Tot welke groep behoort Anhanguera?"
+            },
+            "options": [
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Anhanguera belongs to the pterosaurs.",
+                "es": "Anhanguera pertenece a los pterosaurios.",
+                "de": "Anhanguera gehört zu den Pterosaurier.",
+                "nl": "Anhanguera behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Hatzegopteryx eat?",
+                "es": "¿Qué comía el Hatzegopteryx?",
+                "de": "Was fraß Hatzegopteryx?",
+                "nl": "Wat at Hatzegopteryx?"
+            },
+            "options": [
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "small dinosaurs",
+                    "es": "dinosaurios pequeños",
+                    "de": "kleine Dinosaurier",
+                    "nl": "kleine dinosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Hatzegopteryx ate small dinosaurs.",
+                "es": "Hatzegopteryx comía dinosaurios pequeños.",
+                "de": "Hatzegopteryx fraß kleine Dinosaurier.",
+                "nl": "Hatzegopteryx at kleine dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Anhanguera eat?",
+                "es": "¿Qué comía el Anhanguera?",
+                "de": "Was fraß Anhanguera?",
+                "nl": "Wat at Anhanguera?"
+            },
+            "options": [
+                {
+                    "en": "fish",
+                    "es": "peces",
+                    "de": "Fische",
+                    "nl": "vissen"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Anhanguera ate fish.",
+                "es": "Anhanguera comía peces.",
+                "de": "Anhanguera fraß Fische.",
+                "nl": "Anhanguera at vissen."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Quetzalcoatlus have?",
+                "es": "¿Qué dientes tenía el Quetzalcoatlus?",
+                "de": "Welche Zähne hatte Quetzalcoatlus?",
+                "nl": "Welke tanden had Quetzalcoatlus?"
+            },
+            "options": [
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "toothless elongated beak",
+                    "es": "pico alargado sin dientes",
+                    "de": "zahnloser verlängerter Schnabel",
+                    "nl": "tandeloze verlengde snavel"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Quetzalcoatlus had toothless elongated beak.",
+                "es": "Quetzalcoatlus tenía pico alargado sin dientes.",
+                "de": "Quetzalcoatlus hatte zahnloser verlängerter Schnabel.",
+                "nl": "Quetzalcoatlus had tandeloze verlengde snavel."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Pteranodon live?",
+                "es": "¿Cuándo vivió el Pteranodón?",
+                "de": "Wann lebte Pteranodon?",
+                "nl": "Wanneer leefde Pteranodon?"
+            },
+            "options": [
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Pteranodon lived during the Late Cretaceous.",
+                "es": "Pteranodón vivió durante el Cretácico tardío.",
+                "de": "Pteranodon lebte während Obere Kreide.",
+                "nl": "Pteranodon leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Anhanguera fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Anhanguera?",
+                "de": "Wo wurden Fossilien von Anhanguera gefunden?",
+                "nl": "Waar zijn fossielen van Anhanguera gevonden?"
+            },
+            "options": [
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Anhanguera fossils were found in South America.",
+                "es": "Anhanguera fósiles fueron encontrados en América del Sur.",
+                "de": "Anhanguera-Fossilien wurden in Südamerika gefunden.",
+                "nl": "Anhanguera-fossielen werden gevonden in Zuid-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Tapejara eat?",
+                "es": "¿Qué comía el Tapejara?",
+                "de": "Was fraß Tapejara?",
+                "nl": "Wat at Tapejara?"
+            },
+            "options": [
+                {
+                    "en": "fruit and fish",
+                    "es": "fruta y pescado",
+                    "de": "Obst und Fisch",
+                    "nl": "fruit en vis"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Tapejara ate fruit and fish.",
+                "es": "Tapejara comía fruta y pescado.",
+                "de": "Tapejara fraß Obst und Fisch.",
+                "nl": "Tapejara at fruit en vis."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Pteranodon have?",
+                "es": "¿Qué dientes tenía el Pteranodón?",
+                "de": "Welche Zähne hatte Pteranodon?",
+                "nl": "Welke tanden had Pteranodon?"
+            },
+            "options": [
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "toothless beak",
+                    "es": "pico sin dientes",
+                    "de": "zahnloser Schnabel",
+                    "nl": "tandeloze snavel"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Pteranodon had toothless beak.",
+                "es": "Pteranodón tenía pico sin dientes.",
+                "de": "Pteranodon hatte zahnloser Schnabel.",
+                "nl": "Pteranodon had tandeloze snavel."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Tapejara unique?",
+                "es": "¿Qué hacía único al Tapejara?",
+                "de": "Was machte Tapejara einzigartig?",
+                "nl": "Wat maakte Tapejara uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its elaborate colorful head crest",
+                    "es": "Su cresta elaborada y colorida",
+                    "de": "Seine/ihre aufwändiger farbiger Kopfkamm",
+                    "nl": "Zijn uitgebreide kleurrijke kopkam"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Tapejara was unique because of its elaborate colorful head crest.",
+                "es": "Tapejara era único por su cresta elaborada y colorida.",
+                "de": "Tapejara war einzigartig wegen aufwändiger farbiger Kopfkamm.",
+                "nl": "Tapejara was uniek vanwege uitgebreide kleurrijke kopkam."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Pteranodon known for?",
+                "es": "¿Por qué era conocido el Pteranodón?",
+                "de": "Wofür war Pteranodon bekannt?",
+                "nl": "Waar was Pteranodon bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "large backward-pointing head crest",
+                    "es": "gran cresta apuntando hacia atrás",
+                    "de": "großer nach hinten zeigender Kopfkamm",
+                    "nl": "grote naar achteren wijzende kopkam"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pteranodon was known for having large backward-pointing head crest.",
+                "es": "Pteranodón era conocido por tener gran cresta apuntando hacia atrás.",
+                "de": "Pteranodon war bekannt für großer nach hinten zeigender Kopfkamm.",
+                "nl": "Pteranodon was bekend om grote naar achteren wijzende kopkam."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a coprolite?",
+                "es": "¿Qué es un coprolito?",
+                "de": "Was ist ein Koprolith?",
+                "nl": "Wat is een coproliet?"
+            },
+            "options": [
+                {
+                    "en": "Fossilized dinosaur droppings",
+                    "es": "Excrementos fosilizados",
+                    "de": "Versteinerter Dinosaurierkot",
+                    "nl": "Gefossiliseerde uitwerpselen"
+                },
+                {
+                    "en": "A type of mineral",
+                    "es": "Un tipo de mineral",
+                    "de": "Eine Art Mineral",
+                    "nl": "Een soort mineraal"
+                },
+                {
+                    "en": "A dinosaur skull",
+                    "es": "Un cráneo",
+                    "de": "Ein Schädel",
+                    "nl": "Een schedel"
+                },
+                {
+                    "en": "A fossilized plant",
+                    "es": "Una planta fosilizada",
+                    "de": "Eine versteinerte Pflanze",
+                    "nl": "Een gefossiliseerde plant"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Coprolites are fossilized droppings revealing dinosaur diet info.",
+                "es": "Los coprolitos son excrementos fosilizados que revelan la dieta.",
+                "de": "Koprolithen sind versteinerter Kot der die Ernährung verrät.",
+                "nl": "Coprolieten zijn gefossiliseerde uitwerpselen die dieetinfo onthullen."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Tapejara?",
+                "es": "¿Cuánto pesaba el Tapejara?",
+                "de": "Wie schwer war Tapejara?",
+                "nl": "Hoe zwaar was Tapejara?"
+            },
+            "options": [
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "20 kg",
+                    "es": "20 kg",
+                    "de": "20 kg",
+                    "nl": "20 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Tapejara weighed about 20 kg.",
+                "es": "Tapejara pesaba unos 20 kg.",
+                "de": "Tapejara wog etwa 20 kg.",
+                "nl": "Tapejara woog ongeveer 20 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Rhamphorhynchus have?",
+                "es": "¿Qué dientes tenía el Ranforrinco?",
+                "de": "Welche Zähne hatte Rhamphorhynchus?",
+                "nl": "Welke tanden had Rhamphorhynchus?"
+            },
+            "options": [
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "interlocking needle-like teeth",
+                    "es": "dientes de aguja entrelazados",
+                    "de": "ineinandergreifende Nadelzähne",
+                    "nl": "in elkaar grijpende naaldtanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Rhamphorhynchus had interlocking needle-like teeth.",
+                "es": "Ranforrinco tenía dientes de aguja entrelazados.",
+                "de": "Rhamphorhynchus hatte ineinandergreifende Nadelzähne.",
+                "nl": "Rhamphorhynchus had in elkaar grijpende naaldtanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Pterodactylus belong to?",
+                "es": "¿A qué grupo pertenece Pterodáctilo?",
+                "de": "Zu welcher Gruppe gehört Pterodactylus?",
+                "nl": "Tot welke groep behoort Pterodactylus?"
+            },
+            "options": [
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pterodactylus belongs to the pterosaurs.",
+                "es": "Pterodáctilo pertenece a los pterosaurios.",
+                "de": "Pterodactylus gehört zu den Pterosaurier.",
+                "nl": "Pterodactylus behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Pterodactylus known for?",
+                "es": "¿Por qué era conocido el Pterodáctilo?",
+                "de": "Wofür war Pterodactylus bekannt?",
+                "nl": "Waar was Pterodactylus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "first pterosaur ever discovered",
+                    "es": "primer pterosaurio descubierto",
+                    "de": "erster entdeckter Pterosaurier",
+                    "nl": "eerste ontdekte pterosaurus"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterodactylus was known for having first pterosaur ever discovered.",
+                "es": "Pterodáctilo era conocido por tener primer pterosaurio descubierto.",
+                "de": "Pterodactylus war bekannt für erster entdeckter Pterosaurier.",
+                "nl": "Pterodactylus was bekend om eerste ontdekte pterosaurus."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Rhamphorhynchus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Ranforrinco?",
+                "de": "Wo wurden Fossilien von Rhamphorhynchus gefunden?",
+                "nl": "Waar zijn fossielen van Rhamphorhynchus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Rhamphorhynchus fossils were found in Europe.",
+                "es": "Ranforrinco fósiles fueron encontrados en Europa.",
+                "de": "Rhamphorhynchus-Fossilien wurden in Europa gefunden.",
+                "nl": "Rhamphorhynchus-fossielen werden gevonden in Europa."
+            }
+        },
+        {
+            "question": {
+                "en": "What modern animals descend from dinosaurs?",
+                "es": "¿Qué animales modernos descienden de dinosaurios?",
+                "de": "Welche modernen Tiere stammen von Dinosauriern ab?",
+                "nl": "Welke moderne dieren stammen af van dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Lizards",
+                    "es": "Lagartos",
+                    "de": "Eidechsen",
+                    "nl": "Hagedissen"
+                },
+                {
+                    "en": "Crocodiles",
+                    "es": "Cocodrilos",
+                    "de": "Krokodile",
+                    "nl": "Krokodillen"
+                },
+                {
+                    "en": "Birds",
+                    "es": "Aves",
+                    "de": "Vögel",
+                    "nl": "Vogels"
+                },
+                {
+                    "en": "Snakes",
+                    "es": "Serpientes",
+                    "de": "Schlangen",
+                    "nl": "Slangen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Birds are direct descendants of theropod dinosaurs.",
+                "es": "Las aves son descendientes directos de dinosaurios terópodos.",
+                "de": "Vögel sind direkte Nachfahren theropoder Dinosaurier.",
+                "nl": "Vogels zijn directe afstammelingen van theropode dinosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Pteranodon?",
+                "es": "¿Cuánto pesaba el Pteranodón?",
+                "de": "Wie schwer war Pteranodon?",
+                "nl": "Hoe zwaar was Pteranodon?"
+            },
+            "options": [
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "25 kg",
+                    "es": "25 kg",
+                    "de": "25 kg",
+                    "nl": "25 kg"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pteranodon weighed about 25 kg.",
+                "es": "Pteranodón pesaba unos 25 kg.",
+                "de": "Pteranodon wog etwa 25 kg.",
+                "nl": "Pteranodon woog ongeveer 25 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Dimorphodon?",
+                "es": "¿Cuánto pesaba el Dimorfodón?",
+                "de": "Wie schwer war Dimorphodon?",
+                "nl": "Hoe zwaar was Dimorphodon?"
+            },
+            "options": [
+                {
+                    "en": "1 kg",
+                    "es": "1 kg",
+                    "de": "1 kg",
+                    "nl": "1 kg"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dimorphodon weighed about 1 kg.",
+                "es": "Dimorfodón pesaba unos 1 kg.",
+                "de": "Dimorphodon wog etwa 1 kg.",
+                "nl": "Dimorphodon woog ongeveer 1 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Rhamphorhynchus known for?",
+                "es": "¿Por qué era conocido el Ranforrinco?",
+                "de": "Wofür war Rhamphorhynchus bekannt?",
+                "nl": "Waar was Rhamphorhynchus bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "long tail with diamond-shaped tip",
+                    "es": "cola larga con punta de diamante",
+                    "de": "langer Schwanz mit Rautenspitze",
+                    "nl": "lange staart met ruitvormige punt"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Rhamphorhynchus was known for having long tail with diamond-shaped tip.",
+                "es": "Ranforrinco era conocido por tener cola larga con punta de diamante.",
+                "de": "Rhamphorhynchus war bekannt für langer Schwanz mit Rautenspitze.",
+                "nl": "Rhamphorhynchus was bekend om lange staart met ruitvormige punt."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Quetzalcoatlus?",
+                "es": "¿Cuánto medía el Quetzalcoatlus?",
+                "de": "Wie lang war Quetzalcoatlus?",
+                "nl": "Hoe lang was Quetzalcoatlus?"
+            },
+            "options": [
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "11m wingspan",
+                    "es": "11m wingspan",
+                    "de": "11m wingspan",
+                    "nl": "11m wingspan"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Quetzalcoatlus was approximately 11m wingspan long.",
+                "es": "Quetzalcoatlus medía aproximadamente 11m wingspan.",
+                "de": "Quetzalcoatlus war ungefähr 11m wingspan lang.",
+                "nl": "Quetzalcoatlus was ongeveer 11m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Hatzegopteryx?",
+                "es": "¿Cuánto pesaba el Hatzegopteryx?",
+                "de": "Wie schwer war Hatzegopteryx?",
+                "nl": "Hoe zwaar was Hatzegopteryx?"
+            },
+            "options": [
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "150 kg",
+                    "es": "150 kg",
+                    "de": "150 kg",
+                    "nl": "150 kg"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Hatzegopteryx weighed about 150 kg.",
+                "es": "Hatzegopteryx pesaba unos 150 kg.",
+                "de": "Hatzegopteryx wog etwa 150 kg.",
+                "nl": "Hatzegopteryx woog ongeveer 150 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Rhamphorhynchus is true?",
+                "es": "¿Qué dato sobre el Ranforrinco es verdadero?",
+                "de": "Welcher Fakt über Rhamphorhynchus stimmt?",
+                "nl": "Welk feit over Rhamphorhynchus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It had long tail with diamond-shaped tip",
+                    "es": "Tenía cola larga con punta de diamante",
+                    "de": "Es hatte langer Schwanz mit Rautenspitze",
+                    "nl": "Het had lange staart met ruitvormige punt"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Rhamphorhynchus is known for having long tail with diamond-shaped tip.",
+                "es": "Ranforrinco es conocido por tener cola larga con punta de diamante.",
+                "de": "Rhamphorhynchus ist bekannt für langer Schwanz mit Rautenspitze.",
+                "nl": "Rhamphorhynchus is bekend om lange staart met ruitvormige punt."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Anhanguera unique?",
+                "es": "¿Qué hacía único al Anhanguera?",
+                "de": "Was machte Anhanguera einzigartig?",
+                "nl": "Wat maakte Anhanguera uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its rounded crest on upper jaw",
+                    "es": "Su cresta redondeada en la mandíbula superior",
+                    "de": "Seine/ihre gerundeter Kamm am Oberkiefer",
+                    "nl": "Zijn afgeronde kam op bovenkaak"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Anhanguera was unique because of its rounded crest on upper jaw.",
+                "es": "Anhanguera era único por su cresta redondeada en la mandíbula superior.",
+                "de": "Anhanguera war einzigartig wegen gerundeter Kamm am Oberkiefer.",
+                "nl": "Anhanguera was uniek vanwege afgeronde kam op bovenkaak."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Rhamphorhynchus unique?",
+                "es": "¿Qué hacía único al Ranforrinco?",
+                "de": "Was machte Rhamphorhynchus einzigartig?",
+                "nl": "Wat maakte Rhamphorhynchus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its long tail with diamond-shaped tip",
+                    "es": "Su cola larga con punta de diamante",
+                    "de": "Seine/ihre langer Schwanz mit Rautenspitze",
+                    "nl": "Zijn lange staart met ruitvormige punt"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Rhamphorhynchus was unique because of its long tail with diamond-shaped tip.",
+                "es": "Ranforrinco era único por su cola larga con punta de diamante.",
+                "de": "Rhamphorhynchus war einzigartig wegen langer Schwanz mit Rautenspitze.",
+                "nl": "Rhamphorhynchus was uniek vanwege lange staart met ruitvormige punt."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Rhamphorhynchus belong to?",
+                "es": "¿A qué grupo pertenece Ranforrinco?",
+                "de": "Zu welcher Gruppe gehört Rhamphorhynchus?",
+                "nl": "Tot welke groep behoort Rhamphorhynchus?"
+            },
+            "options": [
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Rhamphorhynchus belongs to the pterosaurs.",
+                "es": "Ranforrinco pertenece a los pterosaurios.",
+                "de": "Rhamphorhynchus gehört zu den Pterosaurier.",
+                "nl": "Rhamphorhynchus behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Hatzegopteryx have?",
+                "es": "¿Qué dientes tenía el Hatzegopteryx?",
+                "de": "Welche Zähne hatte Hatzegopteryx?",
+                "nl": "Welke tanden had Hatzegopteryx?"
+            },
+            "options": [
+                {
+                    "en": "toothless robust beak",
+                    "es": "pico robusto sin dientes",
+                    "de": "zahnloser robuster Schnabel",
+                    "nl": "tandeloze robuuste snavel"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Hatzegopteryx had toothless robust beak.",
+                "es": "Hatzegopteryx tenía pico robusto sin dientes.",
+                "de": "Hatzegopteryx hatte zahnloser robuster Schnabel.",
+                "nl": "Hatzegopteryx had tandeloze robuuste snavel."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Pterodactylus?",
+                "es": "¿Cuánto medía el Pterodáctilo?",
+                "de": "Wie lang war Pterodactylus?",
+                "nl": "Hoe lang was Pterodactylus?"
+            },
+            "options": [
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "1.5m wingspan",
+                    "es": "1.5m wingspan",
+                    "de": "1.5m wingspan",
+                    "nl": "1.5m wingspan"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Pterodactylus was approximately 1.5m wingspan long.",
+                "es": "Pterodáctilo medía aproximadamente 1.5m wingspan.",
+                "de": "Pterodactylus war ungefähr 1.5m wingspan lang.",
+                "nl": "Pterodactylus was ongeveer 1.5m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Hatzegopteryx is true?",
+                "es": "¿Qué dato sobre el Hatzegopteryx es verdadero?",
+                "de": "Welcher Fakt über Hatzegopteryx stimmt?",
+                "nl": "Welk feit over Hatzegopteryx is waar?"
+            },
+            "options": [
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It had massive skull and short thick neck",
+                    "es": "Tenía cráneo masivo y cuello corto grueso",
+                    "de": "Es hatte massiver Schädel und kurzer dicker Hals",
+                    "nl": "Het had massieve schedel en korte dikke nek"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Hatzegopteryx is known for having massive skull and short thick neck.",
+                "es": "Hatzegopteryx es conocido por tener cráneo masivo y cuello corto grueso.",
+                "de": "Hatzegopteryx ist bekannt für massiver Schädel und kurzer dicker Hals.",
+                "nl": "Hatzegopteryx is bekend om massieve schedel en korte dikke nek."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Pterodactylus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Pterodáctilo?",
+                "de": "Wo wurden Fossilien von Pterodactylus gefunden?",
+                "nl": "Waar zijn fossielen van Pterodactylus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pterodactylus fossils were found in Europe.",
+                "es": "Pterodáctilo fósiles fueron encontrados en Europa.",
+                "de": "Pterodactylus-Fossilien wurden in Europa gefunden.",
+                "nl": "Pterodactylus-fossielen werden gevonden in Europa."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Rhamphorhynchus live?",
+                "es": "¿Cuándo vivió el Ranforrinco?",
+                "de": "Wann lebte Rhamphorhynchus?",
+                "nl": "Wanneer leefde Rhamphorhynchus?"
+            },
+            "options": [
+                {
+                    "en": "Late Jurassic",
+                    "es": "Jurásico tardío",
+                    "de": "Oberer Jura",
+                    "nl": "Laat-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Rhamphorhynchus lived during the Late Jurassic.",
+                "es": "Ranforrinco vivió durante el Jurásico tardío.",
+                "de": "Rhamphorhynchus lebte während Oberer Jura.",
+                "nl": "Rhamphorhynchus leefde tijdens het Laat-Jura."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Dimorphodon eat?",
+                "es": "¿Qué comía el Dimorfodón?",
+                "de": "Was fraß Dimorphodon?",
+                "nl": "Wat at Dimorphodon?"
+            },
+            "options": [
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "fish and insects",
+                    "es": "peces e insectos",
+                    "de": "Fische und Insekten",
+                    "nl": "vissen en insecten"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Dimorphodon ate fish and insects.",
+                "es": "Dimorfodón comía peces e insectos.",
+                "de": "Dimorphodon fraß Fische und Insekten.",
+                "nl": "Dimorphodon at vissen en insecten."
+            }
+        },
+        {
+            "question": {
+                "en": "What era did most dinosaurs live in?",
+                "es": "¿En qué era vivieron la mayoría de los dinosaurios?",
+                "de": "In welcher Ära lebten die meisten Dinosaurier?",
+                "nl": "In welk tijdperk leefden de meeste dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Paleozoic Era",
+                    "es": "Era Paleozoica",
+                    "de": "Paläozoikum",
+                    "nl": "Paleozoïcum"
+                },
+                {
+                    "en": "Cenozoic Era",
+                    "es": "Era Cenozoica",
+                    "de": "Känozoikum",
+                    "nl": "Cenozoïcum"
+                },
+                {
+                    "en": "Mesozoic Era",
+                    "es": "Era Mesozoica",
+                    "de": "Mesozoikum",
+                    "nl": "Mesozoïcum"
+                },
+                {
+                    "en": "Precambrian",
+                    "es": "Precámbrico",
+                    "de": "Präkambrium",
+                    "nl": "Precambrium"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Most dinosaurs lived during the Mesozoic Era.",
+                "es": "La mayoría de dinosaurios vivió durante la Era Mesozoica.",
+                "de": "Die meisten Dinosaurier lebten im Mesozoikum.",
+                "nl": "De meeste dinosaurussen leefden in het Mesozoïcum."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Rhamphorhynchus?",
+                "es": "¿Cuánto pesaba el Ranforrinco?",
+                "de": "Wie schwer war Rhamphorhynchus?",
+                "nl": "Hoe zwaar was Rhamphorhynchus?"
+            },
+            "options": [
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "1 kg",
+                    "es": "1 kg",
+                    "de": "1 kg",
+                    "nl": "1 kg"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Rhamphorhynchus weighed about 1 kg.",
+                "es": "Ranforrinco pesaba unos 1 kg.",
+                "de": "Rhamphorhynchus wog etwa 1 kg.",
+                "nl": "Rhamphorhynchus woog ongeveer 1 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Tapejara live?",
+                "es": "¿Cuándo vivió el Tapejara?",
+                "de": "Wann lebte Tapejara?",
+                "nl": "Wanneer leefde Tapejara?"
+            },
+            "options": [
+                {
+                    "en": "Early Cretaceous",
+                    "es": "Cretácico temprano",
+                    "de": "Untere Kreide",
+                    "nl": "Vroeg-Krijt"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Tapejara lived during the Early Cretaceous.",
+                "es": "Tapejara vivió durante el Cretácico temprano.",
+                "de": "Tapejara lebte während Untere Kreide.",
+                "nl": "Tapejara leefde tijdens het Vroeg-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Pteranodon?",
+                "es": "¿Cuánto medía el Pteranodón?",
+                "de": "Wie lang war Pteranodon?",
+                "nl": "Hoe lang was Pteranodon?"
+            },
+            "options": [
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "7m wingspan",
+                    "es": "7m wingspan",
+                    "de": "7m wingspan",
+                    "nl": "7m wingspan"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Pteranodon was approximately 7m wingspan long.",
+                "es": "Pteranodón medía aproximadamente 7m wingspan.",
+                "de": "Pteranodon war ungefähr 7m wingspan lang.",
+                "nl": "Pteranodon was ongeveer 7m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Quetzalcoatlus unique?",
+                "es": "¿Qué hacía único al Quetzalcoatlus?",
+                "de": "Was machte Quetzalcoatlus einzigartig?",
+                "nl": "Wat maakte Quetzalcoatlus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its largest flying animal ever",
+                    "es": "Su animal volador más grande de la historia",
+                    "de": "Seine/ihre größtes fliegendes Tier aller Zeiten",
+                    "nl": "Zijn grootste vliegend dier ooit"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Quetzalcoatlus was unique because of its largest flying animal ever.",
+                "es": "Quetzalcoatlus era único por su animal volador más grande de la historia.",
+                "de": "Quetzalcoatlus war einzigartig wegen größtes fliegendes Tier aller Zeiten.",
+                "nl": "Quetzalcoatlus was uniek vanwege grootste vliegend dier ooit."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Dimorphodon?",
+                "es": "¿Cuánto medía el Dimorfodón?",
+                "de": "Wie lang war Dimorphodon?",
+                "nl": "Hoe lang was Dimorphodon?"
+            },
+            "options": [
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "1.5m wingspan",
+                    "es": "1.5m wingspan",
+                    "de": "1.5m wingspan",
+                    "nl": "1.5m wingspan"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Dimorphodon was approximately 1.5m wingspan long.",
+                "es": "Dimorfodón medía aproximadamente 1.5m wingspan.",
+                "de": "Dimorphodon war ungefähr 1.5m wingspan lang.",
+                "nl": "Dimorphodon was ongeveer 1.5m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Tapejara belong to?",
+                "es": "¿A qué grupo pertenece Tapejara?",
+                "de": "Zu welcher Gruppe gehört Tapejara?",
+                "nl": "Tot welke groep behoort Tapejara?"
+            },
+            "options": [
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Tapejara belongs to the pterosaurs.",
+                "es": "Tapejara pertenece a los pterosaurios.",
+                "de": "Tapejara gehört zu den Pterosaurier.",
+                "nl": "Tapejara behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Dimorphodon unique?",
+                "es": "¿Qué hacía único al Dimorfodón?",
+                "de": "Was machte Dimorphodon einzigartig?",
+                "nl": "Wat maakte Dimorphodon uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its two different types of teeth",
+                    "es": "Su dos tipos de dientes diferentes",
+                    "de": "Seine/ihre zwei verschiedene Zahntypen",
+                    "nl": "Zijn twee soorten tanden"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Dimorphodon was unique because of its two different types of teeth.",
+                "es": "Dimorfodón era único por su dos tipos de dientes diferentes.",
+                "de": "Dimorphodon war einzigartig wegen zwei verschiedene Zahntypen.",
+                "nl": "Dimorphodon was uniek vanwege twee soorten tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What killed the dinosaurs?",
+                "es": "¿Qué mató a los dinosaurios?",
+                "de": "Was tötete die Dinosaurier?",
+                "nl": "Wat doodde de dinosaurussen?"
+            },
+            "options": [
+                {
+                    "en": "Disease",
+                    "es": "Enfermedad",
+                    "de": "Krankheit",
+                    "nl": "Ziekte"
+                },
+                {
+                    "en": "A great flood",
+                    "es": "Un gran diluvio",
+                    "de": "Eine große Flut",
+                    "nl": "Een grote vloed"
+                },
+                {
+                    "en": "An asteroid impact 66 million years ago",
+                    "es": "Un asteroide hace 66 millones de años",
+                    "de": "Ein Asteroideneinschlag vor 66 Mio. Jahren",
+                    "nl": "Een asteroïde-inslag 66 miljoen jaar geleden"
+                },
+                {
+                    "en": "Hunters",
+                    "es": "Cazadores",
+                    "de": "Jäger",
+                    "nl": "Jagers"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "An asteroid struck Earth 66 million years ago causing mass extinction.",
+                "es": "Un asteroide golpeó la Tierra hace 66 millones de años causando extinción masiva.",
+                "de": "Ein Asteroid traf die Erde vor 66 Millionen Jahren und verursachte Massenaussterben.",
+                "nl": "Een asteroïde trof de Aarde 66 miljoen jaar geleden en veroorzaakte massa-uitsterven."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Anhanguera known for?",
+                "es": "¿Por qué era conocido el Anhanguera?",
+                "de": "Wofür war Anhanguera bekannt?",
+                "nl": "Waar was Anhanguera bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                },
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "rounded crest on upper jaw",
+                    "es": "cresta redondeada en la mandíbula superior",
+                    "de": "gerundeter Kamm am Oberkiefer",
+                    "nl": "afgeronde kam op bovenkaak"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Anhanguera was known for having rounded crest on upper jaw.",
+                "es": "Anhanguera era conocido por tener cresta redondeada en la mandíbula superior.",
+                "de": "Anhanguera war bekannt für gerundeter Kamm am Oberkiefer.",
+                "nl": "Anhanguera was bekend om afgeronde kam op bovenkaak."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Quetzalcoatlus fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Quetzalcoatlus?",
+                "de": "Wo wurden Fossilien von Quetzalcoatlus gefunden?",
+                "nl": "Waar zijn fossielen van Quetzalcoatlus gevonden?"
+            },
+            "options": [
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Quetzalcoatlus fossils were found in North America.",
+                "es": "Quetzalcoatlus fósiles fueron encontrados en América del Norte.",
+                "de": "Quetzalcoatlus-Fossilien wurden in Nordamerika gefunden.",
+                "nl": "Quetzalcoatlus-fossielen werden gevonden in Noord-Amerika."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Dimorphodon belong to?",
+                "es": "¿A qué grupo pertenece Dimorfodón?",
+                "de": "Zu welcher Gruppe gehört Dimorphodon?",
+                "nl": "Tot welke groep behoort Dimorphodon?"
+            },
+            "options": [
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Dimorphodon belongs to the pterosaurs.",
+                "es": "Dimorfodón pertenece a los pterosaurios.",
+                "de": "Dimorphodon gehört zu den Pterosaurier.",
+                "nl": "Dimorphodon behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "How big were dinosaur eggs?",
+                "es": "¿Qué tamaño tenían los huevos de dinosaurio?",
+                "de": "Wie groß waren Dinosauriereier?",
+                "nl": "Hoe groot waren dinosauruseieren?"
+            },
+            "options": [
+                {
+                    "en": "Microscopic",
+                    "es": "Microscópicos",
+                    "de": "Mikroskopisch",
+                    "nl": "Microscopisch"
+                },
+                {
+                    "en": "As big as a car",
+                    "es": "Tan grandes como un auto",
+                    "de": "So groß wie ein Auto",
+                    "nl": "Zo groot als een auto"
+                },
+                {
+                    "en": "Usually smaller than a football",
+                    "es": "Normalmente menores que un balón",
+                    "de": "Normalerweise kleiner als ein Fußball",
+                    "nl": "Meestal kleiner dan een voetbal"
+                },
+                {
+                    "en": "As big as a house",
+                    "es": "Como una casa",
+                    "de": "So groß wie ein Haus",
+                    "nl": "Zo groot als een huis"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Even large dinosaur eggs were usually smaller than a football.",
+                "es": "Los huevos eran normalmente menores que un balón de fútbol.",
+                "de": "Selbst große Dinosauriereier waren kleiner als ein Fußball.",
+                "nl": "Zelfs grote dinosauruseieren waren kleiner dan een voetbal."
+            }
+        },
+        {
+            "question": {
+                "en": "What are fossils?",
+                "es": "¿Qué son los fósiles?",
+                "de": "Was sind Fossilien?",
+                "nl": "Wat zijn fossielen?"
+            },
+            "options": [
+                {
+                    "en": "Man-made objects",
+                    "es": "Objetos hechos por el hombre",
+                    "de": "Menschgemachte Objekte",
+                    "nl": "Door mensen gemaakte objecten"
+                },
+                {
+                    "en": "Types of rocks",
+                    "es": "Tipos de rocas",
+                    "de": "Arten von Gesteinen",
+                    "nl": "Soorten rotsen"
+                },
+                {
+                    "en": "Modern animal bones",
+                    "es": "Huesos de animales modernos",
+                    "de": "Moderne Tierknochen",
+                    "nl": "Moderne dierenbotten"
+                },
+                {
+                    "en": "Preserved remains of ancient life",
+                    "es": "Restos preservados de vida antigua",
+                    "de": "Erhaltene Überreste alten Lebens",
+                    "nl": "Bewaard gebleven resten van oud leven"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Fossils are preserved remains or traces of ancient organisms.",
+                "es": "Los fósiles son restos preservados de organismos antiguos.",
+                "de": "Fossilien sind erhaltene Überreste alter Organismen.",
+                "nl": "Fossielen zijn bewaard gebleven resten van oude organismen."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Dimorphodon is true?",
+                "es": "¿Qué dato sobre el Dimorfodón es verdadero?",
+                "de": "Welcher Fakt über Dimorphodon stimmt?",
+                "nl": "Welk feit over Dimorphodon is waar?"
+            },
+            "options": [
+                {
+                    "en": "It had two different types of teeth",
+                    "es": "Tenía dos tipos de dientes diferentes",
+                    "de": "Es hatte zwei verschiedene Zahntypen",
+                    "nl": "Het had twee soorten tanden"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dimorphodon is known for having two different types of teeth.",
+                "es": "Dimorfodón es conocido por tener dos tipos de dientes diferentes.",
+                "de": "Dimorphodon ist bekannt für zwei verschiedene Zahntypen.",
+                "nl": "Dimorphodon is bekend om twee soorten tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Pterodactylus is true?",
+                "es": "¿Qué dato sobre el Pterodáctilo es verdadero?",
+                "de": "Welcher Fakt über Pterodactylus stimmt?",
+                "nl": "Welk feit over Pterodactylus is waar?"
+            },
+            "options": [
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It had first pterosaur ever discovered",
+                    "es": "Tenía primer pterosaurio descubierto",
+                    "de": "Es hatte erster entdeckter Pterosaurier",
+                    "nl": "Het had eerste ontdekte pterosaurus"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Pterodactylus is known for having first pterosaur ever discovered.",
+                "es": "Pterodáctilo es conocido por tener primer pterosaurio descubierto.",
+                "de": "Pterodactylus ist bekannt für erster entdeckter Pterosaurier.",
+                "nl": "Pterodactylus is bekend om eerste ontdekte pterosaurus."
+            }
+        },
+        {
+            "question": {
+                "en": "Were dinosaurs warm-blooded or cold-blooded?",
+                "es": "¿Eran de sangre caliente o fría?",
+                "de": "Waren Dinosaurier warm- oder kaltblütig?",
+                "nl": "Waren dinosaurussen warm- of koudbloedig?"
+            },
+            "options": [
+                {
+                    "en": "All warm-blooded",
+                    "es": "Todos de sangre caliente",
+                    "de": "Alle warmblütig",
+                    "nl": "Allemaal warmbloedig"
+                },
+                {
+                    "en": "All cold-blooded",
+                    "es": "Todos de sangre fría",
+                    "de": "Alle kaltblütig",
+                    "nl": "Allemaal koudbloedig"
+                },
+                {
+                    "en": "Many were likely warm-blooded",
+                    "es": "Muchos eran probablemente de sangre caliente",
+                    "de": "Viele waren wahrscheinlich warmblütig",
+                    "nl": "Veel waren waarschijnlijk warmbloedig"
+                },
+                {
+                    "en": "Neither",
+                    "es": "Ninguno",
+                    "de": "Keines",
+                    "nl": "Geen van beide"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Evidence suggests many dinosaurs were warm-blooded.",
+                "es": "La evidencia sugiere que muchos eran de sangre caliente.",
+                "de": "Beweise deuten darauf hin, dass viele warmblütig waren.",
+                "nl": "Bewijs suggereert dat veel warmbloedig waren."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Tapejara have?",
+                "es": "¿Qué dientes tenía el Tapejara?",
+                "de": "Welche Zähne hatte Tapejara?",
+                "nl": "Welke tanden had Tapejara?"
+            },
+            "options": [
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "toothless beak",
+                    "es": "pico sin dientes",
+                    "de": "zahnloser Schnabel",
+                    "nl": "tandeloze snavel"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Tapejara had toothless beak.",
+                "es": "Tapejara tenía pico sin dientes.",
+                "de": "Tapejara hatte zahnloser Schnabel.",
+                "nl": "Tapejara had tandeloze snavel."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Pterodactylus unique?",
+                "es": "¿Qué hacía único al Pterodáctilo?",
+                "de": "Was machte Pterodactylus einzigartig?",
+                "nl": "Wat maakte Pterodactylus uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its first pterosaur ever discovered",
+                    "es": "Su primer pterosaurio descubierto",
+                    "de": "Seine/ihre erster entdeckter Pterosaurier",
+                    "nl": "Zijn eerste ontdekte pterosaurus"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterodactylus was unique because of its first pterosaur ever discovered.",
+                "es": "Pterodáctilo era único por su primer pterosaurio descubierto.",
+                "de": "Pterodactylus war einzigartig wegen erster entdeckter Pterosaurier.",
+                "nl": "Pterodactylus was uniek vanwege eerste ontdekte pterosaurus."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Anhanguera is true?",
+                "es": "¿Qué dato sobre el Anhanguera es verdadero?",
+                "de": "Welcher Fakt über Anhanguera stimmt?",
+                "nl": "Welk feit over Anhanguera is waar?"
+            },
+            "options": [
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It had rounded crest on upper jaw",
+                    "es": "Tenía cresta redondeada en la mandíbula superior",
+                    "de": "Es hatte gerundeter Kamm am Oberkiefer",
+                    "nl": "Het had afgeronde kam op bovenkaak"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Anhanguera is known for having rounded crest on upper jaw.",
+                "es": "Anhanguera es conocido por tener cresta redondeada en la mandíbula superior.",
+                "de": "Anhanguera ist bekannt für gerundeter Kamm am Oberkiefer.",
+                "nl": "Anhanguera is bekend om afgeronde kam op bovenkaak."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Rhamphorhynchus eat?",
+                "es": "¿Qué comía el Ranforrinco?",
+                "de": "Was fraß Rhamphorhynchus?",
+                "nl": "Wat at Rhamphorhynchus?"
+            },
+            "options": [
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "fish and insects",
+                    "es": "peces e insectos",
+                    "de": "Fische und Insekten",
+                    "nl": "vissen en insecten"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Rhamphorhynchus ate fish and insects.",
+                "es": "Ranforrinco comía peces e insectos.",
+                "de": "Rhamphorhynchus fraß Fische und Insekten.",
+                "nl": "Rhamphorhynchus at vissen en insecten."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a trace fossil?",
+                "es": "¿Qué es un fósil traza?",
+                "de": "Was ist ein Spurenfossil?",
+                "nl": "Wat is een sporenfossiel?"
+            },
+            "options": [
+                {
+                    "en": "A modern bone",
+                    "es": "Un hueso moderno",
+                    "de": "Ein moderner Knochen",
+                    "nl": "Een modern bot"
+                },
+                {
+                    "en": "A body fossil",
+                    "es": "Un fósil corporal",
+                    "de": "Ein Körperfossil",
+                    "nl": "Een lichaamsfossiel"
+                },
+                {
+                    "en": "A fossil drawing",
+                    "es": "Un dibujo fósil",
+                    "de": "Eine Fossilzeichnung",
+                    "nl": "Een fossieltekening"
+                },
+                {
+                    "en": "A footprint or nest left by a dinosaur",
+                    "es": "Una huella o nido dejado por un dinosaurio",
+                    "de": "Ein Fußabdruck oder Nest eines Dinosauriers",
+                    "nl": "Een voetafdruk of nest van een dinosaurus"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Trace fossils are indirect evidence like footprints or nests.",
+                "es": "Los fósiles traza son evidencia indirecta como huellas.",
+                "de": "Spurenfossilien sind indirekte Beweise wie Fußabdrücke.",
+                "nl": "Sporenfossielen zijn indirect bewijs zoals voetafdrukken."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Anhanguera?",
+                "es": "¿Cuánto pesaba el Anhanguera?",
+                "de": "Wie schwer war Anhanguera?",
+                "nl": "Hoe zwaar was Anhanguera?"
+            },
+            "options": [
+                {
+                    "en": "18 kg",
+                    "es": "18 kg",
+                    "de": "18 kg",
+                    "nl": "18 kg"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Anhanguera weighed about 18 kg.",
+                "es": "Anhanguera pesaba unos 18 kg.",
+                "de": "Anhanguera wog etwa 18 kg.",
+                "nl": "Anhanguera woog ongeveer 18 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Quetzalcoatlus belong to?",
+                "es": "¿A qué grupo pertenece Quetzalcoatlus?",
+                "de": "Zu welcher Gruppe gehört Quetzalcoatlus?",
+                "nl": "Tot welke groep behoort Quetzalcoatlus?"
+            },
+            "options": [
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Quetzalcoatlus belongs to the pterosaurs.",
+                "es": "Quetzalcoatlus pertenece a los pterosaurios.",
+                "de": "Quetzalcoatlus gehört zu den Pterosaurier.",
+                "nl": "Quetzalcoatlus behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Rhamphorhynchus?",
+                "es": "¿Cuánto medía el Ranforrinco?",
+                "de": "Wie lang war Rhamphorhynchus?",
+                "nl": "Hoe lang was Rhamphorhynchus?"
+            },
+            "options": [
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "1.8m wingspan",
+                    "es": "1.8m wingspan",
+                    "de": "1.8m wingspan",
+                    "nl": "1.8m wingspan"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Rhamphorhynchus was approximately 1.8m wingspan long.",
+                "es": "Ranforrinco medía aproximadamente 1.8m wingspan.",
+                "de": "Rhamphorhynchus war ungefähr 1.8m wingspan lang.",
+                "nl": "Rhamphorhynchus was ongeveer 1.8m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Dimorphodon have?",
+                "es": "¿Qué dientes tenía el Dimorfodón?",
+                "de": "Welche Zähne hatte Dimorphodon?",
+                "nl": "Welke tanden had Dimorphodon?"
+            },
+            "options": [
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "large front and small back teeth",
+                    "es": "dientes grandes delanteros y pequeños traseros",
+                    "de": "große vordere und kleine hintere Zähne",
+                    "nl": "grote voortanden en kleine achtertanden"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Dimorphodon had large front and small back teeth.",
+                "es": "Dimorfodón tenía dientes grandes delanteros y pequeños traseros.",
+                "de": "Dimorphodon hatte große vordere und kleine hintere Zähne.",
+                "nl": "Dimorphodon had grote voortanden en kleine achtertanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Pterodactylus have?",
+                "es": "¿Qué dientes tenía el Pterodáctilo?",
+                "de": "Welche Zähne hatte Pterodactylus?",
+                "nl": "Welke tanden had Pterodactylus?"
+            },
+            "options": [
+                {
+                    "en": "conical teeth",
+                    "es": "dientes cónicos",
+                    "de": "konische Zähne",
+                    "nl": "kegelvormige tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterodactylus had conical teeth.",
+                "es": "Pterodáctilo tenía dientes cónicos.",
+                "de": "Pterodactylus hatte konische Zähne.",
+                "nl": "Pterodactylus had kegelvormige tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Quetzalcoatlus?",
+                "es": "¿Cuánto pesaba el Quetzalcoatlus?",
+                "de": "Wie schwer war Quetzalcoatlus?",
+                "nl": "Hoe zwaar was Quetzalcoatlus?"
+            },
+            "options": [
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "200 kg",
+                    "es": "200 kg",
+                    "de": "200 kg",
+                    "nl": "200 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Quetzalcoatlus weighed about 200 kg.",
+                "es": "Quetzalcoatlus pesaba unos 200 kg.",
+                "de": "Quetzalcoatlus wog etwa 200 kg.",
+                "nl": "Quetzalcoatlus woog ongeveer 200 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Hatzegopteryx live?",
+                "es": "¿Cuándo vivió el Hatzegopteryx?",
+                "de": "Wann lebte Hatzegopteryx?",
+                "nl": "Wanneer leefde Hatzegopteryx?"
+            },
+            "options": [
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Hatzegopteryx lived during the Late Cretaceous.",
+                "es": "Hatzegopteryx vivió durante el Cretácico tardío.",
+                "de": "Hatzegopteryx lebte während Obere Kreide.",
+                "nl": "Hatzegopteryx leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "What group does Pteranodon belong to?",
+                "es": "¿A qué grupo pertenece Pteranodón?",
+                "de": "Zu welcher Gruppe gehört Pteranodon?",
+                "nl": "Tot welke groep behoort Pteranodon?"
+            },
+            "options": [
+                {
+                    "en": "Insects",
+                    "es": "Insectos",
+                    "de": "Insekten",
+                    "nl": "Insecten"
+                },
+                {
+                    "en": "Modern birds",
+                    "es": "Aves modernas",
+                    "de": "Moderne Vögel",
+                    "nl": "Moderne vogels"
+                },
+                {
+                    "en": "Amphibians",
+                    "es": "Anfibios",
+                    "de": "Amphibien",
+                    "nl": "Amfibieën"
+                },
+                {
+                    "en": "pterosaurs",
+                    "es": "pterosaurios",
+                    "de": "Pterosaurier",
+                    "nl": "pterosaurussen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pteranodon belongs to the pterosaurs.",
+                "es": "Pteranodón pertenece a los pterosaurios.",
+                "de": "Pteranodon gehört zu den Pterosaurier.",
+                "nl": "Pteranodon behoort tot de pterosaurussen."
+            }
+        },
+        {
+            "question": {
+                "en": "Where were Dimorphodon fossils found?",
+                "es": "¿Dónde se encontraron fósiles de Dimorfodón?",
+                "de": "Wo wurden Fossilien von Dimorphodon gefunden?",
+                "nl": "Waar zijn fossielen van Dimorphodon gevonden?"
+            },
+            "options": [
+                {
+                    "en": "Europe",
+                    "es": "Europa",
+                    "de": "Europa",
+                    "nl": "Europa"
+                },
+                {
+                    "en": "North America",
+                    "es": "América del Norte",
+                    "de": "Nordamerika",
+                    "nl": "Noord-Amerika"
+                },
+                {
+                    "en": "South America",
+                    "es": "América del Sur",
+                    "de": "Südamerika",
+                    "nl": "Zuid-Amerika"
+                },
+                {
+                    "en": "Asia",
+                    "es": "Asia",
+                    "de": "Asien",
+                    "nl": "Azië"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Dimorphodon fossils were found in Europe.",
+                "es": "Dimorfodón fósiles fueron encontrados en Europa.",
+                "de": "Dimorphodon-Fossilien wurden in Europa gefunden.",
+                "nl": "Dimorphodon-fossielen werden gevonden in Europa."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Quetzalcoatlus live?",
+                "es": "¿Cuándo vivió el Quetzalcoatlus?",
+                "de": "Wann lebte Quetzalcoatlus?",
+                "nl": "Wanneer leefde Quetzalcoatlus?"
+            },
+            "options": [
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Late Cretaceous",
+                    "es": "Cretácico tardío",
+                    "de": "Obere Kreide",
+                    "nl": "Laat-Krijt"
+                },
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Quetzalcoatlus lived during the Late Cretaceous.",
+                "es": "Quetzalcoatlus vivió durante el Cretácico tardío.",
+                "de": "Quetzalcoatlus lebte während Obere Kreide.",
+                "nl": "Quetzalcoatlus leefde tijdens het Laat-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "When did Anhanguera live?",
+                "es": "¿Cuándo vivió el Anhanguera?",
+                "de": "Wann lebte Anhanguera?",
+                "nl": "Wanneer leefde Anhanguera?"
+            },
+            "options": [
+                {
+                    "en": "Early Jurassic",
+                    "es": "Jurásico temprano",
+                    "de": "Unterer Jura",
+                    "nl": "Vroeg-Jura"
+                },
+                {
+                    "en": "Triassic",
+                    "es": "Triásico",
+                    "de": "Trias",
+                    "nl": "Trias"
+                },
+                {
+                    "en": "Early Cretaceous",
+                    "es": "Cretácico temprano",
+                    "de": "Untere Kreide",
+                    "nl": "Vroeg-Krijt"
+                },
+                {
+                    "en": "Middle Jurassic",
+                    "es": "Jurásico medio",
+                    "de": "Mittlerer Jura",
+                    "nl": "Midden-Jura"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Anhanguera lived during the Early Cretaceous.",
+                "es": "Anhanguera vivió durante el Cretácico temprano.",
+                "de": "Anhanguera lebte während Untere Kreide.",
+                "nl": "Anhanguera leefde tijdens het Vroeg-Krijt."
+            }
+        },
+        {
+            "question": {
+                "en": "Which fact about Pteranodon is true?",
+                "es": "¿Qué dato sobre el Pteranodón es verdadero?",
+                "de": "Welcher Fakt über Pteranodon stimmt?",
+                "nl": "Welk feit over Pteranodon is waar?"
+            },
+            "options": [
+                {
+                    "en": "It was invisible",
+                    "es": "Era invisible",
+                    "de": "Es war unsichtbar",
+                    "nl": "Het was onzichtbaar"
+                },
+                {
+                    "en": "It could breathe fire",
+                    "es": "Podía escupir fuego",
+                    "de": "Es konnte Feuer speien",
+                    "nl": "Het kon vuur spuwen"
+                },
+                {
+                    "en": "It lived in modern times",
+                    "es": "Vivió en tiempos modernos",
+                    "de": "Es lebte in der Neuzeit",
+                    "nl": "Het leefde in de moderne tijd"
+                },
+                {
+                    "en": "It had large backward-pointing head crest",
+                    "es": "Tenía gran cresta apuntando hacia atrás",
+                    "de": "Es hatte großer nach hinten zeigender Kopfkamm",
+                    "nl": "Het had grote naar achteren wijzende kopkam"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pteranodon is known for having large backward-pointing head crest.",
+                "es": "Pteranodón es conocido por tener gran cresta apuntando hacia atrás.",
+                "de": "Pteranodon ist bekannt für großer nach hinten zeigender Kopfkamm.",
+                "nl": "Pteranodon is bekend om grote naar achteren wijzende kopkam."
+            }
+        },
+        {
+            "question": {
+                "en": "How heavy was Pterodactylus?",
+                "es": "¿Cuánto pesaba el Pterodáctilo?",
+                "de": "Wie schwer war Pterodactylus?",
+                "nl": "Hoe zwaar was Pterodactylus?"
+            },
+            "options": [
+                {
+                    "en": "2 kg",
+                    "es": "2 kg",
+                    "de": "2 kg",
+                    "nl": "2 kg"
+                },
+                {
+                    "en": "5 kg",
+                    "es": "5 kg",
+                    "de": "5 kg",
+                    "nl": "5 kg"
+                },
+                {
+                    "en": "500 kg",
+                    "es": "500 kg",
+                    "de": "500 kg",
+                    "nl": "500 kg"
+                },
+                {
+                    "en": "5 tons",
+                    "es": "5 tons",
+                    "de": "5 tons",
+                    "nl": "5 tons"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Pterodactylus weighed about 2 kg.",
+                "es": "Pterodáctilo pesaba unos 2 kg.",
+                "de": "Pterodactylus wog etwa 2 kg.",
+                "nl": "Pterodactylus woog ongeveer 2 kg."
+            }
+        },
+        {
+            "question": {
+                "en": "How long was Tapejara?",
+                "es": "¿Cuánto medía el Tapejara?",
+                "de": "Wie lang war Tapejara?",
+                "nl": "Hoe lang was Tapejara?"
+            },
+            "options": [
+                {
+                    "en": "1 meter",
+                    "es": "1 meter",
+                    "de": "1 meter",
+                    "nl": "1 meter"
+                },
+                {
+                    "en": "5m wingspan",
+                    "es": "5m wingspan",
+                    "de": "5m wingspan",
+                    "nl": "5m wingspan"
+                },
+                {
+                    "en": "5 meters",
+                    "es": "5 meters",
+                    "de": "5 meters",
+                    "nl": "5 meters"
+                },
+                {
+                    "en": "15 meters",
+                    "es": "15 meters",
+                    "de": "15 meters",
+                    "nl": "15 meters"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Tapejara was approximately 5m wingspan long.",
+                "es": "Tapejara medía aproximadamente 5m wingspan.",
+                "de": "Tapejara war ungefähr 5m wingspan lang.",
+                "nl": "Tapejara was ongeveer 5m wingspan lang."
+            }
+        },
+        {
+            "question": {
+                "en": "What teeth did Anhanguera have?",
+                "es": "¿Qué dientes tenía el Anhanguera?",
+                "de": "Welche Zähne hatte Anhanguera?",
+                "nl": "Welke tanden had Anhanguera?"
+            },
+            "options": [
+                {
+                    "en": "No teeth at all",
+                    "es": "Sin dientes",
+                    "de": "Gar keine Zähne",
+                    "nl": "Helemaal geen tanden"
+                },
+                {
+                    "en": "Diamond teeth",
+                    "es": "Dientes de diamante",
+                    "de": "Diamantzähne",
+                    "nl": "Diamanten tanden"
+                },
+                {
+                    "en": "long curved teeth for fishing",
+                    "es": "dientes largos curvados para pescar",
+                    "de": "lange gebogene Zähne zum Fischen",
+                    "nl": "lange gebogen tanden om te vissen"
+                },
+                {
+                    "en": "Wooden pegs",
+                    "es": "Clavijas de madera",
+                    "de": "Holzstifte",
+                    "nl": "Houten pennen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Anhanguera had long curved teeth for fishing.",
+                "es": "Anhanguera tenía dientes largos curvados para pescar.",
+                "de": "Anhanguera hatte lange gebogene Zähne zum Fischen.",
+                "nl": "Anhanguera had lange gebogen tanden om te vissen."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Pteranodon eat?",
+                "es": "¿Qué comía el Pteranodón?",
+                "de": "Was fraß Pteranodon?",
+                "nl": "Wat at Pteranodon?"
+            },
+            "options": [
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "fish",
+                    "es": "peces",
+                    "de": "Fische",
+                    "nl": "vissen"
+                }
+            ],
+            "correct": 3,
+            "explanation": {
+                "en": "Pteranodon ate fish.",
+                "es": "Pteranodón comía peces.",
+                "de": "Pteranodon fraß Fische.",
+                "nl": "Pteranodon at vissen."
+            }
+        },
+        {
+            "question": {
+                "en": "What did Quetzalcoatlus eat?",
+                "es": "¿Qué comía el Quetzalcoatlus?",
+                "de": "Was fraß Quetzalcoatlus?",
+                "nl": "Wat at Quetzalcoatlus?"
+            },
+            "options": [
+                {
+                    "en": "small dinosaurs and carrion",
+                    "es": "dinosaurios pequeños y carroña",
+                    "de": "kleine Dinosaurier und Aas",
+                    "nl": "kleine dinosaurussen en aas"
+                },
+                {
+                    "en": "Rocks and sand",
+                    "es": "Rocas y arena",
+                    "de": "Steine und Sand",
+                    "nl": "Stenen en zand"
+                },
+                {
+                    "en": "Modern grains",
+                    "es": "Granos modernos",
+                    "de": "Modernes Getreide",
+                    "nl": "Modern graan"
+                },
+                {
+                    "en": "Plastic waste",
+                    "es": "Residuos plásticos",
+                    "de": "Plastikmüll",
+                    "nl": "Plastic afval"
+                }
+            ],
+            "correct": 0,
+            "explanation": {
+                "en": "Quetzalcoatlus ate small dinosaurs and carrion.",
+                "es": "Quetzalcoatlus comía dinosaurios pequeños y carroña.",
+                "de": "Quetzalcoatlus fraß kleine Dinosaurier und Aas.",
+                "nl": "Quetzalcoatlus at kleine dinosaurussen en aas."
+            }
+        },
+        {
+            "question": {
+                "en": "What was Dimorphodon known for?",
+                "es": "¿Por qué era conocido el Dimorfodón?",
+                "de": "Wofür war Dimorphodon bekannt?",
+                "nl": "Waar was Dimorphodon bekend om?"
+            },
+            "options": [
+                {
+                    "en": "Swimming in deep oceans",
+                    "es": "Nadar en océanos profundos",
+                    "de": "Schwimmen in tiefen Ozeanen",
+                    "nl": "Zwemmen in diepe oceanen"
+                },
+                {
+                    "en": "two different types of teeth",
+                    "es": "dos tipos de dientes diferentes",
+                    "de": "zwei verschiedene Zahntypen",
+                    "nl": "twee soorten tanden"
+                },
+                {
+                    "en": "Building underground nests",
+                    "es": "Construir nidos subterráneos",
+                    "de": "Bau unterirdischer Nester",
+                    "nl": "Ondergrondse nesten bouwen"
+                },
+                {
+                    "en": "Producing silk webs",
+                    "es": "Producir telarañas de seda",
+                    "de": "Seidennetze produzieren",
+                    "nl": "Zijden webben produceren"
+                }
+            ],
+            "correct": 1,
+            "explanation": {
+                "en": "Dimorphodon was known for having two different types of teeth.",
+                "es": "Dimorfodón era conocido por tener dos tipos de dientes diferentes.",
+                "de": "Dimorphodon war bekannt für zwei verschiedene Zahntypen.",
+                "nl": "Dimorphodon was bekend om twee soorten tanden."
+            }
+        },
+        {
+            "question": {
+                "en": "What made Pteranodon unique?",
+                "es": "¿Qué hacía único al Pteranodón?",
+                "de": "Was machte Pteranodon einzigartig?",
+                "nl": "Wat maakte Pteranodon uniek?"
+            },
+            "options": [
+                {
+                    "en": "Its metal armor",
+                    "es": "Su armadura de metal",
+                    "de": "Seine Metallrüstung",
+                    "nl": "Zijn metalen pantser"
+                },
+                {
+                    "en": "Its ability to talk",
+                    "es": "Su capacidad de hablar",
+                    "de": "Seine Fähigkeit zu sprechen",
+                    "nl": "Zijn vermogen om te praten"
+                },
+                {
+                    "en": "Its large backward-pointing head crest",
+                    "es": "Su gran cresta apuntando hacia atrás",
+                    "de": "Seine/ihre großer nach hinten zeigender Kopfkamm",
+                    "nl": "Zijn grote naar achteren wijzende kopkam"
+                },
+                {
+                    "en": "Its laser eyes",
+                    "es": "Sus ojos láser",
+                    "de": "Seine Laseraugen",
+                    "nl": "Zijn laserogen"
+                }
+            ],
+            "correct": 2,
+            "explanation": {
+                "en": "Pteranodon was unique because of its large backward-pointing head crest.",
+                "es": "Pteranodón era único por su gran cresta apuntando hacia atrás.",
+                "de": "Pteranodon war einzigartig wegen großer nach hinten zeigender Kopfkamm.",
+                "nl": "Pteranodon was uniek vanwege grote naar achteren wijzende kopkam."
+            }
+        }
     ]
 };

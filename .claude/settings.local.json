@@ -304,7 +304,10 @@
       "Bash(tail:*)",
       "Bash(else echo \"Level $i: File not found\")",
       "Bash(while read subject)",
-      "Bash(tee /tmp/currencies_subjects.txt)"
+      "Bash(tee /tmp/currencies_subjects.txt)",
+      "Bash(node -e \":*)",
+      "Bash(sort -t: -k2 -rn)",
+      "Bash(echo \"FAILED: $f\")"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

@@ -4,6 +4,12 @@
 
 ---
 
+als er een cooldown is dan scrolled hij automatisch naarboven bij normale game mode
+
+krijg een melding dat de daily vhallanges niet beschikbaar zijn
+
+
+
 tutorial stap quiz kies een antwoord staat de highlight line over de text heen.
 
 badges/adchievements scherm bettere looks geven.
@@ -12,16 +18,7 @@ badges/adchievements scherm bettere looks geven.
 
 nog een keer naar de rewards balancing kijken.
 
-✅ OPGELOST: Answer length imbalance - was 76.6%, nu gerandomiseerd!
-   Fix completed 2026-01-14:
-   - 41,073 vragen geanalyseerd
-   - 31,457 (76.6%) hadden correct antwoord als langste
-   - Fix toegepast: 650 bestanden gefixed, 18,804 vragen gerandomiseerd
-   - Fisher-Yates shuffle algoritme gebruikt voor echte randomisatie
-   - AI ethiek levels gefixed (was 100% imbalance!)
-   - Spelers kunnen dit patroon niet meer uitbuiten
-   Scripts aangemaakt: fix_answer_imbalance.js, fix_answer_imbalance_v2.js
-   Note: 140 bestanden hebben nog syntax errors die handmatig gefixed moeten worden
+alle opties van de vragen ongeveer even lang maken. nog steeds vaak de langste de juiste(3 opties zijn 1 zin en 1 optie is 2 zinnen dan is die het)
 
 pop up maken voor het afmaken van de game modes en stylen???(nog checken)
 
@@ -131,9 +128,8 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 ### ✅ Neurale netwerken - COMPLETED
 **Status:** Levels 2-5 complete - 9 edits
 
-### ✅ Deep learning - COMPLETED
-**Status:** All extreme violations fixed (4 edits in levels 4-5) - 0 extreme violations remaining
-**Details:** 569 minor violations (100-140 chars) remain but are acceptable per guidelines
+### ⏳ Deep learning - IN PROGRESS
+**Status:** Levels 2-3 complete - 18/201 edits (183 remaining, 86 extreme >160 chars)
 
 ### ✅ Machine learning - COMPLETED
 **Status:** Levels 7-10 complete - 12 edits (11 extreme violations >150 chars)
@@ -666,27 +662,6 @@ de: "Superintelligente Systeme könnten Ressourcen optimieren ohne menschliches 
 ✅ **VOLTOOID** - Levels 6, 9, 10 verwerkt (alle extreme violations >140 chars opgelost)
 
 **Total edits:** 18 wijzigingen - Level 6 (1 edit), Level 9 (6 edits), Level 10 (11 edits)
-
----
-
-## ✅ PLACEHOLDER QUESTIONS - COMPLETED (2026-01-10)
-
-All placeholder/sample questions have been replaced with real quiz questions:
-
-### Books / Historical Novels / Level 6
-**Replaced 4 placeholder questions with:**
-1. Leon Uris's "Exodus" - founding of modern Israel (1948)
-2. Ken Follett's "A Place Called Freedom" - American Revolution era
-3. Sharon Kay Penman's Plantagenet saga trilogy
-4. Hilary Mantel's "Wolf Hall" - Thomas Cromwell
-
-### Books / Science Fiction Novels / Level 3
-**Replaced 3 placeholder questions with:**
-1. Spice melange resource in "Dune" by Frank Herbert
-2. Aldous Huxley's "Brave New World" (1932)
-3. HAL 9000 computer in "2001: A Space Odyssey"
-
-**Total:** 7 placeholder questions → 7 real questions with full translations (EN/ES/DE/NL)
 
 ---
 
