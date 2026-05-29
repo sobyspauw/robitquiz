@@ -234,7 +234,7 @@
       <div id="tutorial-backdrop" class="fixed inset-0 bg-black bg-opacity-50 pointer-events-auto"></div>
 
       <!-- Highlight for targeted elements (punch-through for the backdrop) -->
-      <div id="tutorial-highlight" class="fixed rounded-lg transition-all duration-300 bg-transparent pointer-events-none" style="display: none; box-sizing: border-box;"></div>
+      <div id="tutorial-highlight" class="fixed transition-all duration-300 bg-transparent pointer-events-none" style="display: none; box-sizing: border-box;"></div>
 
       <!-- Click layer for highlighted element (sits above backdrop, allows clicks only on highlighted area) -->
       <div id="tutorial-click-layer" class="fixed pointer-events-auto" style="display: none; z-index: 10001;"></div>

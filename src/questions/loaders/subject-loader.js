@@ -110,7 +110,13 @@ window.mainTopics = {
       { id: 'nile-culture', name: { en: "Nile Culture", es: "Cultura del Nilo", de: "Nil-Kultur", nl: "Nijl Cultuur" }, icon: "🌊", folder: "Nile Culture" },
       { id: 'pharaohs', name: { en: "Pharaohs", es: "Faraones", de: "Pharaonen", nl: "Farao's" }, icon: "👤", folder: "Pharaohs" },
       { id: 'pyramids', name: { en: "Pyramids", es: "Pirámides", de: "Pyramiden", nl: "Piramides" }, icon: "🔺", folder: "Pyramids" },
-      { id: 'valley-kings', name: { en: "Valley of the Kings", es: "Valle de los Reyes", de: "Tal der Könige", nl: "Dal der Koningen" }, icon: "⚰️", folder: "Valley of the Kings" }
+      { id: 'valley-kings', name: { en: "Valley of the Kings", es: "Valle de los Reyes", de: "Tal der Könige", nl: "Dal der Koningen" }, icon: "⚰️", folder: "Valley of the Kings" },
+      { id: 'ancient-rulers', name: { en: "Ancient Rulers", es: "Gobernantes Antiguos", de: "Antike Herrscher", nl: "Oude Heersers" }, icon: "👑", folder: "Ancient Rulers" },
+      { id: 'daily-life', name: { en: "Daily Life", es: "Vida Cotidiana", de: "Alltägliches Leben", nl: "Dagelijks Leven" }, icon: "🏡", folder: "Daily Life" },
+      { id: 'egypt-technology', name: { en: "Technology", es: "Tecnología", de: "Technologie", nl: "Technologie" }, icon: "⚙️", folder: "Technology" },
+      { id: 'tombs-afterlife', name: { en: "Tombs and Afterlife", es: "Tumbas y Vida Después de la Muerte", de: "Gräber und Jenseits", nl: "Graven en Hiernamaals" }, icon: "⚰️", folder: "Tombs and Afterlife" },
+      { id: 'trade-economy', name: { en: "Trade and Economy", es: "Comercio y Economía", de: "Handel und Wirtschaft", nl: "Handel en Economie" }, icon: "💰", folder: "Trade and Economy" },
+      { id: 'egypt-warfare', name: { en: "Warfare", es: "Guerra", de: "Kriegsführung", nl: "Oorlogsvoering" }, icon: "⚔️", folder: "Warfare" }
     ]
   },
   'food': {
@@ -129,7 +135,11 @@ window.mainTopics = {
       { id: 'seafood', name: { en: "Seafood", es: "Mariscos", de: "Meeresfrüchte", nl: "Zeevruchten" }, icon: "🦐", folder: "Seafood" },
       { id: 'soups', name: { en: "Soups", es: "Sopas", de: "Suppen", nl: "Soepen" }, icon: "🍲", folder: "Soups" },
       { id: 'street-food', name: { en: "Street Food", es: "Comida Callejera", de: "Street Food", nl: "Straatvoedsel" }, icon: "🌮", folder: "Street Food" },
-      { id: 'vegetarian', name: { en: "Vegetarian Dishes", es: "Platos Vegetarianos", de: "Vegetarische Gerichte", nl: "Vegetarische Gerechten" }, icon: "🥬", folder: "Vegetarian Dishes" }
+      { id: 'vegetarian', name: { en: "Vegetarian Dishes", es: "Platos Vegetarianos", de: "Vegetarische Gerichte", nl: "Vegetarische Gerechten" }, icon: "🥬", folder: "Vegetarian Dishes" },
+      { id: 'breakfast-foods', name: { en: "Breakfast Foods", es: "Desayunos", de: "Frühstücksgerichte", nl: "Ontbijtgerechten" }, icon: "🍳", folder: "Breakfast Foods" },
+      { id: 'cheeses', name: { en: "Cheeses", es: "Quesos", de: "Käse", nl: "Kazen" }, icon: "🧀", folder: "Cheeses" },
+      { id: 'cooking-methods', name: { en: "Cooking Methods", es: "Métodos de Cocción", de: "Kochmethoden", nl: "Kookmethoden" }, icon: "👨‍🍳", folder: "Cooking Methods" },
+      { id: 'fusion-cuisine', name: { en: "Fusion Cuisine", es: "Cocina de Fusión", de: "Fusionsküche", nl: "Fusion Keuken" }, icon: "🌏", folder: "Fusion Cuisine" }
     ]
   },
   'f1': {
@@ -209,7 +219,17 @@ window.mainTopics = {
       { id: 'pound', name: { en: "Pound", es: "Libra", de: "Pfund", nl: "Pond" }, icon: "💷", folder: "Pound" },
       { id: 'rare-currencies', name: { en: "Rare Currencies", es: "Monedas Raras", de: "Seltene Währungen", nl: "Zeldzame Valuta" }, icon: "💎", folder: "Rare Currencies" },
       { id: 'yen', name: { en: "Yen", es: "Yen", de: "Yen", nl: "Yen" }, icon: "💴", folder: "Yen" },
-      { id: 'yuan', name: { en: "Yuan", es: "Yuan", de: "Yuan", nl: "Yuan" }, icon: "💴", folder: "Yuan" }
+      { id: 'yuan', name: { en: "Yuan", es: "Yuan", de: "Yuan", nl: "Yuan" }, icon: "💴", folder: "Yuan" },
+      { id: 'african-currencies', name: { en: "African Currencies", es: "Monedas Africanas", de: "Afrikanische Währungen", nl: "Afrikaanse Valuta" }, icon: "🌍", folder: "African Currencies" },
+      { id: 'american-currencies', name: { en: "American Currencies", es: "Monedas Americanas", de: "Amerikanische Währungen", nl: "Amerikaanse Valuta" }, icon: "🌎", folder: "American Currencies" },
+      { id: 'asian-currencies', name: { en: "Asian Currencies", es: "Monedas Asiáticas", de: "Asiatische Währungen", nl: "Aziatische Valuta" }, icon: "🌏", folder: "Asian Currencies" },
+      { id: 'currency-history', name: { en: "Currency History", es: "Historia de las Monedas", de: "Währungsgeschichte", nl: "Valutageschiedenis" }, icon: "📚", folder: "Currency History" },
+      { id: 'digital-payments', name: { en: "Digital Payments", es: "Pagos Digitales", de: "Digitale Zahlungen", nl: "Digitale Betalingen" }, icon: "📱", folder: "Digital Payments" },
+      { id: 'european-currencies', name: { en: "European Currencies", es: "Monedas Europeas", de: "Europäische Währungen", nl: "Europese Valuta" }, icon: "🇪🇺", folder: "European Currencies" },
+      { id: 'exchange-rates', name: { en: "Exchange Rates", es: "Tipos de Cambio", de: "Wechselkurse", nl: "Wisselkoersen" }, icon: "📈", folder: "Exchange Rates" },
+      { id: 'historical-currencies', name: { en: "Historical Currencies", es: "Monedas Históricas Antiguas", de: "Historische Währungen", nl: "Historische Valuta" }, icon: "🏛️", folder: "Historical Currencies" },
+      { id: 'reserve-currencies', name: { en: "Reserve Currencies", es: "Monedas de Reserva", de: "Reservewährungen", nl: "Reservevaluta" }, icon: "🏦", folder: "Reserve Currencies" },
+      { id: 'world-currencies', name: { en: "World Currencies", es: "Monedas del Mundo", de: "Weltwährungen", nl: "Wereldvaluta" }, icon: "🌐", folder: "World Currencies" }
     ]
   },
   'desserts': {
@@ -228,7 +248,11 @@ window.mainTopics = {
       { id: 'ice-cream', name: { en: "Ice Cream", es: "Helado", de: "Eiscreme", nl: "IJs" }, icon: "🍦", folder: "Ice Cream Desserts" },
       { id: 'international-desserts', name: { en: "International Desserts", es: "Postres Internacionales", de: "Internationale Desserts", nl: "Internationale Desserts" }, icon: "🌍", folder: "International Desserts" },
       { id: 'pastries', name: { en: "Pastries", es: "Pastelería", de: "Gebäck", nl: "Gebak" }, icon: "🥐", folder: "Pastries" },
-      { id: 'puddings', name: { en: "Puddings", es: "Pudines", de: "Puddings", nl: "Puddings" }, icon: "🍮", folder: "Puddings" }
+      { id: 'puddings', name: { en: "Puddings", es: "Pudines", de: "Puddings", nl: "Puddings" }, icon: "🍮", folder: "Puddings" },
+      { id: 'pancakes', name: { en: "Pancakes", es: "Panqueques", de: "Pfannkuchen", nl: "Pannenkoeken" }, icon: "🥞", folder: "Pancakes" },
+      { id: 'pies', name: { en: "Pies", es: "Tartas", de: "Kuchen", nl: "Taarten" }, icon: "🥧", folder: "Pies" },
+      { id: 'regional-desserts', name: { en: "Regional Desserts", es: "Postres Regionales", de: "Regionale Desserts", nl: "Regionale Desserts" }, icon: "🗺️", folder: "Regional Desserts" },
+      { id: 'sugar-confections', name: { en: "Sugar Confections", es: "Confitería de Azúcar", de: "Zuckerkonfekte", nl: "Suikerwaren" }, icon: "🍬", folder: "Sugar Confections" }
     ]
   },
   'dinosaurs': {
@@ -247,7 +271,11 @@ window.mainTopics = {
       { id: 'pterosaurs', name: { en: "Pterosaurs", es: "Pterosaurios", de: "Flugsaurier", nl: "Pterosauriërs" }, icon: "🦅", folder: "Pterosaurs" },
       { id: 'sauropods', name: { en: "Sauropods", es: "Saurópodos", de: "Sauropoden", nl: "Sauropoden" }, icon: "🦕", folder: "Sauropods" },
       { id: 'trex-family', name: { en: "T-Rex Family", es: "Familia T-Rex", de: "T-Rex-Familie", nl: "T-Rex Familie" }, icon: "🦖", folder: "T-Rex Family" },
-      { id: 'velociraptors', name: { en: "Velociraptors", es: "Velociraptores", de: "Velociraptoren", nl: "Velociraptors" }, icon: "🦖", folder: "Velociraptors" }
+      { id: 'velociraptors', name: { en: "Velociraptors", es: "Velociraptores", de: "Velociraptoren", nl: "Velociraptors" }, icon: "🦖", folder: "Velociraptors" },
+      { id: 'ankylosaurs', name: { en: "Ankylosaurs", es: "Anquilosaurios", de: "Ankylosaurier", nl: "Ankylosaurussen" }, icon: "🛡️", folder: "Ankylosaurs" },
+      { id: 'hadrosaurs', name: { en: "Hadrosaurs", es: "Hadrosaurios", de: "Hadrosaurier", nl: "Hadrosaurussen" }, icon: "🦕", folder: "Hadrosaurs" },
+      { id: 'stegosaurs', name: { en: "Stegosaurs", es: "Estegosaurios", de: "Stegosaurier", nl: "Stegosaurussen" }, icon: "🦖", folder: "Stegosaurs" },
+      { id: 'theropods', name: { en: "Theropods", es: "Terópodos", de: "Theropoden", nl: "Theropoden" }, icon: "🦖", folder: "Theropods" }
     ]
   },
   'drinks': {

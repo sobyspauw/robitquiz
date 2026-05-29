@@ -423,6 +423,90 @@ const translations = {
     es: "Aceptar tiempo de espera ({time})",
     de: "Wartezeit akzeptieren ({time})",
     nl: "Accepteer Cooldown ({time})"
+  },
+  subcatCompleted: {
+    en: "✅ Completed!",
+    es: "✅ ¡Completado!",
+    de: "✅ Abgeschlossen!",
+    nl: "✅ Voltooid!"
+  },
+  levelPrefix: {
+    en: "Level",
+    es: "Nivel",
+    de: "Level",
+    nl: "Level"
+  },
+  levelDescription: {
+    en: "Get 10 questions correct",
+    es: "Responde 10 preguntas correctamente",
+    de: "10 Fragen richtig beantworten",
+    nl: "Beantwoord 10 vragen goed"
+  },
+  backToSubjectScreen: {
+    en: "Back to Subject Screen",
+    es: "Volver a temas",
+    de: "Zurück zur Themenauswahl",
+    nl: "Terug naar onderwerpen"
+  },
+  nextSubcatPrefix: {
+    en: "Next:",
+    es: "Siguiente:",
+    de: "Weiter:",
+    nl: "Volgende:"
+  },
+  challengeQuestionProgress: {
+    en: "Question {n}/5",
+    es: "Pregunta {n}/5",
+    de: "Frage {n}/5",
+    nl: "Vraag {n}/5"
+  },
+  challengeMistakesProgress: {
+    en: "Mistakes: {n}/1",
+    es: "Errores: {n}/1",
+    de: "Fehler: {n}/1",
+    nl: "Fouten: {n}/1"
+  },
+  powerUpTitle: {
+    en: "{name} Power-Up",
+    es: "Power-Up {name}",
+    de: "{name} Power-Up",
+    nl: "{name} Power-Up"
+  },
+  powerUpOutOf: {
+    en: "You're out of {name} power-ups! Get more to continue.",
+    es: "¡Te quedaste sin power-ups de {name}! Consigue más para continuar.",
+    de: "Du hast keine {name} Power-Ups mehr! Hol dir mehr, um weiterzumachen.",
+    nl: "Je hebt geen {name} power-ups meer! Koop er meer om door te gaan."
+  },
+  diffVeryEasy: {
+    en: "Very Easy",
+    es: "Muy Fácil",
+    de: "Sehr Einfach",
+    nl: "Heel Makkelijk"
+  },
+  diffEasy: {
+    en: "Easy",
+    es: "Fácil",
+    de: "Einfach",
+    nl: "Makkelijk"
+  },
+  diffMedium: {
+    en: "Medium",
+    es: "Medio",
+    de: "Mittel",
+    nl: "Gemiddeld"
+  },
+  diffHard: {
+    en: "Hard",
+    es: "Difícil",
+    de: "Schwer",
+    nl: "Moeilijk"
+  },
+  diffVeryHard: {
+    en: "Very Hard",
+    es: "Muy Difícil",
+    de: "Sehr Schwer",
+    nl: "Heel Moeilijk"
   }
 };
 
@@ -782,6 +866,14 @@ function t(key) {
   }
   return translations[key][lang];
 }
+
+function getDifficultyLabel(level) {
+  if (level <= 2) return t('diffVeryEasy');
+  if (level <= 4) return t('diffEasy');
+  if (level <= 6) return t('diffMedium');
+  if (level <= 8) return t('diffHard');
+  return t('diffVeryHard');
+}
 function applyTranslations() {
   console.log('Applying translations, current lang:', lang);
   
@@ -828,7 +920,7 @@ function applyTranslations() {
   // Skip button - keep the HTML format with count
   const skipBtn = document.getElementById('skip-btn');
   if (skipBtn && !skipBtn.querySelector('#skip-count')) {
-    skipBtn.innerHTML = `Skip (<span id="skip-count">${skipCount}</span>)`;
+    skipBtn.innerHTML = `${t('skipPowerups')} (<span id="skip-count">${skipCount}</span>)`;
   }
   
   // Daily challenge button
@@ -1644,8 +1736,9 @@ function showLockedModal(timeLeft, mainTopicId, subcategoryId, level) {
       clearInterval(lockedModalTimerInterval);
       lockedModalTimerInterval = null;
       modal.classList.add('hidden');
-      // Refresh the subcategories screen
-      if (window.currentMainTopic) {
+      // Only navigate back to subcategories if still on the levels screen
+      // (prevents force-navigating away from quiz screen mid-game)
+      if (window.currentMainTopic && window.currentScreen === 'levels-screen') {
         showSubcategories(window.currentMainTopic);
       }
     } else {
@@ -2469,11 +2562,11 @@ function showSubcategories(mainTopicId) {
     leftPart.appendChild(name);
 
     const levelIndicator = document.createElement('div');
-    levelIndicator.className = 'text-sm opacity-90';
+    levelIndicator.className = 'text-sm opacity-90 text-right';
     if (isFullyCompleted) {
-      levelIndicator.innerText = '✅ Completed!';
+      levelIndicator.innerText = t('subcatCompleted');
     } else {
-      levelIndicator.innerText = `Level ${currentLevel}`;
+      levelIndicator.innerText = t('levelPrefix') + ' ' + currentLevel + ' • ' + getDifficultyLabel(currentLevel);
     }
 
     topSection.appendChild(leftPart);
@@ -2570,43 +2663,34 @@ function startSubcategoryQuiz(mainTopicId, subcategoryId, level) {
     return;
   }
 
-  // Dynamically load the level file
+  // Dynamically load the level file using fetch (supports module.exports format)
   const scriptPath = `src/questions/data/subjects/${topic.folder}/${subcat.folder}/level${level}.js`;
   console.log('Loading level file:', scriptPath);
 
-  // Create a script tag to load the level
-  const script = document.createElement('script');
-  script.src = scriptPath;
-  script.onload = () => {
-    console.log('Level file loaded successfully');
+  fetch(scriptPath)
+    .then(response => {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.text();
+    })
+    .then(code => {
+      // Evaluate with a module/exports shim so module.exports = {...} works in browser
+      const mod = { exports: {} };
+      const fn = new Function('module', 'exports', code);
+      fn(mod, mod.exports);
+      const levelModule = mod.exports;
 
-    // The level file should export a module with questions
-    // Try to access it via window or require
-    const levelModule = window[`level${level}`];
-
-    if (levelModule && levelModule.questions) {
-      console.log(`Found ${levelModule.questions.length} questions`);
-
-      // Store current context for after quiz completion
-      window.currentQuizContext = {
-        mainTopicId,
-        subcategoryId,
-        level
-      };
-
-      // Start the quiz with these questions
-      startQuizWithQuestions(levelModule.questions, subcat.name[lang]);
-    } else {
-      alert(`Level file loaded but no questions found. Please check the file format.`);
-    }
-  };
-
-  script.onerror = () => {
-    console.error('Failed to load level file:', scriptPath);
-    alert(`Failed to load level file:\n${scriptPath}\n\nPlease make sure the file exists.`);
-  };
-
-  document.head.appendChild(script);
+      if (levelModule && levelModule.questions && levelModule.questions.length > 0) {
+        console.log(`Found ${levelModule.questions.length} questions`);
+        window.currentQuizContext = { mainTopicId, subcategoryId, level };
+        startQuizWithQuestions(levelModule.questions, subcat.name[lang]);
+      } else {
+        alert('Level file loaded but no questions found. Please check the file format.');
+      }
+    })
+    .catch(err => {
+      console.error('Failed to load level file:', scriptPath, err);
+      alert('Failed to load level:\n' + scriptPath);
+    });
 }
 
 // Helper function to start quiz with loaded questions
@@ -2740,7 +2824,7 @@ function openLevels(groupIdx) {
     // Level description
     const description = document.createElement('p');
     description.className = 'level-description text-gray-200 text-sm mb-3';
-    description.innerText = 'Get 10 questions correct';
+    description.innerText = t('levelDescription');
     
     // Progress bar (placeholder for now)
     const progressContainer = document.createElement('div');
@@ -3020,7 +3104,7 @@ function showCompletePopup(correctCount, starsEarned, isLevel10 = false) {
     nextLevelBtn.style.display = 'none';
 
     // Change back button text and add override handler
-    backBtn.innerText = 'Back to Subject Screen';
+    backBtn.innerText = t('backToSubjectScreen');
     backBtn.onclick = () => {
       hideCompletePopup();
       showSubcategories(mainTopicId);
@@ -3031,7 +3115,7 @@ function showCompletePopup(correctCount, starsEarned, isLevel10 = false) {
       const nextSubcatBtn = document.createElement('button');
       nextSubcatBtn.id = 'complete-next-subject';
       nextSubcatBtn.className = 'flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold';
-      nextSubcatBtn.innerText = `Next: ${nextSubcat.name[window.lang || 'en']}`;
+      nextSubcatBtn.innerText = t('nextSubcatPrefix') + ' ' + nextSubcat.name[window.lang || 'en'];
       nextSubcatBtn.onclick = () => {
         hideCompletePopup();
         startSubcategoryQuiz(mainTopicId, nextSubcat.id, 1);
@@ -3046,7 +3130,7 @@ function showCompletePopup(correctCount, starsEarned, isLevel10 = false) {
   } else {
     // Normal completion - restore default state
     nextLevelBtn.style.display = '';
-    backBtn.innerText = 'Back';
+    backBtn.innerText = t('back');
     backBtn.onclick = null; // Remove override handler
   }
 
@@ -3199,8 +3283,8 @@ function renderChallengeQuestion() {
   });
 
   // Update progress
-  document.getElementById('challenge-progress').innerText = `Question ${challengeIndex + 1}/5`;
-  document.getElementById('challenge-wrong').innerText = `Mistakes: ${challengeWrong}/1`;
+  document.getElementById('challenge-progress').innerText = t('challengeQuestionProgress').replace('{n}', challengeIndex + 1);
+  document.getElementById('challenge-wrong').innerText = t('challengeMistakesProgress').replace('{n}', challengeWrong);
 
   startChallengeTimer();
 }
@@ -3870,11 +3954,11 @@ function showPowerUpPurchaseModal(type) {
   const adBtn = document.getElementById('powerup-modal-ad');
   const backBtn = document.getElementById('powerup-modal-back');
   
-  const powerUpName = type === 'fifty-fifty' ? '50/50' : (type === 'skip' ? 'Skip' : 'Time Bonus');
+  const powerUpName = type === 'fifty-fifty' ? t('fiftyFiftyPowerups') : (type === 'skip' ? t('skipPowerups') : t('timeBonusPowerups'));
   const cost = type === 'fifty-fifty' ? 10 : (type === 'skip' ? 8 : 12);
-  
-  if (titleEl) titleEl.innerText = `${powerUpName} Power-Up`;
-  if (textEl) textEl.innerText = `You're out of ${powerUpName} power-ups! Get more to continue.`;
+
+  if (titleEl) titleEl.innerText = t('powerUpTitle').replace('{name}', powerUpName);
+  if (textEl) textEl.innerText = t('powerUpOutOf').replace('{name}', powerUpName);
   if (buyBtn) {
     buyBtn.innerHTML = `💎 ${cost}`;
     buyBtn.onclick = () => purchasePowerUpFromModal(type, cost);

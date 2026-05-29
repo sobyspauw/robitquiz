@@ -146,20 +146,18 @@
     const monthName = monthNames[dateInfo.month - 1];
 
     // Get today's challenges from the monthly challenges
+    // Monthly data format: { name: {...}, day1: [...], day2: [...], ... }
     if (window.monthlyChallenges && window.monthlyChallenges[monthName]) {
-      const monthChallenges = window.monthlyChallenges[monthName];
+      const monthData = window.monthlyChallenges[monthName];
+      const dayKey = 'day' + dateInfo.day;
+      const dayQuestions = monthData[dayKey];
 
-      // Find challenge for today's date
-      const todayChallenge = monthChallenges.find(challenge =>
-        challenge.day === dateInfo.day
-      );
-
-      if (todayChallenge) {
-        console.log(`Found daily challenge for ${monthName} ${dateInfo.day}`);
+      if (dayQuestions && dayQuestions.length > 0) {
+        console.log(`Found daily challenge for ${monthName} ${dateInfo.day} (${dayQuestions.length} questions)`);
         return {
           theme: 'daily_challenge',
-          name: todayChallenge.name,
-          questions: todayChallenge.questions
+          name: monthData.name || { en: 'Daily Challenge', nl: 'Dagelijkse Uitdaging', de: 'Tägliche Herausforderung', es: 'Desafío Diario' },
+          questions: dayQuestions
         };
       }
     }
