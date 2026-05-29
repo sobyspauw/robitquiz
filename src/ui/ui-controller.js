@@ -3254,6 +3254,12 @@ async function startDailyChallenge() {
 }
 
 function renderChallengeQuestion() {
+  // Guard: if challenge screen elements are gone, stop all timers and bail out
+  if (!document.getElementById('challenge-question')) {
+    clearTimeout(challengeTimer);
+    clearInterval(challengeTimerInterval);
+    return;
+  }
   const q = challengeQuestions[challengeIndex];
   document.getElementById('challenge-question').innerText = q.question[lang];
 
@@ -3383,6 +3389,8 @@ function handleChallengeAnswer(answer, btn) {
 }
 
 function completeDailyChallenge() {
+  clearTimeout(challengeTimer);
+  clearInterval(challengeTimerInterval);
   const today = new Date().toDateString();
   localStorage.setItem('qb_daily_challenge', JSON.stringify({
     date: today,
@@ -3404,6 +3412,8 @@ function completeDailyChallenge() {
 }
 
 function failDailyChallenge() {
+  clearTimeout(challengeTimer);
+  clearInterval(challengeTimerInterval);
   // Play failure sound
   document.getElementById('snd-wrong2').play();
 
