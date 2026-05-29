@@ -2664,7 +2664,7 @@ function startSubcategoryQuiz(mainTopicId, subcategoryId, level) {
   }
 
   // Dynamically load the level file using fetch (supports module.exports format)
-  const scriptPath = `src/questions/data/subjects/${topic.folder}/${subcat.folder}/level${level}.js`;
+  const scriptPath = `src/questions/data/subjects/${encodeURIComponent(topic.folder)}/${encodeURIComponent(subcat.folder)}/level${level}.js`;
   console.log('Loading level file:', scriptPath);
 
   fetch(scriptPath)
@@ -5032,15 +5032,7 @@ function initializeApp() {
   // Ensure lang is available globally
   window.lang = lang;
 
-  // Preload all questions asynchronously
-  if (window.QuestionPool && typeof window.QuestionPool.loadAllQuestionsAsync === 'function') {
-    console.log('Preloading all questions for challenge modes...');
-    window.QuestionPool.loadAllQuestionsAsync().then(() => {
-      console.log('All questions preloaded successfully!');
-    }).catch(error => {
-      console.error('Failed to preload questions:', error);
-    });
-  }
+  // Questions are loaded on-demand when game modes are started (no preload at startup)
 
   // Load audio settings
   loadAudioSettings();

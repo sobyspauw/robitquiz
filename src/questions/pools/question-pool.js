@@ -10,7 +10,52 @@
   let loadingPromise = null;
 
   /**
-   * Load all question files dynamically
+   * Fetch and evaluate a single question file (CommonJS module.exports format)
+   */
+  function fetchQuestionFile(scriptInfo) {
+    const encodedPath = 'src/questions/data/subjects/' +
+      encodeURIComponent(scriptInfo.topic.folder) + '/' +
+      encodeURIComponent(scriptInfo.subcategory.folder) + '/level' + scriptInfo.level + '.js';
+
+    return fetch(encodedPath)
+      .then(function(response) {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.text();
+      })
+      .then(function(code) {
+        const mod = { exports: {} };
+        const fn = new Function('module', 'exports', code);
+        fn(mod, mod.exports);
+        return mod.exports;
+      })
+      .catch(function() {
+        return null; // Silently skip files that fail to load
+      });
+  }
+
+  /**
+   * Load files in batches to avoid overwhelming the browser
+   */
+  function loadInBatches(items, batchSize, processFn) {
+    const results = [];
+    let index = 0;
+
+    function nextBatch() {
+      if (index >= items.length) return Promise.resolve(results);
+      const batch = items.slice(index, index + batchSize);
+      index += batchSize;
+      return Promise.all(batch.map(processFn))
+        .then(function(batchResults) {
+          batchResults.forEach(function(r) { results.push(r); });
+          return nextBatch();
+        });
+    }
+
+    return nextBatch();
+  }
+
+  /**
+   * Load all question files dynamically using fetch (supports module.exports format)
    * @returns {Promise} Promise that resolves when all questions are loaded
    */
   function loadAllQuestions() {
@@ -22,7 +67,7 @@
       return loadingPromise;
     }
 
-    loadingPromise = new Promise((resolve, reject) => {
+    loadingPromise = new Promise(function(resolve, reject) {
       console.log('QuestionPool: Starting to load all questions...');
 
       if (!window.mainTopics || typeof window.mainTopics !== 'object') {
@@ -31,96 +76,57 @@
         return;
       }
 
-      const allQuestions = [];
-      const scriptsToLoad = [];
+      const filesToLoad = [];
 
-      // Build list of all script paths to load
-      for (const [topicKey, topic] of Object.entries(window.mainTopics)) {
+      // Build list of all files to fetch
+      for (const topicKey in window.mainTopics) {
+        const topic = window.mainTopics[topicKey];
         if (!topic.subcategories || !Array.isArray(topic.subcategories)) continue;
 
         for (const subcategory of topic.subcategories) {
           for (let level = 1; level <= 10; level++) {
-            const scriptPath = `src/questions/data/subjects/${topic.folder}/${subcategory.folder}/level${level}.js`;
-            scriptsToLoad.push({
-              path: scriptPath,
-              topicKey,
-              topic,
-              subcategory,
-              level
-            });
+            filesToLoad.push({ topic, subcategory, level, topicKey });
           }
         }
       }
 
-      console.log(`QuestionPool: Found ${scriptsToLoad.length} level files to load`);
+      console.log('QuestionPool: Found ' + filesToLoad.length + ' level files to load');
 
-      let loadedCount = 0;
-      let errorCount = 0;
+      const allQuestions = [];
 
-      // Load all scripts
-      scriptsToLoad.forEach(scriptInfo => {
-        const script = document.createElement('script');
-        script.src = scriptInfo.path;
-
-        script.onload = () => {
-          loadedCount++;
-
-          // Try to get the level data
-          const levelData = window[`level${scriptInfo.level}`];
-
-          if (levelData && levelData.questions && Array.isArray(levelData.questions)) {
-            // Add each question from this level
-            for (const question of levelData.questions) {
-              if (question.question && question.options && typeof question.correct === 'number') {
-                allQuestions.push({
-                  question: question.question,
-                  options: question.options,
-                  correct: question.correct,
-                  correctIndex: question.correct, // Alias for consistency
-                  explanation: question.explanation,
-                  metadata: {
-                    topic: scriptInfo.topic.name,
-                    topicIcon: scriptInfo.topic.icon,
-                    subcategory: scriptInfo.subcategory.name,
-                    subcategoryIcon: scriptInfo.subcategory.icon,
-                    level: scriptInfo.level,
-                    difficulty: window.QuestionPool.calculateDifficulty(scriptInfo.level)
-                  }
-                });
-              }
+      // Load in batches of 20 to avoid overwhelming the browser
+      loadInBatches(filesToLoad, 20, function(scriptInfo) {
+        return fetchQuestionFile(scriptInfo).then(function(levelModule) {
+          if (!levelModule || !levelModule.questions) return;
+          for (const question of levelModule.questions) {
+            if (question.question && question.options && typeof question.correct === 'number') {
+              allQuestions.push({
+                question: question.question,
+                options: question.options,
+                correct: question.correct,
+                correctIndex: question.correct,
+                explanation: question.explanation,
+                metadata: {
+                  topic: scriptInfo.topic.name,
+                  topicIcon: scriptInfo.topic.icon,
+                  subcategory: scriptInfo.subcategory.name,
+                  subcategoryIcon: scriptInfo.subcategory.icon,
+                  level: scriptInfo.level,
+                  difficulty: window.QuestionPool.calculateDifficulty(scriptInfo.level)
+                }
+              });
             }
           }
-
-          // Check if all scripts are loaded
-          if (loadedCount + errorCount >= scriptsToLoad.length) {
-            questionCache = allQuestions;
-            questionsLoaded = true;
-            console.log(`QuestionPool: Loaded ${allQuestions.length} questions from ${loadedCount} files (${errorCount} errors)`);
-            resolve(allQuestions);
-          }
-        };
-
-        script.onerror = () => {
-          errorCount++;
-          console.warn(`QuestionPool: Failed to load ${scriptInfo.path}`);
-
-          // Check if all scripts are done (including errors)
-          if (loadedCount + errorCount >= scriptsToLoad.length) {
-            questionCache = allQuestions;
-            questionsLoaded = true;
-            console.log(`QuestionPool: Loaded ${allQuestions.length} questions from ${loadedCount} files (${errorCount} errors)`);
-            resolve(allQuestions);
-          }
-        };
-
-        document.head.appendChild(script);
+        });
+      }).then(function() {
+        questionCache = allQuestions;
+        questionsLoaded = true;
+        console.log('QuestionPool: Loaded ' + allQuestions.length + ' questions from ' + filesToLoad.length + ' files');
+        resolve(allQuestions);
+      }).catch(function(err) {
+        console.error('QuestionPool: Loading failed', err);
+        reject(err);
       });
-
-      // If no scripts to load, resolve immediately
-      if (scriptsToLoad.length === 0) {
-        console.warn('QuestionPool: No question files found to load');
-        resolve([]);
-      }
     });
 
     return loadingPromise;
@@ -132,14 +138,12 @@
      * Get all questions from all topics and subcategories
      * @returns {Array} Array of question objects with metadata
      */
-    getAllQuestions() {
-      // Return cached questions if available
+    getAllQuestions: function() {
       if (questionCache && questionCache.length > 0) {
-        console.log(`QuestionPool: Returning ${questionCache.length} cached questions`);
+        console.log('QuestionPool: Returning ' + questionCache.length + ' cached questions');
         return questionCache;
       }
-
-      console.warn('QuestionPool: Questions not loaded yet. Call loadAllQuestions() first.');
+      console.warn('QuestionPool: Questions not loaded yet. Call loadAllQuestionsAsync() first.');
       return [];
     },
 
@@ -147,135 +151,84 @@
      * Load all questions asynchronously
      * @returns {Promise<Array>} Promise that resolves with all questions
      */
-    async loadAllQuestionsAsync() {
+    loadAllQuestionsAsync: async function() {
       return await loadAllQuestions();
     },
 
     /**
      * Calculate difficulty based on level number
-     * @param {number} level - Level number (1-10)
-     * @returns {string} Difficulty level: 'easy', 'medium', 'hard'
      */
-    calculateDifficulty(level) {
+    calculateDifficulty: function(level) {
       if (level >= 1 && level <= 3) return 'easy';
       if (level >= 4 && level <= 7) return 'medium';
       if (level >= 8 && level <= 10) return 'hard';
-      return 'medium'; // default
+      return 'medium';
     },
 
     /**
      * Get random questions from the pool
-     * @param {number} count - Number of questions to get
-     * @param {Object} options - Filter options
-     * @param {string} options.difficulty - Filter by difficulty: 'easy', 'medium', 'hard'
-     * @param {string} options.topic - Filter by topic name
-     * @param {string} options.subcategory - Filter by subcategory name
-     * @returns {Array} Array of random questions
      */
-    getRandomQuestions(count, options = {}) {
+    getRandomQuestions: function(count, options) {
+      options = options || {};
       let questions = this.getAllQuestions();
 
-      // Apply filters
       if (options.difficulty) {
-        questions = questions.filter(q => q.metadata.difficulty === options.difficulty);
+        questions = questions.filter(function(q) { return q.metadata.difficulty === options.difficulty; });
       }
-
       if (options.topic) {
-        questions = questions.filter(q =>
-          q.metadata.topic.en === options.topic ||
-          q.metadata.topic.nl === options.topic
-        );
+        questions = questions.filter(function(q) {
+          return q.metadata.topic.en === options.topic || q.metadata.topic.nl === options.topic;
+        });
       }
-
       if (options.subcategory) {
-        questions = questions.filter(q =>
-          q.metadata.subcategory.en === options.subcategory ||
-          q.metadata.subcategory.nl === options.subcategory
-        );
+        questions = questions.filter(function(q) {
+          return q.metadata.subcategory.en === options.subcategory || q.metadata.subcategory.nl === options.subcategory;
+        });
       }
 
-      // Shuffle questions
-      const shuffled = this.shuffleArray([...questions]);
-
-      // Return requested count
+      const shuffled = this.shuffleArray(questions.slice());
       return shuffled.slice(0, Math.min(count, shuffled.length));
     },
 
-    /**
-     * Get questions by difficulty level
-     * @param {string} difficulty - 'easy', 'medium', or 'hard'
-     * @param {number} count - Number of questions to get
-     * @returns {Array} Array of questions at specified difficulty
-     */
-    getQuestionsByDifficulty(difficulty, count) {
-      return this.getRandomQuestions(count, { difficulty });
+    getQuestionsByDifficulty: function(difficulty, count) {
+      return this.getRandomQuestions(count, { difficulty: difficulty });
     },
 
-    /**
-     * Get mixed difficulty questions for progressive game modes
-     * @param {number} easyCount - Number of easy questions
-     * @param {number} mediumCount - Number of medium questions
-     * @param {number} hardCount - Number of hard questions
-     * @returns {Array} Array of mixed difficulty questions
-     */
-    getMixedDifficultyQuestions(easyCount, mediumCount, hardCount) {
+    getMixedDifficultyQuestions: function(easyCount, mediumCount, hardCount) {
       const easy = this.getQuestionsByDifficulty('easy', easyCount);
       const medium = this.getQuestionsByDifficulty('medium', mediumCount);
       const hard = this.getQuestionsByDifficulty('hard', hardCount);
-
-      // Combine and shuffle all questions
-      return this.shuffleArray([...easy, ...medium, ...hard]);
+      return this.shuffleArray(easy.concat(medium).concat(hard));
     },
 
-    /**
-     * Shuffle array using Fisher-Yates algorithm
-     * @param {Array} array - Array to shuffle
-     * @returns {Array} Shuffled array
-     */
-    shuffleArray(array) {
-      const shuffled = [...array];
+    shuffleArray: function(array) {
+      const shuffled = array.slice();
       for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        const tmp = shuffled[i]; shuffled[i] = shuffled[j]; shuffled[j] = tmp;
       }
       return shuffled;
     },
 
-    /**
-     * Get question statistics
-     * @returns {Object} Statistics about available questions
-     */
-    getStatistics() {
+    getStatistics: function() {
       const questions = this.getAllQuestions();
-
       const stats = {
         total: questions.length,
         byDifficulty: {
-          easy: questions.filter(q => q.metadata.difficulty === 'easy').length,
-          medium: questions.filter(q => q.metadata.difficulty === 'medium').length,
-          hard: questions.filter(q => q.metadata.difficulty === 'hard').length
+          easy: questions.filter(function(q) { return q.metadata.difficulty === 'easy'; }).length,
+          medium: questions.filter(function(q) { return q.metadata.difficulty === 'medium'; }).length,
+          hard: questions.filter(function(q) { return q.metadata.difficulty === 'hard'; }).length
         },
         byTopic: {}
       };
-
-      // Count by topic
       for (const question of questions) {
         const topicName = question.metadata.topic.en;
-        if (!stats.byTopic[topicName]) {
-          stats.byTopic[topicName] = 0;
-        }
-        stats.byTopic[topicName]++;
+        stats.byTopic[topicName] = (stats.byTopic[topicName] || 0) + 1;
       }
-
       return stats;
     },
 
-    /**
-     * Validate question format
-     * @param {Object} question - Question object to validate
-     * @returns {boolean} True if question is valid
-     */
-    isValidQuestion(question) {
+    isValidQuestion: function(question) {
       return (
         question &&
         question.question &&
@@ -289,15 +242,6 @@
     }
   };
 
-  // Log initialization
-  console.log('QuestionPool service initialized');
-
-  // Log statistics when loaded (after a short delay to ensure mainTopics is loaded)
-  setTimeout(() => {
-    if (window.mainTopics) {
-      const stats = window.QuestionPool.getStatistics();
-      console.log('QuestionPool Statistics:', stats);
-    }
-  }, 1000);
+  console.log('QuestionPool service initialized (lazy loading, fetch-based)');
 
 })();
